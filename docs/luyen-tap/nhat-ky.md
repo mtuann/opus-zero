@@ -1,6 +1,6 @@
 # Nhật ký luyện tập
 
-Mỗi ô vuông là một ngày; màu càng đậm là ngày luyện tập càng nhiều. Các mục "Đọc nốt" và "Luyện tai" tự được đánh dấu khi bạn đạt 10 câu đúng trong công cụ tương ứng.
+Mỗi ô vuông là một ngày; màu càng đậm là ngày luyện tập càng nhiều. Các mục tự được đánh dấu khi bạn đạt mốc trong công cụ tương ứng: 10 nốt đọc đúng, 10 quãng hoặc hợp âm nhận đúng, một quiz bài học hoặc 10 thẻ thuật ngữ.
 
 <div class="oz-journal"></div>
 

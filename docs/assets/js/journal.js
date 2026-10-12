@@ -3,13 +3,43 @@
   "use strict";
   const TASKS = [
     ["doc-not", "Đọc nốt 5 phút (tự đánh dấu khi đọc đúng 10 nốt)"],
-    ["luyen-tai", "Luyện tai 5 phút (tự đánh dấu khi nhận đúng 10 quãng)"],
-    ["nhac-ly", "Học hoặc ôn một mục nhạc lý 10 phút"],
+    ["luyen-tai", "Luyện tai 5 phút (tự đánh dấu khi nhận đúng 10 quãng hoặc hợp âm)"],
+    ["nhac-ly", "Học hoặc ôn nhạc lý 10 phút (tự đánh dấu khi làm xong một quiz hoặc ôn 10 thẻ thuật ngữ)"],
     ["nghe", "Nghe chủ động một tác phẩm và ghi vài dòng"]
   ];
 
   function fmt(d) {
     return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+  }
+
+  function todayLine(d) {
+    const parts = [];
+    [["notes", "nốt đọc đúng"], ["intervals", "quãng"], ["chords", "hợp âm"], ["keysigs", "hóa biểu"],
+     ["rhythms", "tiết tấu gõ đúng"], ["scales", "gam nhận đúng"], ["builds", "gam/hợp âm tự xây"], ["melodies", "giai điệu thị tấu"], ["cards", "thẻ thuật ngữ"],
+     ["quizzes", "quiz bài học"], ["minutes", "phút máy đếm nhịp"]].forEach(function (f) {
+      if (d[f[0]]) parts.push(d[f[0]] + " " + f[1]);
+    });
+    return parts.length ? "Hôm nay: " + parts.join(", ") + "." : "Hôm nay chưa có hoạt động nào.";
+  }
+
+  /* Tóm tắt nhỏ cho trang chủ */
+  function mountSummary(root) {
+    if (!window.OZProgress) return;
+    root.classList.add("oz-tool", "oz-summary-box");
+    function render() {
+      const data = OZProgress.load();
+      const d = OZProgress.getDay(data, OZProgress.today());
+      const s = OZProgress.streak();
+      const lessons = Object.keys(OZProgress.getStore("lessons", {})).length;
+      const cards = OZProgress.getStore("cards", {});
+      const today = OZProgress.today();
+      const due = Object.keys(cards).filter(function (k) { return cards[k].due <= today; }).length;
+      root.innerHTML = '<span class="oz-streak">' + (s ? "Chuỗi " + s + " ngày" : "Bắt đầu chuỗi ngày hôm nay") + "</span>" +
+        "<p class='oz-stats'>" + todayLine(d) + " Đã hoàn thành " + lessons + " bài nhạc lý." +
+        (due ? " Có " + due + " thẻ thuật ngữ cần ôn." : "") + "</p>";
+    }
+    if (!root.dataset.ready) { root.dataset.ready = "1"; document.addEventListener("oz:progress", render); }
+    render();
   }
 
   function mount(root) {
@@ -51,7 +81,8 @@
       /* Tự đánh dấu khi đạt mốc trong công cụ luyện tập */
       let changed = false;
       if ((d.notes || 0) >= 10 && !d.tasks["doc-not"]) { d.tasks["doc-not"] = true; changed = true; }
-      if ((d.intervals || 0) >= 10 && !d.tasks["luyen-tai"]) { d.tasks["luyen-tai"] = true; changed = true; }
+      if ((d.intervals || 0) + (d.chords || 0) + (d.scales || 0) >= 10 && !d.tasks["luyen-tai"]) { d.tasks["luyen-tai"] = true; changed = true; }
+      if (((d.quizzes || 0) >= 1 || (d.cards || 0) >= 10) && !d.tasks["nhac-ly"]) { d.tasks["nhac-ly"] = true; changed = true; }
       if (changed) OZProgress.save(data);
 
       list.querySelectorAll("input").forEach(function (c) { c.checked = !!d.tasks[c.dataset.task]; });
@@ -59,7 +90,7 @@
 
       const s = OZProgress.streak();
       streakEl.textContent = s === 0 ? "Chưa có chuỗi ngày nào. Hôm nay là ngày đầu tiên." : "Chuỗi " + s + " ngày liên tiếp";
-      todayStats.textContent = "Hôm nay: " + (d.notes || 0) + " nốt đọc đúng, " + (d.intervals || 0) + " quãng nhận đúng, " + (d.minutes || 0) + " phút dùng máy đếm nhịp.";
+      todayStats.textContent = todayLine(d);
 
       /* Bản đồ nhiệt: 16 tuần, mỗi cột là một tuần bắt đầu từ thứ Hai */
       heat.innerHTML = "";
@@ -124,6 +155,9 @@
     refresh();
   }
 
-  function init() { document.querySelectorAll(".oz-journal").forEach(mount); }
+  function init() {
+    document.querySelectorAll(".oz-journal").forEach(mount);
+    document.querySelectorAll(".oz-summary").forEach(mountSummary);
+  }
   if (window.document$) window.document$.subscribe(init); else document.addEventListener("DOMContentLoaded", init);
 })();

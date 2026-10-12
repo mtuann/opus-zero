@@ -89,3 +89,34 @@ K:C
 
 ??? success "Đáp án câu 4"
     Khóa Sol, dòng 3 là **Si (B4)**. Khóa Fa, khe 1 là **La (A2)**.
+
+!!! example "Luyện tập kèm theo"
+    [Đọc nốt](../luyen-tap/doc-not.md) khóa Sol rồi khóa Fa, và [phiếu bài tập](../luyen-tap/phieu-bai-tap.md) "Gọi tên nốt".
+
+```quiz
+? Khóa Sol đánh dấu nốt Sol ở dòng nào?
+- Dòng 1
++ Dòng 2
+- Dòng 3
+> Nét xoắn của khóa Sol ôm lấy dòng 2.
+? Các nốt trong khe của khóa Sol (từ dưới lên) là gì?
++ Fa – La – Đô – Mi
+- Mi – Sol – Si – Rê
+- La – Đô – Mi – Sol
+> Trong tiếng Anh ghép thành chữ FACE.
+? Khóa Fa đánh dấu nốt Fa ở dòng nào?
+- Dòng 2
+- Dòng 3
++ Dòng 4
+> Hai chấm của khóa Fa nằm hai bên dòng 4.
+? Đô giữa nằm ở đâu trên khuông khóa Sol?
+- Dòng 1
++ Dòng kẻ phụ ngay dưới khuông
+- Khe 1
+> Đô giữa cũng là dòng kẻ phụ ngay trên khuông khóa Fa.
+? Các nốt trên dòng của khóa Fa (từ dưới lên) là gì?
+- Mi – Sol – Si – Rê – Fa
++ Sol – Si – Rê – Fa – La
+- La – Đô – Mi – Sol – Si
+> Good Boys Do Fine Always.
+```

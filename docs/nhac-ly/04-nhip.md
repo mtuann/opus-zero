@@ -65,3 +65,29 @@ C E G c G E | D F A d3 | B, D G B G D | C3 C3 |]
 1. Mở [máy đếm nhịp](../luyen-tap/metronome.md), chọn 3 phách mỗi ô nhịp, bật "Nhấn phách đầu". Vỗ tay theo ví dụ 3/4.
 2. Nghe một bản valse bất kỳ (gợi ý: Chopin *Valse* Op. 64 số 2) và đếm "1 – 2 – 3".
 3. Nghe Beethoven Giao hưởng số 9, chương 4, tìm giai điệu *Ode to Joy* khi nó xuất hiện lần đầu ở bè cello và contrabass.
+
+!!! example "Luyện tập kèm theo"
+    [Tiết tấu](../luyen-tap/tiet-tau.md) cấp độ 2–3; vỗ tay theo [máy đếm nhịp](../luyen-tap/metronome.md) với 2, 3, 4 và 6 phách.
+
+```quiz
+? Trong số chỉ nhịp 3/4, số 3 nghĩa là gì?
++ Mỗi ô nhịp có 3 phách
+- Nốt móc ba được tính là 1 phách
+- Bản nhạc có 3 câu
+> Số dưới (4) cho biết nốt đen là 1 phách.
+? Nhịp nào thường dùng cho điệu valse?
+- 2/4
++ 3/4
+- 6/8
+> MẠNH – nhẹ – nhẹ.
+? Nhịp 6/8 thường được cảm nhận như thế nào?
+- 6 phách đều nhau
++ 2 phách lớn, mỗi phách chia ba
+- 3 phách lớn, mỗi phách chia đôi
+> Đếm 1-2-3-4-5-6, nhấn vào 1 và 4.
+? Ký hiệu C ở vị trí số chỉ nhịp nghĩa là gì?
+- 2/2
++ 4/4
+- 3/4
+> C là ký hiệu của nhịp 4/4.
+```

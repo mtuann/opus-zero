@@ -4,10 +4,13 @@
   const SOLFEGE = ["Đô", "Rê", "Mi", "Fa", "Sol", "La", "Si"];
   const LETTERS = ["C", "D", "E", "F", "G", "A", "B"];
   const SEMIS = [0, 2, 4, 5, 7, 9, 11];
+  const CLEF_NAMES = { treble: "khóa Sol", bass: "khóa Fa", alto: "khóa Đô alto", tenor: "khóa Đô tenor" };
   /* Mỗi nốt được đánh số theo bậc: giá trị = quãng tám * 7 + vị trí chữ cái (C=0 … B=6). */
   const RANGES = {
     treble: { basic: [29, 39], ledger: [26, 42] }, /* D4–G5 | A3–C6 */
-    bass:   { basic: [17, 27], ledger: [14, 30] }  /* F2–B3 | C2–E4 */
+    bass:   { basic: [17, 27], ledger: [14, 30] }, /* F2–B3 | C2–E4 */
+    alto:   { basic: [23, 33], ledger: [20, 36] }, /* E3–G4 | B2–D5 (dòng giữa = Đô giữa) */
+    tenor:  { basic: [21, 31], ledger: [18, 34] }  /* C3–E4 | G2–B4 (dòng 4 = Đô giữa) */
   };
 
   function info(v) {
@@ -33,10 +36,11 @@
     root.classList.add("oz-tool");
     root.innerHTML =
       '<div class="oz-row">' +
-      '<label>Khóa <select data-k="clef"><option value="treble">Khóa Sol</option><option value="bass">Khóa Fa</option><option value="both">Cả hai</option></select></label>' +
+      '<label>Khóa <select data-k="clef"><option value="treble">Khóa Sol</option><option value="bass">Khóa Fa</option><option value="both">Sol và Fa</option><option value="alto">Khóa Đô (alto)</option><option value="tenor">Khóa Đô (tenor)</option></select></label>' +
       '<label>Phạm vi <select data-k="range"><option value="basic">Trong khuông</option><option value="ledger">Thêm dòng kẻ phụ</option></select></label>' +
       '<label>Tên nốt <select data-k="names"><option value="sol">Đô Rê Mi</option><option value="let">C D E</option></select></label>' +
       '<label><input type="checkbox" data-k="sound" checked> Phát âm thanh</label>' +
+      '<label><input type="checkbox" data-k="adaptive" checked> Ưu tiên nốt hay sai</label>' +
       "</div>" +
       '<div class="oz-staff" aria-live="polite"></div>' +
       '<div class="oz-row oz-answers" role="group" aria-label="Chọn tên nốt"></div>' +
@@ -74,11 +78,35 @@
       }
     }
 
+    function statKey(clef, v) { return clef + ":" + v; }
+    function noteStats() { return window.OZProgress ? OZProgress.getStore("noteStats", {}) : {}; }
+    function bump(wrong) {
+      if (!window.OZProgress) return;
+      const st = noteStats();
+      const k = statKey(currentClef, current);
+      const e = st[k] || [0, 0];
+      e[0]++; if (wrong) e[1]++;
+      st[k] = e;
+      OZProgress.setStore("noteStats", st);
+    }
+    function weakest() {
+      const st = noteStats();
+      return Object.keys(st).filter(function (k) { return st[k][0] >= 3 && st[k][1] > 0; })
+        .sort(function (a, b) { return st[b][1] / st[b][0] - st[a][1] / st[a][0]; })
+        .slice(0, 3)
+        .map(function (k) {
+          const p = k.split(":"); const i = info(Number(p[1]));
+          return SOLFEGE[i.idx] + " " + i.sci + " (" + CLEF_NAMES[p[0]] + ", sai " + Math.round(100 * st[k][1] / st[k][0]) + "%)";
+        });
+    }
+
     function updateStats() {
       const day = window.OZProgress ? OZProgress.getDay(OZProgress.load(), OZProgress.today()) : { notes: 0 };
       const pct = session.total ? Math.round((session.right / session.total) * 100) : 0;
       stats.textContent = "Lượt này: đúng ngay lần đầu " + session.right + "/" + session.total +
         (session.total ? " (" + pct + "%)" : "") + ". Hôm nay đã đọc đúng " + (day.notes || 0) + " nốt.";
+      const w = weakest();
+      if (w.length) stats.textContent += " Hay sai nhất: " + w.join("; ") + ".";
     }
 
     function draw() {
@@ -93,7 +121,7 @@
       const svg = staff.querySelector("svg");
       if (svg) {
         svg.setAttribute("role", "img");
-        svg.setAttribute("aria-label", "Một nốt nhạc trên khuông " + (currentClef === "treble" ? "khóa Sol" : "khóa Fa"));
+        svg.setAttribute("aria-label", "Một nốt nhạc trên khuông " + CLEF_NAMES[currentClef]);
         svg.style.maxWidth = "420px";
         svg.style.display = "block";
         svg.style.margin = "0 auto";
@@ -104,8 +132,18 @@
       const clefSel = ctl("clef").value;
       currentClef = clefSel === "both" ? (Math.random() < 0.5 ? "treble" : "bass") : clefSel;
       const r = RANGES[currentClef][ctl("range").value];
-      let v;
-      do { v = r[0] + Math.floor(Math.random() * (r[1] - r[0] + 1)); } while (v === current && r[1] > r[0]);
+      const st = noteStats();
+      const cands = [], weights = [];
+      for (let x = r[0]; x <= r[1]; x++) {
+        if (x === current && r[1] > r[0]) continue;
+        const e = st[statKey(currentClef, x)];
+        let w = 1;
+        if (ctl("adaptive").checked) w = e ? 1 + 4 * (e[1] + 1) / (e[0] + 2) : 1.6; /* nốt chưa gặp hoặc hay sai xuất hiện nhiều hơn */
+        cands.push(x); weights.push(w);
+      }
+      let pick = Math.random() * weights.reduce(function (a, b) { return a + b; }, 0);
+      let v = cands[0];
+      for (let j = 0; j < cands.length; j++) { pick -= weights[j]; if (pick <= 0) { v = cands[j]; break; } }
       current = v;
       firstTry = true;
       locked = false;
@@ -126,7 +164,7 @@
       if (idx === i.idx) {
         locked = true;
         btn.classList.add("is-correct");
-        if (firstTry) { session.total++; session.right++; }
+        if (firstTry) { session.total++; session.right++; bump(false); }
         if (window.OZProgress) OZProgress.record("notes", 1);
         feedback.textContent = "Đúng. Đây là " + SOLFEGE[i.idx] + " (" + i.sci + ").";
         feedback.className = "oz-feedback ok";
@@ -134,7 +172,7 @@
         updateStats();
         setTimeout(next, 900);
       } else {
-        if (firstTry) { session.total++; firstTry = false; }
+        if (firstTry) { session.total++; firstTry = false; bump(true); }
         btn.classList.add("is-wrong");
         btn.disabled = true;
         feedback.textContent = "Chưa đúng. Đếm dòng và khe từ dưới lên rồi thử lại.";

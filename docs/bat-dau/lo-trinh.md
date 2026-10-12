@@ -2,7 +2,7 @@
 
 Lộ trình này dành cho người chưa biết gì về nhạc lý, mỗi ngày học khoảng 20–30 phút. Thời gian chỉ là gợi ý: đi chậm hơn hoàn toàn ổn, miễn là đều đặn.
 
-## Giai đoạn 1 · Tháng 1–2: Đọc được nốt nhạc
+## Giai đoạn 1: Tháng 1–2: Đọc được nốt nhạc
 
 Mục tiêu: nhìn một giai điệu đơn giản và đọc được tên nốt, đếm được nhịp.
 
@@ -13,34 +13,38 @@ Mục tiêu: nhìn một giai điệu đơn giản và đọc được tên nố
 - [ ] Đọc đúng 90% nốt trong khóa Sol ở [công cụ đọc nốt](../luyen-tap/doc-not.md)
 - [ ] Đọc đúng 90% nốt trong khóa Fa
 
-**Nghe:** Vivaldi *Bốn Mùa*, Mozart *Eine kleine Nachtmusik*, Bach *Prelude số 1 cung Đô trưởng* (BWV 846).
+**Nghe:** [Vivaldi *Bốn Mùa*](../nghe-nhac/vivaldi-mua-xuan.md), Mozart *Eine kleine Nachtmusik*, Bach *Prelude số 1 cung Đô trưởng* (BWV 846).
 
-## Giai đoạn 2 · Tháng 3–4: Gam, quãng và giọng
+## Giai đoạn 2: Tháng 3–4: Gam, quãng và giọng
 
 Mục tiêu: hiểu vì sao bản nhạc có dấu thăng/giáng ở đầu khuông và nghe ra được các quãng cơ bản.
 
 - [ ] [Cung, nửa cung và dấu hóa](../nhac-ly/05-dau-hoa.md)
 - [ ] [Gam trưởng](../nhac-ly/06-gam-truong.md)
-- [ ] Gam thứ (tự nhiên, hòa âm, giai điệu)
-- [ ] Hóa biểu và vòng quãng năm
-- [ ] Quãng: tên gọi, số nửa cung, quãng đúng/trưởng/thứ/tăng/giảm
+- [ ] [Gam thứ](../nhac-ly/07-gam-thu.md)
+- [ ] [Hóa biểu và vòng quãng năm](../nhac-ly/08-hoa-bieu.md)
+- [ ] [Quãng](../nhac-ly/09-quang.md)
+- [ ] Đọc đúng hóa biểu đến 4 dấu hóa ở [công cụ hóa biểu](../luyen-tap/hoa-bieu.md)
 - [ ] Nhận đúng 3 trưởng, 5 đúng, 8 đúng ở [công cụ luyện tai](../luyen-tap/quang.md)
+- [ ] Gõ đúng tiết tấu cấp độ 2 ở [công cụ tiết tấu](../luyen-tap/tiet-tau.md)
 
 **Nghe:** Beethoven [Giao hưởng số 5](../nghe-nhac/beethoven-5.md), Mozart Giao hưởng số 40, Chopin Nocturne Op. 9 số 2.
 
-## Giai đoạn 3 · Tháng 5–7: Hợp âm và hòa âm
+## Giai đoạn 3: Tháng 5–7: Hợp âm và hòa âm
 
 Mục tiêu: hiểu cấu trúc hợp âm và bắt đầu nghe ra "cảm giác kết thúc" trong nhạc.
 
-- [ ] Hợp âm ba: trưởng, thứ, tăng, giảm
-- [ ] Hợp âm bảy và thể đảo
-- [ ] Bậc hợp âm trong giọng (I, IV, V…) và hòa âm chức năng
-- [ ] Các loại kết: kết trọn, kết nửa, kết lừa
-- [ ] Thuật ngữ tốc độ (Adagio, Allegro…) và sắc thái (p, f, crescendo…)
+- [ ] [Hợp âm ba](../nhac-ly/10-hop-am-ba.md)
+- [ ] [Hợp âm bảy và thể đảo](../nhac-ly/11-hop-am-bay.md)
+- [ ] [Hòa âm chức năng](../nhac-ly/12-hoa-am-chuc-nang.md)
+- [ ] [Kết và câu nhạc](../nhac-ly/13-ket.md)
+- [ ] [Ký hiệu biểu diễn](../nhac-ly/14-ky-hieu-bieu-dien.md) và ôn [thuật ngữ](../nhac-ly/tu-dien.md) mỗi ngày
+- [ ] Phân biệt hợp âm trưởng và thứ ở [công cụ hợp âm](../luyen-tap/hop-am.md)
+- [ ] Đọc thị tấu giai điệu cấp độ 1 ở [công cụ thị tấu](../luyen-tap/thi-tau.md)
 
-**Nghe:** Pachelbel *Canon*, Bach *Air on the G String*, Dvořák Giao hưởng số 9.
+**Nghe:** Pachelbel *Canon*, [Bach *Prelude cung Đô trưởng*](../nghe-nhac/bach-prelude-c.md), Dvořák Giao hưởng số 9.
 
-## Giai đoạn 4 · Tháng 8–10: Hình thức âm nhạc
+## Giai đoạn 4: Tháng 8–10: Hình thức âm nhạc
 
 Mục tiêu: nghe một tác phẩm dài mà không bị "lạc", biết mình đang ở đoạn nào.
 
@@ -50,13 +54,14 @@ Mục tiêu: nghe một tác phẩm dài mà không bị "lạc", biết mình �
 - [ ] Fugue: chủ đề, đối đề, đoạn chuyển
 - [ ] Đọc [Hình thức & thể loại](../hinh-thuc/index.md)
 
-**Nghe:** Haydn Giao hưởng số 94 *Surprise*, Bach *Fugue cung Sol thứ* BWV 578, Mozart Concerto piano số 21.
+**Nghe:** [Haydn Giao hưởng số 94](../nghe-nhac/haydn-94.md), [Mozart Giao hưởng số 40](../nghe-nhac/mozart-40.md), Bach *Fugue cung Sol thứ* BWV 578.
 
-## Giai đoạn 5 · Tháng 11–12: Lịch sử và nghe sâu
+## Giai đoạn 5: Tháng 11–12: Lịch sử và nghe sâu
 
 Mục tiêu: đặt mỗi tác phẩm vào bối cảnh thời kỳ và so sánh các bản thu.
 
-- [ ] Đi qua [7 thời kỳ](../lich-su/index.md), mỗi thời kỳ nghe kỹ 3–5 tác phẩm
+- [ ] Đi qua [7 thời kỳ](../lich-su/index.md) và [chân dung các nhà soạn nhạc](../lich-su/nha-soan-nhac.md), mỗi thời kỳ nghe kỹ 3–5 tác phẩm
+- [ ] Nhận biết nhạc cụ trong [dàn nhạc giao hưởng](../nhac-cu/dan-nhac.md)
 - [ ] Đọc [Âm nhạc hôm nay](../lich-su/duong-dai.md) và nghe 3 nhà soạn nhạc đang sống
 - [ ] So sánh hai bản thu của cùng một tác phẩm, ghi lại khác biệt
 - [ ] Viết 10 trang [nhật ký nghe nhạc](../nghe-nhac/index.md)

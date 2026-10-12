@@ -79,3 +79,29 @@ C D E G- | G4 |]
 
 ??? success "Đáp án câu 2"
     3 + 1 = **4 phách**, vừa đủ một ô nhịp 4/4.
+
+!!! example "Luyện tập kèm theo"
+    [Tiết tấu](../luyen-tap/tiet-tau.md) cấp độ 1–2 và [máy đếm nhịp](../luyen-tap/metronome.md).
+
+```quiz
+? Trong nhịp 4/4, nốt trắng dài bao nhiêu phách?
+- 1
++ 2
+- 4
+> Nốt trắng bằng hai nốt đen.
+? Một nốt đen chấm dôi dài bao nhiêu phách?
+- 1
++ 1 rưỡi
+- 2
+> Chấm dôi thêm một nửa độ dài: 1 + ½.
+? Dấu nối dùng để làm gì?
++ Nối hai nốt cùng cao độ thành một nốt dài
+- Chơi các nốt khác cao độ liền mạch
+- Ngắt ngắn nốt nhạc
+> Nối các nốt khác cao độ là dấu luyến.
+? Bao nhiêu nốt móc kép bằng một nốt đen?
+- 2
++ 4
+- 8
+> Mỗi nốt móc kép dài ¼ phách.
+```

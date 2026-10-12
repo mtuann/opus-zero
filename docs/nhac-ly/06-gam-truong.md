@@ -1,8 +1,5 @@
 # 6. Gam trưởng
 
-!!! note "Bản nháp"
-    Bài này mới có phần cốt lõi. Phần hóa biểu đầy đủ sẽ nằm ở bài 8.
-
 ## Gam là gì?
 
 **Gam** (scale) là một chuỗi nốt đi lên hoặc đi xuống theo một **công thức khoảng cách** cố định. Gam là "nguyên liệu" để xây giai điệu và hợp âm của một bản nhạc.
@@ -35,6 +32,10 @@ C D E F | G A B c | c B A G | F E D C |]
 
 Vậy **gam Sol trưởng có một dấu thăng: Fa♯**.
 
+Gam Sol trưởng trên bàn phím (phím được tô):
+
+<div class="oz-piano" data-range="G3-G4" data-notes="G3 A3 B3 C4 D4 E4 F#4 G4"></div>
+
 Thay vì viết dấu thăng trước mọi nốt Fa, người ta viết nó một lần ở đầu khuông, ngay sau khóa. Đó là **hóa biểu**:
 
 ```abc
@@ -47,7 +48,7 @@ K:G
 G, A, B, C | D E F G |]
 ```
 
-Tương tự, **gam Fa trưởng có một dấu giáng: Si♭**.
+Tương tự, **gam Fa trưởng có một dấu giáng: Si♭**. Toàn bộ 15 giọng và cách đọc hóa biểu nằm ở [bài 8](08-hoa-bieu.md).
 
 ## Tên các bậc
 
@@ -70,3 +71,29 @@ Thử hát Đô – Rê – Mi – Fa – Sol – La – Si rồi **dừng lại
 ??? success "Đáp án"
     1. Rê – Mi – **Fa♯** – Sol – La – Si – **Đô♯** – Rê: hai dấu thăng.
     2. Fa – Sol – La – **Si♭** – Đô – Rê – Mi – Fa. Mỗi tên nốt chỉ xuất hiện một lần trong gam; nếu dùng La♯ thì gam có hai nốt "La" và thiếu nốt "Si".
+
+!!! example "Luyện tập kèm theo"
+    [Xây gam và hợp âm](../luyen-tap/xay-hop-am.md) bài "Gam trưởng", và [đọc thị tấu](../luyen-tap/thi-tau.md) cấp độ 1 ở Đô trưởng.
+
+```quiz
+? Công thức gam trưởng là gì?
++ Cung – Cung – Nửa – Cung – Cung – Cung – Nửa
+- Cung – Nửa – Cung – Cung – Nửa – Cung – Cung
+- Nửa – Cung – Cung – Cung – Nửa – Cung – Cung
+> Công thức thứ hai là của gam thứ tự nhiên.
+? Gam Sol trưởng có dấu hóa nào?
+- Si♭
++ Fa♯
+- Đô♯
+> Từ Mi phải lên một cung đến Fa♯.
+? Bậc V của gam trưởng gọi là gì?
+- Chủ âm
+- Cảm âm
++ Át âm
+> Bậc I là chủ âm, bậc VII là cảm âm.
+? Vì sao gam Fa trưởng dùng Si♭ mà không dùng La♯?
++ Mỗi tên nốt chỉ xuất hiện một lần trong gam
+- Vì La♯ không tồn tại
+- Vì Si♭ dễ đọc hơn
+> Dùng La♯ thì gam có hai nốt La và thiếu nốt Si.
+```

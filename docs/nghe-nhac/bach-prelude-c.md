@@ -1,0 +1,47 @@
+# Bach: Prelude cung Đô trưởng, BWV 846
+
+| | |
+|---|---|
+| Nhà soạn nhạc | Johann Sebastian Bach (1685–1750) |
+| Nguồn | *Bình quân luật* (Das Wohltemperierte Klavier), quyển 1, 1722 |
+| Thời kỳ | Baroque |
+| Thể loại | Prelude cho đàn phím |
+| Độ dài | Khoảng 2 phút, 35 ô nhịp |
+
+## Điều cần biết trước khi nghe
+
+*Bình quân luật* quyển 1 gồm 24 cặp prelude và fugue, mỗi cặp ở một giọng trong 12 giọng trưởng và 12 giọng thứ. Bach viết tập này để chứng minh một hệ thống lên dây cho phép chơi tốt ở mọi giọng, đồng thời làm tài liệu dạy học.
+
+Prelude số 1 này gần như **chỉ là một chuỗi hợp âm**: mỗi ô nhịp là một hợp âm, được **rải** theo cùng một khuôn mẫu lặp lại. Vì vậy đây là tác phẩm lý tưởng để luyện nghe **hòa âm**: không có giai điệu nào che mất hợp âm.
+
+```abc
+X:1
+T:Bốn ô nhịp đầu (rút gọn: mỗi ô là một hợp âm rải)
+L:1/16
+M:4/4
+Q:1/4=66
+K:C
+C E G c e G c e C E G c e G c e | C D A d f A d f C D A d f A d f | B, D G d f G d f B, D G d f G d f | C E G c e G c e C E G c e G c e |]
+```
+
+Bốn ô nhịp đầu đi **I – ii – V – I**: bạn đã biết chuỗi này từ [bài 12](../nhac-ly/12-hoa-am-chuc-nang.md).
+
+## Theo dõi khi nghe
+
+| Thời điểm | Sự kiện |
+|---|---|
+| … | Bốn ô nhịp đầu: hợp âm I – ii – V – I khẳng định giọng Đô trưởng |
+| … | Hòa âm bắt đầu đi xa, chuyển sang vùng giọng Sol trưởng (giọng át) |
+| … | Nhạc quay về, nhiều hợp âm nghịch tai, căng thẳng tăng dần |
+| … | **Âm nền át** (dominant pedal): nốt Sol giữ ở bè trầm qua nhiều ô nhịp, căng thẳng lớn nhất |
+| … | **Âm nền chủ**: nốt Đô ở bè trầm, những hợp âm cuối cùng, kết về Đô trưởng |
+
+## Câu hỏi để nghe chủ động
+
+- Bạn có nghe thấy lúc nhạc "đi xa nhà" và lúc "trở về" không?
+- Nốt trầm giữ nguyên trong đoạn âm nền át tạo cảm giác gì?
+- Năm 1853, Charles Gounod viết thêm một giai điệu lên trên prelude này, thành bài *Ave Maria* nổi tiếng. Nghe bản đó và so sánh.
+
+## Ghi chép của bạn
+
+*(Dùng [mẫu ghi chép](mau.md) để điền cảm nhận.)*

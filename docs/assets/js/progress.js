@@ -58,6 +58,8 @@
     if ((d.notes || 0) >= 10) score += 1;
     if ((d.intervals || 0) >= 10) score += 1;
     if ((d.minutes || 0) >= 5) score += 1;
+    if ((d.chords || 0) + (d.keysigs || 0) + (d.rhythms || 0) + (d.melodies || 0) + (d.builds || 0) + (d.scales || 0) >= 10) score += 1;
+    if ((d.cards || 0) >= 10 || (d.quizzes || 0) >= 1) score += 1;
     if (score === 0) return 0;
     if (score <= 1) return 1;
     if (score <= 3) return 2;
@@ -80,5 +82,18 @@
     return count;
   }
 
-  window.OZProgress = { KEY: KEY, today: today, load: load, save: save, getDay: getDay, record: record, setTask: setTask, setNote: setNote, level: level, streak: streak };
+  /* Kho dữ liệu dài hạn (không theo ngày): thống kê nốt, bài đã học, thẻ ghi nhớ. */
+  function getStore(name, fallback) {
+    const data = load();
+    return (data.store && data.store[name] !== undefined) ? data.store[name] : fallback;
+  }
+  function setStore(name, value) {
+    const data = load();
+    if (!data.store) data.store = {};
+    data.store[name] = value;
+    save(data);
+    document.dispatchEvent(new CustomEvent("oz:progress"));
+  }
+
+  window.OZProgress = { getStore: getStore, setStore: setStore, KEY: KEY, today: today, load: load, save: save, getDay: getDay, record: record, setTask: setTask, setNote: setNote, level: level, streak: streak };
 })();

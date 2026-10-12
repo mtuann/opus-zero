@@ -1,0 +1,38 @@
+# Debussy: Clair de lune
+
+| | |
+|---|---|
+| Nhà soạn nhạc | Claude Debussy (1862–1918) |
+| Nguồn | Chương 3 của *Suite bergamasque* cho piano |
+| Sáng tác | Bắt đầu khoảng năm 1890, sửa và xuất bản năm 1905 |
+| Thời kỳ | Cuối thế kỷ 19, chủ nghĩa ấn tượng |
+| Giọng và nhịp | Rê♭ trưởng, nhịp 9/8 |
+| Độ dài | Khoảng 5 phút |
+
+## Điều cần biết trước khi nghe
+
+Tên tác phẩm ("Ánh trăng") lấy từ bài thơ cùng tên của Paul Verlaine. Debussy không "kể chuyện" như Vivaldi, mà vẽ ra một **bầu không khí**: ánh sáng, sương mờ, mặt nước. Đây là tinh thần của **chủ nghĩa ấn tượng**, cùng thời và cùng cảm hứng với hội họa của Monet.
+
+Hãy để ý: nhịp **9/8** nhưng đoạn đầu được viết sao cho bạn **khó cảm thấy phách**. Âm nhạc như trôi lơ lửng, không bị nhịp trói buộc.
+
+## Theo dõi khi nghe
+
+Cấu trúc ba đoạn A – B – A':
+
+| Thời điểm | Phần | Sự kiện |
+|---|---|---|
+| … | A | Rất nhỏ (pp), các hợp âm chậm rãi đi xuống, nhịp mơ hồ |
+| … | A | Giai điệu rõ hơn, vẫn nhẹ nhàng, hòa âm đổi màu liên tục |
+| … | B | Tay trái **rải hợp âm liên tục** như nước chảy, nhạc chuyển động nhanh hơn, cao trào nhẹ |
+| … | A' | Giai điệu ban đầu trở lại trên nền hợp âm rải |
+| … | Kết | Lắng dần, tan vào im lặng |
+
+## Câu hỏi để nghe chủ động
+
+- Bạn có đếm được phách ở đoạn mở đầu không? Cảm giác "thiếu phách" đó tạo ra điều gì?
+- Đoạn B khác đoạn A ra sao về tốc độ, kết cấu tay trái?
+- Nếu phải vẽ bản nhạc này, bạn dùng màu gì?
+
+## Ghi chép của bạn
+
+*(Dùng [mẫu ghi chép](mau.md) để điền cảm nhận.)*

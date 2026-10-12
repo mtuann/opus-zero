@@ -21,6 +21,10 @@ Hãy nhớ kỹ hai cặp này: chúng là chìa khóa để hiểu gam và hợ
 
 Ví dụ: Fa♯ (F♯) là phím đen ngay bên phải Fa. Si♭ (B♭) là phím đen ngay bên trái Si.
 
+Bấm thử các phím đen trên bàn phím dưới đây để xem tên của chúng:
+
+<div class="oz-piano" data-range="C4-B4"></div>
+
 Nghe đi lên từng nửa cung từ Đô đến Đô, tức là tất cả 12 phím:
 
 ```abc
@@ -61,3 +65,29 @@ Một phím đen có thể có **hai tên**. Phím giữa Đô và Rê vừa là
     1. Mi – Fa là nửa cung; Fa – Sol là một cung.
     2. **Sol♯** và **La♭**.
     3. Mi♯ nâng Mi lên nửa cung, rơi đúng vào phím **Fa**. Đô♭ hạ Đô xuống nửa cung, rơi vào phím **Si**. Đây là lý do không nên nghĩ "thăng = phím đen".
+
+!!! example "Luyện tập kèm theo"
+    [Nhận biết quãng](../luyen-tap/quang.md) bộ Tất cả, chỉ để nghe quãng 2 thứ (một nửa cung) và 2 trưởng (một cung).
+
+```quiz
+? Giữa hai nốt nào trong các cặp sau là nửa cung tự nhiên?
+- Đô – Rê
++ Mi – Fa
+- Sol – La
+> Hai nửa cung tự nhiên: Mi–Fa và Si–Đô.
+? Dấu giáng có tác dụng gì?
+- Nâng nốt lên nửa cung
++ Hạ nốt xuống nửa cung
+- Hủy dấu hóa trước đó
+> Dấu bình mới là dấu hủy.
+? Dấu hóa bất thường có hiệu lực đến khi nào?
+- Chỉ với một nốt ngay sau nó
++ Đến hết ô nhịp
+- Đến hết bản nhạc
+> Sang ô nhịp mới thì hết tác dụng.
+? Phím đen giữa Rê và Mi có những tên nào?
++ Rê♯ và Mi♭
+- Rê♭ và Mi♯
+- Đô♯ và Rê♭
+> Hai tên đồng âm khác tên của cùng một phím.
+```

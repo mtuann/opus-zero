@@ -147,3 +147,105 @@
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
 }
+
+/* ---------- Piano ---------- */
+.oz-piano-wrap { margin: 1rem 0; }
+.oz-keys { width: 100%; max-width: 640px; height: auto; display: block; touch-action: manipulation; user-select: none; }
+.oz-key { cursor: pointer; stroke: var(--md-default-fg-color--light); stroke-width: 1; }
+.oz-key.white { fill: #fff; }
+.oz-key.black { fill: #1b1d22; }
+[data-md-color-scheme="slate"] .oz-key.white { fill: #e9ecf1; }
+.oz-key.hl.white { fill: color-mix(in srgb, var(--md-accent-fg-color) 45%, #fff); }
+.oz-key.hl.black { fill: color-mix(in srgb, var(--md-accent-fg-color) 75%, #000); }
+.oz-key.pressed { fill: var(--md-primary-fg-color--light) !important; }
+.oz-key-label { font-size: 8px; text-anchor: middle; fill: #555; pointer-events: none; }
+.oz-explorer-names { font-size: 0.8rem; margin: 0.6rem 0; }
+.oz-explorer-names small { opacity: 0.6; }
+
+/* ---------- Circle of fifths ---------- */
+.oz-circle-grid { display: grid; grid-template-columns: minmax(240px, 340px) 1fr; gap: 1.2rem; align-items: start; }
+@media (max-width: 720px) { .oz-circle-grid { grid-template-columns: 1fr; } }
+.oz-circle-svg svg { width: 100%; height: auto; }
+.oz-ring-outer { fill: color-mix(in srgb, var(--md-primary-fg-color) 7%, transparent); stroke: var(--md-default-fg-color--lightest); }
+.oz-ring-inner { fill: color-mix(in srgb, var(--md-primary-fg-color) 12%, transparent); stroke: var(--md-default-fg-color--lightest); }
+.oz-ring-core { fill: var(--md-default-bg-color); stroke: var(--md-default-fg-color--lightest); }
+.oz-ring-label { font-size: 10px; text-anchor: middle; fill: var(--md-default-fg-color--light); }
+.oz-ck { cursor: pointer; outline: none; }
+.oz-ck circle { fill: var(--md-default-bg-color); stroke: var(--md-default-fg-color--lighter); }
+.oz-ck text { font-size: 12px; font-weight: 600; text-anchor: middle; fill: var(--md-default-fg-color); pointer-events: none; }
+.oz-ck-minor text { font-weight: 400; font-size: 11px; }
+.oz-ck:hover circle, .oz-ck:focus-visible circle { stroke: var(--md-accent-fg-color); stroke-width: 2; }
+.oz-ck.sel circle { fill: var(--md-primary-fg-color); stroke: var(--md-primary-fg-color); }
+.oz-ck.sel text { fill: #fff; }
+.oz-circle-info h4 { margin-top: 0; font-family: var(--oz-heading); }
+.oz-circle-info p { font-size: 0.8rem; margin: 0.35rem 0; }
+.oz-answers small { opacity: 0.6; font-size: 0.65rem; }
+
+/* ---------- Rhythm tap pad ---------- */
+.oz-tap {
+  display: block; width: min(100%, 320px); margin: 0.8rem 0; padding: 1.2rem; font: inherit; font-size: 1.1rem; font-weight: 600;
+  border-radius: 14px; border: 2px dashed var(--md-default-fg-color--lighter); background: transparent; color: var(--md-default-fg-color);
+  cursor: pointer; touch-action: manipulation;
+}
+.oz-tap small { display: block; font-size: 0.65rem; font-weight: 400; opacity: 0.6; }
+.oz-tap.live { border-style: solid; border-color: var(--md-accent-fg-color); }
+.oz-tap.hit { background: color-mix(in srgb, var(--md-accent-fg-color) 25%, transparent); }
+
+/* ---------- Tuner ---------- */
+.oz-tuner-display { text-align: center; margin: 1rem 0; }
+.oz-tuner-note { font-family: var(--oz-heading); font-size: 2.6rem; font-weight: 600; line-height: 1.1; }
+.oz-tuner-note.in-tune { color: var(--oz-ok); }
+.oz-meter { position: relative; height: 34px; max-width: 360px; margin: 0.6rem auto; border-bottom: 2px solid var(--md-default-fg-color--lighter); }
+.oz-meter-mid { position: absolute; left: 50%; bottom: 0; width: 2px; height: 100%; background: var(--oz-ok); }
+.oz-needle { position: absolute; left: 50%; bottom: 0; width: 4px; height: 28px; margin-left: -2px; border-radius: 2px; background: var(--md-accent-fg-color); transition: left 0.08s linear; }
+
+/* ---------- Quiz & lesson status ---------- */
+.oz-quiz-head { margin-bottom: 0.6rem; }
+.oz-quiz-q { padding: 0.4rem 0; border-top: 1px solid var(--md-default-fg-color--lightest); }
+.oz-quiz-q p { margin: 0.4rem 0; }
+.oz-quiz-result { font-weight: 600; margin-top: 0.6rem; }
+.oz-done { margin-left: 0.5rem; font-size: 0.65rem; padding: 0.05rem 0.45rem; border-radius: 999px; background: color-mix(in srgb, var(--oz-ok) 15%, transparent); color: var(--oz-ok); }
+.oz-progress { display: block; height: 6px; max-width: 360px; margin-top: 0.4rem; border-radius: 3px; background: var(--md-default-fg-color--lightest); overflow: hidden; }
+.oz-progress span { display: block; height: 100%; background: var(--md-accent-fg-color); }
+
+/* ---------- Flashcards ---------- */
+.oz-card { min-height: 9rem; padding: 1rem 1.2rem; margin: 0.8rem 0; border-radius: 12px; border: 1px solid var(--md-default-fg-color--lighter); }
+.oz-card-front { font-family: var(--oz-heading); font-size: 1.5rem; font-weight: 600; }
+.oz-card-back { margin-top: 0.8rem; font-size: 0.85rem; }
+.oz-card-back p { margin: 0.25rem 0; }
+
+/* ---------- Home summary ---------- */
+.oz-summary-box p { margin: 0.3rem 0 0; }
+
+/* ---------- Listening guide timeline ---------- */
+.md-typeset .oz-guide td:first-child { white-space: nowrap; font-variant-numeric: tabular-nums; color: var(--md-default-fg-color--light); }
+
+/* ---------- Timeline ---------- */
+.oz-timeline-wrap { overflow-x: auto; border: 1px solid var(--md-default-fg-color--lightest); border-radius: 10px; margin: 1rem 0; }
+.oz-timeline-svg { min-width: 900px; width: 100%; height: auto; display: block; }
+.oz-tl-band.b0 { fill: color-mix(in srgb, var(--md-primary-fg-color) 6%, transparent); }
+.oz-tl-band.b1 { fill: transparent; }
+.oz-tl-period { font-size: 11px; font-weight: 600; text-anchor: middle; fill: var(--md-default-fg-color--light); }
+.oz-tl-year { font-size: 9px; text-anchor: middle; fill: var(--md-default-fg-color--lighter); }
+.oz-tl-bar { fill: var(--md-primary-fg-color--light); }
+[data-md-color-scheme="slate"] .oz-tl-bar { fill: #6f93c4; }
+.oz-tl-bar.alive { fill: var(--md-accent-fg-color); }
+.oz-tl-name { font-size: 10px; fill: var(--md-default-fg-color); }
+
+/* ---------- Worksheet & cheat sheet ---------- */
+.oz-ws-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 0.8rem; }
+.oz-ws-cell { font-size: 0.75rem; }
+.oz-cheatsheet table { font-size: 0.7rem; }
+.oz-cheatsheet h3 { margin-top: 0.8rem; }
+
+@media print {
+  .md-header, .md-tabs, .md-sidebar, .md-footer, .md-source-file, .md-content__button, .oz-noprint, .md-top, .abc-audio { display: none !important; }
+  .md-main__inner { margin: 0 !important; }
+  .md-content { max-width: 100% !important; }
+  .md-typeset { font-size: 10pt; }
+  .oz-tool { border: none; padding: 0; }
+  .oz-ws-ans[hidden] { display: none !important; }
+  .oz-cheatsheet { columns: 2; column-gap: 1.2rem; }
+  .oz-cheatsheet h3 { break-after: avoid; }
+  .oz-cheatsheet table { break-inside: avoid; }
+}

@@ -17,10 +17,17 @@ Nhạc cổ điển không dừng lại ở Beethoven. Các nhà soạn nhạc v
 | Thomas Adès (Anh) | 1971 | *Asyla*, opera *The Tempest* | Phức tạp, nhiều màu sắc |
 | Jessie Montgomery (Mỹ) | 1981 | *Strum* | Đàn dây, ảnh hưởng từ nhạc dân gian và jazz |
 | Caroline Shaw (Mỹ) | 1982 | *Partita for 8 Voices* | Đoạt giải Pulitzer năm 2013 với tác phẩm này |
+| Sofia Gubaidulina (Nga) | 1931–2025 | *Offertorium*, *De profundis* | Mất tháng 3/2025; xem [các nhà soạn nhạc nữ](nu-nha-soan-nhac.md) |
+
+## Tin đáng chú ý gần đây
+
+- **Cuộc thi Piano Quốc tế Chopin lần thứ 19** (Warsaw, tháng 10/2025): giải Nhất thuộc về nghệ sĩ người Mỹ **Eric Lu**; giải Nhì là Kevin Chen (Canada), giải Ba là Zitong Wang (Trung Quốc). Ban giám khảo do Garrick Ohlsson làm chủ tịch, có **Đặng Thái Sơn**. Các vòng thi được phát trên kênh YouTube của Viện Fryderyk Chopin; cuộc thi tiếp theo dự kiến vào năm 2030.
+- **Giải Pulitzer Âm nhạc** (trao cho tác phẩm của nhà soạn nhạc Mỹ): 2024 – Tyshawn Sorey, *Adagio (for Wadada Leo Smith)*; 2025 – Susie Ibarra, *Sky Islands*; 2026 – Gabriela Lena Frank.
+- **Sofia Gubaidulina**, một trong những nhà soạn nhạc quan trọng nhất cuối thế kỷ 20, mất ngày 13/3/2025 ở tuổi 93.
 
 ## Tên tuổi Việt Nam nên biết
 
-**Đặng Thái Sơn** là nghệ sĩ piano Việt Nam giành giải Nhất Cuộc thi Piano Quốc tế Chopin năm 1980, người châu Á đầu tiên đạt giải này. Ông hiện là một trong những người thầy piano nổi tiếng thế giới. Nghe ông chơi Chopin là một cách tuyệt vời để bắt đầu.
+**Đặng Thái Sơn** là nghệ sĩ piano Việt Nam giành giải Nhất Cuộc thi Piano Quốc tế Chopin năm 1980, người châu Á đầu tiên đạt giải này. Ông hiện là một trong những người thầy piano nổi tiếng thế giới, và là giám khảo cuộc thi Chopin năm 2025. Xem thêm [nhạc cổ điển ở Việt Nam](viet-nam.md).
 
 ## Theo dõi tin tức và buổi diễn
 

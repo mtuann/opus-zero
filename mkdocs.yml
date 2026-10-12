@@ -9,6 +9,7 @@ copyright: Opus Zero — sổ tay học nhạc cá nhân của mtuann
 
 theme:
   name: material
+  custom_dir: overrides
   language: vi
   font:
     text: Be Vietnam Pro
@@ -51,6 +52,13 @@ plugins:
       lang:
         - en
         - vi
+  - blog:
+      blog_dir: blog
+      blog_toc: true
+      post_date_format: long
+      post_url_format: "{date}/{slug}"
+      archive_name: Lưu trữ
+      categories_name: Chủ đề
 
 markdown_extensions:
   - admonition
@@ -77,6 +85,12 @@ markdown_extensions:
         - name: abc
           class: abc-notation
           format: !!python/name:pymdownx.superfences.fence_div_format
+        - name: quiz
+          class: oz-quiz
+          format: !!python/name:pymdownx.superfences.fence_div_format
+        - name: placement
+          class: oz-placement
+          format: !!python/name:pymdownx.superfences.fence_div_format
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
@@ -89,11 +103,26 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/abcjs@6.7.1/dist/abcjs-basic-min.js
   - assets/js/audio.js
   - assets/js/progress.js
+  - assets/js/theory.js
   - assets/js/abc.js
   - assets/js/note-reader.js
   - assets/js/interval-trainer.js
+  - assets/js/chord-trainer.js
+  - assets/js/scale-trainer.js
   - assets/js/metronome.js
+  - assets/js/piano.js
+  - assets/js/build.js
+  - assets/js/circle.js
+  - assets/js/rhythm.js
+  - assets/js/sight-reading.js
+  - assets/js/tuner.js
+  - assets/js/quiz.js
+  - assets/js/placement.js
+  - assets/js/worksheet.js
+  - assets/js/timeline.js
+  - assets/js/flashcards.js
   - assets/js/journal.js
+  - assets/js/pwa.js
 
 extra:
   social:
@@ -104,33 +133,106 @@ nav:
   - Trang chủ: index.md
   - Bắt đầu:
       - bat-dau/index.md
+      - "Bài 0: Trước khi bắt đầu": bat-dau/bai-0.md
+      - Kiểm tra đầu vào: bat-dau/kiem-tra-dau-vao.md
+      - Lộ trình nghe hiểu: bat-dau/lo-trinh-nghe.md
+      - Lộ trình chơi nhạc cụ: bat-dau/lo-trinh-choi.md
       - Lộ trình 12 tháng: bat-dau/lo-trinh.md
       - Thói quen mỗi ngày: bat-dau/moi-ngay.md
+      - Tóm tắt một tờ: bat-dau/tom-tat.md
+      - Hỏi đáp: bat-dau/hoi-dap.md
+      - Cài như ứng dụng: bat-dau/ung-dung.md
   - Nhạc lý:
       - nhac-ly/index.md
-      - 1. Cao độ và tên nốt: nhac-ly/01-cao-do-ten-not.md
-      - 2. Khuông nhạc và khóa: nhac-ly/02-khuong-nhac-khoa.md
-      - 3. Trường độ và dấu lặng: nhac-ly/03-truong-do.md
-      - 4. Nhịp và số chỉ nhịp: nhac-ly/04-nhip.md
-      - 5. Cung, nửa cung và dấu hóa: nhac-ly/05-dau-hoa.md
-      - 6. Gam trưởng: nhac-ly/06-gam-truong.md
+      - Đọc nhạc:
+          - 1. Cao độ và tên nốt: nhac-ly/01-cao-do-ten-not.md
+          - 2. Khuông nhạc và khóa: nhac-ly/02-khuong-nhac-khoa.md
+          - 3. Trường độ và dấu lặng: nhac-ly/03-truong-do.md
+          - 4. Nhịp và số chỉ nhịp: nhac-ly/04-nhip.md
+          - 5. Cung, nửa cung và dấu hóa: nhac-ly/05-dau-hoa.md
+          - "Ôn tập 1": nhac-ly/on-tap-1.md
+      - Gam và giọng:
+          - 6. Gam trưởng: nhac-ly/06-gam-truong.md
+          - 7. Gam thứ: nhac-ly/07-gam-thu.md
+          - 8. Hóa biểu và vòng quãng năm: nhac-ly/08-hoa-bieu.md
+          - 9. Quãng: nhac-ly/09-quang.md
+          - "Ôn tập 2": nhac-ly/on-tap-2.md
+      - Hợp âm và hòa âm:
+          - 10. Hợp âm ba: nhac-ly/10-hop-am-ba.md
+          - 11. Hợp âm bảy và thể đảo: nhac-ly/11-hop-am-bay.md
+          - 12. Hòa âm chức năng: nhac-ly/12-hoa-am-chuc-nang.md
+          - 13. Kết và câu nhạc: nhac-ly/13-ket.md
+          - 14. Ký hiệu biểu diễn: nhac-ly/14-ky-hieu-bieu-dien.md
+          - "Ôn tập 3": nhac-ly/on-tap-3.md
+      - Nâng cao:
+          - 15. Tiết tấu nâng cao: nhac-ly/15-tiet-tau-nang-cao.md
+          - 16. Điệu thức và gam ngũ cung: nhac-ly/16-dieu-thuc-ngu-cung.md
+          - 17. Khóa Đô và dịch giọng: nhac-ly/17-khoa-do-dich-giong.md
+          - 18. Âm ngoài hợp âm: nhac-ly/18-am-ngoai-hop-am.md
+          - 19. Át phụ và chuyển giọng: nhac-ly/19-at-phu-chuyen-giong.md
+          - 20. Đọc tổng phổ: nhac-ly/20-doc-tong-pho.md
+      - Từ điển thuật ngữ: nhac-ly/tu-dien.md
   - Luyện tập:
       - luyen-tap/index.md
-      - Đọc nốt: luyen-tap/doc-not.md
-      - Nhận biết quãng: luyen-tap/quang.md
-      - Máy đếm nhịp: luyen-tap/metronome.md
-      - Nhật ký luyện tập: luyen-tap/nhat-ky.md
+      - Đọc nhạc:
+          - Đọc nốt: luyen-tap/doc-not.md
+          - Hóa biểu: luyen-tap/hoa-bieu.md
+          - Tiết tấu: luyen-tap/tiet-tau.md
+          - Đọc thị tấu: luyen-tap/thi-tau.md
+          - Phiếu bài tập in được: luyen-tap/phieu-bai-tap.md
+      - Luyện tai:
+          - Nhận biết quãng: luyen-tap/quang.md
+          - Nhận biết hợp âm: luyen-tap/hop-am.md
+          - Nhận biết gam: luyen-tap/gam.md
+      - Khám phá:
+          - Bàn phím piano: luyen-tap/ban-phim.md
+          - Xây gam và hợp âm: luyen-tap/xay-hop-am.md
+          - Vòng quãng năm: luyen-tap/vong-quang-nam.md
+      - Dụng cụ:
+          - Máy đếm nhịp: luyen-tap/metronome.md
+          - Máy lên dây: luyen-tap/len-day.md
+          - Nhật ký luyện tập: luyen-tap/nhat-ky.md
   - Luyện tai:
       - luyen-tai/index.md
   - Lịch sử:
       - lich-su/index.md
+      - Dòng thời gian: lich-su/dong-thoi-gian.md
+      - Nhà soạn nhạc: lich-su/nha-soan-nhac.md
+      - Các nhà soạn nhạc nữ: lich-su/nu-nha-soan-nhac.md
+      - Nhập môn opera: lich-su/opera.md
+      - Nhạc cổ điển ở Việt Nam: lich-su/viet-nam.md
       - Âm nhạc hôm nay: lich-su/duong-dai.md
   - Hình thức & thể loại:
       - hinh-thuc/index.md
   - Nhạc cụ:
       - nhac-cu/index.md
+      - Piano: nhac-cu/piano.md
+      - Violin: nhac-cu/violin.md
+      - Guitar cổ điển: nhac-cu/guitar.md
+      - Cách tập hiệu quả: nhac-cu/cach-tap.md
+      - Mua nhạc cụ và chọn thầy: nhac-cu/mua-dan-chon-thay.md
+      - Dàn nhạc giao hưởng: nhac-cu/dan-nhac.md
   - Nghe nhạc:
       - nghe-nhac/index.md
+      - Nghe gì tiếp: nghe-nhac/nghe-gi-tiep.md
       - Mẫu ghi chép: nghe-nhac/mau.md
-      - "Beethoven: Giao hưởng số 5": nghe-nhac/beethoven-5.md
+      - Baroque:
+          - "Vivaldi: Mùa xuân": nghe-nhac/vivaldi-mua-xuan.md
+          - "Bach: Prelude cung Đô trưởng": nghe-nhac/bach-prelude-c.md
+      - Cổ điển:
+          - "Haydn: Giao hưởng Surprise": nghe-nhac/haydn-94.md
+          - "Mozart: Giao hưởng số 40": nghe-nhac/mozart-40.md
+          - "Mozart: Nữ hoàng bóng đêm": nghe-nhac/mozart-nu-hoang-bong-dem.md
+          - "Beethoven: Giao hưởng số 5": nghe-nhac/beethoven-5.md
+      - Lãng mạn:
+          - "Schubert: Erlkönig": nghe-nhac/schubert-erlkonig.md
+          - "Chopin: Nocturne Op. 9 số 2": nghe-nhac/chopin-nocturne.md
+          - "Bizet: Habanera": nghe-nhac/bizet-habanera.md
+          - "Tchaikovsky: Hồ thiên nga": nghe-nhac/tchaikovsky-ho-thien-nga.md
+      - Thế kỷ 20 và nay:
+          - "Debussy: Clair de lune": nghe-nhac/debussy-clair-de-lune.md
+          - "Stravinsky: Nghi lễ mùa xuân": nghe-nhac/stravinsky-sacre.md
+          - "Pärt: Spiegel im Spiegel": nghe-nhac/part-spiegel.md
+  - Nhật ký học:
+      - blog/index.md
   - Tài nguyên: tai-nguyen.md

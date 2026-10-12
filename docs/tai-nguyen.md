@@ -2,7 +2,7 @@
 
 Danh sách được chọn lọc cho người tự học từ đầu. Hầu hết miễn phí; mục có phí được ghi rõ. Liên kết có thể thay đổi theo thời gian, nên nếu thấy link hỏng, hãy sửa lại trang này.
 
-*Kiểm tra lần cuối: 10/2026.*
+*Kiểm tra lần cuối: 10/2026.* Tin tức và giải thưởng gần đây nằm ở [Âm nhạc hôm nay](lich-su/duong-dai.md); thông tin trong nước ở [Nhạc cổ điển ở Việt Nam](lich-su/viet-nam.md).
 
 ## Nhạc lý
 
@@ -26,6 +26,23 @@ Danh sách được chọn lọc cho người tự học từ đầu. Hầu hế
 - Burkholder, Grout, Palisca, *A History of Western Music* — giáo trình lịch sử chuẩn.
 - Alex Ross, *The Rest Is Noise* — lịch sử âm nhạc thế kỷ 20.
 
+## Thi cấp và giáo trình nhạc cụ
+
+- [ABRSM](https://www.abrsm.org/): chương trình piano hiện hành có hiệu lực đến 31/12/2026; chương trình đàn dây (violin, viola, cello, contrabass) từ năm 2024 có hiệu lực đến khi có thông báo mới; chương trình guitar từ năm 2019. Danh sách tác phẩm theo cấp là nguồn gợi ý tốt kể cả khi không thi.
+- [Trinity College London](https://www.trinitycollege.com/): thi cấp piano, violin, guitar cổ điển từ Initial đến Grade 8.
+- [Practising the Piano](https://practisingthepiano.com/) của Graham Fitch: bài viết và video về cách tập, có loạt bài về chương trình ABRSM 2025–2026.
+- Kênh **This Is Classical Guitar** (Bradford Werner): bài học và bản nhạc guitar miễn phí.
+
+## Nghe nhạc trực tuyến
+
+- Dịch vụ chuyên nhạc cổ điển: **Apple Music Classical**, **Idagio**. Thông tin bản thu đầy đủ hơn ứng dụng nghe nhạc thông thường.
+- Kênh YouTube của **Viện Fryderyk Chopin**: toàn bộ các vòng thi Chopin, gồm cả cuộc thi năm 2025.
+- Xem trang chi tiết từng nhạc cụ: [Piano](nhac-cu/piano.md), [Violin](nhac-cu/violin.md), [Guitar](nhac-cu/guitar.md).
+
+## Nhận biết nhạc cụ
+
+- Prokofiev *Peter và chó sói* và Britten *The Young Person's Guide to the Orchestra*, xem trang [Dàn nhạc giao hưởng](nhac-cu/dan-nhac.md).
+
 ## Bản nhạc và bản thu
 
 - [IMSLP](https://imslp.org/) — kho bản nhạc cổ điển thuộc phạm vi công cộng lớn nhất thế giới.
@@ -48,5 +65,6 @@ Danh sách được chọn lọc cho người tự học từ đầu. Hầu hế
 - [abcjs](https://paulrosen.github.io/abcjs/) — thư viện vẽ khuông nhạc và phát âm thanh trong site.
 - [Học cú pháp ABC](https://abcnotation.com/learn) — cách viết nốt nhạc bằng văn bản.
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) — giao diện của site.
+- [Viết bài blog với Material](https://squidfunk.github.io/mkdocs-material/plugins/blog/) — cách dùng mục Nhật ký học.
 
 Theo dõi tin tức và buổi diễn: xem [Âm nhạc hôm nay](lich-su/duong-dai.md).

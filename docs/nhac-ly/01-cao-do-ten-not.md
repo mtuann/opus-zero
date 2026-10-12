@@ -50,6 +50,10 @@ Piano tiêu chuẩn có 88 phím, gồm phím trắng và phím đen. Phím đen
 
 Phím đen dùng cho các nốt có dấu thăng hoặc giáng, sẽ học ở [bài 5](05-dau-hoa.md).
 
+Thử bấm vào bàn phím dưới đây. Các phím được tô màu là ba nốt Đô (C3, C4, C5):
+
+<div class="oz-piano" data-range="C3-C5" data-notes="C3 C4 C5"></div>
+
 ## Bài tập
 
 1. Đọc to bảy tên nốt đi lên, rồi đi xuống, theo cả hai hệ (Đô Rê Mi… và C D E…).
@@ -59,3 +63,29 @@ Phím đen dùng cho các nốt có dấu thăng hoặc giáng, sẽ học ở [
 
 ??? success "Đáp án câu 2 và 4"
     Sol = G, E = Mi, Si = B. Nốt ngay trên B4 là **C5**: tên quay lại Đô và số tăng lên 5.
+
+!!! example "Luyện tập kèm theo"
+    [Bàn phím piano](../luyen-tap/ban-phim.md) để tìm các nốt Đô, và [nhận biết quãng](../luyen-tap/quang.md) bộ Khởi động để nghe quãng 8.
+
+```quiz
+? Nốt Sol trong hệ chữ cái là gì?
+- F
++ G
+- A
+> Bắt đầu từ La = A: La A, Si B, Đô C, Rê D, Mi E, Fa F, Sol G.
+? Đô giữa trên piano được ký hiệu là gì?
+- C3
++ C4
+- C5
+> Middle C là C4.
+? Trên piano, nốt Đô nằm ở đâu?
++ Ngay bên trái nhóm 2 phím đen
+- Ngay bên trái nhóm 3 phím đen
+- Ngay bên phải nhóm 2 phím đen
+> Bên trái nhóm 3 phím đen là nốt Fa.
+? Hai nốt cách nhau một quãng tám thì có đặc điểm gì?
+- Khác tên, tần số bằng nhau
++ Cùng tên, tần số nốt trên gấp đôi nốt dưới
+- Cùng tên, tần số nốt trên gấp ba nốt dưới
+> Ví dụ La4 = 440 Hz, La5 = 880 Hz.
+```

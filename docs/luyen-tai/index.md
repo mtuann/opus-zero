@@ -5,10 +5,11 @@ Luyện tai (ear training) là tập **nhận ra bằng tai** những gì ta h�
 ## Thứ tự luyện gợi ý
 
 1. **Quãng** — khoảng cách giữa hai nốt. Dùng [công cụ nhận biết quãng](../luyen-tap/quang.md).
-2. **Hợp âm trưởng và thứ** — nhận ra màu "sáng" và "tối".
+2. **Hợp âm** — bắt đầu với trưởng và thứ, nhận ra màu "sáng" và "tối". Dùng [công cụ nhận biết hợp âm](../luyen-tap/hop-am.md).
 3. **Bậc trong gam** — nghe một nốt và biết nó là bậc mấy so với chủ âm.
-4. **Tiết tấu** — nghe và vỗ lại, rồi viết ra.
-5. **Chép giai điệu** (dictation) — nghe một câu nhạc ngắn và viết lại thành nốt.
+4. **Tiết tấu** — đọc và gõ đúng nhịp với [công cụ tiết tấu](../luyen-tap/tiet-tau.md).
+5. **Hát thị tấu** — nhìn giai điệu và hát ra tiếng với [công cụ thị tấu](../luyen-tap/thi-tau.md), rồi nghe đáp án.
+6. **Chép giai điệu** (dictation) — nghe một câu nhạc ngắn và viết lại thành nốt. Mẹo: dùng công cụ thị tấu theo chiều ngược lại — bấm "Nghe đáp án" trước khi nhìn khuông nhạc (che màn hình), viết ra giấy, rồi so sánh.
 
 ## Gắn quãng với giai điệu quen thuộc
 

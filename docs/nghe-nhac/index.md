@@ -17,9 +17,25 @@ Mẹo: trên YouTube, tìm tên tác phẩm kèm chữ "score" để xem video c
 
 Mỗi tác phẩm là một trang trong thư mục này. Dùng [mẫu ghi chép](mau.md) để tạo trang mới.
 
-| Tác phẩm | Thời kỳ | Thể loại | Ngày nghe |
-|---|---|---|---|
-| [Beethoven: Giao hưởng số 5](beethoven-5.md) | Cổ điển → Lãng mạn | Giao hưởng | (ví dụ mẫu) |
+Các trang có sẵn **hướng dẫn nghe** từng bước (bạn tự điền mốc thời gian theo bản thu mình nghe):
+
+| Tác phẩm | Thời kỳ | Luyện nghe |
+|---|---|---|
+| [Vivaldi: Mùa xuân, chương 1](vivaldi-mua-xuan.md) | Baroque | Hình thức ritornello, âm nhạc miêu tả |
+| [Bach: Prelude cung Đô trưởng](bach-prelude-c.md) | Baroque | Nghe hòa âm, âm nền |
+| [Haydn: Giao hưởng số 94, chương 2](haydn-94.md) | Cổ điển | Chủ đề và biến tấu |
+| [Mozart: Giao hưởng số 40, chương 1](mozart-40.md) | Cổ điển | Hình thức sonata |
+| [Beethoven: Giao hưởng số 5](beethoven-5.md) | Cổ điển → Lãng mạn | Phát triển môtip |
+| [Schubert: Erlkönig](schubert-erlkonig.md) | Lãng mạn | Ca khúc nghệ thuật, nhân vật qua âm nhạc |
+| [Chopin: Nocturne Op. 9 số 2](chopin-nocturne.md) | Lãng mạn | Giai điệu được trang trí dần |
+| [Mozart: Nữ hoàng bóng đêm](mozart-nu-hoang-bong-dem.md) | Cổ điển | Opera, giọng coloratura |
+| [Bizet: Habanera](bizet-habanera.md) | Lãng mạn | Opera, tiết tấu và giọng thứ/trưởng |
+| [Tchaikovsky: Hồ thiên nga](tchaikovsky-ho-thien-nga.md) | Lãng mạn | Nhạc ballet, âm sắc nhạc cụ |
+| [Debussy: Clair de lune](debussy-clair-de-lune.md) | Ấn tượng | Không khí, nhịp mơ hồ |
+| [Stravinsky: Le Sacre du printemps](stravinsky-sacre.md) | Thế kỷ 20 | Tiết tấu, trọng âm bất thường |
+| [Pärt: Spiegel im Spiegel](part-spiegel.md) | Đương đại | Tintinnabuli, sự tĩnh lặng |
+
+Thêm tác phẩm của riêng bạn bằng [mẫu ghi chép](mau.md). Đã nghe hết? Xem [Nghe gì tiếp](nghe-gi-tiep.md).
 
 ## Danh sách nghe cho năm đầu tiên
 

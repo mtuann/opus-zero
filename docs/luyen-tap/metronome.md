@@ -11,6 +11,8 @@ Máy đếm nhịp giữ một nhịp đều tuyệt đối để bạn tập v�
 - Bấm **Gõ để đo tốc độ** nhiều lần theo một bản nhạc đang nghe để biết tốc độ của nó.
 - Thời gian dùng máy đếm nhịp (tính theo phút trọn vẹn) được ghi vào nhật ký luyện tập.
 
+Muốn luyện đọc tiết tấu có chấm điểm, dùng [công cụ tiết tấu](tiet-tau.md).
+
 ## Thuật ngữ tốc độ
 
 Các nhà soạn nhạc ghi tốc độ bằng tiếng Ý ở đầu bản nhạc. Khoảng BPM dưới đây chỉ là gần đúng; nghệ sĩ có quyền diễn giải.

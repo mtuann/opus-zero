@@ -2,6 +2,8 @@
 
 Dù chỉ để nghe, việc thử chơi một nhạc cụ ở mức cơ bản sẽ làm bạn nghe nhạc cổ điển sâu hơn hẳn. Ngược lại, nghe nhiều tác phẩm viết cho nhạc cụ mình học giúp bạn biết mình đang hướng tới âm thanh nào.
 
+Mỗi nhạc cụ có một trang riêng với **lộ trình theo cấp độ** và **10 bài đầu tiên** nghe và tập được ngay: [Piano](piano.md), [Violin](violin.md), [Guitar cổ điển](guitar.md). Trước khi bắt đầu, hãy đọc [cách tập hiệu quả](cach-tap.md) và [mua nhạc cụ, chọn giáo viên](mua-dan-chon-thay.md). Toàn bộ lộ trình kết hợp tay và nhạc lý nằm ở [Lộ trình chơi nhạc cụ](../bat-dau/lo-trinh-choi.md).
+
 === "Piano"
 
     Piano là nhạc cụ tốt nhất để hiểu nhạc lý: bạn nhìn thấy và chơi được cả giai điệu lẫn hòa âm cùng lúc, và bàn phím là "bản đồ" trực quan của mọi khái niệm trong site này.

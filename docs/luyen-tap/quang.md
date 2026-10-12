@@ -11,4 +11,4 @@
 - Đầu tiên luyện kiểu **lần lượt, đi lên**. Sau đó thử **đi xuống** và **cùng lúc** — khó hơn nhiều.
 - Gắn mỗi quãng với một giai điệu quen thuộc, xem bảng ở trang [Luyện tai](../luyen-tai/index.md).
 
-Tên quãng như "3 trưởng" hay "5 đúng" sẽ được giải thích đầy đủ ở bài nhạc lý về quãng. Bây giờ chỉ cần nhận ra âm thanh.
+Tên quãng như "3 trưởng" hay "5 đúng" được giải thích đầy đủ ở [bài 9: Quãng](../nhac-ly/09-quang.md). Khi đã quen với quãng, chuyển sang [nhận biết hợp âm](hop-am.md).
