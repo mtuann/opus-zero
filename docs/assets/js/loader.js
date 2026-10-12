@@ -2,7 +2,7 @@
    Các script được tải song song nhưng chạy đúng thứ tự phụ thuộc (async = false). */
 (function () {
   "use strict";
-  const VERSION = "7";
+  const VERSION = "8";
   const me = document.currentScript || document.querySelector('script[src*="assets/js/loader.js"]');
   const BASE = me ? me.src.replace(/loader\.js.*$/, "") : "assets/js/";
   const EXT = { abcjs: "https://cdn.jsdelivr.net/npm/abcjs@6.7.1/dist/abcjs-basic-min.js" };
@@ -35,7 +35,8 @@
     [".oz-spectrum", ["tuner", "mic", "spectrum"]],
     [".oz-plan, .oz-skills", ["plan"]],
     [".oz-flashcards", ["flashcards"]],
-    [".oz-journal, .oz-summary", ["journal"]]
+    [".oz-journal, .oz-summary", ["journal"]],
+    [".oz-data", ["data"]]
   ];
   const requested = {};
   const readyFns = [];

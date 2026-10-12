@@ -14,7 +14,7 @@ Site này là **sổ tay học tập công khai**: mỗi bài là những gì m�
 
 1. Đọc [Bài 0: Trước khi bắt đầu](bai-0.md) và làm [bài kiểm tra đầu vào](kiem-tra-dau-vao.md).
 2. Chọn một trong hai lộ trình: [nghe hiểu](lo-trinh-nghe.md) (khoảng 6 tháng) hoặc [chơi nhạc cụ](lo-trinh-choi.md). Muốn học cả hai, xem [lộ trình 12 tháng](lo-trinh.md).
-3. In [tờ tóm tắt](tom-tat.md) và đọc [hỏi đáp](hoi-dap.md) khi có thắc mắc.
+3. In [tờ tóm tắt](tom-tat.md) (hoặc cả [cuốn sách PDF](sach-in.md)) và đọc [hỏi đáp](hoi-dap.md) khi có thắc mắc.
 4. Đặt [thói quen mỗi ngày](moi-ngay.md).
 5. Song song, chọn một tác phẩm trong [Nghe nhạc](../nghe-nhac/index.md) để nghe mỗi tuần.
 6. Nếu học trên điện thoại, [cài site như một ứng dụng](ung-dung.md) để mở nhanh và dùng khi không có mạng.

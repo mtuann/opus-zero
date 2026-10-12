@@ -4,6 +4,11 @@ Trang này ghi lại những thay đổi lớn của site và quy trình giữ c
 
 ## Nhật ký thay đổi
 
+### 10/2026: Phiên bản 8
+
+- **[Dữ liệu của tôi](luyen-tap/du-lieu.md):** xem dữ liệu đang lưu; tải file sao lưu (có thể kèm bản thu âm); khôi phục kiểu **gộp**, có xem trước, không ghi đè, gộp nhiều lần không bị nhân đôi; xóa tiến độ hoặc bản thu âm. Dùng để chuyển dữ liệu giữa điện thoại và máy tính.
+- **[Sách in được](bat-dau/sach-in.md):** 5 cuốn (nhạc lý cơ bản, nhạc lý nâng cao, tóm tắt và thuật ngữ, lịch sử, hướng dẫn nghe) có bìa, mục lục, khuông nhạc và đáp án; in hoặc lưu PDF từ trình duyệt. Tự tạo lại mỗi lần site cập nhật.
+
 ### 10/2026: Phiên bản 7 (chắc chắn hơn, nhanh hơn, dễ dùng hơn)
 
 - **Nhanh hơn:** mỗi trang chỉ tải công cụ nó dùng. Trước đây mọi trang tải khoảng 754 KB JavaScript; nay một nửa số trang chỉ cần khoảng 25 KB. Menu được thu gọn trong mỗi trang, HTML trung bình giảm từ khoảng 102 KB xuống 47 KB.

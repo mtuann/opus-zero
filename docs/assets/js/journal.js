@@ -56,10 +56,7 @@
       '<div class="oz-checklist"></div>' +
       '<label for="oz-note" class="oz-stats">Ghi chú hôm nay: học được gì, chỗ nào còn khó</label>' +
       '<textarea id="oz-note" placeholder="Ví dụ: đã thuộc các nốt trên dòng kẻ khóa Sol, còn nhầm Rê và Fa ở khe."></textarea>' +
-      '<div class="oz-row"><button class="oz-btn" data-act="export">Tải bản sao lưu (.json)</button>' +
-      '<label class="oz-btn" style="cursor:pointer">Khôi phục từ bản sao lưu<input type="file" accept="application/json" hidden></label>' +
-      '<button class="oz-btn" data-act="reset">Xóa toàn bộ dữ liệu</button></div>' +
-      '<p class="oz-stats">Dữ liệu chỉ lưu trong trình duyệt này. Đổi máy hoặc xóa dữ liệu trình duyệt sẽ mất, nên thỉnh thoảng hãy tải bản sao lưu.</p>';
+      '<p class="oz-stats">Dữ liệu chỉ lưu trong trình duyệt này. Sao lưu, chuyển sang máy khác hoặc xóa: xem <a class="oz-data-link" href="#">Dữ liệu của tôi</a>.</p>';
 
     const streakEl = root.querySelector(".oz-streak");
     const heat = root.querySelector(".oz-heat");
@@ -120,37 +117,8 @@
       clearTimeout(tmr);
       tmr = setTimeout(function () { OZProgress.setNote(note.value); refresh(); }, 400);
     });
-    root.addEventListener("click", function (e) {
-      const b = e.target.closest("button[data-act]");
-      if (!b) return;
-      if (b.dataset.act === "export") {
-        const blob = new Blob([JSON.stringify(OZProgress.load(), null, 2)], { type: "application/json" });
-        const a = document.createElement("a");
-        a.href = URL.createObjectURL(blob);
-        a.download = "opus-zero-" + OZProgress.today() + ".json";
-        document.body.appendChild(a);
-        a.click();
-        a.remove();
-        setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
-      }
-      if (b.dataset.act === "reset" && confirm("Xóa toàn bộ nhật ký luyện tập trong trình duyệt này? Không thể hoàn tác.")) {
-        try { localStorage.removeItem(OZProgress.KEY); } catch (err) { /* bỏ qua */ }
-        refresh();
-      }
-    });
-    root.querySelector('input[type="file"]').addEventListener("change", function (e) {
-      const f = e.target.files && e.target.files[0];
-      if (!f) return;
-      f.text().then(function (txt) {
-        const data = JSON.parse(txt);
-        if (!data || typeof data.days !== "object") throw new Error("bad");
-        OZProgress.save(data);
-        refresh();
-      }).catch(function () {
-        alert("File này không phải bản sao lưu của Opus Zero.");
-      });
-      e.target.value = "";
-    });
+    const dl = root.querySelector(".oz-data-link"), mf = document.querySelector('link[rel="manifest"]');
+    if (dl) dl.href = (mf ? new URL(".", mf.href).href : "../../") + "luyen-tap/du-lieu/";
     document.addEventListener("oz:progress", refresh);
     refresh();
   }

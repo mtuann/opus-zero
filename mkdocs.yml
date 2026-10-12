@@ -50,6 +50,7 @@ theme:
 
 hooks:
   - hooks/search_vi.py
+  - hooks/books.py
 
 plugins:
   - search:
@@ -129,6 +130,7 @@ nav:
       - Lộ trình 12 tháng: bat-dau/lo-trinh.md
       - Thói quen mỗi ngày: bat-dau/moi-ngay.md
       - Tóm tắt một tờ: bat-dau/tom-tat.md
+      - Sách in được (PDF): bat-dau/sach-in.md
       - Hỏi đáp: bat-dau/hoi-dap.md
       - Cài như ứng dụng: bat-dau/ung-dung.md
   - Nhạc lý:
@@ -205,6 +207,7 @@ nav:
           - Máy đếm nhịp: luyen-tap/metronome.md
           - Máy lên dây: luyen-tap/len-day.md
           - Nhật ký luyện tập: luyen-tap/nhat-ky.md
+          - Dữ liệu của tôi: luyen-tap/du-lieu.md
   - Nghe & nhận diện:
       - nghe-nhac/index.md
       - Hướng dẫn nghe:

@@ -72,5 +72,8 @@ Các công cụ dưới đây chạy ngay trong trình duyệt, không cần cà
 [Nhật ký luyện tập](nhat-ky.md)
 :   Chuỗi ngày liên tiếp, bản đồ 16 tuần, danh sách việc hôm nay và ghi chú.
 
+[Dữ liệu của tôi](du-lieu.md)
+:   Xem, sao lưu, chuyển sang máy khác (gộp, không ghi đè) hoặc xóa dữ liệu học và bản thu âm.
+
 !!! info "Về dữ liệu"
-    Mọi dữ liệu luyện tập nằm trong bộ nhớ của trình duyệt (`localStorage`) trên máy bạn, không gửi đi đâu. Mỗi trình duyệt, mỗi thiết bị có dữ liệu riêng. Dùng nút sao lưu trong nhật ký nếu muốn chuyển sang máy khác.
+    Mọi dữ liệu luyện tập nằm trong bộ nhớ của trình duyệt (`localStorage`) trên máy bạn, không gửi đi đâu. Mỗi trình duyệt, mỗi thiết bị có dữ liệu riêng. Muốn chuyển sang máy khác, xem [Dữ liệu của tôi](du-lieu.md).

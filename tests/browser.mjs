@@ -118,9 +118,24 @@ const check = (name, cond, info = "") => { checks.push([name, !!cond]); if (!con
   r.close();
 }
 {
+  /* Trang Dữ liệu của tôi: khởi tạo và hiển thị tóm tắt */
+  const r = await open("luyen-tap/du-lieu/index.html");
+  check("trang Dữ liệu của tôi hiển thị tóm tắt", /ngày có luyện tập/.test(r.d.querySelector(".oz-data-summary").textContent), r.d.querySelector(".oz-data-summary").textContent);
+  r.close();
+}
+{
   const r = await open("luyen-tap/nhat-ky/index.html");
   check("kế hoạch học hiển thị", r.d.querySelectorAll(".oz-plan li").length >= 4);
   check("bảng năng lực ghi nhận lượt đoán phong cách", /\d+%/.test(r.d.querySelector(".oz-skills").textContent));
+  r.close();
+}
+/* ---- Sách in được ---- */
+for (const f of fs.readdirSync(path.join(SITE, "sach"))) {
+  const r = await open("sach/" + f, 600);
+  const abc = r.d.querySelectorAll(".abc-notation").length, svg = r.d.querySelectorAll(".abc-notation svg").length;
+  const ok = !r.errors.length && abc === svg && r.d.body.getAttribute("data-ready") === "1" && r.d.querySelectorAll(".chapter").length > 0
+    && r.d.querySelectorAll(".book-quiz").length === r.d.querySelectorAll(".book-answers").length;
+  check("sách " + f + ": " + abc + " khuông, " + r.d.querySelectorAll(".chapter").length + " chương", ok, r.errors.join(" | ") + ` abc=${abc} svg=${svg}`);
   r.close();
 }
 console.log(`browser: ${checks.length} luồng tương tác, ${checks.filter((c) => !c[1]).length} lỗi`);
