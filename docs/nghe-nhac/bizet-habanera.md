@@ -26,6 +26,12 @@ K:Dm clef=bass
 D,3 D, D,2 D,2 | D,3 D, D,2 D,2 | A,,3 A,, A,,2 A,,2 | D,3 D, D,2 D,2 |]
 ```
 
+## Sơ đồ cấu trúc
+
+<!-- fig:g-habanera -->
+<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>Lời 1</b><small>Carmen</small></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>Điệp khúc</b><small>+ hợp xướng</small></div><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>Lời 2</b><small>Carmen</small></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>Điệp khúc</b><small>+ hợp xướng</small></div></div><figcaption>Habanera: hai lời, mỗi lời theo sau bằng điệp khúc có hợp xướng.</figcaption></figure>
+<!-- /fig:g-habanera -->
+
 ## Nghe kèm bản thu
 
 <div class="oz-listen"></div>

@@ -13,6 +13,18 @@
 - Từ khoảng thế kỷ 9 trở đi, người ta thêm bè thứ hai (*organum*), rồi ba, bốn bè: **phức điệu** ra đời. Trường phái **Notre-Dame** ở Paris (Léonin, Pérotin) khoảng cuối thế kỷ 12 viết những bản organum lớn đầu tiên.
 - Thế kỷ 14 (*Ars nova*): ký âm tiết tấu tinh vi hơn, nhạc thế tục phát triển; Machaut viết một trong những bản thánh lễ đa âm hoàn chỉnh đầu tiên của một tác giả.
 
+Nghe một giai điệu viết theo kiểu thánh ca (do site soạn để minh họa): một bè, không nhịp đều, điệu thức Dorian, nhiều nốt trên một âm tiết:
+
+```abc
+X:1
+L:1/8
+M:none
+Q:1/4=72
+K:D dorian
+D2 F G A2 A B A G A2 | A c B A G F G2 A2 | F G E D C D E F E D2 |]
+```
+
+
 ## Nhạc cụ
 
 Giọng hát là chính. Nhạc cụ thời đó có đàn harp, đàn lute, đàn **vielle** (tổ tiên của các đàn kéo vĩ), sáo, kèn **shawm**, đàn **organ** trong nhà thờ, trống nhỏ.

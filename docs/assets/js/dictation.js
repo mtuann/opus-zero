@@ -40,7 +40,7 @@
     root.addEventListener("click", function (e) {
       const b = e.target.closest("button[data-act]"); if (!b) return;
       const a = b.dataset.act;
-      if (a === "new") { q = gen(Number(ctl("lv").value)); entered = []; checked = false; fb.textContent = "Nghe, rồi nhập " + q.length + " nốt."; fb.className = "oz-feedback"; showInput(); play(); }
+      if (a === "new") { if (window.OZViz) OZViz.clear(fb); q = gen(Number(ctl("lv").value)); entered = []; checked = false; fb.textContent = "Nghe, rồi nhập " + q.length + " nốt."; fb.className = "oz-feedback"; showInput(); play(); }
       if (a === "play") play();
       if (a === "tonic" && window.OZAudio) OZAudio.playNote(60, undefined, 1.2);
       if (a === "undo" && !checked) { entered.pop(); showInput(); }
@@ -54,6 +54,7 @@
         if (window.OZProgress) { if (OZProgress.skill) OZProgress.skill("dictation", ok); if (ok) OZProgress.record("melodies", 1); }
         fb.textContent = (ok ? "Hoàn toàn chính xác! " : "Đúng " + right + "/" + q.length + " nốt. ") + marks.join(" · ");
         fb.className = "oz-feedback " + (ok ? "ok" : "bad");
+        if (window.OZViz) OZViz.show(fb, OZViz.compareRoll(q, entered));
         st.textContent = "Lượt này: " + session.ok + "/" + session.n + " câu chép đúng hoàn toàn.";
       }
     });

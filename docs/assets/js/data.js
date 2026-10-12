@@ -60,6 +60,10 @@
     if (IS.noteStats) { S.noteStats = S.noteStats || {}; Object.keys(IS.noteStats).forEach(function (k) {
       const a = S.noteStats[k] || [0, 0], b = IS.noteStats[k] || [0, 0];
       S.noteStats[k] = (b[0] || 0) > (a[0] || 0) ? b.slice() : a.slice(); }); }
+    /* Lịch sử năng lực theo ngày: mỗi (kỹ năng, ngày) lấy bản có nhiều lượt hơn */
+    if (IS.skillHist) { S.skillHist = S.skillHist || {}; Object.keys(IS.skillHist).forEach(function (k) {
+      const a = S.skillHist[k] = S.skillHist[k] || {}, b = IS.skillHist[k] || {};
+      Object.keys(b).forEach(function (d) { if (!a[d] || (b[d][0] || 0) > (a[d][0] || 0)) a[d] = b[d].slice(); }); }); }
     if (IS.blind) { const a = S.blind || { right: 0, total: 0 }; S.blind = (IS.blind.total || 0) > (a.total || 0) ? IS.blind : a; }
     /* Phiếu nghe mù: nối lại, bỏ bản trùng */
     if (Array.isArray(IS.blindLog)) { S.blindLog = S.blindLog || [];
@@ -75,7 +79,7 @@
       a.marks = a.marks || {}; Object.keys(b.marks || {}).forEach(function (i) { if (a.marks[i] === undefined) a.marks[i] = b.marks[i]; }); }); }
     /* Các khóa khác (ví dụ kết quả kiểm tra đầu vào): giữ của máy này, thêm nếu chưa có */
     Object.keys(IS).forEach(function (k) {
-      if (["lessons", "skills", "cards", "noteStats", "blind", "blindLog", "listen"].indexOf(k) >= 0) return;
+      if (["lessons", "skills", "skillHist", "cards", "noteStats", "blind", "blindLog", "listen"].indexOf(k) >= 0) return;
       if (S[k] === undefined) S[k] = IS[k];
     });
     return { merged: L, report: rep };

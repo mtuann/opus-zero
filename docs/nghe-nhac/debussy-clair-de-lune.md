@@ -15,6 +15,12 @@ Tên tác phẩm ("Ánh trăng") lấy từ bài thơ cùng tên của Paul Verl
 
 Hãy để ý: nhịp **9/8** nhưng đoạn đầu được viết sao cho bạn **khó cảm thấy phách**. Âm nhạc như trôi lơ lửng, không bị nhịp trói buộc.
 
+## Sơ đồ cấu trúc
+
+<!-- fig:g-debussy -->
+<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>A</b><small>rất nhỏ, mơ hồ</small></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>B</b><small>hợp âm rải, dâng lên</small></div><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>A&#x27;</b><small>trở lại, tan dần</small></div></div><figcaption>Clair de lune: ba đoạn.</figcaption></figure>
+<!-- /fig:g-debussy -->
+
 ## Nghe kèm bản thu
 
 <div class="oz-listen"></div>

@@ -62,6 +62,8 @@ overrides/main.html       Thêm manifest và màu chủ đề vào <head>
 hooks/search_vi.py        Tìm kiếm tiếng Việt không dấu
 hooks/books.py            Tạo các sách in được (site/sach/*.html); danh sách chương ở biến BOOKS
 tests/                    Kiểm thử tự động (npm test)
+tools/figures.py          Sinh hình minh họa (SVG, sơ đồ cấu trúc) và chèn vào trang giữa <!-- fig:TÊN -->
+tools/keysigs.mjs         Vẽ sẵn 15 hóa biểu bằng abcjs (chạy: node tools/keysigs.mjs)
 ```
 
 ## JavaScript
@@ -71,6 +73,7 @@ tests/                    Kiểm thử tự động (npm test)
 | `audio.js` | Phát nốt bằng mẫu âm piano thật (Salamander, CC BY 3.0, `docs/assets/samples/piano/`) hoặc âm tổng hợp; nút gốc chung cho phổ âm thanh |
 | `midi.js`, `mic.js`, `assess.js` | Đàn MIDI (Web MIDI), micro dùng chung, chấm cao độ và nhịp |
 | `playalong.js`, `dictation.js`, `recorder.js`, `spectrum.js` | Chơi theo, hát lại, chép giai điệu, thu âm (IndexedDB), phổ âm thanh |
+| `viz.js` | Hình phản hồi dùng chung: piano roll, dải nhịp gõ, bàn phím nhỏ, so sánh chép giai điệu, biểu đồ tiến bộ |
 | `plan.js` | Kế hoạch học tự thích ứng và bảng năng lực |
 | `progress.js` | Lưu tiến độ trong `localStorage` |
 | `theory.js` | Lõi nhạc lý: tên nốt, gam, hợp âm, hóa biểu |
@@ -117,7 +120,8 @@ tests/                    Kiểm thử tự động (npm test)
    `oz-circle`, `oz-rhythm`, `oz-sight`, `oz-piano`, `oz-piano-explorer`, `oz-metronome`, `oz-tuner`,
    `oz-flashcards`, `oz-journal`, `oz-summary`, `oz-scale-trainer`, `oz-build`, `oz-worksheet-gen`, `oz-timeline`.
 7. **Thêm bài vào sách in được:** thêm đường dẫn trang vào danh sách tương ứng trong `hooks/books.py`.
-8. Bài nhật ký học: tạo file trong `docs/blog/posts/` với `date:` ở phần đầu (xem bài mẫu).
+8. **Hình minh họa:** đặt `<!-- fig:TÊN -->` vào trang, định nghĩa hình trong `tools/figures.py`, chạy `python3 tools/figures.py`. Sửa dữ liệu hình (ví dụ âm vực, cấu trúc tác phẩm) cũng chỉ cần sửa ở đó rồi chạy lại.
+9. Bài nhật ký học: tạo file trong `docs/blog/posts/` với `date:` ở phần đầu (xem bài mẫu).
 
 ## Kiểm tra link tự động
 

@@ -18,6 +18,12 @@ Ai viết phần nào? Mozart hoàn thành trọn vẹn **Introitus**; viết c�
 
 **Requiem** (lễ cầu hồn) là thánh lễ Công giáo cho người đã mất, hát bằng tiếng Latin. Đoạn *Dies irae* ("Ngày thịnh nộ") mô tả ngày phán xét cuối cùng.
 
+## Sơ đồ cấu trúc
+
+<!-- fig:g-requiem -->
+<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>Introitus</b></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>Kyrie</b></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>Dies irae</b></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>Tuba mirum</b></div><div class="oz-seg k-b" style="flex:0.8 1 4.6rem"><b>Rex</b></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>Recordare</b></div><div class="oz-seg k-b" style="flex:0.8 1 4.6rem"><b>Confutatis</b></div><div class="oz-seg k-b" style="flex:0.8 1 4.6rem"><b>Lacrimosa</b><small>8 ô nhịp</small></div><div class="oz-seg k-b" style="flex:1.2 1 4.6rem"><b>Offertorium</b></div><div class="oz-seg k-x" style="flex:2.2 1 4.6rem"><b>Sanctus · Benedictus · Agnus Dei</b></div><div class="oz-seg k-c" style="flex:1 1 4.6rem"><b>Communio</b><small>dùng lại nhạc mở đầu</small></div></div><figcaption>Mozart, Requiem: ai viết phần nào? Xanh: Mozart viết trọn. Vàng: Mozart viết bè hát và bè trầm, người khác hoàn thành phối khí (Lacrimosa: chỉ 8 ô nhịp đầu). Xám: chủ yếu Süssmayr. Đỏ: dùng lại nhạc Mozart ở phần mở đầu.</figcaption></figure>
+<!-- /fig:g-requiem -->
+
 ## Nghe kèm bản thu
 
 <div class="oz-listen"></div>

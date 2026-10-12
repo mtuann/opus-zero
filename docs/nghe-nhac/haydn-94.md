@@ -24,6 +24,12 @@ K:C
 C C E E | G G E2 | F F D D | B,B, G,2 |]
 ```
 
+## Sơ đồ cấu trúc
+
+<!-- fig:g-haydn -->
+<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:1.2 1 4.6rem"><b>Chủ đề</b><small>hợp âm bất ngờ</small></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>BT 1</b></div><div class="oz-seg k-c" style="flex:1 1 4.6rem"><b>BT 2</b><small>Đô thứ</small></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>BT 3</b><small>kèn gỗ</small></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>BT 4</b><small>cả dàn nhạc</small></div><div class="oz-seg k-coda" style="flex:0.7 1 4.6rem"><b>Coda</b></div></div><figcaption>Giao hưởng số 94, chương 2: chủ đề và 4 biến tấu.</figcaption></figure>
+<!-- /fig:g-haydn -->
+
 ## Nghe kèm bản thu
 
 <div class="oz-listen"></div>

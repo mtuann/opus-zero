@@ -2,6 +2,21 @@
 (function () {
   "use strict";
 
+  /* Con trỏ: tô sáng nốt đang phát (dùng chung cho mọi khuông có trình phát abcjs) */
+  function cursor() {
+    let lit = [];
+    const off = function () { lit.forEach(function (e) { e.classList.remove("oz-playing"); }); lit = []; };
+    return {
+      onStart: off,
+      onFinished: off,
+      onEvent: function (ev) {
+        off();
+        (ev.elements || []).forEach(function (grp) { (grp || []).forEach(function (e) { if (e && e.classList) { e.classList.add("oz-playing"); lit.push(e); } }); });
+      }
+    };
+  }
+  window.OZAbc = { cursor: cursor };
+
   /* force = true: vẽ lại mọi khuông (khi đổi sáng/tối); ngược lại chỉ vẽ khuông mới */
   function render(force) {
     if (!window.ABCJS) return;
@@ -29,7 +44,7 @@
       }
       if (ABCJS.synth && ABCJS.synth.supportsAudio()) {
         const ctrl = new ABCJS.synth.SynthController();
-        ctrl.load(audioEl, null, { displayPlay: true, displayRestart: true, displayProgress: true });
+        ctrl.load(audioEl, cursor(), { displayPlay: true, displayRestart: true, displayProgress: true });
         ctrl.setTune(visual, false).catch(function () {
           audioEl.textContent = "Không tải được âm thanh. Kiểm tra kết nối mạng rồi tải lại trang.";
         });

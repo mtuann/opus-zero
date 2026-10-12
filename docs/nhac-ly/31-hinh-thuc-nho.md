@@ -4,6 +4,10 @@ Các [hình thức lớn](../hinh-thuc/index.md) như sonata, fugue, rondo đư�
 
 ## Hình thức hai đoạn (binary)
 
+<!-- fig:form-small -->
+<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>‖: A :‖</b><small>giọng chính → giọng át</small></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>‖: B :‖</b><small>đi xa → về giọng chính</small></div></div><figcaption>Hai đoạn: mỗi phần có dấu nhắc lại.</figcaption></figure><figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>‖: A :‖</b><small>→ giọng át</small></div><div class="oz-seg k-b" style="flex:0.8 1 4.6rem"><b>‖: B</b><small>đi xa</small></div><div class="oz-seg k-a" style="flex:0.8 1 4.6rem"><b>A&#x27; :‖</b><small>giọng chính</small></div></div><figcaption>Hai đoạn có tái hiện.</figcaption></figure><figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>A</b><small>trọn vẹn</small></div><div class="oz-seg k-c" style="flex:1 1 4.6rem"><b>B</b><small>tương phản rõ</small></div><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>A</b><small>trọn vẹn</small></div></div><figcaption>Ba đoạn: mỗi đoạn tự kết.</figcaption></figure><figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>Minuet</b><small>‖:a:‖ ‖:b a&#x27;:‖</small></div><div class="oz-seg k-c" style="flex:1 1 4.6rem"><b>Trio</b><small>‖:c:‖ ‖:d c&#x27;:‖</small></div><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>Minuet da capo</b><small>không nhắc lại</small></div></div><figcaption>Minuet và trio: A B A lớn, mỗi khối là hai đoạn có tái hiện.</figcaption></figure>
+<!-- /fig:form-small -->
+
 **A B**, thường với **dấu nhắc lại** cho mỗi phần: ‖: A :‖ ‖: B :‖.
 
 - **Phần A** bắt đầu ở giọng chính và thường **chuyển sang giọng át** (hoặc giọng trưởng song song nếu ở giọng thứ).

@@ -4,6 +4,25 @@ Trang này ghi lại những thay đổi lớn của site và quy trình giữ c
 
 ## Nhật ký thay đổi
 
+### 10/2026: Phiên bản 9 (hình phản hồi và hình chạy theo âm nhạc)
+
+- **Con trỏ chạy trên khuông:** khi bấm phát, nốt đang vang được tô sáng, trên mọi khuông nhạc của site và các ví dụ phong cách.
+- **Phản hồi trực quan khi luyện tập:** chơi theo, hát lại và đọc thị tấu vẽ **piano roll** so cao độ của bạn với nốt đúng; tiết tấu vẽ **dải thời gian** cho thấy từng lần gõ sớm hay muộn; luyện quãng, hợp âm, gam và nhận biết kết hiện **các nốt vừa nghe trên phím đàn**; chép giai điệu hiện **hình so sánh** nốt đúng và nốt bạn chép.
+- **Tiến bộ theo tuần:** trang [Nhật ký](luyen-tap/nhat-ky.md) có biểu đồ độ chính xác 12 tuần cho từng kỹ năng (lịch sử được giữ khi sao lưu và gộp dữ liệu).
+- **Hình cho khái niệm khó:** dẫn bè bốn bè (bài 21), quãng và kiểu chuyển động trong đối âm (bài 22), bản đồ giọng gần (bài 19), kết cấu dạng piano roll (bài 28), hiện tượng phách khi lên dây (Âm học).
+- **Bản đồ nghe chạy theo bản thu:** trong các hướng dẫn nghe, khi phát bản thu YouTube đã ghi mốc, dòng sự kiện đang nghe được tô sáng.
+- Mọi hình phản hồi nằm trong một module nhỏ (`viz.js`, khoảng 14 KB) chỉ tải ở trang cần; không thêm thư viện ngoài.
+
+### 10/2026: Phiên bản 8.2 (minh họa)
+
+Thêm khoảng 50 hình minh họa ở những chỗ hình giúp hiểu rõ hơn chữ, đều in được:
+
+- **Nhạc cụ:** âm vực 17 nhạc cụ và 6 loại giọng so với bàn phím piano; sơ đồ chỗ ngồi dàn nhạc; các nốt trên cần đàn violin và guitar ở thế bấm thứ nhất.
+- **Nhạc lý:** 15 hóa biểu kèm giọng thứ song song; vòng quãng năm bản in được; chuỗi bồi âm trên khuông; 7 điệu thức trên phím trắng; vòng chức năng hòa âm; âm vực bốn bè; hợp âm kèm ký hiệu pop và jazz; Bach Prelude kèm số La Mã; sơ đồ các hình thức nhỏ.
+- **Lịch sử:** dải bảy thời kỳ; biểu đồ vòng đời nhà soạn nhạc; đoạn nhạc mẫu cho từng thời kỳ; thang Hò–Xự–Xang–Xê–Cống.
+- **Nghe nhạc:** sơ đồ cấu trúc cho 18 hướng dẫn nghe; sơ đồ crescendo của Boléro; giải phẫu tên một tác phẩm.
+- Hình được sinh từ dữ liệu bằng `tools/figures.py` và `tools/keysigs.mjs`; kiểm thử tự động báo lỗi nếu hình không khớp dữ liệu.
+
 ### 10/2026: Phiên bản 8.1
 
 - **[Tóm tắt một tờ](bat-dau/tom-tat.md) thiết kế lại thành hai mặt A4** có hình minh họa: bàn phím piano ghi tên nốt (Đô giữa, nửa cung tự nhiên), khóa Sol và khóa Fa ghi tên từng dòng và khe, Đô giữa trên khuông kép, hình nốt và dấu lặng, dấu hóa, hóa biểu, gam, vòng quãng năm, hợp âm ba.

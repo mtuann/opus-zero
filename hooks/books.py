@@ -112,6 +112,16 @@ code {{ font-size: 0.9em; }}
 .admonition, details {{ border-left: 4px solid var(--ink); background: #f6f8fb; padding: 0.4rem 0.8rem; margin: 0.8rem 0; }}
 .admonition-title, summary {{ font-weight: 600; }}
 .oz-fig {{ display: block; width: 100%; height: auto; margin: 0.4rem 0; }} .oz-fig-circle {{ max-width: 70mm; margin: 0.4rem auto; }}
+figure {{ margin: 0.8rem 0 1.1rem; break-inside: avoid; }} figcaption {{ font-size: 0.85em; color: var(--muted); margin-top: 0.25rem; }}
+.oz-fig-wide {{ max-width: 100%; }} .oz-fig-mid {{ max-width: 90mm; }} .oz-print-only {{ display: block; }}
+.oz-form-map {{ display: flex; flex-wrap: wrap; gap: 2px; width: 100%; break-inside: avoid; }}
+.oz-seg {{ display: flex; flex-direction: column; justify-content: center; padding: 0.25rem; min-height: 11mm; border-radius: 4px; font-size: 0.78em; text-align: center; line-height: 1.2; -webkit-print-color-adjust: exact; print-color-adjust: exact; }}
+.oz-seg small {{ font-size: 0.85em; opacity: .8; }} 
+.k-a {{ background: #a9c7e8; }} .k-b {{ background: #f1d9a0; }} .k-c {{ background: #e9b3a6; }} .k-dev {{ background: #c9b6dd; }} .k-cad {{ background: #b6dcc1; }} .k-coda {{ background: #d6d6d6; }} .k-intro, .k-x {{ background: #ececec; }}
+.oz-anatomy {{ display: flex; flex-wrap: wrap; gap: 0.3rem; }} .oz-anatomy span {{ display: flex; flex-direction: column; border-radius: 6px; padding: 0.3rem 0.5rem; -webkit-print-color-adjust: exact; print-color-adjust: exact; }}
+.oz-anatomy i {{ font-style: normal; font-size: 0.75em; }} .p1 {{ background: #a9c7e8; }} .p2 {{ background: #f1d9a0; }} .p3 {{ background: #e9b3a6; }} .p4 {{ background: #c9b6dd; }} .p5 {{ background: #b6dcc1; }} .p6 {{ background: #e3e3e3; }}
+.oz-ks-grid {{ display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.3rem; }} .oz-ks {{ display: flex; flex-direction: column; align-items: center; border: 1px solid var(--line); border-radius: 6px; padding: 0.2rem; font-size: 0.8em; break-inside: avoid; }} .oz-ks-svg {{ width: 100%; height: auto; }} .oz-ks-n {{ align-self: flex-end; font-size: 0.8em; color: var(--muted); }}
+.oz-fig-grid {{ display: grid; grid-template-columns: 1fr 1fr; gap: 0.4rem; }}
 .abc-notation {{ margin: 0.6rem 0 1rem; white-space: pre; font-family: monospace; font-size: 0; }}
 .abc-notation svg {{ font-size: initial; max-width: 100%; }}
 .book-quiz {{ border: 1px solid var(--line); padding: 0.5rem 1rem; margin: 1rem 0; }}

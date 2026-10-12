@@ -14,6 +14,12 @@ Mozart chỉ viết hai bản giao hưởng ở giọng thứ, cả hai đều �
 
 Chương 1 là ví dụ mẫu mực của **[hình thức sonata](../hinh-thuc/index.md#hinh-thuc-sonata)**. Đây là chương để luyện nhận ra ba phần: trình bày, phát triển, tái hiện.
 
+## Sơ đồ cấu trúc
+
+<!-- fig:g-mozart40 -->
+<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:2.4 1 4.6rem"><b>Trình bày</b><small>Sol thứ → Si♭ trưởng</small></div><div class="oz-seg k-x" style="flex:2.4 1 4.6rem"><b>(nhắc lại)</b></div><div class="oz-seg k-dev" style="flex:1.8 1 4.6rem"><b>Phát triển</b><small>chuyển giọng đột ngột</small></div><div class="oz-seg k-a" style="flex:2.6 1 4.6rem"><b>Tái hiện</b><small>cả hai chủ đề ở Sol thứ</small></div><div class="oz-seg k-coda" style="flex:0.5 1 4.6rem"><b>Coda</b></div></div><figcaption>Giao hưởng số 40, chương 1: hình thức sonata.</figcaption></figure>
+<!-- /fig:g-mozart40 -->
+
 ## Nghe kèm bản thu
 
 <div class="oz-listen"></div>

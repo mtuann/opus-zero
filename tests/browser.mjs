@@ -95,6 +95,7 @@ const check = (name, cond, info = "") => { checks.push([name, !!cond]); if (!con
   r.w.OZPlayalong.SONGS.twinkle.notes.forEach((n, i) => { for (let k = t; k < t + n[1] * beat; k += 0.03) if (i !== 6 && feed) feed({ t: k, f: 440 * Math.pow(2, (n[0] - 69) / 12), rms: .1 }); t += n[1] * beat; });
   pa.querySelector('[data-act="stop"]').click();
   check("chơi theo qua micro: 13/14 nốt", /Đúng 13\/14/.test(pa.querySelector(".oz-feedback").textContent), pa.querySelector(".oz-feedback").textContent);
+  check("chơi theo: hiện piano roll cao độ", !!pa.querySelector(".oz-pa-result svg.oz-viz"));
   r.close();
 }
 {
@@ -118,6 +119,35 @@ const check = (name, cond, info = "") => { checks.push([name, !!cond]); if (!con
   r.close();
 }
 {
+  /* Phản hồi trực quan: luyện quãng hiện bàn phím sau khi trả lời đúng; chép giai điệu hiện so sánh */
+  const r = await open("luyen-tap/quang/index.html");
+  const it = r.d.querySelector(".oz-interval-trainer");
+  it.querySelector('[data-act="new"]').click();
+  for (const b of it.querySelectorAll(".oz-answers button")) { b.click(); if (b.classList.contains("is-correct")) break; }
+  check("luyện quãng: hiện bàn phím các nốt vừa nghe", !!it.querySelector(".oz-reveal svg"));
+  it.querySelector('[data-act="new"]').click();
+  check("luyện quãng: câu mới xóa hình cũ", !it.querySelector(".oz-reveal svg"));
+  r.close();
+}
+{
+  const r = await open("luyen-tap/chep-giai-dieu/index.html");
+  const dc = r.d.querySelector(".oz-dictation");
+  dc.querySelector('[data-act="new"]').click();
+  const n = Number(dc.querySelector(".oz-feedback").textContent.match(/(\d+) nốt/)[1]);
+  for (let i = 0; i < n; i++) r.w.OZMidi._emit({ type: "on", midi: 60, t: 0 });
+  dc.querySelector('[data-act="check"]').click();
+  check("chép giai điệu: hiện hình so sánh", !!dc.querySelector(".oz-reveal svg"));
+  r.close();
+}
+{
+  const r = await open("nhan-dien/luyen-nghe/index.html", 400);
+  const ct = r.d.querySelector(".oz-cadence-trainer");
+  ct.querySelector('[data-act="new"]').click();
+  for (const b of ct.querySelectorAll(".oz-answers button")) { b.click(); if (b.classList.contains("is-correct")) break; }
+  check("nhận biết kết: hiện hai hợp âm cuối trên phím đàn", !!ct.querySelector(".oz-reveal svg") && /→/.test(ct.querySelector(".oz-reveal").textContent));
+  r.close();
+}
+{
   /* Trang Dữ liệu của tôi: khởi tạo và hiển thị tóm tắt */
   const r = await open("luyen-tap/du-lieu/index.html");
   check("trang Dữ liệu của tôi hiển thị tóm tắt", /ngày có luyện tập/.test(r.d.querySelector(".oz-data-summary").textContent), r.d.querySelector(".oz-data-summary").textContent);
@@ -127,6 +157,7 @@ const check = (name, cond, info = "") => { checks.push([name, !!cond]); if (!con
   const r = await open("luyen-tap/nhat-ky/index.html");
   check("kế hoạch học hiển thị", r.d.querySelectorAll(".oz-plan li").length >= 4);
   check("bảng năng lực ghi nhận lượt đoán phong cách", /\d+%/.test(r.d.querySelector(".oz-skills").textContent));
+  check("biểu đồ tiến bộ theo tuần hiển thị", r.d.querySelectorAll(".oz-trends .oz-trend svg").length >= 1, r.d.querySelector(".oz-trends").textContent.slice(0, 80));
   r.close();
 }
 /* ---- Sách in được ---- */

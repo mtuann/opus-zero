@@ -105,6 +105,9 @@
     s.ema = s.n === 1 ? (ok ? 0.7 : 0.3) : s.ema * 0.85 + (ok ? 1 : 0) * 0.15;
     s.last = today();
     all[id] = s; data.store.skills = all;
+    /* Lịch sử theo ngày để vẽ biểu đồ tiến bộ: skillHist[kỹ năng][ngày] = [số lượt, số đúng] */
+    const hist = data.store.skillHist || {}, h = hist[id] || {}, d = h[s.last] || [0, 0];
+    h[s.last] = [d[0] + 1, d[1] + (ok ? 1 : 0)]; hist[id] = h; data.store.skillHist = hist;
     save(data);
     document.dispatchEvent(new CustomEvent("oz:progress"));
   }

@@ -29,6 +29,10 @@ Toàn bộ chương 1 được xây dựng từ môtip bốn nốt này: nó b�
 
 ## Bốn chương
 
+<!-- fig:g-beethoven5 -->
+<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-dev" style="flex:1 1 4.6rem"><b>I. Allegro con brio</b><small>Đô thứ · sonata</small></div><div class="oz-seg k-b" style="flex:1.3 1 4.6rem"><b>II. Andante con moto</b><small>La♭ trưởng · biến tấu</small></div><div class="oz-seg k-dev" style="flex:0.9 1 4.6rem"><b>III. Scherzo</b><small>Đô thứ</small></div><div class="oz-seg k-a" style="flex:1.4 1 4.6rem"><b>IV. Allegro</b><small>Đô trưởng</small></div></div><figcaption>Giao hưởng số 5: hành trình từ Đô thứ đến Đô trưởng. Chương III nối thẳng sang chương IV (attacca).</figcaption></figure>
+<!-- /fig:g-beethoven5 -->
+
 | Chương | Chỉ dẫn tốc độ | Giọng | Hình thức |
 |---|---|---|---|
 | 1 | Allegro con brio | Đô thứ | Hình thức sonata |

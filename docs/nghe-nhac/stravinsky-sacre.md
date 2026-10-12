@@ -15,6 +15,12 @@ Ballet mô tả nghi lễ của người Slav cổ: để đón mùa xuân, mộ
 
 Những gì mới mẻ: **tiết tấu** trở thành nhân vật chính; **trọng âm bất thường** không theo phách mạnh; **nghịch tai** được dùng như màu sắc chứ không cần giải quyết; nhịp đổi liên tục (xem [bài 15](../nhac-ly/15-tiet-tau-nang-cao.md)).
 
+## Sơ đồ cấu trúc
+
+<!-- fig:g-stravinsky -->
+<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>Phần 1: Tôn thờ đất mẹ</b><small>Khúc dạo đầu · Điềm báo mùa xuân …</small></div><div class="oz-seg k-dev" style="flex:1 1 4.6rem"><b>Phần 2: Lễ hiến tế</b><small>… Vũ điệu hiến tế</small></div></div><figcaption>Le Sacre du printemps: hai phần.</figcaption></figure>
+<!-- /fig:g-stravinsky -->
+
 ## Nghe kèm bản thu
 
 <div class="oz-listen"></div>

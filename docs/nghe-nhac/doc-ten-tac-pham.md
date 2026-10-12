@@ -6,6 +6,11 @@ Tên một tác phẩm cổ điển thường trông như một mật mã: *Giao
 
 Lấy ví dụ: **Beethoven: Giao hưởng số 5 cung Đô thứ, Op. 67 "Định mệnh"**
 
+<figure class="oz-figure"><div class="oz-anatomy" role="img" aria-label="Tên đầy đủ của Giao hưởng số 5 tách thành các phần: nhà soạn nhạc Beethoven, thể loại Giao hưởng, số thứ tự số 5, giọng cung Đô thứ, số hiệu danh mục Op. 67, biệt danh Định mệnh">
+<span class="p1"><b>Beethoven:</b><i>nhà soạn nhạc</i></span><span class="p2"><b>Giao hưởng</b><i>thể loại</i></span><span class="p3"><b>số 5</b><i>số thứ tự</i></span><span class="p4"><b>cung Đô thứ,</b><i>giọng</i></span><span class="p5"><b>Op. 67</b><i>số hiệu danh mục</i></span><span class="p6"><b>“Định mệnh”</b><i>biệt danh</i></span>
+</div><figcaption>Sáu phần của một tên tác phẩm. Chỉ riêng số hiệu danh mục (Op. 67) đã đủ xác định chính xác tác phẩm.</figcaption></figure>
+
+
 | Phần | Ví dụ | Ý nghĩa |
 |---|---|---|
 | Nhà soạn nhạc | Beethoven | |

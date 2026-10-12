@@ -15,6 +15,18 @@ Phân tích là **ghép tất cả những gì đã học** vào một bản nh�
 
 Mở bản nhạc trên [IMSLP](https://imslp.org/) (tìm "BWV 846") hoặc xem [hướng dẫn nghe](../nghe-nhac/bach-prelude-c.md). Mỗi ô nhịp là **một hợp âm rải**, nên đây là bài tập phân tích hòa âm lý tưởng.
 
+Bốn ô nhịp đầu (mỗi ô một hợp âm rải; chữ phía trên là số La Mã của hợp âm):
+
+```abc
+X:1
+L:1/16
+M:4/4
+Q:1/4=66
+K:C
+"^I"C E G c e G c e C E G c e G c e | "^ii4/2"C D A d f A d f C D A d f A d f | "^V6/5"B, D G d f G d f B, D G d f G d f | "^I"C E G c e G c e C E G c e G c e |]
+```
+
+
 | Ô nhịp | Các nốt (từ bass lên) | Hợp âm | Số La Mã | Ghi chú |
 |---|---|---|---|---|
 | 1 | Đô – Mi – Sol – Đô – Mi | C | **I** | Khẳng định Đô trưởng |

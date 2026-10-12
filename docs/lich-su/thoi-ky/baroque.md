@@ -15,6 +15,23 @@ Khoảng năm 1600, ở Florence và Mantua, người ta muốn hồi sinh kịc
 - Mỗi chương thường giữ **một tâm trạng** (*affect*) từ đầu đến cuối.
 - Giai điệu nhiều trang trí; người biểu diễn được kỳ vọng tự thêm nốt hoa mỹ.
 
+Một đoạn ngắn do site viết theo đặc trưng Baroque: chuyển động móc kép liên tục, chuỗi đi xuống, bè trầm đi đều, láy rền ở kết:
+
+```abc
+X:1
+L:1/16
+M:4/4
+Q:1/4=80
+%%score {1 2}
+V:1 clef=treble
+V:2 clef=bass
+K:G
+[V:1] G2B2 d2g2 f2a2 d2f2 | e2g2 c2e2 d2f2 B2d2 | c2e2 A2c2 B2d2 G2B2 | A4 !trill!A3G G8 |]
+[V:2] G,4 B,4 D,4 D4 | C,4 C4 B,,4 B,4 | A,,4 A,4 G,,4 G,4 | D,4 D4 G,,8 |]
+```
+
+Xem thêm cách nhận diện ở [So sánh các thời kỳ](../../nhan-dien/so-sanh-thoi-ky.md).
+
 ## Nhạc cụ
 
 Họ đàn **violin** thay thế dần họ viol và trở thành trung tâm của dàn nhạc. **Harpsichord** và **organ** là nhạc cụ phím chính (piano mới ra đời khoảng 1700 và chưa phổ biến). Kèn trumpet và horn chưa có van, chỉ chơi được chuỗi bồi âm (xem [Âm học](../../nhac-ly/am-hoc.md)). Dàn nhạc còn nhỏ, chủ yếu là đàn dây.

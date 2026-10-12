@@ -14,6 +14,23 @@ Thời **Khai sáng**: lý trí, sự rõ ràng, tính tự nhiên. Tầng lớp
 - **Sắc thái chuyển dần**: crescendo, diminuendo thay cho to – nhỏ đột ngột.
 - Basso continuo dần biến mất.
 
+Một đoạn ngắn do site viết theo đặc trưng Cổ điển: giai điệu đơn giản, đệm Alberti, hai câu 4 ô nhịp hỏi – đáp:
+
+```abc
+X:1
+L:1/8
+M:4/4
+Q:1/4=112
+%%score {1 2}
+V:1 clef=treble
+V:2 clef=bass
+K:C
+[V:1] E2 G2 c3 B | A2 c2 G4 | F2 A2 E2 G2 | D6 z2 | E2 G2 c3 B | A2 c2 G4 | F2 D2 G2 B,2 | C6 z2 |]
+[V:2] C,G,E,G, C,G,E,G, | F,A,CA, E,G,CG, | F,A,CA, C,G,E,G, | B,,G,D,G, B,,G,D,G, | C,G,E,G, C,G,E,G, | F,A,CA, E,G,CG, | D,F,A,F, G,,D,B,,D, | C,G,E,G, C,4 |]
+```
+
+Xem thêm cách nhận diện ở [So sánh các thời kỳ](../../nhan-dien/so-sanh-thoi-ky.md).
+
 ## Nhạc cụ
 
 **Piano** (fortepiano) thay thế harpsichord. **Dàn nhạc giao hưởng** được chuẩn hóa: bộ dây, từng cặp sáo, oboe, bassoon, horn, trumpet, timpani; **clarinet** gia nhập từ cuối thế kỷ 18. **Tứ tấu đàn dây** trở thành thể loại thính phòng hàng đầu.

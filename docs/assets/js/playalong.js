@@ -85,7 +85,7 @@
       if (r.src === "midi") { const res = OZAssess.assessMidi(r.exp, r.events, r.beat, { octaveFree: ins.octaveFree }); notes = res.notes; if (res.extra) extraTxt = " Bấm thừa " + res.extra + " phím."; }
       else notes = OZAssess.assessPitch(r.exp, r.frames, { octaveFree: ins.octaveFree });
       const sm = OZAssess.summary(notes);
-      out.innerHTML = resultRow(notes);
+      out.innerHTML = resultRow(notes) + (window.OZViz ? OZViz.pianoRoll({ expected: r.exp.map(function (e, i) { return Object.assign({}, e, { status: notes[i].status }); }), frames: r.frames, events: r.events, octaveFree: ins.octaveFree }) : "");
       const missing = notes.filter(function (n) { return n.status === "missing"; }).length;
       fb.textContent = "Đúng " + sm.ok + "/" + sm.total + " nốt (" + sm.pct + "%)." + extraTxt +
         (missing > sm.total / 2 ? (r.src === "mic" ? " Site nghe được rất ít: kiểm tra micro, chơi to hơn, hoặc đeo tai nghe nếu bật nghe mẫu." : " Hãy kiểm tra kết nối đàn.") : (sm.pct === 100 ? " Tuyệt vời! Thử tăng tốc độ." : " Ô màu đỏ: số cent cao (+) hoặc thấp (−) so với nốt đúng; 100 cent = nửa cung."));
@@ -172,6 +172,14 @@
         setTimeout(function () {
           off();
           const got = OZAssess.stablePitch(frames);
+          const voiced = frames.filter(function (f) { return f.f > 0; });
+          if (window.OZViz && voiced.length) {
+            const t0 = voiced[0].t, tEnd = voiced[voiced.length - 1].t;
+            let dd = got === null ? 0 : (got - q.target) * 100;
+            while (dd > 600) dd -= 1200; while (dd < -600) dd += 1200;   /* bỏ qua quãng tám, như phần chấm bên dưới */
+            const st = got === null ? "missing" : (Math.abs(dd) <= 50 ? "ok" : (dd > 0 ? "high" : "low"));
+            OZViz.show(fb, OZViz.pianoRoll({ expected: [{ t0: t0, dur: Math.max(0.5, tEnd - t0), midi: q.target, status: st }], frames: voiced, octaveFree: true }));
+          }
           if (got === null) { fb.textContent = "Site chưa nghe rõ. Hãy hát to và giữ một nốt ổn định, ở nơi yên tĩnh."; fb.className = "oz-feedback bad"; return; }
           let d = Math.round((got - q.target) * 100); while (d > 600) d -= 1200; while (d < -600) d += 1200;
           const ok = Math.abs(d) <= 50;

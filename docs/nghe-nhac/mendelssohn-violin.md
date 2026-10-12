@@ -19,6 +19,12 @@ Mendelssohn phá ba thói quen của concerto Cổ điển (xem [Concerto và ri
 2. **Cadenza được viết sẵn** và đặt **trước phần tái hiện**, thay vì gần cuối chương; nó trở thành cây cầu nối phát triển và tái hiện.
 3. **Ba chương nối liền**: một nốt giữ dài của bassoon nối chương 1 sang chương 2, để khán giả không vỗ tay chen giữa.
 
+## Sơ đồ cấu trúc
+
+<!-- fig:g-mendelssohn -->
+<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:1.2 1 4.6rem"><b>I. Trình bày</b><small>violin vào ngay</small></div><div class="oz-seg k-dev" style="flex:0.8 1 4.6rem"><b>Phát triển</b></div><div class="oz-seg k-cad" style="flex:0.6 1 4.6rem"><b>Cadenza</b><small>trước tái hiện</small></div><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>Tái hiện</b></div><div class="oz-seg k-x" style="flex:0.3 1 4.6rem"><b>→ bassoon</b></div><div class="oz-seg k-b" style="flex:1.4 1 4.6rem"><b>II. Andante</b><small>Đô trưởng</small></div><div class="oz-seg k-x" style="flex:0.3 1 4.6rem"><b>cầu nối</b></div><div class="oz-seg k-c" style="flex:1.5 1 4.6rem"><b>III. Allegro</b><small>Mi trưởng</small></div></div><figcaption>Concerto violin cung Mi thứ: ba chương nối liền.</figcaption></figure>
+<!-- /fig:g-mendelssohn -->
+
 ## Nghe kèm bản thu
 
 <div class="oz-listen"></div>

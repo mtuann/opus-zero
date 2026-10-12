@@ -16,6 +16,12 @@
 
 Bản nhạc ở nhịp **12/8**: bốn phách lớn, mỗi phách chia ba, tạo cảm giác đung đưa nhẹ nhàng.
 
+## Sơ đồ cấu trúc
+
+<!-- fig:g-chopin -->
+<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>A</b></div><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>A</b><small>trang trí</small></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>B</b></div><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>A</b></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>B</b></div><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>A</b></div><div class="oz-seg k-coda" style="flex:1 1 4.6rem"><b>Coda</b><small>cadenza nhỏ</small></div></div><figcaption>Nocturne Op. 9 số 2 (gần đúng).</figcaption></figure>
+<!-- /fig:g-chopin -->
+
 ## Nghe kèm bản thu
 
 <div class="oz-listen"></div>

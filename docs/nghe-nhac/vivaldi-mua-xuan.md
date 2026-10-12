@@ -15,6 +15,12 @@ Mỗi concerto trong *Bốn Mùa* đi kèm một **bài thơ sonnet** mô tả c
 
 Chương 1 viết theo **hình thức ritornello**, hình thức đặc trưng của concerto Baroque: một đoạn nhạc chính do cả dàn nhạc chơi (**ritornello**, "điệp khúc nhỏ") quay lại nhiều lần, xen giữa là các **đoạn độc tấu** của violin.
 
+## Sơ đồ cấu trúc
+
+<!-- fig:g-vivaldi -->
+<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>R</b></div><div class="oz-seg k-b" style="flex:1.1 1 4.6rem"><b>Chim hót</b><small>solo</small></div><div class="oz-seg k-a" style="flex:0.7 1 4.6rem"><b>R</b></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>Suối chảy</b></div><div class="oz-seg k-a" style="flex:0.7 1 4.6rem"><b>R</b></div><div class="oz-seg k-dev" style="flex:1.3 1 4.6rem"><b>Bão</b><small>giọng thứ</small></div><div class="oz-seg k-a" style="flex:0.7 1 4.6rem"><b>R</b><small>giọng thứ</small></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>Chim trở lại</b></div><div class="oz-seg k-a" style="flex:0.8 1 4.6rem"><b>R</b></div></div><figcaption>Mùa xuân, chương 1: hình thức ritornello (R = ritornello của cả dàn nhạc).</figcaption></figure>
+<!-- /fig:g-vivaldi -->
+
 ## Nghe kèm bản thu
 
 <div class="oz-listen"></div>

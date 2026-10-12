@@ -86,4 +86,56 @@ test("đọc link YouTube", () => {
   assert.equal(L.videoId("https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=30"), "dQw4w9WgXcQ");
   assert.equal(L.videoId("không phải link"), null);
 });
+const VZ = load("viz.js").OZViz;
+test("piano roll tô màu theo kết quả chấm", () => {
+  const exp = [{ t0: 0, dur: .5, midi: 60, status: "ok" }, { t0: .5, dur: .5, midi: 62, status: "high" }, { t0: 1, dur: .5, midi: 64, status: "missing" }];
+  const out = VZ.pianoRoll({ expected: exp, frames: [{ t: .1, f: 261.6 }, { t: .6, f: 300 }, { t: .7, f: -1 }] });
+  assert.equal((out.match(/<rect /g) || []).length, 3);
+  assert.ok(out.includes("#2e7d4f") && out.includes("#b3412e") && out.includes("#999"));
+  assert.equal((out.match(/<circle /g) || []).length, 2); /* khung không có tiếng (f = -1) bị bỏ */
+  assert.equal(VZ.pianoRoll({ expected: [] }), "");
+});
+test("dải nhịp: phân loại đúng, sớm, muộn, thừa", () => {
+  const out = VZ.tapStrip({ expected: [1, 2, 3], taps: [1.01, 1.9, 3.1, 3.6], beat: 1, start: 1, beats: 4, tol: 0.15 });
+  assert.ok(out.includes('fill="#2e7d4f"'));   /* 1.01: đúng lúc */
+  assert.ok(out.includes('fill="#2f5582"'));   /* 1.9: sớm */
+  assert.ok(out.includes('fill="#b3412e"'));   /* 3.1: muộn */
+  assert.equal((out.match(/fill="none" stroke="#999"/g) || []).length, 1); /* 3.6: thừa */
+});
+test("bàn phím nhỏ và so sánh chép giai điệu", () => {
+  const k = VZ.miniKeys([60, 64, 67]);
+  assert.equal((k.match(/fill="#e0b45e"/g) || []).length, 3);
+  const c = VZ.compareRoll([60, 62, 64], [60, 65, 64]);
+  assert.equal((c.match(/<circle /g) || []).length, 1); /* chỉ nốt sai mới có chấm đỏ */
+});
+test("biểu đồ tuần cộng dồn đúng", () => {
+  assert.equal(VZ.weekKey("2026-10-14"), "2026-10-12"); /* thứ Tư → thứ Hai cùng tuần */
+  const w = VZ.weekly({ "2026-10-12": [10, 8], "2026-10-15": [10, 10], "2026-10-05": [4, 1], "2025-01-01": [99, 0] }, "2026-10-16", 12);
+  assert.equal(w.length, 12);
+  assert.deepEqual([w[11].n, w[11].c], [20, 18]);
+  assert.deepEqual([w[10].n, w[10].c], [4, 1]);
+  assert.equal(w.reduce((s, x) => s + x.n, 0), 24); /* dữ liệu quá 12 tuần bị bỏ */
+});
+const LS = load("listen.js").OZListen;
+test("bản đồ nghe chọn đúng dòng đang nghe", () => {
+  const marks = { 0: 5, 2: 40, 3: 90 };
+  assert.equal(LS.activeRow(3, marks), -1);
+  assert.equal(LS.activeRow(10, marks), 0);
+  assert.equal(LS.activeRow(39.8, marks), 2); /* cho phép sớm 0,25 giây */
+  assert.equal(LS.activeRow(500, marks), 3);
+});
+{
+  const winA = {}; const ctxA = vm.createContext({ window: winA, document: { querySelectorAll: () => [], addEventListener() {}, body: { }, readyState: "complete" }, MutationObserver: function () { this.observe = () => {}; }, getComputedStyle: () => ({ getPropertyValue: () => "" }), console });
+  vm.runInContext(fs.readFileSync(new URL("../docs/assets/js/abc.js", import.meta.url), "utf8"), ctxA);
+  test("con trỏ khuông bật và tắt đúng nốt", () => {
+    const mk = () => { const set = new Set(); return { classList: { add: (c) => set.add(c), remove: (c) => set.delete(c), has: (c) => set.has(c) } }; };
+    const a = mk(), b = mk(), c = mk(), cur = winA.OZAbc.cursor();
+    cur.onEvent({ elements: [[a, b]] });
+    assert.ok(a.classList.has("oz-playing") && b.classList.has("oz-playing"));
+    cur.onEvent({ elements: [[c]] });
+    assert.ok(!a.classList.has("oz-playing") && c.classList.has("oz-playing"));
+    cur.onFinished();
+    assert.ok(!c.classList.has("oz-playing"));
+  });
+}
 console.log("unit:", n, "nhóm kiểm thử đều đạt");

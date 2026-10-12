@@ -17,6 +17,39 @@ Hai cuộc chiến tranh thế giới, các chế độ toàn trị, khoa học 
 | **Tiên phong sau 1945** | Nhạc chuỗi toàn phần, nhạc điện tử, nhạc ngẫu nhiên | Messiaen, Boulez, Stockhausen, Cage, Ligeti |
 | **Tối giản** | Mẫu ngắn lặp lại, biến đổi rất chậm | Reich, Glass, Riley; "tối giản thần thánh" của Pärt, Górecki |
 
+Hai đoạn ngắn do site viết để nghe sự khác biệt. Ấn tượng: hợp âm trượt song song trên một nốt trầm giữ suốt:
+
+```abc
+X:1
+L:1/4
+M:4/4
+Q:1/4=60
+%%score {1 2}
+V:1 clef=treble
+V:2 clef=bass
+K:C
+[V:1] !pp![DFAc]2 [EGBd]2 | [FAce]2 [EGBd]2 | [DFAc]2 [CEGB]2 | [DFAc]4 |]
+[V:2] C,,4- | C,,4- | C,,4- | C,,4 |]
+```
+
+Xem thêm cách nhận diện ở [So sánh các thời kỳ](../../nhan-dien/so-sanh-thoi-ky.md).
+
+Tối giản: một mẫu ngắn lặp lại, thay đổi từng nốt một:
+
+```abc
+X:1
+L:1/8
+M:4/4
+Q:1/4=132
+%%score {1 2}
+V:1 clef=treble
+V:2 clef=bass
+K:C
+[V:1] e b d' b e b d' b | e b d' b e b d' b | e b d' e' e b d' e' | e b d' e' e b d' e' | e b d' e' ^f' e' d' b | e b d' e' ^f' e' d' b |]
+[V:2] [E,B,]8 | [E,B,]8 | [E,B,]8 | [E,B,]8 | [E,B,]8 | [E,B,]8 |]
+```
+
+
 ## 10 tác phẩm để nghe
 
 1. [Debussy, *Clair de lune*](../../nghe-nhac/debussy-clair-de-lune.md), rồi *Prélude à l'après-midi d'un faune*.

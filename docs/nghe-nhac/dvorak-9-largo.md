@@ -15,6 +15,12 @@ Năm 1892, Dvořák, nhà soạn nhạc Séc nổi tiếng, sang Mỹ làm giám
 
 Giai điệu chính của chương 2 dùng **gam ngũ cung** (xem [bài 16](../nhac-ly/16-dieu-thuc-ngu-cung.md)), nên nghe giản dị như một bài dân ca. Nó giống dân ca đến mức năm 1922, một học trò cũ của Dvořák đặt lời cho nó thành ca khúc *Goin' Home*, và nhiều người tưởng đó là một spiritual cổ.
 
+## Sơ đồ cấu trúc
+
+<!-- fig:g-dvorak -->
+<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-intro" style="flex:0.5 1 4.6rem"><b>Hợp âm mở đầu</b></div><div class="oz-seg k-a" style="flex:2 1 4.6rem"><b>A</b><small>cor anglais, Rê♭ trưởng</small></div><div class="oz-seg k-c" style="flex:1.6 1 4.6rem"><b>B</b><small>Đô♯ thứ</small></div><div class="oz-seg k-dev" style="flex:0.8 1 4.6rem"><b>Đoạn sáng</b><small>chủ đề ch. 1 vang lại</small></div><div class="oz-seg k-a" style="flex:1.2 1 4.6rem"><b>A</b><small>cor anglais</small></div><div class="oz-seg k-coda" style="flex:0.4 1 4.6rem"><b>Kết</b></div></div><figcaption>Giao hưởng số 9, chương 2 (Largo): hình thức ba đoạn.</figcaption></figure>
+<!-- /fig:g-dvorak -->
+
 ## Nghe kèm bản thu
 
 <div class="oz-listen"></div>

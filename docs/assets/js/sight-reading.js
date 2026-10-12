@@ -120,6 +120,7 @@
           }).join("") + "</div>";
           gfb.textContent = "Đúng " + sm.ok + "/" + sm.total + " nốt (" + sm.pct + "%)." + (sm.pct === 100 ? " Xuất sắc!" : " Bấm “Nghe đáp án” để so sánh.");
           gfb.className = "oz-feedback oz-grade " + (sm.pct >= 80 ? "ok" : "bad");
+          if (window.OZViz) gres.innerHTML += OZViz.pianoRoll({ expected: g.exp.map(function (e, i) { return Object.assign({}, e, { status: notes[i].status }); }), frames: g.frames, events: g.events, octaveFree: oct });
           if (window.OZProgress && OZProgress.skill) OZProgress.skill("sight", sm.pct >= 80);
           if (window.OZProgress) OZProgress.record("melodies", 1);
         }, (t - c.currentTime + 0.5) * 1000);

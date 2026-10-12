@@ -15,6 +15,12 @@
 
 Buổi công diễn thành công vang dội; khán giả vỗ tay rất lâu, có người khóc. Một nhà báo mô tả tác phẩm là *"câu trả lời sáng tạo của một nghệ sĩ Xô viết trước lời phê phán đúng đắn"*, và Shostakovich không phản bác. Nhưng câu hỏi lớn vẫn còn đến hôm nay: đoạn kết hân hoan ở **Rê trưởng** là chiến thắng thật, hay một **niềm vui bị ép buộc**, châm biếm kín đáo? Âm nhạc của ông thường mang hai lớp nghĩa như vậy.
 
+## Sơ đồ cấu trúc
+
+<!-- fig:g-shosta5 -->
+<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-dev" style="flex:1.3 1 4.6rem"><b>I. Moderato</b><small>Rê thứ</small></div><div class="oz-seg k-b" style="flex:0.7 1 4.6rem"><b>II. Allegretto</b><small>La thứ</small></div><div class="oz-seg k-c" style="flex:1.2 1 4.6rem"><b>III. Largo</b><small>Fa♯ thứ · không có kèn đồng</small></div><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>IV. Allegro non troppo</b><small>Rê thứ → Rê trưởng</small></div></div><figcaption>Giao hưởng số 5: bốn chương.</figcaption></figure>
+<!-- /fig:g-shosta5 -->
+
 ## Nghe kèm bản thu
 
 <div class="oz-listen"></div>

@@ -366,3 +366,60 @@
   .oz-sheet table { font-size: 8pt !important; margin: 0.2rem 0; }
   .oz-fig-circle { max-width: 62mm; }
 }
+
+/* ---------- Hình minh họa ---------- */
+.md-typeset .oz-figure { margin: 1rem 0 1.4rem; }
+.md-typeset .oz-figure figcaption { font-size: 0.68rem; color: var(--md-default-fg-color--light); margin-top: 0.3rem; max-width: none; text-align: left; }
+.oz-fig-wide { max-width: 720px; }
+.oz-fig-mid { max-width: 380px; }
+.oz-print-only { display: none; }
+/* Sơ đồ cấu trúc tác phẩm */
+.oz-form-map { display: flex; flex-wrap: wrap; gap: 2px; width: 100%; }
+/* Ô rộng theo tỉ lệ nhưng không hẹp hơn 4.6rem; quá chật thì xuống dòng thay vì bẻ chữ */
+.oz-seg { display: flex; flex-direction: column; justify-content: center; min-height: 2.8rem; padding: 0.3rem 0.35rem; border-radius: 5px; color: #1b1b1b; font-size: 0.66rem; line-height: 1.25; text-align: center; }
+.oz-seg b { font-size: 0.72rem; hyphens: auto; }
+.oz-seg small { opacity: 0.8; font-size: 0.6rem; }
+.oz-seg.k-a { background: #a9c7e8; } .oz-seg.k-b { background: #f1d9a0; } .oz-seg.k-c { background: #e9b3a6; }
+.oz-seg.k-dev { background: #c9b6dd; } .oz-seg.k-cad { background: #b6dcc1; } .oz-seg.k-coda { background: #d6d6d6; }
+.oz-seg.k-intro { background: #e3e3e3; } .oz-seg.k-x { background: #ececec; color: #444; }
+/* Giải phẫu tên tác phẩm */
+.oz-anatomy { display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: stretch; }
+.oz-anatomy span { display: flex; flex-direction: column; border-radius: 8px; padding: 0.35rem 0.6rem; color: #1b1b1b; }
+.oz-anatomy b { font-size: 0.9rem; } .oz-anatomy i { font-style: normal; font-size: 0.62rem; opacity: 0.8; }
+.oz-anatomy .p1 { background: #a9c7e8; } .oz-anatomy .p2 { background: #f1d9a0; } .oz-anatomy .p3 { background: #e9b3a6; }
+.oz-anatomy .p4 { background: #c9b6dd; } .oz-anatomy .p5 { background: #b6dcc1; outline: 2px solid #2e7d4f; } .oz-anatomy .p6 { background: #e3e3e3; }
+@media print {
+  .oz-print-only { display: block !important; }
+  .oz-figure, .oz-form-map { break-inside: avoid; }
+  .oz-seg, .oz-anatomy span { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+/* Lưới hóa biểu */
+.oz-ks-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); gap: 0.5rem 0.6rem; }
+.oz-ks { display: flex; flex-direction: column; align-items: center; text-align: center; border: 1px solid var(--md-default-fg-color--lightest); border-radius: 8px; padding: 0.2rem 0.3rem 0.35rem; break-inside: avoid; }
+.oz-ks-svg { width: 100%; height: auto; color: var(--md-default-fg-color); }
+.oz-ks b { font-size: 0.68rem; } .oz-ks small { font-size: 0.6rem; color: var(--md-default-fg-color--light); }
+.oz-ks-n { align-self: flex-end; font-size: 0.6rem; color: var(--md-default-fg-color--light); }
+@media print {
+  /* Công cụ tương tác không in được: ẩn luôn tiêu đề của nó */
+  .md-typeset h2#nghe-kem-ban-thu, .oz-listen { display: none !important; }
+}
+
+/* ---------- Hình phản hồi và hình chạy theo âm nhạc ---------- */
+.oz-viz { display: block; width: 100%; max-width: 680px; height: auto; margin: 0.4rem 0; color: var(--md-default-fg-color); }
+.oz-reveal:empty { display: none; }
+.oz-reveal { margin: 0.4rem 0 0.6rem; }
+.oz-reveal .oz-viz { max-width: 360px; }
+.oz-pa-result .oz-viz, .oz-grade-result .oz-viz, .oz-reveal svg[aria-label^="Piano roll"], .oz-reveal svg[aria-label^="Dải thời gian"] { max-width: 680px; }
+.oz-viz-legend { font-size: 0.65rem; color: var(--md-default-fg-color--light); margin: 0 0 0.4rem; }
+/* Con trỏ chạy trên khuông khi phát */
+.abc-notation .oz-playing, .abc-notation .oz-playing path, .oz-ex-staff .oz-playing, .oz-ex-staff .oz-playing path { fill: var(--md-accent-fg-color) !important; stroke: var(--md-accent-fg-color) !important; }
+/* Dòng đang nghe trong bảng mốc */
+.md-typeset tr.oz-now td { background: color-mix(in srgb, var(--md-accent-fg-color) 18%, transparent); transition: background 0.3s; }
+.md-typeset tr.oz-now td:first-child { box-shadow: inset 3px 0 0 var(--md-accent-fg-color); }
+/* Biểu đồ tiến bộ */
+.oz-trends-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.6rem 1rem; }
+.oz-trend b { font-size: 0.75rem; } .oz-trend small { font-size: 0.62rem; color: var(--md-default-fg-color--light); }
+.oz-trend .oz-viz { margin: 0.1rem 0 0; }
+/* Lưới hình nhỏ (kết cấu) */
+.oz-fig-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.6rem; }
+@media (prefers-reduced-motion: reduce) { .md-typeset tr.oz-now td { transition: none; } }

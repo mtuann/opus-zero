@@ -31,6 +31,13 @@
     return (h ? h + ":" + String(m).padStart(2, "0") : m) + ":" + String(s).padStart(2, "0");
   }
 
+  /* Dòng đang nghe: mốc gần nhất không muộn hơn thời điểm đang phát (cho phép sớm 0,25 giây) */
+  function activeRow(t, marks) {
+    let best = -1, bt = -1;
+    Object.keys(marks).forEach(function (i) { const v = marks[i]; if (v <= t + 0.25 && v > bt) { bt = v; best = Number(i); } });
+    return best;
+  }
+
   function findTable(root) {
     const article = root.closest("article") || document;
     const heads = article.querySelectorAll("h2");
@@ -105,6 +112,21 @@
     renderCells();
     if (!cells.length) fb.textContent = "Trang này không có bảng mốc thời gian; bạn vẫn có thể nghe bản thu ở đây.";
 
+    /* Bản đồ nghe chạy theo bản thu: tô sáng dòng có mốc gần nhất trước thời điểm đang phát.
+       Chỉ chạy khi có trình phát, dừng khi rời trang; mỗi 400 ms chỉ đổi lớp CSS nếu dòng thay đổi. */
+    let timer = 0, current = -1;
+    function follow() {
+      clearInterval(timer);
+      timer = setInterval(function () {
+        if (!root.isConnected) { clearInterval(timer); return; }
+        if (!player || !player.getCurrentTime) return;
+        const marks = mine().marks || {};
+        const r = Object.keys(marks).length ? activeRow(player.getCurrentTime(), marks) : -1;
+        if (r === current) return;
+        current = r;
+        cells.forEach(function (c) { c.tr.classList.toggle("oz-now", c.i === r); });
+      }, 400);
+    }
     function load() {
       const id = videoId(input.value);
       if (!id) { fb.textContent = "Link chưa đúng. Hãy dán link YouTube dạng youtube.com/watch?v=… hoặc youtu.be/…"; fb.className = "oz-feedback bad"; return; }
@@ -117,7 +139,7 @@
           host: "https://www.youtube-nocookie.com",
           videoId: id, width: "100%", height: "100%",
           playerVars: { rel: 0, modestbranding: 1 },
-          events: { onReady: function () { fb.textContent = "Sẵn sàng. Bấm phát rồi “Ghi mốc” khi nghe thấy từng sự kiện."; fb.className = "oz-feedback ok"; } }
+          events: { onReady: function () { fb.textContent = "Sẵn sàng. Bấm phát rồi “Ghi mốc” khi nghe thấy từng sự kiện. Dòng đang nghe sẽ được tô sáng theo các mốc đã ghi."; fb.className = "oz-feedback ok"; follow(); } }
         });
       }).catch(function () { fb.textContent = "Không tải được trình phát YouTube. Kiểm tra kết nối mạng."; fb.className = "oz-feedback bad"; });
     }
@@ -144,7 +166,7 @@
     input.addEventListener("keydown", function (e) { if (e.key === "Enter") load(); });
   }
 
-  window.OZListen = { videoId: videoId, fmt: fmt };
+  window.OZListen = { videoId: videoId, fmt: fmt, activeRow: activeRow };
   function init() { document.querySelectorAll(".oz-listen").forEach(mount); }
   (window.OZReady || function (f) { document.addEventListener("DOMContentLoaded", f); })(init);
 })();

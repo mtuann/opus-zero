@@ -50,6 +50,7 @@
       const items = SETS[ctl("set").value].items;
       q = { t: items[Math.floor(Math.random() * items.length)], root: 55 + Math.floor(Math.random() * 8), done: false };
       first = true; fb.textContent = "Gam gì đây?"; fb.className = "oz-feedback";
+      if (window.OZViz) OZViz.clear(fb);
       answers.querySelectorAll("button").forEach(function (b) { b.classList.remove("is-correct", "is-wrong"); b.disabled = false; });
       play();
     }
@@ -58,6 +59,7 @@
       if (b.dataset.t === q.t) {
         q.done = true; if (first) { session.total++; session.right++; if (window.OZProgress && OZProgress.skill) OZProgress.skill("scales", true); }
         b.classList.add("is-correct"); fb.textContent = "Đúng: " + S[q.t].name.toLowerCase() + "."; fb.className = "oz-feedback ok";
+        if (window.OZViz) { const up = mids(); OZViz.show(fb, OZViz.miniKeys(up.slice(0, up.length > 9 ? Math.ceil(up.length / 2) : up.length), { label: "Các nốt của gam vừa nghe (đi lên)" })); }
         if (window.OZProgress) OZProgress.record("scales", 1);
       } else {
         if (first) { session.total++; first = false; if (window.OZProgress && OZProgress.skill) OZProgress.skill("scales", false); }

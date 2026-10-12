@@ -75,6 +75,7 @@
     }
 
     function newQ() {
+      if (window.OZViz) OZViz.clear(feedback);
       const set = SETS[ctl("set").value];
       const n = set[Math.floor(Math.random() * set.length)];
       q = { n: n, root: 55 + Math.floor(Math.random() * 13), done: false }; /* gốc từ G3 đến G4 */
@@ -96,6 +97,7 @@
         if (window.OZProgress) OZProgress.record("intervals", 1);
         feedback.textContent = "Đúng, quãng " + NAMES[q.n] + " (" + q.n + " nửa cung). Bấm “Câu mới” để tiếp tục.";
         feedback.className = "oz-feedback ok";
+        if (window.OZViz) OZViz.show(feedback, OZViz.miniKeys([q.root, q.root + q.n], { label: "Hai nốt vừa nghe trên phím đàn" }));
       } else {
         if (firstTry) { session.total++; firstTry = false; if (window.OZProgress && OZProgress.skill) OZProgress.skill("intervals", false); }
         b.classList.add("is-wrong");

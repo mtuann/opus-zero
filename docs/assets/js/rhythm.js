@@ -83,7 +83,7 @@
       bars.forEach(function (bar) { bar.forEach(function (x) { if (x[1]) list.push(t / 12); t += x[0]; }); });
       return list;
     }
-    function fresh() { bars = gen(Number(ctl("level").value), 2); draw(); fb.textContent = "Đọc tiết tấu, bấm “Bắt đầu gõ”, nghe 4 tiếng đếm vào rồi gõ theo."; fb.className = "oz-feedback"; }
+    function fresh() { if (window.OZViz) OZViz.clear(fb); bars = gen(Number(ctl("level").value), 2); draw(); fb.textContent = "Đọc tiết tấu, bấm “Bắt đầu gõ”, nghe 4 tiếng đếm vào rồi gõ theo."; fb.className = "oz-feedback"; }
 
     function schedule(withNotes, withClicks) {
       const c = OZAudio.getCtx(); if (!c) return null;
@@ -113,7 +113,7 @@
     }
     function finish() {
       if (!run) return;
-      const s = run.s, taps = run.taps.slice();
+      const s = run.s, taps = run.taps.slice(), allTaps = run.taps.slice();
       run = null; tapBtn.classList.remove("live");
       const expected = onsets().map(function (o) { return s.start + o * s.beat; });
       const tol = Math.min(0.15, s.beat * 0.3);
@@ -130,7 +130,8 @@
       fb.textContent = (good ? "Chính xác! " : "") + "Gõ trúng " + hit + "/" + expected.length + " nốt" + (extra ? ", gõ thừa " + extra + " lần" : "") + (offs.length ? ", " + tendency : "") + "." + (good ? " Bấm “Tiết tấu mới” để tiếp tục." : " Bấm “Nghe mẫu” rồi thử lại.");
       fb.className = "oz-feedback " + (good ? "ok" : "bad");
       if (good && window.OZProgress) OZProgress.record("rhythms", 1);
-      if (window.OZProgress && OZProgress.skill) OZProgress.skill("rhythm", good); 
+      if (window.OZProgress && OZProgress.skill) OZProgress.skill("rhythm", good);
+      if (window.OZViz) OZViz.show(fb, OZViz.tapStrip({ expected: expected, taps: allTaps, beat: s.beat, start: s.start, beats: 8, tol: tol }));
     }
 
     root.addEventListener("click", function (e) {

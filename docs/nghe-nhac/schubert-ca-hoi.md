@@ -15,6 +15,12 @@ Ngũ tấu được viết theo đề nghị của Sylvester Paumgartner, một 
 
 Tác phẩm có **5 chương** (thay vì 4 thông thường). Chương 4 là một bộ **biến tấu** (xem [Chủ đề và biến tấu](../hinh-thuc/bien-tau.md)) trên giai điệu ca khúc *Con cá hồi*. Trong ca khúc gốc, người kể chuyện vui vẻ ngắm con cá hồi tung tăng dưới suối, cho đến khi một người câu cá làm đục nước để bắt nó.
 
+## Sơ đồ cấu trúc
+
+<!-- fig:g-trout -->
+<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>Chủ đề</b><small>đàn dây</small></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>BT 1</b><small>piano</small></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>BT 2</b><small>viola</small></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>BT 3</b><small>cello + bass</small></div><div class="oz-seg k-c" style="flex:1 1 4.6rem"><b>BT 4</b><small>Rê thứ</small></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>BT 5</b><small>cello, Si♭</small></div><div class="oz-seg k-coda" style="flex:1.2 1 4.6rem"><b>Allegretto</b><small>đệm của ca khúc gốc</small></div></div><figcaption>Ngũ tấu Con cá hồi, chương 4: ai chơi giai điệu?</figcaption></figure>
+<!-- /fig:g-trout -->
+
 ## Nghe kèm bản thu
 
 <div class="oz-listen"></div>

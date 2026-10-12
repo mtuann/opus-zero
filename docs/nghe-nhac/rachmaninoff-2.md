@@ -15,6 +15,12 @@ Năm 1897, Giao hưởng số 1 của Rachmaninoff công diễn thất bại n�
 
 Rachmaninoff là nghệ sĩ piano với đôi bàn tay rất lớn; những hợp âm rộng trong concerto này là thử thách thật sự với nhiều người chơi.
 
+## Sơ đồ cấu trúc
+
+<!-- fig:g-rach2 -->
+<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-dev" style="flex:1.2 1 4.6rem"><b>I. Moderato</b><small>Đô thứ · 8 hợp âm chuông</small></div><div class="oz-seg k-b" style="flex:1.1 1 4.6rem"><b>II. Adagio sostenuto</b><small>Mi trưởng</small></div><div class="oz-seg k-a" style="flex:1.2 1 4.6rem"><b>III. Allegro scherzando</b><small>Đô thứ → Đô trưởng</small></div></div><figcaption>Concerto piano số 2: ba chương.</figcaption></figure>
+<!-- /fig:g-rach2 -->
+
 ## Nghe kèm bản thu
 
 <div class="oz-listen"></div>

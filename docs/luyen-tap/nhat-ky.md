@@ -8,6 +8,10 @@ Mỗi ô vuông là một ngày; màu càng đậm là ngày luyện tập càng
 
 <div class="oz-plan"></div>
 
+## Tiến bộ theo tuần
+
+<div class="oz-trends"></div>
+
 ## Năng lực từng kỹ năng
 
 Độ chính xác gần đây được tính theo các lần trả lời gần nhất (lần mới quan trọng hơn lần cũ). Kỹ năng mờ sẽ mở khi bạn học xong bài lý thuyết tương ứng.

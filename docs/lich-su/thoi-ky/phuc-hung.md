@@ -13,6 +13,22 @@ Cuối thế kỷ 16, cuộc **Cải cách Tin lành** và **Phản Cải cách*
 - Âm nhạc gắn chặt với **lời**: nhà soạn nhạc "vẽ chữ" (*word painting*), ví dụ giai điệu đi lên ở chữ "thiên đàng", đi xuống ở chữ "xuống".
 - Vẫn chủ yếu dùng điệu thức, nhưng đã nghe ra cảm giác trưởng – thứ ngày càng rõ.
 
+Hai bè độc lập, chỉ dùng quãng thuận, bắt đầu và kết bằng quãng đúng: kiểu đối âm mà các nhà soạn nhạc Phục hưng dùng (ví dụ từ [bài 22](../../nhac-ly/22-doi-am.md)):
+
+```abc
+X:1
+L:1/1
+M:2/2
+Q:1/2=100
+%%score (V1 V2)
+V:V1 clef=treble
+V:V2 clef=treble
+K:C
+[V:V1] A | d | c | d | B | d | c | e | d | ^c | d |]
+[V:V2] D | F | E | D | G | F | A | G | F | E | D |]
+```
+
+
 ## Thể loại chính
 
 - **Thánh lễ** (mass) và **motet**: nhạc nhà thờ đa âm.

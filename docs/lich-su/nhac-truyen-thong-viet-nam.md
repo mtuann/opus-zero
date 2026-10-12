@@ -19,6 +19,22 @@ Không truyền thống nào "tiến bộ" hơn. Nhạc phương Tây phát tri�
 
 Điều thú vị: nhạc Baroque cũng từng như vậy. Nghệ sĩ thời Bach và Vivaldi **ứng tác trang trí** trên giai điệu, và bè trầm số chỉ ghi bộ khung hòa âm (xem [Đọc tên tác phẩm và bản thu](../nghe-nhac/doc-ten-tac-pham.md) về phong cách biểu diễn lịch sử). Cadenza trong concerto Mozart vốn cũng được ứng tác.
 
+## Thang năm âm: Hò, Xự, Xang, Xê, Cống
+
+Các tên trong ký âm nhạc tài tử, theo cách đối chiếu phổ biến với Đô di động (cao độ thật tùy từng hơi và người chơi; nhiều âm được nhấn, rung, không đứng yên như trên phím đàn):
+
+```abc
+X:1
+L:1/4
+M:none
+K:C
+C D F G A c |]
+w: Hò Xự Xang Xê Cống Liu
+w: Đô Rê Fa Sol La Đô
+```
+
+Thang này cùng các nốt với gam ngũ cung (xem [bài 16](../nhac-ly/16-dieu-thuc-ngu-cung.md)).
+
 ## Nhạc cụ: những người họ hàng xa
 
 | Nhạc cụ Việt | Cách tạo âm | Gần giống ở phương Tây | Điểm riêng |

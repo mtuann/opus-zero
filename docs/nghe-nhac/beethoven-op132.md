@@ -17,6 +17,12 @@ Mùa xuân năm 1825, khi đang viết tứ tấu này, Beethoven ốm nặng v�
 
 Đây là một trong năm tứ tấu cuối cùng của Beethoven, những tác phẩm mà nhiều nhạc sĩ coi là đỉnh cao của toàn bộ âm nhạc phương Tây. Chúng không dễ nghe; chương này là cửa vào tốt nhất.
 
+## Sơ đồ cấu trúc
+
+<!-- fig:g-op132 -->
+<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:1.2 1 4.6rem"><b>A</b><small>thánh ca, Lydian</small></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>B</b><small>“sức lực mới”, Rê trưởng</small></div><div class="oz-seg k-a" style="flex:1.2 1 4.6rem"><b>A&#x27;</b></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>B&#x27;</b></div><div class="oz-seg k-a" style="flex:1.4 1 4.6rem"><b>A&#x27;&#x27;</b><small>“cảm xúc sâu thẳm nhất”</small></div></div><figcaption>Tứ tấu Op. 132, chương 3.</figcaption></figure>
+<!-- /fig:g-op132 -->
+
 ## Nghe kèm bản thu
 
 <div class="oz-listen"></div>

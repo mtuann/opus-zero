@@ -15,6 +15,12 @@ Brahms là nhà soạn nhạc Lãng mạn **nhìn về quá khứ** hơn ai hế
 
 Chủ đề 8 ô nhịp được Brahms phỏng theo bè trầm trong chaconne kết thúc **cantata BWV 150** của Bach. Từ chủ đề đó, Brahms viết **30 biến tấu và một coda**. Mỗi biến tấu dài đúng 8 ô nhịp, vậy mà âm nhạc không hề đơn điệu.
 
+## Sơ đồ cấu trúc
+
+<!-- fig:g-brahms4 -->
+<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>Chủ đề</b></div><div class="oz-seg k-b" style="flex:11 1 4.6rem"><b>BT 1–11</b><small>Mi thứ</small></div><div class="oz-seg k-c" style="flex:1.2 1 4.6rem"><b>BT 12</b><small>sáo</small></div><div class="oz-seg k-c" style="flex:3 1 4.6rem"><b>BT 13–15</b><small>Mi trưởng</small></div><div class="oz-seg k-dev" style="flex:15 1 4.6rem"><b>BT 16–30</b><small>Mi thứ, dồn dập</small></div><div class="oz-seg k-coda" style="flex:2 1 4.6rem"><b>Coda</b></div></div><figcaption>Giao hưởng số 4, chương 4: chủ đề 8 ô nhịp và 30 biến tấu (độ dài các ô gần đúng theo số biến tấu).</figcaption></figure>
+<!-- /fig:g-brahms4 -->
+
 ## Nghe kèm bản thu
 
 <div class="oz-listen"></div>

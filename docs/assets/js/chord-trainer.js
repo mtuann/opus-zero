@@ -54,6 +54,7 @@
       first = true;
       answers.querySelectorAll("button").forEach(function (b) { b.classList.remove("is-correct", "is-wrong"); b.disabled = false; });
       fb.textContent = "Hợp âm gì đây?"; fb.className = "oz-feedback";
+      if (window.OZViz) OZViz.clear(fb);
       play();
     }
     answers.addEventListener("click", function (e) {
@@ -67,6 +68,7 @@
         const names = OZTheory.chord({ l: 0, a: 0, o: 4 }, q.t).length;
         fb.textContent = "Đúng: " + C[q.t].name.toLowerCase() + " (" + names + " nốt). Bấm “Câu mới” để tiếp tục.";
         fb.className = "oz-feedback ok";
+        if (window.OZViz) OZViz.show(fb, OZViz.miniKeys(C[q.t].tones.map(function (x) { return q.root + x[1]; }), { label: "Các nốt của hợp âm vừa nghe" }));
       } else {
         if (first) { session.total++; first = false; if (window.OZProgress && OZProgress.skill) OZProgress.skill("chords", false); }
         b.classList.add("is-wrong"); b.disabled = true;

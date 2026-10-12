@@ -23,6 +23,18 @@ Nhiều người đến với nhạc cổ điển từ guitar đệm hát hoặc
 | **C/E** | C over E | Mi ở bè trầm | **Đảo 1** (bè trầm số: 6) |
 | **C/G** | C over G | Sol ở bè trầm | **Đảo 2** (6/4) |
 
+Nghe và nhìn các hợp âm trong bảng:
+
+```abc
+X:1
+L:1/2
+M:none
+K:C
+"C"[CEG]2 | "Cm"[C_EG]2 | "C7"[CEG_B]2 | "Cmaj7"[CEGB]2 | "Cm7"[C_EG_B]2 |
+"Cø"[C_E_G_B]2 | "C°7"[C_E_G__B]2 | "Csus4"[CFG]2 | "Cadd9"[CEGd]2 | "C/E"[EGc]2 |]
+```
+
+
 ## Số La Mã và "số Nashville"
 
 Nhạc cổ điển dùng **số La Mã** (I, ii, V7…) để chỉ chức năng; nhạc sĩ phòng thu ở Nashville dùng **số Ả Rập** (1, 2m, 5…) với cùng ý tưởng. Cả hai cho phép **dịch giọng** ngay lập tức: vòng 1 – 5 – 6m – 4 ở Đô trưởng là C – G – Am – F, ở Sol trưởng là G – D – Em – C.

@@ -26,6 +26,8 @@ function gen() {
   for (let i = 0; i < rnd() * 4; i++) store.blindLog.push({ d: date(), t: pick(["Bach", "Mozart", "Chopin"]), gp: pick(["baroque", "classical"]), ge: "solo", gc: "", ap: "baroque" });
   if (rnd() < .5) store.listen["/opus-zero/nghe-nhac/ravel-bolero/"] = { url: rnd() < .5 ? "https://youtu.be/abcdefghijk" : "", marks: { 0: 5, 2: Math.floor(rnd() * 99) } };
   if (rnd() < .3) store.placement = { done: true };
+  store.skillHist = {};
+  for (const sk of ["notes", "rhythm"]) if (rnd() < .7) { store.skillHist[sk] = {}; for (let i = 0; i < 1 + rnd() * 5; i++) { const n = Math.floor(rnd() * 20); store.skillHist[sk][date()] = [n, Math.floor(rnd() * (n + 1))]; } }
   return { days, store };
 }
 const numbers = (p) => Object.fromEntries(Object.entries(p.days).map(([d, x]) => [d, [x.notes || 0, x.intervals || 0, x.minutes || 0]]));
@@ -49,6 +51,7 @@ for (let i = 0; i < 300; i++) {
     for (const b of p.store.blindLog) assert.ok(a.store.blindLog.some((x) => x.d === b.d && x.t === b.t && x.gp === b.gp));
     for (const [c, v] of Object.entries(p.store.cards)) assert.ok(a.store.cards[c].box >= v.box);
     for (const [k, v] of Object.entries(p.store.skills)) assert.ok((a.store.skills[k].last || "") >= (v.last || ""));
+    for (const [k, days] of Object.entries(p.store.skillHist)) for (const [d, v] of Object.entries(days)) assert.ok(a.store.skillHist[k][d][0] >= v[0]);
   }
   checks++;
   // 4. Thứ tự gộp không đổi số liệu theo ngày

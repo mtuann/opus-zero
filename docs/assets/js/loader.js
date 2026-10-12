@@ -2,7 +2,7 @@
    Các script được tải song song nhưng chạy đúng thứ tự phụ thuộc (async = false). */
 (function () {
   "use strict";
-  const VERSION = "8.1";
+  const VERSION = "9";
   const me = document.currentScript || document.querySelector('script[src*="assets/js/loader.js"]');
   const BASE = me ? me.src.replace(/loader\.js.*$/, "") : "assets/js/";
   const EXT = { abcjs: "https://cdn.jsdelivr.net/npm/abcjs@6.7.1/dist/abcjs-basic-min.js" };
@@ -11,15 +11,15 @@
     [".abc-notation", ["abcjs", "abc"]],
     [".oz-midi-status", ["midi"]],
     [".oz-note-reader", ["abcjs", "midi", "note-reader"]],
-    [".oz-interval-trainer", ["interval-trainer"]],
-    [".oz-chord-trainer", ["theory", "chord-trainer"]],
-    [".oz-scale-trainer", ["theory", "scale-trainer"]],
+    [".oz-interval-trainer", ["viz", "interval-trainer"]],
+    [".oz-chord-trainer", ["theory", "viz", "chord-trainer"]],
+    [".oz-scale-trainer", ["theory", "viz", "scale-trainer"]],
     [".oz-metronome", ["metronome"]],
     [".oz-piano, .oz-piano-explorer", ["theory", "midi", "piano"]],
     [".oz-build", ["theory", "midi", "piano", "build"]],
     [".oz-circle, .oz-keysig-quiz", ["abcjs", "theory", "circle"]],
-    [".oz-rhythm", ["abcjs", "rhythm"]],
-    [".oz-sight", ["abcjs", "theory", "midi", "tuner", "mic", "assess", "sight-reading"]],
+    [".oz-rhythm", ["abcjs", "viz", "rhythm"]],
+    [".oz-sight", ["abcjs", "theory", "midi", "tuner", "mic", "assess", "viz", "sight-reading"]],
     [".oz-tuner", ["tuner"]],
     [".oz-quiz, .oz-lesson-status", ["quiz"]],
     [".oz-placement", ["placement"]],
@@ -28,12 +28,13 @@
     [".oz-listen", ["listen"]],
     [".oz-overtones, .oz-tuning", ["acoustics"]],
     [".oz-staffpaper", ["staffpaper"]],
-    [".oz-style-example, .oz-style-trainer, .oz-cadence-trainer, .oz-texture-trainer, .oz-blind, .oz-blind-log", ["abcjs", "recognition"]],
-    [".oz-playalong, .oz-singback", ["abcjs", "midi", "tuner", "mic", "assess", "playalong"]],
-    [".oz-dictation", ["theory", "midi", "piano", "dictation"]],
+    [".oz-style-example, .oz-style-trainer, .oz-cadence-trainer, .oz-texture-trainer, .oz-blind, .oz-blind-log", ["abcjs", "abc", "viz", "recognition"]],
+    [".oz-playalong, .oz-singback", ["abcjs", "midi", "tuner", "mic", "assess", "viz", "playalong"]],
+    [".oz-dictation", ["theory", "midi", "piano", "viz", "dictation"]],
     [".oz-recorder", ["recorder"]],
     [".oz-spectrum", ["tuner", "mic", "spectrum"]],
     [".oz-plan, .oz-skills", ["plan"]],
+    [".oz-trends", ["plan", "viz"]],
     [".oz-flashcards", ["flashcards"]],
     [".oz-journal, .oz-summary", ["journal"]],
     [".oz-data", ["data"]]

@@ -41,7 +41,7 @@
     audioHost.innerHTML = "";
     if (ABCJS.synth && ABCJS.synth.supportsAudio()) {
       const ctrl = new ABCJS.synth.SynthController();
-      ctrl.load(audioHost, null, { displayPlay: true, displayRestart: true, displayProgress: true });
+      ctrl.load(audioHost, window.OZAbc ? OZAbc.cursor() : null, { displayPlay: true, displayRestart: true, displayProgress: true });
       ctrl.setTune(visual, false).catch(function () { audioHost.textContent = "Không tải được âm thanh."; });
       return ctrl;
     }
@@ -138,7 +138,8 @@
       const b = e.target.closest("button[data-c]"); if (!b || !q || q.done) return;
       if (b.dataset.c === q.type) {
         q.done = true; if (first) { session.total++; session.right++; if (window.OZProgress && OZProgress.skill) OZProgress.skill("cadence", true); }
-        b.classList.add("is-correct"); fb.textContent = "Đúng. Bấm “Câu mới” để tiếp tục."; fb.className = "oz-feedback ok";
+        b.classList.add("is-correct"); fb.textContent = "Đúng: " + CAD[q.type].seq.join(" → ") + ". Bấm “Câu mới” để tiếp tục."; fb.className = "oz-feedback ok";
+        if (window.OZViz) { const last = CAD[q.type].seq.slice(-2); OZViz.show(fb, "<p class=\"oz-stats\">Hai hợp âm cuối: " + last.join(" → ") + " (xanh: hợp âm áp chót, vàng: hợp âm cuối)</p>" + OZViz.miniKeys(VOICING[last[0]].concat(VOICING[last[1]]).map(function (m) { return m + q.shift; }), { colors: VOICING[last[0]].map(function () { return "#a9c7e8"; }).concat(VOICING[last[1]].map(function () { return "#f1d9a0"; })), label: "Hai hợp âm cuối của kết trên phím đàn" })); }
         if (window.OZProgress) OZProgress.record("chords", 1);
       } else {
         if (first) { session.total++; first = false; if (window.OZProgress && OZProgress.skill) OZProgress.skill("cadence", false); }
@@ -152,7 +153,7 @@
         const types = Object.keys(CAD);
         q = { type: types[Math.floor(Math.random() * types.length)], shift: Math.floor(Math.random() * 12) - 5, done: false };
         first = true; answers.querySelectorAll("button").forEach(function (x) { x.disabled = false; x.classList.remove("is-correct", "is-wrong"); });
-        fb.textContent = "Kết gì đây?"; fb.className = "oz-feedback"; play();
+        fb.textContent = "Kết gì đây?"; fb.className = "oz-feedback"; if (window.OZViz) OZViz.clear(fb); play();
       }
       if (b.dataset.act === "again") play();
     });

@@ -19,6 +19,22 @@ Một số bộ biến tấu không giữ giai điệu mà giữ **vòng hợp �
 
 Chủ đề là giai điệu dân gian Pháp mà người Việt quen gọi là *Twinkle, Twinkle, Little Star* (xem bản nhạc trong [10 bài đầu tiên cho piano](../nhac-cu/piano.md)). Mozart viết bộ biến tấu này ở Vienna, khoảng 1781–1782.
 
+
+<!-- fig:form-variations-k265 -->
+<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>Chủ đề</b></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>1</b></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>2</b></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>3</b></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>4</b></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>5</b></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>6</b></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>7</b></div><div class="oz-seg k-c" style="flex:1 1 4.6rem"><b>8</b></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>9</b></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>10</b></div><div class="oz-seg k-dev" style="flex:1 1 4.6rem"><b>11</b></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>12</b></div></div><figcaption>Mozart, 12 biến tấu K. 265. Ô màu khác: biến tấu 8 ở Đô thứ, biến tấu 11 Adagio.</figcaption></figure>
+<!-- /fig:form-variations-k265 -->
+
+Chủ đề (bản Mozart ở Đô trưởng):
+
+```abc
+X:1
+L:1/4
+M:2/4
+Q:1/4=96
+K:C
+C C | G G | A A | G2 | F F | E E | D D | C2 |]
+```
+
 | Phần | Điều cần nghe |
 |---|---|
 | **Chủ đề** | Giai điệu gốc, giản dị, tay trái đệm nhẹ |

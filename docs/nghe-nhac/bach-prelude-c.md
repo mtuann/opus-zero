@@ -26,6 +26,12 @@ C E G c e G c e C E G c e G c e | C D A d f A d f C D A d f A d f | B, D G d f G
 
 Bốn ô nhịp đầu đi **I – ii – V – I**: bạn đã biết chuỗi này từ [bài 12](../nhac-ly/12-hoa-am-chuc-nang.md).
 
+## Sơ đồ cấu trúc
+
+<!-- fig:g-bach-prelude -->
+<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:4 1 4.6rem"><b>Đô trưởng</b><small>ô 1–4</small></div><div class="oz-seg k-b" style="flex:7 1 4.6rem"><b>Đi xa: Sol trưởng</b><small>ô 5–11</small></div><div class="oz-seg k-dev" style="flex:12 1 4.6rem"><b>Quay về, căng dần</b><small>ô 12–23</small></div><div class="oz-seg k-cad" style="flex:8 1 4.6rem"><b>Âm nền át</b><small>ô 24–31</small></div><div class="oz-seg k-coda" style="flex:4 1 4.6rem"><b>Âm nền chủ</b><small>ô 32–35</small></div></div><figcaption>Prelude cung Đô trưởng, BWV 846 (35 ô nhịp; độ dài các ô gần đúng theo số ô nhịp).</figcaption></figure>
+<!-- /fig:g-bach-prelude -->
+
 ## Nghe kèm bản thu
 
 <div class="oz-listen"></div>
