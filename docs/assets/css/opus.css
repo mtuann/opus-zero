@@ -177,7 +177,7 @@
 .oz-ck:hover circle, .oz-ck:focus-visible circle { stroke: var(--md-accent-fg-color); stroke-width: 2; }
 .oz-ck.sel circle { fill: var(--md-primary-fg-color); stroke: var(--md-primary-fg-color); }
 .oz-ck.sel text { fill: #fff; }
-.oz-circle-info h4 { margin-top: 0; font-family: var(--oz-heading); }
+.oz-circle-info h3 { margin-top: 0; font-family: var(--oz-heading); font-size: 1rem; }
 .oz-circle-info p { font-size: 0.8rem; margin: 0.35rem 0; }
 .oz-answers small { opacity: 0.6; font-size: 0.65rem; }
 
@@ -319,3 +319,21 @@
 .oz-rec-item { border-top: 1px solid var(--md-default-fg-color--lightest); padding: 0.5rem 0; }
 .oz-rec-item audio, .oz-rec-ab audio { width: 100%; max-width: 420px; margin: 0.3rem 0; }
 .oz-dict-input { min-height: 1.4em; }
+
+/* ---------- Khả năng tiếp cận ---------- */
+.oz-key:focus { outline: none; }
+.oz-key:focus-visible { stroke: var(--md-accent-fg-color); stroke-width: 3; }
+.oz-tool select:focus-visible, .oz-tool input:focus-visible, .oz-input:focus-visible { outline: 2px solid var(--md-accent-fg-color); outline-offset: 1px; }
+/* Màn hình cảm ứng: vùng chạm tối thiểu 44 px */
+@media (pointer: coarse) {
+  .oz-btn { min-height: 44px; min-width: 44px; padding: 0.55rem 0.9rem; }
+  .oz-tool select, .oz-tool input[type="number"], .oz-input { min-height: 40px; }
+  .oz-checklist input, .oz-tool input[type="checkbox"], .oz-tool input[type="radio"] { width: 1.3rem; height: 1.3rem; }
+  .oz-time, .oz-time-add, .oz-time-x { min-height: 36px; }
+}
+
+/* ---------- Trang chủ: ba con đường ---------- */
+.oz-paths { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 1rem 0 1.6rem; }
+.md-typeset .oz-path { border: 1px solid var(--md-default-fg-color--lightest); border-radius: 12px; padding: 0.2rem 1rem 0.6rem; }
+.md-typeset .oz-path h3 { margin-top: 0.8rem; font-size: 1rem; }
+.md-typeset .oz-path p { font-size: 0.78rem; }

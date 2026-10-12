@@ -16,5 +16,5 @@
     });
     h1.after(b);
   }
-  if (window.document$) window.document$.subscribe(init); else document.addEventListener("DOMContentLoaded", init);
+  (window.OZReady || function (f) { document.addEventListener("DOMContentLoaded", f); })(init);
 })();

@@ -23,14 +23,8 @@
       '<div class="oz-feedback" aria-live="polite"></div><div class="oz-stats"></div>';
     const host = root.querySelector(".oz-kb");
     const chosen = new Set();
-    const kb = OZPiano.keyboard(host, { lo: 60, hi: 83, hint: "Bấm phím để chọn hoặc bỏ chọn. Chọn trong một quãng tám, bắt đầu từ nốt gốc." });
-    const svg = host.querySelector("svg");
-    svg.addEventListener("pointerdown", function (e) {
-      const k = e.target.closest(".oz-key"); if (!k) return;
-      const m = Number(k.dataset.m);
-      if (chosen.has(m)) chosen.delete(m); else chosen.add(m);
-      kb.highlight(Array.from(chosen));
-    });
+    function toggle(m) { if (chosen.has(m)) chosen.delete(m); else chosen.add(m); kb.highlight(Array.from(chosen)); }
+    const kb = OZPiano.keyboard(host, { lo: 60, hi: 83, onKey: toggle, hint: "Bấm phím để chọn hoặc bỏ chọn (hoặc dùng mũi tên và Enter). Chọn trong một quãng tám, bắt đầu từ nốt gốc." });
     if (window.OZMidi) OZMidi.on(function (ev) {
       if (ev.type !== "on" || !root.isConnected) return;
       let m = ev.midi; while (m < 60) m += 12; while (m > 83) m -= 12; /* đưa về khung bàn phím màn hình */
@@ -84,5 +78,5 @@
     next();
   }
   function init() { document.querySelectorAll(".oz-build").forEach(mount); }
-  if (window.document$) window.document$.subscribe(init); else document.addEventListener("DOMContentLoaded", init);
+  (window.OZReady || function (f) { document.addEventListener("DOMContentLoaded", f); })(init);
 })();

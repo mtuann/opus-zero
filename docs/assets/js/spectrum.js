@@ -64,5 +64,5 @@
     if (window.location$) window.location$.subscribe(function () { cancelAnimationFrame(raf); if (root._micOff) root._micOff(); });
   }
   function init() { document.querySelectorAll(".oz-spectrum").forEach(mount); }
-  if (window.document$) window.document$.subscribe(init); else document.addEventListener("DOMContentLoaded", init);
+  (window.OZReady || function (f) { document.addEventListener("DOMContentLoaded", f); })(init);
 })();

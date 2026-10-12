@@ -1,6 +1,6 @@
 # Ravel: Boléro
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Maurice Ravel (1875–1937) |
 | Sáng tác | 1928, cho vũ công Ida Rubinstein |

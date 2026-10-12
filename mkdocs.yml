@@ -39,6 +39,7 @@ theme:
     - navigation.top
     - navigation.footer
     - navigation.indexes
+    - navigation.prune
     - navigation.instant
     - navigation.tracking
     - search.suggest
@@ -47,11 +48,17 @@ theme:
     - content.action.edit
     - toc.follow
 
+hooks:
+  - hooks/search_vi.py
+
 plugins:
   - search:
       lang:
         - en
         - vi
+      # Không lọc từ dừng tiếng Anh: "am", "not", "do" là từ tiếng Việt khi gõ không dấu.
+      pipeline: []
+      separator: '[\s\-,:;!?.()\[\]"“”/…]+'
   - blog:
       blog_dir: blog
       blog_toc: true
@@ -100,41 +107,10 @@ extra_css:
   - assets/css/opus.css
 
 extra_javascript:
-  - https://cdn.jsdelivr.net/npm/abcjs@6.7.1/dist/abcjs-basic-min.js
+  - assets/js/loader.js
   - assets/js/audio.js
-  - assets/js/midi.js
-  - assets/js/assess.js
   - assets/js/progress.js
-  - assets/js/theory.js
-  - assets/js/abc.js
-  - assets/js/note-reader.js
-  - assets/js/interval-trainer.js
-  - assets/js/chord-trainer.js
-  - assets/js/scale-trainer.js
-  - assets/js/metronome.js
-  - assets/js/piano.js
-  - assets/js/build.js
-  - assets/js/circle.js
-  - assets/js/rhythm.js
-  - assets/js/sight-reading.js
-  - assets/js/tuner.js
-  - assets/js/mic.js
-  - assets/js/quiz.js
-  - assets/js/placement.js
-  - assets/js/worksheet.js
-  - assets/js/timeline.js
-  - assets/js/listen.js
-  - assets/js/acoustics.js
-  - assets/js/staffpaper.js
   - assets/js/print.js
-  - assets/js/recognition.js
-  - assets/js/playalong.js
-  - assets/js/dictation.js
-  - assets/js/recorder.js
-  - assets/js/spectrum.js
-  - assets/js/plan.js
-  - assets/js/flashcards.js
-  - assets/js/journal.js
   - assets/js/pwa.js
 
 extra:
@@ -202,6 +178,7 @@ nav:
       - Từ điển thuật ngữ: nhac-ly/tu-dien.md
   - Luyện tập:
       - luyen-tap/index.md
+      - Hướng dẫn luyện tai: luyen-tai/index.md
       - Đọc nhạc:
           - Đọc nốt: luyen-tap/doc-not.md
           - Hóa biểu: luyen-tap/hoa-bieu.md
@@ -228,8 +205,53 @@ nav:
           - Máy đếm nhịp: luyen-tap/metronome.md
           - Máy lên dây: luyen-tap/len-day.md
           - Nhật ký luyện tập: luyen-tap/nhat-ky.md
-  - Luyện tai:
-      - luyen-tai/index.md
+  - Nghe & nhận diện:
+      - nghe-nhac/index.md
+      - Hướng dẫn nghe:
+          - Đọc tên tác phẩm và bản thu: nghe-nhac/doc-ten-tac-pham.md
+          - Nghe gì tiếp: nghe-nhac/nghe-gi-tiep.md
+          - Mẫu ghi chép: nghe-nhac/mau.md
+          - Baroque:
+              - "Vivaldi: Mùa xuân": nghe-nhac/vivaldi-mua-xuan.md
+              - "Bach: Prelude cung Đô trưởng": nghe-nhac/bach-prelude-c.md
+              - "Bach: Tổ khúc cello số 1": nghe-nhac/bach-cello-1.md
+          - Cổ điển:
+              - "Haydn: Giao hưởng Surprise": nghe-nhac/haydn-94.md
+              - "Mozart: Giao hưởng số 40": nghe-nhac/mozart-40.md
+              - "Mozart: Nữ hoàng bóng đêm": nghe-nhac/mozart-nu-hoang-bong-dem.md
+              - "Mozart: Requiem": nghe-nhac/mozart-requiem.md
+              - "Beethoven: Giao hưởng số 5": nghe-nhac/beethoven-5.md
+              - "Beethoven: Tứ tấu Op. 132": nghe-nhac/beethoven-op132.md
+          - Lãng mạn:
+              - "Schubert: Erlkönig": nghe-nhac/schubert-erlkonig.md
+              - "Schubert: Con cá hồi": nghe-nhac/schubert-ca-hoi.md
+              - "Chopin: Nocturne Op. 9 số 2": nghe-nhac/chopin-nocturne.md
+              - "Mendelssohn: Concerto violin": nghe-nhac/mendelssohn-violin.md
+              - "Bizet: Habanera": nghe-nhac/bizet-habanera.md
+              - "Tchaikovsky: Hồ thiên nga": nghe-nhac/tchaikovsky-ho-thien-nga.md
+              - "Brahms: Giao hưởng số 4": nghe-nhac/brahms-4.md
+              - "Dvořák: Giao hưởng số 9, Largo": nghe-nhac/dvorak-9-largo.md
+          - Thế kỷ 20 và nay:
+              - "Debussy: Clair de lune": nghe-nhac/debussy-clair-de-lune.md
+              - "Rachmaninoff: Concerto piano số 2": nghe-nhac/rachmaninoff-2.md
+              - "Ravel: Boléro": nghe-nhac/ravel-bolero.md
+              - "Stravinsky: Nghi lễ mùa xuân": nghe-nhac/stravinsky-sacre.md
+              - "Shostakovich: Giao hưởng số 5": nghe-nhac/shostakovich-5.md
+              - "Pärt: Spiegel im Spiegel": nghe-nhac/part-spiegel.md
+      - Hình thức & thể loại:
+          - hinh-thuc/index.md
+          - Hình thức sonata: hinh-thuc/sonata.md
+          - Fugue: hinh-thuc/fugue.md
+          - Chủ đề và biến tấu: hinh-thuc/bien-tau.md
+          - Rondo: hinh-thuc/rondo.md
+          - Concerto và ritornello: hinh-thuc/concerto.md
+      - Nhận diện:
+          - nhan-dien/index.md
+          - So sánh các thời kỳ: nhan-dien/so-sanh-thoi-ky.md
+          - Nhận diện thể loại: nhan-dien/the-loai.md
+          - Dấu vân tay nhà soạn nhạc: nhan-dien/dau-van-tay.md
+          - Luyện nghe nhận diện: nhan-dien/luyen-nghe.md
+          - Nghe mù: nhan-dien/nghe-mu.md
   - Lịch sử:
       - lich-su/index.md
       - Dòng thời gian: lich-su/dong-thoi-gian.md
@@ -246,13 +268,6 @@ nav:
       - Nhạc cổ điển ở Việt Nam: lich-su/viet-nam.md
       - Nhạc truyền thống Việt Nam: lich-su/nhac-truyen-thong-viet-nam.md
       - Âm nhạc hôm nay: lich-su/duong-dai.md
-  - Hình thức & thể loại:
-      - hinh-thuc/index.md
-      - Hình thức sonata: hinh-thuc/sonata.md
-      - Fugue: hinh-thuc/fugue.md
-      - Chủ đề và biến tấu: hinh-thuc/bien-tau.md
-      - Rondo: hinh-thuc/rondo.md
-      - Concerto và ritornello: hinh-thuc/concerto.md
   - Nhạc cụ:
       - nhac-cu/index.md
       - Piano: nhac-cu/piano.md
@@ -262,49 +277,10 @@ nav:
       - Cách tập hiệu quả: nhac-cu/cach-tap.md
       - Mua nhạc cụ và chọn thầy: nhac-cu/mua-dan-chon-thay.md
       - Dàn nhạc giao hưởng: nhac-cu/dan-nhac.md
-  - Nghe nhạc:
-      - nghe-nhac/index.md
-      - Đọc tên tác phẩm và bản thu: nghe-nhac/doc-ten-tac-pham.md
-      - Nghe gì tiếp: nghe-nhac/nghe-gi-tiep.md
-      - Mẫu ghi chép: nghe-nhac/mau.md
-      - Baroque:
-          - "Vivaldi: Mùa xuân": nghe-nhac/vivaldi-mua-xuan.md
-          - "Bach: Prelude cung Đô trưởng": nghe-nhac/bach-prelude-c.md
-          - "Bach: Tổ khúc cello số 1": nghe-nhac/bach-cello-1.md
-      - Cổ điển:
-          - "Haydn: Giao hưởng Surprise": nghe-nhac/haydn-94.md
-          - "Mozart: Giao hưởng số 40": nghe-nhac/mozart-40.md
-          - "Mozart: Nữ hoàng bóng đêm": nghe-nhac/mozart-nu-hoang-bong-dem.md
-          - "Mozart: Requiem": nghe-nhac/mozart-requiem.md
-          - "Beethoven: Giao hưởng số 5": nghe-nhac/beethoven-5.md
-          - "Beethoven: Tứ tấu Op. 132": nghe-nhac/beethoven-op132.md
-      - Lãng mạn:
-          - "Schubert: Erlkönig": nghe-nhac/schubert-erlkonig.md
-          - "Schubert: Con cá hồi": nghe-nhac/schubert-ca-hoi.md
-          - "Chopin: Nocturne Op. 9 số 2": nghe-nhac/chopin-nocturne.md
-          - "Mendelssohn: Concerto violin": nghe-nhac/mendelssohn-violin.md
-          - "Bizet: Habanera": nghe-nhac/bizet-habanera.md
-          - "Tchaikovsky: Hồ thiên nga": nghe-nhac/tchaikovsky-ho-thien-nga.md
-          - "Brahms: Giao hưởng số 4": nghe-nhac/brahms-4.md
-          - "Dvořák: Giao hưởng số 9, Largo": nghe-nhac/dvorak-9-largo.md
-      - Thế kỷ 20 và nay:
-          - "Debussy: Clair de lune": nghe-nhac/debussy-clair-de-lune.md
-          - "Rachmaninoff: Concerto piano số 2": nghe-nhac/rachmaninoff-2.md
-          - "Ravel: Boléro": nghe-nhac/ravel-bolero.md
-          - "Stravinsky: Nghi lễ mùa xuân": nghe-nhac/stravinsky-sacre.md
-          - "Shostakovich: Giao hưởng số 5": nghe-nhac/shostakovich-5.md
-          - "Pärt: Spiegel im Spiegel": nghe-nhac/part-spiegel.md
-  - Nhận diện:
-      - nhan-dien/index.md
-      - So sánh các thời kỳ: nhan-dien/so-sanh-thoi-ky.md
-      - Nhận diện thể loại: nhan-dien/the-loai.md
-      - Dấu vân tay nhà soạn nhạc: nhan-dien/dau-van-tay.md
-      - Luyện nghe nhận diện: nhan-dien/luyen-nghe.md
-      - Nghe mù: nhan-dien/nghe-mu.md
-  - Nhật ký học:
-      - blog/index.md
-  - Tài nguyên:
-      - tai-nguyen.md
+  - Thêm:
+      - Nhật ký học:
+          - blog/index.md
+      - Tài nguyên: tai-nguyen.md
       - Tài liệu tham khảo: tai-lieu-tham-khao.md
       - Cập nhật: cap-nhat.md
 

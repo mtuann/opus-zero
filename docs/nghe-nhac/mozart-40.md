@@ -1,6 +1,6 @@
 # Mozart: Giao hưởng số 40, chương 1
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Wolfgang Amadeus Mozart (1756–1791) |
 | Tên đầy đủ | Giao hưởng số 40 cung Sol thứ, K. 550 |

@@ -2,10 +2,13 @@
 (function () {
   "use strict";
 
-  function render() {
+  /* force = true: vẽ lại mọi khuông (khi đổi sáng/tối); ngược lại chỉ vẽ khuông mới */
+  function render(force) {
     if (!window.ABCJS) return;
     const fg = getComputedStyle(document.body).getPropertyValue("--md-default-fg-color").trim() || "#000";
     document.querySelectorAll(".abc-notation").forEach(function (el) {
+      if (el.dataset.rendered && force !== true) return;
+      el.dataset.rendered = "1";
       if (!el.dataset.src) el.dataset.src = el.textContent.trim();
       el.textContent = "";
       const visual = ABCJS.renderAbc(el, el.dataset.src, {
@@ -34,15 +37,10 @@
     });
   }
 
-  function init() { render(); }
-
-  if (window.document$) {
-    window.document$.subscribe(init);
-  } else {
-    document.addEventListener("DOMContentLoaded", init);
-  }
+  function init() { render(false); }
+  (window.OZReady || function (f) { document.addEventListener("DOMContentLoaded", f); })(init);
 
   /* Vẽ lại khi đổi chế độ sáng/tối để màu nốt nhạc khớp nền. */
-  new MutationObserver(function () { setTimeout(render, 50); })
+  new MutationObserver(function () { setTimeout(function () { render(true); }, 50); })
     .observe(document.body, { attributes: true, attributeFilter: ["data-md-color-scheme"] });
 })();

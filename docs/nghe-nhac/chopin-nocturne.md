@@ -1,6 +1,6 @@
 # Chopin: Nocturne Op. 9 số 2
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Frédéric Chopin (1810–1849) |
 | Tên đầy đủ | Nocturne cung Mi♭ trưởng, Op. 9 số 2 |

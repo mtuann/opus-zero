@@ -145,7 +145,7 @@
     });
   }
   function init() { document.querySelectorAll(".oz-sound-setting").forEach(mountSetting); }
-  if (window.document$) window.document$.subscribe(init); else document.addEventListener("DOMContentLoaded", init);
+  (window.OZReady || function (f) { document.addEventListener("DOMContentLoaded", f); })(init);
 
   window.OZAudio = { getCtx: getCtx, playNote: playNote, click: click, midiToFreq: midiToFreq, output: out, mode: mode, setMode: setMode, status: status, onStatus: onStatus, load: function () { getCtx(); return load(); } };
 })();

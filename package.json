@@ -1,0 +1,16 @@
+{
+  "name": "opus-zero-tests",
+  "private": true,
+  "description": "Kiểm thử tự động cho site Opus Zero",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/unit.mjs && node tests/browser.mjs && node tests/a11y.mjs && node tests/search.mjs && node tests/extract-examples.mjs && python3 tests/abc_bars.py tests/.examples.json"
+  },
+  "devDependencies": {
+    "abcjs": "6.7.1",
+    "axe-core": "4.13.0",
+    "jsdom": "24.1.3",
+    "lunr": "2.3.9",
+    "lunr-languages": "1.14.0"
+  }
+}

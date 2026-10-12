@@ -98,7 +98,7 @@
         const other = T().keyByTonic(pos[1]);
         enh = "<p>Cùng vị trí trên vòng: " + T().prettyKeyVi(other.tonic) + " trưởng (" + T().sigText(other.n) + "), đồng âm khác tên.</p>";
       }
-      infoEl.innerHTML = "<h4>" + title + "</h4><div class='oz-sig'></div>" +
+      infoEl.innerHTML = "<h3>" + title + "</h3><div class='oz-sig'></div>" +
         "<p><strong>Hóa biểu:</strong> " + T().sigText(k.n) + ".</p>" +
         "<p><strong>Các nốt:</strong> " + scaleNotes.map(function (n) { return T().viName(n); }).join(" – ") + "</p>" +
         chords + "<p>" + rel + "</p>" + enh +
@@ -200,5 +200,5 @@
     document.querySelectorAll(".oz-circle").forEach(mountCircle);
     document.querySelectorAll(".oz-keysig-quiz").forEach(mountQuiz);
   }
-  if (window.document$) window.document$.subscribe(init); else document.addEventListener("DOMContentLoaded", init);
+  (window.OZReady || function (f) { document.addEventListener("DOMContentLoaded", f); })(init);
 })();

@@ -25,6 +25,13 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - run: mkdocs build --strict
+      # Kiểm thử trước khi deploy: nếu có lỗi, site không bị cập nhật.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: npm test
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

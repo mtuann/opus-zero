@@ -5,7 +5,7 @@ Sao chép khối dưới đây vào một file mới trong `docs/nghe-nhac/` (v�
 ```markdown
 # Tên nhà soạn nhạc: Tên tác phẩm
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | |
 | Năm sáng tác | |

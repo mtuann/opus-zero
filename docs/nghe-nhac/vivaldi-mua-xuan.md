@@ -1,6 +1,6 @@
 # Vivaldi: Bốn Mùa – Mùa xuân, chương 1
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Antonio Vivaldi (1678–1741) |
 | Tên đầy đủ | Concerto cung Mi trưởng, Op. 8 số 1, RV 269 *La primavera* |

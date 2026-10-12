@@ -54,5 +54,5 @@
     root.appendChild(wrap);
   }
   function init() { document.querySelectorAll(".oz-timeline").forEach(mount); }
-  if (window.document$) window.document$.subscribe(init); else document.addEventListener("DOMContentLoaded", init);
+  (window.OZReady || function (f) { document.addEventListener("DOMContentLoaded", f); })(init);
 })();

@@ -107,5 +107,5 @@
   }
   window.OZPlan = { compute: compute, SKILLS: SKILLS };
   function init() { document.querySelectorAll(".oz-plan").forEach(mountPlan); document.querySelectorAll(".oz-skills").forEach(mountSkills); }
-  if (window.document$) window.document$.subscribe(init); else document.addEventListener("DOMContentLoaded", init);
+  (window.OZReady || function (f) { document.addEventListener("DOMContentLoaded", f); })(init);
 })();

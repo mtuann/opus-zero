@@ -1,6 +1,6 @@
 # Dvořák: Giao hưởng số 9 "Từ Thế giới mới", chương 2 (Largo)
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Antonín Dvořák (1841–1904) |
 | Tên đầy đủ | Giao hưởng số 9 cung Mi thứ, Op. 95 *"Từ Thế giới mới"* |

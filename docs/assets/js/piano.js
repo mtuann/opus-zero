@@ -23,7 +23,7 @@
     svg.setAttribute("viewBox", "0 0 " + (whites * W + 2) + " " + (H + 2));
     svg.setAttribute("class", "oz-keys");
     svg.setAttribute("role", "group");
-    svg.setAttribute("aria-label", "Bàn phím piano");
+    svg.setAttribute("aria-label", "Bàn phím piano: dùng phím mũi tên để chọn, Enter để bấm");
     const keys = {};
     const blackLayer = [];
     let x = 1;
@@ -68,14 +68,36 @@
       k.classList.add("pressed");
       setTimeout(function () { k.classList.remove("pressed"); }, 260);
     }
-    svg.addEventListener("pointerdown", function (e) {
+    /* Bàn phím máy tính: Tab vào bàn phím đàn, mũi tên trái/phải chọn phím, Enter hoặc Space để bấm */
+    const ordered = Object.keys(keys).map(Number).sort(function (a, b) { return a - b; });
+    ordered.forEach(function (m, i) {
+      const k = keys[m];
+      k.setAttribute("tabindex", i === 0 ? "0" : "-1");
+      k.setAttribute("role", "button");
+      k.setAttribute("aria-label", nameOf(m));
+    });
+    svg.addEventListener("keydown", function (e) {
       const k = e.target.closest ? e.target.closest(".oz-key") : null;
       if (!k) return;
-      const m = Number(k.dataset.m);
+      const i = ordered.indexOf(Number(k.dataset.m));
+      let j = -1;
+      if (e.key === "ArrowRight" || e.key === "ArrowUp") j = Math.min(ordered.length - 1, i + 1);
+      if (e.key === "ArrowLeft" || e.key === "ArrowDown") j = Math.max(0, i - 1);
+      if (e.key === "Home") j = 0;
+      if (e.key === "End") j = ordered.length - 1;
+      if (j >= 0) { e.preventDefault(); k.setAttribute("tabindex", "-1"); const n = keys[ordered[j]]; n.setAttribute("tabindex", "0"); n.focus(); return; }
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); press(Number(k.dataset.m)); }
+    });
+    function press(m) {
       if (window.OZAudio && !opts.silent) OZAudio.playNote(m, undefined, 1.2);
       flash(m);
       info.textContent = nameOf(m);
       if (opts.onKey) opts.onKey(m);
+    }
+    svg.addEventListener("pointerdown", function (e) {
+      const k = e.target.closest ? e.target.closest(".oz-key") : null;
+      if (!k) return;
+      press(Number(k.dataset.m));
     });
     /* Phím được nhấn từ đàn MIDI cũng sáng lên trên bàn phím màn hình */
     if (window.OZMidi && opts.midi !== false) {
@@ -182,5 +204,5 @@
     document.querySelectorAll(".oz-piano").forEach(mountSimple);
     document.querySelectorAll(".oz-piano-explorer").forEach(mountExplorer);
   }
-  if (window.document$) window.document$.subscribe(init); else document.addEventListener("DOMContentLoaded", init);
+  (window.OZReady || function (f) { document.addEventListener("DOMContentLoaded", f); })(init);
 })();

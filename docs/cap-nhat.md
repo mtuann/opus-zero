@@ -4,6 +4,13 @@ Trang này ghi lại những thay đổi lớn của site và quy trình giữ c
 
 ## Nhật ký thay đổi
 
+### 10/2026: Phiên bản 7 (chắc chắn hơn, nhanh hơn, dễ dùng hơn)
+
+- **Nhanh hơn:** mỗi trang chỉ tải công cụ nó dùng. Trước đây mọi trang tải khoảng 754 KB JavaScript; nay một nửa số trang chỉ cần khoảng 25 KB. Menu được thu gọn trong mỗi trang, HTML trung bình giảm từ khoảng 102 KB xuống 47 KB.
+- **Dễ dùng hơn:** menu gọn từ 12 xuống 8 mục; trang chủ mới với ba con đường bắt đầu và kế hoạch hôm nay; tìm kiếm không dấu ("hop am" tìm ra "hợp âm").
+- **Tiếp cận tốt hơn:** bàn phím piano dùng được bằng phím mũi tên và Enter; nút lớn hơn trên màn hình cảm ứng; sửa thứ tự tiêu đề và bảng thiếu tiêu đề; mọi cặp màu chữ đạt chuẩn tương phản WCAG AA.
+- **Chắc chắn hơn:** bộ kiểm thử tự động (đơn vị, trình duyệt, tiếp cận, tìm kiếm, ô nhịp) chạy trước mỗi lần deploy.
+
 ### 10/2026: Phiên bản 6
 
 - **Âm thanh piano thật:** mọi công cụ dùng mẫu âm Salamander Grand Piano (CC BY 3.0, khoảng 2 MB, tải khi phát lần đầu); có thể chuyển về âm tổng hợp ở trang [Luyện tập](luyen-tap/index.md).

@@ -1,6 +1,6 @@
 # Mozart: Aria của Nữ hoàng bóng đêm
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Wolfgang Amadeus Mozart (1756–1791) |
 | Tác phẩm | Opera *Die Zauberflöte* (Cây sáo thần), K. 620 |

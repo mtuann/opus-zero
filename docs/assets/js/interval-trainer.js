@@ -119,5 +119,5 @@
   }
 
   function init() { document.querySelectorAll(".oz-interval-trainer").forEach(mount); }
-  if (window.document$) window.document$.subscribe(init); else document.addEventListener("DOMContentLoaded", init);
+  (window.OZReady || function (f) { document.addEventListener("DOMContentLoaded", f); })(init);
 })();

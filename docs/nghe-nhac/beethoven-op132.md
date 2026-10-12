@@ -1,6 +1,6 @@
 # Beethoven: Tứ tấu đàn dây Op. 132, chương 3
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Ludwig van Beethoven (1770–1827) |
 | Tên đầy đủ | Tứ tấu đàn dây cung La thứ, Op. 132 |

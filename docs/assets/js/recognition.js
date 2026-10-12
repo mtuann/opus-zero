@@ -542,5 +542,5 @@
     document.querySelectorAll(".oz-blind").forEach(mountBlind);
     document.querySelectorAll(".oz-blind-log").forEach(mountLog);
   }
-  if (window.document$) window.document$.subscribe(init); else document.addEventListener("DOMContentLoaded", init);
+  (window.OZReady || function (f) { document.addEventListener("DOMContentLoaded", f); })(init);
 })();

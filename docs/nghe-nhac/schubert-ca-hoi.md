@@ -1,6 +1,6 @@
 # Schubert: Ngũ tấu "Con cá hồi", chương 4
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Franz Schubert (1797–1828) |
 | Tên đầy đủ | Ngũ tấu piano cung La trưởng, D. 667 *"Die Forelle"* |

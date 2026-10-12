@@ -1,6 +1,6 @@
 # Brahms: Giao hưởng số 4, chương 4
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Johannes Brahms (1833–1897) |
 | Tên đầy đủ | Giao hưởng số 4 cung Mi thứ, Op. 98 |

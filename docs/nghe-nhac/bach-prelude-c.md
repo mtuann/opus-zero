@@ -1,6 +1,6 @@
 # Bach: Prelude cung Đô trưởng, BWV 846
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Johann Sebastian Bach (1685–1750) |
 | Nguồn | *Bình quân luật* (Das Wohltemperierte Klavier), quyển 1, 1722 |

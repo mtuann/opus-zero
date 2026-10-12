@@ -1,6 +1,6 @@
 # Tchaikovsky: Hồ thiên nga, Cảnh (màn 2)
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Pyotr Ilyich Tchaikovsky (1840–1893) |
 | Tác phẩm | Ballet *Hồ thiên nga*, Op. 20 |

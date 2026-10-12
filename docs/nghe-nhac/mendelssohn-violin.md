@@ -1,6 +1,6 @@
 # Mendelssohn: Concerto violin cung Mi thứ
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Felix Mendelssohn (1809–1847) |
 | Tên đầy đủ | Concerto cho violin cung Mi thứ, Op. 64 |

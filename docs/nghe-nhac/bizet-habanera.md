@@ -1,6 +1,6 @@
 # Bizet: Habanera (Carmen)
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Georges Bizet (1838–1875) |
 | Tác phẩm | Opera *Carmen* |

@@ -52,7 +52,7 @@
       '<div class="oz-row"><span class="oz-streak"></span></div>' +
       '<div class="oz-heat" role="img"></div>' +
       '<div class="oz-stats oz-today-stats"></div>' +
-      "<h3>Hôm nay</h3>" +
+      "<h2>Hôm nay</h2>" +
       '<div class="oz-checklist"></div>' +
       '<label for="oz-note" class="oz-stats">Ghi chú hôm nay: học được gì, chỗ nào còn khó</label>' +
       '<textarea id="oz-note" placeholder="Ví dụ: đã thuộc các nốt trên dòng kẻ khóa Sol, còn nhầm Rê và Fa ở khe."></textarea>' +
@@ -159,5 +159,5 @@
     document.querySelectorAll(".oz-journal").forEach(mount);
     document.querySelectorAll(".oz-summary").forEach(mountSummary);
   }
-  if (window.document$) window.document$.subscribe(init); else document.addEventListener("DOMContentLoaded", init);
+  (window.OZReady || function (f) { document.addEventListener("DOMContentLoaded", f); })(init);
 })();

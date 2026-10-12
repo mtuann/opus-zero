@@ -2,7 +2,7 @@
 
 *Đây là trang ví dụ để minh họa cách dùng [mẫu ghi chép](mau.md). Phần cảm nhận cá nhân để trống cho bạn tự điền.*
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Ludwig van Beethoven (1770–1827) |
 | Tên đầy đủ | Giao hưởng số 5 cung Đô thứ, Op. 67 |

@@ -1,6 +1,6 @@
 # Shostakovich: Giao hưởng số 5
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Dmitri Shostakovich (1906–1975) |
 | Tên đầy đủ | Giao hưởng số 5 cung Rê thứ, Op. 47 |

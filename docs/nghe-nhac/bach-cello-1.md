@@ -1,6 +1,6 @@
 # Bach: Tổ khúc cello số 1, Prelude
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Johann Sebastian Bach (1685–1750) |
 | Tên đầy đủ | Tổ khúc cho cello độc tấu số 1 cung Sol trưởng, BWV 1007 |

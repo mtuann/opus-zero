@@ -1,6 +1,6 @@
 # Stravinsky: Le Sacre du printemps (Nghi lễ mùa xuân)
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Igor Stravinsky (1882–1971) |
 | Tác phẩm | Ballet *Le Sacre du printemps*, cho dàn nhạc rất lớn |

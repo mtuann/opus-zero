@@ -1,6 +1,6 @@
 # Schubert: Erlkönig (Vua tinh)
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Franz Schubert (1797–1828) |
 | Lời | Bài thơ *Erlkönig* của Johann Wolfgang von Goethe |

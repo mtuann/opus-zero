@@ -1,6 +1,6 @@
 # Pärt: Spiegel im Spiegel
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Arvo Pärt (sinh năm 1935, Estonia) |
 | Sáng tác | 1978, ban đầu cho violin và piano; có nhiều phiên bản cho cello, viola và nhạc cụ khác |

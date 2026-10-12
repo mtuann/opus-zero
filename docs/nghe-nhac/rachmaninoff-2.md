@@ -1,6 +1,6 @@
 # Rachmaninoff: Concerto piano số 2
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Sergei Rachmaninoff (1873–1943) |
 | Tên đầy đủ | Concerto piano số 2 cung Đô thứ, Op. 18 |

@@ -88,5 +88,5 @@
     document.querySelectorAll(".oz-overtones").forEach(mountOvertones);
     document.querySelectorAll(".oz-tuning").forEach(mountTuning);
   }
-  if (window.document$) window.document$.subscribe(init); else document.addEventListener("DOMContentLoaded", init);
+  (window.OZReady || function (f) { document.addEventListener("DOMContentLoaded", f); })(init);
 })();

@@ -13,6 +13,26 @@ pip install -r requirements.txt
 mkdocs serve                     # mở http://127.0.0.1:8000/opus-zero/
 ```
 
+## Kiểm thử
+
+```bash
+mkdocs build --strict      # build site/ (bắt link nội bộ và anchor hỏng)
+npm ci                     # cài công cụ kiểm thử (lần đầu)
+npm test                   # chạy toàn bộ kiểm thử
+```
+
+`npm test` gồm:
+
+| Kiểm thử | Kiểm tra gì |
+|---|---|
+| `tests/unit.mjs` | Hàm thuần: tên nốt, gam, hợp âm, chấm cao độ và nhịp, kế hoạch học, sinh bài tập |
+| `tests/browser.mjs` | Mở từng trang đã build như trình duyệt thật: không lỗi JavaScript, mọi khuông nhạc và công cụ khởi tạo, không tải script thừa; thử đàn MIDI ảo, micro ảo, bàn phím |
+| `tests/a11y.mjs` | Khả năng tiếp cận (axe-core) trên 17 trang tiêu biểu |
+| `tests/search.mjs` | Tìm kiếm có dấu và không dấu ra đúng trang |
+| `tests/abc_bars.py` | Độ dài từng ô nhịp trong mọi khối ```abc và các đoạn nhạc tổng hợp |
+
+GitHub Actions chạy toàn bộ kiểm thử **trước mỗi lần deploy**: nếu có lỗi, site không bị cập nhật. Nhánh khác và pull request được kiểm thử bởi `.github/workflows/test.yml`.
+
 ## Deploy
 
 Mỗi lần push lên nhánh `main`, GitHub Actions (`.github/workflows/deploy.yml`) tự build và đưa site lên GitHub Pages.
@@ -38,6 +58,8 @@ docs/
 ├── sw.js                 Service worker: dùng khi không có mạng
 └── assets/               CSS, JavaScript, icon
 overrides/main.html       Thêm manifest và màu chủ đề vào <head>
+hooks/search_vi.py        Tìm kiếm tiếng Việt không dấu
+tests/                    Kiểm thử tự động (npm test)
 ```
 
 ## JavaScript
@@ -64,6 +86,7 @@ overrides/main.html       Thêm manifest và màu chủ đề vào <head>
 | `acoustics.js` | Chuỗi bồi âm và so sánh hệ lên dây |
 | `staffpaper.js`, `print.js` | Giấy kẻ khuông in được; nút "In bài này" |
 | `pwa.js` | Đăng ký service worker |
+| `loader.js` | Bộ tải theo nhu cầu: mỗi trang chỉ tải những công cụ nó dùng |
 
 ## Viết bài mới
 
@@ -80,13 +103,17 @@ overrides/main.html       Thêm manifest và màu chủ đề vào <head>
    ```
    ````
 
-4. Quiz cuối bài dùng khối mã `quiz`: dòng `?` là câu hỏi, `+` đáp án đúng, `-` đáp án sai, `>` giải thích.
-5. Chèn công cụ vào bất kỳ trang nào bằng một thẻ `div`, ví dụ
+4. **Thêm công cụ JavaScript mới:** tạo file trong `docs/assets/js/`, đăng ký hàm khởi tạo bằng
+   `(window.OZReady || function (f) { document.addEventListener("DOMContentLoaded", f); })(init);`
+   và **thêm một quy tắc vào `RULES` trong `loader.js`** (bộ chọn CSS → các script cần, theo thứ tự phụ thuộc).
+   Mỗi trang chỉ tải script mà nó dùng; quên thêm quy tắc thì công cụ không chạy (`npm test` sẽ báo lỗi).
+5. Quiz cuối bài dùng khối mã `quiz`: dòng `?` là câu hỏi, `+` đáp án đúng, `-` đáp án sai, `>` giải thích.
+6. Chèn công cụ vào bất kỳ trang nào bằng một thẻ `div`, ví dụ
    `<div class="oz-piano" data-range="C4-C5" data-notes="C4 E4 G4" data-play="chord"></div>`.
    Các lớp có sẵn: `oz-note-reader`, `oz-interval-trainer`, `oz-chord-trainer`, `oz-keysig-quiz`,
    `oz-circle`, `oz-rhythm`, `oz-sight`, `oz-piano`, `oz-piano-explorer`, `oz-metronome`, `oz-tuner`,
    `oz-flashcards`, `oz-journal`, `oz-summary`, `oz-scale-trainer`, `oz-build`, `oz-worksheet-gen`, `oz-timeline`.
-6. Bài nhật ký học: tạo file trong `docs/blog/posts/` với `date:` ở phần đầu (xem bài mẫu).
+7. Bài nhật ký học: tạo file trong `docs/blog/posts/` với `date:` ở phần đầu (xem bài mẫu).
 
 ## Kiểm tra link tự động
 

@@ -1,6 +1,6 @@
 # Haydn: Giao hưởng số 94 "Surprise", chương 2
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Joseph Haydn (1732–1809) |
 | Tên đầy đủ | Giao hưởng số 94 cung Sol trưởng, Hob. I:94 |

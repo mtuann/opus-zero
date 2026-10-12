@@ -1,6 +1,6 @@
 # Debussy: Clair de lune
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Claude Debussy (1862–1918) |
 | Nguồn | Chương 3 của *Suite bergamasque* cho piano |

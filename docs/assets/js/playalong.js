@@ -193,5 +193,5 @@
 
   window.OZPlayalong = { SONGS: SONGS, toAbc: toAbc };
   function init() { document.querySelectorAll(".oz-playalong").forEach(mountPlay); document.querySelectorAll(".oz-singback").forEach(mountSing); }
-  if (window.document$) window.document$.subscribe(init); else document.addEventListener("DOMContentLoaded", init);
+  (window.OZReady || function (f) { document.addEventListener("DOMContentLoaded", f); })(init);
 })();

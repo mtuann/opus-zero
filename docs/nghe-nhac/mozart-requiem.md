@@ -1,6 +1,6 @@
 # Mozart: Requiem
 
-| | |
+| Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Wolfgang Amadeus Mozart (1756–1791) |
 | Tên đầy đủ | Requiem cung Rê thứ, K. 626 |
