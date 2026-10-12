@@ -111,6 +111,7 @@ th {{ background: #f2f4f7; }}
 code {{ font-size: 0.9em; }}
 .admonition, details {{ border-left: 4px solid var(--ink); background: #f6f8fb; padding: 0.4rem 0.8rem; margin: 0.8rem 0; }}
 .admonition-title, summary {{ font-weight: 600; }}
+.oz-fig {{ display: block; width: 100%; height: auto; margin: 0.4rem 0; }} .oz-fig-circle {{ max-width: 70mm; margin: 0.4rem auto; }}
 .abc-notation {{ margin: 0.6rem 0 1rem; white-space: pre; font-family: monospace; font-size: 0; }}
 .abc-notation svg {{ font-size: initial; max-width: 100%; }}
 .book-quiz {{ border: 1px solid var(--line); padding: 0.5rem 1rem; margin: 1rem 0; }}

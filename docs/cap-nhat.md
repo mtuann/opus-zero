@@ -4,6 +4,11 @@ Trang này ghi lại những thay đổi lớn của site và quy trình giữ c
 
 ## Nhật ký thay đổi
 
+### 10/2026: Phiên bản 8.1
+
+- **[Tóm tắt một tờ](bat-dau/tom-tat.md) thiết kế lại thành hai mặt A4** có hình minh họa: bàn phím piano ghi tên nốt (Đô giữa, nửa cung tự nhiên), khóa Sol và khóa Fa ghi tên từng dòng và khe, Đô giữa trên khuông kép, hình nốt và dấu lặng, dấu hóa, hóa biểu, gam, vòng quãng năm, hợp âm ba.
+- **Sửa lỗi in bị cắt bảng** trên mọi trang: bảng rộng giờ tự co theo khổ giấy thay vì bị che mất phần bên phải; mỗi mục của tờ tóm tắt không bị tách đôi giữa hai cột.
+
 ### 10/2026: Phiên bản 8
 
 - **[Dữ liệu của tôi](luyen-tap/du-lieu.md):** xem dữ liệu đang lưu; tải file sao lưu (có thể kèm bản thu âm); khôi phục kiểu **gộp**, có xem trước, không ghi đè, gộp nhiều lần không bị nhân đôi; xóa tiến độ hoặc bản thu âm. Dùng để chuyển dữ liệu giữa điện thoại và máy tính.

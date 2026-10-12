@@ -1,5 +1,5 @@
 /* Service worker: cho phép mở lại các trang đã xem và dùng công cụ luyện tập khi không có mạng. */
-const VERSION = "opus-zero-v8";
+const VERSION = "opus-zero-v8-1";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(VERSION).then((c) => c.addAll(["./"])).then(() => self.skipWaiting()));

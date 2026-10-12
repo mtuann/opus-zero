@@ -2,7 +2,7 @@
    Các script được tải song song nhưng chạy đúng thứ tự phụ thuộc (async = false). */
 (function () {
   "use strict";
-  const VERSION = "8";
+  const VERSION = "8.1";
   const me = document.currentScript || document.querySelector('script[src*="assets/js/loader.js"]');
   const BASE = me ? me.src.replace(/loader\.js.*$/, "") : "assets/js/";
   const EXT = { abcjs: "https://cdn.jsdelivr.net/npm/abcjs@6.7.1/dist/abcjs-basic-min.js" };
