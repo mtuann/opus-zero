@@ -10,3 +10,9 @@ Chọn nốt gốc và loại gam hoặc hợp âm: các phím thuộc về nó 
 - So sánh **Gam trưởng** và **Gam thứ tự nhiên** trên cùng nốt gốc: chỉ khác ở bậc 3, 6 và 7.
 - So sánh ba dạng gam thứ trên cùng nốt gốc La.
 - Chọn **Hợp âm trưởng** rồi **Hợp âm thứ** trên cùng nốt gốc: chỉ nốt giữa dịch xuống nửa cung.
+
+## Dùng đàn MIDI
+
+Có đàn piano điện? Cắm vào máy tính để dùng phím thật (xem [Kết nối đàn MIDI](ket-noi-midi.md)).
+
+<div class="oz-midi-status"></div>

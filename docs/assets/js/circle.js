@@ -177,14 +177,14 @@
       if (!b || !q || q.done) return;
       if (b.dataset.k === q.k.tonic) {
         q.done = true;
-        if (first) { session.total++; session.right++; }
+        if (first) { session.total++; session.right++; if (window.OZProgress && OZProgress.skill) OZProgress.skill("keysig", true); }
         b.classList.add("is-correct");
         if (window.OZProgress) OZProgress.record("keysigs", 1);
         fb.textContent = "Đúng. " + T().sigText(q.k.n) + ". Giọng trưởng " + T().prettyKey(q.k.tonic) + ", giọng thứ song song " + T().prettyKey(q.k.minor) + ".";
         fb.className = "oz-feedback ok";
         setTimeout(next, 1400);
       } else {
-        if (first) { session.total++; first = false; }
+        if (first) { session.total++; first = false; if (window.OZProgress && OZProgress.skill) OZProgress.skill("keysig", false); }
         b.classList.add("is-wrong"); b.disabled = true;
         fb.textContent = q.k.n > 0 ? "Chưa đúng. Mẹo: dấu thăng cuối cùng nằm ngay dưới chủ âm nửa cung." : (q.k.n < 0 ? "Chưa đúng. Mẹo: dấu giáng áp chót chính là tên giọng (trừ Fa trưởng có 1 dấu giáng)." : "Chưa đúng. Không có dấu hóa nào.");
         fb.className = "oz-feedback bad";

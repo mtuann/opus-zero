@@ -130,6 +130,7 @@
       fb.textContent = (good ? "Chính xác! " : "") + "Gõ trúng " + hit + "/" + expected.length + " nốt" + (extra ? ", gõ thừa " + extra + " lần" : "") + (offs.length ? ", " + tendency : "") + "." + (good ? " Bấm “Tiết tấu mới” để tiếp tục." : " Bấm “Nghe mẫu” rồi thử lại.");
       fb.className = "oz-feedback " + (good ? "ok" : "bad");
       if (good && window.OZProgress) OZProgress.record("rhythms", 1);
+      if (window.OZProgress && OZProgress.skill) OZProgress.skill("rhythm", good); 
     }
 
     root.addEventListener("click", function (e) {

@@ -10,3 +10,9 @@
 - Với gam: áp công thức cung và nửa cung từ [bài 6](../nhac-ly/06-gam-truong.md) và [bài 7](../nhac-ly/07-gam-thu.md).
 - Bàn phím không phân biệt Fa♯ với Sol♭. Sau khi đúng, hãy đọc **tên nốt chính xác** trong phần đáp án; đó là phần "viết" thật sự.
 - Khi đã thạo, bỏ dấu ở ô "Chỉ giọng ít dấu hóa".
+
+## Dùng đàn MIDI
+
+Có đàn piano điện? Cắm vào máy tính để dùng phím thật (xem [Kết nối đàn MIDI](ket-noi-midi.md)).
+
+<div class="oz-midi-status"></div>

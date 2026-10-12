@@ -102,6 +102,8 @@ extra_css:
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/abcjs@6.7.1/dist/abcjs-basic-min.js
   - assets/js/audio.js
+  - assets/js/midi.js
+  - assets/js/assess.js
   - assets/js/progress.js
   - assets/js/theory.js
   - assets/js/abc.js
@@ -116,6 +118,7 @@ extra_javascript:
   - assets/js/rhythm.js
   - assets/js/sight-reading.js
   - assets/js/tuner.js
+  - assets/js/mic.js
   - assets/js/quiz.js
   - assets/js/placement.js
   - assets/js/worksheet.js
@@ -125,6 +128,11 @@ extra_javascript:
   - assets/js/staffpaper.js
   - assets/js/print.js
   - assets/js/recognition.js
+  - assets/js/playalong.js
+  - assets/js/dictation.js
+  - assets/js/recorder.js
+  - assets/js/spectrum.js
+  - assets/js/plan.js
   - assets/js/flashcards.js
   - assets/js/journal.js
   - assets/js/pwa.js
@@ -200,7 +208,13 @@ nav:
           - Tiết tấu: luyen-tap/tiet-tau.md
           - Đọc thị tấu: luyen-tap/thi-tau.md
           - Phiếu bài tập in được: luyen-tap/phieu-bai-tap.md
+          - Chép giai điệu: luyen-tap/chep-giai-dieu.md
           - Giấy kẻ khuông: luyen-tap/giay-ke-khuong.md
+      - Site nghe bạn:
+          - Chơi theo: luyen-tap/choi-theo.md
+          - Hát lại: luyen-tap/hat-lai.md
+          - Thu âm buổi tập: luyen-tap/thu-am.md
+          - Kết nối đàn MIDI: luyen-tap/ket-noi-midi.md
       - Luyện tai:
           - Nhận biết quãng: luyen-tap/quang.md
           - Nhận biết hợp âm: luyen-tap/hop-am.md
@@ -209,6 +223,7 @@ nav:
           - Bàn phím piano: luyen-tap/ban-phim.md
           - Xây gam và hợp âm: luyen-tap/xay-hop-am.md
           - Vòng quãng năm: luyen-tap/vong-quang-nam.md
+          - Phổ âm thanh: luyen-tap/pho-am-thanh.md
       - Dụng cụ:
           - Máy đếm nhịp: luyen-tap/metronome.md
           - Máy lên dây: luyen-tap/len-day.md

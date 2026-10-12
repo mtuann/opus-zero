@@ -71,7 +71,9 @@
       '<div class="oz-sight-staff"></div>' +
       '<div class="oz-row"><button class="oz-btn" data-act="tonic">Nghe chủ âm</button><button class="oz-btn" data-act="count">Đếm vào</button>' +
       '<button class="oz-btn oz-btn--primary" data-act="play">Nghe đáp án</button><button class="oz-btn" data-act="new">Giai điệu mới</button></div>' +
-      '<p class="oz-stats">Cách tập: nghe chủ âm, nhìn giai điệu 30 giây, đọc tên nốt, rồi bấm “Đếm vào” và hát (hoặc đàn) theo nhịp. Cuối cùng bấm “Nghe đáp án” để kiểm tra.</p>';
+      '<div class="oz-row"><span class="oz-stats">Chơi và được chấm:</span><button class="oz-btn" data-act="grade-midi">Bằng đàn MIDI</button><button class="oz-btn" data-act="grade-mic">Bằng micro (hát hoặc nhạc cụ)</button><label class="oz-stats"><input type="checkbox" data-k="oct" checked> Bỏ qua quãng tám</label></div>' +
+      '<div class="oz-feedback oz-grade" aria-live="polite"></div><div class="oz-grade-result"></div>' +
+      '<p class="oz-stats">Cách tập: nghe chủ âm, nhìn giai điệu 30 giây, đọc tên nốt, rồi bấm “Đếm vào” và hát (hoặc đàn) theo nhịp. Muốn được chấm điểm, bấm một trong hai nút “Chơi và được chấm”. Cuối cùng bấm “Nghe đáp án” để so sánh.</p>';
     const ctl = function (k) { return root.querySelector('[data-k="' + k + '"]'); };
     const staff = root.querySelector(".oz-sight-staff");
     let mel = null;
@@ -94,11 +96,50 @@
       });
       if (window.OZProgress) OZProgress.record("melodies", 1);
     }
+    const gfb = root.querySelector(".oz-grade"), gres = root.querySelector(".oz-grade-result");
+    let grading = null;
+    function grade(src) {
+      const c = window.OZAudio && OZAudio.getCtx(); if (!c || grading || !window.OZAssess) return;
+      const begin = function () {
+        const beat = 60 / Number(ctl("bpm").value), t0 = c.currentTime + 0.15;
+        for (let i = 0; i < 4; i++) OZAudio.click(t0 + i * beat, i === 0);
+        let t = t0 + 4 * beat; const exp = [];
+        mel.bars.forEach(function (bar) { bar.forEach(function (x) { exp.push({ t0: t, dur: x[1] * beat, midi: T().midi(noteOf(x[0], mel.n)) }); t += x[1] * beat; }); });
+        grading = { src: src, exp: exp, beat: beat, frames: [], events: [] };
+        grading.off = src === "midi" ? OZMidi.on(function (ev) { if (ev.type === "on" && grading) grading.events.push({ t: ev.t, midi: ev.midi }); })
+                                     : OZMic.on(function (fr) { if (grading) grading.frames.push(fr); });
+        gfb.textContent = "1 – 2 – 3 – 4… bắt đầu!"; gfb.className = "oz-feedback oz-grade"; gres.innerHTML = "";
+        setTimeout(function () {
+          const g = grading; grading = null; g.off();
+          const oct = ctl("oct").checked;
+          const notes = g.src === "midi" ? OZAssess.assessMidi(g.exp, g.events, g.beat, { octaveFree: oct }).notes : OZAssess.assessPitch(g.exp, g.frames, { octaveFree: oct });
+          const sm = OZAssess.summary(notes);
+          gres.innerHTML = '<div class="oz-result-row">' + notes.map(function (r) {
+            const cls = r.status === "ok" ? "ok" : r.status === "missing" ? "miss" : "bad";
+            return '<span class="oz-res ' + cls + '">' + (r.status === "ok" ? "✓" : r.status === "missing" ? "thiếu" : (r.cents !== undefined ? (r.cents > 0 ? "+" : "") + r.cents + "¢" : "sai")) + "</span>";
+          }).join("") + "</div>";
+          gfb.textContent = "Đúng " + sm.ok + "/" + sm.total + " nốt (" + sm.pct + "%)." + (sm.pct === 100 ? " Xuất sắc!" : " Bấm “Nghe đáp án” để so sánh.");
+          gfb.className = "oz-feedback oz-grade " + (sm.pct >= 80 ? "ok" : "bad");
+          if (window.OZProgress && OZProgress.skill) OZProgress.skill("sight", sm.pct >= 80);
+          if (window.OZProgress) OZProgress.record("melodies", 1);
+        }, (t - c.currentTime + 0.5) * 1000);
+      };
+      const fail = function (msg) { gfb.textContent = msg; gfb.className = "oz-feedback oz-grade bad"; };
+      if (src === "midi") {
+        if (!window.OZMidi || !OZMidi.supported()) return fail("Trình duyệt này không hỗ trợ MIDI. Hãy dùng Chrome hoặc Edge, hoặc chấm bằng micro.");
+        OZMidi.connect().then(begin).catch(function () { fail("Chưa kết nối được đàn MIDI."); });
+      } else {
+        if (!window.OZMic) return;
+        OZMic.start().then(begin).catch(function () { fail("Không mở được micro. Hãy cho phép trang dùng micro."); });
+      }
+    }
     root.addEventListener("click", function (e) {
       const b = e.target.closest("button[data-act]");
       if (!b) return;
       const a = b.dataset.act;
-      if (a === "new") fresh();
+      if (a === "grade-midi") grade("midi");
+      if (a === "grade-mic") grade("mic");
+      if (a === "new") { fresh(); gres.innerHTML = ""; gfb.textContent = ""; }
       if (a === "play") play(true);
       if (a === "count") play(false);
       if (a === "tonic" && window.OZAudio) OZAudio.playNote(T().midi(noteOf(KEYS[mel.key].v, mel.n)), undefined, 1.5);

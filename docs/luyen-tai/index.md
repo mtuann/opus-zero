@@ -11,6 +11,10 @@ Luyện tai (ear training) là tập **nhận ra bằng tai** những gì ta h�
 5. **Hát thị tấu** — nhìn giai điệu và hát ra tiếng với [công cụ thị tấu](../luyen-tap/thi-tau.md), rồi nghe đáp án.
 6. **Chép giai điệu** (dictation) — nghe một câu nhạc ngắn và viết lại thành nốt. Mẹo: dùng công cụ thị tấu theo chiều ngược lại — bấm "Nghe đáp án" trước khi nhìn khuông nhạc (che màn hình), viết ra giấy, rồi so sánh.
 
+## Site nghe bạn hát
+
+Luyện tai hiệu quả nhất khi bạn **phát ra** âm thanh, không chỉ nghe: [Hát lại](../luyen-tap/hat-lai.md) chấm cao độ giọng hát của bạn qua micro, và [Chép giai điệu](../luyen-tap/chep-giai-dieu.md) luyện biến âm thanh thành nốt nhạc.
+
 ## Luyện tai nâng cao: nhận diện
 
 Sau quãng, hợp âm và gam, bước tiếp theo là nghe **kết**, **kết cấu** và **phong cách**: xem [Luyện nghe nhận diện](../nhan-dien/luyen-nghe.md) và [Nghe mù](../nhan-dien/nghe-mu.md).

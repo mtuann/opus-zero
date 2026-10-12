@@ -11,7 +11,7 @@
     g.gain.exponentialRampToValueAtTime(gain, t + 0.03);
     g.gain.setValueAtTime(gain, t + Math.max(0.05, dur - 0.15));
     g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
-    o.connect(g).connect(c.destination);
+    o.connect(g).connect(window.OZAudio && OZAudio.output ? OZAudio.output() : c.destination);
     o.start(t); o.stop(t + dur + 0.05);
   }
   function nearest(freq) {

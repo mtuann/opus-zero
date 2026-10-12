@@ -61,14 +61,14 @@
       if (!b || !q || q.done) return;
       if (b.dataset.t === q.t) {
         q.done = true;
-        if (first) { session.total++; session.right++; }
+        if (first) { session.total++; session.right++; if (window.OZProgress && OZProgress.skill) OZProgress.skill("chords", true); }
         b.classList.add("is-correct");
         if (window.OZProgress) OZProgress.record("chords", 1);
         const names = OZTheory.chord({ l: 0, a: 0, o: 4 }, q.t).length;
         fb.textContent = "Đúng: " + C[q.t].name.toLowerCase() + " (" + names + " nốt). Bấm “Câu mới” để tiếp tục.";
         fb.className = "oz-feedback ok";
       } else {
-        if (first) { session.total++; first = false; }
+        if (first) { session.total++; first = false; if (window.OZProgress && OZProgress.skill) OZProgress.skill("chords", false); }
         b.classList.add("is-wrong"); b.disabled = true;
         fb.textContent = "Chưa đúng. Nghe lại và chú ý màu sắc của hợp âm."; fb.className = "oz-feedback bad";
         play();

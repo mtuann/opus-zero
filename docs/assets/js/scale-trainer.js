@@ -56,11 +56,11 @@
     answers.addEventListener("click", function (e) {
       const b = e.target.closest("button[data-t]"); if (!b || !q || q.done) return;
       if (b.dataset.t === q.t) {
-        q.done = true; if (first) { session.total++; session.right++; }
+        q.done = true; if (first) { session.total++; session.right++; if (window.OZProgress && OZProgress.skill) OZProgress.skill("scales", true); }
         b.classList.add("is-correct"); fb.textContent = "Đúng: " + S[q.t].name.toLowerCase() + "."; fb.className = "oz-feedback ok";
         if (window.OZProgress) OZProgress.record("scales", 1);
       } else {
-        if (first) { session.total++; first = false; }
+        if (first) { session.total++; first = false; if (window.OZProgress && OZProgress.skill) OZProgress.skill("scales", false); }
         b.classList.add("is-wrong"); b.disabled = true; fb.textContent = "Chưa đúng. Nghe lại, chú ý bậc 3, 6 và 7."; fb.className = "oz-feedback bad"; play();
       }
       stats.textContent = "Lượt này: đúng ngay lần đầu " + session.right + "/" + session.total + ".";

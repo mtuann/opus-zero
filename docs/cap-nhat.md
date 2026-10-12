@@ -4,6 +4,14 @@ Trang này ghi lại những thay đổi lớn của site và quy trình giữ c
 
 ## Nhật ký thay đổi
 
+### 10/2026: Phiên bản 6
+
+- **Âm thanh piano thật:** mọi công cụ dùng mẫu âm Salamander Grand Piano (CC BY 3.0, khoảng 2 MB, tải khi phát lần đầu); có thể chuyển về âm tổng hợp ở trang [Luyện tập](luyen-tap/index.md).
+- **Site nghe bạn:** [Chơi theo](luyen-tap/choi-theo.md) chấm cao độ và nhịp qua micro hoặc đàn MIDI; [Hát lại](luyen-tap/hat-lai.md) chấm giọng hát theo cent; [Đọc thị tấu](luyen-tap/thi-tau.md) có chế độ chơi và được chấm.
+- **Đàn MIDI:** [kết nối đàn piano điện](luyen-tap/ket-noi-midi.md) và dùng phím thật trong đọc nốt, thị tấu, chơi theo, chép giai điệu, xây hợp âm, bàn phím.
+- **Kế hoạch học tự thích ứng:** trang chủ và nhật ký đề xuất buổi tập mỗi ngày dựa trên độ chính xác và thời gian chưa luyện của từng kỹ năng; bảng năng lực 13 kỹ năng.
+- **Công cụ mới:** [chép giai điệu](luyen-tap/chep-giai-dieu.md), [thu âm buổi tập](luyen-tap/thu-am.md), [phổ âm thanh](luyen-tap/pho-am-thanh.md).
+
 ### 10/2026: Phiên bản 5
 
 - **Nhạc lý:** 5 bài "nghe hiểu cấu trúc" (28–32): [kết cấu](nhac-ly/28-ket-cau.md), [chuỗi hòa âm](nhac-ly/29-chuoi-hoa-am.md), [phát triển môtip và cấu trúc câu](nhac-ly/30-phat-trien-motip.md), [hình thức nhỏ](nhac-ly/31-hinh-thuc-nho.md), [kỹ thuật thế kỷ 20](nhac-ly/32-ky-thuat-the-ky-20.md); bổ sung quãng ghép (bài 9), hemiola (bài 15), hợp âm cảm âm phụ (bài 19).

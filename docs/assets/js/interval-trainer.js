@@ -91,13 +91,13 @@
       const n = Number(b.dataset.n);
       if (n === q.n) {
         q.done = true;
-        if (firstTry) { session.total++; session.right++; }
+        if (firstTry) { session.total++; session.right++; if (window.OZProgress && OZProgress.skill) OZProgress.skill("intervals", true); }
         b.classList.add("is-correct");
         if (window.OZProgress) OZProgress.record("intervals", 1);
         feedback.textContent = "Đúng, quãng " + NAMES[q.n] + " (" + q.n + " nửa cung). Bấm “Câu mới” để tiếp tục.";
         feedback.className = "oz-feedback ok";
       } else {
-        if (firstTry) { session.total++; firstTry = false; }
+        if (firstTry) { session.total++; firstTry = false; if (window.OZProgress && OZProgress.skill) OZProgress.skill("intervals", false); }
         b.classList.add("is-wrong");
         b.disabled = true;
         feedback.textContent = "Chưa đúng. Nghe lại và thử lựa chọn khác.";

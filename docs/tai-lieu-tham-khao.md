@@ -32,6 +32,11 @@ Những nguồn chính được dùng để viết và kiểm tra nội dung sit
 - Các nguồn báo chí Việt Nam được ghi riêng ở cuối trang [Nhạc cổ điển ở Việt Nam](lich-su/viet-nam.md) và [Nhạc truyền thống Việt Nam và nhạc cổ điển](lich-su/nhac-truyen-thong-viet-nam.md).
 - [Danh sách di sản văn hóa phi vật thể của UNESCO](https://ich.unesco.org/).
 
+## Âm thanh
+
+- Mẫu âm piano: **Salamander Grand Piano V3** của **Alexander Holm** (đàn Yamaha C5), giấy phép [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/); bản MP3 lấy từ dự án [Tone.js audio](https://github.com/Tonejs/audio); bản gốc: [archive.org](https://archive.org/details/SalamanderGrandPianoV3).
+- Bản thu trong [Nghe mù](nhan-dien/nghe-mu.md): Wikimedia Commons, giấy phép ghi ở từng trang tệp.
+
 ## Về độ chính xác
 
 Nội dung site được biên soạn và kiểm tra cẩn thận, nhưng không phải là tài liệu học thuật đã qua bình duyệt. Năm tháng và chi tiết lịch sử đôi khi khác nhau giữa các nguồn; khi đó site chọn cách diễn đạt thận trọng ("khoảng", "được cho là"). Các ví dụ nhạc được rút gọn để học, không thay thế bản nhạc gốc.

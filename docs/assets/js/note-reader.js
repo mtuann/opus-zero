@@ -81,6 +81,7 @@
     function statKey(clef, v) { return clef + ":" + v; }
     function noteStats() { return window.OZProgress ? OZProgress.getStore("noteStats", {}) : {}; }
     function bump(wrong) {
+      if (window.OZProgress && OZProgress.skill) OZProgress.skill("notes", !wrong);
       if (!window.OZProgress) return;
       const st = noteStats();
       const k = statKey(currentClef, current);
@@ -193,6 +194,14 @@
     });
     ["clef", "range"].forEach(function (k) { ctl(k).addEventListener("change", next); });
     ctl("names").addEventListener("change", buildAnswers);
+
+    /* Trả lời bằng đàn MIDI: bấm đúng phím (cùng tên nốt) trên đàn thật */
+    if (window.OZMidi) OZMidi.on(function (ev) {
+      if (ev.type !== "on" || !root.isConnected || current === null) return;
+      const pc = ((ev.midi % 12) + 12) % 12, idx = SEMIS.indexOf(pc);
+      if (idx < 0) { feedback.textContent = "Phím đen: nốt trên khuông là một nốt tự nhiên (phím trắng)."; feedback.className = "oz-feedback bad"; return; }
+      answer(idx);
+    });
 
     root.tabIndex = 0;
     root.addEventListener("keydown", function (e) {

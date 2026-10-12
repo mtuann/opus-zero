@@ -17,7 +17,9 @@ hide:
 
 <div class="oz-summary"></div>
 
-Nếu chỉ có 20–30 phút, hãy làm theo thứ tự này:
+<div class="oz-plan"></div>
+
+Kế hoạch trên được site chọn tự động theo kết quả luyện tập của bạn. Nếu muốn tự chọn, đây là thứ tự cơ bản:
 
 1. [Đọc nốt](luyen-tap/doc-not.md) — 5 phút, đọc đúng ít nhất 10 nốt.
 2. [Nhận biết quãng](luyen-tap/quang.md) hoặc [hợp âm](luyen-tap/hop-am.md) — 5 phút luyện tai.

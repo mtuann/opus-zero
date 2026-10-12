@@ -72,10 +72,15 @@
       const k = e.target.closest ? e.target.closest(".oz-key") : null;
       if (!k) return;
       const m = Number(k.dataset.m);
-      if (window.OZAudio) OZAudio.playNote(m, undefined, 1.2);
+      if (window.OZAudio && !opts.silent) OZAudio.playNote(m, undefined, 1.2);
       flash(m);
       info.textContent = nameOf(m);
+      if (opts.onKey) opts.onKey(m);
     });
+    /* Phím được nhấn từ đàn MIDI cũng sáng lên trên bàn phím màn hình */
+    if (window.OZMidi && opts.midi !== false) {
+      OZMidi.on(function (ev) { if (ev.type === "on" && svg.isConnected) { flash(ev.midi); info.textContent = nameOf(ev.midi) + " (đàn MIDI)"; } });
+    }
 
     return {
       highlight: function (list) {

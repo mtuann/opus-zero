@@ -15,7 +15,7 @@ Trước mỗi buổi, viết một dòng: *"Hôm nay: ô nhịp 9–12, sửa n
 3. **Thang máy đếm nhịp.** Chơi đúng 3 lần liên tiếp ở một tốc độ thì tăng 4 BPM. Sai thì lùi lại. Dùng [máy đếm nhịp](../luyen-tap/metronome.md).
 4. **Tập đoạn khó trước**, lúc đầu óc còn tỉnh, không phải lúc cuối buổi.
 5. **Xen kẽ.** Thay vì tập một đoạn 30 phút liền, chia thành 3 đoạn, mỗi đoạn 10 phút, rồi quay vòng. Cảm giác khó hơn nhưng nhớ lâu hơn.
-6. **Ghi âm và nghe lại** mỗi tuần. Tai khi đang chơi và tai khi nghe lại là hai cái tai rất khác nhau.
+6. **Ghi âm và nghe lại** mỗi tuần, ngay trên site với công cụ [Thu âm buổi tập](../luyen-tap/thu-am.md). Tai khi đang chơi và tai khi nghe lại là hai cái tai rất khác nhau. Muốn được chấm cao độ và nhịp, dùng [Chơi theo](../luyen-tap/choi-theo.md).
 7. **Nghỉ.** Cứ 25–30 phút nghỉ 5 phút. Tay căng hoặc đau là tín hiệu dừng lại, không phải cố thêm.
 
 ## Một buổi tập 30 phút mẫu

@@ -31,6 +31,12 @@
       if (chosen.has(m)) chosen.delete(m); else chosen.add(m);
       kb.highlight(Array.from(chosen));
     });
+    if (window.OZMidi) OZMidi.on(function (ev) {
+      if (ev.type !== "on" || !root.isConnected) return;
+      let m = ev.midi; while (m < 60) m += 12; while (m > 83) m -= 12; /* đưa về khung bàn phím màn hình */
+      if (chosen.has(m)) chosen.delete(m); else chosen.add(m);
+      kb.highlight(Array.from(chosen));
+    });
     const qEl = root.querySelector(".oz-build-q"), fb = root.querySelector(".oz-feedback"), stats = root.querySelector(".oz-stats");
     let q = null; const session = { right: 0, total: 0 }; let first = true;
 

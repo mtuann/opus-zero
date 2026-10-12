@@ -44,7 +44,10 @@ overrides/main.html       Thêm manifest và màu chủ đề vào <head>
 
 | File | Vai trò |
 |---|---|
-| `audio.js` | Phát nốt và tiếng đếm nhịp bằng Web Audio |
+| `audio.js` | Phát nốt bằng mẫu âm piano thật (Salamander, CC BY 3.0, `docs/assets/samples/piano/`) hoặc âm tổng hợp; nút gốc chung cho phổ âm thanh |
+| `midi.js`, `mic.js`, `assess.js` | Đàn MIDI (Web MIDI), micro dùng chung, chấm cao độ và nhịp |
+| `playalong.js`, `dictation.js`, `recorder.js`, `spectrum.js` | Chơi theo, hát lại, chép giai điệu, thu âm (IndexedDB), phổ âm thanh |
+| `plan.js` | Kế hoạch học tự thích ứng và bảng năng lực |
 | `progress.js` | Lưu tiến độ trong `localStorage` |
 | `theory.js` | Lõi nhạc lý: tên nốt, gam, hợp âm, hóa biểu |
 | `abc.js` | Vẽ khối ```abc thành khuông nhạc có nút phát |

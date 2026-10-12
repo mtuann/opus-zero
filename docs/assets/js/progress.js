@@ -95,5 +95,19 @@
     document.dispatchEvent(new CustomEvent("oz:progress"));
   }
 
-  window.OZProgress = { getStore: getStore, setStore: setStore, KEY: KEY, today: today, load: load, save: save, getDay: getDay, record: record, setTask: setTask, setNote: setNote, level: level, streak: streak };
+  /* Theo dõi năng lực từng kỹ năng: số lần, số đúng, độ chính xác trượt (EMA), lần luyện cuối */
+  function skill(id, ok) {
+    const data = load();
+    if (!data.store) data.store = {};
+    const all = data.store.skills || {};
+    const s = all[id] || { n: 0, c: 0, ema: 0.5, last: "" };
+    s.n++; if (ok) s.c++;
+    s.ema = s.n === 1 ? (ok ? 0.7 : 0.3) : s.ema * 0.85 + (ok ? 1 : 0) * 0.15;
+    s.last = today();
+    all[id] = s; data.store.skills = all;
+    save(data);
+    document.dispatchEvent(new CustomEvent("oz:progress"));
+  }
+
+  window.OZProgress = { skill: skill, getStore: getStore, setStore: setStore, KEY: KEY, today: today, load: load, save: save, getDay: getDay, record: record, setTask: setTask, setNote: setNote, level: level, streak: streak };
 })();

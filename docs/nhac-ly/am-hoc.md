@@ -54,6 +54,11 @@ Hai nốt có tỉ lệ tần số **đơn giản** thì có nhiều bồi âm t
 
 ## Âm sắc
 
+Nhìn bồi âm bằng mắt: bấm các nút để so phổ của sóng sin, âm tổng hợp và piano thật, hoặc bật micro (xem thêm trang [Phổ âm thanh](../luyen-tap/pho-am-thanh.md)).
+
+<div class="oz-spectrum"></div>
+
+
 Sáo gần như chỉ có âm cơ bản và vài bồi âm yếu, nên nghe tròn và trong. Clarinet có các bồi âm **lẻ** (1, 3, 5, 7) mạnh hơn hẳn các bồi âm chẵn, tạo âm sắc "rỗng" đặc trưng. Violin và oboe có rất nhiều bồi âm mạnh, nên nghe sáng và giàu. Thử chọn chỉ các ô lẻ (1, 3, 5, 7) trong công cụ ở trên rồi nghe cùng lúc.
 
 Bồi âm còn là cách **chơi** một số nhạc cụ:

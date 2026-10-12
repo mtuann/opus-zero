@@ -299,3 +299,23 @@
 .oz-audio { width: 100%; max-width: 520px; margin: 0.6rem 0; }
 .oz-blind-reveal { border-left: 3px solid var(--md-accent-fg-color); padding: 0.2rem 0 0.2rem 0.8rem; margin: 0.6rem 0; font-size: 0.8rem; }
 .oz-log-table table { font-size: 0.72rem; }
+
+/* ---------- Site nghe bạn, MIDI, kế hoạch ---------- */
+.oz-result-row { display: flex; flex-wrap: wrap; gap: 0.3rem; margin: 0.6rem 0; }
+.oz-res { display: inline-flex; flex-direction: column; align-items: center; min-width: 2.6rem; padding: 0.2rem 0.3rem; border-radius: 6px; font-size: 0.65rem; border: 1px solid var(--md-default-fg-color--lightest); }
+.oz-res b { font-weight: 600; font-size: 0.68rem; }
+.oz-res.ok { border-color: var(--oz-ok); color: var(--oz-ok); }
+.oz-res.bad { border-color: var(--oz-bad); color: var(--oz-bad); }
+.oz-res.miss { opacity: 0.55; border-style: dashed; }
+.oz-midi-box { margin: 0.6rem 0; font-size: 0.75rem; }
+.oz-midi-box[data-state="on"] .oz-midi-text { color: var(--oz-ok); }
+.oz-plan-list { margin: 0.4rem 0 0 1.2rem; }
+.oz-plan-list li { margin: 0.25rem 0; }
+.oz-skill-table { font-size: 0.72rem; }
+.oz-skill-table tr.oz-locked { opacity: 0.5; }
+.oz-bar { display: inline-block; width: 80px; height: 6px; border-radius: 3px; background: var(--md-default-fg-color--lightest); vertical-align: middle; overflow: hidden; }
+.oz-bar span { display: block; height: 100%; background: var(--md-accent-fg-color); }
+.oz-spec { width: 100%; max-width: 720px; height: auto; display: block; margin: 0.6rem 0; border: 1px solid var(--md-default-fg-color--lightest); border-radius: 8px; }
+.oz-rec-item { border-top: 1px solid var(--md-default-fg-color--lightest); padding: 0.5rem 0; }
+.oz-rec-item audio, .oz-rec-ab audio { width: 100%; max-width: 420px; margin: 0.3rem 0; }
+.oz-dict-input { min-height: 1.4em; }

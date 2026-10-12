@@ -12,3 +12,9 @@
 4. Bấm **Nghe đáp án** để so sánh.
 
 Bắt đầu với Đô trưởng, cấp độ 1, tốc độ 60. Mỗi ngày đọc 3–5 giai điệu là đủ.
+
+## Dùng đàn MIDI
+
+Có đàn piano điện? Cắm vào máy tính để dùng phím thật (xem [Kết nối đàn MIDI](ket-noi-midi.md)).
+
+<div class="oz-midi-status"></div>

@@ -13,3 +13,9 @@ Bấm tên của nốt trên khuông. Trên máy tính có thể gõ phím chữ
 5. **Thứ tự mở rộng gợi ý:** khóa Sol trong khuông → khóa Fa trong khuông → khóa Sol thêm dòng kẻ phụ → khóa Fa thêm dòng kẻ phụ → cả hai khóa.
 
 Ôn lý thuyết ở bài [Khuông nhạc và khóa](../nhac-ly/02-khuong-nhac-khoa.md).
+
+## Dùng đàn MIDI
+
+Có đàn piano điện? Cắm vào máy tính để dùng phím thật (xem [Kết nối đàn MIDI](ket-noi-midi.md)).
+
+<div class="oz-midi-status"></div>

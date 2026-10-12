@@ -90,12 +90,12 @@
     answers.addEventListener("click", function (e) {
       const b = e.target.closest("button[data-p]"); if (!b || done) return;
       if (b.dataset.p === cur.period) {
-        done = true; if (first) { session.total++; session.right++; }
+        done = true; if (first) { session.total++; session.right++; if (window.OZProgress && OZProgress.skill) OZProgress.skill("style", true); }
         b.classList.add("is-correct");
         fb.textContent = "Đúng: " + PERIODS[cur.period] + ". Các dấu hiệu:"; fb.className = "oz-feedback ok";
         if (window.OZProgress) OZProgress.record("styles", 1);
       } else {
-        if (first) { session.total++; first = false; }
+        if (first) { session.total++; first = false; if (window.OZProgress && OZProgress.skill) OZProgress.skill("style", false); }
         b.classList.add("is-wrong"); b.disabled = true;
         fb.textContent = "Chưa đúng. Nghe lại: để ý nhạc cụ, kết cấu và hòa âm."; fb.className = "oz-feedback bad";
         return;
@@ -137,11 +137,11 @@
     answers.addEventListener("click", function (e) {
       const b = e.target.closest("button[data-c]"); if (!b || !q || q.done) return;
       if (b.dataset.c === q.type) {
-        q.done = true; if (first) { session.total++; session.right++; }
+        q.done = true; if (first) { session.total++; session.right++; if (window.OZProgress && OZProgress.skill) OZProgress.skill("cadence", true); }
         b.classList.add("is-correct"); fb.textContent = "Đúng. Bấm “Câu mới” để tiếp tục."; fb.className = "oz-feedback ok";
         if (window.OZProgress) OZProgress.record("chords", 1);
       } else {
-        if (first) { session.total++; first = false; }
+        if (first) { session.total++; first = false; if (window.OZProgress && OZProgress.skill) OZProgress.skill("cadence", false); }
         b.classList.add("is-wrong"); b.disabled = true; fb.textContent = "Chưa đúng. Chú ý hợp âm cuối: nghe như dừng hẳn, lơ lửng, hay rẽ hướng?"; fb.className = "oz-feedback bad"; play();
       }
       stats.textContent = "Lượt này: đúng ngay lần đầu " + session.right + "/" + session.total + ".";
@@ -202,11 +202,11 @@
     answers.addEventListener("click", function (e) {
       const b = e.target.closest("button[data-t]"); if (!b || !q || q.done) return;
       if (b.dataset.t === q.type) {
-        q.done = true; if (first) { session.total++; session.right++; }
+        q.done = true; if (first) { session.total++; session.right++; if (window.OZProgress && OZProgress.skill) OZProgress.skill("texture", true); }
         b.classList.add("is-correct"); fb.textContent = "Đúng: " + TEX[q.type] + ". Bấm “Câu mới” để tiếp tục."; fb.className = "oz-feedback ok";
         if (window.OZProgress) OZProgress.record("styles", 1);
       } else {
-        if (first) { session.total++; first = false; }
+        if (first) { session.total++; first = false; if (window.OZProgress && OZProgress.skill) OZProgress.skill("texture", false); }
         b.classList.add("is-wrong"); b.disabled = true; fb.textContent = "Chưa đúng. Đếm xem có mấy đường nét độc lập."; fb.className = "oz-feedback bad";
       }
       stats.textContent = "Lượt này: đúng ngay lần đầu " + session.right + "/" + session.total + ".";
@@ -483,7 +483,7 @@
         if (!ctl("period").value || !ctl("ens").value) { fb.textContent = "Hãy chọn cả thời kỳ và biên chế trước."; fb.className = "oz-feedback bad"; return; }
         const pOk = cur.ok.indexOf(ctl("period").value) >= 0, eOk = ctl("ens").value === cur.ensemble;
         if (!checked && window.OZProgress) {
-          const st = stats(); st.total++; if (pOk) st.right++; OZProgress.setStore("blind", st); OZProgress.record("styles", 1);
+          const st = stats(); st.total++; if (pOk) st.right++; OZProgress.setStore("blind", st); OZProgress.record("styles", 1); if (OZProgress.skill) OZProgress.skill("style", pOk);
         }
         checked = true;
         fb.textContent = (pOk ? "Thời kỳ: đúng. " : "Thời kỳ: chưa đúng. ") + (eOk ? "Biên chế: đúng." : "Biên chế: chưa đúng.");
