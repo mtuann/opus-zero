@@ -91,3 +91,8 @@ Một phím đen có thể có **hai tên**. Phím giữa Đô và Rê vừa là
 - Đô♯ và Rê♭
 > Hai tên đồng âm khác tên của cùng một phím.
 ```
+
+## Nguồn
+
+- [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/); [musictheory.net](https://www.musictheory.net/lessons).
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

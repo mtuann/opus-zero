@@ -1,0 +1,45 @@
+# Thời Cổ điển (khoảng 1750–1820)
+
+## Bối cảnh
+
+Thời **Khai sáng**: lý trí, sự rõ ràng, tính tự nhiên. Tầng lớp trung lưu lớn mạnh, **hòa nhạc công cộng** có bán vé xuất hiện ở London, Paris, Vienna; người nghiệp dư mua bản nhạc in và chơi piano tại nhà. Nhạc sĩ dần chuyển từ người làm công cho quý tộc sang **nghệ sĩ tự do**: Haydn phục vụ gia đình Esterházy gần 30 năm, Mozart rời Salzburg đến Vienna làm nghề tự do, Beethoven sống bằng tiền tài trợ, học trò và xuất bản.
+
+**Vienna** là trung tâm, với ba tên tuổi được gọi chung là "trường phái Vienna thứ nhất": Haydn, Mozart, Beethoven.
+
+## Âm thanh đặc trưng
+
+- **Giai điệu rõ ràng, có đệm**: một giai điệu chính, bè dưới đệm hợp âm (như kiểu đệm Alberti trong [Mozart K. 545](../../hinh-thuc/sonata.md)), khác với phức điệu Baroque.
+- **Câu nhạc cân đối**: 4 + 4 ô nhịp, câu hỏi – câu trả lời (xem [bài 13](../../nhac-ly/13-ket.md)).
+- **Tương phản trong cùng một chương**: hai chủ đề với tính cách khác nhau.
+- **Sắc thái chuyển dần**: crescendo, diminuendo thay cho to – nhỏ đột ngột.
+- Basso continuo dần biến mất.
+
+## Nhạc cụ
+
+**Piano** (fortepiano) thay thế harpsichord. **Dàn nhạc giao hưởng** được chuẩn hóa: bộ dây, từng cặp sáo, oboe, bassoon, horn, trumpet, timpani; **clarinet** gia nhập từ cuối thế kỷ 18. **Tứ tấu đàn dây** trở thành thể loại thính phòng hàng đầu.
+
+## Thể loại chính
+
+**Giao hưởng**, **concerto** cho piano và các nhạc cụ khác, **sonata** piano, **tứ tấu đàn dây**, **opera** (Mozart). Hình thức sonata là khung của hầu hết các chương đầu (xem [Hình thức sonata](../../hinh-thuc/sonata.md)).
+
+## 10 tác phẩm để nghe
+
+1. C. P. E. Bach, *Sinfonia* cung Si thứ, Wq 182 số 5 (cầu nối Baroque – Cổ điển).
+2. Gluck, *Orfeo ed Euridice*, *Dance of the Blessed Spirits*.
+3. [Haydn, Giao hưởng số 94, chương 2](../../nghe-nhac/haydn-94.md).
+4. Haydn, Tứ tấu đàn dây Op. 76 số 3 *"Hoàng đế"*, chương 2.
+5. Mozart, *Eine kleine Nachtmusik*, K. 525.
+6. [Mozart, Giao hưởng số 40, chương 1](../../nghe-nhac/mozart-40.md).
+7. Mozart, Concerto piano số 21, K. 467, chương 2.
+8. [Mozart, aria Nữ hoàng bóng đêm](../../nghe-nhac/mozart-nu-hoang-bong-dem.md).
+9. [Mozart, *Requiem*](../../nghe-nhac/mozart-requiem.md).
+10. Beethoven, Sonata piano *Pathétique*, Op. 13.
+
+**Cách nghe:** đếm ô nhịp theo nhóm 4. Bạn sẽ thấy câu nhạc Cổ điển gần như luôn chia đôi rất đều, và cảm giác "hỏi – đáp" ở cuối mỗi cặp câu.
+
+Thời kỳ trước: [Baroque](baroque.md). Thời kỳ tiếp theo: [Lãng mạn](lang-man.md).
+
+## Nguồn
+
+- Burkholder, Grout, Palisca, *A History of Western Music*; Richard Taruskin, *The Oxford History of Western Music*.
+- Grove Music Online; Encyclopaedia Britannica. Xem [tài liệu tham khảo](../../tai-lieu-tham-khao.md).

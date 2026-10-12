@@ -15,7 +15,7 @@
   function todayLine(d) {
     const parts = [];
     [["notes", "nốt đọc đúng"], ["intervals", "quãng"], ["chords", "hợp âm"], ["keysigs", "hóa biểu"],
-     ["rhythms", "tiết tấu gõ đúng"], ["scales", "gam nhận đúng"], ["builds", "gam/hợp âm tự xây"], ["melodies", "giai điệu thị tấu"], ["cards", "thẻ thuật ngữ"],
+     ["rhythms", "tiết tấu gõ đúng"], ["scales", "gam nhận đúng"], ["builds", "gam/hợp âm tự xây"], ["melodies", "giai điệu thị tấu"], ["styles", "câu nhận diện"], ["cards", "thẻ thuật ngữ"],
      ["quizzes", "quiz bài học"], ["minutes", "phút máy đếm nhịp"]].forEach(function (f) {
       if (d[f[0]]) parts.push(d[f[0]] + " " + f[1]);
     });

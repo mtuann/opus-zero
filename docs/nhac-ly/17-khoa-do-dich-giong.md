@@ -103,3 +103,8 @@ Khi đọc **tổng phổ** (bài 20), bè clarinet in B♭ có hóa biểu khá
 - Thấp hơn một quãng tám
 > Âm thanh thật thấp hơn nốt viết một quãng tám.
 ```
+
+## Nguồn
+
+- [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/); [musictheory.net](https://www.musictheory.net/lessons).
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

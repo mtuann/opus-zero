@@ -91,3 +91,8 @@ C E G c G E | D F A d3 | B, D G B G D | C3 C3 |]
 - 3/4
 > C là ký hiệu của nhịp 4/4.
 ```
+
+## Nguồn
+
+- [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/); [musictheory.net](https://www.musictheory.net/lessons).
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

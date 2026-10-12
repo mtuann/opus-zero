@@ -4,6 +4,23 @@
 
 Biết hình thức giúp bạn không bị "lạc" khi nghe một tác phẩm dài 40 phút.
 
+Mỗi hình thức chính có một trang riêng, đi qua một tác phẩm cụ thể từ đầu đến cuối:
+
+[Hình thức sonata](sonata.md)
+:   Trình bày – phát triển – tái hiện. Phân tích Mozart Sonata K. 545.
+
+[Fugue](fugue.md)
+:   Các bè đuổi theo nhau bằng cùng một chủ đề. Phân tích Bach Fugue cung Đô thứ, BWV 847.
+
+[Chủ đề và biến tấu](bien-tau.md)
+:   Một giai điệu, nhiều cách biến đổi. Phân tích Mozart 12 biến tấu K. 265.
+
+[Rondo](rondo.md)
+:   Một đoạn chính quay lại nhiều lần. Phân tích *Für Elise*.
+
+[Concerto và ritornello](concerto.md)
+:   Một người đối thoại với cả dàn nhạc.
+
 ## Các hình thức cơ bản
 
 Người ta dùng chữ cái để gọi các đoạn nhạc: cùng chữ là cùng chất liệu, khác chữ là chất liệu mới.
@@ -61,3 +78,8 @@ Nghe thử: Bach *Fugue cung Sol thứ* BWV 578 ("Little Fugue") cho organ. Đ�
 
 **Tiểu phẩm cho piano**
 :   Nocturne, étude (bài luyện), prélude, ballade, impromptu… Chopin là bậc thầy của các thể loại này.
+
+## Nguồn
+
+- [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/), phần hình thức.
+- Ví dụ tác phẩm đối chiếu với bản nhạc trên [IMSLP](https://imslp.org/). Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

@@ -2,7 +2,7 @@
 
 "Nhạc cổ điển" theo nghĩa rộng là truyền thống âm nhạc nghệ thuật phương Tây kéo dài hơn một nghìn năm. Theo nghĩa hẹp, **thời kỳ Cổ điển** chỉ là giai đoạn khoảng 1750–1820 của Haydn, Mozart và Beethoven thời trẻ.
 
-Các mốc năm dưới đây là quy ước gần đúng; phong cách thay đổi dần dần chứ không đổi trong một đêm.
+Các mốc năm dưới đây là quy ước gần đúng; phong cách thay đổi dần dần chứ không đổi trong một đêm. Mỗi thời kỳ có một trang chi tiết (bối cảnh, âm thanh đặc trưng, nhạc cụ, 10 tác phẩm để nghe): [Trung cổ](thoi-ky/trung-co.md), [Phục hưng](thoi-ky/phuc-hung.md), [Baroque](thoi-ky/baroque.md), [Cổ điển](thoi-ky/co-dien.md), [Lãng mạn](thoi-ky/lang-man.md), [Thế kỷ 20](thoi-ky/the-ky-20.md), [Đương đại](duong-dai.md). Xem cả [dòng thời gian](dong-thoi-gian.md) và [Nhạc truyền thống Việt Nam và nhạc cổ điển](nhac-truyen-thong-viet-nam.md).
 
 | Thời kỳ | Khoảng thời gian | Một câu tóm tắt |
 |---|---|---|
@@ -71,3 +71,8 @@ Xem trang riêng: [Âm nhạc hôm nay](duong-dai.md).
 - Craig Wright, *Listening to Music* — giáo trình nhập môn, có khóa học miễn phí của Yale đi kèm.
 - J. Peter Burkholder, Donald J. Grout, Claude V. Palisca, *A History of Western Music* — giáo trình chuẩn ở đại học, rất đầy đủ.
 - Alex Ross, *The Rest Is Noise* — lịch sử âm nhạc thế kỷ 20, viết rất cuốn hút.
+
+## Nguồn
+
+- Burkholder, Grout, Palisca, *A History of Western Music*; Richard Taruskin, *The Oxford History of Western Music*.
+- Grove Music Online; Encyclopaedia Britannica. Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

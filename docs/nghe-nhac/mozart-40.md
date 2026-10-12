@@ -14,6 +14,10 @@ Mozart chỉ viết hai bản giao hưởng ở giọng thứ, cả hai đều �
 
 Chương 1 là ví dụ mẫu mực của **[hình thức sonata](../hinh-thuc/index.md#hinh-thuc-sonata)**. Đây là chương để luyện nhận ra ba phần: trình bày, phát triển, tái hiện.
 
+## Nghe kèm bản thu
+
+<div class="oz-listen"></div>
+
 ## Theo dõi khi nghe
 
 | Thời điểm | Phần | Sự kiện |
@@ -36,3 +40,8 @@ Chương 1 là ví dụ mẫu mực của **[hình thức sonata](../hinh-thuc/i
 ## Ghi chép của bạn
 
 *(Dùng [mẫu ghi chép](mau.md) để điền cảm nhận.)*
+
+## Nguồn
+
+- Bản nhạc và tổng phổ: [IMSLP](https://imslp.org/) (tìm theo tên nhà soạn nhạc và số hiệu danh mục).
+- Bối cảnh lịch sử: Burkholder, Grout, Palisca, *A History of Western Music*; Grove Music Online. Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

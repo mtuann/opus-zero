@@ -25,6 +25,8 @@ Tương tự, có thể có **V/ii, V/iii, V/IV, V/vi**: hợp âm át của b�
 | V/ii | A hoặc A7 | Dm | Đô♯ |
 | V/IV | C7 | F | Si♭ |
 
+Ngoài hợp âm V, **hợp âm vii°** (hoặc vii°7) cũng có thể làm "át phụ": hợp âm **cảm âm phụ**. Ví dụ **vii°/V** trong Đô trưởng là Fa♯ – La – Đô (hoặc Fa♯ – La – Đô – Mi♭, hợp âm bảy giảm), dẫn về G vì Fa♯ là cảm âm của Sol.
+
 **Mẹo nhận ra át phụ:** khi thấy một **dấu hóa bất thường** xuất hiện rồi biến mất ngay, đặc biệt là một nốt thăng đi lên nửa cung, rất có thể đó là cảm âm của một át phụ.
 
 Át phụ làm hợp âm đích được **"chủ âm hóa" tạm thời** (tonicization): trong một khoảnh khắc, G nghe như chủ âm, rồi nhạc vẫn ở Đô trưởng.
@@ -101,3 +103,8 @@ K:C
 - Fa♯ trưởng
 > Chỉ khác một dấu hóa.
 ```
+
+## Nguồn
+
+- [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/); [musictheory.net](https://www.musictheory.net/lessons).
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

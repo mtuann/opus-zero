@@ -59,6 +59,10 @@ K:C
 C E [CE]2 | C G [CG]2 | C A [CA]2 | C c [Cc]2 |]
 ```
 
+## Quãng ghép
+
+Quãng **lớn hơn quãng 8** gọi là **quãng ghép**. Trừ đi 7 để được quãng đơn tương ứng: quãng **9** là quãng 2 cộng một quãng 8, quãng **10** là quãng 3 cộng một quãng 8, quãng 11 là quãng 4, quãng 12 là quãng 5, quãng 13 là quãng 6. Tính chất giữ nguyên: Đô4 – Rê5 là **9 trưởng** (14 nửa cung). Quãng ghép thường gặp trong tên hợp âm (C9, C13, xem [bài 27](27-ky-hieu-hop-am.md)) và giữa bè trầm với bè cao.
+
 ## Đảo quãng
 
 Đưa nốt dưới lên một quãng tám (hoặc nốt trên xuống một quãng tám) là **đảo quãng**:
@@ -118,3 +122,8 @@ Luyện tai các quãng với [công cụ nhận biết quãng](../luyen-tap/qua
 - 4 đúng
 > Fa♯ nằm trong gam Rê trưởng, nên là 3 trưởng (4 nửa cung).
 ```
+
+## Nguồn
+
+- [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/); [musictheory.net](https://www.musictheory.net/lessons).
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

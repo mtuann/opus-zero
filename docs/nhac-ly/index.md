@@ -1,6 +1,6 @@
 # Nhạc lý
 
-Nhạc lý là "ngữ pháp" của âm nhạc: cách ghi lại âm thanh lên giấy và cách các âm thanh kết hợp với nhau. 14 bài **nền tảng** đi từ con số 0, sau mỗi phần có một bài **ôn tập** tổng hợp, và 6 bài **nâng cao** dành cho khi đã vững nền tảng. Mỗi bài có ví dụ bấm nghe được, bài tập có đáp án, công cụ luyện tập đi kèm và một quiz ngắn ở cuối. Làm xong quiz thì bài được đánh dấu "đã học".
+Nhạc lý là "ngữ pháp" của âm nhạc: cách ghi lại âm thanh lên giấy và cách các âm thanh kết hợp với nhau. 14 bài **nền tảng** đi từ con số 0, sau mỗi phần có một bài **ôn tập** tổng hợp, 6 bài **nâng cao**, một bài **âm học**, 7 bài **trung cấp** và 5 bài **nghe hiểu cấu trúc**. Mỗi bài có ví dụ bấm nghe được, bài tập có đáp án, công cụ luyện tập đi kèm và một quiz ngắn ở cuối. Làm xong quiz thì bài được đánh dấu "đã học".
 
 Chưa biết bắt đầu từ đâu? Làm [bài kiểm tra đầu vào](../bat-dau/kiem-tra-dau-vao.md).
 
@@ -51,11 +51,33 @@ Chưa biết bắt đầu từ đâu? Làm [bài kiểm tra đầu vào](../bat-
 
 Tra cứu và ôn thuật ngữ ở [từ điển thuật ngữ](tu-dien.md).
 
-## Sau 20 bài này thì học gì?
+## Phần 6: Trung cấp
 
-- **Hòa âm bốn bè**: viết hợp âm cho soprano – alto – tenor – bass theo quy tắc dẫn bè. Tài liệu: phần hòa âm trong [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/).
-- **Đối âm** (counterpoint): viết nhiều giai điệu độc lập cùng lúc, nền tảng để hiểu Bach. Kinh điển: *Gradus ad Parnassum* của Fux.
-- **Hòa âm nửa cung và hòa âm thế kỷ 20**: hợp âm Napoli, hợp âm sáu tăng, gam toàn cung, nhạc 12 âm.
+Dành cho bạn đã vững 20 bài trước. Nên đọc [Âm học cơ bản](am-hoc.md) trước khi bắt đầu.
+
+21. [Hòa âm bốn bè](21-hoa-am-bon-be.md)
+22. [Đối âm](22-doi-am.md)
+23. [Hợp âm mượn](23-hop-am-muon.md)
+24. [Hợp âm Napoli và hợp âm sáu tăng](24-napoli-sau-tang.md)
+25. [Bè trầm số](25-be-tram-so.md)
+26. [Phân tích một tác phẩm](26-phan-tich.md)
+27. [Ký hiệu hợp âm pop và jazz](27-ky-hieu-hop-am.md)
+
+## Phần 7: Nghe hiểu cấu trúc
+
+Năm bài này lấp những mảnh còn thiếu để **nghe hiểu** một tác phẩm thật, và là nền lý thuyết cho mục [Nhận diện](../nhan-dien/index.md). Có thể học ngay sau phần Nâng cao, không cần chờ hết phần Trung cấp.
+
+28. [Kết cấu âm nhạc](28-ket-cau.md)
+29. [Chuỗi hòa âm](29-chuoi-hoa-am.md)
+30. [Phát triển môtip và cấu trúc câu](30-phat-trien-motip.md)
+31. [Hình thức nhỏ](31-hinh-thuc-nho.md)
+32. [Kỹ thuật thế kỷ 20](32-ky-thuat-the-ky-20.md)
+
+## Sau 32 bài này thì học gì?
+
+- **Lý thuyết tập hợp** (set theory) và phân tích nhạc vô điệu tính: phần "Twentieth- and Twenty-First-Century Techniques" của [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/).
+- **Đối âm nâng cao**: canon, fugue hai và ba bè.
+- **Phối khí**: viết cho dàn nhạc, bắt đầu từ việc chép lại một đoạn tổng phổ.
 - **Phân tích tác phẩm**: chọn một sonata của Mozart hoặc Beethoven, tìm hình thức, giọng và hợp âm của từng đoạn.
 
 !!! tip "Cách viết thêm bài mới"

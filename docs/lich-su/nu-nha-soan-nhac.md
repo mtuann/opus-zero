@@ -47,3 +47,8 @@ Lịch sử âm nhạc thường được kể qua những cái tên nam giới.
 ## Hôm nay
 
 **Kaija Saariaho** (1952–2023), Phần Lan; **Unsuk Chin** (sinh 1961), Hàn Quốc; **Caroline Shaw** (sinh 1982), Mỹ, giải Pulitzer 2013; **Jessie Montgomery** (sinh 1981), Mỹ; **Anna Thorvaldsdottir** (sinh 1977), Iceland; **Gabriela Lena Frank**, Mỹ, giải Pulitzer Âm nhạc 2026. Xem thêm ở [Âm nhạc hôm nay](duong-dai.md).
+
+## Nguồn
+
+- Burkholder, Grout, Palisca, *A History of Western Music*; Richard Taruskin, *The Oxford History of Western Music*.
+- Grove Music Online; Encyclopaedia Britannica. Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

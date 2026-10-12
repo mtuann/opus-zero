@@ -15,6 +15,10 @@ Mỗi concerto trong *Bốn Mùa* đi kèm một **bài thơ sonnet** mô tả c
 
 Chương 1 viết theo **hình thức ritornello**, hình thức đặc trưng của concerto Baroque: một đoạn nhạc chính do cả dàn nhạc chơi (**ritornello**, "điệp khúc nhỏ") quay lại nhiều lần, xen giữa là các **đoạn độc tấu** của violin.
 
+## Nghe kèm bản thu
+
+<div class="oz-listen"></div>
+
 ## Theo dõi khi nghe
 
 Ghi lại thời điểm (phút:giây) bạn nghe thấy từng sự kiện trong bản thu của mình.
@@ -40,3 +44,8 @@ Ghi lại thời điểm (phút:giây) bạn nghe thấy từng sự kiện tron
 ## Ghi chép của bạn
 
 *(Dùng [mẫu ghi chép](mau.md) để điền cảm nhận.)*
+
+## Nguồn
+
+- Bản nhạc và tổng phổ: [IMSLP](https://imslp.org/) (tìm theo tên nhà soạn nhạc và số hiệu danh mục).
+- Bối cảnh lịch sử: Burkholder, Grout, Palisca, *A History of Western Music*; Grove Music Online. Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

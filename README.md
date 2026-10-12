@@ -24,13 +24,14 @@ Lần đầu cần vào **Settings → Pages → Build and deployment → Source
 docs/
 ├── index.md              Trang chủ (có tóm tắt tiến độ hôm nay)
 ├── bat-dau/              Bài 0, kiểm tra đầu vào, 3 lộ trình, tóm tắt in được, hỏi đáp
-├── nhac-ly/              20 bài nhạc lý + 3 bài ôn tập (khuông nhạc nghe được, quiz) + từ điển
-├── luyen-tap/            15 công cụ luyện tập, phiếu bài tập in được
+├── nhac-ly/              32 bài nhạc lý + âm học + 3 bài ôn tập (khuông nhạc nghe được, quiz) + từ điển
+├── nhan-dien/            Nhận diện bằng tai: so sánh thời kỳ, thể loại, dấu vân tay, luyện nghe, nghe mù
+├── luyen-tap/            16 công cụ luyện tập, phiếu bài tập và giấy kẻ khuông in được
 ├── luyen-tai/            Luyện tai
 ├── lich-su/              Lịch sử, dòng thời gian, nhà soạn nhạc (cả nữ), opera, Việt Nam, đương đại
-├── hinh-thuc/            Hình thức và thể loại
+├── hinh-thuc/            Tổng quan + 5 trang hình thức chi tiết (sonata, fugue, biến tấu, rondo, concerto)
 ├── nhac-cu/              Piano, violin, guitar (lộ trình + 10 bài đầu), cách tập, mua đàn, dàn nhạc
-├── nghe-nhac/            13 hướng dẫn nghe từng bước, nghe gì tiếp, mẫu ghi chép
+├── nghe-nhac/            23 hướng dẫn nghe (có ghi mốc theo bản thu YouTube), đọc tên tác phẩm, nghe gì tiếp
 ├── blog/posts/           Nhật ký học (blog)
 ├── tai-nguyen.md         Tài nguyên
 ├── manifest.webmanifest  Cài như ứng dụng (PWA)
@@ -55,6 +56,10 @@ overrides/main.html       Thêm manifest và màu chủ đề vào <head>
 | `piano.js`, `metronome.js`, `tuner.js` | Bàn phím, máy đếm nhịp, máy lên dây |
 | `flashcards.js` | Thẻ ghi nhớ, đọc từ các bảng có cột đầu "Thuật ngữ" |
 | `journal.js` | Nhật ký luyện tập và tóm tắt trang chủ |
+| `recognition.js` | Ví dụ phong cách, đoán phong cách, nhận biết kết và kết cấu, nghe mù (bản thu Wikimedia Commons), phiếu nghe mù |
+| `listen.js` | Nghe kèm bản thu YouTube và ghi mốc thời gian trong hướng dẫn nghe |
+| `acoustics.js` | Chuỗi bồi âm và so sánh hệ lên dây |
+| `staffpaper.js`, `print.js` | Giấy kẻ khuông in được; nút "In bài này" |
 | `pwa.js` | Đăng ký service worker |
 
 ## Viết bài mới
@@ -79,6 +84,10 @@ overrides/main.html       Thêm manifest và màu chủ đề vào <head>
    `oz-circle`, `oz-rhythm`, `oz-sight`, `oz-piano`, `oz-piano-explorer`, `oz-metronome`, `oz-tuner`,
    `oz-flashcards`, `oz-journal`, `oz-summary`, `oz-scale-trainer`, `oz-build`, `oz-worksheet-gen`, `oz-timeline`.
 6. Bài nhật ký học: tạo file trong `docs/blog/posts/` với `date:` ở phần đầu (xem bài mẫu).
+
+## Kiểm tra link tự động
+
+Workflow `.github/workflows/link-check.yml` chạy mỗi thứ Hai và mở issue "Báo cáo link hỏng" nếu có link hỏng. Có thể chạy tay trong tab **Actions**. Quy trình cập nhật nội dung theo quý: xem `docs/cap-nhat.md`.
 
 ## Ghi chú kỹ thuật
 

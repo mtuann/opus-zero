@@ -98,3 +98,8 @@ Khám phá mọi hợp âm trên [bàn phím piano](../luyen-tap/ban-phim.md) v�
 - Vì gam tự nhiên không có bậc V
 > Cảm âm (bậc 7 được nâng) tạo lực kéo mạnh về chủ âm.
 ```
+
+## Nguồn
+
+- [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/); [musictheory.net](https://www.musictheory.net/lessons).
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

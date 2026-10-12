@@ -25,7 +25,7 @@ Những câu hỏi thường gặp của người mới. Chưa thấy câu hỏi
 ## Về nghe nhạc
 
 ??? question "Nên nghe bản thu nào?"
-    Lúc đầu, bản nào cũng được. Khi đã thích một tác phẩm, hãy nghe 2–3 bản thu khác nhau và chọn bản bạn thích. Các trang [hướng dẫn nghe](../nghe-nhac/index.md) có gợi ý bản thu cụ thể.
+    Lúc đầu, bản nào cũng được. Khi đã thích một tác phẩm, hãy nghe 2–3 bản thu khác nhau và chọn bản bạn thích. Các trang [hướng dẫn nghe](../nghe-nhac/index.md) có gợi ý bản thu cụ thể, và trang [Đọc tên tác phẩm và bản thu](../nghe-nhac/doc-ten-tac-pham.md) giải thích cách đọc thông tin bản thu và tìm bản thu tốt.
 
 ??? question "Nhạc cổ điển 'dễ nghe' có phải là nhạc cổ điển 'thật' không?"
     Có. *Bốn Mùa* hay *Für Elise* nổi tiếng vì chúng hay, không phải vì chúng dễ. Đừng ngại bắt đầu từ những tác phẩm quen thuộc. Xem [nghe gì tiếp](../nghe-nhac/nghe-gi-tiep.md) để mở rộng dần.

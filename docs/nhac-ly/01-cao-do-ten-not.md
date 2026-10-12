@@ -89,3 +89,8 @@ Thử bấm vào bàn phím dưới đây. Các phím được tô màu là ba n
 - Cùng tên, tần số nốt trên gấp ba nốt dưới
 > Ví dụ La4 = 440 Hz, La5 = 880 Hz.
 ```
+
+## Nguồn
+
+- [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/); [musictheory.net](https://www.musictheory.net/lessons).
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

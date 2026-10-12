@@ -15,6 +15,10 @@ Tên tác phẩm ("Ánh trăng") lấy từ bài thơ cùng tên của Paul Verl
 
 Hãy để ý: nhịp **9/8** nhưng đoạn đầu được viết sao cho bạn **khó cảm thấy phách**. Âm nhạc như trôi lơ lửng, không bị nhịp trói buộc.
 
+## Nghe kèm bản thu
+
+<div class="oz-listen"></div>
+
 ## Theo dõi khi nghe
 
 Cấu trúc ba đoạn A – B – A':
@@ -36,3 +40,8 @@ Cấu trúc ba đoạn A – B – A':
 ## Ghi chép của bạn
 
 *(Dùng [mẫu ghi chép](mau.md) để điền cảm nhận.)*
+
+## Nguồn
+
+- Bản nhạc và tổng phổ: [IMSLP](https://imslp.org/) (tìm theo tên nhà soạn nhạc và số hiệu danh mục).
+- Bối cảnh lịch sử: Burkholder, Grout, Palisca, *A History of Western Music*; Grove Music Online. Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

@@ -115,3 +115,8 @@ Thử nghe cả ba dạng trên [bàn phím piano](../luyen-tap/ban-phim.md): ch
 - Không có quan hệ gì
 > Chúng có cùng chủ âm Đô nhưng Đô thứ có 3 dấu giáng.
 ```
+
+## Nguồn
+
+- [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/); [musictheory.net](https://www.musictheory.net/lessons).
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

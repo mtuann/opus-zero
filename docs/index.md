@@ -38,25 +38,28 @@ Thử ngay ở đây. Bấm tên nốt bạn thấy trên khuông, hoặc gõ ph
 :   Cách dùng site, lộ trình 12 tháng và thói quen luyện tập mỗi ngày.
 
 [Nhạc lý](nhac-ly/index.md)
-:   14 bài nền tảng, 3 bài ôn tập và 6 bài nâng cao (điệu thức, ngũ cung, chuyển giọng, đọc tổng phổ…), mỗi bài có ví dụ nghe được và quiz. Kèm từ điển hơn 100 thuật ngữ có thẻ ghi nhớ.
+:   32 bài từ tên nốt đến hòa âm nửa cung, kết cấu, chuỗi hòa âm, phát triển môtip và kỹ thuật thế kỷ 20, cộng 3 bài ôn tập và một bài âm học; mỗi bài có ví dụ nghe được và quiz. Kèm từ điển hơn 100 thuật ngữ có thẻ ghi nhớ.
 
 [Luyện tập](luyen-tap/index.md)
-:   15 công cụ: đọc nốt bốn khóa, hóa biểu, tiết tấu, thị tấu, luyện tai quãng, hợp âm và gam, xây gam và hợp âm trên phím đàn, phiếu bài tập in được, máy đếm nhịp, máy lên dây và nhật ký luyện tập.
+:   16 công cụ: đọc nốt bốn khóa, hóa biểu, tiết tấu, thị tấu, luyện tai quãng, hợp âm và gam, xây gam và hợp âm trên phím đàn, phiếu bài tập và giấy kẻ khuông in được, máy đếm nhịp, máy lên dây và nhật ký luyện tập.
 
 [Lịch sử](lich-su/index.md)
-:   Bảy thời kỳ, dòng thời gian, chân dung các nhà soạn nhạc (cả các nhà soạn nhạc nữ), nhập môn opera, nhạc cổ điển ở Việt Nam và âm nhạc hôm nay.
+:   Trang riêng cho từng thời kỳ, dòng thời gian, 34 chân dung nhà soạn nhạc (và trang các nhà soạn nhạc nữ), nhập môn opera, nhạc cổ điển và nhạc truyền thống Việt Nam, âm nhạc hôm nay.
 
 [Hình thức & thể loại](hinh-thuc/index.md)
-:   Sonata, giao hưởng, concerto, fugue… và cách nhận ra chúng khi nghe.
+:   Sonata, fugue, biến tấu, rondo, concerto: mỗi hình thức có trang riêng đi qua một tác phẩm cụ thể.
 
 [Nhạc cụ](nhac-cu/index.md)
-:   Lộ trình theo cấp độ và 10 bài đầu tiên cho piano, violin, guitar cổ điển; cách tập hiệu quả; mua đàn và chọn thầy; dàn nhạc giao hưởng.
+:   Lộ trình theo cấp độ và 10 bài đầu tiên cho piano, violin, guitar cổ điển; cello, sáo, giọng hát, organ, harpsichord; cách tập hiệu quả; mua đàn và chọn thầy; dàn nhạc giao hưởng.
 
 [Nghe nhạc](nghe-nhac/index.md)
-:   Phương pháp nghe chủ động, hướng dẫn nghe từng bước cho 13 tác phẩm từ Vivaldi đến Pärt, và gợi ý "nghe gì tiếp" theo sở thích.
+:   Phương pháp nghe chủ động, hướng dẫn nghe từng bước cho 23 tác phẩm từ Bach đến Pärt (có công cụ ghi mốc thời gian theo bản thu bạn chọn), cách đọc tên tác phẩm và chọn bản thu, và gợi ý "nghe gì tiếp".
+
+[Nhận diện](nhan-dien/index.md)
+:   Nghe một bản nhạc lạ và đoán thể loại, thời kỳ, tác giả: bảng so sánh các thời kỳ, dấu vân tay 20 nhà soạn nhạc, luyện tai phong cách, kết, kết cấu, và nghe mù với bản thu thật.
 
 [Nhật ký học](blog/index.md)
 :   Mỗi tuần một bài ngắn ghi lại hành trình học.
 
 [Tài nguyên](tai-nguyen.md)
-:   Sách, khóa học, website, ứng dụng và kho bản nhạc miễn phí.
+:   Sách, khóa học, website, ứng dụng và kho bản nhạc miễn phí, kiểm tra link tự động mỗi tuần. Xem thêm [tài liệu tham khảo](tai-lieu-tham-khao.md) và [nhật ký cập nhật](cap-nhat.md).

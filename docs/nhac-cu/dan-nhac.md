@@ -53,3 +53,8 @@ Nhìn từ khán giả: bộ dây ở phía trước tạo thành hình quạt (
 1. Nghe *Peter và chó sói* và nhận ra từng nhân vật trước khi người kể giới thiệu lại.
 2. Nghe [Giao hưởng số 5 của Beethoven](../nghe-nhac/beethoven-5.md), chương 1: tìm chỗ kèn horn giới thiệu chủ đề 2.
 3. Nghe Ravel *Boléro*: cùng một giai điệu được chuyền qua nhiều nhạc cụ khác nhau. Bạn nhận ra được bao nhiêu?
+
+## Nguồn
+
+- Giáo trình thi cấp: [ABRSM](https://www.abrsm.org/), [Trinity College London](https://www.trinitycollege.com/).
+- Bản nhạc: [IMSLP](https://imslp.org/). Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

@@ -15,6 +15,10 @@
 
 **Chủ đề thiên nga** là một trong những giai điệu nổi tiếng nhất của nhạc ballet: buồn, đầy khao khát, ở giọng **Si thứ**.
 
+## Nghe kèm bản thu
+
+<div class="oz-listen"></div>
+
 ## Theo dõi khi nghe
 
 | Thời điểm | Sự kiện |
@@ -36,3 +40,8 @@ Nghe thêm từ vở này: *Điệu múa của những thiên nga nhỏ* (màn 2
 ## Ghi chép của bạn
 
 *(Dùng [mẫu ghi chép](mau.md) để điền cảm nhận.)*
+
+## Nguồn
+
+- Bản nhạc và tổng phổ: [IMSLP](https://imslp.org/) (tìm theo tên nhà soạn nhạc và số hiệu danh mục).
+- Bối cảnh lịch sử: Burkholder, Grout, Palisca, *A History of Western Music*; Grove Music Online. Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

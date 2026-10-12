@@ -105,3 +105,8 @@ C D E G- | G4 |]
 - 8
 > Mỗi nốt móc kép dài ¼ phách.
 ```
+
+## Nguồn
+
+- [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/); [musictheory.net](https://www.musictheory.net/lessons).
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

@@ -120,6 +120,11 @@ extra_javascript:
   - assets/js/placement.js
   - assets/js/worksheet.js
   - assets/js/timeline.js
+  - assets/js/listen.js
+  - assets/js/acoustics.js
+  - assets/js/staffpaper.js
+  - assets/js/print.js
+  - assets/js/recognition.js
   - assets/js/flashcards.js
   - assets/js/journal.js
   - assets/js/pwa.js
@@ -171,6 +176,21 @@ nav:
           - 18. Âm ngoài hợp âm: nhac-ly/18-am-ngoai-hop-am.md
           - 19. Át phụ và chuyển giọng: nhac-ly/19-at-phu-chuyen-giong.md
           - 20. Đọc tổng phổ: nhac-ly/20-doc-tong-pho.md
+      - Trung cấp:
+          - Âm học cơ bản: nhac-ly/am-hoc.md
+          - 21. Hòa âm bốn bè: nhac-ly/21-hoa-am-bon-be.md
+          - 22. Đối âm: nhac-ly/22-doi-am.md
+          - 23. Hợp âm mượn: nhac-ly/23-hop-am-muon.md
+          - 24. Napoli và sáu tăng: nhac-ly/24-napoli-sau-tang.md
+          - 25. Bè trầm số: nhac-ly/25-be-tram-so.md
+          - 26. Phân tích một tác phẩm: nhac-ly/26-phan-tich.md
+          - 27. Ký hiệu hợp âm pop và jazz: nhac-ly/27-ky-hieu-hop-am.md
+      - Nghe hiểu cấu trúc:
+          - 28. Kết cấu âm nhạc: nhac-ly/28-ket-cau.md
+          - 29. Chuỗi hòa âm: nhac-ly/29-chuoi-hoa-am.md
+          - 30. Phát triển môtip và cấu trúc câu: nhac-ly/30-phat-trien-motip.md
+          - 31. Hình thức nhỏ: nhac-ly/31-hinh-thuc-nho.md
+          - 32. Kỹ thuật thế kỷ 20: nhac-ly/32-ky-thuat-the-ky-20.md
       - Từ điển thuật ngữ: nhac-ly/tu-dien.md
   - Luyện tập:
       - luyen-tap/index.md
@@ -180,6 +200,7 @@ nav:
           - Tiết tấu: luyen-tap/tiet-tau.md
           - Đọc thị tấu: luyen-tap/thi-tau.md
           - Phiếu bài tập in được: luyen-tap/phieu-bai-tap.md
+          - Giấy kẻ khuông: luyen-tap/giay-ke-khuong.md
       - Luyện tai:
           - Nhận biết quãng: luyen-tap/quang.md
           - Nhận biết hợp âm: luyen-tap/hop-am.md
@@ -197,42 +218,83 @@ nav:
   - Lịch sử:
       - lich-su/index.md
       - Dòng thời gian: lich-su/dong-thoi-gian.md
+      - Các thời kỳ:
+          - Trung cổ: lich-su/thoi-ky/trung-co.md
+          - Phục hưng: lich-su/thoi-ky/phuc-hung.md
+          - Baroque: lich-su/thoi-ky/baroque.md
+          - Cổ điển: lich-su/thoi-ky/co-dien.md
+          - Lãng mạn: lich-su/thoi-ky/lang-man.md
+          - Thế kỷ 20: lich-su/thoi-ky/the-ky-20.md
       - Nhà soạn nhạc: lich-su/nha-soan-nhac.md
       - Các nhà soạn nhạc nữ: lich-su/nu-nha-soan-nhac.md
       - Nhập môn opera: lich-su/opera.md
       - Nhạc cổ điển ở Việt Nam: lich-su/viet-nam.md
+      - Nhạc truyền thống Việt Nam: lich-su/nhac-truyen-thong-viet-nam.md
       - Âm nhạc hôm nay: lich-su/duong-dai.md
   - Hình thức & thể loại:
       - hinh-thuc/index.md
+      - Hình thức sonata: hinh-thuc/sonata.md
+      - Fugue: hinh-thuc/fugue.md
+      - Chủ đề và biến tấu: hinh-thuc/bien-tau.md
+      - Rondo: hinh-thuc/rondo.md
+      - Concerto và ritornello: hinh-thuc/concerto.md
   - Nhạc cụ:
       - nhac-cu/index.md
       - Piano: nhac-cu/piano.md
       - Violin: nhac-cu/violin.md
       - Guitar cổ điển: nhac-cu/guitar.md
+      - Các nhạc cụ khác: nhac-cu/nhac-cu-khac.md
       - Cách tập hiệu quả: nhac-cu/cach-tap.md
       - Mua nhạc cụ và chọn thầy: nhac-cu/mua-dan-chon-thay.md
       - Dàn nhạc giao hưởng: nhac-cu/dan-nhac.md
   - Nghe nhạc:
       - nghe-nhac/index.md
+      - Đọc tên tác phẩm và bản thu: nghe-nhac/doc-ten-tac-pham.md
       - Nghe gì tiếp: nghe-nhac/nghe-gi-tiep.md
       - Mẫu ghi chép: nghe-nhac/mau.md
       - Baroque:
           - "Vivaldi: Mùa xuân": nghe-nhac/vivaldi-mua-xuan.md
           - "Bach: Prelude cung Đô trưởng": nghe-nhac/bach-prelude-c.md
+          - "Bach: Tổ khúc cello số 1": nghe-nhac/bach-cello-1.md
       - Cổ điển:
           - "Haydn: Giao hưởng Surprise": nghe-nhac/haydn-94.md
           - "Mozart: Giao hưởng số 40": nghe-nhac/mozart-40.md
           - "Mozart: Nữ hoàng bóng đêm": nghe-nhac/mozart-nu-hoang-bong-dem.md
+          - "Mozart: Requiem": nghe-nhac/mozart-requiem.md
           - "Beethoven: Giao hưởng số 5": nghe-nhac/beethoven-5.md
+          - "Beethoven: Tứ tấu Op. 132": nghe-nhac/beethoven-op132.md
       - Lãng mạn:
           - "Schubert: Erlkönig": nghe-nhac/schubert-erlkonig.md
+          - "Schubert: Con cá hồi": nghe-nhac/schubert-ca-hoi.md
           - "Chopin: Nocturne Op. 9 số 2": nghe-nhac/chopin-nocturne.md
+          - "Mendelssohn: Concerto violin": nghe-nhac/mendelssohn-violin.md
           - "Bizet: Habanera": nghe-nhac/bizet-habanera.md
           - "Tchaikovsky: Hồ thiên nga": nghe-nhac/tchaikovsky-ho-thien-nga.md
+          - "Brahms: Giao hưởng số 4": nghe-nhac/brahms-4.md
+          - "Dvořák: Giao hưởng số 9, Largo": nghe-nhac/dvorak-9-largo.md
       - Thế kỷ 20 và nay:
           - "Debussy: Clair de lune": nghe-nhac/debussy-clair-de-lune.md
+          - "Rachmaninoff: Concerto piano số 2": nghe-nhac/rachmaninoff-2.md
+          - "Ravel: Boléro": nghe-nhac/ravel-bolero.md
           - "Stravinsky: Nghi lễ mùa xuân": nghe-nhac/stravinsky-sacre.md
+          - "Shostakovich: Giao hưởng số 5": nghe-nhac/shostakovich-5.md
           - "Pärt: Spiegel im Spiegel": nghe-nhac/part-spiegel.md
+  - Nhận diện:
+      - nhan-dien/index.md
+      - So sánh các thời kỳ: nhan-dien/so-sanh-thoi-ky.md
+      - Nhận diện thể loại: nhan-dien/the-loai.md
+      - Dấu vân tay nhà soạn nhạc: nhan-dien/dau-van-tay.md
+      - Luyện nghe nhận diện: nhan-dien/luyen-nghe.md
+      - Nghe mù: nhan-dien/nghe-mu.md
   - Nhật ký học:
       - blog/index.md
-  - Tài nguyên: tai-nguyen.md
+  - Tài nguyên:
+      - tai-nguyen.md
+      - Tài liệu tham khảo: tai-lieu-tham-khao.md
+      - Cập nhật: cap-nhat.md
+
+validation:
+  links:
+    anchors: warn
+    absolute_links: warn
+    unrecognized_links: warn

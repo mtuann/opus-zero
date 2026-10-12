@@ -63,21 +63,32 @@ Thêm nhà soạn nhạc mới vào bảng dưới đây, biểu đồ sẽ tự
 | Georges Bizet | 1838 | 1875 | Lãng mạn |
 | P. I. Tchaikovsky | 1840 | 1893 | Lãng mạn |
 | Antonín Dvořák | 1841 | 1904 | Lãng mạn |
+| Edvard Grieg | 1843 | 1907 | Lãng mạn |
 | Giacomo Puccini | 1858 | 1924 | Lãng mạn |
+| Edward Elgar | 1857 | 1934 | Lãng mạn |
 | Gustav Mahler | 1860 | 1911 | Lãng mạn |
 | Claude Debussy | 1862 | 1918 | Thế kỷ 20 |
+| Jean Sibelius | 1865 | 1957 | Lãng mạn/Thế kỷ 20 |
 | Sergei Rachmaninoff | 1873 | 1943 | Thế kỷ 20 |
 | Maurice Ravel | 1875 | 1937 | Thế kỷ 20 |
 | Béla Bartók | 1881 | 1945 | Thế kỷ 20 |
 | Igor Stravinsky | 1882 | 1971 | Thế kỷ 20 |
 | Florence Price | 1887 | 1953 | Thế kỷ 20 |
+| Sergei Prokofiev | 1891 | 1953 | Thế kỷ 20 |
 | Lili Boulanger | 1893 | 1918 | Thế kỷ 20 |
 | Dmitri Shostakovich | 1906 | 1975 | Thế kỷ 20 |
 | Olivier Messiaen | 1908 | 1992 | Thế kỷ 20 |
 | Sofia Gubaidulina | 1931 | 2025 | Đương đại |
+| Benjamin Britten | 1913 | 1976 | Thế kỷ 20 |
+| Hoàng Việt | 1928 | 1967 | Thế kỷ 20 |
 | Arvo Pärt | 1935 | | Đương đại |
 | Steve Reich | 1936 | | Đương đại |
 | Philip Glass | 1937 | | Đương đại |
 | John Adams | 1947 | | Đương đại |
 | Kaija Saariaho | 1952 | 2023 | Đương đại |
 | Caroline Shaw | 1982 | | Đương đại |
+
+## Nguồn
+
+- Burkholder, Grout, Palisca, *A History of Western Music*; Richard Taruskin, *The Oxford History of Western Music*.
+- Grove Music Online; Encyclopaedia Britannica. Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

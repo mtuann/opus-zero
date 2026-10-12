@@ -110,3 +110,8 @@ Bạn sẽ gặp cấu trúc câu hỏi – câu trả lời ở khắp nơi tro
 - Kết plagal
 > Câu trả lời mới kết thúc bằng kết trọn.
 ```
+
+## Nguồn
+
+- [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/); [musictheory.net](https://www.musictheory.net/lessons).
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

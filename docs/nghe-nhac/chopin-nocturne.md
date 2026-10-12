@@ -16,6 +16,10 @@
 
 Bản nhạc ở nhịp **12/8**: bốn phách lớn, mỗi phách chia ba, tạo cảm giác đung đưa nhẹ nhàng.
 
+## Nghe kèm bản thu
+
+<div class="oz-listen"></div>
+
 ## Theo dõi khi nghe
 
 Cấu trúc gần như A – A – B – A – B – A – coda: giai điệu chính quay lại nhiều lần, **mỗi lần được trang trí nhiều hơn**.
@@ -38,3 +42,8 @@ Cấu trúc gần như A – A – B – A – B – A – coda: giai điệu ch
 ## Ghi chép của bạn
 
 *(Dùng [mẫu ghi chép](mau.md) để điền cảm nhận.)*
+
+## Nguồn
+
+- Bản nhạc và tổng phổ: [IMSLP](https://imslp.org/) (tìm theo tên nhà soạn nhạc và số hiệu danh mục).
+- Bối cảnh lịch sử: Burkholder, Grout, Palisca, *A History of Western Music*; Grove Music Online. Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

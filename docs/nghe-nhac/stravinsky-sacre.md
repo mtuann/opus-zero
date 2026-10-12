@@ -15,6 +15,10 @@ Ballet mô tả nghi lễ của người Slav cổ: để đón mùa xuân, mộ
 
 Những gì mới mẻ: **tiết tấu** trở thành nhân vật chính; **trọng âm bất thường** không theo phách mạnh; **nghịch tai** được dùng như màu sắc chứ không cần giải quyết; nhịp đổi liên tục (xem [bài 15](../nhac-ly/15-tiet-tau-nang-cao.md)).
 
+## Nghe kèm bản thu
+
+<div class="oz-listen"></div>
+
 ## Theo dõi khi nghe
 
 | Thời điểm | Sự kiện |
@@ -34,3 +38,8 @@ Những gì mới mẻ: **tiết tấu** trở thành nhân vật chính; **tr�
 ## Ghi chép của bạn
 
 *(Dùng [mẫu ghi chép](mau.md) để điền cảm nhận.)*
+
+## Nguồn
+
+- Bản nhạc và tổng phổ: [IMSLP](https://imslp.org/) (tìm theo tên nhà soạn nhạc và số hiệu danh mục).
+- Bối cảnh lịch sử: Burkholder, Grout, Palisca, *A History of Western Music*; Grove Music Online. Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

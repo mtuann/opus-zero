@@ -16,6 +16,9 @@ Các công cụ dưới đây chạy ngay trong trình duyệt, không cần cà
 [Đọc thị tấu](thi-tau.md)
 :   Giai điệu ngẫu nhiên 4 ô nhịp để hát hoặc đàn, rồi nghe đáp án.
 
+[Giấy kẻ khuông](giay-ke-khuong.md)
+:   In giấy kẻ khuông đơn hoặc khuông kép piano để làm bài tập viết.
+
 ## Luyện tai
 
 [Nhận biết quãng](quang.md)

@@ -134,3 +134,8 @@ K:C
 - Kèn đồng
 > Gảy dây bằng ngón tay thay vì kéo vĩ.
 ```
+
+## Nguồn
+
+- [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/); [musictheory.net](https://www.musictheory.net/lessons).
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

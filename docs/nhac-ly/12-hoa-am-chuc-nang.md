@@ -100,3 +100,8 @@ Khi chuyển hợp âm, mỗi bè (giọng) nên đi **gần nhất có thể**:
 - Mi – Sol – Si♭
 > Dùng cảm âm Sol♯ từ gam thứ hòa âm.
 ```
+
+## Nguồn
+
+- [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/); [musictheory.net](https://www.musictheory.net/lessons).
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

@@ -1,0 +1,46 @@
+# Thời Baroque (khoảng 1600–1750)
+
+## Bối cảnh
+
+Thời của các **vương triều chuyên chế** (Louis XIV ở Versailles), của nhà thờ Công giáo lộng lẫy sau Phản Cải cách và của các thành phố buôn bán giàu có. Nhạc sĩ thường là **người làm công**: cho nhà thờ (Bach ở Leipzig), cho triều đình (Lully ở Versailles), cho nhà hát opera thương mại (Handel ở London), hay cho các tổ chức từ thiện (Vivaldi ở trại trẻ mồ côi Pietà, Venice).
+
+Khoảng năm 1600, ở Florence và Mantua, người ta muốn hồi sinh kịch Hy Lạp cổ bằng cách **hát lời kịch** trên một bè đệm đơn giản. Từ đó **opera** ra đời (Monteverdi *L'Orfeo*, 1607), và cách viết "một giai điệu trên một bè trầm" trở thành nền tảng của cả thời kỳ.
+
+## Âm thanh đặc trưng
+
+- **Bè trầm liên tục** (basso continuo): một bè trầm (cello, bassoon) cùng một nhạc cụ hòa âm (harpsichord, organ, lute) chơi suốt tác phẩm. Bè trầm được ghi bằng **bè trầm số**, người chơi tự ứng tác hợp âm bên trên.
+- **Hệ thống trưởng – thứ** được xác lập; hòa âm chức năng (xem [bài 12](../../nhac-ly/12-hoa-am-chuc-nang.md)) trở thành "ngữ pháp" chung.
+- **Nhịp đều, mạnh mẽ**, chuyển động liên tục như một cỗ máy.
+- **Tương phản**: to – nhỏ đột ngột (*terraced dynamics*), độc tấu – cả dàn nhạc.
+- Mỗi chương thường giữ **một tâm trạng** (*affect*) từ đầu đến cuối.
+- Giai điệu nhiều trang trí; người biểu diễn được kỳ vọng tự thêm nốt hoa mỹ.
+
+## Nhạc cụ
+
+Họ đàn **violin** thay thế dần họ viol và trở thành trung tâm của dàn nhạc. **Harpsichord** và **organ** là nhạc cụ phím chính (piano mới ra đời khoảng 1700 và chưa phổ biến). Kèn trumpet và horn chưa có van, chỉ chơi được chuỗi bồi âm (xem [Âm học](../../nhac-ly/am-hoc.md)). Dàn nhạc còn nhỏ, chủ yếu là đàn dây.
+
+## Thể loại chính
+
+**Opera**, **oratorio**, **cantata** (Bach viết hơn 200 cantata nhà thờ còn lại đến nay), **concerto** và **concerto grosso** (xem [Concerto và ritornello](../../hinh-thuc/concerto.md)), **tổ khúc** các điệu nhảy, **sonata** cho một vài nhạc cụ, **prelude và fugue** (xem [Fugue](../../hinh-thuc/fugue.md)).
+
+## 10 tác phẩm để nghe
+
+1. Monteverdi, *L'Orfeo*, Toccata mở đầu và màn 2.
+2. Purcell, *Dido and Aeneas*, aria *When I am laid in earth* (dựng trên một bè trầm lặp lại).
+3. Corelli, *Concerto grosso* Op. 6 số 8 *"Giáng sinh"*.
+4. [Vivaldi, *Mùa xuân*](../../nghe-nhac/vivaldi-mua-xuan.md).
+5. [Bach, *Prelude cung Đô trưởng*](../../nghe-nhac/bach-prelude-c.md) và Fugue BWV 847.
+6. [Bach, Tổ khúc cello số 1](../../nghe-nhac/bach-cello-1.md).
+7. Bach, *Brandenburg Concerto* số 5.
+8. Bach, *Thương khó theo Thánh Matthew*, hợp xướng mở đầu.
+9. Handel, *Messiah*, *Hallelujah*.
+10. Rameau, *Les Indes galantes*, *Les Sauvages*.
+
+**Cách nghe:** để ý bè trầm. Nó gần như không bao giờ dừng lại. Ở các bản thu "phong cách lịch sử" (xem [Đọc tên tác phẩm và bản thu](../../nghe-nhac/doc-ten-tac-pham.md)), hãy nghe tiếng harpsichord lách tách phía sau.
+
+Thời kỳ trước: [Phục hưng](phuc-hung.md). Thời kỳ tiếp theo: [Cổ điển](co-dien.md).
+
+## Nguồn
+
+- Burkholder, Grout, Palisca, *A History of Western Music*; Richard Taruskin, *The Oxford History of Western Music*.
+- Grove Music Online; Encyclopaedia Britannica. Xem [tài liệu tham khảo](../../tai-lieu-tham-khao.md).

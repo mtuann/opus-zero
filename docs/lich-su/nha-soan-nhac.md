@@ -1,8 +1,20 @@
 # Nhà soạn nhạc
 
-Chân dung ngắn của những nhà soạn nhạc nên biết đầu tiên, xếp theo năm sinh. Mỗi người có ba tác phẩm gợi ý để bắt đầu. Bối cảnh của từng thời kỳ nằm ở trang [Lịch sử](index.md).
+Chân dung ngắn của khoảng 35 nhà soạn nhạc nên biết, xếp theo thời kỳ và năm sinh. Mỗi người có ba tác phẩm gợi ý để bắt đầu. Bối cảnh của từng thời kỳ nằm ở trang [Lịch sử](index.md).
 
 ## Baroque
+
+### Claudio Monteverdi (1567–1643)
+
+Người đứng ở ranh giới Phục hưng và Baroque. Vở *L'Orfeo* (1607) của ông là một trong những opera đầu tiên và là vở sớm nhất còn được diễn thường xuyên. Ông bảo vệ quan niệm âm nhạc phải phục vụ lời và cảm xúc, kể cả khi phải phá quy tắc hòa âm cũ.
+
+**Nghe trước:** *L'Orfeo*; *Vespro della Beata Vergine* (1610); madrigal *Lamento della ninfa*.
+
+### Henry Purcell (1659–1695)
+
+Nhà soạn nhạc Anh vĩ đại nhất trước thế kỷ 20, mất năm 36 tuổi. Bậc thầy của **bè trầm lặp lại** (ground bass) và phổ nhạc cho tiếng Anh.
+
+**Nghe trước:** *Dido and Aeneas*, aria *When I am laid in earth*; *Music for the Funeral of Queen Mary*; Rondeau trong *Abdelazer* (chủ đề Britten dùng cho *Young Person's Guide*).
 
 ### Antonio Vivaldi (1678–1741)
 
@@ -56,11 +68,35 @@ Sinh ở Ba Lan, sống và biểu diễn tại Paris. Gần như mọi tác ph�
 
 **Nghe trước:** Nocturne Op. 9 số 2; Ballade số 1; Étude Op. 10 số 3.
 
+### Felix Mendelssohn (1809–1847)
+
+Thần đồng được so với Mozart: viết Bát tấu đàn dây năm 16 tuổi và khúc mở màn *Giấc mộng đêm hè* năm 17 tuổi. Là nhạc trưởng dàn nhạc Gewandhaus Leipzig và người dàn dựng lại *Thương khó theo Thánh Matthew* của Bach năm 1829, khơi dậy phong trào phục hưng âm nhạc Bach. Chị gái ông là [Fanny Mendelssohn Hensel](nu-nha-soan-nhac.md).
+
+**Nghe trước:** [Concerto violin cung Mi thứ](../nghe-nhac/mendelssohn-violin.md); khúc mở màn *Giấc mộng đêm hè*; Giao hưởng số 4 *Ý*.
+
+### Robert Schumann (1810–1856)
+
+Nhà soạn nhạc, nhà phê bình âm nhạc (ông sáng lập một tạp chí âm nhạc có ảnh hưởng lớn và là người giới thiệu Chopin, Brahms với công chúng), chồng của nghệ sĩ piano [Clara Schumann](nu-nha-soan-nhac.md). Âm nhạc piano và ca khúc của ông giàu tưởng tượng, gắn với văn học. Những năm cuối đời ông bị bệnh tâm thần nặng.
+
+**Nghe trước:** *Kinderszenen* Op. 15 (có *Träumerei*); *Dichterliebe* Op. 48; Concerto piano cung La thứ.
+
 ### Franz Liszt (1811–1886)
 
 Nghệ sĩ piano điêu luyện nhất thế kỷ 19, người tạo ra buổi độc tấu piano (recital) theo kiểu hiện đại và thể loại thơ giao hưởng.
 
 **Nghe trước:** *Liebestraum* số 3; *Hungarian Rhapsody* số 2; Sonata cung Si thứ.
+
+### Richard Wagner (1813–1883)
+
+Người cách mạng hóa opera thành **nhạc kịch** (*Musikdrama*): âm nhạc liền mạch, không chia aria, các **leitmotif** gắn với nhân vật và ý tưởng. Ông tự viết lời và xây nhà hát riêng ở Bayreuth. Hòa âm của *Tristan und Isolde* mở đường cho âm nhạc thế kỷ 20. Quan điểm bài Do Thái trong các bài viết của ông vẫn là vấn đề gây tranh cãi khi biểu diễn và đánh giá ông.
+
+**Nghe trước:** *Tristan und Isolde*, Khúc dạo đầu; *Die Walküre*, *Cuộc phi ngựa của các Valkyrie*; *Siegfried Idyll*.
+
+### Giuseppe Verdi (1813–1901)
+
+Nhà soạn opera Ý lớn nhất thế kỷ 19, sinh cùng năm với Wagner. Opera của ông kịch tính, giai điệu mạnh mẽ, gắn với phong trào thống nhất nước Ý. Ông còn viết opera đến tận tuổi gần 80 (*Falstaff*, 1893). Xem [Nhập môn opera](opera.md).
+
+**Nghe trước:** *La traviata*; *Rigoletto*, aria *La donna è mobile*; *Requiem*, đoạn *Dies irae*.
 
 ### Johannes Brahms (1833–1897)
 
@@ -80,11 +116,35 @@ Nhà soạn nhạc Séc đưa chất dân ca vào nhạc giao hưởng. Ông s�
 
 **Nghe trước:** Giao hưởng số 9 *Từ Thế giới mới*; Concerto cello; Tứ tấu đàn dây *Mỹ*.
 
+### Edvard Grieg (1843–1907)
+
+Nhà soạn nhạc Na Uy, đưa dân ca và phong cảnh Bắc Âu vào nhạc cổ điển; bậc thầy của các tiểu phẩm ngắn.
+
+**Nghe trước:** *Peer Gynt*: *Buổi sáng*, *Trong cung điện vua núi*; Concerto piano cung La thứ; *Holberg Suite*.
+
+### Edward Elgar (1857–1934)
+
+Nhà soạn nhạc Anh tự học phần lớn, nổi tiếng muộn ở tuổi ngoài 40 với *Enigma Variations*. Mở đầu thời kỳ phục hưng của âm nhạc Anh.
+
+**Nghe trước:** *Enigma Variations*, biến tấu *Nimrod*; Concerto cello cung Mi thứ; *Pomp and Circumstance* số 1.
+
+### Giacomo Puccini (1858–1924)
+
+Nhà soạn opera Ý thuộc trường phái **verismo**: đời sống thường ngày, cảm xúc mãnh liệt, giai điệu không thể quên. Opera của ông thuộc nhóm được diễn nhiều nhất thế giới. *Turandot* dang dở khi ông mất.
+
+**Nghe trước:** *La bohème*; *Tosca*; *Gianni Schicchi*, aria *O mio babbino caro*.
+
 ### Gustav Mahler (1860–1911)
 
 Nhạc trưởng lừng danh, tác giả những bản giao hưởng khổng lồ, có bản cần hàng trăm người biểu diễn.
 
 **Nghe trước:** Giao hưởng số 1 *Titan*; Giao hưởng số 5, chương 4 *Adagietto*; Giao hưởng số 2 *Phục sinh*.
+
+### Jean Sibelius (1865–1957)
+
+Nhà soạn nhạc Phần Lan, biểu tượng của bản sắc dân tộc Phần Lan. Giao hưởng của ông phát triển từ những mảnh nhỏ thành khối lớn như thiên nhiên Bắc Âu. Ông gần như ngừng sáng tác trong 30 năm cuối đời.
+
+**Nghe trước:** *Finlandia*; Concerto violin cung Rê thứ; Giao hưởng số 5.
 
 ## Thế kỷ 20
 
@@ -106,11 +166,23 @@ Thường được xếp cạnh Debussy, nhưng âm nhạc của Ravel sắc né
 
 **Nghe trước:** *Boléro*; *Pavane pour une infante défunte*; Concerto piano cung Sol.
 
+### Béla Bartók (1881–1945)
+
+Nhà soạn nhạc và nghệ sĩ piano Hungary, đồng thời là nhà dân tộc nhạc học: ông đi khắp các làng quê Đông Âu **ghi âm hàng nghìn bài dân ca** bằng máy ghi âm ống sáp. Âm nhạc của ông kết hợp tiết tấu dân gian với ngôn ngữ hiện đại. Ông mất trong cảnh nghèo khó ở New York.
+
+**Nghe trước:** *Concerto cho dàn nhạc*; *Music for Strings, Percussion and Celesta*; *Mikrokosmos* (153 bài piano từ dễ đến khó).
+
 ### Igor Stravinsky (1882–1971)
 
 Người Nga, sống ở Pháp rồi Mỹ. Buổi công diễn *Le Sacre du printemps* năm 1913 ở Paris gây náo loạn khán phòng và trở thành một trong những sự kiện nổi tiếng nhất lịch sử âm nhạc.
 
 **Nghe trước:** *L'Oiseau de feu* (Chim lửa); *Le Sacre du printemps*; *Pulcinella*.
+
+### Sergei Prokofiev (1891–1953)
+
+Nhà soạn nhạc Nga, sống ở phương Tây rồi trở về Liên Xô năm 1936. Âm nhạc vừa trữ tình vừa châm biếm, tiết tấu sắc nét. Ông mất cùng ngày với Stalin.
+
+**Nghe trước:** *Peter và chó sói*; ballet *Romeo và Juliet*, *Vũ điệu các hiệp sĩ*; Giao hưởng số 1 *Cổ điển*.
 
 ### Dmitri Shostakovich (1906–1975)
 
@@ -118,4 +190,35 @@ Sáng tác dưới chế độ Xô viết, âm nhạc của ông vừa phải l�
 
 **Nghe trước:** Giao hưởng số 5; *Waltz* số 2 (trích *Suite for Variety Orchestra*); Tứ tấu đàn dây số 8.
 
-Các nhà soạn nhạc đang sống: xem [Âm nhạc hôm nay](duong-dai.md).
+
+### Olivier Messiaen (1908–1992)
+
+Nhà soạn nhạc Pháp, nghệ sĩ organ, người Công giáo sùng đạo và nhà nghiên cứu **tiếng chim**: ông ghi chép tiếng hót của hàng trăm loài chim và đưa vào âm nhạc. Ông nghe âm thanh như màu sắc. Học trò của ông gồm Boulez và Stockhausen.
+
+**Nghe trước:** *Quatuor pour la fin du temps* (viết trong trại tù binh 1940–1941); *Turangalîla-Symphonie*; *Catalogue d'oiseaux*.
+
+### Benjamin Britten (1913–1976)
+
+Nhà soạn nhạc Anh quan trọng nhất thế kỷ 20, đặc biệt ở opera và nhạc thanh nhạc. Âm nhạc của ông thường nói về những người lạc loài trong cộng đồng.
+
+**Nghe trước:** *The Young Person's Guide to the Orchestra*; opera *Peter Grimes*, *Four Sea Interludes*; *War Requiem*.
+
+### Steve Reich (sinh 1936)
+
+Một trong những người khai sinh **chủ nghĩa tối giản** ở Mỹ: các mẫu ngắn lặp lại, lệch pha dần, biến đổi rất chậm. Chịu ảnh hưởng của nhạc trống Tây Phi và gamelan Bali.
+
+**Nghe trước:** *Music for 18 Musicians*; *Clapping Music* (chỉ có hai người vỗ tay); *Different Trains*.
+
+### Philip Glass (sinh 1937)
+
+Nhà soạn nhạc tối giản Mỹ, học với Nadia Boulanger ở Paris và với Ravi Shankar. Viết opera, giao hưởng, rất nhiều nhạc phim; là một trong những nhà soạn nhạc đương đại được nghe nhiều nhất.
+
+**Nghe trước:** *Glassworks*, *Opening*; opera *Einstein on the Beach* (1976); nhạc phim *The Hours*.
+
+
+Các nhà soạn nhạc đang sống khác: xem [Âm nhạc hôm nay](duong-dai.md). Các nhà soạn nhạc nữ: xem [trang riêng](nu-nha-soan-nhac.md). Nhà soạn nhạc Việt Nam: xem [Nhạc cổ điển ở Việt Nam](viet-nam.md).
+
+## Nguồn
+
+- Burkholder, Grout, Palisca, *A History of Western Music*; Richard Taruskin, *The Oxford History of Western Music*.
+- Grove Music Online; Encyclopaedia Britannica. Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

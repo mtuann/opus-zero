@@ -92,3 +92,8 @@ Vòng quãng năm còn cho biết **giọng nào "gần" nhau**: hai giọng c�
 - Lên quãng 5 đúng, thêm một dấu giáng
 > Ví dụ Đô → Sol → Rê, mỗi bước thêm một dấu thăng.
 ```
+
+## Nguồn
+
+- [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/); [musictheory.net](https://www.musictheory.net/lessons).
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

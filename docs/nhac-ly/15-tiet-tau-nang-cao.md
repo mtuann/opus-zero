@@ -70,6 +70,22 @@ K:C
 CEG cGE CEG c3 | B,DG BGD CEG c3 |]
 ```
 
+## Hemiola
+
+**Hemiola** là khi hai ô nhịp 3/4 được nhấn như **ba nhóm 2 phách** (nghe như một ô 3/2): MẠNH-nhẹ MẠNH-nhẹ MẠNH-nhẹ thay vì MẠNH-nhẹ-nhẹ MẠNH-nhẹ-nhẹ. Nó tạo cảm giác "phanh lại" và rất hay xuất hiện **ngay trước kết** trong nhạc Baroque (các minuet, courante, aria của Handel), rồi được Brahms dùng như dấu ấn riêng.
+
+```abc
+X:9
+T:Hemiola trước kết (ô nhịp 3–4 nghe như một ô 3/2)
+L:1/4
+M:3/4
+Q:1/4=120
+K:G
+G A B | c B A | !>!B2 !>!A- | A !>!G2 | G3 |]
+```
+
+Ô nhịp 3–4 có trọng âm mỗi 2 phách (Si – La – Sol), chồng lên nhịp 3/4 bình thường.
+
 ## Ô nhịp không đều và đổi nhịp
 
 Từ thế kỷ 20, nhịp **5/4** hay **7/8** xuất hiện thường xuyên hơn. 7/8 thường được nhóm thành 2+2+3 hoặc 3+2+2. Holst *The Planets: Mars* dùng 5/4, Tchaikovsky viết một chương valse 5/4 trong Giao hưởng số 6. Stravinsky trong *Le Sacre du printemps* đổi nhịp gần như mỗi ô.
@@ -110,3 +126,8 @@ Từ thế kỷ 20, nhịp **5/4** hay **7/8** xuất hiện thường xuyên h�
 - Chơi ngược tiết tấu
 > Thường dùng nốt dài bắt đầu lệch khỏi phách mạnh.
 ```
+
+## Nguồn
+
+- [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/); [musictheory.net](https://www.musictheory.net/lessons).
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

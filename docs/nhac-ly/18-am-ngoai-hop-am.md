@@ -85,3 +85,8 @@ Nghịch tai rồi giải quyết là **động cơ cảm xúc** của nhạc to
 - Nốt thêu
 > Appoggiatura, từ tiếng Ý "dựa vào".
 ```
+
+## Nguồn
+
+- [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/); [musictheory.net](https://www.musictheory.net/lessons).
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

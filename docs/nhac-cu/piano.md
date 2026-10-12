@@ -181,3 +181,8 @@ e^d e B =d c | A2 z C E A | B2 z E c B | A4 |]
 - Danh sách tác phẩm theo cấp của [ABRSM](https://www.abrsm.org/) và [Trinity College London](https://www.trinitycollege.com/) là nguồn gợi ý tác phẩm tốt, kể cả khi không thi.
 
 Xem thêm: [cách tập hiệu quả](cach-tap.md), [mua đàn và chọn thầy](mua-dan-chon-thay.md).
+
+## Nguồn
+
+- Giáo trình thi cấp: [ABRSM](https://www.abrsm.org/), [Trinity College London](https://www.trinitycollege.com/).
+- Bản nhạc: [IMSLP](https://imslp.org/). Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

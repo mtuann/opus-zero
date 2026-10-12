@@ -180,3 +180,8 @@ G2 z D G2 z D | G D G B d2 z2 | c2 z A c2 z A | c A F A D2 z2 |]
 - Kênh YouTube **Violin Lab**, **Fiddlerman**, **Eddy Chen và Brett Yang (TwoSetViolin)** để giải trí và truyền cảm hứng.
 
 Xem thêm: [cách tập hiệu quả](cach-tap.md), [mua đàn và chọn thầy](mua-dan-chon-thay.md).
+
+## Nguồn
+
+- Giáo trình thi cấp: [ABRSM](https://www.abrsm.org/), [Trinity College London](https://www.trinitycollege.com/).
+- Bản nhạc: [IMSLP](https://imslp.org/). Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

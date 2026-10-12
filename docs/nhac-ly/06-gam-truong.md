@@ -97,3 +97,8 @@ Thử hát Đô – Rê – Mi – Fa – Sol – La – Si rồi **dừng lại
 - Vì Si♭ dễ đọc hơn
 > Dùng La♯ thì gam có hai nốt La và thiếu nốt Si.
 ```
+
+## Nguồn
+
+- [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/); [musictheory.net](https://www.musictheory.net/lessons).
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

@@ -1,0 +1,41 @@
+name: Kiểm tra link
+
+# Chạy mỗi thứ Hai lúc 02:00 UTC (9:00 sáng giờ Việt Nam), hoặc bấm chạy tay trong tab Actions.
+on:
+  schedule:
+    - cron: "0 2 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Kiểm tra mọi link trong docs/
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # 403 và 429: nhiều trang báo và trang thương mại chặn robot hoặc giới hạn tần suất;
+          # chấp nhận để tránh báo lỗi giả, link hỏng thật thường trả về 404.
+          args: >-
+            --no-progress
+            --max-retries 3
+            --timeout 30
+            --accept "100..=103,200..=299,403,429"
+            --exclude "^https://www.youtube.com/iframe_api"
+            "docs/**/*.md"
+          output: ./lychee/out.md
+          fail: false
+
+      - name: Mở issue nếu có link hỏng
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v6
+        with:
+          title: "Báo cáo link hỏng"
+          content-filepath: ./lychee/out.md
+          labels: link-hong

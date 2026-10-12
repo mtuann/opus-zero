@@ -16,6 +16,10 @@
 
 Trong aria này, **Nữ hoàng bóng đêm**, mẹ của Pamina, đưa cho con gái một con dao và ra lệnh phải giết Sarastro, kẻ thù của bà; nếu không, bà sẽ từ mặt con. Cơn giận được thể hiện bằng **những chuỗi nốt nhanh** vọt lên âm vực cực cao, đến **nốt Fa6**, một trong những nốt cao nhất thường gặp trong opera.
 
+## Nghe kèm bản thu
+
+<div class="oz-listen"></div>
+
 ## Theo dõi khi nghe
 
 | Thời điểm | Sự kiện |
@@ -37,3 +41,8 @@ Trong aria này, **Nữ hoàng bóng đêm**, mẹ của Pamina, đưa cho con g
 ## Ghi chép của bạn
 
 *(Dùng [mẫu ghi chép](mau.md) để điền cảm nhận.)*
+
+## Nguồn
+
+- Bản nhạc và tổng phổ: [IMSLP](https://imslp.org/) (tìm theo tên nhà soạn nhạc và số hiệu danh mục).
+- Bối cảnh lịch sử: Burkholder, Grout, Palisca, *A History of Western Music*; Grove Music Online. Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

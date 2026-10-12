@@ -111,3 +111,8 @@ Vì thế, khi nghe nhạc truyền thống Việt Nam bằng "tai nhạc lý ph
 - Điệu Locrian
 > Cung – quãng 3 thứ – cung – cung, bắt đầu từ một bậc khác.
 ```
+
+## Nguồn
+
+- [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/); [musictheory.net](https://www.musictheory.net/lessons).
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

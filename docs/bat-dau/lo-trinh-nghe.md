@@ -4,7 +4,7 @@ Dành cho bạn muốn **hiểu và tận hưởng** nhạc cổ điển, chưa 
 
 ## Tháng 1: Tai làm quen
 
-- [ ] Đọc [Bài 0](bai-0.md) và [phương pháp nghe chủ động](../nghe-nhac/index.md).
+- [ ] Đọc [Bài 0](bai-0.md), [phương pháp nghe chủ động](../nghe-nhac/index.md) và [Đọc tên tác phẩm và bản thu](../nghe-nhac/doc-ten-tac-pham.md).
 - [ ] Nhạc lý: [bài 1](../nhac-ly/01-cao-do-ten-not.md) và [bài 4](../nhac-ly/04-nhip.md), đủ để hiểu cao độ và nhịp.
 - [ ] Nghe: [Vivaldi *Mùa xuân*](../nghe-nhac/vivaldi-mua-xuan.md), Mozart *Eine kleine Nachtmusik*, [Haydn *Surprise*](../nghe-nhac/haydn-94.md).
 - [ ] Mỗi ngày 5 phút [nhận biết quãng](../luyen-tap/quang.md) ở bộ Khởi động.
@@ -37,4 +37,13 @@ Dành cho bạn muốn **hiểu và tận hưởng** nhạc cổ điển, chưa 
 - [ ] Nghe: [Stravinsky *Le Sacre du printemps*](../nghe-nhac/stravinsky-sacre.md), [Pärt *Spiegel im Spiegel*](../nghe-nhac/part-spiegel.md).
 - [ ] Đi xem một buổi hòa nhạc trực tiếp. Xem [nhạc cổ điển ở Việt Nam](../lich-su/viet-nam.md).
 
-Sau 6 tháng, hãy dùng trang [Nghe gì tiếp](../nghe-nhac/nghe-gi-tiep.md) để tự xây danh sách theo sở thích.
+## Sau 6 tháng: đi sâu hơn
+
+- [ ] Đọc trang riêng của từng [thời kỳ](../lich-su/index.md), mỗi trang có 10 tác phẩm để nghe.
+- [ ] Nghe các hướng dẫn còn lại: [Bach cello](../nghe-nhac/bach-cello-1.md), [Mozart *Requiem*](../nghe-nhac/mozart-requiem.md), [Schubert *Con cá hồi*](../nghe-nhac/schubert-ca-hoi.md), [Brahms 4](../nghe-nhac/brahms-4.md), [Ravel *Boléro*](../nghe-nhac/ravel-bolero.md), [Shostakovich 5](../nghe-nhac/shostakovich-5.md), [Beethoven Op. 132](../nghe-nhac/beethoven-op132.md).
+- [ ] Đọc các trang hình thức chi tiết: [sonata](../hinh-thuc/sonata.md), [fugue](../hinh-thuc/fugue.md), [biến tấu](../hinh-thuc/bien-tau.md).
+- [ ] Học mục [Nhận diện](../nhan-dien/index.md): bảng so sánh các thời kỳ, luyện nghe nhận diện, rồi nghe mù.
+- [ ] Bài [28: Kết cấu](../nhac-ly/28-ket-cau.md), [29: Chuỗi hòa âm](../nhac-ly/29-chuoi-hoa-am.md), [31: Hình thức nhỏ](../nhac-ly/31-hinh-thuc-nho.md).
+- [ ] Đọc [Âm học cơ bản](../nhac-ly/am-hoc.md) và [Nhạc truyền thống Việt Nam và nhạc cổ điển](../lich-su/nhac-truyen-thong-viet-nam.md).
+
+Dùng trang [Nghe gì tiếp](../nghe-nhac/nghe-gi-tiep.md) để tự xây danh sách theo sở thích.

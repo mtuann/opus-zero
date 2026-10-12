@@ -111,3 +111,8 @@ Hợp âm bảy có 4 nốt nên có **ba thể đảo**:
 + Hợp âm ba đảo 2
 > Nốt năm ở bè trầm: các quãng tính từ bè trầm là 6 và 4.
 ```
+
+## Nguồn
+
+- [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/); [musictheory.net](https://www.musictheory.net/lessons).
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

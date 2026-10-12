@@ -59,3 +59,8 @@
 - **Xem trực tiếp ở Việt Nam**: các nhà hát lớn ở Hà Nội và TP.HCM thường có những đêm opera và gala opera. Ví dụ, chương trình kỷ niệm 3 năm của Nhà hát Hồ Gươm (năm 2026) có ba ca sĩ opera quốc tế Diana Damrau, Javier Camarena và Marina Viotti. Xem [nhạc cổ điển ở Việt Nam](viet-nam.md).
 
 Trong nhà hát, khán giả thường vỗ tay sau mỗi aria nổi tiếng, khác với hòa nhạc giao hưởng nơi người ta đợi đến hết tác phẩm.
+
+## Nguồn
+
+- Burkholder, Grout, Palisca, *A History of Western Music*; Richard Taruskin, *The Oxford History of Western Music*.
+- Grove Music Online; Encyclopaedia Britannica. Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

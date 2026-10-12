@@ -66,6 +66,12 @@ Mục tiêu: đặt mỗi tác phẩm vào bối cảnh thời kỳ và so sánh
 - [ ] So sánh hai bản thu của cùng một tác phẩm, ghi lại khác biệt
 - [ ] Viết 10 trang [nhật ký nghe nhạc](../nghe-nhac/index.md)
 
+## Năm thứ hai
+
+- [ ] [Âm học cơ bản](../nhac-ly/am-hoc.md), rồi 7 bài trung cấp, bắt đầu từ [Hòa âm bốn bè](../nhac-ly/21-hoa-am-bon-be.md)
+- [ ] Mỗi tháng phân tích một tác phẩm theo [quy trình 6 bước](../nhac-ly/26-phan-tich.md)
+- [ ] Nghe hết 23 [hướng dẫn nghe](../nghe-nhac/index.md), ghi mốc thời gian theo bản thu bạn chọn
+
 ## Song song suốt năm
 
 - [ ] Luyện tập gần như mỗi ngày, theo dõi bằng [nhật ký luyện tập](../luyen-tap/nhat-ky.md)

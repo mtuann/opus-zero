@@ -120,3 +120,8 @@ K:C
 - La – Đô – Mi – Sol – Si
 > Good Boys Do Fine Always.
 ```
+
+## Nguồn
+
+- [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/); [musictheory.net](https://www.musictheory.net/lessons).
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).
