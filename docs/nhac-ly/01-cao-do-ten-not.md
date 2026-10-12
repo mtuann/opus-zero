@@ -1,0 +1,61 @@
+# 1. Cao độ và tên nốt
+
+## Cao độ là gì?
+
+Mỗi âm thanh có một **cao độ**: âm cao hay thấp. Về mặt vật lý, cao độ phụ thuộc vào tần số dao động. Dây đàn rung càng nhanh, âm càng cao. Ví dụ, nốt La dùng để lên dây cho dàn nhạc dao động 440 lần mỗi giây (440 Hz).
+
+Âm nhạc phương Tây chia các cao độ thành một hệ thống có tên gọi cố định.
+
+## Bảy tên nốt
+
+Chỉ có **7 tên nốt**, lặp đi lặp lại từ thấp đến cao:
+
+| Hệ Việt Nam (solfège) | Đô | Rê | Mi | Fa | Sol | La | Si |
+|---|---|---|---|---|---|---|---|
+| Hệ chữ cái | C | D | E | F | G | A | B |
+
+Ở Việt Nam, Pháp, Ý… người ta gọi tên nốt là Đô, Rê, Mi. Trong tài liệu tiếng Anh và trên phần mềm, tên nốt viết bằng chữ cái. Bạn nên thuộc cả hai, vì phần lớn tài liệu tốt bằng tiếng Anh.
+
+!!! tip "Mẹo nhớ hệ chữ cái"
+    Bắt đầu từ La = A, rồi đi theo bảng chữ cái: La A, Si B, Đô C, Rê D, Mi E, Fa F, Sol G.
+
+Nghe gam Đô trưởng đi lên, từ Đô đến Đô:
+
+```abc
+X:1
+L:1/4
+M:4/4
+Q:1/4=90
+K:C
+C D E F | G A B c |]
+```
+
+Nốt thứ tám nghe "giống" nốt đầu tiên, chỉ cao hơn. Hai nốt này cùng tên và cách nhau một **quãng tám** (octave). Tần số của nốt trên gấp đôi nốt dưới.
+
+## Đánh số quãng tám
+
+Vì 7 tên nốt lặp lại, ta cần số để biết nốt nằm ở quãng tám nào. Ký hiệu thông dụng (ký hiệu khoa học) ghi tên chữ cái kèm số:
+
+- **C4** là **Đô giữa** (middle C), nằm gần giữa bàn phím piano.
+- Từ C4 đi lên: D4, E4, F4, G4, A4, B4, rồi đến **C5**. Số tăng lên ở nốt Đô.
+- A4 là nốt La 440 Hz.
+
+## Trên bàn phím piano
+
+Piano tiêu chuẩn có 88 phím, gồm phím trắng và phím đen. Phím đen xếp theo nhóm **2 phím** và **3 phím** xen kẽ, giúp bạn định vị:
+
+- Nốt **Đô** là phím trắng ngay **bên trái nhóm 2 phím đen**.
+- Nốt **Fa** là phím trắng ngay **bên trái nhóm 3 phím đen**.
+- Các phím trắng lần lượt là Đô Rê Mi Fa Sol La Si, rồi lặp lại.
+
+Phím đen dùng cho các nốt có dấu thăng hoặc giáng, sẽ học ở [bài 5](05-dau-hoa.md).
+
+## Bài tập
+
+1. Đọc to bảy tên nốt đi lên, rồi đi xuống, theo cả hai hệ (Đô Rê Mi… và C D E…).
+2. Không nhìn bảng: Sol là chữ gì? E là nốt gì? Si là chữ gì?
+3. Nếu có piano hoặc app piano trên điện thoại: tìm tất cả các nốt Đô, rồi tất cả các nốt Fa.
+4. Nốt ngay trên B4 tên là gì, và mang số mấy?
+
+??? success "Đáp án câu 2 và 4"
+    Sol = G, E = Mi, Si = B. Nốt ngay trên B4 là **C5**: tên quay lại Đô và số tăng lên 5.

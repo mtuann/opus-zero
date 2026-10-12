@@ -1,0 +1,136 @@
+site_name: Opus Zero
+site_description: Sổ tay học đọc nhạc và nhạc cổ điển từ con số 0 — nhạc lý, luyện tai, lịch sử, nghe nhạc và luyện tập mỗi ngày.
+site_author: mtuann
+site_url: https://mtuann.github.io/opus-zero/
+repo_url: https://github.com/mtuann/opus-zero
+repo_name: mtuann/opus-zero
+edit_uri: edit/main/docs/
+copyright: Opus Zero — sổ tay học nhạc cá nhân của mtuann
+
+theme:
+  name: material
+  language: vi
+  font:
+    text: Be Vietnam Pro
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Chuyển sang chế độ tối
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Chuyển sang chế độ sáng
+  icon:
+    logo: material/music-clef-treble
+    repo: fontawesome/brands/github
+  favicon: assets/favicon.svg
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+
+plugins:
+  - search:
+      lang:
+        - en
+        - vi
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.keys
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: abc
+          class: abc-notation
+          format: !!python/name:pymdownx.superfences.fence_div_format
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_css:
+  - https://cdn.jsdelivr.net/npm/abcjs@6.7.1/abcjs-audio.css
+  - assets/css/opus.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/abcjs@6.7.1/dist/abcjs-basic-min.js
+  - assets/js/audio.js
+  - assets/js/progress.js
+  - assets/js/abc.js
+  - assets/js/note-reader.js
+  - assets/js/interval-trainer.js
+  - assets/js/metronome.js
+  - assets/js/journal.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mtuann
+
+nav:
+  - Trang chủ: index.md
+  - Bắt đầu:
+      - bat-dau/index.md
+      - Lộ trình 12 tháng: bat-dau/lo-trinh.md
+      - Thói quen mỗi ngày: bat-dau/moi-ngay.md
+  - Nhạc lý:
+      - nhac-ly/index.md
+      - 1. Cao độ và tên nốt: nhac-ly/01-cao-do-ten-not.md
+      - 2. Khuông nhạc và khóa: nhac-ly/02-khuong-nhac-khoa.md
+      - 3. Trường độ và dấu lặng: nhac-ly/03-truong-do.md
+      - 4. Nhịp và số chỉ nhịp: nhac-ly/04-nhip.md
+      - 5. Cung, nửa cung và dấu hóa: nhac-ly/05-dau-hoa.md
+      - 6. Gam trưởng: nhac-ly/06-gam-truong.md
+  - Luyện tập:
+      - luyen-tap/index.md
+      - Đọc nốt: luyen-tap/doc-not.md
+      - Nhận biết quãng: luyen-tap/quang.md
+      - Máy đếm nhịp: luyen-tap/metronome.md
+      - Nhật ký luyện tập: luyen-tap/nhat-ky.md
+  - Luyện tai:
+      - luyen-tai/index.md
+  - Lịch sử:
+      - lich-su/index.md
+      - Âm nhạc hôm nay: lich-su/duong-dai.md
+  - Hình thức & thể loại:
+      - hinh-thuc/index.md
+  - Nhạc cụ:
+      - nhac-cu/index.md
+  - Nghe nhạc:
+      - nghe-nhac/index.md
+      - Mẫu ghi chép: nghe-nhac/mau.md
+      - "Beethoven: Giao hưởng số 5": nghe-nhac/beethoven-5.md
+  - Tài nguyên: tai-nguyen.md
