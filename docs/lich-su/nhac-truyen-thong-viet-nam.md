@@ -66,6 +66,42 @@ Tính đến cuối năm 2025, Việt Nam có 17 di sản văn hóa phi vật th
 
 Ngoài ra, tháng 4/2025, **bộ sưu tập tư liệu của nhạc sĩ Hoàng Vân** được UNESCO ghi vào **Danh mục Ký ức thế giới**. Âm nhạc của ông là một ví dụ về sự kết hợp giữa kỹ thuật sáng tác cổ điển châu Âu và chất liệu dân tộc.
 
+## Chèo: sân khấu của làng quê Bắc Bộ
+
+Chèo là sân khấu ca kịch dân gian của đồng bằng Bắc Bộ, có từ khoảng thế kỷ 10. Tương truyền người đặt nền móng là bà **Phạm Thị Trân**, một nghệ nhân múa hát trong cung đình nhà Đinh; đất tổ chèo ở Hoa Lư, Ninh Bình. Chèo lớn lên cùng hội làng: diễn trên sân đình sau mùa gặt, cho chính bà con trong làng xem — vì thế lời ca, tích truyện của chèo luôn gần gũi đời sống người nông dân.
+
+Nhận diện chèo qua ba dấu hiệu. **Trống chèo** giữ nhịp và dẫn dắt cả buổi diễn — tiếng trống giục giã được coi là "linh hồn" của đêm hát. **Hề chèo**: nhân vật hề vừa gây cười vừa nói hộ nỗi lòng người dân, nhiều khi chua chát. Và các **làn điệu** trữ tình với lời ca giàu hình ảnh dân gian. Chèo vừa bi vừa hài: cùng một vở có thể khiến khán giả khóc rồi bật cười ngay sau đó. Các vở kinh điển: *Quan Âm Thị Kính*, *Lưu Bình – Dương Lễ*, *Trương Viên*.
+
+Nghệ sĩ tiêu biểu: **NSND Thanh Ngoan** (Nhà hát Chèo Việt Nam), gắn bó hơn 40 năm với chèo và từng giữ vai trò Giám đốc nhà hát.
+
+Lưu ý: khác với quan họ hay ca trù, **chèo chưa được UNESCO ghi danh** — từ năm 2021, nghệ thuật chèo mới được lập hồ sơ đề nghị UNESCO công nhận, tức vẫn đang trong quá trình đề cử.
+
+Gợi ý xem: tìm *"chèo Quan Âm Thị Kính"*, *"trích đoạn chèo"* trên YouTube; ưu tiên các bản diễn của Nhà hát Chèo Việt Nam.
+
+## Tuồng (hát bội): sân khấu bi tráng của miền Trung
+
+Tuồng — ở miền Nam gọi là **hát bội** — là sân khấu ca kịch cổ nhất Việt Nam; theo tư liệu phổ biến, tuồng xuất hiện từ thời Trần (thế kỷ 13) trong cung đình rồi lan ra dân gian, đặc biệt ở miền Trung. Đỉnh cao của tuồng gắn với thời vua Tự Đức, với công lớn của **Đào Tấn** (1845–1907), người để lại hàng chục vở tuồng mẫu mực.
+
+Khác với chèo mộc mạc, tuồng lộng lẫy và ước lệ rất cao. Diễn viên **vẽ mặt**: mặt đỏ là người trung dũng, chững chạc; mặt trắng là dung mạo đẹp, tính trầm tĩnh; mặt xanh là vai quỷ quái, linh hồn; còn các kiểu mặt rằn, mặt mốc, mặt tròng xéo… chỉ tính nóng nảy, nịnh hót hay phản trắc — chỉ nhìn mặt đã đoán được tính cách nhân vật. Trang phục rực rỡ kiểu vua quan, đạo cụ có kiếm, cờ, quạt, roi ngựa. Lối hát tuồng to, cao, vang, thường mở đầu bằng **nói lối** (nói một lúc rồi mới hát), kể những chuyện trung hiếu, tiết nghĩa với chất bi tráng đặc trưng.
+
+Một chi tiết độc đáo: **trống chầu**, được mệnh danh là "vua của sân khấu". Người đánh trống chầu ngồi xem và "chấm điểm" diễn viên ngay trong lúc diễn — tiếng trống là lời khen, tiếng trống dồn dập là lời chê, thưởng phạt rõ ràng ngay trên sân khấu.
+
+Tuồng đến nay vẫn **chưa được UNESCO ghi danh**.
+
+Gợi ý xem: tìm *"hát bội"*, *"tuồng Đào Tấn"*, *"trống chầu"* trên YouTube.
+
+## Cải lương và điệu vọng cổ
+
+Cải lương là sân khấu ca kịch của Nam Bộ, ra đời đầu thế kỷ 20 từ phong trào đờn ca tài tử. "Cải lương" nghĩa là cải cách cho tốt hơn: các gánh hát đưa những bài bản tài tử lên sân khấu, thêm cốt truyện, đối thoại và diễn xuất.
+
+Trái tim của cải lương là **điệu vọng cổ**. Năm 1919, tại Bạc Liêu, nhạc sĩ **Cao Văn Lầu** (Sáu Lầu) công bố bản **"Dạ cổ hoài lang"** — nghĩa là "nghe tiếng trống đêm nhớ chồng" — viết từ nỗi nhớ vợ của chính ông. Từ bản 20 câu này, các thế hệ nghệ sĩ phát triển thành điệu vọng cổ mà ngày nay thường hát 6 câu, với cách hát **luyến láy, ngân dài, nhấn nhá** từng chữ trên nền đàn tranh, đàn bầu, guitar phím lõm. Nghe một câu vọng cổ, bạn sẽ nhận ra ngay: giọng hát như đang kể một nỗi niềm, dứt câu nào cũng như còn dang dở.
+
+Những giọng ca thành huyền thoại: **Út Trà Ôn**, **Minh Vương**, **Lệ Thủy**. Soạn giả **Viễn Châu** được xem là người khai sinh **tân cổ giao duyên** — xen một đoạn tân nhạc vào giữa các câu vọng cổ, rất được yêu thích.
+
+Khác với đờn ca tài tử (được UNESCO ghi danh năm 2013), **cải lương và vọng cổ đến nay vẫn chưa được UNESCO ghi danh**.
+
+Gợi ý nghe: tìm *"Dạ cổ hoài lang"*, *"vọng cổ 6 câu"*, *"tân cổ giao duyên"* trên YouTube; ưu tiên bản thu của các nghệ sĩ gạo cội.
+
 ## Khi hai truyền thống gặp nhau
 
 - **Nhà soạn nhạc Việt Nam viết cho dàn nhạc giao hưởng** thường lấy chất liệu từ dân ca và các thang năm âm: giao hưởng *Quê hương* của Hoàng Việt, opera *Cô Sao* của Đỗ Nhuận, các bản chuyển soạn dân ca như *Trống cơm*, *Lý hoài nam* cho dàn dây (xem [Nhạc cổ điển ở Việt Nam](viet-nam.md)).
@@ -74,7 +110,7 @@ Ngoài ra, tháng 4/2025, **bộ sưu tập tư liệu của nhạc sĩ Hoàng V
 
 ## Gợi ý nghe
 
-Tìm trên YouTube hoặc ứng dụng nghe nhạc theo các từ khóa: *"Nhã nhạc cung đình Huế"*, *"đờn ca tài tử"*, *"ca trù"*, *"quan họ"*, *"độc tấu đàn bầu"*, *"hát văn"*. Ưu tiên các bản thu của nghệ nhân, viện nghiên cứu hoặc nhà hát, có ghi rõ tên người biểu diễn.
+Tìm trên YouTube hoặc ứng dụng nghe nhạc theo các từ khóa: *"Nhã nhạc cung đình Huế"*, *"đờn ca tài tử"*, *"ca trù"*, *"quan họ"*, *"độc tấu đàn bầu"*, *"hát văn"*, *"trích đoạn chèo"*, *"hát bội"*, *"Dạ cổ hoài lang"*. Ưu tiên các bản thu của nghệ nhân, viện nghiên cứu hoặc nhà hát, có ghi rõ tên người biểu diễn.
 
 **Bài tập nghe so sánh:** nghe liền nhau một bản độc tấu đàn bầu và một chương chậm cho violin (ví dụ [Pärt *Spiegel im Spiegel*](../nghe-nhac/part-spiegel.md)). Hãy để ý: violin giữ từng nốt **ổn định** và đi theo hòa âm của piano; đàn bầu thì **uốn lượn** cao độ ngay trong một nốt. Đó chính là khác biệt về cách nghĩ về cao độ ở bảng đầu trang.
 
@@ -83,3 +119,6 @@ Tìm trên YouTube hoặc ứng dụng nghe nhạc theo các từ khóa: *"Nhã 
 - [17 di sản được UNESCO ghi danh](https://baolaocai.vn/17-di-san-duoc-unesco-ghi-danh-nen-van-hoa-phong-phu-do-so-cua-dan-toc-post888746.html) (Báo Lào Cai, 12/2025)
 - [Ấn tượng di sản Việt Nam 2025](https://nhandan.vn/ocop/an-tuong-di-san-viet-nam-2025-post934547.html) (Nhân Dân): bộ sưu tập của nhạc sĩ Hoàng Vân
 - Trang chính thức về Di sản văn hóa phi vật thể của UNESCO: [ich.unesco.org](https://ich.unesco.org/)
+- [Cục Di sản văn hóa: xây dựng hồ sơ đề cử UNESCO](https://dsvh.gov.vn/mo-rong-viec-xay-dung-ho-so-de-cu-vao-cac-danh-sach-di-san-van-hoa-phi-vat-the-cua-unesco-3403) (hồ sơ chèo, 2021)
+- [Viện Âm nhạc: Tuồng cổ — di sản cần gìn giữ](https://vienamnhac.vn/bai-viet/nhac-co/tuong-co---di-san-van-hoa-can-gin-giu) (vẽ mặt, nói lối, trống chầu)
+- [Bài ca vua vọng cổ: *Dạ cổ hoài lang*](http://vanchuongphuongnam.vn/bai-ca-vua-vong-co.html)

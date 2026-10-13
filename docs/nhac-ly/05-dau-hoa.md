@@ -21,6 +21,8 @@ Hãy nhớ kỹ hai cặp này: chúng là chìa khóa để hiểu gam và hợ
 
 Ví dụ: Fa♯ (F♯) là phím đen ngay bên phải Fa. Si♭ (B♭) là phím đen ngay bên trái Si.
 
+Ngoài ra còn có **dấu thăng kép** (×, nâng nốt lên một cung) và **dấu giáng kép** (♭♭, hạ nốt xuống một cung), dùng khi cần nâng/hạ một nốt đã mang dấu hóa — bạn sẽ gặp chúng ở các bài nâng cao.
+
 Bấm thử các phím đen trên bàn phím dưới đây để xem tên của chúng:
 
 <div class="oz-piano" data-range="C4-B4"></div>

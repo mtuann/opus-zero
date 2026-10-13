@@ -52,7 +52,7 @@ docs/
 ├── lich-su/              Lịch sử, dòng thời gian, nhà soạn nhạc (cả nữ), opera, Việt Nam, đương đại
 ├── hinh-thuc/            Tổng quan + 5 trang hình thức chi tiết (sonata, fugue, biến tấu, rondo, concerto)
 ├── nhac-cu/              Piano, violin, guitar (lộ trình + 10 bài đầu), cách tập, mua đàn, dàn nhạc
-├── nghe-nhac/            23 hướng dẫn nghe (có ghi mốc theo bản thu YouTube), đọc tên tác phẩm, nghe gì tiếp
+├── nghe-nhac/            26 hướng dẫn nghe (có ghi mốc theo bản thu YouTube), đọc tên tác phẩm, nghe gì tiếp
 ├── blog/posts/           Nhật ký học (blog)
 ├── tai-nguyen.md         Tài nguyên
 ├── manifest.webmanifest  Cài như ứng dụng (PWA)

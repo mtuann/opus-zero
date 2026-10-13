@@ -54,13 +54,13 @@ V:S clef=treble
 V:B clef=bass
 K:C
 [V:S] [Ec] [Fc] [DB] [Ec] |]
-[V:B] [C,G,] [F,A,] [G,,G,] [C,G,] |]
+[V:B] [C,,G,] [F,,A,] [G,,G,] [C,,G,] |]
 ```
 
 Đọc từ dưới lên ở mỗi hợp âm: bass – tenor (khuông dưới), alto – soprano (khuông trên).
 
-- I → IV: soprano **giữ** Đô (nốt chung); các bè khác đi lên bước nhỏ.
-- IV → V: bass đi xuống, ba bè trên đi lên hoặc xuống ngược chiều; không có quãng song song cấm.
+- I → IV: soprano **giữ** Đô (nốt chung); các bè trên đi lên bước nhỏ, bass nhảy quãng 4 lên Fa.
+- IV → V: bass đi **lên** bước liền (Fa → Sol), ba bè trên đi xuống ngược chiều; không có quãng song song cấm.
 - V → I: **cảm âm Si đi lên Đô** ở soprano; tenor giữ Sol (nốt chung).
 
 **Lỗi cần tránh**, quãng 5 song song:
@@ -71,7 +71,7 @@ T:Sai: quãng 5 song song (Đô–Sol rồi Rê–La)
 L:1/2
 M:2/2
 K:C clef=bass
-[C,G,] [D,A,] |]
+[C,,G,,] [D,,A,,] |]
 ```
 
 ## Bài tập viết

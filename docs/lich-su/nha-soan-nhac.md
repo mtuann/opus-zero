@@ -1,6 +1,6 @@
 # Nhà soạn nhạc
 
-Chân dung ngắn của khoảng 35 nhà soạn nhạc nên biết, xếp theo thời kỳ và năm sinh. Mỗi người có ba tác phẩm gợi ý để bắt đầu. Bối cảnh của từng thời kỳ nằm ở trang [Lịch sử](index.md).
+Chân dung ngắn của khoảng 37 nhà soạn nhạc nên biết, xếp theo thời kỳ và năm sinh. Mỗi người có vài tác phẩm gợi ý để bắt đầu. Bối cảnh của từng thời kỳ nằm ở trang [Lịch sử](index.md).
 
 
 <!-- fig:lifespans -->
@@ -25,13 +25,13 @@ Nhà soạn nhạc Anh vĩ đại nhất trước thế kỷ 20, mất năm 36 t
 
 Linh mục và nghệ sĩ violin người Venice, dạy nhạc nhiều năm tại một trại trẻ mồ côi nữ có dàn nhạc nổi tiếng. Ông viết hơn 500 concerto và định hình thể loại concerto độc tấu ba chương (nhanh – chậm – nhanh).
 
-**Nghe trước:** *Bốn Mùa*; Concerto cho hai violin cung La thứ RV 522; *Gloria* RV 589.
+**Nghe trước:** [*Bốn Mùa*](../nghe-nhac/vivaldi-mua-xuan.md); Concerto cho hai violin cung La thứ RV 522; *Gloria* RV 589.
 
 ### Johann Sebastian Bach (1685–1750)
 
 Nhạc sĩ organ và giám đốc âm nhạc nhà thờ ở Leipzig suốt 27 năm cuối đời. Bach là bậc thầy tuyệt đối của **phức điệu** và fugue; tác phẩm của ông là nền tảng học hòa âm và đối âm đến tận hôm nay. Sinh thời ông được biết đến như một nghệ sĩ organ hơn là nhà soạn nhạc; âm nhạc của ông được "tái khám phá" mạnh mẽ từ năm 1829 khi Mendelssohn dàn dựng lại *Thương khó theo Thánh Matthew*.
 
-**Nghe trước:** *Brandenburg Concerto số 3*; *Bình quân luật*, quyển 1; *Thương khó theo Thánh Matthew*.
+**Nghe trước:** [Prelude cung Đô trưởng](../nghe-nhac/bach-prelude-c.md); [Tổ khúc cello số 1](../nghe-nhac/bach-cello-1.md); *Brandenburg Concerto số 3*; *Thương khó theo Thánh Matthew*.
 
 ### George Frideric Handel (1685–1759)
 
@@ -45,19 +45,19 @@ Sinh ở Đức cùng năm với Bach, nhưng làm nên sự nghiệp ở London
 
 Phục vụ gia đình quý tộc Esterházy gần 30 năm, Haydn được gọi là "cha đẻ của giao hưởng" và "cha đẻ của tứ tấu đàn dây" vì đã định hình cả hai thể loại. Ông viết 104 bản giao hưởng, nổi tiếng với sự hóm hỉnh và bất ngờ.
 
-**Nghe trước:** Giao hưởng số 94 *Surprise*; Tứ tấu đàn dây Op. 76 số 3 *Hoàng đế*; oratorio *Sự sáng tạo*.
+**Nghe trước:** [Giao hưởng số 94 *Surprise*](../nghe-nhac/haydn-94.md); Tứ tấu đàn dây Op. 76 số 3 *Hoàng đế*; oratorio *Sự sáng tạo*.
 
 ### Wolfgang Amadeus Mozart (1756–1791)
 
 Thần đồng biểu diễn khắp châu Âu từ năm 6 tuổi, Mozart sống chỉ 35 năm nhưng để lại hơn 600 tác phẩm ở mọi thể loại. Các tác phẩm được đánh số theo danh mục Köchel (K.).
 
-**Nghe trước:** *Eine kleine Nachtmusik* K. 525; Concerto piano số 21 K. 467; opera *Cây sáo thần*.
+**Nghe trước:** [Giao hưởng số 40](../nghe-nhac/mozart-40.md); *Eine kleine Nachtmusik* K. 525; Concerto piano số 21 K. 467; opera *Cây sáo thần* ([aria Nữ hoàng bóng đêm](../nghe-nhac/mozart-nu-hoang-bong-dem.md)).
 
 ### Ludwig van Beethoven (1770–1827)
 
 Học ở Vienna (có thời gian học với Haydn), Beethoven bắt đầu bị mất thính lực từ khoảng tuổi 28 và gần như điếc hoàn toàn khi viết những tác phẩm vĩ đại nhất. Ông là cây cầu từ Cổ điển sang Lãng mạn, đưa giao hưởng và sonata lên quy mô và chiều sâu chưa từng có.
 
-**Nghe trước:** [Giao hưởng số 5](../nghe-nhac/beethoven-5.md); Sonata piano *Ánh trăng*; Giao hưởng số 9.
+**Nghe trước:** [Giao hưởng số 5](../nghe-nhac/beethoven-5.md); Sonata piano *Ánh trăng*; Giao hưởng số 9; [Tứ tấu đàn dây Op. 132](../nghe-nhac/beethoven-op132.md).
 
 ## Lãng mạn
 
@@ -65,13 +65,13 @@ Học ở Vienna (có thời gian học với Haydn), Beethoven bắt đầu b�
 
 Mất năm 31 tuổi, Schubert viết hơn 600 ca khúc nghệ thuật (Lied), biến thể loại này thành đỉnh cao của nhạc Lãng mạn.
 
-**Nghe trước:** *Ständchen* (Serenade); Ngũ tấu *Con cá hồi*; Giao hưởng số 8 *Dang dở*.
+**Nghe trước:** [*Erlkönig*](../nghe-nhac/schubert-erlkonig.md); [Ngũ tấu *Con cá hồi*](../nghe-nhac/schubert-ca-hoi.md); Giao hưởng số 8 *Dang dở*.
 
 ### Frédéric Chopin (1810–1849)
 
 Sinh ở Ba Lan, sống và biểu diễn tại Paris. Gần như mọi tác phẩm của Chopin đều cho piano, và ông được coi là "nhà thơ của cây đàn piano".
 
-**Nghe trước:** Nocturne Op. 9 số 2; Ballade số 1; Étude Op. 10 số 3.
+**Nghe trước:** [Nocturne Op. 9 số 2](../nghe-nhac/chopin-nocturne.md); Ballade số 1; Étude Op. 10 số 3.
 
 ### Felix Mendelssohn (1809–1847)
 
@@ -105,25 +105,31 @@ Nhà soạn opera Ý lớn nhất thế kỷ 19, sinh cùng năm với Wagner. O
 
 ### Johannes Brahms (1833–1897)
 
-Người kế thừa truyền thống Beethoven, kết hợp hình thức chặt chẽ với cảm xúc Lãng mạn sâu lắng.
+Người kế thừa truyền thống Beethoven, kết hợp hình thức chặt chẽ với cảm xúc Lãng mạn sâu lắng. Dấu vân tay của ông: giai điệu dài, ấm, thường bắt đầu lệch phách; một môtip nhỏ được nhào nặn, biến hóa thành cả một chương nhạc.
 
-**Nghe trước:** Giao hưởng số 4; Concerto violin; *Hungarian Dances*.
+**Nghe trước:** [Giao hưởng số 4](../nghe-nhac/brahms-4.md); Concerto violin; *Hungarian Dances*.
+
+### Georges Bizet (1838–1875)
+
+Nhà soạn nhạc Pháp, mất năm 36 tuổi chỉ vài tháng sau khi vở opera *Carmen* ra mắt — vở opera ban đầu bị chê là "thô tục" nhưng sau đó trở thành một trong những opera được diễn nhiều nhất thế giới. Âm nhạc của ông đầy màu sắc Tây Ban Nha và giai điệu bắt tai.
+
+**Nghe trước:** opera *Carmen* ([Habanera](../nghe-nhac/bizet-habanera.md)); *L'Arlésienne*, tổ khúc; *Les Pêcheurs de perles* (Người mò ngọc trai).
 
 ### Pyotr Ilyich Tchaikovsky (1840–1893)
 
-Nhà soạn nhạc Nga có giai điệu dễ nhớ bậc nhất, tác giả của ba vở ballet được dàn dựng nhiều nhất thế giới.
+Nhà soạn nhạc Nga có giai điệu dễ nhớ bậc nhất, tác giả của ba vở ballet được dàn dựng nhiều nhất thế giới. Dấu vân tay của ông: giai điệu đẹp đến nao lòng, dàn nhạc rực rỡ nhiều màu sắc, và cảm xúc được đẩy lên đến tận cùng — từ say đắm đến bi kịch.
 
-**Nghe trước:** *Hồ thiên nga*; Concerto piano số 1; Giao hưởng số 6 *Bi tráng*.
+**Nghe trước:** [*Hồ thiên nga*](../nghe-nhac/tchaikovsky-ho-thien-nga.md); Concerto piano số 1; Giao hưởng số 6 *Bi tráng*.
 
 ### Antonín Dvořák (1841–1904)
 
-Nhà soạn nhạc Séc đưa chất dân ca vào nhạc giao hưởng. Ông sống ở Mỹ ba năm và viết Giao hưởng số 9 tại đó.
+Nhà soạn nhạc Séc đưa chất dân ca vào nhạc giao hưởng. Ông sống ở Mỹ ba năm và viết Giao hưởng số 9 tại đó. Dấu vân tay của ông: giai điệu tươi sáng, mộc mạc như dân ca; tiết tấu nảy, rộn ràng; âm nhạc luôn toát lên niềm vui sống và nỗi nhớ quê hương.
 
-**Nghe trước:** Giao hưởng số 9 *Từ Thế giới mới*; Concerto cello; Tứ tấu đàn dây *Mỹ*.
+**Nghe trước:** Giao hưởng số 9 *Từ Thế giới mới* ([chương Largo](../nghe-nhac/dvorak-9-largo.md)); Concerto cello; Tứ tấu đàn dây *Mỹ*.
 
 ### Edvard Grieg (1843–1907)
 
-Nhà soạn nhạc Na Uy, đưa dân ca và phong cảnh Bắc Âu vào nhạc cổ điển; bậc thầy của các tiểu phẩm ngắn.
+Nhà soạn nhạc Na Uy, đưa dân ca và phong cảnh Bắc Âu vào nhạc cổ điển; bậc thầy của các tiểu phẩm ngắn. Dấu vân tay của ông: những tiểu phẩm trong trẻo như tranh phong cảnh — nghe là thấy núi tuyết, vịnh hẹp và ánh sáng phương Bắc; hòa âm tinh tế, hiếm khi ồn ào.
 
 **Nghe trước:** *Peer Gynt*: *Buổi sáng*, *Trong cung điện vua núi*; Concerto piano cung La thứ; *Holberg Suite*.
 
@@ -157,19 +163,19 @@ Nhà soạn nhạc Phần Lan, biểu tượng của bản sắc dân tộc Ph�
 
 Người Pháp, mở ra chủ nghĩa ấn tượng trong âm nhạc với hòa âm mơ hồ và màu sắc âm thanh mới lạ.
 
-**Nghe trước:** *Clair de lune*; *Prélude à l'après-midi d'un faune*; *La Mer*.
+**Nghe trước:** [*Clair de lune*](../nghe-nhac/debussy-clair-de-lune.md); *Prélude à l'après-midi d'un faune*; *La Mer*.
 
 ### Sergei Rachmaninoff (1873–1943)
 
 Nghệ sĩ piano và nhà soạn nhạc Nga, giữ phong cách Lãng mạn giữa thế kỷ 20. Ông rời Nga sau Cách mạng 1917 và sống phần lớn quãng đời còn lại ở Mỹ.
 
-**Nghe trước:** Concerto piano số 2; *Rhapsody on a Theme of Paganini*; *Vocalise*.
+**Nghe trước:** [Concerto piano số 2](../nghe-nhac/rachmaninoff-2.md); *Rhapsody on a Theme of Paganini*; *Vocalise*.
 
 ### Maurice Ravel (1875–1937)
 
 Thường được xếp cạnh Debussy, nhưng âm nhạc của Ravel sắc nét và chính xác hơn; ông là bậc thầy phối khí.
 
-**Nghe trước:** *Boléro*; *Pavane pour une infante défunte*; Concerto piano cung Sol.
+**Nghe trước:** [*Boléro*](../nghe-nhac/ravel-bolero.md); *Pavane pour une infante défunte*; Concerto piano cung Sol.
 
 ### Béla Bartók (1881–1945)
 
@@ -181,7 +187,7 @@ Nhà soạn nhạc và nghệ sĩ piano Hungary, đồng thời là nhà dân t�
 
 Người Nga, sống ở Pháp rồi Mỹ. Buổi công diễn *Le Sacre du printemps* năm 1913 ở Paris gây náo loạn khán phòng và trở thành một trong những sự kiện nổi tiếng nhất lịch sử âm nhạc.
 
-**Nghe trước:** *L'Oiseau de feu* (Chim lửa); *Le Sacre du printemps*; *Pulcinella*.
+**Nghe trước:** *L'Oiseau de feu* (Chim lửa); [*Le Sacre du printemps*](../nghe-nhac/stravinsky-sacre.md); *Pulcinella*.
 
 ### Sergei Prokofiev (1891–1953)
 
@@ -193,7 +199,7 @@ Nhà soạn nhạc Nga, sống ở phương Tây rồi trở về Liên Xô năm
 
 Sáng tác dưới chế độ Xô viết, âm nhạc của ông vừa phải làm vừa lòng chính quyền vừa ẩn chứa sự châm biếm và đau đớn.
 
-**Nghe trước:** Giao hưởng số 5; *Waltz* số 2 (trích *Suite for Variety Orchestra*); Tứ tấu đàn dây số 8.
+**Nghe trước:** [Giao hưởng số 5](../nghe-nhac/shostakovich-5.md); *Waltz* số 2 (trích *Suite for Variety Orchestra*); Tứ tấu đàn dây số 8.
 
 
 ### Olivier Messiaen (1908–1992)
@@ -208,6 +214,12 @@ Nhà soạn nhạc Anh quan trọng nhất thế kỷ 20, đặc biệt ở oper
 
 **Nghe trước:** *The Young Person's Guide to the Orchestra*; opera *Peter Grimes*, *Four Sea Interludes*; *War Requiem*.
 
+### Arvo Pärt (sinh 1935)
+
+Nhà soạn nhạc Estonia, người khai sinh phong cách **tintinnabuli** (tiếng chuông): âm nhạc tối giản, tĩnh lặng, mang màu sắc tâm linh — như tiếng chuông ngân trong không gian trống. Sau những năm đầu viết theo lối hiện đại, ông gần như im lặng rồi trở lại năm 1976 với phong cách mới này; ông rời Liên Xô năm 1980.
+
+**Nghe trước:** [Spiegel im Spiegel](../nghe-nhac/part-spiegel.md); *Für Alina*; *Tabula Rasa*.
+
 ### Steve Reich (sinh 1936)
 
 Một trong những người khai sinh **chủ nghĩa tối giản** ở Mỹ: các mẫu ngắn lặp lại, lệch pha dần, biến đổi rất chậm. Chịu ảnh hưởng của nhạc trống Tây Phi và gamelan Bali.
@@ -219,6 +231,12 @@ Một trong những người khai sinh **chủ nghĩa tối giản** ở Mỹ: c
 Nhà soạn nhạc tối giản Mỹ, học với Nadia Boulanger ở Paris và với Ravi Shankar. Viết opera, giao hưởng, rất nhiều nhạc phim; là một trong những nhà soạn nhạc đương đại được nghe nhiều nhất.
 
 **Nghe trước:** *Glassworks*, *Opening*; opera *Einstein on the Beach* (1976); nhạc phim *The Hours*.
+
+### John Adams (sinh 1947)
+
+Nhà soạn nhạc Mỹ, người đưa **chủ nghĩa tối giản** từ phòng thí nghiệm tiền phong ra sân khấu lớn: tiết tấu lặp lại dồn dập, hòa âm rực rỡ, quy mô giao hưởng. Ông nổi tiếng với các opera về đề tài thời sự (*Nixon in China*, *Doctor Atomic*) và những tác phẩm dàn nhạc đầy năng lượng.
+
+**Nghe trước:** *Short Ride in a Fast Machine*; *Harmonielehre*; opera *Nixon in China*.
 
 
 Các nhà soạn nhạc đang sống khác: xem [Âm nhạc hôm nay](duong-dai.md). Các nhà soạn nhạc nữ: xem [trang riêng](nu-nha-soan-nhac.md). Nhà soạn nhạc Việt Nam: xem [Nhạc cổ điển ở Việt Nam](viet-nam.md).

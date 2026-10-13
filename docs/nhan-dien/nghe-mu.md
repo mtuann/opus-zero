@@ -37,11 +37,11 @@ Ghi dự đoán **trước** khi xem tên, rồi ghi đáp án thật. Site lưu
 
     - [Bach – Brandenburg Concerto 6 – 2. Adagio](https://commons.wikimedia.org/wiki/File:Bach_-_Brandenburg_Concerto_6_-_2._Adagio.ogg)
     - [Brandenburg Concerto No. 4, Movement I](https://commons.wikimedia.org/wiki/File:Brandenburg_Concerto_No._4_in_G,_Movement_I_(Allegro),_BWV_1049_(ISRC_USUAN1100303).oga)
-    - [J. S. Bach – Klavierkonzert d-moll – 1. Allegro](https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach_-_Klavierkonzert_d-moll_-_1._Allegro.ogg)
+    - [Vivaldi – Bốn mùa, "Mùa xuân" – 1. Allegro (John Harrison, violin)](https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga)
     - [Bach E major Violin Concerto – 2. Adagio](https://commons.wikimedia.org/wiki/File:Bach_Emaj_Violin_Concerto_-_2._Adagio_sempre_Piano.ogg)
     - [Mozart – Eine kleine Nachtmusik – 1. Allegro](https://commons.wikimedia.org/wiki/File:Mozart_-_Eine_kleine_Nachtmusik_-_1._Allegro.ogg)
     - [Mozart – Symphony 40 – 4. Allegro assai](https://commons.wikimedia.org/wiki/File:Wolfgang_Amadeus_Mozart_-_Symphony_40_g-moll_-_4._Allegro_assai.ogg)
     - [Mozart – String Quintet No. 4 K.516 – 4. Adagio – Allegro](https://commons.wikimedia.org/wiki/File:Wolfgang_Amadeus_mozart_-_String_Quintet_No._4_K.516_-_4._Adagio_-_Allegro.ogg)
-    - [Mozart, Minuet, K355](https://commons.wikimedia.org/wiki/File:Mozart,_Minuet,_K355.wav)
+    - [Beethoven – Für Elise, WoO 59 (V. Gao, piano)](https://commons.wikimedia.org/wiki/File:FurElise.ogg)
     - [Chopin – Nocturne op. 9 n. 3 – Patrizia Prati](https://commons.wikimedia.org/wiki/File:Fryderyk_Chopin_-_Nocturne_op._9_n.3_H-dur_-_Patrizia_Prati.ogg)
     - [Debussy – Deuxième Arabesque – Patrizia Prati](https://commons.wikimedia.org/wiki/File:Claude_Debussy_-_Deuxi%C3%A8me_Arabesque_-_Patrizia_Prati.ogg)

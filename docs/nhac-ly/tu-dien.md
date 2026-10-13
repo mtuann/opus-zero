@@ -160,3 +160,24 @@ Mỗi ngày site đưa ra tối đa 10 thẻ mới và các thẻ đến hạn �
 | requiem | Lễ cầu hồn | |
 | chamber music | Nhạc thính phòng | Nhóm nhỏ, mỗi bè một người |
 | string quartet | Tứ tấu đàn dây | 2 violin, viola, cello |
+
+## Kết cấu, hình thức và kỹ thuật thế kỷ 20
+
+| Thuật ngữ | Nghĩa | Ghi chú |
+|---|---|---|
+| texture | Kết cấu | Cách các bè/giọng kết hợp với nhau |
+| monophony | Đơn âm | Một dòng giai điệu duy nhất |
+| homophony | Chủ điệu | Một giai điệu chính với bè đệm |
+| polyphony | Phức điệu | Nhiều giai điệu độc lập cùng lúc |
+| heterophony | Dị âm | Cùng một giai điệu, mỗi nhạc cụ chơi biến tấu riêng |
+| motif | Môtip | Ý nhạc ngắn, đơn vị xây dựng tác phẩm |
+| sequence | Chuỗi | Lặp lại môtip ở các cao độ khác nhau |
+| augmentation | Nới rộng | Kéo dài trường độ các nốt của môtip |
+| diminution | Thu hẹp | Rút ngắn trường độ các nốt của môtip |
+| fragmentation | Chia nhỏ | Chỉ dùng một mảnh của môtip để phát triển |
+| inversion (giai điệu) | Đảo | Lật ngược hướng đi của môtip; khác "thể đảo" của hợp âm |
+| whole-tone scale | Gam toàn cung | 6 nốt, mỗi nốt cách nhau một cung |
+| octatonic scale | Gam bát cung | 8 nốt xen kẽ cung – nửa cung |
+| polytonality | Đa điệu tính | Nhiều giọng cùng lúc |
+| twelve-tone | Nhạc 12 âm | Dùng đủ 12 nốt nửa cung theo một dãy định sẵn |
+| minimalism | Tối giản | Lặp lại các mẫu ngắn với biến đổi dần dần |

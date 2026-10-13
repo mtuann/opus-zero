@@ -274,15 +274,15 @@
  },
  {
   "id": "t3",
-  "file": "Johann_Sebastian_Bach_-_Klavierkonzert_d-moll_-_1._Allegro.ogg",
-  "page": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach_-_Klavierkonzert_d-moll_-_1._Allegro.ogg",
+  "file": "Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga",
+  "page": "https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga",
   "sources": [
    {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5a/Johann_Sebastian_Bach_-_Klavierkonzert_d-moll_-_1._Allegro.ogg/Johann_Sebastian_Bach_-_Klavierkonzert_d-moll_-_1._Allegro.ogg.mp3",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/ff/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga.mp3",
     "type": "audio/mpeg"
    },
    {
-    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Johann_Sebastian_Bach_-_Klavierkonzert_d-moll_-_1._Allegro.ogg",
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga",
     "type": "audio/ogg"
    }
   ],
@@ -291,9 +291,9 @@
    "baroque"
   ],
   "ensemble": "concerto",
-  "title": "J. S. Bach, Concerto cho đàn phím cung Rê thứ, BWV 1052, chương 1",
-  "performer": "xem trang tệp",
-  "clue": "Nhạc cụ phím độc tấu với dàn dây; chủ đề đồng âm mạnh mẽ ở đầu, chuyển động liên tục, chuỗi giai điệu, hình thức ritornello."
+  "title": "Vivaldi, Concerto \"Mùa xuân\" cung Mi trưởng, Op. 8 số 1, RV 269, chương 1 (Allegro)",
+  "performer": "John Harrison (violin), Robert Turizziani chỉ huy, Wichita State University Chamber Players",
+  "clue": "Dàn dây mở đầu đồng loạt bằng chủ đề tươi sáng, rồi violin độc tấu đối đáp xen kẽ các đoạn tutti quay lại (ritornello); chuyển động liên tục, nhiều chuỗi: concerto Baroque."
  },
  {
   "id": "t4",
@@ -389,12 +389,16 @@
  },
  {
   "id": "t8",
-  "file": "Mozart,_Minuet,_K355.wav",
-  "page": "https://commons.wikimedia.org/wiki/File:Mozart%2C_Minuet%2C_K355.wav",
+  "file": "FurElise.ogg",
+  "page": "https://commons.wikimedia.org/wiki/File:FurElise.ogg",
   "sources": [
    {
-    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Mozart%2C_Minuet%2C_K355.wav",
-    "type": "audio/wav"
+    "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7b/FurElise.ogg/FurElise.ogg.mp3",
+    "type": "audio/mpeg"
+   },
+   {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/FurElise.ogg",
+    "type": "audio/ogg"
    }
   ],
   "period": "classical",
@@ -402,9 +406,9 @@
    "classical"
   ],
   "ensemble": "solo",
-  "title": "Mozart, Minuet cung Rê trưởng, K. 355",
-  "performer": "xem trang tệp",
-  "clue": "Piano độc tấu, nhịp 3/4 của điệu minuet, câu nhạc cân đối: Cổ điển. Bẫy: bản minuet muộn này dùng rất nhiều nửa cung, nên nghe có lúc như nhạc Lãng mạn."
+  "title": "Beethoven, Bagatelle \"Für Elise\" cung La thứ, WoO 59",
+  "performer": "V. Gao (piano)",
+  "clue": "Piano độc tấu; mở đầu bằng hình nốt láy móc đơn day dứt ở La thứ, xen kẽ các đoạn tươi sáng; cấu trúc rondo nhỏ, câu nhạc cân đối: Cổ điển."
  },
  {
   "id": "t9",

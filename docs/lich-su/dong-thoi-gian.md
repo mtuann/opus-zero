@@ -26,9 +26,13 @@ Hãy để ý những điều thú vị mà dòng thời gian cho thấy: Bach v
 | ~1700 | Bartolomeo Cristofori chế tạo cây đàn piano đầu tiên ở Florence |
 | 1722 | Bach hoàn thành *Bình quân luật* quyển 1 |
 | 1742 | Handel *Messiah* công diễn lần đầu ở Dublin |
+| 1762 | Gluck *Orfeo ed Euridice* công diễn ở Vienna, mở đầu cải cách opera |
+| 1786 | Mozart *Đám cưới Figaro* công diễn ở Vienna |
 | 1808 | Beethoven Giao hưởng số 5 và số 6 công diễn trong cùng một buổi hòa nhạc ở Vienna |
 | 1824 | Beethoven Giao hưởng số 9 công diễn |
 | 1829 | Mendelssohn dàn dựng lại *Thương khó theo Thánh Matthew*, khơi dậy sự quan tâm đến Bach |
+| 1853 | Verdi *La traviata* công diễn ở Venice |
+| 1875 | Bizet *Carmen* công diễn ở Paris |
 | 1876 | Khai trương nhà hát Bayreuth của Wagner với trọn bộ *Der Ring des Nibelungen* |
 | 1877 | Edison phát minh máy hát (phonograph): âm nhạc lần đầu được ghi lại |
 | 1911 | Nhà hát Lớn Hà Nội hoàn thành |

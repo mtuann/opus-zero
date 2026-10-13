@@ -60,6 +60,8 @@ K:C
 C E G c G E | D F A d3 | B, D G B G D | C3 C3 |]
 ```
 
+**Nhịp đơn** và **nhịp kép** là hai họ nhịp. Ở nhịp đơn (2/4, 3/4, 4/4), mỗi phách **chia đôi** (một nốt đen = hai móc đơn). Ở nhịp kép (6/8, 9/8, 12/8), mỗi phách **chia ba** (một nốt đen chấm dôi = ba móc đơn). Vì thế 6/8 nghe như "2 phách lớn" chứ không phải 6 phách đều nhau.
+
 ## Bài tập
 
 1. Mở [máy đếm nhịp](../luyen-tap/metronome.md), chọn 3 phách mỗi ô nhịp, bật "Nhấn phách đầu". Vỗ tay theo ví dụ 3/4.

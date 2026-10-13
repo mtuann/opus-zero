@@ -35,7 +35,7 @@ Rê và Fa không thuộc hợp âm Đô (Đô – Mi – Sol); chúng **nối**
 **Nốt treo 4–3** (rất phổ biến): nốt Fa của hợp âm G7 được **giữ lại** khi bè trầm đã chuyển sang Đô, tạo nghịch tai, rồi **rơi xuống** Mi.
 
 ```abc
-X:1
+X:2
 T:Treo 4–3: Fa giữ lại rồi xuống Mi
 L:1/4
 M:4/4
@@ -45,6 +45,40 @@ K:C
 ```
 
 **Nốt dựa**: giai điệu nhảy tới một nốt ngoài hợp âm ở phách mạnh, rồi bước về nốt hợp âm, giống một tiếng thở dài. Đây là "chữ ký" của âm nhạc thời Cổ điển và Lãng mạn.
+
+```abc
+X:3
+T:Nốt dựa: nhảy tới Rê ở phách mạnh, rồi bước về Đô
+L:1/4
+M:4/4
+Q:1/4=60
+%%score (V1 V2)
+V:V1
+V:V2 clef=bass
+K:C
+[V:V1] G4 | d2 c2 |]
+[V:V2] [C,E,G,]4 | [C,E,G,]4 |]
+```
+
+Rê không thuộc hợp âm Đô trưởng; nó rơi vào phách 1 của ô thứ hai bằng một bước nhảy từ Sol, rồi bước xuống Đô ngay sau đó.
+
+**Nốt đón trước**: một nốt của hợp âm *sắp tới* vang lên sớm, rồi giữ nguyên khi hợp âm mới đến.
+
+```abc
+X:4
+T:Nốt đón trước: nốt Đô vang lên sớm trên nền Sol7, rồi ở lại
+L:1/4
+M:4/4
+Q:1/4=60
+%%score (V1 V2)
+V:V1
+V:V2 clef=bass
+K:C
+[V:V1] B2 c2 | c4 |]
+[V:V2] [G,,D,F,B,]4 | [C,,E,G,C]4 |]
+```
+
+Nốt Đô xuất hiện từ giữa ô đầu, khi hòa âm vẫn là Sol7 (lúc đó nó là âm ngoài hợp âm), rồi ngân dài thành nốt chủ âm khi hợp âm Đô trưởng đến.
 
 **Âm nền**: bạn đã nghe ở [Bach *Prelude cung Đô trưởng*](../nghe-nhac/bach-prelude-c.md), nơi nốt Sol giữ ở bè trầm qua nhiều ô nhịp gần cuối.
 

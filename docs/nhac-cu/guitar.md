@@ -168,7 +168,7 @@ c2 dcBA | B2 cBAG | A2 BAGF | G6 |]
 
 ### 10. Eine kleine Nachtmusik, 4 ô nhịp mở đầu
 
-*Mozart, Serenade số 13, K. 525 (1787).* Giọng Sol trưởng. Học được: Dấu lặng móc đơn, hợp âm rải đi lên, phong cách Cổ điển.
+*Mozart, Serenade số 13, K. 525 (1787).* Giọng Sol trưởng. Học được: Dấu lặng, hợp âm rải đi lên, phong cách Cổ điển.
 
 ```abc
 X:10
@@ -176,7 +176,7 @@ L:1/8
 M:4/4
 Q:1/4=88
 K:G
-G2 z D G2 z D | G D G B d2 z2 | c2 z A c2 z A | c A F A D2 z2 |]
+G2 z2 d2 z2 | G2 z2 d2 z2 | G2 d2 g2 b2 | d'4 z4 |]
 ```
 
 ## Tài nguyên

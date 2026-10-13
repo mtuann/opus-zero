@@ -35,7 +35,7 @@ Bạn đã thích một tác phẩm. Trang này gợi ý bước tiếp theo **d
 **Violin:** Mendelssohn Concerto cung Mi thứ; Bach *Chaconne*; Massenet *Méditation* (Thaïs); Sarasate *Zigeunerweisen*.
 **Cello:** Bach Tổ khúc cello số 1, *Prelude*; Saint-Saëns *Thiên nga*; Elgar Concerto cello.
 **Guitar:** Rodrigo *Concierto de Aranjuez*, chương 2; Tárrega *Recuerdos de la Alhambra*; Albéniz *Asturias*.
-**Giọng hát:** Xem [Nhập môn opera](../lich-su/opera.md) và [Schubert *Erlkönig*](schubert-erlkonig.md).
+**Giọng hát:** Xem [Nhập môn opera](../lich-su/opera.md), [Schubert *Erlkönig*](schubert-erlkonig.md), [Handel *Hallelujah*](handel-hallelujah.md) và [Puccini *Nessun dorma*](puccini-nessun-dorma.md).
 
 ## Theo thời lượng
 

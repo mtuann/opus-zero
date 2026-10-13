@@ -28,6 +28,18 @@ Các nốt trên dòng của khóa alto, từ dưới lên: **Fa – La – Đô
 
 Luyện đọc: [công cụ đọc nốt](../luyen-tap/doc-not.md), chọn "Khóa Đô (alto)" hoặc "Khóa Đô (tenor)".
 
+Nghe thử một giai điệu quen thuộc ở khóa alto — bấm phát, vừa nghe vừa đọc tên từng nốt theo vị trí trên khuông:
+
+```abc
+X:2
+T:Ode to Joy ở khóa Đô alto
+L:1/4
+M:4/4
+Q:1/4=90
+K:C clef=alto
+E E F G | G F E D | E E F G | E D D2 |]
+```
+
 ## Dịch giọng
 
 **Dịch giọng** (transposition) là chuyển toàn bộ bản nhạc lên hoặc xuống một quãng cố định, giữ nguyên giai điệu. Cách làm:

@@ -11,4 +11,4 @@ Chọn một bài, bấm **Bắt đầu**, nghe 4 tiếng đếm rồi chơi (ho
 - **Giọng nam, guitar**: chọn nhạc cụ tương ứng (bỏ qua quãng tám), vì âm thanh thật thấp hơn nốt viết.
 - **Đàn MIDI** cho kết quả chính xác nhất, kể cả về nhịp: xem [Kết nối đàn MIDI](ket-noi-midi.md).
 
-Các bài này giống [10 bài đầu tiên](../nhac-cu/piano.md) của mỗi nhạc cụ, nên bạn có thể tập trên trang nhạc cụ rồi quay lại đây để được chấm.
+Các bài trong công cụ được lấy từ mục “10 bài đầu tiên” ở các trang nhạc cụ (hiện có Twinkle, Hänschen klein, Au clair de la lune, Ode to Joy và Gam Đô trưởng đi lên), nên bạn có thể tập trên trang nhạc cụ rồi quay lại đây để được chấm.

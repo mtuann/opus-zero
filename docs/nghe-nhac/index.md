@@ -24,6 +24,7 @@ Các trang có sẵn **hướng dẫn nghe** từng bước. Mỗi trang có cô
 | [Vivaldi: Mùa xuân, chương 1](vivaldi-mua-xuan.md) | Baroque | Hình thức ritornello, âm nhạc miêu tả |
 | [Bach: Prelude cung Đô trưởng](bach-prelude-c.md) | Baroque | Nghe hòa âm, âm nền |
 | [Bach: Tổ khúc cello số 1, Prelude](bach-cello-1.md) | Baroque | Hòa âm trên một nhạc cụ một bè |
+| [Handel: "Hallelujah" (Messiah)](handel-hallelujah.md) | Baroque | Hợp xướng, fugue |
 | [Haydn: Giao hưởng số 94, chương 2](haydn-94.md) | Cổ điển | Chủ đề và biến tấu |
 | [Mozart: Giao hưởng số 40, chương 1](mozart-40.md) | Cổ điển | Hình thức sonata |
 | [Mozart: Nữ hoàng bóng đêm](mozart-nu-hoang-bong-dem.md) | Cổ điển | Opera, giọng coloratura |
@@ -38,6 +39,8 @@ Các trang có sẵn **hướng dẫn nghe** từng bước. Mỗi trang có cô
 | [Tchaikovsky: Hồ thiên nga](tchaikovsky-ho-thien-nga.md) | Lãng mạn | Nhạc ballet, âm sắc |
 | [Brahms: Giao hưởng số 4, chương 4](brahms-4.md) | Lãng mạn | Passacaglia, 30 biến tấu |
 | [Dvořák: Giao hưởng số 9, Largo](dvorak-9-largo.md) | Lãng mạn | Gam ngũ cung, cor anglais |
+| [Grieg: "Buổi sáng" (Peer Gynt)](grieg-buoi-sang.md) | Lãng mạn | Gam ngũ cung, sáo và oboe |
+| [Puccini: "Nessun dorma" (Turandot)](puccini-nessun-dorma.md) | Lãng mạn | Aria opera, giọng tenor |
 | [Debussy: Clair de lune](debussy-clair-de-lune.md) | Ấn tượng | Không khí, nhịp mơ hồ |
 | [Rachmaninoff: Concerto piano số 2](rachmaninoff-2.md) | Cuối Lãng mạn | Concerto, giai điệu lớn |
 | [Ravel: Boléro](ravel-bolero.md) | Thế kỷ 20 | Nhận biết nhạc cụ, phối khí |

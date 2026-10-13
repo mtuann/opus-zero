@@ -104,6 +104,12 @@ Các nhà soạn nhạc **tối giản** (Reich, Glass, Riley; xem [Thế kỷ 2
 
 **John Cage** và những người cùng thời để một phần âm nhạc cho **sự ngẫu nhiên** quyết định: tung đồng xu chọn nốt, hay để người chơi tự chọn thứ tự các đoạn. Tác phẩm nổi tiếng nhất của Cage, *4′33″* (1952), là 4 phút 33 giây người biểu diễn không chơi gì: "âm nhạc" là mọi âm thanh trong khán phòng.
 
+## Bài tập nhận diện
+
+1. Bấm phát hai gam ở đầu bài (toàn cung và bát cung), nhắm mắt nghe lại: gam nào nghe "lơ lửng, không có điểm tựa", gam nào nghe "căng, gai góc"? Viết câu trả lời ra trước khi xem lại tên gam.
+2. Nghe [*Le Sacre du printemps*](../nghe-nhac/stravinsky-sacre.md), đoạn *Les Augures printaniers*: bạn nghe ra hai hợp âm chồng lên nhau, hay chỉ nghe một khối âm "dày" duy nhất?
+3. Nghe [*Spiegel im Spiegel*](../nghe-nhac/part-spiegel.md) của Pärt rồi đọc lại phần "Tối giản" ở trên: điểm chung của hai phong cách là gì? (Gợi ý: sự lặp lại và biến đổi rất chậm.)
+
 ```quiz
 ? Có bao nhiêu gam toàn cung khác nhau?
 + 2

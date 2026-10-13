@@ -28,8 +28,8 @@ Tổ khúc theo trật tự quen thuộc: **Prelude** – Allemande – Courante
 |---|---|
 | … | Mở đầu: dây Sol buông ở bè trầm, các nốt rải đi lên rồi quay về, như những làn sóng; nghe ra vòng hợp âm I – IV – V – I |
 | … | Hòa âm đi xa dần, chuyển sang vùng giọng Rê trưởng (giọng át) |
-| … | Nhạc dừng lại trên một nốt Rê, như lấy hơi |
-| … | Đoạn **bariolage**: nốt Rê trên dây buông xen kẽ liên tục với những nốt bấm đi lên, tạo tiếng ngân vang như chuông |
+| … | Nhạc dừng lại trên một nốt La (âm át của giọng Rê trưởng), như lấy hơi |
+| … | Đoạn **bariolage**: nốt La trên dây buông xen kẽ liên tục với những nốt bấm đi lên, tạo tiếng ngân vang như chuông |
 | … | Giai điệu đi lên theo nửa cung, căng thẳng dần đến điểm cao nhất |
 | … | Những hợp âm cuối cùng, kết về Sol trưởng |
 

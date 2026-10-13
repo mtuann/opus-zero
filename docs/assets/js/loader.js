@@ -5,10 +5,11 @@
   const VERSION = "9";
   const me = document.currentScript || document.querySelector('script[src*="assets/js/loader.js"]');
   const BASE = me ? me.src.replace(/loader\.js.*$/, "") : "assets/js/";
-  const EXT = { abcjs: "https://cdn.jsdelivr.net/npm/abcjs@6.7.1/dist/abcjs-basic-min.js" };
+  const EXT = { abcjs: "https://cdn.jsdelivr.net/npm/abcjs@6.7.1/dist/abcjs-basic-min.js", mermaid: "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js" };
   /* [bộ chọn CSS, các script cần, theo thứ tự phụ thuộc] */
   const RULES = [
     [".abc-notation", ["abcjs", "abc"]],
+    [".mermaid", ["mermaid"]],
     [".oz-midi-status", ["midi"]],
     [".oz-note-reader", ["abcjs", "midi", "note-reader"]],
     [".oz-interval-trainer", ["viz", "interval-trainer"]],
@@ -70,6 +71,10 @@
   function scan() {
     const list = needed();
     Promise.all(list.map(load)).then(function () {
+      if (window.mermaid && document.querySelector('.mermaid:not([data-processed])')) {
+        try { window.mermaid.initialize({ startOnLoad: false }); window.mermaid.run(); }
+        catch (e) { console.error(e); }
+      }
       readyFns.forEach(function (fn) { try { fn(); } catch (e) { console.error(e); } });
     });
   }

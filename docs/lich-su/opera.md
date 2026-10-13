@@ -64,7 +64,35 @@
 
 Trong nhà hát, khán giả thường vỗ tay sau mỗi aria nổi tiếng, khác với hòa nhạc giao hưởng nơi người ta đợi đến hết tác phẩm.
 
+## Opera ở Việt Nam
+
+Opera đến Việt Nam muộn hơn châu Âu khoảng ba thế kỷ rưỡi, và đến nay vẫn là loại hình "kén" khán giả nhất trong nhạc cổ điển Việt Nam. Nhưng lịch sử của nó cũng đã hơn nửa thế kỷ.
+
+Vở opera Việt Nam đầu tiên là ***Cô Sao*** của **Đỗ Nhuận** (1922–1991), công diễn năm **1965** tại Nhà hát Lớn Hà Nội. Đỗ Nhuận viết vở này khi đang du học tại Nhạc viện Tchaikovsky (Moskva); câu chuyện kể về A Sao, cô gái người Thái bị hủ tục ruồng bỏ rồi được cách mạng giác ngộ. Vở opera kết hợp kỹ thuật hát bel canto châu Âu với chất liệu âm nhạc dân tộc Tây Bắc — công thức mà nhiều opera Việt sau này đi theo. *Cô Sao* từng thất lạc bản tổng phổ, được con trai ông là nhạc sĩ Đỗ Hồng Quân phục dựng và công diễn lại năm 2012.
+
+Một số vở opera Việt đáng chú ý khác:
+
+| Vở | Tác giả | Công diễn |
+|---|---|---|
+| *Người tạc tượng* | Đỗ Nhuận | 1971 (sáng tác 1968–1970) |
+| *Lá đỏ* | Đỗ Hồng Quân | 2016 |
+| *Công nữ Anio* | Trần Mạnh Hùng | 2023 |
+
+*Người tạc tượng* lấy bối cảnh Tây Nguyên thời kháng chiến chống Mỹ; *Lá đỏ* (kịch bản từ thơ Nguyễn Thị Hồng Ngát) viết về tinh thần kháng chiến; *Công nữ Anio* là dự án hợp tác Việt – Nhật nhân 50 năm quan hệ ngoại giao hai nước.
+
+Hai "cái nôi" của opera Việt là **Nhà hát Nhạc Vũ Kịch Việt Nam** (VNOB, Hà Nội, thành lập 1959) — nơi dàn dựng *Cô Sao* năm 1965 và đến nay vẫn là đơn vị biểu diễn opera nhiều nhất — và **Nhà hát Giao hưởng Nhạc Vũ Kịch TP.HCM** (HBSO), nơi thường xuyên dàn dựng các vở opera kinh điển thế giới như *Cây sáo thần* hay *Madama Butterfly*.
+
+Vài giọng ca opera Việt bạn có thể tìm nghe: **tenor Ninh Đức Hoàng Long** (đoạt giải nhất cuộc thi opera quốc tế Simándy József ở Hungary năm 2016 và 2018, hoạt động tại Nhà hát Opera Quốc gia Hungary), **soprano Đào Tố Loan** (giải nhất Cuộc thi Opera Đông Nam Á 2018 tại Singapore), và **soprano Hà Phạm Thăng Long** — người từng hóa thân thành A Sao trong *Cô Sao*.
+
+**Nhạc kịch kiểu Broadway** cũng đang manh nha ở Việt Nam. Tiêu biểu là *Giấc mơ Chí Phèo* của Nhà hát Ca múa nhạc Thăng Long (cảm tác từ truyện ngắn của Nam Cao, âm nhạc Dương Cầm) — vở nhạc kịch cháy vé tại Nhà hát Hồ Gươm và được vinh danh "Tinh hoa sân khấu" tại giải Tinh hoa Việt 2025. Đây là hướng đi mới: kể chuyện Việt bằng ngôn ngữ nhạc kịch quốc tế.
+
+**Nghe/xem thử:** tìm "Cô Sao opera" hoặc "Giấc mơ Chí Phèo" trên YouTube để xem trích đoạn; theo dõi lịch diễn của VNOB và HBSO nếu muốn xem opera trực tiếp.
+
 ## Nguồn
 
 - Burkholder, Grout, Palisca, *A History of Western Music*; Richard Taruskin, *The Oxford History of Western Music*.
 - Grove Music Online; Encyclopaedia Britannica. Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).
+- [TTXVN: *Người tạc tượng* — bản anh hùng ca Tây Nguyên](http://thethaovanhoa.vn/3-nhac-kich-su-thi-dau-tien-cua-viet-nam-ky-3-het-nguoi-tac-tuong-ban-anh-hung-ca-tay-nguyen-20191003063737266.htm)
+- [Học viện Âm nhạc Quốc gia VN: *Cô Sao* (1965), *Người tạc tượng* (9/1971)](https://www.vnam.edu.vn/NewsDetail.aspx?lang=&ItemID=441)
+- [ArtTimes: nhạc sĩ Đỗ Hồng Quân — *Lá đỏ* (2016), *Vầng trăng Him Lam* (2024)](https://arttimes.vn/am-nhac/nhac-si-do-hong-quan-va-opera-vang-trang-him-lam-c16a44087.html)
+- [Dân Việt: Đào Tố Loan đoạt giải nhất Singapore Lyric Opera 2018](https://danviet.vn/ca-si-dao-to-loan-gianh-giai-nhat-cuoc-thi-singapore-lyric-opera-2018-7777925420-d666596.html)

@@ -28,6 +28,9 @@ Các công cụ dưới đây chạy ngay trong trình duyệt, không cần cà
 [Giấy kẻ khuông](giay-ke-khuong.md)
 :   In giấy kẻ khuông đơn hoặc khuông kép piano để làm bài tập viết.
 
+[Phiếu bài tập in được](phieu-bai-tap.md)
+:   Tạo đề đọc nốt, tiết tấu để in ra giấy làm bài (đáp án ẩn khi in).
+
 ## Site nghe bạn
 
 [Chơi theo](choi-theo.md)
@@ -50,10 +53,16 @@ Các công cụ dưới đây chạy ngay trong trình duyệt, không cần cà
 [Nhận biết hợp âm](hop-am.md)
 :   Phân biệt hợp âm trưởng, thứ, giảm, tăng và 5 loại hợp âm bảy.
 
+[Nhận biết gam](gam.md)
+:   Nghe một gam và đoán loại: trưởng, thứ, điệu thức hay ngũ cung.
+
 ## Khám phá
 
 [Bàn phím piano](ban-phim.md)
 :   Chọn nốt gốc và loại gam hoặc hợp âm để thấy và nghe ngay trên phím đàn.
+
+[Xây gam và hợp âm](xay-hop-am.md)
+:   Tự bấm chọn từng nốt để dựng gam hoặc hợp âm theo yêu cầu, rồi kiểm tra.
 
 [Phổ âm thanh](pho-am-thanh.md)
 :   Nhìn thấy bồi âm của giọng hát, nhạc cụ, piano mẫu và âm tổng hợp.
