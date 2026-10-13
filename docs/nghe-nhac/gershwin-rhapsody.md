@@ -13,9 +13,9 @@
 
 *Rhapsody in Blue* ra đời từ một "cuộc thí nghiệm": buổi hòa nhạc *An Experiment in Modern Music* của Paul Whiteman đặt câu hỏi liệu **jazz** có thể bước vào phòng hòa nhạc cổ điển không. Gershwin — khi đó mới 25 tuổi và nổi tiếng với nhạc kịch Broadway — viết tác phẩm trong vài tuần.
 
-Ngay tiếng đầu tiên đã là huyền thoại: một nốt **clarinet vuốt lên (glissando)** dài, từ trầm vút lên cao. Chuyện kể rằng nghệ sĩ clarinet Ross Gorman đùa nghịch kéo dài tiếng vuốt trong buổi tập, Gershwin nghe thấy và giữ lại — thành mở đầu nổi tiếng nhất của nhạc Mỹ thế kỷ 20.
+Ngay tiếng đầu tiên đã là huyền thoại: một nốt **[clarinet](../nhac-cu/clarinet.md) vuốt lên (glissando)** dài, từ trầm vút lên cao. Chuyện kể rằng nghệ sĩ clarinet Ross Gorman đùa nghịch kéo dài tiếng vuốt trong buổi tập, Gershwin nghe thấy và giữ lại — thành mở đầu nổi tiếng nhất của nhạc Mỹ thế kỷ 20.
 
-Tác phẩm là một dòng chảy liền mạch (đúng nghĩa "rhapsody": phóng túng, không theo khuôn), hòa trộn giai điệu blues, tiết tấu jazz syncopation và hòa âm cổ điển. Bản phối cho dàn nhạc giao hưởng đầy đủ do Ferde Grofé thực hiện sau này là bản thường được chơi nhất.
+Tác phẩm là một dòng chảy liền mạch (đúng nghĩa "rhapsody": phóng túng, không theo khuôn), hòa trộn giai điệu blues, tiết tấu jazz syncopation và hòa âm cổ điển. Bản phối cho dàn nhạc giao hưởng đầy đủ do Ferde Grofé thực hiện năm 1926 là bản thường được chơi nhất.
 
 ## Nghe kèm bản thu
 

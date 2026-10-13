@@ -32,6 +32,6 @@ Beethoven thấy minuet quá "lịch sự" và thay nó bằng **[scherzo](scher
 
 | Tác phẩm | Điều cần tìm | Hướng dẫn |
 |---|---|---|
-| [Mozart, Eine kleine Nachtmusik, chương 3](../nghe-nhac/mozart-eine-kleine.md) | Minuet Sol trưởng – Trio Rê trưởng | Hướng dẫn nghe |
+| [Mozart, Eine kleine Nachtmusik, chương 3](../nghe-nhac/mozart-eine-kleine.md) | Minuet Sol trưởng – Trio Rê trưởng | [Hướng dẫn nghe](../nghe-nhac/mozart-eine-kleine.md) |
 | Haydn, Giao hưởng *Surprise* số 94, chương 3 | Minuet hay "scherzo đội lốt"? Nghe tốc độ | [Hướng dẫn nghe](../nghe-nhac/haydn-94.md) |
 | Mozart, Giao hưởng số 40, chương 3 | Minuet giọng Sol thứ — hiếm và u ám | [Hướng dẫn nghe](../nghe-nhac/mozart-40.md) |

@@ -18,7 +18,7 @@ Tác phẩm được đặt hàng nhân lễ khánh thành **Nhà thờ Chúa C�
 
 Nghe cuộc "đọ sức": *Marseillaise* xuất hiện ngày càng dồn dập, bị nhạc Nga lấn át dần, và cuối cùng sụp đổ trong đoạn kết hoành tráng với **tiếng đại bác thật** (trong các buổi diễn ngoài trời) và chuông nhà thờ.
 
-Tchaikovsky thực ra không mấy thích tác phẩm này — ông gọi nó ồn ào — nhưng nó trở thành một trong những bản nhạc Nga nổi tiếng nhất thế giới.
+Tchaikovsky thực ra không mấy thích tác phẩm này — ông gọi nó là ồn ào — nhưng nó trở thành một trong những bản nhạc Nga nổi tiếng nhất thế giới.
 
 ## Nghe kèm bản thu
 

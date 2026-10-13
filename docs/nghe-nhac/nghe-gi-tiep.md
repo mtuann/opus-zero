@@ -31,7 +31,7 @@ Bạn đã thích một tác phẩm. Trang này gợi ý bước tiếp theo **d
 
 ## Theo nhạc cụ
 
-**Piano:** Beethoven Sonata *Ánh trăng*; Chopin *Ballade* số 1; Liszt *Liebestraum* số 3; Rachmaninoff Prélude cung Đô♯ thứ.
+**Piano:** [Beethoven Sonata *Ánh trăng*](beethoven-moonlight.md); Chopin *Ballade* số 1; Liszt *Liebestraum* số 3; Rachmaninoff Prélude cung Đô♯ thứ.
 **Violin:** Mendelssohn Concerto cung Mi thứ; Bach *Chaconne*; Massenet *Méditation* (Thaïs); Sarasate *Zigeunerweisen*.
 **Cello:** Bach Tổ khúc cello số 1, *Prelude*; Saint-Saëns *Thiên nga*; Elgar Concerto cello.
 **Guitar:** Rodrigo *Concierto de Aranjuez*, chương 2; Tárrega *Recuerdos de la Alhambra*; Albéniz *Asturias*.

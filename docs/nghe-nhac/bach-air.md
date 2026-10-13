@@ -4,7 +4,7 @@
 |---|---|
 | Nhà soạn nhạc | Johann Sebastian Bach (1685–1750) |
 | Tên đầy đủ | Tổ khúc cho dàn nhạc số 3 cung Rê trưởng, BWV 1068 — chương 2: *Air* |
-| Sáng tác | Khoảng 1730 (Leipzig); bản thảo còn lại |
+| Sáng tác | Khoảng 1730 (Leipzig); bản thảo gốc đã thất lạc, chỉ còn các bản sao chép |
 | Thời kỳ | Baroque |
 | Thể loại | Tổ khúc cho dàn nhạc (ouverture) |
 | Độ dài chương Air | Khoảng 4–5 phút |

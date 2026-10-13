@@ -6,7 +6,7 @@ Dành cho bạn muốn **hiểu và tận hưởng** nhạc cổ điển, chưa 
 
 - [ ] Đọc [Bài 0](bai-0.md), [phương pháp nghe chủ động](../nghe-nhac/index.md) và [Đọc tên tác phẩm và bản thu](../nghe-nhac/doc-ten-tac-pham.md).
 - [ ] Nhạc lý: [bài 1](../nhac-ly/01-cao-do-ten-not.md) và [bài 4](../nhac-ly/04-nhip.md), đủ để hiểu cao độ và nhịp.
-- [ ] Nghe: [Vivaldi *Mùa xuân*](../nghe-nhac/vivaldi-mua-xuan.md), Mozart *Eine kleine Nachtmusik*, [Haydn *Surprise*](../nghe-nhac/haydn-94.md).
+- [ ] Nghe: [Vivaldi *Mùa xuân*](../nghe-nhac/vivaldi-mua-xuan.md), [Mozart *Eine kleine Nachtmusik*](../nghe-nhac/mozart-eine-kleine.md), [Haydn *Surprise*](../nghe-nhac/haydn-94.md).
 - [ ] Mỗi ngày 5 phút [nhận biết quãng](../luyen-tap/quang.md) ở bộ Khởi động.
 
 ## Tháng 2: Sáng và tối
@@ -18,7 +18,7 @@ Dành cho bạn muốn **hiểu và tận hưởng** nhạc cổ điển, chưa 
 ## Tháng 3: Dàn nhạc và màu sắc
 
 - [ ] Đọc [Dàn nhạc giao hưởng](../nhac-cu/dan-nhac.md), nghe *Peter và chó sói* và Britten *Young Person's Guide*.
-- [ ] Nghe: [Debussy *Clair de lune*](../nghe-nhac/debussy-clair-de-lune.md), Ravel *Boléro*, [Tchaikovsky *Hồ thiên nga*](../nghe-nhac/tchaikovsky-ho-thien-nga.md).
+- [ ] Nghe: [Debussy *Clair de lune*](../nghe-nhac/debussy-clair-de-lune.md), [Ravel *Boléro*](../nghe-nhac/ravel-bolero.md), [Tchaikovsky *Hồ thiên nga*](../nghe-nhac/tchaikovsky-ho-thien-nga.md).
 
 ## Tháng 4: Kiến trúc âm nhạc
 

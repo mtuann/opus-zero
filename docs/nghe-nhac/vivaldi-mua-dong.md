@@ -4,7 +4,7 @@
 |---|---|
 | Nhà soạn nhạc | Antonio Vivaldi (1678–1741) |
 | Tên đầy đủ | Concerto cung Fa thứ, Op. 8 số 4, RV 297 *L'inverno* |
-| Xuất bản | 1725, trong tập *Il cimento dell'armonia e dell'inventione* |
+| Sáng tác | 1725, xuất bản trong tập *Il cimento dell'armonia e dell'inventione* |
 | Thời kỳ | Baroque |
 | Thể loại | Concerto cho violin độc tấu, dàn dây và bè trầm liên tục |
 | Độ dài chương 1 | Khoảng 3–4 phút |
@@ -32,7 +32,7 @@ Ghi lại thời điểm (phút:giây) bạn nghe thấy từng sự kiện tron
 | … | Ritornello trở lại | |
 | … | Dàn dây chơi các nốt **staccato** ngắn, sắc, lặp lại | Răng va lập cập vì rét |
 | … | Violin độc tấu: giai điệu trượt, chông chênh | Cẩn thận bước, sợ trượt ngã |
-| … | **Trượt ngã!** Dàn nhạc ào xuống bằng chuỗi nốt rơi | Ngã sóng soài trên băng |
+| … | **Trượt ngã!** Dàn nhạc ào xuống bằng chuỗi nốt rơi | Ngã sóng xoài trên băng |
 | … | Ritornello cuối: trở lại cái rét ban đầu | Gió bấc lại nổi lên |
 
 ## Câu hỏi để nghe chủ động

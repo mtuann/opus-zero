@@ -53,7 +53,7 @@ Bấm tên nốt bạn thấy trên khuông (hoặc gõ phím ++c++ ++d++ ++e++ 
 | [Bắt đầu](bat-dau/index.md) | Bài 0, kiểm tra đầu vào, các lộ trình, tờ tóm tắt in được, hỏi đáp |
 | [Nhạc lý](nhac-ly/index.md) | 32 bài từ tên nốt đến kỹ thuật thế kỷ 20, mỗi bài có ví dụ nghe được và quiz; từ điển hơn 100 thuật ngữ |
 | [Luyện tập](luyen-tap/index.md) | Hơn 20 công cụ: đọc nốt, luyện tai, tiết tấu, thị tấu, chơi theo, hát lại, chép giai điệu, thu âm, nhật ký |
-| [Nghe & nhận diện](nghe-nhac/index.md) | 26 hướng dẫn nghe, hình thức âm nhạc, nhận diện thời kỳ và tác giả, nghe mù |
+| [Nghe & nhận diện](nghe-nhac/index.md) | 32 hướng dẫn nghe, hình thức âm nhạc, nhận diện thời kỳ và tác giả, nghe mù |
 | [Lịch sử](lich-su/index.md) | Các thời kỳ, 37 nhà soạn nhạc, opera, nhạc cổ điển và nhạc truyền thống Việt Nam |
 | [Nhạc cụ](nhac-cu/index.md) | Lộ trình piano, violin, guitar; các nhạc cụ khác; cách tập; mua đàn và chọn thầy |
 | [Thêm](tai-nguyen.md) | Tài nguyên, tài liệu tham khảo, nhật ký học, nhật ký cập nhật |

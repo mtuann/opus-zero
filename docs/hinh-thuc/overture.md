@@ -11,13 +11,13 @@ Thời Baroque có hai kiểu overture cho opera:
 
 ## Overture hòa nhạc: một chương, một câu chuyện
 
-Thế kỷ 19, các nhà soạn nhạc viết **concert overture**: một chương độc lập cho dàn nhạc, thường kể một câu chuyện hoặc vẽ một cảnh — và thường dùng [hình thức sonata](../hinh-thuc/sonata.md) thu gọn:
+Thế kỷ 19, các nhà soạn nhạc viết **concert overture**: một chương độc lập cho dàn nhạc, thường kể một câu chuyện hoặc vẽ một cảnh — và thường dùng [hình thức sonata](sonata.md) thu gọn:
 
 | Tác phẩm | Câu chuyện |
 |---|---|
 | Mendelssohn, *Hebrides* (*Động Fingal*) | Biển cả và hang động Scotland; sóng vỗ mở đầu nổi tiếng |
 | Berlioz, *Roman Carnival* | Lễ hội Rome |
-| Tchaikovsky, *1812* | Cuộc chiến Nga–Pháp năm 1812 (có đại bác thật!) |
+| Tchaikovsky, *1812* | Cuộc chiến Nga–Pháp năm 1812 (có đại bác thật — ở buổi diễn ngoài trời!) |
 | Tchaikovsky, *Romeo và Juliet* | Bi kịch Shakespeare — chủ đề tình yêu đối đầu chủ đề gươm đao |
 
 ## Đi qua một tác phẩm: Tchaikovsky, 1812 Overture

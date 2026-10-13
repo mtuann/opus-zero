@@ -11,7 +11,7 @@
 
 ## Điều cần biết trước khi nghe
 
-Biệt danh **"Ánh trăng"** không phải của Beethoven đặt. Năm 1832 — năm năm sau khi Beethoven mất — nhà phê bình Ludwig Rellstab ví chương 1 như ánh trăng trên mặt hồ Lucerne, và cái tên ở lại đến nay.
+Biệt danh **"Ánh trăng"** không phải của Beethoven đặt. Năm 1832 — 5 năm sau khi Beethoven mất (1827) — nhà phê bình Ludwig Rellstab ví chương 1 như ánh trăng trên mặt hồ Lucerne, và cái tên ở lại đến nay.
 
 Tên gốc Beethoven đặt là ***Sonata quasi una fantasia*** ("sonata gần như một fantasia"): thay vì chương 1 nhanh như thông lệ, ông mở bằng một chương **chậm** (*Adagio sostenuto*). Toàn chương là một dòng **bộ ba nốt móc** (triplet) chảy đều không ngừng ở tay phải, trên đó giai điệu cất lên từng nốt dài, thưa thớt — như lời thì thầm trên mặt nước.
 
@@ -38,7 +38,7 @@ Ghi lại thời điểm (phút:giây) bạn nghe thấy từng sự kiện tron
 
 - Dòng triplet có bao giờ dừng không? Tác dụng của việc "chảy mãi" là gì?
 - Giai điệu chính nằm ở âm vực nào so với dòng đệm? Thử hát theo giai điệu.
-- So sánh với chương 3 (*Presto agitato*, bão tố): cùng một sonata mà hai chương đối lập thế nào? (Đó chính là ý đồ của Beethoven.)
+- So sánh với chương 3 (*Presto agitato*, bão tố): cùng một sonata mà hai chương đối lập thế nào? (Có lẽ đó chính là ý đồ của Beethoven.)
 
 ## Ghi chép của bạn
 

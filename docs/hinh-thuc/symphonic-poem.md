@@ -39,13 +39,13 @@ Nghe một mạch và đánh dấu: mỗi lần cảnh đổi, âm nhạc đổi
 
 ## Phân biệt nhanh
 
-- **Overture hòa nhạc** vs **symphonic poem**: ranh giới mờ — *1812* của Tchaikovsky gọi là overture, *Moldau* gọi là symphonic poem; cả hai đều một chương và kể chuyện. Cách gọi thường do chính nhà soạn nhạc đặt.
+- **[Overture hòa nhạc](overture.md)** vs **symphonic poem**: ranh giới mờ — *1812* của Tchaikovsky gọi là overture, *Moldau* gọi là symphonic poem; cả hai đều một chương và kể chuyện. Cách gọi thường do chính nhà soạn nhạc đặt.
 - **Nhạc chương trình** (program music) là khái niệm rộng hơn, bao trùm cả hai.
 
 ## Nghe để luyện
 
-| Tác phẩm | Điều cần tìm |
-|---|---|
-| Smetana, *Moldau* | 7 cảnh sông nước (bảng trên) |
-| Liszt, *Les Préludes* | Một chủ đề biến hình qua các đoạn |
-| R. Strauss, *Till Eulenspiegel* | Hai chủ đề của Till (láu cá) |
+| Tác phẩm | Điều cần tìm | Hướng dẫn |
+|---|---|---|
+| Smetana, *Moldau* | 7 cảnh sông nước (bảng trên) | |
+| Liszt, *Les Préludes* | Một chủ đề biến hình qua các đoạn | |
+| R. Strauss, *Till Eulenspiegel* | Hai chủ đề của Till (láu cá) | |
