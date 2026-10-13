@@ -1,8 +1,12 @@
-/* Service worker: cho phép mở lại các trang đã xem và dùng công cụ luyện tập khi không có mạng. */
-const VERSION = "opus-zero-v9";
+/* Service worker: cho phép mở lại các trang đã xem và dùng công cụ luyện tập khi không có mạng.
+   Khi sửa nhiều JS/CSS, tăng V ở đây VÀ trong docs/assets/js/loader.js (hai số phải khớp nhau). */
+const V = 10;
+const VERSION = "opus-zero-v" + V;
+/* Khung ứng dụng lưu sẵn ngay từ lần thăm đầu: trang chủ, bộ tải và abcjs đi kèm trong repo */
+const PRECACHE = ["./", "assets/js/loader.js", "assets/js/vendor/abcjs-basic-min.js?v=" + V];
 
 self.addEventListener("install", (event) => {
-  event.waitUntil(caches.open(VERSION).then((c) => c.addAll(["./"])).then(() => self.skipWaiting()));
+  event.waitUntil(caches.open(VERSION).then((c) => c.addAll(PRECACHE)).then(() => self.skipWaiting()));
 });
 
 self.addEventListener("activate", (event) => {

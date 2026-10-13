@@ -6,19 +6,18 @@ import { JSDOM, ResourceLoader, VirtualConsole } from "jsdom";
 
 const SITE = path.resolve(new URL("../site", import.meta.url).pathname);
 const ORIGIN = "https://mtuann.github.io/opus-zero/";
-const ABCJS = fs.readFileSync(new URL("../node_modules/abcjs/dist/abcjs-basic-min.js", import.meta.url), "utf8");
 const AXE = fs.readFileSync(new URL("../node_modules/axe-core/axe.min.js", import.meta.url), "utf8");
 class Loader extends ResourceLoader {
   fetch(url) {
-    if (url.includes("cdn.jsdelivr.net/npm/abcjs")) return Promise.resolve(Buffer.from(ABCJS));
-    if (url.startsWith(ORIGIN) && /\/assets\/js\/[\w-]+\.js/.test(url)) return Promise.resolve(fs.readFileSync(path.join(SITE, url.slice(ORIGIN.length).split("?")[0])));
+    if (url.startsWith(ORIGIN) && /\/assets\/(js|css)\/[\w\-\/]+\.(js|css)/.test(url)) return Promise.resolve(fs.readFileSync(path.join(SITE, url.slice(ORIGIN.length).split("?")[0])));
     return Promise.resolve(Buffer.from(""));
   }
 }
 const PAGES = ["index.html", "nhac-ly/02-khuong-nhac-khoa/index.html", "nhac-ly/08-hoa-bieu/index.html", "luyen-tap/index.html", "luyen-tap/doc-not/index.html",
   "luyen-tap/ban-phim/index.html", "luyen-tap/tiet-tau/index.html", "luyen-tap/choi-theo/index.html", "luyen-tap/chep-giai-dieu/index.html", "luyen-tap/thu-am/index.html",
   "luyen-tap/nhat-ky/index.html", "nhan-dien/luyen-nghe/index.html", "nhan-dien/nghe-mu/index.html", "nghe-nhac/ravel-bolero/index.html", "nhac-ly/tu-dien/index.html",
-  "bat-dau/kiem-tra-dau-vao/index.html", "lich-su/dong-thoi-gian/index.html"];
+  "bat-dau/kiem-tra-dau-vao/index.html", "lich-su/dong-thoi-gian/index.html", "nghe-nhac/grieg-buoi-sang/index.html",
+  "nghe-nhac/handel-hallelujah/index.html", "nghe-nhac/puccini-nessun-dorma/index.html"];
 let total = 0;
 const seen = {};
 for (const rel of PAGES) {

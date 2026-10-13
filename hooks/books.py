@@ -26,11 +26,11 @@ BOOKS = [
      ["lich-su/", "lich-su/thoi-ky/trung-co/", "lich-su/thoi-ky/phuc-hung/", "lich-su/thoi-ky/baroque/", "lich-su/thoi-ky/co-dien/",
       "lich-su/thoi-ky/lang-man/", "lich-su/thoi-ky/the-ky-20/", "lich-su/duong-dai/", "lich-su/nha-soan-nhac/", "lich-su/nu-nha-soan-nhac/",
       "lich-su/opera/", "lich-su/viet-nam/", "lich-su/nhac-truyen-thong-viet-nam/"]),
-    ("huong-dan-nghe", "Hướng dẫn nghe", "Cách đọc tên tác phẩm và bản thu, cùng 23 hướng dẫn nghe từng bước, có chỗ để ghi mốc thời gian bằng tay.",
+    ("huong-dan-nghe", "Hướng dẫn nghe", "Cách đọc tên tác phẩm và bản thu, cùng 26 hướng dẫn nghe từng bước, có chỗ để ghi mốc thời gian bằng tay.",
      ["nghe-nhac/doc-ten-tac-pham/"] + ["nghe-nhac/%s/" % n for n in [
-         "vivaldi-mua-xuan", "bach-prelude-c", "bach-cello-1", "haydn-94", "mozart-40", "mozart-nu-hoang-bong-dem", "mozart-requiem",
+         "vivaldi-mua-xuan", "bach-prelude-c", "bach-cello-1", "handel-hallelujah", "haydn-94", "mozart-40", "mozart-nu-hoang-bong-dem", "mozart-requiem",
          "beethoven-5", "beethoven-op132", "schubert-erlkonig", "schubert-ca-hoi", "chopin-nocturne", "mendelssohn-violin", "bizet-habanera",
-         "tchaikovsky-ho-thien-nga", "brahms-4", "dvorak-9-largo", "debussy-clair-de-lune", "rachmaninoff-2", "ravel-bolero",
+         "tchaikovsky-ho-thien-nga", "brahms-4", "dvorak-9-largo", "grieg-buoi-sang", "puccini-nessun-dorma", "debussy-clair-de-lune", "rachmaninoff-2", "ravel-bolero",
          "stravinsky-sacre", "shostakovich-5", "part-spiegel"]]),
 ]
 LETTERS = "ABCDEFGH"
@@ -152,7 +152,7 @@ ol.plain {{ list-style: none; padding-left: 0; }}
 <p class="muted">Bản in ngày {date} · {chapters} chương · Bản trực tuyến: <a href="{site}">{site}</a></p></section>
 <nav class="toc"><h2>Mục lục</h2><ol>{toc}</ol></nav>
 {body}
-<script src="https://cdn.jsdelivr.net/npm/abcjs@6.7.1/dist/abcjs-basic-min.js"></script>
+<script src="../assets/js/vendor/abcjs-basic-min.js"></script>
 <script>
 (function () {{
   var btn = document.getElementById("print");

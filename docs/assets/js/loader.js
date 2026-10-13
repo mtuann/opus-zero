@@ -2,10 +2,11 @@
    Các script được tải song song nhưng chạy đúng thứ tự phụ thuộc (async = false). */
 (function () {
   "use strict";
-  const VERSION = "9";
+  const VERSION = "10";
   const me = document.currentScript || document.querySelector('script[src*="assets/js/loader.js"]');
   const BASE = me ? me.src.replace(/loader\.js.*$/, "") : "assets/js/";
-  const EXT = { abcjs: "https://cdn.jsdelivr.net/npm/abcjs@6.7.1/dist/abcjs-basic-min.js", mermaid: "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js" };
+  /* abcjs đi kèm trong repo (docs/assets/js/vendor/) để dùng được khi mất mạng; mermaid vẫn tải từ CDN */
+  const EXT = { abcjs: "vendor/abcjs-basic-min.js", mermaid: "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js" };
   /* [bộ chọn CSS, các script cần, theo thứ tự phụ thuộc] */
   const RULES = [
     [".abc-notation", ["abcjs", "abc"]],
@@ -53,7 +54,8 @@
     if (requested[name]) return requested[name];
     requested[name] = new Promise(function (res) {
       const s = document.createElement("script");
-      s.src = EXT[name] || (BASE + name + ".js?v=" + VERSION);
+      const ext = EXT[name];
+      s.src = ext ? (ext.indexOf("http") === 0 ? ext : BASE + ext + "?v=" + VERSION) : (BASE + name + ".js?v=" + VERSION);
       s.async = false;
       s.onload = function () { res(true); };
       s.onerror = function () { res(false); };

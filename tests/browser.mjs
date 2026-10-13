@@ -7,13 +7,11 @@ import { JSDOM, ResourceLoader, VirtualConsole } from "jsdom";
 
 const SITE = path.resolve(new URL("../site", import.meta.url).pathname);
 const ORIGIN = "https://mtuann.github.io/opus-zero/";
-const ABCJS = fs.readFileSync(new URL("../node_modules/abcjs/dist/abcjs-basic-min.js", import.meta.url), "utf8");
 if (!fs.existsSync(SITE)) { console.error("Chưa có site/: hãy chạy `mkdocs build` trước."); process.exit(1); }
 
 class Loader extends ResourceLoader {
   fetch(url) {
-    if (url.includes("cdn.jsdelivr.net/npm/abcjs")) return Promise.resolve(Buffer.from(ABCJS));
-    if (url.startsWith(ORIGIN) && /\/assets\/js\/[\w-]+\.js/.test(url)) {
+    if (url.startsWith(ORIGIN) && /\/assets\/(js|css)\/[\w\-\/]+\.(js|css)/.test(url)) {
       const rel = url.slice(ORIGIN.length).split("?")[0];
       return Promise.resolve(fs.readFileSync(path.join(SITE, rel)));
     }

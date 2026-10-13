@@ -28,7 +28,8 @@ npm test                   # chạy toàn bộ kiểm thử
 | `tests/data.mjs` | Gộp dữ liệu sao lưu: 300 cặp dữ liệu ngẫu nhiên, kiểm tra không mất dữ liệu, gộp nhiều lần không nhân đôi, thứ tự gộp không đổi kết quả |
 | `tests/unit.mjs` | Hàm thuần: tên nốt, gam, hợp âm, chấm cao độ và nhịp, kế hoạch học, sinh bài tập |
 | `tests/browser.mjs` | Mở từng trang đã build như trình duyệt thật: không lỗi JavaScript, mọi khuông nhạc và công cụ khởi tạo, không tải script thừa; thử đàn MIDI ảo, micro ảo, bàn phím |
-| `tests/a11y.mjs` | Khả năng tiếp cận (axe-core) trên 17 trang tiêu biểu |
+| `tests/a11y.mjs` | Khả năng tiếp cận (axe-core) trên 20 trang tiêu biểu |
+| `tests/site_static.py` | Kiểm tra tĩnh: khối mermaid có quy tắc tải, sách "Hướng dẫn nghe" khớp nav, VERSION của sw.js và loader.js khớp nhau |
 | `tests/search.mjs` | Tìm kiếm có dấu và không dấu ra đúng trang |
 | `tests/abc_bars.py` | Độ dài từng ô nhịp trong mọi khối ```abc và các đoạn nhạc tổng hợp |
 
@@ -119,7 +120,7 @@ tools/keysigs.mjs         Vẽ sẵn 15 hóa biểu bằng abcjs (chạy: node t
    Các lớp có sẵn: `oz-note-reader`, `oz-interval-trainer`, `oz-chord-trainer`, `oz-keysig-quiz`,
    `oz-circle`, `oz-rhythm`, `oz-sight`, `oz-piano`, `oz-piano-explorer`, `oz-metronome`, `oz-tuner`,
    `oz-flashcards`, `oz-journal`, `oz-summary`, `oz-scale-trainer`, `oz-build`, `oz-worksheet-gen`, `oz-timeline`.
-7. **Thêm bài vào sách in được:** thêm đường dẫn trang vào danh sách tương ứng trong `hooks/books.py`.
+7. **Thêm bài vào sách in được:** thêm đường dẫn trang vào danh sách tương ứng trong `hooks/books.py` (`tests/site_static.py` sẽ báo lỗi nếu thêm hướng dẫn nghe mà quên sách).
 8. **Hình minh họa:** đặt `<!-- fig:TÊN -->` vào trang, định nghĩa hình trong `tools/figures.py`, chạy `python3 tools/figures.py`. Sửa dữ liệu hình (ví dụ âm vực, cấu trúc tác phẩm) cũng chỉ cần sửa ở đó rồi chạy lại.
 9. Bài nhật ký học: tạo file trong `docs/blog/posts/` với `date:` ở phần đầu (xem bài mẫu).
 
@@ -130,7 +131,7 @@ Workflow `.github/workflows/link-check.yml` chạy mỗi thứ Hai và mở issu
 ## Ghi chú kỹ thuật
 
 - `requirements.txt` ghim `mkdocs==1.6.1`. Đừng nâng lên MkDocs 2.x: Material for MkDocs không tương thích với phiên bản đó.
-- Khi sửa nhiều JS/CSS, tăng `VERSION` trong `docs/sw.js` để người dùng ứng dụng đã cài nhận bản mới ngay.
+- Khi sửa nhiều JS/CSS, tăng `VERSION` trong `docs/sw.js` **và** `docs/assets/js/loader.js` (hai số phải khớp nhau — `tests/site_static.py` kiểm tra) để người dùng ứng dụng đã cài nhận bản mới ngay.
 - Máy lên dây cần quyền micro và chỉ chạy trên HTTPS (GitHub Pages đã có sẵn).
 - Tiến độ luyện tập lưu trong `localStorage` của trình duyệt (khóa `opus-zero:v1`), không gửi đi đâu.
-- Thư viện bên ngoài: [abcjs](https://paulrosen.github.io/abcjs/) 6.7.1 qua jsDelivr; font Literata, Be Vietnam Pro, Noto Music qua Google Fonts.
+- Thư viện bên ngoài: [abcjs](https://paulrosen.github.io/abcjs/) 6.7.1 đi kèm trong repo (`docs/assets/js/vendor/`, `docs/assets/css/vendor/`) để khuông nhạc vẫn vẽ được khi mất mạng; font Literata, Be Vietnam Pro, Noto Music qua Google Fonts.

@@ -104,7 +104,7 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 
 extra_css:
-  - https://cdn.jsdelivr.net/npm/abcjs@6.7.1/abcjs-audio.css
+  - assets/css/vendor/abcjs-audio.css
   - assets/css/opus.css
 
 extra_javascript:
