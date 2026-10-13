@@ -28,7 +28,7 @@ npm test                   # chạy toàn bộ kiểm thử
 | `tests/data.mjs` | Gộp dữ liệu sao lưu: 300 cặp dữ liệu ngẫu nhiên, kiểm tra không mất dữ liệu, gộp nhiều lần không nhân đôi, thứ tự gộp không đổi kết quả |
 | `tests/unit.mjs` | Hàm thuần: tên nốt, gam, hợp âm, chấm cao độ và nhịp, kế hoạch học, sinh bài tập |
 | `tests/browser.mjs` | Mở từng trang đã build như trình duyệt thật: không lỗi JavaScript, mọi khuông nhạc và công cụ khởi tạo, không tải script thừa; thử đàn MIDI ảo, micro ảo, bàn phím |
-| `tests/a11y.mjs` | Khả năng tiếp cận (axe-core) trên 20 trang tiêu biểu |
+| `tests/a11y.mjs` | Khả năng tiếp cận (axe-core) trên 26 trang tiêu biểu |
 | `tests/site_static.py` | Kiểm tra tĩnh: khối mermaid có quy tắc tải, sách "Hướng dẫn nghe" khớp nav, VERSION của sw.js và loader.js khớp nhau |
 | `tests/search.mjs` | Tìm kiếm có dấu và không dấu ra đúng trang |
 | `tests/abc_bars.py` | Độ dài từng ô nhịp trong mọi khối ```abc và các đoạn nhạc tổng hợp |
@@ -53,7 +53,7 @@ docs/
 ├── lich-su/              Lịch sử, dòng thời gian, nhà soạn nhạc (cả nữ), opera, Việt Nam, đương đại
 ├── hinh-thuc/            Tổng quan + 5 trang hình thức chi tiết (sonata, fugue, biến tấu, rondo, concerto)
 ├── nhac-cu/              Piano, violin, guitar (lộ trình + 10 bài đầu), cách tập, mua đàn, dàn nhạc
-├── nghe-nhac/            26 hướng dẫn nghe (có ghi mốc theo bản thu YouTube), đọc tên tác phẩm, nghe gì tiếp
+├── nghe-nhac/            32 hướng dẫn nghe (có ghi mốc theo bản thu YouTube), đọc tên tác phẩm, nghe gì tiếp
 ├── blog/posts/           Nhật ký học (blog)
 ├── tai-nguyen.md         Tài nguyên
 ├── manifest.webmanifest  Cài như ứng dụng (PWA)

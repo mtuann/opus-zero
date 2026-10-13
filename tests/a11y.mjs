@@ -17,7 +17,9 @@ const PAGES = ["index.html", "nhac-ly/02-khuong-nhac-khoa/index.html", "nhac-ly/
   "luyen-tap/ban-phim/index.html", "luyen-tap/tiet-tau/index.html", "luyen-tap/choi-theo/index.html", "luyen-tap/chep-giai-dieu/index.html", "luyen-tap/thu-am/index.html",
   "luyen-tap/nhat-ky/index.html", "nhan-dien/luyen-nghe/index.html", "nhan-dien/nghe-mu/index.html", "nghe-nhac/ravel-bolero/index.html", "nhac-ly/tu-dien/index.html",
   "bat-dau/kiem-tra-dau-vao/index.html", "lich-su/dong-thoi-gian/index.html", "nghe-nhac/grieg-buoi-sang/index.html",
-  "nghe-nhac/handel-hallelujah/index.html", "nghe-nhac/puccini-nessun-dorma/index.html"];
+  "nghe-nhac/handel-hallelujah/index.html", "nghe-nhac/puccini-nessun-dorma/index.html", "nghe-nhac/vivaldi-mua-dong/index.html",
+  "nghe-nhac/bach-air/index.html", "nghe-nhac/mozart-eine-kleine/index.html", "nghe-nhac/beethoven-moonlight/index.html",
+  "nghe-nhac/tchaikovsky-1812/index.html", "nghe-nhac/gershwin-rhapsody/index.html"];
 let total = 0;
 const seen = {};
 for (const rel of PAGES) {

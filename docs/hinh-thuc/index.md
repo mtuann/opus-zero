@@ -27,6 +27,18 @@ Mỗi hình thức chính có một trang riêng, đi qua một tác phẩm cụ
 [Concerto và ritornello](concerto.md)
 :   Một người đối thoại với cả dàn nhạc.
 
+[Minuet và Trio](minuet-trio.md)
+:   Vũ khúc 3/4: minuet – trio – minuet. Chương 3 giao hưởng thời Cổ điển.
+
+[Scherzo](scherzo.md)
+:   "Trò đùa" của Beethoven thay minuet: nhanh, bất ngờ, đầy năng lượng.
+
+[Overture](overture.md)
+:   Khúc mở màn: từ mở đầu opera đến overture hòa nhạc kể chuyện.
+
+[Symphonic poem](symphonic-poem.md)
+:   Thơ bằng âm thanh: nhạc kể chuyện một chương của Liszt, Smetana, Strauss.
+
 ## Các hình thức cơ bản
 
 Người ta dùng chữ cái để gọi các đoạn nhạc: cùng chữ là cùng chất liệu, khác chữ là chất liệu mới.

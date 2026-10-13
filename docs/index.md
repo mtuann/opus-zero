@@ -29,7 +29,7 @@ hide:
 <div class="oz-path" markdown>
 ### Tôi muốn nghe hiểu nhạc cổ điển
 
-Theo [lộ trình nghe hiểu](bat-dau/lo-trinh-nghe.md): nhạc lý vừa đủ, 26 hướng dẫn nghe từng bước, và kỹ năng [nhận diện](nhan-dien/index.md) thời kỳ, thể loại, tác giả bằng tai.
+Theo [lộ trình nghe hiểu](bat-dau/lo-trinh-nghe.md): nhạc lý vừa đủ, 32 hướng dẫn nghe từng bước, và kỹ năng [nhận diện](nhan-dien/index.md) thời kỳ, thể loại, tác giả bằng tai.
 </div>
 
 <div class="oz-path" markdown>

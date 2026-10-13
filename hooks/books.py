@@ -26,12 +26,12 @@ BOOKS = [
      ["lich-su/", "lich-su/thoi-ky/trung-co/", "lich-su/thoi-ky/phuc-hung/", "lich-su/thoi-ky/baroque/", "lich-su/thoi-ky/co-dien/",
       "lich-su/thoi-ky/lang-man/", "lich-su/thoi-ky/the-ky-20/", "lich-su/duong-dai/", "lich-su/nha-soan-nhac/", "lich-su/nu-nha-soan-nhac/",
       "lich-su/opera/", "lich-su/viet-nam/", "lich-su/nhac-truyen-thong-viet-nam/"]),
-    ("huong-dan-nghe", "Hướng dẫn nghe", "Cách đọc tên tác phẩm và bản thu, cùng 26 hướng dẫn nghe từng bước, có chỗ để ghi mốc thời gian bằng tay.",
+    ("huong-dan-nghe", "Hướng dẫn nghe", "Cách đọc tên tác phẩm và bản thu, cùng 32 hướng dẫn nghe từng bước, có chỗ để ghi mốc thời gian bằng tay.",
      ["nghe-nhac/doc-ten-tac-pham/"] + ["nghe-nhac/%s/" % n for n in [
-         "vivaldi-mua-xuan", "bach-prelude-c", "bach-cello-1", "handel-hallelujah", "haydn-94", "mozart-40", "mozart-nu-hoang-bong-dem", "mozart-requiem",
-         "beethoven-5", "beethoven-op132", "schubert-erlkonig", "schubert-ca-hoi", "chopin-nocturne", "mendelssohn-violin", "bizet-habanera",
-         "tchaikovsky-ho-thien-nga", "brahms-4", "dvorak-9-largo", "grieg-buoi-sang", "puccini-nessun-dorma", "debussy-clair-de-lune", "rachmaninoff-2", "ravel-bolero",
-         "stravinsky-sacre", "shostakovich-5", "part-spiegel"]]),
+         "vivaldi-mua-xuan", "vivaldi-mua-dong", "bach-prelude-c", "bach-cello-1", "bach-air", "handel-hallelujah", "haydn-94", "mozart-40", "mozart-nu-hoang-bong-dem", "mozart-requiem",
+         "mozart-eine-kleine", "beethoven-5", "beethoven-op132", "beethoven-moonlight", "schubert-erlkonig", "schubert-ca-hoi", "chopin-nocturne", "mendelssohn-violin", "bizet-habanera",
+         "tchaikovsky-ho-thien-nga", "tchaikovsky-1812", "brahms-4", "dvorak-9-largo", "grieg-buoi-sang", "puccini-nessun-dorma", "debussy-clair-de-lune", "rachmaninoff-2", "ravel-bolero",
+         "gershwin-rhapsody", "stravinsky-sacre", "shostakovich-5", "part-spiegel"]]),
 ]
 LETTERS = "ABCDEFGH"
 

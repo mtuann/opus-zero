@@ -222,16 +222,20 @@ nav:
           - Mẫu ghi chép: nghe-nhac/mau.md
           - Baroque:
               - "Vivaldi: Mùa xuân": nghe-nhac/vivaldi-mua-xuan.md
+              - "Vivaldi: Mùa đông": nghe-nhac/vivaldi-mua-dong.md
               - "Bach: Prelude cung Đô trưởng": nghe-nhac/bach-prelude-c.md
               - "Bach: Tổ khúc cello số 1": nghe-nhac/bach-cello-1.md
+              - "Bach: Air (Tổ khúc số 3)": nghe-nhac/bach-air.md
               - "Handel: Hallelujah (Messiah)": nghe-nhac/handel-hallelujah.md
           - Cổ điển:
               - "Haydn: Giao hưởng Surprise": nghe-nhac/haydn-94.md
               - "Mozart: Giao hưởng số 40": nghe-nhac/mozart-40.md
               - "Mozart: Nữ hoàng bóng đêm": nghe-nhac/mozart-nu-hoang-bong-dem.md
               - "Mozart: Requiem": nghe-nhac/mozart-requiem.md
+              - "Mozart: Eine kleine Nachtmusik": nghe-nhac/mozart-eine-kleine.md
               - "Beethoven: Giao hưởng số 5": nghe-nhac/beethoven-5.md
               - "Beethoven: Tứ tấu Op. 132": nghe-nhac/beethoven-op132.md
+              - "Beethoven: Sonata Ánh trăng": nghe-nhac/beethoven-moonlight.md
           - Lãng mạn:
               - "Schubert: Erlkönig": nghe-nhac/schubert-erlkonig.md
               - "Schubert: Con cá hồi": nghe-nhac/schubert-ca-hoi.md
@@ -239,6 +243,7 @@ nav:
               - "Mendelssohn: Concerto violin": nghe-nhac/mendelssohn-violin.md
               - "Bizet: Habanera": nghe-nhac/bizet-habanera.md
               - "Tchaikovsky: Hồ thiên nga": nghe-nhac/tchaikovsky-ho-thien-nga.md
+              - "Tchaikovsky: 1812 Overture": nghe-nhac/tchaikovsky-1812.md
               - "Brahms: Giao hưởng số 4": nghe-nhac/brahms-4.md
               - "Dvořák: Giao hưởng số 9, Largo": nghe-nhac/dvorak-9-largo.md
               - "Grieg: Buổi sáng (Peer Gynt)": nghe-nhac/grieg-buoi-sang.md
@@ -247,6 +252,7 @@ nav:
               - "Debussy: Clair de lune": nghe-nhac/debussy-clair-de-lune.md
               - "Rachmaninoff: Concerto piano số 2": nghe-nhac/rachmaninoff-2.md
               - "Ravel: Boléro": nghe-nhac/ravel-bolero.md
+              - "Gershwin: Rhapsody in Blue": nghe-nhac/gershwin-rhapsody.md
               - "Stravinsky: Nghi lễ mùa xuân": nghe-nhac/stravinsky-sacre.md
               - "Shostakovich: Giao hưởng số 5": nghe-nhac/shostakovich-5.md
               - "Pärt: Spiegel im Spiegel": nghe-nhac/part-spiegel.md
@@ -257,6 +263,10 @@ nav:
           - Chủ đề và biến tấu: hinh-thuc/bien-tau.md
           - Rondo: hinh-thuc/rondo.md
           - Concerto và ritornello: hinh-thuc/concerto.md
+          - Minuet và Trio: hinh-thuc/minuet-trio.md
+          - Scherzo: hinh-thuc/scherzo.md
+          - Overture: hinh-thuc/overture.md
+          - Symphonic poem: hinh-thuc/symphonic-poem.md
       - Nhận diện:
           - nhan-dien/index.md
           - So sánh các thời kỳ: nhan-dien/so-sanh-thoi-ky.md
@@ -285,6 +295,10 @@ nav:
       - Piano: nhac-cu/piano.md
       - Violin: nhac-cu/violin.md
       - Guitar cổ điển: nhac-cu/guitar.md
+      - Cello: nhac-cu/cello.md
+      - Sáo: nhac-cu/sao.md
+      - Clarinet: nhac-cu/clarinet.md
+      - Trumpet: nhac-cu/trumpet.md
       - Các nhạc cụ khác: nhac-cu/nhac-cu-khac.md
       - Cách tập hiệu quả: nhac-cu/cach-tap.md
       - Mua nhạc cụ và chọn thầy: nhac-cu/mua-dan-chon-thay.md

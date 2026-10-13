@@ -1,41 +1,9 @@
 # Các nhạc cụ khác
 
-Ngoài [piano](piano.md), [violin](violin.md) và [guitar](guitar.md), đây là năm "giọng nói" quan trọng khác của nhạc cổ điển. Mỗi nhạc cụ có phần tổng quan, danh sách nghe và lời khuyên nếu muốn học. Xem thêm vị trí của chúng trong [dàn nhạc giao hưởng](dan-nhac.md).
+Ngoài [piano](piano.md), [violin](violin.md), [guitar](guitar.md), [cello](cello.md), [sáo](sao.md), [clarinet](clarinet.md) và [trumpet](trumpet.md), đây là ba "giọng nói" quan trọng khác của nhạc cổ điển. Xem thêm vị trí của chúng trong [dàn nhạc giao hưởng](dan-nhac.md).
 
 Âm vực của các nhạc cụ trong trang này và trong dàn nhạc được so sánh ở trang [Dàn nhạc giao hưởng](dan-nhac.md#am-vuc-cac-nhac-cu).
 
-
-## Cello
-
-Cello có âm vực gần với **giọng nam**, từ trầm ấm đến cao vút, và được nhiều người coi là nhạc cụ "biểu cảm nhất". Bốn dây lên theo quãng 5: **Đô2 – Sol2 – Rê3 – La3**, thấp hơn viola đúng một quãng tám. Người chơi ngồi, đàn tựa giữa hai đầu gối, chân đàn chống xuống sàn.
-
-**Nên nghe**
-
-- [Bach, Tổ khúc cello số 1](../nghe-nhac/bach-cello-1.md) và cả 6 tổ khúc
-- Saint-Saëns, *Thiên nga* (trong *Lễ hội muông thú*)
-- Elgar, Concerto cello cung Mi thứ
-- Dvořák, Concerto cello cung Si thứ
-- Haydn, Concerto cello số 1 cung Đô trưởng
-
-**Nghệ sĩ nên tìm:** Pablo Casals, Mstislav Rostropovich, Jacqueline du Pré (bản thu Concerto Elgar nổi tiếng), Yo-Yo Ma, Sheku Kanneh-Mason.
-
-**Nếu học:** như violin, rất cần giáo viên ở giai đoạn đầu, nhất là cách cầm vĩ. Người lớn dùng đàn cỡ 4/4. Cello đọc khóa Fa, khóa Đô tenor ở âm vực cao, và đôi khi khóa Sol (xem [bài 17](../nhac-ly/17-khoa-do-dich-giong.md)).
-
-## Sáo (flute)
-
-Sáo hiện đại làm bằng kim loại (có cây bằng gỗ hoặc vàng), có hệ thống khóa do Theobald Boehm hoàn thiện giữa thế kỷ 19. Âm thanh tạo ra khi thổi luồng hơi qua lỗ thổi, gần như **không có bồi âm mạnh**, nên rất tròn và trong (xem [Âm học](../nhac-ly/am-hoc.md)). Âm vực khoảng **Đô4 đến Đô7**. **Piccolo** là sáo nhỏ, cao hơn một quãng tám.
-
-**Nên nghe**
-
-- Bach, Tổ khúc cho dàn nhạc số 2, *Badinerie*
-- Mozart, Concerto sáo số 1 cung Sol trưởng, K. 313
-- Debussy, *Syrinx* cho sáo độc tấu (1913)
-- Debussy, *Prélude à l'après-midi d'un faune* (sáo mở đầu)
-- Chaminade, Concertino cho sáo, Op. 107
-
-**Nghệ sĩ nên tìm:** Jean-Pierre Rampal, James Galway, Emmanuel Pahud.
-
-**Nếu học:** sáo tương đối dễ phát ra tiếng sau vài tuần; khó ở hơi thở dài và âm sắc đẹp. Sáo học sinh tốt không quá đắt. Đọc khóa Sol, không dịch giọng. Người đã chơi **sáo trúc** có lợi thế về hơi thở và ngón bấm cơ bản.
 
 ## Giọng hát
 
