@@ -2,22 +2,25 @@
 
 Luyện tai (ear training) là tập **nhận ra bằng tai** những gì ta học bằng mắt trong nhạc lý: quãng, hợp âm, gam, tiết tấu. Đây là kỹ năng giúp bạn "nghe ra" cấu trúc của nhạc cổ điển thay vì chỉ nghe thấy một khối âm thanh.
 
-## Thứ tự luyện gợi ý
+## Lộ trình 5 bài
 
-1. **Quãng** — khoảng cách giữa hai nốt. Dùng [công cụ nhận biết quãng](../luyen-tap/quang.md).
-2. **Hợp âm** — bắt đầu với trưởng và thứ, nhận ra màu "sáng" và "tối". Dùng [công cụ nhận biết hợp âm](../luyen-tap/hop-am.md).
-3. **Bậc trong gam** — nghe một nốt và biết nó là bậc mấy so với chủ âm.
-4. **Tiết tấu** — đọc và gõ đúng nhịp với [công cụ tiết tấu](../luyen-tap/tiet-tau.md).
-5. **Hát thị tấu** — nhìn giai điệu và hát ra tiếng với [công cụ thị tấu](../luyen-tap/thi-tau.md), rồi nghe đáp án.
-6. **Chép giai điệu** (dictation) — nghe một câu nhạc ngắn và viết lại thành nốt. Mẹo: dùng công cụ thị tấu theo chiều ngược lại — bấm "Nghe đáp án" trước khi nhìn khuông nhạc (che màn hình), viết ra giấy, rồi so sánh.
+Đi theo thứ tự — mỗi bài có lý thuyết ngắn, kỹ thuật nghe, ví dụ nghe được và bài tập:
+
+1. **[Nghe quãng](nghe-quang.md)** — khoảng cách giữa hai nốt. Nền tảng của mọi thứ: nghe được quãng thì nghe được giai điệu.
+2. **[Nghe hợp âm](nghe-hop-am.md)** — màu sắc trưởng/thứ/giảm/tăng, nghe nốt trầm để đoán thể đảo, hợp âm bảy.
+3. **[Nghe gam và điệu thức](nghe-gam.md)** — dấu hiệu nốt 3, ba dạng gam thứ, tìm "một nốt khác biệt" của điệu thức, nghe bậc trong gam.
+4. **[Nghe tiết tấu](nghe-tiet-tau.md)** — đoán nhịp qua phách mạnh, nhịp đơn/kép, gõ lại tiết tấu, syncopation.
+5. **[Nghe tiến trình hòa âm](nghe-tien-trinh.md)** — nghe bè trầm để đoán chuỗi hợp âm, 4 tiến trình kinh điển, 4 loại kết.
+
+Mỗi bài đi kèm [công cụ luyện tập](../luyen-tap/index.md) tương ứng: nhận biết quãng, hợp âm, gam, tiết tấu. Mỗi ngày 10 phút đều đặn hiệu quả hơn một buổi dài mỗi tuần.
 
 ## Site nghe bạn hát
 
-Luyện tai hiệu quả nhất khi bạn **phát ra** âm thanh, không chỉ nghe: [Hát lại](../luyen-tap/hat-lai.md) chấm cao độ giọng hát của bạn qua micro, và [Chép giai điệu](../luyen-tap/chep-giai-dieu.md) luyện biến âm thanh thành nốt nhạc.
+Luyện tai hiệu quả nhất khi bạn **phát ra** âm thanh, không chỉ nghe: [Hát lại](../luyen-tap/hat-lai.md) chấm cao độ giọng hát của bạn qua micro, [Chơi theo](../luyen-tap/choi-theo.md) luyện khớp cao độ theo thời gian thực, và [Chép giai điệu](../luyen-tap/chep-giai-dieu.md) luyện biến âm thanh thành nốt nhạc.
 
 ## Luyện tai nâng cao: nhận diện
 
-Sau quãng, hợp âm và gam, bước tiếp theo là nghe **kết**, **kết cấu** và **phong cách**: xem [Luyện nghe nhận diện](../nhan-dien/luyen-nghe.md) và [Nghe mù](../nhan-dien/nghe-mu.md).
+Sau 5 bài trên, bước tiếp theo là nghe **kết**, **kết cấu** và **phong cách**: xem [Luyện nghe nhận diện](../nhan-dien/luyen-nghe.md) và [Nghe mù](../nhan-dien/nghe-mu.md).
 
 ## Gắn quãng với giai điệu quen thuộc
 

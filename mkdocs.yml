@@ -180,7 +180,13 @@ nav:
       - Từ điển thuật ngữ: nhac-ly/tu-dien.md
   - Luyện tập:
       - luyen-tap/index.md
-      - Hướng dẫn luyện tai: luyen-tai/index.md
+      - Luyện tai:
+          - luyen-tai/index.md
+          - Nghe quãng: luyen-tai/nghe-quang.md
+          - Nghe hợp âm: luyen-tai/nghe-hop-am.md
+          - Nghe gam và điệu thức: luyen-tai/nghe-gam.md
+          - Nghe tiết tấu: luyen-tai/nghe-tiet-tau.md
+          - Nghe tiến trình hòa âm: luyen-tai/nghe-tien-trinh.md
       - Đọc nhạc:
           - Đọc nốt: luyen-tap/doc-not.md
           - Hóa biểu: luyen-tap/hoa-bieu.md
