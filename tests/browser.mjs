@@ -138,7 +138,7 @@ if (RUN_FLOWS) {
 }
 {
   /* Phản hồi trực quan: luyện quãng hiện bàn phím sau khi trả lời đúng; chép giai điệu hiện so sánh */
-  const r = await open("luyen-tap/quang/index.html");
+  const r = await open("luyen-tai/nghe-quang/index.html");
   const it = r.d.querySelector(".oz-interval-trainer");
   it.querySelector('[data-act="new"]').click();
   for (const b of it.querySelectorAll(".oz-answers button")) { b.click(); if (b.classList.contains("is-correct")) break; }
@@ -158,7 +158,7 @@ if (RUN_FLOWS) {
   r.close();
 }
 {
-  const r = await open("nhan-dien/luyen-nghe/index.html");
+  const r = await open("luyen-tai/nghe-tien-trinh/index.html");
   const ct = r.d.querySelector(".oz-cadence-trainer");
   ct.querySelector('[data-act="new"]').click();
   for (const b of ct.querySelectorAll(".oz-answers button")) { b.click(); if (b.classList.contains("is-correct")) break; }
@@ -172,8 +172,10 @@ if (RUN_FLOWS) {
   r.close();
 }
 {
+  const p = await open("luyen-tap/index.html");
+  check("kế hoạch học hiển thị", p.d.querySelectorAll(".oz-plan li").length >= 4);
+  p.close();
   const r = await open("luyen-tap/nhat-ky/index.html");
-  check("kế hoạch học hiển thị", r.d.querySelectorAll(".oz-plan li").length >= 4);
   check("bảng năng lực ghi nhận lượt đoán phong cách", /\d+%/.test(r.d.querySelector(".oz-skills").textContent));
   check("biểu đồ tiến bộ theo tuần hiển thị", r.d.querySelectorAll(".oz-trends .oz-trend svg").length >= 1, r.d.querySelector(".oz-trends").textContent.slice(0, 80));
   r.close();

@@ -130,8 +130,7 @@ nav:
       - "Bài 0: Trước khi bắt đầu": bat-dau/bai-0.md
       - Kiểm tra đầu vào: bat-dau/kiem-tra-dau-vao.md
       - Lộ trình piano năm đầu: bat-dau/lo-trinh-choi.md
-      - Lộ trình nhạc lý và nghe 12 tháng: bat-dau/lo-trinh.md
-      - Lộ trình nghe hiểu: bat-dau/lo-trinh-nghe.md
+      - Lộ trình nghe hiểu và nhạc lý: bat-dau/lo-trinh-nghe.md
       - Thói quen mỗi ngày: bat-dau/moi-ngay.md
       - Tóm tắt một tờ: bat-dau/tom-tat.md
       - Sách in được (PDF): bat-dau/sach-in.md
@@ -273,31 +272,24 @@ nav:
           - Nghe gam và điệu thức: luyen-tai/nghe-gam.md
           - Nghe tiết tấu: luyen-tai/nghe-tiet-tau.md
           - Nghe tiến trình hòa âm: luyen-tai/nghe-tien-trinh.md
-          - "Bài luyện: nhận biết quãng": luyen-tap/quang.md
-          - "Bài luyện: nhận biết hợp âm": luyen-tap/hop-am.md
-          - "Bài luyện: nhận biết gam": luyen-tap/gam.md
       - Đọc nhạc:
           - Đọc nốt: luyen-tap/doc-not.md
-          - Hóa biểu: luyen-tap/hoa-bieu.md
+          - Hóa biểu và vòng quãng năm: luyen-tap/hoa-bieu.md
           - Tiết tấu: luyen-tap/tiet-tau.md
-          - Đọc thị tấu: luyen-tap/thi-tau.md
+          - Thị tấu một bè: luyen-tap/thi-tau.md
           - Thị tấu hai tay: luyen-tap/thi-tau-hai-tay.md
-          - Phiếu bài tập in được: luyen-tap/phieu-bai-tap.md
+          - Phiếu bài tập và giấy kẻ khuông: luyen-tap/phieu-bai-tap.md
           - Chép giai điệu: luyen-tap/chep-giai-dieu.md
-          - Giấy kẻ khuông: luyen-tap/giay-ke-khuong.md
       - Site nghe bạn:
           - Chơi theo: luyen-tap/choi-theo.md
-          - Hát lại: luyen-tap/hat-lai.md
+          - Hát lại và máy lên dây: luyen-tap/hat-lai.md
           - Thu âm buổi tập: luyen-tap/thu-am.md
           - Kết nối đàn MIDI: luyen-tap/ket-noi-midi.md
       - Khám phá:
           - Bàn phím piano: luyen-tap/ban-phim.md
           - Xây gam và hợp âm: luyen-tap/xay-hop-am.md
-          - Vòng quãng năm: luyen-tap/vong-quang-nam.md
-          - Phổ âm thanh: luyen-tap/pho-am-thanh.md
       - Dụng cụ:
           - Máy đếm nhịp: luyen-tap/metronome.md
-          - Máy lên dây: luyen-tap/len-day.md
           - Nhật ký luyện tập: luyen-tap/nhat-ky.md
           - Dữ liệu của tôi: luyen-tap/du-lieu.md
   - Nghe & nhận diện:
@@ -307,7 +299,6 @@ nav:
           - Nghe gì tiếp: nghe-nhac/nghe-gi-tiep.md
           - Mẫu ghi chép: nghe-nhac/mau.md
           - Nhạc piano:
-              - "Bach: Prelude cung Đô trưởng": nghe-nhac/bach-prelude-c.md
               - "Scarlatti: Ba bản sonata": nghe-nhac/scarlatti-sonata.md
               - "Bach: Biến tấu Goldberg": nghe-nhac/bach-goldberg.md
               - "Mozart: Sonata K. 331": nghe-nhac/mozart-k331.md
@@ -315,15 +306,14 @@ nav:
               - "Beethoven: Sonata Pathétique": nghe-nhac/beethoven-pathetique.md
               - "Beethoven: Sonata Ánh trăng": nghe-nhac/beethoven-moonlight.md
               - "Schubert: Impromptu Sol♭ trưởng": nghe-nhac/schubert-impromptu.md
-              - "Chopin: Nocturne Op. 9 số 2": nghe-nhac/chopin-nocturne.md
               - "Chopin: Étude Op. 10": nghe-nhac/chopin-etude.md
               - "Schumann: Kinderszenen": nghe-nhac/schumann-kinderszenen.md
               - "Liszt: Liebestraum số 3": nghe-nhac/liszt-liebestraum.md
               - "Grieg: Concerto piano": nghe-nhac/grieg-concerto.md
               - "Mussorgsky: Những bức tranh": nghe-nhac/mussorgsky-tranh.md
               - "Brahms: Intermezzo Op. 118 số 2": nghe-nhac/brahms-intermezzo.md
-              - "Debussy: Clair de lune": nghe-nhac/debussy-clair-de-lune.md
               - "Rachmaninoff: Concerto piano số 2": nghe-nhac/rachmaninoff-2.md
+              - "Debussy: Préludes, quyển 1": nghe-nhac/debussy-preludes.md
               - "Gershwin: Rhapsody in Blue": nghe-nhac/gershwin-rhapsody.md
           - Baroque:
               - "Vivaldi: Mùa xuân": nghe-nhac/vivaldi-mua-xuan.md

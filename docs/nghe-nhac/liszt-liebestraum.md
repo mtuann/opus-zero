@@ -17,7 +17,7 @@ Franz Liszt là một trong những nghệ sĩ piano lừng lẫy nhất thế k
 
 **Đừng để cái tên đánh lừa.** Bài thơ không kể một giấc mơ ngọt ngào. Nó là một lời nhắc: hãy yêu thương khi còn có thể, vì sẽ đến lúc ta đứng bên nấm mồ mà than khóc; đừng buông lời cay nghiệt để rồi hối hận khi người kia đã ra đi. Liszt ghi tốc độ ***Poco allegro, con affetto*** (hơi nhanh, trìu mến), nhịp 6/4 với hai phách lớn mỗi ô nhịp. Nhiều bản thu chơi chậm và ủy mị hơn thế nhiều; hãy nghe xem bản bạn chọn có "trôi" như một bài hát không.
 
-**Giai điệu nằm ở giữa.** Trong [nocturne của Chopin](chopin-nocturne.md), giai điệu hát ở trên cùng. Ở đây, phần mở đầu đặt giai điệu ở **âm vực giữa**, như một giọng nam cao (tenor): bên dưới là nốt trầm, bên trên là những [hợp âm rải](../piano/hop-am-rai.md) nhẹ chia cho hai tay. Giai điệu chuyền qua lại giữa hai tay và phần lớn do **ngón cái** đảm nhận, vì ở âm vực này ngón cái hát đẹp nhất. Người chơi phải để ngón cái "hát" trong khi các ngón khác chỉ thì thầm, và thay [bàn đạp vang](../piano/ban-dap.md) theo từng hợp âm để nốt trầm ngân dài mà giai điệu không bị nhòe.
+**Giai điệu nằm ở giữa.** Trong [nocturne của Chopin](../piano/tac-pham/chopin-nocturne-op9-2.md), giai điệu hát ở trên cùng. Ở đây, phần mở đầu đặt giai điệu ở **âm vực giữa**, như một giọng nam cao (tenor): bên dưới là nốt trầm, bên trên là những [hợp âm rải](../piano/hop-am-rai.md) nhẹ chia cho hai tay. Giai điệu chuyền qua lại giữa hai tay và phần lớn do **ngón cái** đảm nhận, vì ở âm vực này ngón cái hát đẹp nhất. Người chơi phải để ngón cái "hát" trong khi các ngón khác chỉ thì thầm, và thay [bàn đạp vang](../piano/ban-dap.md) theo từng hợp âm để nốt trầm ngân dài mà giai điệu không bị nhòe.
 
 **Ba lần hát, hai cadenza.** Giai điệu xuất hiện ba lần, mỗi lần một cách "phối" khác, ngăn cách bởi hai **cadenza**: những chuỗi nốt nhỏ không có vạch nhịp, cho người chơi tự do co giãn. Sau cadenza thứ nhất, giai điệu trở lại ở **Si trưởng**, một giọng khá xa La♭ trưởng nên màu sắc đổi hẳn, với chỉ dẫn *più animato con passione* (sôi nổi hơn, say mê). Rồi nhạc dồn dập (*sempre stringendo*), chuyển giọng liên tục để lên **cao trào**: giai điệu vang bằng quãng tám rồi tan thành hợp âm rải. Cadenza thứ hai, với những chuỗi quãng ba gãy đi xuống, đưa nhạc về La♭ trưởng cho lần hát cuối, lặng lẽ như một lời từ biệt.
 
@@ -66,9 +66,7 @@ Cách chọn và so sánh bản thu: xem [Nghệ sĩ piano và bản thu](../pia
 
 ## Nếu bạn muốn chơi
 
-Liebestraum số 3 thuộc trình độ **nâng cao** (khoảng Grade 8 trở lên, ước lượng). Cái khó không nằm ở tốc độ mà ở **sự cân bằng**: ngón cái hát giai điệu trong khi các ngón khác rải hợp âm thật nhẹ, giai điệu chuyền tay mà không đứt, bàn đạp thay theo hòa âm. Hai cadenza và đoạn cao trào, với quãng tám và bước nhảy xa ở cả hai tay, đòi hỏi kỹ thuật vững. Cách tập từng phần có ở [bài học tác phẩm Liebestraum số 3](../piano/tac-pham/liszt-liebestraum.md).
-
-Một con đường hợp lý: [Nocturne Op. 9 số 2 của Chopin](../piano/tac-pham/chopin-nocturne-op9-2.md) để học hát trên nền hợp âm rải; *Consolation* số 3 cung Rê♭ trưởng (S. 172) của chính Liszt, nhẹ nhàng hơn nhiều, để làm quen với cách viết của ông; song song luyện hợp âm rải chia giữa hai tay và cách [làm nổi giai điệu](../piano/tieng-dan.md). Khi tập cadenza, hãy chia nốt thành nhóm, kẻ vạch nhịp tạm bằng bút chì và tập chậm như một đoạn có nhịp hẳn hoi. Xem thêm [Tác phẩm theo cấp độ](../piano/tac-pham-theo-cap.md).
+Liebestraum số 3 thuộc chặng 7 (≈ sau Grade 8). Cái khó không nằm ở tốc độ mà ở **sự cân bằng**: ngón cái hát giai điệu trong khi các ngón khác rải hợp âm thật nhẹ, rồi hai cadenza và đoạn cao trào với quãng tám ở cả hai tay. Lộ trình chuẩn bị và cách tập từng phần có ở [bài học tác phẩm Liebestraum số 3](../piano/tac-pham/liszt-liebestraum.md).
 
 ## Ghi chép của bạn
 

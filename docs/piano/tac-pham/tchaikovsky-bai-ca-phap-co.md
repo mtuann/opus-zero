@@ -29,9 +29,7 @@ Một giai điệu Sol thứ hát chậm rãi trên nốt Sol trầm ngân dài,
 
 ## Bối cảnh
 
-Mùa xuân năm 1878, Tchaikovsky trở về **Kamenka** ở Ukraina, nơi gia đình em gái ông, Aleksandra Davydova, sinh sống. Ông viết rằng sẽ bắt tay vào "tập tiểu phẩm cho trẻ em" khi về đến đó, và ngày 4/16 tháng 5 (ngày theo lịch Nga cũ / lịch hiện hành) phác thảo của cả 24 bài đã xong. Bản chép sạch xong vào khoảng cuối tháng 7; nhà xuất bản **Pyotr Jurgenson** in tập nhạc ở Moskva vào tháng 10 năm 1878. Tập được tặng cậu cháu Volodya Davydov, con trai của Aleksandra, người về sau cũng được Tchaikovsky đề tặng Giao hưởng số 6 *Pathétique*.
-
-Phụ đề "24 bài đơn giản (à la Schumann)" nói thẳng hình mẫu: [*Album für die Jugend*](schumann-album.md) của Schumann. Như Schumann, Tchaikovsky vẽ thế giới của một đứa trẻ bằng những bài rất ngắn. Bản in mở đầu bằng *Cầu nguyện buổi sáng* và khép lại bằng *Trong nhà thờ*; ở giữa là trò chơi, những con búp bê, các điệu nhảy, bài hát Nga, chuyện kể của bà vú, mụ phù thủy Baba Yaga, và một nhóm "bài hát nước ngoài": Bài ca Ý (số 15), Bài ca Pháp cổ (số 16), Bài ca Đức (số 17), Bài ca Napoli (số 18).
+Bài này nằm trong *Album for the Young* Op. 39 (1878), tập 24 bài đơn giản "à la Schumann" mà câu chuyện đầy đủ được kể ở bài [Cầu nguyện buổi sáng](tchaikovsky-cau-nguyen-buoi-sang.md), bài số 1 của tập. Giữa tập có một nhóm "bài hát nước ngoài": Bài ca Ý (số 15), Bài ca Pháp cổ (số 16), Bài ca Đức (số 17), Bài ca Napoli (số 18).
 
 Tựa tiếng Nga *Старинная французская песенка* nghĩa là "bài hát Pháp xưa"; chữ *песенка* là dạng thân mật của "bài hát", như "bài hát nhỏ". Tchaikovsky còn dùng lại chủ đề này trong bài hát của những người hát rong (minstrel) ở hồi II vở opera *Орлеанская дева* (Trinh nữ xứ Orléans), viết không lâu sau đó.
 
@@ -49,7 +47,7 @@ Nghe hai, ba bản thu, rồi nếu có thể, nghe trọn nhóm bốn "bài há
 
 Nếu tò mò, nghe thêm bài hát của những người hát rong ở hồi II vở *Trinh nữ xứ Orléans*: cùng một chủ đề, trong một khung cảnh khác hẳn.
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Luis Kolodin&quot;,&quot;lic&quot;:&quot;CC BY-SA 4.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;,&quot;page&quot;:&quot;https://imslp.org/wiki/File:PMLP19418-Y2mate.mx_-_Luis_Kolodin_plays_Tchaikovsky&#x27;s_Old_French_Song_(128_kbps).mp3&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;../../../assets/audio/tchaikovsky-bai-ca-phap-co.mp3&quot;,&quot;d&quot;:70.14}],&quot;ref&quot;:[1,18,33,41,45,49]}"></div>
 
 ## Theo dõi khi nghe
 

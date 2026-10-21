@@ -36,6 +36,7 @@ Những nguồn chính được dùng để viết và kiểm tra nội dung sit
 
 - Mẫu âm piano: **Salamander Grand Piano V3** của **Alexander Holm** (đàn Yamaha C5), giấy phép [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/); bản MP3 lấy từ dự án [Tone.js audio](https://github.com/Tonejs/audio); bản gốc: [archive.org](https://archive.org/details/SalamanderGrandPianoV3).
 - Bản thu trong [Nghe mù](nhan-dien/nghe-mu.md): Wikimedia Commons, giấy phép ghi ở từng trang tệp.
+- Bản thu gợi ý trong các [bài học tác phẩm](piano/tac-pham/index.md) và [hướng dẫn nghe](nghe-nhac/index.md): từ [Wikimedia Commons](https://commons.wikimedia.org/) và [IMSLP](https://imslp.org/), giấy phép Creative Commons hoặc phạm vi công cộng; tên người chơi, giấy phép và link nguồn ghi ngay dưới khung nghe. Mười ba bản thu từ IMSLP, dùng cho mười bài học, được lưu trên site (chuyển mã MP3, cắt bớt khoảng lặng ở đầu và cuối); danh sách đầy đủ ở [tệp nguồn âm thanh](assets/audio/NGUON.txt).
 
 ## Về độ chính xác
 

@@ -48,7 +48,7 @@ Nghe vài bản thu (bài này được thu rất nhiều, cả bởi nghệ sĩ
 
 Rồi nghe vài bài khác trong Op. 100 để thấy cả tập là một bộ sưu tập tính cách (xem phần Học tiếp).
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Luis Kolodin&quot;,&quot;lic&quot;:&quot;CC BY-SA 4.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;,&quot;page&quot;:&quot;https://imslp.org/wiki/File:PMLP7983-Y2mate.mx_-_Luis_Kolodin_plays_Burgmuller&#x27;s_Arabesque_(128_kbps).mp3&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;../../../assets/audio/burgmuller-arabesque.mp3&quot;,&quot;d&quot;:65.46}],&quot;ref&quot;:[1,3,12,21,29,37,46,55]}"></div>
 
 ## Theo dõi khi nghe
 

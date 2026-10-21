@@ -53,7 +53,7 @@ Nghe trọn phần một của album (số 1–18) một lần, như nghe một 
 
 Mỗi nghệ sĩ chọn tốc độ rất khác nhau cho *Wilder Reiter* và *Fröhlicher Landmann*: hãy so sánh hai bản thu và tự hỏi bản nào vẫn nghe rõ từng nốt. Sau đó đọc [hướng dẫn nghe Kinderszenen](../../nghe-nhac/schumann-kinderszenen.md) để thấy Schumann viết về tuổi thơ cho người lớn như thế nào.
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Mississippi College Piano Pedagogy&quot;,&quot;note&quot;:&quot;Wilder Reiter chơi đoạn A một lần&quot;,&quot;lic&quot;:&quot;CC BY-SA 4.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;,&quot;page&quot;:&quot;https://imslp.org/wiki/Album_f%C3%BCr_die_Jugend,_Op.68_(Schumann,_Robert)&quot;,&quot;parts&quot;:[{&quot;t&quot;:&quot;Số 1. Melodie&quot;,&quot;mp3&quot;:&quot;../../../assets/audio/schumann-album-1.mp3&quot;,&quot;d&quot;:66.64},{&quot;t&quot;:&quot;Số 8. Wilder Reiter&quot;,&quot;mp3&quot;:&quot;../../../assets/audio/schumann-album-8.mp3&quot;,&quot;d&quot;:29.81},{&quot;t&quot;:&quot;Số 10. Fröhlicher Landmann&quot;,&quot;mp3&quot;:&quot;../../../assets/audio/schumann-album-10.mp3&quot;,&quot;d&quot;:41.69}],&quot;ref&quot;:[0,22,33,44,67,76,85,97,113,125]}"></div>
 
 ## Theo dõi khi nghe
 

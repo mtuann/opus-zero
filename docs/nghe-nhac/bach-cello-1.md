@@ -14,7 +14,7 @@
 
 Bản viết tay của Bach đã mất; sáu tổ khúc cho cello còn lại chủ yếu qua bản chép tay của vợ ông, Anna Magdalena. Suốt thế kỷ 19, chúng bị coi là bài tập kỹ thuật. Năm 1890, cậu bé 13 tuổi **Pablo Casals** tình cờ tìm thấy một ấn bản ở một cửa hàng ở Barcelona, tập chúng hơn chục năm trước khi biểu diễn công khai, rồi thu âm trọn bộ cuối những năm 1930. Từ đó chúng trở thành "kinh thánh" của cây cello.
 
-Thử thách của Bach: viết **hòa âm** cho một nhạc cụ chủ yếu chỉ chơi được **một nốt mỗi lúc**. Lời giải là **hợp âm rải**: các nốt của hợp âm vang lên lần lượt, tai người nghe tự ghép chúng lại. Giống [Prelude cung Đô trưởng](bach-prelude-c.md) cho đàn phím, nhưng trên một dây đàn.
+Thử thách của Bach: viết **hòa âm** cho một nhạc cụ chủ yếu chỉ chơi được **một nốt mỗi lúc**. Lời giải là **hợp âm rải**: các nốt của hợp âm vang lên lần lượt, tai người nghe tự ghép chúng lại. Giống [Prelude cung Đô trưởng](../piano/tac-pham/bach-prelude-do.md) cho đàn phím, nhưng trên một dây đàn.
 
 Tổ khúc theo trật tự quen thuộc: **Prelude** – Allemande – Courante – Sarabande – **Menuet I và II** – Gigue.
 

@@ -46,12 +46,13 @@ Với nhiều nhà soạn nhạc, số opus không đầy đủ hoặc không đ
 | **S.** | Liszt | Humphrey Searle | *Liebestraum* số 3, S. 541 |
 | **B.** | Dvořák | Jarmil Burghauser | |
 | **L.** hoặc **K.** | Domenico Scarlatti | Longo; về sau Ralph Kirkpatrick | 555 sonata cho harpsichord |
+| **Sz.** hoặc **BB** | Bartók | András Szőllősy; về sau László Somfai (BB) | *Vũ khúc dân gian Romania* Sz. 56 |
 
 Mẹo: số **K.** càng lớn thì tác phẩm Mozart càng muộn. K. 1 là tác phẩm thời thơ ấu; K. 626 (*Requiem*) là tác phẩm cuối cùng, dang dở.
 
 ## Những cái bẫy thường gặp
 
-**Biệt danh không phải của tác giả.** Tên *"Ánh trăng"* của Sonata piano Op. 27 số 2 do nhà phê bình Ludwig Rellstab đặt sau khi Beethoven mất. *"Định mệnh"* của Giao hưởng số 5 cũng không phải tên Beethoven đặt. Biệt danh giúp dễ nhớ, nhưng đừng coi đó là ý đồ của nhà soạn nhạc.
+**Biệt danh không phải của tác giả.** Tên *"Ánh trăng"* của Sonata piano Op. 27 số 2 bắt nguồn từ hình ảnh mà nhà phê bình Ludwig Rellstab dùng để tả chương 1; cái tên chỉ trở nên phổ biến sau khi Beethoven mất. *"Định mệnh"* của Giao hưởng số 5 cũng không phải tên Beethoven đặt. Biệt danh giúp dễ nhớ, nhưng đừng coi đó là ý đồ của nhà soạn nhạc.
 
 **Số thứ tự đã thay đổi.** Giao hưởng *Từ Thế giới mới* của Dvořák ngày nay là số 9, nhưng trong các ấn bản cũ từng được đánh số 5. Giao hưởng *"Lớn"* cung Đô trưởng của Schubert có lúc được gọi là số 7, số 8 hoặc số 9. Khi thấy số lạ, hãy tra số hiệu danh mục.
 
@@ -63,7 +64,7 @@ Mẹo: số **K.** càng lớn thì tác phẩm Mozart càng muộn. K. 1 là t�
 
 Một dòng thông tin bản thu điển hình:
 
-> Beethoven: Symphony No. 5 · Wiener Philharmoniker · Carlos Kleiber · Deutsche Grammophon · 1975
+> Beethoven: Symphony No. 5 · Wiener Philharmoniker · Carlos Kleiber · Deutsche Grammophon · 1974
 
 | Thông tin | Ví dụ | Vì sao quan trọng |
 |---|---|---|
@@ -71,7 +72,7 @@ Một dòng thông tin bản thu điển hình:
 | Dàn nhạc / nhóm nhạc | Wiener Philharmoniker | Mỗi dàn nhạc có âm sắc riêng |
 | Nhạc trưởng | Carlos Kleiber | Người quyết định tốc độ, cân bằng, tính cách của bản giao hưởng |
 | Hãng đĩa | Deutsche Grammophon | Một số hãng nổi tiếng: Deutsche Grammophon, Decca, Sony Classical, Warner Classics, Harmonia Mundi, Hyperion, BIS, ECM New Series |
-| Năm thu | 1975 | Bản thu trước khoảng 1955 thường là mono; bản cũ có thể nghe rè nhưng có giá trị lịch sử |
+| Năm thu | 1974 (phát hành năm 1975) | Bản thu trước khoảng 1955 thường là mono; bản cũ có thể nghe rè nhưng có giá trị lịch sử |
 | Thu trực tiếp / phòng thu | *live* | Bản live có không khí và đôi khi tiếng khán giả |
 | Remaster | *remastered 2020* | Bản thu cũ được xử lý lại âm thanh |
 
@@ -85,7 +86,7 @@ Không bên nào "đúng" hơn. Hãy nghe cùng một tác phẩm Bach hoặc Vi
 
 - **Building a Library** trong chương trình *Record Review* của BBC Radio 3 (nghe trên BBC Sounds hoặc [dạng podcast](https://podcasts.apple.com/podcast/id273489899)): mỗi tuần một chuyên gia so sánh nhiều bản thu của một tác phẩm và chọn bản nên có. Đây là nguồn tham khảo tốt nhất cho người mới.
 - **[Gramophone](https://www.gramophone.co.uk/)**: tạp chí và giải thưởng *Gramophone Awards* hằng năm.
-- **Ghi chú trên trang hướng dẫn nghe** của site này luôn có một bản thu gợi ý.
+- **Ghi chú trên trang hướng dẫn nghe** của site này: nhiều trang có gợi ý bản thu hoặc phần so sánh bản thu, và nhiều trang có sẵn một bản thu mở trong công cụ nghe.
 - **Thử nhiều bản**: nghe 1–2 phút đầu của 3–4 bản thu khác nhau, chọn bản làm bạn muốn nghe tiếp. Đó cũng là một bài luyện tai rất tốt.
 
 ## Tự kiểm tra
@@ -103,9 +104,9 @@ Không bên nào "đúng" hơn. Hãy nghe cùng một tác phẩm Bach hoặc Vi
 > Bach-Werke-Verzeichnis, do Wolfgang Schmieder lập.
 ? Biệt danh "Ánh trăng" của sonata Op. 27 số 2 do ai đặt?
 - Beethoven
-+ Một nhà phê bình, sau khi Beethoven mất
++ Một nhà phê bình, không phải Beethoven
 - Nhà xuất bản của Beethoven
-> Ludwig Rellstab đặt biệt danh này.
+> Hình ảnh ánh trăng là của nhà phê bình Ludwig Rellstab; cái tên chỉ phổ biến sau khi Beethoven mất.
 ? "Op. posth." nghĩa là gì?
 + Xuất bản sau khi nhà soạn nhạc mất
 - Tác phẩm cuối cùng

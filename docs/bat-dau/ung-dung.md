@@ -27,4 +27,4 @@ Bấm biểu tượng cài đặt ở cuối thanh địa chỉ, hoặc vào men
 
 ## Dữ liệu luyện tập
 
-Ứng dụng cài từ site dùng chung dữ liệu với trình duyệt đã cài nó. Điện thoại và máy tính có dữ liệu riêng; dùng nút **Tải bản sao lưu** và **Khôi phục** trong [nhật ký luyện tập](../luyen-tap/nhat-ky.md) để chuyển giữa các thiết bị.
+Ứng dụng cài từ site dùng chung dữ liệu với trình duyệt đã cài nó. Điện thoại và máy tính có dữ liệu riêng; dùng nút **Tải file sao lưu** và **Gộp vào máy này** ở trang [Dữ liệu của tôi](../luyen-tap/du-lieu.md) để chuyển giữa các thiết bị (gộp không bao giờ ghi đè dữ liệu đang có).

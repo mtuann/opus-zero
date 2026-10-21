@@ -1,35 +1,35 @@
 # Các thể loại nhạc piano
 
-Tên một bản nhạc piano thường đã nói trước cho bạn nhiều điều: một *nocturne* sẽ trữ tình và chậm rãi, một *étude* đặt ra một bài toán kỹ thuật, một *mazurka* có nhịp ba với phách nhấn lệch. Trang này là bản đồ các thể loại chính, mỗi thể loại kèm vài bản để **nghe thử** và, khi có thể, một bản dễ hơn để **chơi thử**.
+Tên một bản nhạc piano thường đã nói trước cho bạn nhiều điều: một *nocturne* sẽ trữ tình và chậm rãi, một *étude* đặt ra một bài toán kỹ thuật, một *mazurka* có nhịp ba với phách nhấn lệch. Trang này là bản đồ các thể loại chính, mỗi thể loại kèm vài bản để **nghe thử** và, khi có thể, một bản dễ hơn để **chơi thử**. Muốn biết nên bắt đầu với nhà soạn nhạc nào, xem [Nhà soạn nhạc cho piano](nha-soan-nhac.md); muốn chọn bản thu để nghe, xem [Nghệ sĩ piano và bản thu](nghe-si.md).
 
 !!! tip "Đọc mức độ thế nào"
-    "Sơ cấp", "trung cấp", "nâng cao" ở đây chỉ là ước lượng. Danh sách chi tiết theo từng cấp nằm ở [Tác phẩm theo cấp độ](tac-pham-theo-cap.md); các bản có bài học riêng được dẫn link tới [Bài học tác phẩm](tac-pham/index.md).
+    Mức độ ở cột "Chơi thử" theo thang bảy chặng của site, từ chặng 1 (khởi đầu) đến chặng 7 (sau Grade 8); xem [Grade nghĩa là gì trên site này](thay-va-thi.md#thi-cap). Danh sách chi tiết theo từng chặng nằm ở [Tác phẩm theo cấp độ](tac-pham-theo-cap.md); các bản có bài học riêng được dẫn link tới [Bài học tác phẩm](tac-pham/index.md).
 
 ## Bảng tóm tắt
 
 | Thể loại | Thời kỳ | Đặc điểm | Nghe thử | Chơi thử |
 |---|---|---|---|---|
-| Tổ khúc (*suite*) | Baroque | Chuỗi điệu nhảy cùng giọng | Bach, *French Suite* số 5 BWV 816 | [Minuet Sol trưởng](tac-pham/minuet-sol.md) (sơ cấp) |
-| Prelude và fugue | Baroque và sau đó | Một phần tự do, một phần phức điệu | Bach, *Bình quân luật* | [Bach, Prelude Đô trưởng](tac-pham/bach-prelude-do.md) (trung cấp) |
-| Invention | Baroque | Hai bè đối đáp quanh một môtip | Bach, Invention số 1 và số 8 | [Invention số 1](tac-pham/bach-invention-1.md) (trung cấp) |
-| Biến tấu | Mọi thời kỳ | Một chủ đề, nhiều lần biến đổi | Bach, *Goldberg*; Beethoven, *Diabelli* | Beethoven, 6 biến tấu trên một bài ca Thụy Sĩ WoO 64 (sơ cấp) |
-| Sonata một chương | Baroque | Hai phần, mỗi phần nhắc lại | Scarlatti, K. 141, K. 380 | Scarlatti, K. 32 (sơ–trung cấp) |
-| Sonata, sonatina | Cổ điển trở đi | Nhiều chương, chương đầu thường ở hình thức sonata | Mozart, K. 331; Beethoven, *Pathétique* | [Clementi, Sonatina Op. 36 số 1](tac-pham/clementi-sonatina.md) (sơ cấp) |
-| Rondo | Cổ điển trở đi | Đoạn chính quay lại xen các đoạn khác | Mozart, Rondo La thứ K. 511 | [Für Elise](tac-pham/fur-elise.md) (trung cấp) |
-| Fantasia | Cổ điển, Lãng mạn | Tự do như đang ứng tác | Mozart, Fantasia Rê thứ K. 397; Chopin, *Fantaisie* Op. 49 | Mozart, K. 397 (trung cấp) |
-| Bagatelle, impromptu, moment musical | Lãng mạn | Bản ngắn, một tâm trạng | Beethoven, Op. 126; Schubert, D. 899 | Schubert, Moment musical số 3 (trung cấp) |
-| Nocturne | Lãng mạn | Giai điệu hát trên bè đệm rải rộng | Chopin, Op. 9 số 2 | Chopin, Nocturne Đô♯ thứ (di cảo) (trung cấp) |
-| Étude | Lãng mạn trở đi | Một bài toán kỹ thuật thành tác phẩm | Chopin, Op. 10 và Op. 25 | [Burgmüller, Arabesque](tac-pham/burgmuller-arabesque.md) (sơ cấp) |
-| Prelude (độc lập) | Lãng mạn trở đi | Ngắn, chỉ một ý | Chopin, Op. 28; Debussy, *Préludes* | [Chopin, Prélude Mi thứ](tac-pham/chopin-prelude-mi-thu.md) (trung cấp) |
-| Mazurka, polonaise, valse | Lãng mạn | Điệu nhảy nhịp ba | Chopin | [Chopin, Valse La thứ](tac-pham/chopin-valse-la-thu.md) (sơ–trung cấp) |
-| Ballade, scherzo | Lãng mạn | Lớn, kịch tính, như kể chuyện | Chopin, Ballade số 1 | [Ballade số 1](tac-pham/chopin-ballade-1.md) (nâng cao) |
-| Bài hát không lời | Lãng mạn | Giai điệu như ca khúc | Mendelssohn, *Lieder ohne Worte* | [Mendelssohn, Op. 19 số 6](tac-pham/mendelssohn-thuyen-ca.md) (trung cấp) |
-| Chu trình tiểu phẩm | Lãng mạn | Nhiều bản ngắn thành một chuỗi | Schumann, *Kinderszenen*, *Carnaval* | [Schumann, *Album für die Jugend*](tac-pham/schumann-album.md) (sơ cấp) |
-| Intermezzo | Cuối Lãng mạn | Ngắn, trầm tư, nội tâm | Brahms, Op. 117, Op. 118 | Brahms, Valse Op. 39 số 15, bản dễ (trung cấp) |
-| Tiểu phẩm trữ tình | Lãng mạn | Bức tranh nhỏ có tên gợi hình | Grieg, *Lyric Pieces* | Grieg, *Arietta* Op. 12 số 1 (sơ–trung cấp) |
-| Prelude, tổ khúc thế kỷ 20 | Thế kỷ 20 | Màu sắc và hòa âm mới | Debussy, *Estampes*; Ravel, *Gaspard de la nuit* | Debussy, *The Little Shepherd* (trung cấp) |
-| Toccata | Baroque đến thế kỷ 20 | Ngón nhanh, phô diễn | Bach, BWV 911; Prokofiev, Op. 11 | Kabalevsky, *Toccatina* Op. 27 số 12 (sơ cấp) |
-| Bốn tay, hai đàn | Mọi thời kỳ | Hai người cùng chơi | Schubert, Fantasia Fa thứ D. 940 | Diabelli, Op. 149 (sơ cấp) |
+| Tổ khúc (*suite*) | Baroque | Chuỗi điệu nhảy cùng giọng | Bach, *French Suite* số 5 BWV 816 | [Minuet Sol trưởng](tac-pham/minuet-sol.md) (chặng 2) |
+| Prelude và fugue | Baroque và sau đó | Một phần tự do, một phần phức điệu | Bach, *Bình quân luật* | [Bach, Prelude Đô trưởng](tac-pham/bach-prelude-do.md) (chặng 4) |
+| Invention | Baroque | Hai bè đối đáp quanh một môtip | Bach, Invention số 1 và số 8 | [Invention số 1](tac-pham/bach-invention-1.md) (chặng 5) |
+| Biến tấu | Mọi thời kỳ | Một chủ đề, nhiều lần biến đổi | Bach, *Goldberg*; Beethoven, *Diabelli* | Beethoven, 6 biến tấu trên một bài ca Thụy Sĩ WoO 64 (chặng 2–3) |
+| Sonata một chương | Baroque | Hai phần, mỗi phần nhắc lại | Scarlatti, K. 141, K. 380 | Scarlatti, K. 32 (chặng 4) |
+| Sonata, sonatina | Cổ điển trở đi | Nhiều chương, chương đầu thường ở hình thức sonata | Mozart, K. 331; Beethoven, *Pathétique* | [Clementi, Sonatina Op. 36 số 1](tac-pham/clementi-sonatina.md) (chặng 3) |
+| Rondo | Cổ điển trở đi | Đoạn chính quay lại xen các đoạn khác | Mozart, Rondo La thứ K. 511 | [Für Elise](tac-pham/fur-elise.md) (chặng 4) |
+| Fantasia | Cổ điển, Lãng mạn | Tự do như đang ứng tác | Mozart, Fantasia Rê thứ K. 397; Chopin, *Fantaisie* Op. 49 | Mozart, K. 397 (chặng 6) |
+| Bagatelle, impromptu, moment musical | Lãng mạn | Bản ngắn, một tâm trạng | Beethoven, Op. 126; Schubert, D. 899 | Schubert, Moment musical số 3 (chặng 4) |
+| Nocturne | Lãng mạn | Giai điệu hát trên bè đệm rải rộng | Chopin, Op. 9 số 2 | Chopin, Nocturne Đô♯ thứ (di cảo) (chặng 5) |
+| Étude | Lãng mạn trở đi | Một bài toán kỹ thuật thành tác phẩm | Chopin, Op. 10 và Op. 25 | [Burgmüller, Arabesque](tac-pham/burgmuller-arabesque.md) (chặng 3) |
+| Prelude (độc lập) | Lãng mạn trở đi | Ngắn, chỉ một ý | Chopin, Op. 28; Debussy, [*Préludes*](../nghe-nhac/debussy-preludes.md) | [Chopin, Prélude Mi thứ](tac-pham/chopin-prelude-mi-thu.md) (chặng 4) |
+| Mazurka, polonaise, valse | Lãng mạn | Điệu nhảy nhịp ba | Chopin | [Chopin, Valse La thứ](tac-pham/chopin-valse-la-thu.md) (chặng 3) |
+| Ballade, scherzo | Lãng mạn | Lớn, kịch tính, như kể chuyện | Chopin, Ballade số 1 | [Ballade số 1](tac-pham/chopin-ballade-1.md) (chặng 7) |
+| Bài hát không lời | Lãng mạn | Giai điệu như ca khúc | Mendelssohn, *Lieder ohne Worte* | [Mendelssohn, Op. 19 số 6](tac-pham/mendelssohn-thuyen-ca.md) (chặng 5) |
+| Chu trình tiểu phẩm | Lãng mạn | Nhiều bản ngắn thành một chuỗi | Schumann, *Kinderszenen*, *Carnaval* | [Schumann, *Album für die Jugend*](tac-pham/schumann-album.md) (chặng 2) |
+| Intermezzo | Cuối Lãng mạn | Ngắn, trầm tư, nội tâm | Brahms, Op. 117, Op. 118 | Brahms, Valse Op. 39 số 15, bản rút gọn của Brahms (chặng 5) |
+| Tiểu phẩm trữ tình | Lãng mạn | Bức tranh nhỏ có tên gợi hình | Grieg, *Lyric Pieces* | Grieg, [*Arietta* Op. 12 số 1](tac-pham/grieg-arietta.md) (chặng 4) |
+| Prelude, tổ khúc thế kỷ 20 | Thế kỷ 20 | Màu sắc và hòa âm mới | Debussy, *Estampes*; Ravel, *Gaspard de la nuit* | Debussy, *The Little Shepherd* (chặng 5) |
+| Toccata | Baroque đến thế kỷ 20 | Ngón nhanh, phô diễn | Bach, BWV 911; Prokofiev, Op. 11 | Kabalevsky, *Toccatina* Op. 27 số 12 (chặng 3) |
+| Bốn tay, hai đàn | Mọi thời kỳ | Hai người cùng chơi | Schubert, Fantasia Fa thứ D. 940 | [Diabelli, Op. 149](choi-cung-nguoi-khac.md) (chặng 1) |
 
 ## Baroque: nhạc phím trước khi có piano
 
@@ -48,7 +48,7 @@ Một **tổ khúc** (*suite*) là chuỗi điệu nhảy cùng giọng. Lõi ch
 
 Bach viết 15 **invention** hai bè và 15 **sinfonia** ba bè (bản chép sạch năm 1723) để học trò học chơi rõ ràng từng bè và chơi theo lối hát (*cantabile*). Với người học piano, đây là cầu nối từ những bản minuet đầu tiên sang phức điệu thật sự. **Toccata** (từ chữ Ý "chạm") là bản phô diễn ngón tay, xen những đoạn tự do và những đoạn fugue.
 
-- **Nghe thử:** [Prelude Đô trưởng BWV 846](../nghe-nhac/bach-prelude-c.md); Toccata Đô thứ BWV 911.
+- **Nghe thử:** [Prelude Đô trưởng BWV 846](tac-pham/bach-prelude-do.md); Toccata Đô thứ BWV 911.
 - **Chơi thử:** [Prelude Đô trưởng](tac-pham/bach-prelude-do.md), [Invention số 1](tac-pham/bach-invention-1.md).
 
 ### Biến tấu
@@ -90,7 +90,7 @@ Thế kỷ 19 yêu **tiểu phẩm tính cách** (*character piece*): một bả
 
 ### Nocturne
 
-"Khúc nhạc đêm". Nhà soạn nhạc Ireland **John Field** viết những nocturne đầu tiên năm 1812 và thường được coi là người khai sinh thể loại; Chopin đưa nó lên đỉnh cao. Công thức: tay trái rải hợp âm rộng, tay phải hát một giai điệu kiểu opera Ý, có những chuỗi nốt hoa mỹ uốn lượn. Xem [hướng dẫn nghe Nocturne Op. 9 số 2](../nghe-nhac/chopin-nocturne.md) và [bài học tác phẩm](tac-pham/chopin-nocturne-op9-2.md).
+"Khúc nhạc đêm". Nhà soạn nhạc Ireland **John Field** viết những nocturne đầu tiên năm 1812 và thường được coi là người khai sinh thể loại; Chopin đưa nó lên đỉnh cao. Công thức: tay trái rải hợp âm rộng, tay phải hát một giai điệu kiểu opera Ý, có những chuỗi nốt hoa mỹ uốn lượn. Xem [bài học Nocturne Op. 9 số 2](tac-pham/chopin-nocturne-op9-2.md), có bản thu và bản đồ nghe theo từng đoạn.
 
 ### Étude
 
@@ -110,7 +110,7 @@ Chopin là người đầu tiên đặt tên **ballade** cho một bản nhạc 
 
 ### Bài hát không lời
 
-Mendelssohn xuất bản tám tập *Lieder ohne Worte* (Bài hát không lời), mỗi tập sáu bản: một giai điệu như ca khúc trên phần đệm piano. Ba bản có tên *Venetianisches Gondellied* (Khúc thuyền gondola Venice) là những barcarolle nhỏ rất đẹp; bản đầu tiên, Op. 19 số 6 Sol thứ, là lựa chọn chơi thử tốt ở trình độ trung cấp.
+Mendelssohn viết tám tập *Lieder ohne Worte* (Bài hát không lời), mỗi tập sáu bản; sáu tập đầu in khi ông còn sống, hai tập cuối (Op. 85, Op. 102) in sau khi ông mất. Mỗi bản là một giai điệu như ca khúc trên phần đệm piano. Ba bản có tên *Venetianisches Gondellied* (Khúc thuyền gondola Venice) là những barcarolle nhỏ rất đẹp; bản đầu tiên, Op. 19 số 6 Sol thứ, là bài chơi thử tốt ở chặng 5 (xem [bài học](tac-pham/mendelssohn-thuyen-ca.md)).
 
 ### Chu trình tiểu phẩm
 
@@ -139,33 +139,18 @@ Grieg viết 66 *Lyric Pieces* trong mười tập, từ năm 1867 đến 1901: 
 
 ## Piano chơi cùng người khác
 
-- **Concerto:** xem phần Cổ điển ở trên.
-- **Nhạc thính phòng:** trio (piano, violin, cello), như *Archduke* Op. 97 của Beethoven; tứ tấu có piano (Brahms, Op. 25); ngũ tấu có piano: [Schubert, *Con cá hồi*](../nghe-nhac/schubert-ca-hoi.md), Schumann Op. 44, Brahms Op. 34, Dvořák Op. 81.
-- **Sonata cho violin hoặc cello và piano:** Mozart và Beethoven gọi chúng là sonata *cho piano và violin*, vì piano là bạn diễn ngang hàng chứ không chỉ đệm: Beethoven, *Mùa xuân* Op. 24 và *Kreutzer* Op. 47; Franck, Sonata violin; các sonata cello của Beethoven, Brahms, Chopin (Op. 65) và Rachmaninoff (Op. 19).
-- **Ca khúc nghệ thuật** (*Lied*): trong [*Erlkönig*](../nghe-nhac/schubert-erlkonig.md) của Schubert, piano vẽ cả vó ngựa phi lẫn bóng đêm; trong *Dichterliebe* của Schumann, phần kết của piano nói nốt điều ca sĩ không nói. Nghệ sĩ piano chuyên hợp tác (*collaborative pianist*) là một nghề riêng, rất đáng theo đuổi.
+Ngoài concerto (xem phần Cổ điển ở trên), piano là bạn diễn ngang hàng trong nhạc thính phòng và ca khúc nghệ thuật. Vài bản để nghe thử:
 
-## Bốn tay và hai đàn piano
+- **Nhạc thính phòng:** tam tấu *Archduke* Op. 97 của Beethoven; tứ tấu có piano Op. 25 của Brahms; ngũ tấu có piano: [Schubert, *Con cá hồi*](../nghe-nhac/schubert-ca-hoi.md), Schumann Op. 44, Brahms Op. 34, Dvořák Op. 81.
+- **Sonata cho violin hoặc cello và piano:** Beethoven, *Mùa xuân* Op. 24 và *Kreutzer* Op. 47; Franck, Sonata violin; các sonata cello của Beethoven, Brahms, Chopin (Op. 65) và Rachmaninoff (Op. 19).
+- **Ca khúc nghệ thuật** (*Lied*): [*Erlkönig*](../nghe-nhac/schubert-erlkonig.md) của Schubert, *Dichterliebe* của Schumann.
+- **Bốn tay và hai đàn:** Mozart, Sonata Đô trưởng K. 521 (bốn tay) và Sonata Rê trưởng K. 448 (hai đàn); Schubert, Fantasia Fa thứ D. 940; *Hungarian Dances* của Brahms và *Slavonic Dances* của Dvořák, cả hai bộ viết cho piano bốn tay trước khi thành bản dàn nhạc.
 
-**Piano bốn tay** là hai người cùng ngồi một đàn: người bên phải chơi bè cao (*primo*), người bên trái chơi bè thấp (*secondo*) và thường giữ cả bàn đạp. Ở thế kỷ 19, trước khi có đĩa hát, các gia đình nghe giao hưởng và opera qua những bản chuyển soạn bốn tay.
-
-- **Nghe thử:** Mozart, Sonata Đô trưởng K. 521 (bốn tay) và Sonata Rê trưởng K. 448 (hai đàn); Schubert, Fantasia Fa thứ D. 940 (1828); *Hungarian Dances* của Brahms và *Slavonic Dances* của Dvořák (Op. 46 năm 1878, Op. 72 năm 1886), cả hai bộ đều viết cho piano bốn tay trước khi thành bản dàn nhạc nổi tiếng; Debussy, *Petite suite*; Fauré, *Dolly*; Ravel, *Ma mère l'Oye*.
-- **Chơi thử:** Diabelli, *Melodische Übungsstücke* Op. 149: bè học trò chỉ dùng thế tay năm ngón, bè còn lại cho thầy hoặc bạn tập. Chơi bốn tay là cách luyện **giữ nhịp** và **nghe người khác** tốt bậc nhất.
+Cách chơi bốn tay, đệm hát, song tấu, và những bài để bắt đầu (Diabelli Op. 149 ngay từ chặng 1) nằm ở trang [Chơi cùng người khác](choi-cung-nguoi-khac.md).
 
 ## Đọc ký hiệu danh mục
 
-Nhiều nhà soạn nhạc không đánh số opus đầy đủ, nên người đời sau lập danh mục riêng. Đọc thêm ở [Đọc tên tác phẩm và bản thu](../nghe-nhac/doc-ten-tac-pham.md).
-
-| Ký hiệu | Nhà soạn nhạc | Người lập danh mục |
-|---|---|---|
-| BWV | J. S. Bach | Wolfgang Schmieder |
-| HWV | Handel | Bernd Baselt |
-| K. hoặc Kk. | Domenico Scarlatti | Ralph Kirkpatrick |
-| Hob. | Haydn | Anthony van Hoboken |
-| K. hoặc KV | Mozart | Ludwig von Köchel |
-| WoO | Beethoven | "Werk ohne Opuszahl": tác phẩm không có số opus |
-| D. | Schubert | Otto Erich Deutsch |
-| S. | Liszt | Humphrey Searle |
-| Sz. hoặc BB | Bartók | András Szőllősy; László Somfai |
+BWV, K., Hob., D., S., Sz.… là số hiệu trong danh mục mà người đời sau lập cho tác phẩm của từng nhà soạn nhạc. Bảng các danh mục và cách đọc nằm ở [Đọc tên tác phẩm và bản thu](../nghe-nhac/doc-ten-tac-pham.md#cac-danh-muc-rieng).
 
 ## Kiểm tra nhanh
 
@@ -185,11 +170,11 @@ Nhiều nhà soạn nhạc không đánh số opus đầy đủ, nên người �
 - Bốn chương nhanh – chậm – minuet – nhanh
 - Chủ đề và 30 biến tấu
 > Phần đầu đi sang giọng khác, phần sau quay về giọng chính.
-? Trong nhạc bốn tay, "primo" là ai?
-- Người lật trang
-+ Người ngồi bên phải, chơi bè cao
-- Người ngồi bên trái, chơi bè thấp và giữ bàn đạp
-> Người chơi secondo ngồi bên trái và thường giữ bàn đạp.
+? Chữ "D." trong "Impromptu D. 899" của Schubert là gì?
+- Giọng Rê (D)
++ Số hiệu trong danh mục tác phẩm Schubert do Otto Erich Deutsch lập
+- Số trang trong ấn bản Henle
+> Nhiều nhà soạn nhạc có danh mục riêng: BWV cho Bach, K. cho Mozart, D. cho Schubert.
 ? Debussy đặt tên gợi hình cho các prelude của mình ở đâu?
 - Ở đầu mỗi bản, như mọi nhà soạn nhạc khác
 + Ở cuối mỗi bản

@@ -2,7 +2,7 @@
 
 Nghe gam là nghe **"bản đồ" của một bài nhạc**: nốt nào là nhà (chủ âm), đường đi có những bậc thang nào. Nghe được gam thì đoán được nốt tiếp theo của giai điệu và hiểu vì sao bản nhạc nghe vui hay buồn.
 
-Lý thuyết đầy đủ: [bài 6: Gam trưởng](../nhac-ly/06-gam-truong.md), [bài 7: Gam thứ](../nhac-ly/07-gam-thu.md), [bài 16: Điệu thức và gam ngũ cung](../nhac-ly/16-dieu-thuc-ngu-cung.md). Bài luyện với công cụ: [Nhận biết gam và điệu thức](../luyen-tap/gam.md).
+Lý thuyết đầy đủ: [bài 6: Gam trưởng](../nhac-ly/06-gam-truong.md), [bài 7: Gam thứ](../nhac-ly/07-gam-thu.md), [bài 16: Điệu thức và gam ngũ cung](../nhac-ly/16-dieu-thuc-ngu-cung.md). Bài luyện với công cụ: [Nhận biết gam và điệu thức](#luyen-voi-cong-cu).
 
 ## Dấu hiệu vàng: nghe nốt 3
 
@@ -39,7 +39,7 @@ Mẹo: **dấu hiệu 2 tăng** (nghe như quãng 3 thứ nhưng "gai" hơn) g�
 
 Ví dụ: nghe một gam thứ mà nốt Fa nghe cao bất thường (Fa♯ thay vì Fa) → đó là Dorian. Nghe gam trưởng mà nốt Si thấp bất thường (Si♭) → Mixolydian.
 
-Trong [công cụ nhận biết gam](../luyen-tap/gam.md), gợi ý dưới mỗi nút chính là "một nốt khác biệt" này — hãy đọc gợi ý trước khi đoán.
+Trong [công cụ cuối bài](#luyen-voi-cong-cu), gợi ý dưới mỗi nút chính là "một nốt khác biệt" này — hãy đọc gợi ý trước khi đoán.
 
 ## Ngũ cung: nghe sự "thoáng"
 
@@ -55,7 +55,13 @@ Bài tập nâng cao: nghe một nốt trong bối cảnh gam và gọi tên **b
 
 Nghe được bậc trong gam là nền tảng của **chép giai điệu**: thay vì chép từng nốt, bạn chép "3–2–1" rồi dịch ra nốt nhạc.
 
-## Thứ tự luyện
+## Luyện với công cụ
+
+Công cụ phát một gam, bạn chọn tên gam. Với ba dạng gam thứ, chọn hướng "Lên rồi xuống" để nghe rõ gam thứ giai điệu (đi xuống khác đi lên).
+
+<div class="oz-scale-trainer"></div>
+
+Thứ tự luyện:
 
 1. **Trưởng vs thứ tự nhiên**: chỉ nghe nốt 3.
 2. **Ba dạng thứ**: nghe hai nốt cuối khi đi lên; để ý dấu hiệu 2 tăng.

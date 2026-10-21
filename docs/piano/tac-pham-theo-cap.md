@@ -1,6 +1,6 @@
 # Tác phẩm theo cấp độ
 
-Danh mục này xếp những tác phẩm thật, từ bài đầu tiên đến sân khấu hòa nhạc, theo đúng 7 chặng của [lộ trình piano](lo-trinh.md). Mỗi chặng có một bảng gồm tác phẩm, thời kỳ và điều bạn học được từ nó; những bài có [bài học chi tiết](tac-pham/index.md) trên site được gắn link.
+Danh mục này xếp những tác phẩm thật, từ bài đầu tiên đến sân khấu hòa nhạc, theo đúng 7 chặng của [lộ trình piano](lo-trinh.md), và là nơi site quyết định mỗi bài thuộc chặng nào. Mỗi chặng có một bảng gồm tác phẩm, thời kỳ và điều bạn học được từ nó; những bài có [bài học chi tiết](tac-pham/index.md) trên site được gắn link. Cuối trang có một mục riêng cho [những bài phổ biến ngoài nhạc cổ điển](#ngoai-co-dien), như *Mariage d'Amour*.
 
 ## Cách đọc danh mục
 
@@ -95,7 +95,7 @@ Những tác phẩm cổ điển thật đầu tiên: vũ khúc ngắn của th�
 | *Notenbüchlein für Anna Magdalena Bach* (Sổ nhạc cho Anna Magdalena Bach, 1725): Minuet Sol trưởng Anh. 116, Polonaise Sol thứ Anh. 119, Hành khúc Rê trưởng Anh. 122, [Musette Rê trưởng Anh. 126](tac-pham/musette-re.md) | Baroque | Mỗi bài một điệu nhảy, một kiểu phát âm; Hành khúc thường được cho là của C. P. E. Bach; Musette có tay trái nhảy quãng tám |
 | *Notenbuch für Wolfgang* (Sổ nhạc cho Wolfgang): Burleske, Minuet, Bourrée | Giữa thế kỷ 18 | Bài ngắn, sáng, câu nhạc rõ ràng. Sổ này thường in dưới tên Leopold Mozart, nhưng nhiều khả năng là tuyển tập khuyết danh |
 | Mozart: Andante Đô trưởng K. 1a, [Minuet Fa trưởng K. 2](tac-pham/mozart-minuet-k2.md), Allegro Si♭ trưởng K. 3 | Cổ điển | Những bài Mozart viết lúc 5–6 tuổi, được ghi lại trong sổ nhạc của chị gái Nannerl: câu nhạc Cổ điển cân đối |
-| [Schumann: *Album für die Jugend* Op. 68](tac-pham/schumann-album.md): *Melodie* (số 1), *Soldatenmarsch* (số 2), *Wilder Reiter* (số 8) | Lãng mạn | Giai điệu hát trên phần đệm, staccato chắc, giai điệu chuyển xuống tay trái (*Wilder Reiter*) |
+| [Schumann: *Album für die Jugend* Op. 68](tac-pham/schumann-album.md): *Melodie* (số 1), *Wilder Reiter* (số 8), *Fröhlicher Landmann* (số 10); thêm *Soldatenmarsch* (số 2) | Lãng mạn | Giai điệu hát trên phần đệm, staccato chắc, giai điệu chuyển xuống tay trái (*Wilder Reiter*) |
 | Tchaikovsky: *Album for the Young* Op. 39: [*Old French Song* (Bài ca Pháp cổ)](tac-pham/tchaikovsky-bai-ca-phap-co.md), *The Sick Doll* (Búp bê ốm) | Lãng mạn | Giai điệu buồn hát trên hợp âm, sắc thái *p* và *pp*, "thở" ở cuối câu |
 | Kabalevsky: *24 Pieces for Children* Op. 39, ví dụ *Clowns* (Chú hề, số 20) | Thế kỷ 20 | Bài một trang, mỗi bài một hình ảnh; nhịp nhanh, staccato, tính hài hước |
 | Bartók: *For Children* (Cho thiếu nhi) Sz. 42 | Thế kỷ 20 | Dân ca Hungary và Slovakia: giai điệu hát legato trên phần đệm giản dị, điệu thức dân gian |
@@ -118,8 +118,8 @@ Những tác phẩm cổ điển thật đầu tiên: vũ khúc ngắn của th�
 | Burgmüller: Op. 100: *La chasse* (Cuộc săn, số 9), *Ballade* (số 15) | Lãng mạn | Nhảy tay nhanh, staccato nhẹ, tương phản sắc thái mạnh |
 | [Chopin: Valse La thứ, B. 150](tac-pham/chopin-valse-la-thu.md) | Lãng mạn | Đệm valse tay trái, giai điệu hát, bàn đạp theo ô nhịp, rubato đầu tiên |
 | [Bach: Prelude nhỏ Đô trưởng BWV 939](tac-pham/bach-prelude-bwv939.md), Rê thứ BWV 926, Đô thứ BWV 999 | Baroque | Hòa âm vận động qua những hình nốt đều; BWV 999 vốn viết cho đàn luýt |
-| Schumann: *Fröhlicher Landmann* (Bác nông dân vui vẻ), Op. 68 số 10 | Lãng mạn | Giai điệu ở tay trái, dưới những hợp âm nhẹ của tay phải |
 | Tchaikovsky: *Album for the Young*: [*Morning Prayer* (Cầu nguyện buổi sáng)](tac-pham/tchaikovsky-cau-nguyen-buoi-sang.md), *Sweet Dreams* (Giấc mơ ngọt ngào), *Italian Song* (Bài ca Ý), *Waltz* | Lãng mạn | Giai điệu dài legato, đệm valse, bàn đạp |
+| Schumann: Op. 68: *Erster Verlust* (Mất mát đầu tiên, số 16) | Lãng mạn | Câu nhạc than thở trong giọng thứ, legato không đánh mạnh nốt cao; nên học kèm [bài học Op. 68](tac-pham/schumann-album.md) |
 | Kabalevsky: *Toccatina* Op. 27 số 12 | Thế kỷ 20 | Nhịp chắc, hợp âm nhẹ và đều ở tốc độ nhanh |
 | Prokofiev: *Music for Children* Op. 65: *Morning* (Buổi sáng, số 1), *Promenade* (Dạo chơi, số 2) | Thế kỷ 20 | Âm vực rộng, legato, hòa âm chuyển bất ngờ |
 | Heller: *25 Studies for Rhythm and Expression* Op. 47 | Lãng mạn | Étude nhạc tính về tiết tấu và diễn cảm |
@@ -143,7 +143,7 @@ Hai kỹ năng lớn của chặng là **phức điệu** (Bach) và **giai đi�
 | Chopin: Mazurka La thứ Op. 68 số 2; Mazurka Sol thứ Op. 67 số 2 | Lãng mạn | Nhịp mazurka với trọng âm lệch sang phách 2 hoặc 3, rubato dân gian |
 | [Satie: Gymnopédie số 1](tac-pham/satie-gymnopedie.md); Gnossienne số 1 | Cuối thế kỷ 19 | Bước nhảy trầm – hợp âm, bàn đạp theo ô nhịp, giữ tốc độ chậm đều; Gnossienne viết không có vạch nhịp |
 | Grieg: *Lyriske stykker* (Lyric Pieces) Op. 12: [*Arietta* (số 1)](tac-pham/grieg-arietta.md), *Vals* (số 2), *Alfedans* (Điệu múa yêu tinh, số 4) | Lãng mạn | Giai điệu hát trọn trong một trang (*Arietta*), staccato nhẹ và nhanh (*Alfedans*) |
-| Schumann: Op. 68: *Erster Verlust* (Mất mát đầu tiên, số 16), *Knecht Ruprecht* (số 12) | Lãng mạn | Câu nhạc than thở; quãng tám và tương phản kịch tính |
+| Schumann: Op. 68: *Knecht Ruprecht* (số 12) | Lãng mạn | Quãng tám và tương phản kịch tính |
 | Tchaikovsky: *Album for the Young*: *The Sorcerer* (Phù thủy), *Lark Song* (Tiếng chim chiền chiện) | Lãng mạn | Staccato nhanh; nốt hoa mỹ nhẹ như tiếng chim |
 
 ## Chặng 5. Trung cấp cao (≈ Grade 6)
@@ -158,7 +158,7 @@ Chương sonata thật đầu tiên, phức điệu Bach có chủ đích, và *
 | [Schumann: *Träumerei*, *Kinderszenen* Op. 15 số 7](tac-pham/schumann-traumerei.md) | Lãng mạn | Ba lớp âm thanh, câu nhạc dài, bàn đạp tinh |
 | Schumann: *Von fremden Ländern und Menschen* (Về những xứ sở và con người xa lạ), *Kinderszenen* Op. 15 số 1 | Lãng mạn | Giai điệu, chùm ba nốt đệm và bè trầm chia trong hai tay; nghe [Kinderszenen](../nghe-nhac/schumann-kinderszenen.md) |
 | [Beethoven: Sonata Op. 27 số 2 (*Ánh trăng*), chương 1](tac-pham/beethoven-anh-trang.md) | Cổ điển | Chùm ba nốt đều, giai điệu nổi trên cùng, bàn đạp đổi theo hòa âm; nghe [hướng dẫn](../nghe-nhac/beethoven-moonlight.md) |
-| [Chopin: Valse Si thứ Op. 69 số 2](tac-pham/chopin-valse-si-thu.md); Nocturne Mi thứ Op. 72 số 1 | Lãng mạn | Rubato trong khuôn nhịp valse; giai điệu hát trên hợp âm rải rộng của tay trái |
+| [Chopin: Valse Si thứ Op. 69 số 2](tac-pham/chopin-valse-si-thu.md); Nocturne Mi thứ Op. 72 số 1; Nocturne Đô♯ thứ (di cảo, B. 49) | Lãng mạn | Rubato trong khuôn nhịp valse; giai điệu hát trên hợp âm rải rộng của tay trái |
 | Haydn: Sonata Đô trưởng Hob. XVI:35 | Cổ điển | Ngón nhẹ và nhanh, tính hài hước rất Haydn |
 | [Mendelssohn: *Lieder ohne Worte* (Bài ca không lời) Op. 19 số 6, *Venetianisches Gondellied* (Sol thứ)](tac-pham/mendelssohn-thuyen-ca.md) | Lãng mạn | Giai điệu hát trên nhịp đung đưa của bài ca chèo thuyền |
 | Schubert: *Moments musicaux* D. 780 số 3 (Fa thứ) | Lãng mạn | Staccato nhẹ, nhịp đều, giai điệu mang màu dân ca |
@@ -178,9 +178,9 @@ Những tác phẩm lớn được yêu thích nhất. Mỗi bài cần vài th�
 | [Debussy: *Clair de lune*](tac-pham/debussy-clair-de-lune.md) (*Suite bergamasque*) | Ấn tượng | Sắc thái *pp*, bàn đạp nửa, tự do nhịp, nhiều lớp âm thanh |
 | Mozart: Sonata Đô trưởng K. 330; Fantasia Rê thứ K. 397 | Cổ điển | Phát âm trong sáng, bàn đạp tiết kiệm; tự do ngẫu hứng của fantasia (khoảng mười ô nhịp cuối có lẽ do August Eberhard Müller viết thêm) |
 | Bach: *Sinfonia* (Invention ba bè) BWV 787–801; [Prelude và fugue Đô thứ BWV 847](tac-pham/bach-prelude-fugue-do-thu.md) (*Bình quân luật*, quyển 1); *French Suite* số 5 Sol trưởng BWV 816 | Baroque | Ba bè độc lập, fugue ba bè đầu tiên, chuỗi vũ khúc của một tổ khúc |
-| Schubert: Impromptu Op. 90 (D. 899) số 2 (Mi♭ trưởng) và [số 3 (Sol♭ trưởng)](tac-pham/schubert-impromptu-sol-giang.md) | Lãng mạn | Số 3: giai điệu và phần đệm trong cùng tay phải; số 2: chuỗi móc ba nhẹ và đều; nghe [Impromptu](../nghe-nhac/schubert-impromptu.md) |
+| Schubert: Impromptu Op. 90 (D. 899) số 2 (Mi♭ trưởng) và [số 3 (Sol♭ trưởng)](tac-pham/schubert-impromptu-sol-giang.md) | Lãng mạn | Số 3: giai điệu và phần đệm trong cùng tay phải; số 2: chuỗi chùm ba móc đơn (liên ba) nhẹ và đều ở tay phải; nghe [Impromptu](../nghe-nhac/schubert-impromptu.md) |
 | Brahms: Intermezzo La trưởng Op. 118 số 2; Intermezzo Mi♭ trưởng Op. 117 số 1 | Lãng mạn | Giai điệu ở giọng giữa, hòa âm dày, câu nhạc dài; nghe [Intermezzo](../nghe-nhac/brahms-intermezzo.md) |
-| Chopin: Valse Op. 64 số 1 (Rê♭ trưởng) và số 2 (Đô♯ thứ); Nocturne Đô♯ thứ (di cảo, B. 49) | Lãng mạn | Ngón nhanh và nhẹ, rubato, chùm nốt nhanh |
+| Chopin: Valse Op. 64 số 1 (Rê♭ trưởng) và số 2 (Đô♯ thứ) | Lãng mạn | Ngón nhanh và nhẹ, rubato, chùm nốt nhanh |
 | Chopin: Prélude Rê♭ trưởng Op. 28 số 15 | Lãng mạn | Nốt lặp đều suốt bài, cao trào ở đoạn giữa Đô♯ thứ |
 | Grieg: *Bryllupsdag på Troldhaugen* (Ngày cưới ở Troldhaugen) Op. 65 số 6 | Lãng mạn | Hợp âm và quãng tám mạnh, đoạn giữa trữ tình |
 | Debussy: Arabesque số 1 (Mi trưởng); *La fille aux cheveux de lin* (Cô gái tóc lanh), *Préludes* quyển 1 số 8 | Ấn tượng | Hai chọi ba, bàn đạp nửa, câu nhạc tự do |
@@ -191,7 +191,7 @@ Những tác phẩm lớn được yêu thích nhất. Mỗi bài cần vài th�
 
 ## Chặng 7. Sau Grade 8 (diploma trở lên)
 
-Ở chặng này không còn "cấp" rõ ràng. Bạn chọn bài theo chương trình biểu diễn: một tác phẩm lớn làm trục, quanh nó là những bài ngắn hơn ở các thời kỳ khác. Nếu muốn có mục tiêu chính thức, các bằng diploma của ABRSM (ARSM, DipABRSM, LRSM, FRSM) và Trinity (ATCL, LTCL, FTCL) có danh sách tác phẩm riêng.
+Ở chặng này không còn "cấp" rõ ràng. Bạn chọn bài theo chương trình biểu diễn: một tác phẩm lớn làm trục, quanh nó là những bài ngắn hơn ở các thời kỳ khác. Nếu muốn có mục tiêu chính thức, các bằng diploma của ABRSM (ARSM, LRSM, FRSM) và Trinity (ATCL, LTCL, FTCL) có danh sách tác phẩm riêng.
 
 | Tác phẩm | Thời kỳ | Học được gì |
 |---|---|---|
@@ -213,6 +213,38 @@ Những tác phẩm lớn được yêu thích nhất. Mỗi bài cần vài th�
 | Bartók: Sonata (1926), *Out of Doors*; Messiaen: *Vingt regards sur l'Enfant-Jésus* (Hai mươi cái nhìn về Chúa Hài đồng) | Thế kỷ 20 | Piano như một nhạc cụ gõ; nhịp và màu hòa âm mới |
 | Ligeti: *Musica ricercata*; *Études* | Đương đại | Đa tiết tấu, cấu trúc mới, hai tay độc lập tuyệt đối |
 
+## Bài phổ biến ngoài nhạc cổ điển { #ngoai-co-dien }
+
+Nhiều người lớn tìm đến cây đàn vì một bài nghe trên mạng, trong phim hay ở một đám cưới, chứ không phải vì Bach hay Mozart. Những bài ấy vẫn đáng tập: chúng dùng đúng các kỹ năng của những chặng ở trên. Trước khi chọn, nhớ ba điều:
+
+- **Phần lớn còn bản quyền.** Bản nhạc gốc và các bản soạn lại thuộc về nhà soạn nhạc và nhà xuất bản. Vì vậy site không in khuông nhạc trích từ những bài này; hãy dùng bản nhạc được cấp phép.
+- **Cùng một tên, nhiều bản soạn.** Bản "easy piano" có thể chỉ ở chặng 2, trong khi bản chơi trong bản thu gốc cao hơn vài chặng. Xem trang mẫu trước khi mua: giọng, số trang, tay trái rải rộng hay chỉ giữ hợp âm.
+- **Kiểm tra tên tác giả.** Trên mạng, không ít bài bị gắn nhầm tên một nhà soạn nhạc cổ điển nổi tiếng.
+
+### Paul de Senneville: *Mariage d'Amour*
+
+| Mục | Thông tin |
+|---|---|
+| Nhà soạn nhạc | Paul de Senneville (1933–2023), nhà soạn nhạc và nhà sản xuất người Pháp. Ông cùng Olivier Toussaint lập hãng đĩa Delphine, nơi đưa Richard Clayderman thành tên tuổi |
+| Sáng tác, bản thu đầu tiên | Năm 1978; Richard Clayderman thu âm lần đầu trong album *Lettre à ma mère* (1979) |
+| Giọng · nhịp · tốc độ | Sol thứ · chủ yếu 4/4, có vài chỗ đổi sang 5/4 và 3/4 · khoảng ♩ = 72 |
+| Cấp (≈) | Bản piano solo như bản thu của Clayderman: khoảng Grade 5–6, đầu chặng 5 (ước lượng của site). Bản soạn dễ: chặng 2–3 |
+| Bản nhạc | Còn bản quyền. Bản piano solo được cấp phép, giọng gốc Sol thứ: [Musicnotes](https://www.musicnotes.com/sheetmusic/richard-clayderman/mariage-damour/MN0114635). Các bản soạn dễ có trên những trang bán nhạc số được cấp phép |
+
+**Không phải của Chopin.** Trên YouTube và nhiều trang chia sẻ nhạc, bài này hay mang tên "Spring Waltz" (Valse mùa xuân) và được gắn cho Chopin. Chopin không viết bài nào như vậy, và đây cũng không phải một điệu valse: valse ở nhịp 3/4, còn bài này chủ yếu ở 4/4. Nhầm lẫn được cho là bắt đầu từ một video đăng bản thu của George Davidson (một bản soạn hơi khác của bài) dưới tên sai. Video ấy có hàng chục triệu lượt xem trước khi bị gỡ, nhưng các bản sao mang cùng tên sai vẫn tiếp tục lan truyền. Muốn chơi một valse thật của Chopin ở tầm tương đương, xem [Valse Si thứ Op. 69 số 2](tac-pham/chopin-valse-si-thu.md) (chặng 5) hoặc [Valse La thứ](tac-pham/chopin-valse-la-thu.md) (chặng 3).
+
+**Bài này dạy gì:**
+
+- **Tay trái rải hợp âm liên tục**, trải rộng trên bàn phím mà vẫn đều và khẽ; ôn cách dùng cổ tay ở [Hợp âm, hợp âm rải và hình đệm](hop-am-rai.md).
+- **Giai điệu hát** ở tay phải, nổi lên trên phần đệm ([Tạo tiếng đàn](tieng-dan.md)).
+- **Bàn đạp đổi theo hợp âm**, để tiếng vang của hai hòa âm không lẫn vào nhau ([Bàn đạp](ban-dap.md)).
+- **Quãng tám** khi giai điệu trở lại ở đoạn cao trào ([Quãng tám và bước nhảy](quang-tam-buoc-nhay.md)).
+- **Đếm qua những chỗ đổi nhịp** mà câu nhạc không bị hẫng: đếm to các phách của ô 5/4 và 3/4 trước khi chơi.
+
+**Đi qua trước:** [Valse La thứ](tac-pham/chopin-valse-la-thu.md) (chặng 3) cho giai điệu trên phần đệm, [Gymnopédie số 1](tac-pham/satie-gymnopedie.md) (chặng 4) cho bàn đạp và tốc độ chậm, [Prélude Mi thứ](tac-pham/chopin-prelude-mi-thu.md) (chặng 4) cho hợp âm khẽ dưới một giai điệu hát. Nếu bạn đang ở chặng 2–3, hãy bắt đầu bằng một bản soạn dễ rồi quay lại bản đầy đủ sau.
+
+Những bài cùng loại mà người lớn hay hỏi, như nhạc phim, nhạc new age hay piano pop, cũng theo cùng nguyên tắc: tìm bản được cấp phép, xem bản soạn trước khi mua, rồi so kỹ năng bài đòi hỏi với bảng các chặng ở trên để biết nên tập lúc nào.
+
 ## Tìm thêm bài ở đâu
 
 - **Danh sách bài thi** của [ABRSM](https://www.abrsm.org/) và [Trinity College London](https://www.trinitycollege.com/): kể cả khi không đi thi, đây là những danh mục được chọn kỹ, chia sẵn theo cấp và trộn nhiều thời kỳ. Chương trình piano 2027–2028 của ABRSM dùng được từ 1/1/2027.
@@ -228,4 +260,5 @@ Những tác phẩm lớn được yêu thích nhất. Mỗi bài cần vài th�
 - Jane Magrath, *The Pianist's Guide to Standard Teaching and Performance Literature* (Alfred, 1995).
 - Maurice Hinson và Wesley Roberts, *Guide to the Pianist's Repertoire*, ấn bản 4 (Indiana University Press, 2014).
 - Bản nhạc: [IMSLP](https://imslp.org/) (tìm theo tên tác phẩm kèm số Op., BWV, K., D. hoặc Hob.).
+- *Mariage d'Amour*: Wikipedia, ["Mariage d'amour"](https://en.wikipedia.org/wiki/Mariage_d%27amour) và ["Paul de Senneville"](https://en.wikipedia.org/wiki/Paul_de_Senneville); trang bản nhạc trên [Musicnotes](https://www.musicnotes.com/sheetmusic/richard-clayderman/mariage-damour/MN0114635) (giọng gốc, nhà xuất bản).
 - Xem thêm [tài liệu tham khảo](../tai-lieu-tham-khao.md).

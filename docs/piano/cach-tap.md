@@ -89,7 +89,7 @@ Số trong bảng là phút.
 | [Thị tấu](thi-tau.md) | 3 | 5 | 10 |
 | Chơi trọn bài, thu âm, ghi nhật ký | 2 | 3 | 5–10 |
 
-Ngày bận chỉ có 10 phút? Chọn **một** điểm nóng và tập nó cho thật đúng. Mười phút tập trung vẫn giữ được mạch tiến bộ, và quan trọng hơn là giữ được thói quen.
+Ngày bận chỉ có 10 phút? Chọn **một** điểm nóng và tập nó cho thật đúng. Mười phút tập trung vẫn giữ được mạch tiến bộ, và quan trọng hơn là giữ được thói quen. Khuôn buổi 30 phút cho năm đầu và một lịch tuần mẫu ở [Thói quen mỗi ngày](../bat-dau/moi-ngay.md).
 
 ## Kế hoạch một tuần khi học với thầy
 
@@ -106,13 +106,18 @@ Xem thêm [Học với thầy và thi cấp](thay-va-thi.md).
 
 ## Khi bị giậm chân tại chỗ
 
-Gần như ai cũng có những tuần thấy mình không tiến bộ. Thường đó là dấu hiệu bạn đang tập lặp lại theo cùng một cách.
+Gần như ai cũng có những tuần thấy mình không tiến bộ. Thường đó là dấu hiệu bạn đang tập lặp lại theo cùng một cách, hoặc tay đang tiêu hóa những gì đã học. Nếu kéo dài, đi qua danh sách này:
 
-- **Đổi cách tập**: biến thể tiết tấu, đổi sắc thái (chơi đoạn *f* thành *p*), tập chậm hẳn, tập tay trái một mình.
+- **Bài có quá khó không?** Một bài vượt hai chặng tốn thời gian gấp nhiều lần và dễ làm căng tay. Lùi lại, học nhiều bài vừa sức: số bài đã chơi trọn là thứ làm bạn tiến nhanh nhất (xem [Tác phẩm theo cấp độ](tac-pham-theo-cap.md)).
+- **Bạn đang tập hay chỉ đang chơi?** Chơi đi chơi lại từ đầu dễ chịu nhưng ít tiến bộ. Đổi cách tập: biến thể tiết tấu, đổi sắc thái (chơi đoạn *f* thành *p*), tập chậm hẳn, tập tay trái một mình.
+- **Kỹ thuật gốc có vấn đề không?** Vai nhô, cổ tay cứng, khớp ngón gãy làm mọi thứ chậm lại. Quay video tay mình và đối chiếu với [tư thế và thế tay](tu-the.md).
+- **Bạn có bỏ qua gam và thị tấu không?** Hai mảng này nhàm nhưng là "từ vựng" và "khả năng đọc" của bạn; 10 phút mỗi ngày là đủ ([gam](gam.md), [thị tấu](thi-tau.md)).
 - **Nghe lại chính mình**: một bản ghi âm thường chỉ ra ngay điều tai bạn bỏ qua khi đang chơi.
 - **Học song song một bài dễ hơn.** Bài khó dạy bạn từng chi tiết, bài dễ giúp bạn chơi được nhiều nhạc; cần cả hai.
+- **Bạn có người nghe không?** Một buổi học với thầy, một người bạn, một buổi chơi nhỏ ở nhà đều tạo hạn chót và góc nhìn mới ([học với thầy](thay-va-thi.md), [biểu diễn](hoc-thuoc-bieu-dien.md)).
+- **Bạn còn nghe nhạc không?** Nghe một nghệ sĩ lớn chơi bài của mình thường mở ra ngay hai, ba ý tưởng mới.
 - **Nghỉ một hai ngày.** Nhiều nghiên cứu về học kỹ năng vận động cho thấy giấc ngủ giúp củng cố những gì đã tập; đôi khi bài "tự nhiên" chắc hơn sau một ngày nghỉ.
-- **Nhìn lại ba tháng trước**: bản thu cũ và nhật ký cho thấy bạn đã đi xa hơn cảm giác của mình.
+- **Nhìn lại ba tháng trước**: bản thu cũ và [nhật ký luyện tập](../luyen-tap/nhat-ky.md) cho thấy bạn đã đi xa hơn cảm giác của mình.
 
 ## Tập khi không có đàn
 

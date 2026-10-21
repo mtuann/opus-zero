@@ -14,7 +14,10 @@ Những câu hỏi thường gặp của người mới. Chưa thấy câu hỏi
     Năm đầu: 20–45 phút mỗi ngày là đủ và an toàn cho tay; nên chia thành hai buổi ngắn nếu được. Sau đó có thể tăng dần lên 60–90 phút, luôn có giờ nghỉ. Quan trọng hơn thời gian là **cách tập**: mục tiêu rõ, chậm, chia nhỏ. Xem [Thói quen mỗi ngày](moi-ngay.md) và [Cách tập hiệu quả](../piano/cach-tap.md).
 
 ??? question "Bao lâu thì chơi được Für Elise, Chopin hay Clair de lune?"
-    Với 30–45 phút mỗi ngày, tập đúng cách, nhiều người lớn chơi được đoạn đầu *Für Elise* sau vài tháng, cả bài sau khoảng hai năm; các bản nocturne dễ của Chopin sau ba đến năm năm; *Clair de lune* sau năm năm trở lên. Con số dao động nhiều theo người. Xem từng chặng ở [lộ trình piano](../piano/lo-trinh.md) và [tác phẩm theo cấp độ](../piano/tac-pham-theo-cap.md).
+    Với 30–45 phút mỗi ngày, tập đúng cách, nhiều người lớn chơi được đoạn đầu *Für Elise* sau vài tháng, cả bài khi tới chặng 4, thường sau hai năm rưỡi đến bốn năm; các bản nocturne dễ của Chopin sau khoảng bốn đến sáu năm; *Clair de lune* sau năm năm rưỡi trở lên. Con số dao động nhiều theo người. Xem từng chặng ở [lộ trình piano](../piano/lo-trinh.md) và [tác phẩm theo cấp độ](../piano/tac-pham-theo-cap.md).
+
+??? question "Bài “Spring Waltz” của Chopin ở cấp nào?"
+    Bài ấy không phải của Chopin. Đó là *Mariage d'Amour* của Paul de Senneville, viết năm 1978 và nổi tiếng qua bản thu của Richard Clayderman. Bản piano solo đầy đủ ở khoảng Grade 5–6 (đầu chặng 5); có nhiều bản soạn dễ hơn cho chặng 2–3. Bài còn bản quyền, nên hãy dùng bản nhạc được cấp phép. Xem [Bài phổ biến ngoài nhạc cổ điển](../piano/tac-pham-theo-cap.md#ngoai-co-dien).
 
 ??? question "Tay tôi nhỏ, ngón ngắn, có học piano được không?"
     Được. Phần lớn văn học piano không đòi bàn tay lớn; khi gặp quãng tám hay hợp âm rộng, có cách chọn ngón, rải hợp âm, chia nốt cho tay kia. Đừng cố "căng" tay quá sức. Xem [Giữ đôi tay khỏe](../piano/suc-khoe.md).

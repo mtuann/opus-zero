@@ -30,7 +30,7 @@ Khi đã nhận ra thời kỳ, bước tiếp theo là đoán **tác giả**. M
 : Giai điệu **hát** vô tận; chuyển đột ngột giữa trưởng và thứ trên cùng chủ âm; chuyển giọng sang giọng cách quãng 3; lặp lại dài, "trời đất rộng". *Kiểm chứng:* [*Con cá hồi*](../nghe-nhac/schubert-ca-hoi.md).
 
 **Chopin**
-: **Gần như chỉ viết cho piano**; giai điệu như giọng hát bel canto với nhiều trang trí; tay trái rải rộng; **rubato**; điệu nhảy Ba Lan (mazurka, polonaise). *Kiểm chứng:* [Nocturne Op. 9 số 2](../nghe-nhac/chopin-nocturne.md).
+: **Gần như chỉ viết cho piano**; giai điệu như giọng hát bel canto với nhiều trang trí; tay trái rải rộng; **rubato**; điệu nhảy Ba Lan (mazurka, polonaise). *Kiểm chứng:* [Nocturne Op. 9 số 2](../piano/tac-pham/chopin-nocturne-op9-2.md).
 
 **Liszt**
 : **Kỹ thuật piano phô diễn**: quãng 8 liên tiếp, chuỗi nốt khắp bàn phím; giai điệu ở giữa, trang trí bao quanh; chuyển đổi chủ đề (một giai điệu biến hình thành nhiều tính cách). *Kiểm chứng:* *Liebestraum* số 3.
@@ -50,7 +50,7 @@ Khi đã nhận ra thời kỳ, bước tiếp theo là đoán **tác giả**. M
 ## Thế kỷ 20
 
 **Debussy**
-: **Hợp âm trượt song song**; gam toàn cung và ngũ cung; nhịp mơ hồ; rất nhỏ, như sương. *Kiểm chứng:* [*Clair de lune*](../nghe-nhac/debussy-clair-de-lune.md), *Prélude à l'après-midi d'un faune*.
+: **Hợp âm trượt song song**; gam toàn cung và ngũ cung; nhịp mơ hồ; rất nhỏ, như sương. *Kiểm chứng:* [*Clair de lune*](../piano/tac-pham/debussy-clair-de-lune.md), *Voiles* và *La cathédrale engloutie* trong [*Préludes*](../nghe-nhac/debussy-preludes.md), *Prélude à l'après-midi d'un faune*.
 
 **Ravel**
 : Phối khí **sắc nét, chính xác** như đồng hồ Thụy Sĩ; hòa âm 7 và 9 trong veo; ảnh hưởng điệu nhảy Tây Ban Nha và jazz. *Kiểm chứng:* [*Boléro*](../nghe-nhac/ravel-bolero.md).

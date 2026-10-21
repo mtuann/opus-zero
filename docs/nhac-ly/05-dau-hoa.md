@@ -72,7 +72,7 @@ Một phím đen có thể có **hai tên**. Phím giữa Đô và Rê vừa là
     3. Mi♯ nâng Mi lên nửa cung, rơi đúng vào phím **Fa**. Đô♭ hạ Đô xuống nửa cung, rơi vào phím **Si**. Đây là lý do không nên nghĩ "thăng = phím đen".
 
 !!! example "Luyện tập kèm theo"
-    [Nhận biết quãng](../luyen-tap/quang.md) bộ Tất cả, chỉ để nghe quãng 2 thứ (một nửa cung) và 2 trưởng (một cung).
+    [Nhận biết quãng](../luyen-tai/nghe-quang.md#luyen-voi-cong-cu) bộ Tất cả, chỉ để nghe quãng 2 thứ (một nửa cung) và 2 trưởng (một cung).
 
 ```quiz
 ? Giữa hai nốt nào trong các cặp sau là nửa cung tự nhiên?

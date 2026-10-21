@@ -14,17 +14,9 @@ Một buổi tập piano tốt có cấu trúc: khởi động, kỹ thuật, b�
 
 Ngoài giờ ngồi đàn, dành thêm 10 phút cho **nghe chủ động** hoặc **một bài nhạc lý** (lúc đi đường, lúc nghỉ trưa). Tai và đầu học được cả khi tay nghỉ.
 
-## Buổi 60 phút (khi đã qua năm đầu)
+## Buổi dài hơn (khi đã qua năm đầu)
 
-| Thời gian | Việc làm |
-|---|---|
-| 5 phút | Khởi động nhẹ |
-| 10 phút | Kỹ thuật: gam, hợp âm rải, một étude ngắn ([Bài tập ngón và étude](../piano/bai-tap-ngon.md)) |
-| 20 phút | Bài mới: đoạn khó, tay riêng, các biến thể tiết tấu |
-| 5 phút | Nghỉ: đứng dậy, thả lỏng tay, uống nước |
-| 10 phút | Bài cũ đang "duy trì": chơi liền như biểu diễn, không dừng |
-| 7 phút | Thị tấu hoặc luyện tai |
-| 3 phút | Nhật ký và kế hoạch cho buổi sau |
+Khi buổi tập dài 45 hoặc 90 phút, thêm một bài thứ hai ở phong cách khác, một étude ngắn ([Bài tập ngón và étude](../piano/bai-tap-ngon.md)) và một quãng nghỉ đứng dậy thả tay giữa buổi. Bảng chia phút cho buổi 20, 45 và 90 phút ở [Cách tập hiệu quả](../piano/cach-tap.md#mau-buoi-tap).
 
 ## Ngày bận (10 phút)
 

@@ -16,7 +16,7 @@ Nếu bạn có **đàn piano điện** hoặc **đàn phím MIDI**, có thể c
 | Công cụ | Đàn MIDI làm gì |
 |---|---|
 | [Đọc nốt](doc-not.md) | Trả lời bằng cách bấm phím có tên nốt đúng |
-| [Đọc thị tấu](thi-tau.md) | Chơi giai điệu và được chấm từng nốt, cả cao độ lẫn nhịp |
+| [Thị tấu một bè](thi-tau.md) | Chơi giai điệu và được chấm từng nốt, cả cao độ lẫn nhịp |
 | [Chơi theo](choi-theo.md) | Chấm cao độ và nhịp khi chơi theo bài |
 | [Chép giai điệu](chep-giai-dieu.md) | Nhập nốt bằng phím thật |
 | [Xây gam và hợp âm](xay-hop-am.md) | Bấm phím để chọn các nốt |

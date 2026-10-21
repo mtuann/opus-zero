@@ -10,7 +10,7 @@ Năm cuốn sách tổng hợp nội dung của site, trình bày để **in ra 
 | **Nhạc lý nâng cao** | Bài 15–32 và âm học | <a href="../../sach/nhac-ly-nang-cao.html" target="_blank" rel="noopener">Mở sách</a> |
 | **Tóm tắt và thuật ngữ** | Tờ tóm tắt và từ điển thuật ngữ | <a href="../../sach/tom-tat-thuat-ngu.html" target="_blank" rel="noopener">Mở sách</a> |
 | **Lịch sử nhạc cổ điển** | Các thời kỳ, nhà soạn nhạc, opera, Việt Nam | <a href="../../sach/lich-su.html" target="_blank" rel="noopener">Mở sách</a> |
-| **Hướng dẫn nghe** | Đọc tên tác phẩm và 44 hướng dẫn nghe (18 về nhạc piano) | <a href="../../sach/huong-dan-nghe.html" target="_blank" rel="noopener">Mở sách</a> |
+| **Hướng dẫn nghe** | Đọc tên tác phẩm và 42 hướng dẫn nghe (16 về nhạc piano) | <a href="../../sach/huong-dan-nghe.html" target="_blank" rel="noopener">Mở sách</a> |
 | **Piano: kỹ thuật và cách tập** | Lộ trình, tư thế, bàn phím, năm ngón, gam, hợp âm, tạo tiếng đàn, bàn đạp, nốt hoa mỹ, hai tay, cách tập, thị tấu, học thuộc, giữ tay khỏe, hòa âm bên phím | <a href="../../sach/piano-ky-thuat.html" target="_blank" rel="noopener">Mở sách</a> |
 | **Piano: 10 bài đầu tiên và bài học tác phẩm** | 10 bài hai tay có số ngón, tác phẩm theo cấp và 34 bài học tác phẩm | <a href="../../sach/piano-tac-pham.html" target="_blank" rel="noopener">Mở sách</a> |
 
@@ -29,4 +29,4 @@ Năm cuốn sách tổng hợp nội dung của site, trình bày để **in ra 
 
 - Sách được tạo lại tự động mỗi khi site cập nhật, nên luôn khớp với nội dung trực tuyến; ngày in ghi ở trang bìa.
 - Công cụ tương tác (máy đếm nhịp, luyện tai, bàn phím…) không in được và đã được lược bỏ. Đường dẫn trong sách trỏ về site trực tuyến.
-- Muốn in **một bài** lẻ: mở bài đó và bấm nút **In bài này** ở đầu trang. Muốn giấy kẻ khuông để làm bài tập: xem [Giấy kẻ khuông](../luyen-tap/giay-ke-khuong.md).
+- Muốn in **một bài** lẻ: mở bài đó và bấm nút **In bài này** ở đầu trang. Muốn giấy kẻ khuông để làm bài tập: xem [Giấy kẻ khuông](../luyen-tap/phieu-bai-tap.md#giay-ke-khuong).

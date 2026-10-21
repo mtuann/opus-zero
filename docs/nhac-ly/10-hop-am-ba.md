@@ -62,7 +62,7 @@ Giọng thứ dùng **gam thứ hòa âm** khi xây hợp âm, để bậc V có
 
 (Hợp âm bậc III trong gam hòa âm thực ra là hợp âm tăng C+, nhưng trong thực tế người ta thường dùng C trưởng từ gam tự nhiên.)
 
-Khám phá mọi hợp âm trên [bàn phím piano](../luyen-tap/ban-phim.md) và luyện nghe với [công cụ nhận biết hợp âm](../luyen-tap/hop-am.md).
+Khám phá mọi hợp âm trên [bàn phím piano](../luyen-tap/ban-phim.md) và luyện nghe với [công cụ nhận biết hợp âm](../luyen-tai/nghe-hop-am.md#luyen-voi-cong-cu).
 
 !!! tip "Trên phím đàn"
     Hợp âm ba ở thế gốc: tay phải ngón **1-3-5**, tay trái **5-3-1**. Chơi khối, rồi rải từng nốt, rồi thử các hình đệm (Alberti, valse) ở [Hợp âm, hợp âm rải và hình đệm](../piano/hop-am-rai.md).
@@ -77,7 +77,7 @@ Khám phá mọi hợp âm trên [bàn phím piano](../luyen-tap/ban-phim.md) v�
     2. Bậc V của Sol trưởng là **Rê trưởng (D)**: Rê – Fa♯ – La. Bậc vi là **Mi thứ (Em)**: Mi – Sol – Si.
 
 !!! example "Luyện tập kèm theo"
-    [Nhận biết hợp âm](../luyen-tap/hop-am.md) bộ 4 loại hợp âm ba, và [xây hợp âm](../luyen-tap/xay-hop-am.md).
+    [Nhận biết hợp âm](../luyen-tai/nghe-hop-am.md#luyen-voi-cong-cu) bộ 4 loại hợp âm ba, và [xây hợp âm](../luyen-tap/xay-hop-am.md).
 
 ```quiz
 ? Hợp âm thứ được cấu tạo thế nào (từ dưới lên)?

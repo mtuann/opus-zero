@@ -177,7 +177,7 @@ K:Am
 2. **Giữ hình tay phải.** Hình và ngón của mỗi vị trí giống nhau ở mọi giọng, chỉ phím đen thay đổi. Gặp phím đen, đẩy cả bàn tay vào sâu giữa các phím đen; khi chơi hợp âm, ngón cái đặt trên phím đen là bình thường.
 3. **Nói cảm âm trước khi chơi giọng thứ.** Quên nâng cảm âm là lỗi thường gặp nhất, nhất là ở những giọng có cảm âm "lạ" như Mi♯ (Fa♯ thứ) hay Fa thăng kép (Sol♯ thứ).
 
-Thứ tự dưới đây đi quanh [vòng quãng 5](../../luyen-tap/vong-quang-nam.md), xen kẽ phía thăng và phía giáng, mỗi lần thêm một dấu hóa. Mỗi tuần một cặp giọng trưởng và thứ cùng hóa biểu, cộng với ôn các cặp đã học. Trong 4 tuần của trang này bạn đi bốn cặp đầu; từ tuần 5, ba phút khởi động mỗi ngày tiếp tục vòng này trong khi bạn học các trang sau (xem [lộ trình 12 tuần](index.md)).
+Thứ tự dưới đây đi quanh [vòng quãng 5](../../luyen-tap/hoa-bieu.md#vong-quang-nam), xen kẽ phía thăng và phía giáng, mỗi lần thêm một dấu hóa. Mỗi tuần một cặp giọng trưởng và thứ cùng hóa biểu, cộng với ôn các cặp đã học. Trong 4 tuần của trang này bạn đi bốn cặp đầu; từ tuần 5, ba phút khởi động mỗi ngày tiếp tục vòng này trong khi bạn học các trang sau (xem [lộ trình 12 tuần](index.md)).
 
 | Tuần | Giọng trưởng | Giọng thứ | Hóa biểu | Cảm âm giọng thứ |
 |---|---|---|---|---|
@@ -209,7 +209,7 @@ Sẵn sàng sang [Đệm cho một giai điệu](dem-giai-dieu.md) khi:
 
 - [ ] Chơi được ba tiến trình ở Đô, Sol, Fa, Rê trưởng, đủ ba vị trí, không nhìn bản nhạc
 - [ ] Chơi được i–iv–V–i và i–ii°6–V7–i ở La, Mi, Rê thứ
-- [ ] Nghe và gọi đúng tên bốn loại kết
+- [ ] Nghe và gọi đúng tên bốn loại kết ([công cụ nhận biết kết](../../luyen-tai/nghe-tien-trinh.md#luyen-voi-cong-cu))
 
 ## Kiểm tra nhanh
 

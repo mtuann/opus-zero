@@ -45,7 +45,7 @@ Xem thêm cách nhận diện ở [So sánh các thời kỳ](../../nhan-dien/so
 1. [Schubert, *Erlkönig*](../../nghe-nhac/schubert-erlkonig.md).
 2. [Schubert, Ngũ tấu *Con cá hồi*](../../nghe-nhac/schubert-ca-hoi.md).
 3. Berlioz, *Giao hưởng kỳ ảo*, chương 4 *Hành khúc đến đoạn đầu đài*.
-4. [Chopin, Nocturne Op. 9 số 2](../../nghe-nhac/chopin-nocturne.md).
+4. [Chopin, Nocturne Op. 9 số 2](../../piano/tac-pham/chopin-nocturne-op9-2.md).
 5. [Mendelssohn, Concerto violin cung Mi thứ](../../nghe-nhac/mendelssohn-violin.md).
 6. Verdi, *La traviata*, *Brindisi*.
 7. Wagner, *Tristan und Isolde*, Khúc dạo đầu.

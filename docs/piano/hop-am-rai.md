@@ -211,6 +211,9 @@ Cùng hình bàn tay ấy, chuyển sang các giọng khác. Nốt dưới cùng
 
 Khi đã quen, làm tương tự ở giọng thứ, với V7 lấy cảm âm từ gam thứ hòa âm. Ví dụ La thứ: La–Đô–Mi, La–Rê–Fa, La–Đô–Mi, Sol♯–Rê–Mi, La–Đô–Mi. Dựng và kiểm tra từng hợp âm bằng công cụ [xây hợp âm](../luyen-tap/xay-hop-am.md), và tập phân biệt bằng tai ở [nghe hợp âm](../luyen-tai/nghe-hop-am.md).
 
+!!! tip "Học tiếp: Hòa âm bên phím"
+    Vòng kết này là bước đầu của mục [Hòa âm bên phím](hoa-am/index.md): tiếp theo là [kết ở mọi giọng](hoa-am/ket.md) với nhiều cách dẫn bè hơn, rồi [đệm cho một giai điệu](hoa-am/dem-giai-dieu.md) bằng chính những hợp âm ấy.
+
 ## Đọc hợp âm nhanh trên bản nhạc
 
 Đọc hợp âm là đọc **hình dạng** trước, tên nốt sau:

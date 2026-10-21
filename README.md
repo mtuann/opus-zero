@@ -31,7 +31,7 @@ npm test -- a11y           # chỉ chạy một nhóm: nhanh, trang-1, trang-2 h
 | `tests/data.mjs` | Gộp dữ liệu sao lưu: 300 cặp dữ liệu ngẫu nhiên, kiểm tra không mất dữ liệu, gộp nhiều lần không nhân đôi, thứ tự gộp không đổi kết quả |
 | `tests/unit.mjs` | Hàm thuần: tên nốt, gam, hợp âm, chấm cao độ và nhịp, kế hoạch học, sinh bài tập |
 | `tests/browser.mjs` | Mở từng trang đã build như trình duyệt thật: không lỗi JavaScript, mọi khuông nhạc và công cụ khởi tạo, không tải script thừa; thử đàn MIDI ảo, micro ảo, bàn phím |
-| `tests/a11y.mjs` | Khả năng tiếp cận (axe-core) trên 38 trang tiêu biểu |
+| `tests/a11y.mjs` | Khả năng tiếp cận (axe-core) trên 41 trang tiêu biểu |
 | `tests/site_static.py` | Kiểm tra tĩnh: khối mermaid có quy tắc tải, sách "Hướng dẫn nghe" khớp nav, VERSION của sw.js và loader.js khớp nhau, nhóm kiểm thử trong `tests/run.mjs` khớp ma trận CI |
 | `tests/search.mjs` | Tìm kiếm có dấu và không dấu ra đúng trang |
 | `tests/abc_bars.py` | Độ dài từng ô nhịp trong mọi khối ```abc (hiểu cả nốt hoa mỹ `{…}`, bè chồng `&` và liên ba `(p:q:r`) và các đoạn nhạc tổng hợp |
@@ -48,19 +48,19 @@ Lần đầu cần vào **Settings → Pages → Build and deployment → Source
 ```
 docs/
 ├── index.md              Trang chủ (có tóm tắt tiến độ hôm nay)
-├── bat-dau/              Bài 0, kiểm tra đầu vào, lộ trình piano năm đầu, lộ trình nhạc lý và nghe, tóm tắt in được, hỏi đáp
+├── bat-dau/              Bài 0, kiểm tra đầu vào, lộ trình piano năm đầu, lộ trình nghe hiểu và nhạc lý, tóm tắt in được, hỏi đáp
 ├── piano/                Trục chính: lộ trình 0 → nâng cao, bắt đầu bên phím đàn, 10 bài hai tay, 8 trang kỹ thuật,
 │   │                     5 trang tập luyện, tác phẩm theo cấp, lịch sử cây đàn, thể loại, nhà soạn nhạc, nghệ sĩ
 │   ├── hoa-am/           Hòa âm bên phím và ứng tác (5 trang)
 │   └── tac-pham/         34 bài học tác phẩm (Minuet K. 2 → Ballade số 1)
 ├── nhac-ly/              32 bài nhạc lý + âm học + 3 bài ôn tập (khuông nhạc nghe được, quiz) + từ điển
 ├── nhan-dien/            Nhận diện bằng tai: so sánh thời kỳ, thể loại, dấu vân tay, luyện nghe, nghe mù
-├── luyen-tap/            16 công cụ luyện tập, phiếu bài tập và giấy kẻ khuông in được
-├── luyen-tai/            Luyện tai
+├── luyen-tap/            Công cụ luyện tập: đọc nốt, thị tấu, chơi theo, hát lại và máy lên dây, thu âm, phiếu bài tập và giấy kẻ khuông in được
+├── luyen-tai/            Luyện tai; công cụ nhận biết quãng, hợp âm, gam và kết nằm ngay trong từng bài
 ├── lich-su/              Lịch sử, dòng thời gian, nhà soạn nhạc (cả nữ), opera, Việt Nam, đương đại
 ├── hinh-thuc/            Tổng quan + 5 trang hình thức chi tiết (sonata, fugue, biến tấu, rondo, concerto)
 ├── nhac-cu/              Nhạc cụ trong dàn nhạc (phần nghe): dàn nhạc, violin, cello, guitar, sáo, clarinet, trumpet
-├── nghe-nhac/            44 hướng dẫn nghe, 18 về nhạc piano (có ghi mốc theo bản thu YouTube), đọc tên tác phẩm, nghe gì tiếp
+├── nghe-nhac/            42 hướng dẫn nghe, 16 về nhạc piano (có ghi mốc theo bản thu), đọc tên tác phẩm, nghe gì tiếp
 ├── blog/posts/           Nhật ký học (blog)
 ├── tai-nguyen.md         Tài nguyên
 ├── manifest.webmanifest  Cài như ứng dụng (PWA)
@@ -70,7 +70,7 @@ overrides/main.html       Thêm manifest và màu chủ đề vào <head>
 hooks/search_vi.py        Tìm kiếm tiếng Việt không dấu
 hooks/books.py            Tạo các sách in được (site/sach/*.html); danh sách chương ở biến BOOKS
 hooks/a11y.py             Vá nhỏ về trợ năng cho HTML sinh từ Markdown (ô đánh dấu của danh sách việc)
-hooks/redirects.py        Trang chuyển hướng cho địa chỉ cũ đã đổi chỗ (biến REDIRECTS)
+hooks/redirects.py        Trang chuyển hướng cho địa chỉ cũ đã đổi chỗ hoặc đã gộp vào trang khác (biến REDIRECTS; đích có thể kèm #mục)
 hooks/meta.py             Mô tả ngắn cho từng trang; ảnh xem trước khi chia sẻ link nằm ở docs/assets/og.png
 tests/                    Kiểm thử tự động (npm test)
 tools/figures.py          Sinh hình minh họa (SVG, sơ đồ cấu trúc) và chèn vào trang giữa <!-- fig:TÊN -->
@@ -100,7 +100,7 @@ tools/keysigs.mjs         Vẽ sẵn 15 hóa biểu bằng abcjs (chạy: node t
 | `flashcards.js` | Thẻ ghi nhớ, đọc từ các bảng có cột đầu "Thuật ngữ" |
 | `journal.js` | Nhật ký luyện tập và tóm tắt trang chủ |
 | `recognition.js` | Ví dụ phong cách, đoán phong cách, nhận biết kết và kết cấu, nghe mù (bản thu Wikimedia Commons), phiếu nghe mù |
-| `listen.js` | Nghe kèm bản thu (bản gợi ý từ Commons, YouTube, link file, file trên máy), ghi mốc trong bảng "Theo dõi khi nghe", bật/tắt mốc tham khảo (`ref` trong `data-rec`) để so sánh |
+| `listen.js` | Nghe kèm bản thu (bản gợi ý từ Commons hoặc lưu ở `docs/assets/audio/` với nguồn IMSLP, YouTube, link file, file trên máy), ghi mốc trong bảng "Theo dõi khi nghe", bật/tắt mốc tham khảo (`ref` trong `data-rec`) để so sánh |
 | `acoustics.js` | Chuỗi bồi âm và so sánh hệ lên dây |
 | `staffpaper.js`, `print.js` | Giấy kẻ khuông in được; nút "In bài này" |
 | `pwa.js` | Đăng ký service worker |

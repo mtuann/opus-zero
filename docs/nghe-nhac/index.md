@@ -23,7 +23,7 @@ Các trang có sẵn **hướng dẫn nghe** từng bước. Mỗi trang có cô
 |---|---|---|
 | [Vivaldi: Mùa xuân, chương 1](vivaldi-mua-xuan.md) | Baroque | Hình thức ritornello, âm nhạc miêu tả |
 | [Vivaldi: Mùa đông, chương 1](vivaldi-mua-dong.md) | Baroque | Ritornello, miêu tả cái rét |
-| [Bach: Prelude cung Đô trưởng](bach-prelude-c.md) | Baroque | Nghe hòa âm, âm nền |
+| [Bach: Prelude cung Đô trưởng](../piano/tac-pham/bach-prelude-do.md) | Baroque | Nghe hòa âm, âm nền |
 | [Scarlatti: Ba bản sonata](scarlatti-sonata.md) | Baroque | Hình thức hai đoạn, bắt chéo tay |
 | [Bach: Biến tấu Goldberg](bach-goldberg.md) | Baroque | Biến tấu trên bè trầm, canon |
 | [Bach: Tổ khúc cello số 1, Prelude](bach-cello-1.md) | Baroque | Hòa âm trên một nhạc cụ một bè |
@@ -42,7 +42,7 @@ Các trang có sẵn **hướng dẫn nghe** từng bước. Mỗi trang có cô
 | [Beethoven: Sonata Pathétique](beethoven-pathetique.md) | Cổ điển → Lãng mạn | Phần mở đầu chậm quay lại, rondo |
 | [Schubert: Erlkönig](schubert-erlkonig.md) | Lãng mạn | Ca khúc nghệ thuật, một ca sĩ bốn vai |
 | [Schubert: Ngũ tấu Con cá hồi, chương 4](schubert-ca-hoi.md) | Lãng mạn | Biến tấu, nhận biết nhạc cụ |
-| [Chopin: Nocturne Op. 9 số 2](chopin-nocturne.md) | Lãng mạn | Giai điệu hát, rubato |
+| [Chopin: Nocturne Op. 9 số 2](../piano/tac-pham/chopin-nocturne-op9-2.md) | Lãng mạn | Giai điệu hát, rubato |
 | [Schubert: Impromptu Sol♭ trưởng](schubert-impromptu.md) | Lãng mạn | Giai điệu và dòng đệm trong cùng một tay |
 | [Chopin: Étude Op. 10 số 3 và số 12](chopin-etude.md) | Lãng mạn | Kỹ thuật phục vụ âm nhạc |
 | [Schumann: Kinderszenen](schumann-kinderszenen.md) | Lãng mạn | Tập tiểu phẩm, chu trình 13 cảnh |
@@ -58,15 +58,16 @@ Các trang có sẵn **hướng dẫn nghe** từng bước. Mỗi trang có cô
 | [Mussorgsky: Những bức tranh ở phòng triển lãm](mussorgsky-tranh.md) | Lãng mạn | Promenade nối các bức tranh; bản piano và bản phối |
 | [Brahms: Intermezzo Op. 118 số 2](brahms-intermezzo.md) | Cuối Lãng mạn | Ba đoạn, bè giữa, canon |
 | [Puccini: "Nessun dorma" (Turandot)](puccini-nessun-dorma.md) | Lãng mạn | Aria opera, giọng tenor |
-| [Debussy: Clair de lune](debussy-clair-de-lune.md) | Ấn tượng | Không khí, nhịp mơ hồ |
+| [Debussy: Clair de lune](../piano/tac-pham/debussy-clair-de-lune.md) | Ấn tượng | Không khí, nhịp mơ hồ |
 | [Rachmaninoff: Concerto piano số 2](rachmaninoff-2.md) | Cuối Lãng mạn | Concerto, giai điệu lớn |
+| [Debussy: Préludes, quyển 1](debussy-preludes.md) | Ấn tượng | Mười hai bức tranh: gam toàn cung, gam ngũ cung, hợp âm song song |
 | [Ravel: Boléro](ravel-bolero.md) | Thế kỷ 20 | Nhận biết nhạc cụ, phối khí |
 | [Gershwin: Rhapsody in Blue](gershwin-rhapsody.md) | Thế kỷ 20 | Jazz và giao hưởng, clarinet glissando |
 | [Stravinsky: Nghi lễ mùa xuân](stravinsky-sacre.md) | Thế kỷ 20 | Tiết tấu, nghịch tai |
 | [Shostakovich: Giao hưởng số 5](shostakovich-5.md) | Thế kỷ 20 | Âm nhạc và chính trị |
 | [Pärt: Spiegel im Spiegel](part-spiegel.md) | Đương đại | Tintinnabuli, tĩnh lặng |
 
-Các hướng dẫn về **nhạc piano** (18 tác phẩm) được gom riêng trong menu, theo thứ tự thời gian từ Bach đến Gershwin. Người học piano nên nghe chúng song song với [lộ trình piano năm đầu](../bat-dau/lo-trinh-choi.md): mỗi tháng một tác phẩm.
+Các hướng dẫn về **nhạc piano** (16 tác phẩm) được gom riêng trong menu, theo thứ tự thời gian từ Scarlatti đến Gershwin. Ba tác phẩm piano trong bảng trên (Prelude Đô trưởng của Bach, Nocturne Op. 9 số 2 của Chopin, *Clair de lune* của Debussy) có bản thu và bản đồ nghe ngay trong [bài học tác phẩm](../piano/tac-pham/index.md) tương ứng. Người học piano nên nghe chúng song song với [lộ trình piano năm đầu](../bat-dau/lo-trinh-choi.md): mỗi tháng một tác phẩm.
 
 Thêm tác phẩm của riêng bạn bằng [mẫu ghi chép](mau.md). Muốn luyện nhận ra thời kỳ và tác giả khi không biết tên bản nhạc, xem mục [Nhận diện](../nhan-dien/index.md). Đã nghe hết? Xem [Nghe gì tiếp](nghe-gi-tiep.md).
 

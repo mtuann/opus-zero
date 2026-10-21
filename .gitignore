@@ -6,3 +6,6 @@ venv/
 .DS_Store
 node_modules/
 tests/.examples.json
+
+# Bản thu IMSLP tải về bằng tay (nguồn để chuyển mã vào docs/assets/audio)
+_imslp/

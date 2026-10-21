@@ -9,7 +9,7 @@ Khi bạn bấm phím, bộ máy đàn **ném** chiếc búa bọc nỉ vào dâ
 Từ đó có ba hệ quả rất thực tế:
 
 - **Độ to phụ thuộc vào tốc độ búa, tức là tốc độ phím đi xuống**, không phải lực bạn ấn vào đáy phím. Ấn thêm sau khi nốt đã kêu không làm nốt to hơn, chỉ làm tay căng.
-- **Nốt càng to càng sáng.** Búa đập càng nhanh, nỉ càng "cứng" lại khi chạm dây và tạo nhiều bồi âm cao. Vì vậy một tiếng *ff* gõ thô nghe chói, còn *ff* đẹp cần trọng lượng cánh tay và cổ tay mềm. Bạn có thể nhìn thấy bồi âm ở [Phổ âm thanh](../luyen-tap/pho-am-thanh.md); lý thuyết ở [Âm học cơ bản](../nhac-ly/am-hoc.md).
+- **Nốt càng to càng sáng.** Búa đập càng nhanh, nỉ càng "cứng" lại khi chạm dây và tạo nhiều bồi âm cao. Vì vậy một tiếng *ff* gõ thô nghe chói, còn *ff* đẹp cần trọng lượng cánh tay và cổ tay mềm. Bạn có thể nhìn thấy bồi âm, và đọc lý thuyết về chúng, ở bài [Âm học cơ bản](../nhac-ly/am-hoc.md#am-sac).
 - **Mọi nốt piano đều nhỏ dần** ngay sau khi đánh. Một "giai điệu hát" trên piano thực chất là một ảo giác được dựng lên: mỗi nốt sau được đánh vừa khớp với độ vang còn lại của nốt trước, các nốt nối nhau không hở, và khoảng thời gian giữa chúng được co giãn rất tinh tế.
 
 | Bạn điều khiển | Người nghe nhận ra |
@@ -217,11 +217,11 @@ Mỗi thời kỳ viết cho một loại đàn khác và có thói quen nghe kh
 
 | Phút | Bài | Mục tiêu |
 |---|---|---|
-| 1–2 | Thang sắc thái trên một nốt (bài 4), mỗi tay | Năm mức to nhỏ phân biệt rõ |
+| 1–2 | Thang sắc thái trên một nốt, mỗi tay | Năm mức to nhỏ phân biệt rõ |
 | 3–4 | Năm ngón legato thật chậm | Không hở, không dính |
 | 5–6 | Năm ngón staccato ngón, rồi staccato cổ tay | Ngắn, nhẹ, đều |
-| 7–8 | Dấu luyến hai nốt (bài 3) | Thả – lăn, nốt sau nhẹ hơn |
-| 9–10 | Giai điệu và đệm (bài 5) | Tay trái *p*, tay phải hát |
+| 7–8 | Dấu luyến hai nốt: thả – lăn | Thả – lăn, nốt sau nhẹ hơn |
+| 9–10 | Giai điệu hát, phần đệm lùi lại | Tay trái *p*, tay phải hát |
 
 ## Lỗi thường gặp
 

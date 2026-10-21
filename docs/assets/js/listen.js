@@ -140,7 +140,7 @@
       '<p class="oz-stats">Nghe một bản thu: dán link YouTube hoặc link tới một file âm thanh (.mp3, .ogg…), hoặc chọn một file trên máy bạn. Rồi bấm <strong>Ghi mốc</strong> trong bảng bên dưới mỗi khi nghe thấy sự kiện tương ứng. Mốc được lưu trên máy bạn, riêng cho từng bản thu; bấm vào mốc để tua đến đó.</p>' +
       (def ? '<p class="oz-stats oz-rec">Bản thu gợi ý: ' + esc(def.by || "bản thu có giấy phép mở") + (def.note ? " (" + esc(def.note) + ")" : "") +
         (def.lic ? " · " + (def.licUrl ? '<a href="' + esc(def.licUrl) + '" target="_blank" rel="license noopener">' + esc(def.lic) + "</a>" : esc(def.lic)) : "") +
-        (def.page ? ' · <a href="' + esc(def.page) + '" target="_blank" rel="noopener">Wikimedia Commons</a>' : "") +
+        (def.page ? ' · <a href="' + esc(def.page) + '" target="_blank" rel="noopener">' + (/imslp\.org\//.test(def.page) ? "IMSLP" : "Wikimedia Commons") + "</a>" : "") +
         (def.parts.length > 1 ? " · " + def.parts.length + " phần" : "") +
         '. <button class="oz-btn" data-act="default">Nghe bản này</button></p>' : "") +
       (hasRef ? '<div class="oz-ref-row"><label class="oz-ref-toggle"><input type="checkbox" class="oz-ref-on"> Hiện mốc tham khảo trong bảng</label>' +

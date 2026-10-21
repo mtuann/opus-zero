@@ -33,7 +33,7 @@ Năm 1827, năm trọn vẹn cuối cùng của đời mình, Schubert viết ha
 
 ### Sol♭ hay Sol?
 
-Trong lần in năm 1857, bài số 3 bị dịch lên **Sol trưởng** (một dấu thăng thay cho sáu dấu giáng) và các ô nhịp dài bị chia đôi, vì nhà xuất bản lo người chơi nghiệp dư ngại đọc. Việc ấy làm bài dễ đọc hơn nhưng không dễ chơi hơn, và Henle nhận xét rằng bản dịch giọng làm phai đi màu sắc riêng của tác phẩm. Ở Sol♭ trưởng, năm trong bảy nốt của gam là phím đen; chỉ Đô♭ (chính là phím Si) và Fa là phím trắng. Phím đen cao và hẹp, nằm vừa dưới đầu các ngón dài: bàn tay đặt sâu vào trong phím, vững, dễ nối legato và dễ dồn trọng lượng sang ngón 4–5 để hát. Nếu bản nhạc trong tay bạn ở Sol trưởng, đó là bản theo lần in 1857; hãy đổi sang bản Urtext ở giọng gốc. Xem thêm [Hóa biểu](../../nhac-ly/08-hoa-bieu.md) và [Dịch giọng](../../nhac-ly/17-khoa-do-dich-giong.md).
+Lần in năm 1857 dịch bài lên **Sol trưởng** cho dễ đọc (chuyện này kể ở [hướng dẫn nghe](../../nghe-nhac/schubert-impromptu.md)); dễ đọc hơn nhưng không dễ chơi hơn. Ở Sol♭ trưởng, năm trong bảy nốt của gam là phím đen; chỉ Đô♭ (chính là phím Si) và Fa là phím trắng. Phím đen cao và hẹp, nằm vừa dưới đầu các ngón dài: bàn tay đặt sâu vào trong phím, vững, dễ nối legato và dễ dồn trọng lượng sang ngón 4–5 để hát. Nếu bản nhạc trong tay bạn ở Sol trưởng, đó là bản theo lần in 1857; hãy đổi sang bản Urtext ở giọng gốc. Xem thêm [Hóa biểu](../../nhac-ly/08-hoa-bieu.md) và [Dịch giọng](../../nhac-ly/17-khoa-do-dich-giong.md).
 
 <div class="oz-piano" data-range="F3-C5" data-notes="Bb3 Db4 Gb4 Bb4" data-play="chord"></div>
 

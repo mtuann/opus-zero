@@ -1,10 +1,12 @@
 # Debussy: Clair de lune
 
-*Clair de lune* (Ánh trăng) khó không phải vì nhiều nốt, mà vì gần như cả bài nằm trong vùng *pp* và *p*, với một nhịp điệu cố tình làm mờ phách. Trang này hướng dẫn cách **tập chơi**: kiểm soát tiếng thật nhỏ, cân bằng các quãng ba, quãng sáu song song, đếm nhịp 9/8 mà vẫn nghe như trôi, chia hợp âm rải giữa hai tay và dùng bàn đạp như một bảng màu. Muốn nghe theo cấu trúc trước, xem [hướng dẫn nghe Clair de lune](../../nghe-nhac/debussy-clair-de-lune.md).
+*Clair de lune* (Ánh trăng) khó không phải vì nhiều nốt, mà vì gần như cả bài nằm trong vùng *pp* và *p*, với một nhịp điệu cố tình làm mờ phách. Trang này hướng dẫn cách **tập chơi**: kiểm soát tiếng thật nhỏ, cân bằng các quãng ba, quãng sáu song song, đếm nhịp 9/8 mà vẫn nghe như trôi, chia hợp âm rải giữa hai tay và dùng bàn đạp như một bảng màu.
 
 <div class="oz-piece" markdown>
 <span class="oz-chip">Rê♭ trưởng · 9/8</span> <span class="oz-chip">Andante très expressif</span> <span class="oz-chip oz-chip--level">≈ Grade 8</span> <span class="oz-chip">72 ô nhịp</span>
 </div>
+
+*Chỉ muốn nghe?* Đọc phần [Bối cảnh](#boi-canh) và [Theo dõi khi nghe](#theo-doi-khi-nghe); phần còn lại dành cho người tập đàn.
 
 ??? info oz-piece-info "Thông tin tác phẩm và bản nhạc nên dùng"
 
@@ -38,11 +40,12 @@ Debussy viết bộ tổ khúc khi khoảng 28 tuổi, nhưng chỉ in nó 15 n�
 
 ## Nghe trước khi tập
 
-Đọc [hướng dẫn nghe](../../nghe-nhac/debussy-clair-de-lune.md), rồi nghe lại với "tai người chơi":
+Nghe vài lần, mỗi lần với một câu hỏi của "tai người chơi":
 
 1. **Phách:** trong mười mấy ô đầu, bạn có vỗ tay theo phách được không? Nghệ sĩ có cố làm phách rõ ra hay để nó mờ?
 2. **Tầng âm thanh:** ở đoạn hợp âm rải, giai điệu nằm ở đâu, và tiếng rải của tay trái to đến mức nào?
 3. **Bàn đạp:** có chỗ nào nghe "khô" hẳn đi không? Chỗ nào tiếng đàn như được phủ sương?
+4. **Màu sắc:** Debussy không kể chuyện mà vẽ một bầu không khí. Nếu phải vẽ bản nhạc này, bạn dùng màu gì cho đoạn đầu, và màu gì cho đoạn hợp âm rải ở giữa?
 
 Nghe bản thu của Walter Gieseking, người thu trọn nhạc piano solo của Debussy, cạnh một bản thu chậm, nhiều rubato hơn để thấy biên độ của tự do trong bài này. Ghi lại tốc độ của từng bản (dài bao nhiêu phút) và cảm giác của bạn về mỗi tốc độ.
 
@@ -207,7 +210,7 @@ Bản thảo gốc đã thất lạc; các bản Urtext dựa vào ấn bản 19
 
 ## Học tiếp
 
-- **Debussy tiếp theo:** *Rêverie*, *Arabesque* số 1, các bài trong *Children's Corner*, rồi tập *Préludes*.
+- **Debussy tiếp theo:** *Rêverie*, *Arabesque* số 1, các bài trong *Children's Corner*, rồi tập *Préludes* (nghe trước với [hướng dẫn nghe quyển 1](../../nghe-nhac/debussy-preludes.md)).
 - **Cùng kỹ năng hát và bàn đạp:** [Chopin: Nocturne Op. 9 số 2](chopin-nocturne-op9-2.md), [Beethoven: Pathétique, chương 2](pathetique-adagio.md).
 - **Sau Grade 8:** [Liszt: Liebestraum số 3](liszt-liebestraum.md) cho giai điệu ở giọng giữa và bàn đạp; [Chopin: Ballade số 1](chopin-ballade-1.md), một tác phẩm lớn.
 - Xem thêm [Tác phẩm theo cấp độ](../tac-pham-theo-cap.md) và [Nghệ sĩ piano và bản thu](../nghe-si.md).

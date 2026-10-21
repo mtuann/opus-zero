@@ -1,48 +1,30 @@
 # Bài 0: Trước khi bắt đầu
 
-Trước khi chạm vào phím đàn đầu tiên, hãy dành 10 phút đọc trang này. Nó trả lời những câu hỏi mà gần như ai mới bắt đầu cũng có, nhưng ít khi được nói ra.
+Trước khi chạm vào phím đàn đầu tiên, hãy dành 10 phút đọc trang này. Nó trả lời những câu hỏi mà gần như người lớn nào mới học piano cũng có, nhưng ít khi được nói ra.
 
-Opus Zero dạy nhạc cổ điển **qua cây đàn piano**: bạn học nhạc lý bằng mắt và tai, rồi biến nó thành thứ sờ được dưới mười ngón tay. Chưa có đàn vẫn bắt đầu được (nghe và đọc nhạc), nhưng piano là con đường chính của site.
+Opus Zero dạy nhạc cổ điển **qua cây đàn piano**: bạn học nhạc lý bằng mắt và tai, rồi biến nó thành thứ sờ được dưới mười ngón tay. Chưa có đàn vẫn bắt đầu được (nghe và đọc nhạc), nhưng piano là con đường chính của site. "Nhạc cổ điển" ở đây là cả truyền thống âm nhạc nghệ thuật phương Tây, từ thánh ca thời Trung cổ đến các nhà soạn nhạc đang sống; còn **thời kỳ Cổ điển** chỉ là giai đoạn khoảng 1750–1820 của Haydn, Mozart và Beethoven. Site sẽ ghi rõ khi nói về thời kỳ.
 
-## "Nhạc cổ điển" thực ra là gì?
+## Ba hiểu lầm khi người lớn học piano
 
-Trong đời thường, "nhạc cổ điển" là tên gọi chung cho **truyền thống âm nhạc nghệ thuật phương Tây**, kéo dài hơn một nghìn năm, từ thánh ca thời Trung cổ đến các nhà soạn nhạc đang sống hôm nay. Trong lịch sử âm nhạc, **thời kỳ Cổ điển** lại chỉ là một giai đoạn ngắn, khoảng 1750–1820, của Haydn, Mozart và Beethoven. Site này dùng cả hai nghĩa, và sẽ ghi rõ khi nói về thời kỳ.
+**"Bắt đầu ở tuổi này thì quá muộn."** Không. Người lớn hiểu nhạc lý và biết tự sắp xếp việc tập tốt hơn trẻ em; ngón tay có thể quen chậm hơn một chút, nhưng đó là chuyện thời gian chứ không phải giới hạn. Điều cần chỉnh là kỳ vọng: sau năm đầu, bạn chơi trọn vẹn được những bài nhỏ như [Minuet Sol trưởng](../piano/tac-pham/minuet-sol.md) hay [Bài ca Pháp cổ](../piano/tac-pham/tchaikovsky-bai-ca-phap-co.md); *Für Elise* trọn bài thường đến sau hai năm rưỡi đến bốn năm. [Hỏi đáp](hoi-dap.md#ve-hoc-piano) có con số cho các bài khác.
 
-Vài điểm khác biệt so với nhạc phổ thông mà bạn sẽ nhận ra dần:
+**"Phải có năng khiếu."** Không. Đọc nhạc, giữ nhịp, nghe ra hòa âm và điều khiển ngón tay đều là kỹ năng, và kỹ năng thì luyện được. Bạn đã hiểu "ngữ pháp" âm nhạc phương Tây một cách vô thức qua hàng nghìn bài hát; site này giúp bạn gọi tên, rồi tự chơi lại những gì bạn vốn đã cảm thấy.
 
-- **Được ghi lại bằng bản nhạc.** Người biểu diễn chơi theo những gì nhà soạn nhạc viết, nhưng mỗi người diễn giải một khác. Vì thế cùng một tác phẩm có hàng trăm bản thu, và so sánh chúng là một phần niềm vui.
-- **Dài hơn và có kiến trúc.** Một bản giao hưởng có thể dài 40 phút, chia thành các chương. Ý tưởng âm nhạc được giới thiệu, phát triển, biến đổi rồi quay lại, giống như các chương của một cuốn tiểu thuyết.
-- **Dải âm lượng rất rộng.** Từ tiếng thì thầm của một cây violin đến tiếng gầm của cả dàn nhạc. Đừng chỉnh âm lượng theo đoạn to nhất; hãy để đoạn nhỏ đủ nghe được.
-- **Thường không có lời.** Âm nhạc tự kể chuyện bằng giai điệu, hòa âm và màu sắc nhạc cụ.
-
-## Ba hiểu lầm phổ biến
-
-**"Phải có năng khiếu mới hiểu được."** Không. Hiểu nhạc cổ điển là một kỹ năng nghe, và kỹ năng thì luyện được. Bạn đã hiểu "ngữ pháp" âm nhạc phương Tây một cách vô thức qua hàng nghìn bài hát; site này chỉ giúp gọi tên những gì bạn vốn đã cảm thấy.
-
-**"Phải biết đọc nốt mới nghe được."** Không. Bạn có thể bắt đầu nghe ngay hôm nay. Đọc nốt giúp bạn nghe *sâu hơn*, nhưng không phải điều kiện để bắt đầu.
-
-**"Nghe mà thấy chán là do mình không hợp."** Thường là do chưa biết *nghe cái gì*. Một bộ phim cũng sẽ chán nếu ta chỉ nhìn màu sắc mà không theo dõi nhân vật. Phương pháp [nghe chủ động](../nghe-nhac/index.md) sẽ thay đổi điều này.
-
-## Nghe một tác phẩm dài mà không bị lạc
-
-- **Nghe từng chương một.** Một chương 8–10 phút là một đơn vị trọn vẹn. Không cần nghe cả bản giao hưởng một lúc.
-- **Tìm "nhân vật chính".** Mỗi chương thường có một hai giai điệu chính (chủ đề). Khi bạn nhận ra chủ đề quay lại, bạn đã hiểu cấu trúc.
-- **Nghe lại.** Lần thứ ba nghe một tác phẩm luôn hay hơn lần đầu. Nhạc cổ điển được viết để nghe nhiều lần.
-- **Đọc vài dòng trước khi nghe.** Biết bối cảnh, như tác phẩm viết cho ai, kể chuyện gì, giúp bạn có điểm bám.
+**"Phải tập hàng giờ mỗi ngày."** Không. 20–30 phút mỗi ngày, có mục tiêu rõ, đi xa hơn ba tiếng dồn vào cuối tuần, vì phần lớn việc học động tác diễn ra *sau* buổi tập, kể cả trong giấc ngủ. Xem [Thói quen mỗi ngày](moi-ngay.md).
 
 ## Tôi có cần biết hát không? Tôi bị "lệch tông"
 
 Bạn không cần hát hay. Nhưng **ngân nga** (dù lệch) là công cụ học tốt nhất, vì nó buộc tai bạn chú ý đến cao độ. Phần lớn người tự nhận "lệch tông" thực ra chỉ chưa được luyện: khả năng nghe và hát đúng cao độ cải thiện rõ rệt sau vài tuần luyện tai đều đặn. Chỉ một tỉ lệ rất nhỏ dân số gặp khó khăn thật sự về nhận biết cao độ (amusia). Hãy cứ bắt đầu.
 
-## Cần chuẩn bị gì?
+## Nghe là một nửa việc học
 
-- **Tai nghe hoặc loa tử tế.** Không cần đắt tiền, nhưng loa điện thoại sẽ làm mất hết âm trầm và chi tiết.
-- **Một nguồn nghe nhạc.** YouTube miễn phí là đủ để bắt đầu. Nếu muốn chất lượng cao và thông tin đầy đủ về bản thu, có các dịch vụ chuyên nhạc cổ điển như Apple Music Classical, Idagio hoặc Presto Music. Xem thêm ở [Tài nguyên](../tai-nguyen.md).
-- **Một cây đàn**: lý tưởng là piano cơ hoặc piano điện 88 phím, phím nặng, có bàn đạp vang. Xem [Chọn đàn và góc tập](../piano/chon-dan.md). Chưa có đàn? Vẫn học được đọc nhạc, nhạc lý và nghe; bàn phím trên màn hình của site đủ cho những tuần đầu.
-- **30–45 phút mỗi ngày** và site này.
+Hãy nghe kỹ bài mình sắp tập, và nghe rộng hơn những gì mình tập. Nghe nhạc cổ điển không cần năng khiếu hay biết đọc nốt; điều cần là biết *nghe cái gì*: nghe từng chương một, tìm giai điệu chính và nhận ra khi nó quay lại, nghe lại nhiều lần. [Phương pháp nghe chủ động](../nghe-nhac/index.md) chỉ cách làm; mỗi [bài học tác phẩm](../piano/tac-pham/index.md) có bản thu và bảng "Theo dõi khi nghe" để bạn bắt đầu.
 
-## Bước tiếp theo
+## Bắt đầu từ đâu
 
-1. Làm [bài kiểm tra đầu vào](kiem-tra-dau-vao.md) (5 phút) để biết nên bắt đầu từ đâu.
-2. Theo [Hai tuần đầu tiên](../piano/hai-tuan-dau.md) bên phím đàn, rồi [Lộ trình piano năm đầu](lo-trinh-choi.md). Chỉ muốn nghe hiểu? Chọn [lộ trình nghe hiểu](lo-trinh-nghe.md).
-3. In [tờ tóm tắt](tom-tat.md) và dán cạnh bàn học.
+1. Đã chơi được một chút? Làm [bài kiểm tra đầu vào](kiem-tra-dau-vao.md) (5 phút) để biết nên vào từ đâu. Chưa từng chơi thì bỏ qua bước này.
+2. Chuẩn bị theo danh sách [Trước ngày đầu tiên](../piano/hai-tuan-dau.md#truoc-ngay-au-tien) (đàn, ghế, máy đếm nhịp, một khung giờ cố định), rồi theo [Hai tuần đầu tiên](../piano/hai-tuan-dau.md) bên phím đàn.
+3. Tiếp tục với [Lộ trình piano năm đầu](lo-trinh-choi.md), từng tháng một. Sau năm đầu, [lộ trình 7 chặng](../piano/lo-trinh.md) dẫn bạn tới những tác phẩm lớn.
+4. In [tờ tóm tắt](tom-tat.md) và dán cạnh đàn.
+
+Chưa có đàn, hoặc trước hết chỉ muốn nghe hiểu? Chọn [lộ trình nghe hiểu và nhạc lý](lo-trinh-nghe.md). Những thắc mắc thường gặp (đàn điện, tay nhỏ, có cần thầy, có nên thi cấp) có ở [Hỏi đáp](hoi-dap.md#ve-hoc-piano).

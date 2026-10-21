@@ -51,7 +51,7 @@ Bài có trong nhiều album về cuốn sổ tay của Anna Magdalena và nhi�
 
 Cùng cuốn sổ tay còn có Aria Sol trưởng, chính là chủ đề của *Goldberg Variations*: nếu muốn nghe tiếp, xem [hướng dẫn nghe Biến tấu Goldberg](../../nghe-nhac/bach-goldberg.md).
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;eldüendesüarez&quot;,&quot;note&quot;:&quot;sau mỗi lần đoạn B, người chơi đều quay lại đoạn A&quot;,&quot;lic&quot;:&quot;CC BY-SA 4.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by-sa/4.0&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Bach,_JS_-_Musette_in_D_(Piano_Performance_by_eld%C3%BCendes%C3%BCarez).wav&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5a/Bach%2C_JS_-_Musette_in_D_%28Piano_Performance_by_eld%C3%BCendes%C3%BCarez%29.wav/Bach%2C_JS_-_Musette_in_D_%28Piano_Performance_by_eld%C3%BCendes%C3%BCarez%29.wav.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5a/Bach%2C_JS_-_Musette_in_D_%28Piano_Performance_by_eld%C3%BCendes%C3%BCarez%29.wav/Bach%2C_JS_-_Musette_in_D_%28Piano_Performance_by_eld%C3%BCendes%C3%BCarez%29.wav.ogg&quot;,&quot;d&quot;:63.59}],&quot;ref&quot;:[0,9,16,21,26,37,49]}"></div>
 
 ## Theo dõi khi nghe
 

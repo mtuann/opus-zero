@@ -20,7 +20,7 @@ K:C
 [V:B] [C,E,^G,]4- | [C,E,^G,]4 |]
 ```
 
-Vì mọi khoảng cách đều bằng nhau, gam này **không có chủ âm**, không có cảm giác "về nhà". Âm thanh mơ hồ, lơ lửng, như trong mơ: đặc trưng của **Debussy** (*Voiles*, trong tập *Préludes* quyển 1).
+Vì mọi khoảng cách đều bằng nhau, gam này **không có chủ âm**, không có cảm giác "về nhà". Âm thanh mơ hồ, lơ lửng, như trong mơ: đặc trưng của **Debussy** (*Voiles*, trong tập [*Préludes* quyển 1](../nghe-nhac/debussy-preludes.md)).
 
 ## Gam bát cung
 

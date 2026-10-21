@@ -37,7 +37,7 @@ Khi giọng mới được **khẳng định đủ lâu**, thường bằng mộ
 
 ### Giọng gần
 
-Các giọng **chỉ khác 0–1 dấu hóa** là giọng gần, chuyển qua lại rất tự nhiên. Với Đô trưởng, các giọng gần là: Sol trưởng (giọng át), Fa trưởng (giọng hạ át), La thứ (song song), Mi thứ, Rê thứ. Trên [vòng quãng năm](../luyen-tap/vong-quang-nam.md), chúng là hàng xóm của nhau.
+Các giọng **chỉ khác 0–1 dấu hóa** là giọng gần, chuyển qua lại rất tự nhiên. Với Đô trưởng, các giọng gần là: Sol trưởng (giọng át), Fa trưởng (giọng hạ át), La thứ (song song), Mi thứ, Rê thứ. Trên [vòng quãng năm](../luyen-tap/hoa-bieu.md#vong-quang-nam), chúng là hàng xóm của nhau.
 
 ### Chuyển giọng qua hợp âm chung
 

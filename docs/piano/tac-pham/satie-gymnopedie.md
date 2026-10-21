@@ -187,7 +187,7 @@ Nốt nhạc gần như giống hệt, nhưng người nghe đã biết bài: h�
 - **Cùng tác giả:** *Gymnopédie* số 2 và số 3, *Gnossienne* số 1.
 - **Cùng chặng:** [Chopin: Prélude Mi thứ](chopin-prelude-mi-thu.md) (cũng hợp âm khẽ dưới một giai điệu dài), [Bach: Prelude Đô trưởng](bach-prelude-do.md), [Für Elise](fur-elise.md).
 - **Bước tiếp:** [Schumann: Träumerei](schumann-traumerei.md), rồi [Debussy: Clair de lune](debussy-clair-de-lune.md) khi đã vững hơn.
-- **Nghe thêm:** [Debussy: Clair de lune](../../nghe-nhac/debussy-clair-de-lune.md), [Pärt: Spiegel im Spiegel](../../nghe-nhac/part-spiegel.md).
+- **Nghe thêm:** [Debussy: Préludes, quyển 1](../../nghe-nhac/debussy-preludes.md), [Pärt: Spiegel im Spiegel](../../nghe-nhac/part-spiegel.md).
 
 ## Kiểm tra nhanh
 

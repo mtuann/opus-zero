@@ -2,7 +2,7 @@
 
 Nghe quãng là nghe **khoảng cách giữa hai nốt** — kỹ năng nền của mọi luyện tai. Nghe được quãng thì nghe được giai điệu (chuỗi các quãng nối nhau), hát đúng cao độ và chép lại nhạc mình nghe.
 
-Lý thuyết đầy đủ: [bài 9: Quãng](../nhac-ly/09-quang.md). Bài luyện với công cụ: [Nhận biết quãng](../luyen-tap/quang.md).
+Lý thuyết đầy đủ: [bài 9: Quãng](../nhac-ly/09-quang.md). Công cụ luyện ở [cuối bài](#luyen-voi-cong-cu).
 
 ## Nghe theo nhóm cảm giác
 
@@ -27,9 +27,13 @@ Mẹo quan trọng nhất: **phân biệt trưởng/thứ trước, đếm số 
 
 **4. Gắn với giai điệu quen thuộc.** Mỗi quãng có ít nhất một bài hát mở đầu bằng nó — xem bảng ở trang [Luyện tai](index.md). Khi phân vân giữa 4 đúng và 5 đúng, hát thầm "Here Comes the Bride" (4 đúng) rồi "Twinkle Twinkle" (5 đúng), cái nào khớp thì đó là đáp án.
 
-## Thứ tự luyện với công cụ
+## Luyện với công cụ
 
-Mở [công cụ nhận biết quãng](../luyen-tap/quang.md) và đi theo lộ trình:
+Công cụ phát một quãng, bạn chọn tên quãng. Đi theo lộ trình dưới công cụ.
+
+<div class="oz-interval-trainer"></div>
+
+Lộ trình:
 
 1. **Khởi động** (3 trưởng, 5 đúng, 8 đúng), kiểu lần lượt đi lên — ba quãng khác nhau rõ rệt.
 2. Thêm **3 thứ, 6 trưởng, 4 đúng** (bộ Cơ bản).

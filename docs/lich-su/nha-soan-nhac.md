@@ -31,7 +31,7 @@ Linh mục và nghệ sĩ violin người Venice, dạy nhạc nhiều năm tạ
 
 Nhạc sĩ organ và giám đốc âm nhạc nhà thờ ở Leipzig suốt 27 năm cuối đời. Bach là bậc thầy tuyệt đối của **phức điệu** và fugue; tác phẩm của ông là nền tảng học hòa âm và đối âm đến tận hôm nay. Sinh thời ông được biết đến như một nghệ sĩ organ hơn là nhà soạn nhạc; âm nhạc của ông được "tái khám phá" mạnh mẽ từ năm 1829 khi Mendelssohn dàn dựng lại *Thương khó theo Thánh Matthew*.
 
-**Nghe trước:** [Prelude cung Đô trưởng](../nghe-nhac/bach-prelude-c.md); [Tổ khúc cello số 1](../nghe-nhac/bach-cello-1.md); *Brandenburg Concerto số 3*; *Thương khó theo Thánh Matthew*.
+**Nghe trước:** [Prelude cung Đô trưởng](../piano/tac-pham/bach-prelude-do.md); [Tổ khúc cello số 1](../nghe-nhac/bach-cello-1.md); *Brandenburg Concerto số 3*; *Thương khó theo Thánh Matthew*.
 
 ### George Frideric Handel (1685–1759)
 
@@ -71,7 +71,7 @@ Mất năm 31 tuổi, Schubert viết hơn 600 ca khúc nghệ thuật (Lied), b
 
 Sinh ở Ba Lan, sống và biểu diễn tại Paris. Gần như mọi tác phẩm của Chopin đều cho piano, và ông được coi là "nhà thơ của cây đàn piano".
 
-**Nghe trước:** [Nocturne Op. 9 số 2](../nghe-nhac/chopin-nocturne.md); Ballade số 1; Étude Op. 10 số 3.
+**Nghe trước:** [Nocturne Op. 9 số 2](../piano/tac-pham/chopin-nocturne-op9-2.md); Ballade số 1; Étude Op. 10 số 3.
 
 ### Felix Mendelssohn (1809–1847)
 
@@ -163,7 +163,7 @@ Nhà soạn nhạc Phần Lan, biểu tượng của bản sắc dân tộc Ph�
 
 Người Pháp, mở ra chủ nghĩa ấn tượng trong âm nhạc với hòa âm mơ hồ và màu sắc âm thanh mới lạ.
 
-**Nghe trước:** [*Clair de lune*](../nghe-nhac/debussy-clair-de-lune.md); *Prélude à l'après-midi d'un faune*; *La Mer*.
+**Nghe trước:** [*Clair de lune*](../piano/tac-pham/debussy-clair-de-lune.md); *Prélude à l'après-midi d'un faune*; *La Mer*.
 
 ### Sergei Rachmaninoff (1873–1943)
 

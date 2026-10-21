@@ -49,7 +49,7 @@ Nghe cả hai chương ít nhất hai lần, mỗi lần một câu hỏi:
 
 Bài có mặt trong rất nhiều tuyển tập sonatina cho người học, nên bạn sẽ gặp đủ loại bản thu, từ nghệ sĩ chuyên nghiệp đến học sinh. Hãy chọn hai bản khác nhau rõ rệt và so sánh: tốc độ Moderato, độ ngắn của nốt láy, cách Romanze chuyển động (trôi hay kéo). Nếu tìm được, nghe thêm một bản trên fortepiano (đàn piano của thời ấy) để hình dung tiếng đàn mỏng và rõ mà bài này vốn hướng tới.
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Ramón León Egea&quot;,&quot;note&quot;:&quot;chương II không chơi các dấu nhắc lại&quot;,&quot;lic&quot;:&quot;CC BY-SA 4.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;,&quot;page&quot;:&quot;https://imslp.org/wiki/2_Sonatinas_for_Piano,_Anh.5_(Beethoven,_Ludwig_van)&quot;,&quot;parts&quot;:[{&quot;t&quot;:&quot;I. Moderato&quot;,&quot;mp3&quot;:&quot;../../../assets/audio/beethoven-sonatina-sol-1.mp3&quot;,&quot;d&quot;:152.5},{&quot;t&quot;:&quot;II. Romanze&quot;,&quot;mp3&quot;:&quot;../../../assets/audio/beethoven-sonatina-sol-2.mp3&quot;,&quot;d&quot;:150.38}],&quot;ref&quot;:[0,25,50,73,121,153,null,181,229,258]}"></div>
 
 ## Theo dõi khi nghe
 
@@ -254,7 +254,7 @@ Nhiều tuyển tập cho người học in bài dưới tên Beethoven mà khô
 
 - **Sonatina tiếp theo:** [Clementi: Sonatina Op. 36 số 1](clementi-sonatina.md), dài hơn, chương I có hình thức sonata thật.
 - **Bài "chị em":** Sonatina Fa trưởng, Anh. 5 số 2, cùng nguồn gốc đáng ngờ, nhanh nhẹn hơn (*Allegro assai* và *Rondo*).
-- **Cùng chặng:** [Burgmüller: La candeur](burgmuller-la-candeur.md); danh sách đầy đủ ở [Tác phẩm theo cấp độ](../tac-pham-theo-cap.md).
+- **Cùng chặng:** [Burgmüller: Arabesque](burgmuller-arabesque.md), [Bach: Prelude nhỏ BWV 939](bach-prelude-bwv939.md); danh sách đầy đủ ở [Tác phẩm theo cấp độ](../tac-pham-theo-cap.md).
 - **Beethoven thật:** [Für Elise](fur-elise.md), khi bạn đã vững tay hơn; xa hơn nữa là [Mozart: Sonata Đô trưởng, K. 545](mozart-k545.md).
 
 ## Kiểm tra nhanh

@@ -1,4 +1,4 @@
-# Đọc thị tấu
+# Thị tấu một bè
 
 **Thị tấu** (sight-reading) là đọc và hát hoặc chơi một bản nhạc lần đầu tiên nhìn thấy. Mỗi lần bấm "Giai điệu mới", site tạo một giai điệu 4 ô nhịp ngẫu nhiên, kết thúc ở chủ âm.
 

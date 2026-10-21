@@ -9,9 +9,7 @@ Thời gian chỉ là gợi ý. Đi chậm hơn một nửa vẫn hoàn toàn �
 
 ## Trước khi bắt đầu
 
-- [ ] Có đàn 88 phím, phím nặng, có bàn đạp vang ([Chọn đàn và góc tập](../piano/chon-dan.md))
-- [ ] Ghế chỉnh được độ cao, đủ ánh sáng, bút chì để ghi số ngón
-- [ ] Mở được [máy đếm nhịp](../luyen-tap/metronome.md) và biết [thu âm buổi tập](../luyen-tap/thu-am.md)
+- [ ] Chuẩn bị đàn, ghế, máy đếm nhịp và điện thoại để thu âm theo danh sách [Trước ngày đầu tiên](../piano/hai-tuan-dau.md#truoc-ngay-au-tien)
 - [ ] Đọc [Tư thế, thế tay và cách dùng lực](../piano/tu-the.md) và [Cách tập hiệu quả](../piano/cach-tap.md)
 - [ ] Quyết định học với thầy, tự học hay kết hợp ([Học với thầy và thi cấp](../piano/thay-va-thi.md))
 
@@ -21,7 +19,7 @@ Thời gian chỉ là gợi ý. Đi chậm hơn một nửa vẫn hoàn toàn �
 
 | Bên đàn | Đọc nhạc và nhạc lý | Tai và nghe |
 |---|---|---|
-| [Hai tuần đầu tiên](../piano/hai-tuan-dau.md): tư thế, Đô giữa, thế Đô. Rồi [10 bài đầu tiên](../piano/10-bai-dau-tien.md), bài 1–3 | [Bài 1–3](../nhac-ly/01-cao-do-ten-not.md): tên nốt, khuông nhạc, trường độ. [Đọc nốt](../luyen-tap/doc-not.md) khóa Sol mỗi ngày | [Bach: Prelude Đô trưởng](../nghe-nhac/bach-prelude-c.md). Hãy nhớ cảm giác này: vài tháng nữa chính bạn sẽ chơi nó |
+| [Hai tuần đầu tiên](../piano/hai-tuan-dau.md): tư thế, Đô giữa, thế Đô. Rồi [10 bài đầu tiên](../piano/10-bai-dau-tien.md), bài 1–3 | [Bài 1–3](../nhac-ly/01-cao-do-ten-not.md): tên nốt, khuông nhạc, trường độ. [Đọc nốt](../luyen-tap/doc-not.md) khóa Sol mỗi ngày | [Bach: Prelude Đô trưởng](../piano/tac-pham/bach-prelude-do.md). Hãy nhớ cảm giác này: đến chặng 4 của lộ trình, chính bạn sẽ chơi nó |
 
 - [ ] Chơi bài 1–3 hai tay ở ♩ = 72, không dừng
 - [ ] Đọc đúng 9/10 nốt khóa Sol trong công cụ đọc nốt
@@ -53,7 +51,7 @@ Thời gian chỉ là gợi ý. Đi chậm hơn một nửa vẫn hoàn toàn �
 
 | Bên đàn | Đọc nhạc và nhạc lý | Tai và nghe |
 |---|---|---|
-| 10 bài đầu tiên, bài 8 (Largo, bàn đạp lần đầu). [Bàn đạp](../piano/ban-dap.md): bàn đạp nối. Gam Sol và Fa trưởng | [Bài 8–9](../nhac-ly/08-hoa-bieu.md): hóa biểu, quãng. [Thị tấu](../luyen-tap/thi-tau.md) cấp 1, ba giai điệu mỗi ngày | [Chopin: Nocturne Op. 9 số 2](../nghe-nhac/chopin-nocturne.md): nghe piano "hát" |
+| 10 bài đầu tiên, bài 8 (Largo, bàn đạp lần đầu). [Bàn đạp](../piano/ban-dap.md): bàn đạp nối. Gam Sol và Fa trưởng | [Bài 8–9](../nhac-ly/08-hoa-bieu.md): hóa biểu, quãng. [Thị tấu](../luyen-tap/thi-tau.md) cấp 1, ba giai điệu mỗi ngày | [Chopin: Nocturne Op. 9 số 2](../piano/tac-pham/chopin-nocturne-op9-2.md): nghe piano "hát" |
 
 - [ ] Đổi bàn đạp đúng lúc trong bài 8, tiếng không nhòe mà cũng không đứt
 - [ ] Đọc hóa biểu đến 2 dấu hóa bằng [công cụ hóa biểu](../luyen-tap/hoa-bieu.md)
@@ -81,49 +79,49 @@ Cuối tháng 6 là cuối chặng đầu của [lộ trình piano](../piano/lo-
 
 ## Quý 3: phong cách Cổ điển, hai tay độc lập hơn
 
-### Tháng 7: Burgmüller, legato và staccato
+### Tháng 7: Burgmüller và giai điệu hát
 
 | Bên đàn | Đọc nhạc và nhạc lý | Tai và nghe |
 |---|---|---|
-| [Burgmüller](../piano/tac-pham/burgmuller-arabesque.md): *La candeur* (Op. 100 số 1), rồi *Arabesque*. [Tạo tiếng đàn](../piano/tieng-dan.md): legato, staccato, giai điệu nổi trên phần đệm | [Bài 13](../nhac-ly/13-ket.md): kết và câu nhạc. Đánh dấu bằng bút chì các kết trong bài đang tập | [Nghe hợp âm](../luyen-tai/nghe-hop-am.md): trưởng và thứ. Nghe [Scarlatti](../nghe-nhac/scarlatti-sonata.md) |
+| [Burgmüller: *La candeur*](../piano/tac-pham/burgmuller-la-candeur.md) (Op. 100 số 1), hoặc [Tchaikovsky: Bài ca Pháp cổ](../piano/tac-pham/tchaikovsky-bai-ca-phap-co.md). [Tạo tiếng đàn](../piano/tieng-dan.md): legato, staccato, giai điệu nổi trên phần đệm | [Bài 13](../nhac-ly/13-ket.md): kết và câu nhạc. Đánh dấu bằng bút chì các kết trong bài đang tập | [Nghe hợp âm](../luyen-tai/nghe-hop-am.md): trưởng và thứ. Nghe [Scarlatti](../nghe-nhac/scarlatti-sonata.md) |
 
-- [ ] Một tay legato, tay kia staccato, rõ ràng và đúng nhịp
+- [ ] Giai điệu legato nổi rõ trên phần đệm nhỏ hơn của tay kia
 - [ ] Phân biệt hợp âm trưởng và thứ đúng 9/10 lần
 
-### Tháng 8: sonatina đầu tiên
+### Tháng 8: câu nhạc Cổ điển
 
 | Bên đàn | Đọc nhạc và nhạc lý | Tai và nghe |
 |---|---|---|
-| [Clementi: Sonatina Op. 36 số 1](../piano/tac-pham/clementi-sonatina.md), chương 1. [Phối hợp hai tay](../piano/hai-tay.md): giai điệu trên hình đệm Alberti | [Bài 14](../nhac-ly/14-ky-hieu-bieu-dien.md) và [Ôn tập 3](../nhac-ly/on-tap-3.md). Đọc [hình thức sonata](../hinh-thuc/sonata.md) | [Beethoven: Sonata Pathétique](../nghe-nhac/beethoven-pathetique.md) |
+| [Mozart: Minuet Fa trưởng K. 2](../piano/tac-pham/mozart-minuet-k2.md): câu bốn ô, kết nửa và kết trọn. [Phối hợp hai tay](../piano/hai-tay.md): giai điệu trên phần đệm đơn giản | [Bài 14](../nhac-ly/14-ky-hieu-bieu-dien.md) và [Ôn tập 3](../nhac-ly/on-tap-3.md). Đọc [hình thức sonata](../hinh-thuc/sonata.md) | [Beethoven: Sonata Pathétique](../nghe-nhac/beethoven-pathetique.md) |
 
-- [ ] Chương 1 sonatina ở tốc độ mục tiêu ghi trong bài học, không dừng
+- [ ] Chơi trọn Minuet K. 2 có nhắc lại, nghe rõ chỗ kết nửa và kết trọn
 - [ ] Khi nghe một chương sonata, chỉ ra được trình bày, phát triển, tái hiện
 
 ### Tháng 9: Baroque và nốt hoa mỹ
 
 | Bên đàn | Đọc nhạc và nhạc lý | Tai và nghe |
 |---|---|---|
-| Clementi chương 2–3. Minuet Sol thứ (BWV Anh. 115) hoặc một bài khác trong *Notebook for Anna Magdalena Bach*. [Nốt hoa mỹ](../piano/not-hoa-my.md): láy và láy rền ngắn | [Bài 15](../nhac-ly/15-tiet-tau-nang-cao.md): tiết tấu nâng cao. [Hình thức nhỏ](../nhac-ly/31-hinh-thuc-nho.md) | [Schubert: Impromptu Sol♭ trưởng](../nghe-nhac/schubert-impromptu.md) |
+| [Minuet Sol thứ](../piano/tac-pham/minuet-sol-thu.md) (BWV Anh. 115) hoặc [Musette Rê trưởng](../piano/tac-pham/musette-re.md): phát âm kiểu Baroque. Đọc trước trang [Nốt hoa mỹ](../piano/not-hoa-my.md) để nhận ra các ký hiệu khi gặp; láy và appoggiatura thuộc chặng 3, láy rền thuộc chặng 4 | [Bài 15](../nhac-ly/15-tiet-tau-nang-cao.md): tiết tấu nâng cao. [Hình thức nhỏ](../nhac-ly/31-hinh-thuc-nho.md) | [Schubert: Impromptu Sol♭ trưởng](../nghe-nhac/schubert-impromptu.md) |
 
 - [ ] Gam trưởng đến 2 dấu hóa, hai tay, hai quãng tám
-- [ ] Một láy rền ngắn, đều và đúng phách
+- [ ] Chơi trọn Minuet Sol thứ hoặc Musette, có nhắc lại, nhịp đều từ đầu đến cuối
 
 ## Quý 4: chương trình đầu tiên
 
-### Tháng 10: Lãng mạn và rubato
+### Tháng 10: Lãng mạn và câu nhạc biết thở
 
 | Bên đàn | Đọc nhạc và nhạc lý | Tai và nghe |
 |---|---|---|
-| [Chopin: Valse La thứ](../piano/tac-pham/chopin-valse-la-thu.md): bàn đạp mỗi ô, rubato nhẹ. Bắt đầu [học thuộc](../piano/hoc-thuoc-bieu-dien.md) một bài | [Phân tích một tác phẩm](../nhac-ly/26-phan-tich.md), áp dụng cho chính bài bạn đang tập | [Liszt: Liebestraum số 3](../nghe-nhac/liszt-liebestraum.md) |
+| [Schumann: Album für die Jugend](../piano/tac-pham/schumann-album.md): *Wilder Reiter*, *Fröhlicher Landmann*; chậm lại một chút ở cuối câu rồi trở về nhịp. Bắt đầu [học thuộc](../piano/hoc-thuoc-bieu-dien.md) một bài | [Phân tích một tác phẩm](../nhac-ly/26-phan-tich.md), áp dụng cho chính bài bạn đang tập | [Liszt: Liebestraum số 3](../nghe-nhac/liszt-liebestraum.md) |
 
-- [ ] Bàn đạp mỗi ô nhịp sạch trong cả bài valse
+- [ ] Giai điệu ở tay trái (*Fröhlicher Landmann*) nổi rõ hơn hợp âm của tay phải
 - [ ] Viết được sơ đồ cấu trúc (A – B – A…) của bài đang tập
 
 ### Tháng 11: chuẩn bị chương trình
 
 | Bên đàn | Đọc nhạc và nhạc lý | Tai và nghe |
 |---|---|---|
-| Chọn ba bài, mỗi bài một thời kỳ (Baroque, Cổ điển, Lãng mạn). Mỗi tuần một lần "biểu diễn thử" từ đầu đến cuối, thu âm | [Đọc nhạc và thị tấu](../piano/thi-tau.md): mỗi ngày 5 phút thị tấu bài dễ hơn hai cấp | [Debussy: Clair de lune](../nghe-nhac/debussy-clair-de-lune.md): nghe và đặt một mục tiêu dài hạn |
+| Chọn ba bài, mỗi bài một thời kỳ (Baroque, Cổ điển, Lãng mạn), ví dụ Musette Rê trưởng, Minuet K. 2 và Bài ca Pháp cổ. Mỗi tuần một lần "biểu diễn thử" từ đầu đến cuối, thu âm | [Đọc nhạc và thị tấu](../piano/thi-tau.md): mỗi ngày 5 phút thị tấu bài dễ hơn hai cấp | [Debussy: Clair de lune](../piano/tac-pham/debussy-clair-de-lune.md): nghe và đặt một mục tiêu dài hạn |
 
 - [ ] Chơi liền ba bài, sai vẫn đi tiếp, không quay lại
 - [ ] Có kế hoạch cho những chỗ hay vấp (điểm xuất phát dự phòng)
@@ -143,13 +141,13 @@ Cuối năm đầu, bạn đã ở khoảng chặng 2 của [lộ trình](../pia
 
 ## Năm thứ hai
 
-- Bên đàn: chặng 2–3 của [lộ trình piano](../piano/lo-trinh.md), với [Bach: Prelude Đô trưởng](../piano/tac-pham/bach-prelude-do.md), [Für Elise](../piano/tac-pham/fur-elise.md) trọn bài, [Chopin: Prélude Mi thứ](../piano/tac-pham/chopin-prelude-mi-thu.md) và [Gymnopédie số 1](../piano/tac-pham/satie-gymnopedie.md). Thêm bài từ [Tác phẩm theo cấp độ](../piano/tac-pham-theo-cap.md).
-- Nhạc lý và nghe: [Lộ trình nhạc lý và nghe 12 tháng](lo-trinh.md) từ giai đoạn 3, rồi các bài trung cấp.
+- Bên đàn: từ chặng 2 sang chặng 3 của [lộ trình piano](../piano/lo-trinh.md), với [Sonatina Sol trưởng](../piano/tac-pham/beethoven-sonatina-sol.md), [Clementi: Sonatina Op. 36 số 1](../piano/tac-pham/clementi-sonatina.md), [Burgmüller: Arabesque](../piano/tac-pham/burgmuller-arabesque.md), [Bach: Prelude nhỏ BWV 939](../piano/tac-pham/bach-prelude-bwv939.md), [Tchaikovsky: Cầu nguyện buổi sáng](../piano/tac-pham/tchaikovsky-cau-nguyen-buoi-sang.md) và [Chopin: Valse La thứ](../piano/tac-pham/chopin-valse-la-thu.md). Cuối năm, nếu muốn, chọn một "bài với" của chặng 4 như [Gymnopédie số 1](../piano/tac-pham/satie-gymnopedie.md) hoặc [Für Elise](../piano/tac-pham/fur-elise.md) trọn bài. Thêm bài từ [Tác phẩm theo cấp độ](../piano/tac-pham-theo-cap.md).
+- Nhạc lý và nghe: [nhánh nhạc lý](lo-trinh-nghe.md#nhanh-nhac-ly) từ bài 16, rồi các bài trung cấp; nghe theo [lộ trình nghe hiểu](lo-trinh-nghe.md).
 - Mục tiêu bên ngoài: vài buổi học với thầy để chỉnh tư thế, hoặc một kỳ thi cấp ([Học với thầy và thi cấp](../piano/thay-va-thi.md)).
 
 ## Khi bạn chậm hơn lộ trình
 
-Gần như ai cũng chậm hơn ở vài tháng, nhất là tháng 2 (hai tay) và tháng 8 (sonatina). Khi đó:
+Gần như ai cũng chậm hơn ở vài tháng, nhất là tháng 2 (hai tay) và tháng 6 (tác phẩm thật đầu tiên). Khi đó:
 
 - **Giữ thói quen, giảm mục tiêu.** 15 phút mỗi ngày tốt hơn bỏ một tuần.
 - **Một bài thôi.** Tập một bài cho xong hẳn, thay vì ba bài dang dở.

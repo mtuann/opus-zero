@@ -4,6 +4,15 @@ Trang này ghi lại những thay đổi lớn của site và quy trình giữ c
 
 ## Nhật ký thay đổi
 
+### 10/2026: Phiên bản 14 (gọn lại quanh cây đàn)
+
+- **Cả 34 bài học tác phẩm đều có bản thu:** mười bài học có thêm bản thu từ [IMSLP](https://imslp.org/) (mười ba bản thu của Luis Kolodin, Ramón León Egea, Jewgeni Smirnow và nhóm Mississippi College Piano Pedagogy), lưu ngay trên site vì IMSLP không cho nhúng file trực tiếp; Thuyền ca Venice và Musette Rê trưởng có bản thu từ Wikimedia Commons. Các bản thu mới đều có mốc tham khảo. Người chơi, giấy phép và nguồn của từng file: [tệp nguồn âm thanh](assets/audio/NGUON.txt).
+- **Hướng dẫn nghe mới: [Debussy, *Préludes* quyển 1](nghe-nhac/debussy-preludes.md).** Mười hai bức tranh âm thanh, với bản thu trọn quyển của Marcelle Meyer (1956, phạm vi công cộng) và mốc đầu từng bản.
+- **Gộp những trang trùng nhau:** công cụ nhận biết quãng, hợp âm và gam nằm ngay cuối các bài [Luyện tai](luyen-tai/index.md), cạnh phần hướng dẫn cách nghe; công cụ nhận biết kết chuyển sang [Nghe tiến trình hòa âm](luyen-tai/nghe-tien-trinh.md#luyen-voi-cong-cu); vòng quãng năm vào trang [Hóa biểu](luyen-tap/hoa-bieu.md#vong-quang-nam); giấy kẻ khuông vào [Phiếu bài tập](luyen-tap/phieu-bai-tap.md#giay-ke-khuong); phổ âm thanh vào bài [Âm học](nhac-ly/am-hoc.md#am-sac); máy lên dây vào trang [Hát lại](luyen-tap/hat-lai.md#may-len-day). Ba hướng dẫn nghe (Prelude Đô trưởng của Bach, Nocturne Op. 9 số 2, *Clair de lune*) gộp vào bài học tác phẩm tương ứng, mỗi bài có lối tắt cho người chỉ muốn nghe. Hai lộ trình cho người chưa có đàn gộp thành [Lộ trình nghe hiểu và nhạc lý](bat-dau/lo-trinh-nghe.md). Địa chỉ cũ vẫn dùng được và đưa thẳng tới đúng mục ở trang mới.
+- **Viết lại cho người tập đàn:** [Bài 0](bat-dau/bai-0.md) (ba hiểu lầm của người lớn học piano, bắt đầu từ đâu); [Nghe tiến trình hòa âm](luyen-tai/nghe-tien-trinh.md) với ví dụ hai tay và những tiến trình gặp trong bài đang tập; tháng 7–10 của [Lộ trình piano năm đầu](bat-dau/lo-trinh-choi.md) dùng các bài học tác phẩm vừa sức.
+- **Mục mới [Bài phổ biến ngoài nhạc cổ điển](piano/tac-pham-theo-cap.md#ngoai-co-dien)**, bắt đầu với *Mariage d'Amour*, bài hay bị gọi nhầm là "Spring Waltz" của Chopin. Bảng [Grade nghĩa là gì trên site này](piano/thay-va-thi.md#thi-cap); mức độ ở [Các thể loại nhạc piano](piano/the-loai.md) ghi theo bảy chặng. Trang [Thu âm buổi tập](luyen-tap/thu-am.md) thêm cách thu sao cho nghe lại được.
+- **Rà soát độ chính xác:** cấp độ ước lượng của nhiều bài được thống nhất giữa các trang; biệt danh "Ánh trăng" (hình ảnh của Rellstab, cái tên chỉ phổ biến sau khi Beethoven mất); năm thu Giao hưởng số 5 của Carlos Kleiber (1974); Chopin viết ba sonata piano; hai tập cuối *Lieder ohne Worte* của Mendelssohn in sau khi ông mất. Những nội dung từng có ở hai nơi (ba bàn đạp, bảng danh mục tác phẩm, khi bị chững lại, buổi tập mẫu, [kế hoạch hôm nay](luyen-tap/index.md#hom-nay-nen-luyen-gi)) giờ chỉ còn ở một trang, các trang khác dẫn link tới.
+
 ### 10/2026: Phiên bản 13 (mốc tham khảo khi nghe)
 
 - **Mốc tham khảo trong bảng "Theo dõi khi nghe":** 32 trang có bản thu gợi ý giờ có sẵn thời điểm của từng sự kiện trong bản thu ấy. Mặc định ẩn để bạn tự nghe và ghi mốc trước; bật ô **Hiện mốc tham khảo** thì mỗi dòng có mốc tham khảo, bấm vào để nghe từ đó, và nếu bạn đã ghi mốc trên cùng bản thu, bảng cho biết bạn khớp (lệch không quá 2 giây), sớm hay muộn bao nhiêu giây. Lựa chọn bật hay tắt được nhớ riêng cho từng trang.
@@ -89,7 +98,7 @@ Thêm khoảng 50 hình minh họa ở những chỗ hình giúp hiểu rõ hơn
 - **Site nghe bạn:** [Chơi theo](luyen-tap/choi-theo.md) chấm cao độ và nhịp qua micro hoặc đàn MIDI; [Hát lại](luyen-tap/hat-lai.md) chấm giọng hát theo cent; [Đọc thị tấu](luyen-tap/thi-tau.md) có chế độ chơi và được chấm.
 - **Đàn MIDI:** [kết nối đàn piano điện](luyen-tap/ket-noi-midi.md) và dùng phím thật trong đọc nốt, thị tấu, chơi theo, chép giai điệu, xây hợp âm, bàn phím.
 - **Kế hoạch học tự thích ứng:** trang chủ và nhật ký đề xuất buổi tập mỗi ngày dựa trên độ chính xác và thời gian chưa luyện của từng kỹ năng; bảng năng lực 13 kỹ năng.
-- **Công cụ mới:** [chép giai điệu](luyen-tap/chep-giai-dieu.md), [thu âm buổi tập](luyen-tap/thu-am.md), [phổ âm thanh](luyen-tap/pho-am-thanh.md).
+- **Công cụ mới:** [chép giai điệu](luyen-tap/chep-giai-dieu.md), [thu âm buổi tập](luyen-tap/thu-am.md), [phổ âm thanh](nhac-ly/am-hoc.md#am-sac).
 
 ### 10/2026: Phiên bản 5
 
@@ -103,7 +112,7 @@ Thêm khoảng 50 hình minh họa ở những chỗ hình giúp hiểu rõ hơn
 - **Lịch sử:** trang riêng cho 6 thời kỳ; thêm 16 chân dung nhà soạn nhạc; trang [Nhạc truyền thống Việt Nam và nhạc cổ điển](lich-su/nhac-truyen-thong-viet-nam.md).
 - **Nghe nhạc:** 10 hướng dẫn nghe mới (tổng cộng 23); trang [Đọc tên tác phẩm và bản thu](nghe-nhac/doc-ten-tac-pham.md); công cụ **ghi mốc thời gian** theo bản thu YouTube của bạn ngay trong mỗi hướng dẫn.
 - **Nhạc cụ:** trang [các nhạc cụ khác](nhac-cu/nhac-cu-khac.md): cello, sáo, giọng hát, organ, harpsichord.
-- **Hạ tầng:** kiểm tra link tự động hằng tuần; trang [tài liệu tham khảo](tai-lieu-tham-khao.md); nút "In bài này" ở mỗi bài học; [giấy kẻ khuông in được](luyen-tap/giay-ke-khuong.md).
+- **Hạ tầng:** kiểm tra link tự động hằng tuần; trang [tài liệu tham khảo](tai-lieu-tham-khao.md); nút "In bài này" ở mỗi bài học; [giấy kẻ khuông in được](luyen-tap/phieu-bai-tap.md#giay-ke-khuong).
 
 ### 10/2026: Phiên bản 3
 

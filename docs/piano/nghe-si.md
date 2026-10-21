@@ -133,7 +133,7 @@ Một lưu ý: bản thu cũ (trước khoảng năm 1955 thường là mono) c�
 ### Baroque
 
 1. **Couperin, *Les Barricades mystérieuses***: dòng nốt rải so le không dứt, như một tấm vải đang dệt. Nghe: Angela Hewitt trên piano, rồi một bản harpsichord.
-2. **Bach, *Bình quân luật* quyển 1**: 24 cặp prelude và fugue qua mọi giọng; bắt đầu với [Prelude Đô trưởng](../nghe-nhac/bach-prelude-c.md). Nghe: Edwin Fischer, Sviatoslav Richter, András Schiff.
+2. **Bach, *Bình quân luật* quyển 1**: 24 cặp prelude và fugue qua mọi giọng; bắt đầu với [Prelude Đô trưởng](tac-pham/bach-prelude-do.md). Nghe: Edwin Fischer, Sviatoslav Richter, András Schiff.
 3. **Bach, Partita số 2 Đô thứ BWV 826**: từ phần mở đầu trang nghiêm đến Capriccio phóng khoáng. Nghe: Martha Argerich.
 4. **Bach, *Goldberg Variations***: [hướng dẫn nghe](../nghe-nhac/bach-goldberg.md). Nghe: Glenn Gould (1955 và 1981), András Schiff, Igor Levit.
 5. **Scarlatti, Sonata K. 141 và K. 380**: [hướng dẫn nghe](../nghe-nhac/scarlatti-sonata.md). Nghe: Vladimir Horowitz (K. 380), Martha Argerich (K. 141).
@@ -144,18 +144,18 @@ Một lưu ý: bản thu cũ (trước khoảng năm 1955 thường là mono) c�
 7. **Mozart, Sonata La trưởng K. 331**: [hướng dẫn nghe](../nghe-nhac/mozart-k331.md). Nghe: Mitsuko Uchida, Maria João Pires.
 8. **Mozart, Concerto số 21 Đô trưởng K. 467**: [hướng dẫn nghe](../nghe-nhac/mozart-concerto-21.md). Nghe: Murray Perahia, Rudolf Serkin.
 9. **Beethoven, Sonata *Pathétique* Op. 13**: [hướng dẫn nghe](../nghe-nhac/beethoven-pathetique.md); [bài học chương 2](tac-pham/pathetique-adagio.md). Nghe: Wilhelm Kempff, Alfred Brendel.
-10. **Beethoven, Sonata *Ánh trăng* Op. 27 số 2**: [hướng dẫn nghe](../nghe-nhac/beethoven-moonlight.md). Nghe: Artur Schnabel, Wilhelm Kempff.
+10. **Beethoven, Sonata *Ánh trăng* Op. 27 số 2**: [hướng dẫn nghe](../nghe-nhac/beethoven-moonlight.md); [bài học chương 1](tac-pham/beethoven-anh-trang.md). Nghe: Artur Schnabel, Wilhelm Kempff.
 11. **Beethoven, Sonata số 32 Đô thứ Op. 111**: hai chương, một cơn bão rồi một arietta với chuỗi biến tấu dần tan vào những tiếng láy rền. Nghe: Artur Schnabel, Maurizio Pollini, Igor Levit.
 
 ### Lãng mạn
 
-12. **Schubert, Impromptu D. 899**: [hướng dẫn nghe](../nghe-nhac/schubert-impromptu.md). Nghe: Radu Lupu, Maria João Pires.
+12. **Schubert, Impromptu D. 899**: [hướng dẫn nghe](../nghe-nhac/schubert-impromptu.md); [bài học số 3](tac-pham/schubert-impromptu-sol-giang.md). Nghe: Radu Lupu, Maria João Pires.
 13. **Schubert, Sonata Si♭ trưởng D. 960**: giai điệu dài như bài hát, và một tiếng láy rền trầm, xa xăm ngay trang đầu. Nghe: Sviatoslav Richter, Wilhelm Kempff, Krystian Zimerman.
 14. **Schumann, *Kinderszenen* Op. 15**: [hướng dẫn nghe](../nghe-nhac/schumann-kinderszenen.md). Nghe: Martha Argerich, Vladimir Horowitz.
-15. **Chopin, Nocturne Op. 9 số 2**: [hướng dẫn nghe](../nghe-nhac/chopin-nocturne.md); [bài học](tac-pham/chopin-nocturne-op9-2.md). Nghe: Arthur Rubinstein, Maria João Pires.
+15. **Chopin, Nocturne Op. 9 số 2**: [bài học, có bản đồ nghe](tac-pham/chopin-nocturne-op9-2.md). Nghe: Arthur Rubinstein, Maria João Pires.
 16. **Chopin, Étude Op. 10 và Op. 25**: [hướng dẫn nghe](../nghe-nhac/chopin-etude.md). Nghe: Maurizio Pollini, Yunchan Lim.
 17. **Chopin, Ballade số 1 Sol thứ Op. 23**: [bài học](tac-pham/chopin-ballade-1.md). Nghe: Krystian Zimerman, Arthur Rubinstein.
-18. **Liszt, *Liebestraum* số 3**: [hướng dẫn nghe](../nghe-nhac/liszt-liebestraum.md), có gợi ý bản thu.
+18. **Liszt, *Liebestraum* số 3**: [hướng dẫn nghe](../nghe-nhac/liszt-liebestraum.md), có gợi ý bản thu; [bài học](tac-pham/liszt-liebestraum.md).
 19. **Liszt, Sonata Si thứ**: một chương dài khoảng nửa giờ, vài chủ đề biến hình liên tục. Nghe: Vladimir Horowitz, Martha Argerich, Krystian Zimerman.
 20. **Brahms, Intermezzo Op. 117 và Op. 118**: [hướng dẫn nghe](../nghe-nhac/brahms-intermezzo.md). Nghe: Radu Lupu, Glenn Gould.
 21. **Grieg, Concerto La thứ Op. 16**: [hướng dẫn nghe](../nghe-nhac/grieg-concerto.md). Nghe: Dinu Lipatti, Sviatoslav Richter, Krystian Zimerman.
@@ -164,7 +164,7 @@ Một lưu ý: bản thu cũ (trước khoảng năm 1955 thường là mono) c�
 ### Thế kỷ 20 và hôm nay
 
 23. **Satie, *Gymnopédies***: [bài học](tac-pham/satie-gymnopedie.md). Nghe: Aldo Ciccolini, Pascal Rogé.
-24. **Debussy, *Clair de lune*, rồi *Préludes* quyển 1**: [hướng dẫn nghe](../nghe-nhac/debussy-clair-de-lune.md). Nghe: Walter Gieseking; với *Préludes*: Arturo Benedetti Michelangeli, Krystian Zimerman.
+24. **Debussy, *Clair de lune*, rồi *Préludes* quyển 1**: [bài học *Clair de lune*](tac-pham/debussy-clair-de-lune.md); [hướng dẫn nghe *Préludes*](../nghe-nhac/debussy-preludes.md). Nghe: Walter Gieseking; với *Préludes*: Arturo Benedetti Michelangeli, Krystian Zimerman.
 25. **Ravel, *Gaspard de la nuit***: ba bức tranh theo thơ Aloysius Bertrand: nàng tiên nước *Ondine*, giá treo cổ *Le Gibet*, chú lùn *Scarbo*. Nghe: Martha Argerich, Ivo Pogorelich.
 26. **Rachmaninoff, Concerto số 2**: [hướng dẫn nghe](../nghe-nhac/rachmaninoff-2.md). Nghe: chính Rachmaninoff, Sviatoslav Richter.
 27. **Gershwin, *Rhapsody in Blue***: [hướng dẫn nghe](../nghe-nhac/gershwin-rhapsody.md).

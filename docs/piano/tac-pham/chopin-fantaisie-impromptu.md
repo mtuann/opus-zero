@@ -229,7 +229,7 @@ Nếu đến tuần 8 hai tay vẫn "kéo" nhau, đừng ép tốc độ: kéo d
 
 ### Đoạn giữa như một nocturne
 
-Đoạn *Moderato cantabile* là một bài hát *sotto voce* ("nhỏ giọng"). Những gì bạn học ở [Nocturne Op. 9 số 2](chopin-nocturne-op9-2.md) đều dùng ở đây: giai điệu legato, tay trái nhỏ hơn hẳn, rubato ở tay phải trên một nền giữ nhịp. Đừng chậm đến mức thành *Largo*: thử quanh ♩ ≈ 60–72. Các nốt hoa mỹ (láy rền, nhóm nốt nhỏ, nhóm liên bảy) nên nhẹ, như một nét luyến láy của giọng hát; với Chopin, nhiều chuyên gia như Eigeldinger cho rằng nốt hoa mỹ thường bắt đầu đúng phách. Muốn nghe kỹ một nocturne trước, đọc [hướng dẫn nghe Nocturne Op. 9 số 2](../../nghe-nhac/chopin-nocturne.md).
+Đoạn *Moderato cantabile* là một bài hát *sotto voce* ("nhỏ giọng"). Những gì bạn học ở [Nocturne Op. 9 số 2](chopin-nocturne-op9-2.md) đều dùng ở đây: giai điệu legato, tay trái nhỏ hơn hẳn, rubato ở tay phải trên một nền giữ nhịp. Đừng chậm đến mức thành *Largo*: thử quanh ♩ ≈ 60–72. Các nốt hoa mỹ (láy rền, nhóm nốt nhỏ, nhóm liên bảy) nên nhẹ, như một nét luyến láy của giọng hát; với Chopin, nhiều chuyên gia như Eigeldinger cho rằng nốt hoa mỹ thường bắt đầu đúng phách. Muốn nghe kỹ một nocturne trước, dùng bản thu và bảng [Theo dõi khi nghe](chopin-nocturne-op9-2.md#theo-doi-khi-nghe) trong bài học ấy.
 
 ### Bàn đạp
 

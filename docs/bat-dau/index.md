@@ -19,7 +19,7 @@ Opus Zero là **sổ tay học piano cổ điển công khai** cho người lớ
 5. In [tờ tóm tắt](tom-tat.md) (hoặc [sách PDF](sach-in.md)) và đọc [hỏi đáp](hoi-dap.md) khi có thắc mắc.
 6. Nếu đặt điện thoại hoặc máy tính bảng trên giá nhạc, [cài site như một ứng dụng](ung-dung.md) để mở nhanh và dùng khi không có mạng.
 
-Chưa có đàn, hoặc trước hết muốn **nghe hiểu** nhạc cổ điển? Theo [lộ trình nghe hiểu](lo-trinh-nghe.md) (khoảng 6 tháng) hoặc [lộ trình nhạc lý và nghe 12 tháng](lo-trinh.md). Khi có đàn, bạn sẽ đi nhanh hơn nhờ đã có nền tảng.
+Chưa có đàn, hoặc trước hết muốn **nghe hiểu** nhạc cổ điển? Theo [lộ trình nghe hiểu và nhạc lý](lo-trinh-nghe.md): khoảng 6 tháng nghe, kèm một [nhánh nhạc lý](lo-trinh-nghe.md#nhanh-nhac-ly) nếu bạn muốn học đọc nhạc và hòa âm. Khi có đàn, bạn sẽ đi nhanh hơn nhờ đã có nền tảng.
 
 ## Ký hiệu dùng trong site
 

@@ -76,6 +76,21 @@ Học trực tuyến giúp bạn tìm được thầy giỏi ở xa và linh ho�
 
 ## Thi cấp
 
+!!! info "Grade nghĩa là gì trên site này"
+    Grade là thang độ khó của các hội đồng thi Anh, từ Initial (trước Grade 1) đến Grade 8. Site dùng thang của ABRSM để ghi độ khó, và chia đường học thành 7 chặng:
+
+    | Cấp | Chặng ở site | Ví dụ trên site |
+    |---|---|---|
+    | Initial | 1. Khởi đầu | [10 bài đầu tiên](10-bai-dau-tien.md) |
+    | Grade 1–2 | 2. Sơ cấp | [Minuet Sol trưởng](tac-pham/minuet-sol.md), [Schumann Op. 68](tac-pham/schumann-album.md) |
+    | Grade 3 | 3. Sơ trung cấp | [Clementi Op. 36 số 1](tac-pham/clementi-sonatina.md), [Arabesque](tac-pham/burgmuller-arabesque.md) |
+    | Grade 4–5 | 4. Trung cấp | [Prelude Đô trưởng BWV 846](tac-pham/bach-prelude-do.md), [Für Elise](tac-pham/fur-elise.md) |
+    | Grade 6 | 5. Trung cấp cao | [K. 545](tac-pham/mozart-k545.md), [Invention số 1](tac-pham/bach-invention-1.md) |
+    | Grade 7–8 | 6. Nâng cao | [Pathétique, chương 2](tac-pham/pathetique-adagio.md), [Clair de lune](tac-pham/debussy-clair-de-lune.md) |
+    | Sau Grade 8 | 7. Diploma trở lên | [Ballade số 1](tac-pham/chopin-ballade-1.md) |
+
+    Chữ "≈ Grade N" trên các bài học là **ước lượng độ khó**, không có nghĩa bài nằm trong chương trình thi Grade N. Chi tiết từng chặng: [Lộ trình piano](lo-trinh.md).
+
 Hai hội đồng thi phổ biến nhất là **ABRSM** và **Trinity College London**, đều của Anh. Thông tin dưới đây đúng vào thời điểm viết; hội đồng thi thay đổi chương trình định kỳ, nên hãy luôn kiểm tra lại trên website của họ trước khi đăng ký.
 
 ### ABRSM
@@ -107,7 +122,7 @@ Trinity cũng có **Initial** và **Grade 1–8**. Chương trình piano hiện 
 
 ### Sau Grade 8: các bằng diploma
 
-- **ABRSM**: **ARSM** dành cho người đã qua Grade 8, thi trực tiếp hoặc qua video; **LRSM** và **FRSM** theo định dạng mới từ 2024, nộp video một buổi độc tấu, yêu cầu đã có Grade 8 của bất kỳ hội đồng thi nào. Bằng **DipABRSM** đã ngừng nhận thi (hạn cuối 31/12/2023), nhưng những bằng đã cấp vẫn có giá trị.
+- **ABRSM**: **ARSM** dành cho người đã qua Grade 8, thi trực tiếp hoặc qua video; **LRSM** và **FRSM** theo định dạng mới từ 2024, nộp video một buổi độc tấu, yêu cầu đã có Grade 8 (của ABRSM hoặc của một hội đồng thi khác nằm trong danh sách ABRSM chấp nhận). Bằng **DipABRSM** đã ngừng nhận thi (hạn cuối 31/12/2023), nhưng những bằng đã cấp vẫn có giá trị.
 - **Trinity**: **ATCL**, **LTCL** và **FTCL** (Associate, Licentiate, Fellowship), ở các mảng biểu diễn, giảng dạy và lý thuyết.
 
 ### Thi ở Việt Nam

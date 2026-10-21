@@ -52,7 +52,7 @@ Từ ngày 3, hãy **đếm to** "một – hai – ba – bốn" thành tiếng
 
 **Ngày 4.** Học **khuông kép**: khuông khóa Sol ở trên (thường cho tay phải), khuông khóa Fa ở dưới (thường cho tay trái). Chỉ cần thuộc ba **nốt mốc**: Đô giữa nằm trên dòng kẻ phụ giữa hai khuông; Sol4 nằm trên dòng thứ hai của khóa Sol, dòng mà khóa Sol quấn quanh; Fa3 nằm trên dòng thứ tư của khóa Fa, giữa hai dấu chấm của khóa. Nốt nào khác cũng đọc theo khoảng cách tới mốc gần nhất.
 
-**Ngày 5–6.** Bài đầu tiên. Trong *Au clair de la lune*, giai điệu chuyền từ tay này sang tay kia, nên bạn tập đọc cả hai khóa và đổi tay đúng nhịp trước khi phải cho hai tay chơi cùng lúc. Đặt tay đúng vị trí ghi ở đầu bài và làm theo số ngón trên bản nhạc. Khi giai điệu chuyền giữa hai tay, hai ngón cái thường chia nhau vùng quanh Đô giữa (xem **thế Đô giữa** ở [Vị trí năm ngón](nam-ngon.md)).
+**Ngày 5–6.** Bài đầu tiên. Trong *Au clair de la lune*, giai điệu chuyền từ tay này sang tay kia, nên bạn tập đọc cả hai khóa và đổi tay đúng nhịp trước khi phải cho hai tay chơi cùng lúc. Đặt tay đúng vị trí ghi ở đầu bài và làm theo số ngón trên bản nhạc. Bài này cũng là lần đầu tay trái rời thế Đô: tay trái chuyển sang **thế Sol** (ngón 5 trên Sol2, ngón 1 trên Rê3), còn tay phải vẫn ở thế Đô; xem bảng các thế tay ở [Vị trí năm ngón](nam-ngon.md).
 
 **Ngày 7.** Lần thu âm đầu tiên. Chơi khởi động 1 và bài 1 như đang có người nghe, rồi nghe lại một lần, không phán xét: nhịp có đều không, bạn dừng ở đâu? Giữ bản thu này cho ngày 14.
 

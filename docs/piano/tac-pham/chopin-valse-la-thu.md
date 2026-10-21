@@ -47,7 +47,7 @@ Các album valse kinh điển thường gồm 14 bản quen thuộc, và bản n
 3. **Đoạn La trưởng.** Không khí đổi thế nào? Nghệ sĩ có đổi tốc độ, đổi tiếng đàn không?
 4. **Rubato.** Nghệ sĩ nán lại ở đâu? Tay trái có giữ được nhịp valse không?
 
-Rồi nghe [Valse Si thứ Op. 69 số 2](chopin-valse-si-thu.md), bản bạn sẽ học tiếp, qua bản thu của Dinu Lipatti và Arthur Rubinstein. Nhiều người thấy Lipatti thanh thoát và chặt chẽ hơn, Rubinstein ung dung như đang trò chuyện: hãy tự nghe và quyết định. Muốn hiểu lối hát của Chopin, đọc [hướng dẫn nghe Nocturne Op. 9 số 2](../../nghe-nhac/chopin-nocturne.md).
+Rồi nghe [Valse Si thứ Op. 69 số 2](chopin-valse-si-thu.md), bản bạn sẽ học tiếp, qua bản thu của Dinu Lipatti và Arthur Rubinstein. Nhiều người thấy Lipatti thanh thoát và chặt chẽ hơn, Rubinstein ung dung như đang trò chuyện: hãy tự nghe và quyết định. Muốn hiểu lối hát của Chopin, nghe bản thu kèm bản đồ nghe trong bài học [Nocturne Op. 9 số 2](chopin-nocturne-op9-2.md#theo-doi-khi-nghe).
 
 <div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Aya Higuchi (Musopen)&quot;,&quot;lic&quot;:&quot;phạm vi công cộng&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Chopin_-_Waltz_No._19_in_A_minor,_B._150_(Aya_Higuchi).flac&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/Chopin_-_Waltz_No._19_in_A_minor%2C_B._150_%28Aya_Higuchi%29.flac/Chopin_-_Waltz_No._19_in_A_minor%2C_B._150_%28Aya_Higuchi%29.flac.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/6/6a/Chopin_-_Waltz_No._19_in_A_minor%2C_B._150_%28Aya_Higuchi%29.flac&quot;,&quot;d&quot;:130.68}]}"></div>
 

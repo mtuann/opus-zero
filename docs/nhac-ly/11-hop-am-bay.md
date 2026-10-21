@@ -90,7 +90,7 @@ Hợp âm bảy có 4 nốt nên có **ba thể đảo**:
     2. Bậc V của Rê trưởng là La: **La – Đô♯ – Mi – Sol** (A7).
 
 !!! example "Luyện tập kèm theo"
-    [Nhận biết hợp âm](../luyen-tap/hop-am.md) bộ hợp âm bảy, và [xây hợp âm](../luyen-tap/xay-hop-am.md) bài "Hợp âm bảy".
+    [Nhận biết hợp âm](../luyen-tai/nghe-hop-am.md#luyen-voi-cong-cu) bộ hợp âm bảy, và [xây hợp âm](../luyen-tap/xay-hop-am.md) bài "Hợp âm bảy".
 
 ```quiz
 ? Hợp âm Đô trưởng có Mi ở bè trầm là thể nào?

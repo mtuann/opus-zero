@@ -95,7 +95,7 @@ Nghe thử: Bach *Fugue cung Sol thứ* BWV 578 ("Little Fugue") cho organ. Đ�
 :   Bài hát cho giọng hát và piano, đỉnh cao với Schubert và Schumann.
 
 **Tiểu phẩm cho piano**
-:   Nocturne, étude (bài luyện), prélude, ballade, impromptu… Chopin là bậc thầy của các thể loại này.
+:   Nocturne, étude (bài luyện), prélude, ballade, impromptu… Chopin là bậc thầy của các thể loại này. Xem [Các thể loại nhạc piano](../piano/the-loai.md).
 
 ## Nguồn
 

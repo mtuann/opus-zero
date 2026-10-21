@@ -46,7 +46,7 @@ Nghe bè trầm: Đô – Fa – Si – Mi – La – Rê – Sol – Đô, cứ
 |---|---|---|---|
 | **Quãng 5 đi xuống** | Xuống 5, lên 4 | C – F – B° – Em – Am – Dm – G – C | Khắp nơi trong Baroque; nhạc jazz (vòng ii – V – I nối nhau) |
 | **Quãng 3 đi xuống** | Xuống 3 | C – Am – F – Dm | Ballad, nhạc pop |
-| **Kiểu Pachelbel** | Xuống 4, lên 2 | C – G – Am – Em – F – C – F – G | Pachelbel *Canon* (xem [bài 12](12-hoa-am-chuc-nang.md)) |
+| **Kiểu Pachelbel** | Xuống 4, lên 2 | C – G – Am – Em – F – C – F – G | Pachelbel *Canon* (xem [bài 12](12-hoa-am-chuc-nang.md)); bè trầm này là dạng "nhảy" của mẫu Romanesca, xem [các mẫu hòa âm thời Cổ điển](../piano/hoa-am/mau-galant.md) |
 | **5 – 6 đi lên** | Lên từng bậc, bè trên đổi quãng 5 thành quãng 6 trên mỗi nốt bass | C – Am/C – Dm – Bm°/D – Em… | Tạo cảm giác dâng lên, tích tụ |
 | **Chuỗi nửa cung** | Đi lên hoặc xuống từng nửa cung | | Lãng mạn: Chopin, Wagner, Liszt |
 

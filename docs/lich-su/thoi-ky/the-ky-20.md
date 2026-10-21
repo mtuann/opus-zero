@@ -52,7 +52,7 @@ K:C
 
 ## 10 tác phẩm để nghe
 
-1. [Debussy, *Clair de lune*](../../nghe-nhac/debussy-clair-de-lune.md), rồi *Prélude à l'après-midi d'un faune*.
+1. [Debussy, *Clair de lune*](../../piano/tac-pham/debussy-clair-de-lune.md), rồi *Prélude à l'après-midi d'un faune*.
 2. [Ravel, *Boléro*](../../nghe-nhac/ravel-bolero.md).
 3. [Stravinsky, *Le Sacre du printemps*](../../nghe-nhac/stravinsky-sacre.md).
 4. Schoenberg, *Verklärte Nacht* (trước khi ông bỏ hẳn điệu tính), rồi *Pierrot lunaire*.

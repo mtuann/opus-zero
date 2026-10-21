@@ -46,7 +46,7 @@ Bài chỉ dài hai, ba phút, nên hãy nghe nhiều lần, mỗi lần với m
 
 Rồi so sánh ít nhất hai bản thu. Daniel Barenboim đã thu trọn tám tập *Lieder ohne Worte*; đặt bản của ông cạnh một nghệ sĩ khác và ghi lại: ai chơi chậm hơn, ai để tay trái đung đưa rõ hơn, ai dùng nhiều bàn đạp hơn ở đoạn staccato (ô 26–31)? Muốn biết thêm về các nghệ sĩ, xem [Nghệ sĩ piano và bản thu](../nghe-si.md).
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;FAE Piano cafe&quot;,&quot;lic&quot;:&quot;CC BY 3.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by/3.0&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:FAE_Piano_cafe_-_Mendelssohn%27s_Songs_Without_Words,_Book_1,_Op._19b,_No._6,_Andante_sostenuto_(Venetian_Boat_Song_No._1),_MWV_U_78.ogg&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/7/78/FAE_Piano_cafe_-_Mendelssohn%27s_Songs_Without_Words%2C_Book_1%2C_Op._19b%2C_No._6%2C_Andante_sostenuto_%28Venetian_Boat_Song_No._1%29%2C_MWV_U_78.ogg/FAE_Piano_cafe_-_Mendelssohn%27s_Songs_Without_Words%2C_Book_1%2C_Op._19b%2C_No._6%2C_Andante_sostenuto_%28Venetian_Boat_Song_No._1%29%2C_MWV_U_78.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/7/78/FAE_Piano_cafe_-_Mendelssohn%27s_Songs_Without_Words%2C_Book_1%2C_Op._19b%2C_No._6%2C_Andante_sostenuto_%28Venetian_Boat_Song_No._1%29%2C_MWV_U_78.ogg&quot;,&quot;d&quot;:124.03}],&quot;ref&quot;:[0,17,27,43,64,88,103]}"></div>
 
 ## Theo dõi khi nghe
 
@@ -250,7 +250,7 @@ Dùng một bản Urtext: Henle in cả trọn bộ *Lieder ohne Worte* lẫn t�
 
 - **Hai thuyền ca còn lại:** Op. 30 số 6 (Fa♯ thứ) và Op. 62 số 5 (La thứ), Henle xếp mức 5; cả bốn bài thuyền ca của Mendelssohn nằm trong tập Henle HN 1172.
 - **Nhiều bè hơn trong hai tay:** [Schumann: Träumerei](schumann-traumerei.md) (khoảng Grade 6).
-- **Họ hàng gần của thuyền ca:** [Chopin: Nocturne Op. 9 số 2](chopin-nocturne-op9-2.md), giai điệu hát trên nhịp 12/8 với tay trái nốt trầm và hợp âm; nghe thêm [hướng dẫn nghe Nocturne](../../nghe-nhac/chopin-nocturne.md).
+- **Họ hàng gần của thuyền ca:** [Chopin: Nocturne Op. 9 số 2](chopin-nocturne-op9-2.md), giai điệu hát trên nhịp 12/8 với tay trái nốt trầm và hợp âm.
 - **Xa hơn:** [Schubert: Impromptu Sol♭ trưởng](schubert-impromptu-sol-giang.md), nơi giai điệu và dòng đệm nằm trong cùng tay phải suốt cả bài. Thứ tự gợi ý: [Tác phẩm theo cấp độ](../tac-pham-theo-cap.md) và chặng 5 của [Lộ trình](../lo-trinh.md).
 
 ## Kiểm tra nhanh

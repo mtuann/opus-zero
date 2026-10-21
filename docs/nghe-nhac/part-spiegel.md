@@ -52,7 +52,7 @@ K:F
 
 - Bạn có nhận ra quy luật "mỗi lần đi xa thêm một bước" không?
 - Âm nhạc gần như không thay đổi gì lớn trong 10 phút. Cảm giác của bạn thay đổi ra sao theo thời gian?
-- So sánh với Bach [*Prelude cung Đô trưởng*](bach-prelude-c.md): cả hai đều là hợp âm rải lặp lại. Khác nhau ở đâu?
+- So sánh với Bach [*Prelude cung Đô trưởng*](../piano/tac-pham/bach-prelude-do.md): cả hai đều là hợp âm rải lặp lại. Khác nhau ở đâu?
 
 ## Ghi chép của bạn
 

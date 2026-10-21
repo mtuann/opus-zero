@@ -46,7 +46,7 @@ Phần lớn nhạc phím thời này viết cho harpsichord hoặc clavichord, 
 
 - **Đặc trưng khi chơi:** mỗi sonata là một bài toán cho đôi tay: vắt tay, nốt lặp đổi ngón, nhảy quãng rộng, gam nhanh, những chùm nốt nghịch tai bắt chước guitar Tây Ban Nha. Thường chỉ có hai bè, nên chỗ nào không đều đều lộ ra.
 - **Tác phẩm chính:** 555 sonata, phần lớn một chương hai phần (xem [hướng dẫn nghe](../nghe-nhac/scarlatti-sonata.md)); 30 bản đầu tiên in ở London khoảng 1738–1739 với tên *Essercizi per gravicembalo*.
-- **Bắt đầu bằng:** K. 32 Rê thứ, *Aria* (≈ Grade 3–4) → K. 1 Rê thứ, K. 466 Fa thứ (≈ Grade 6–7) → K. 380 Mi trưởng (≈ Grade 8) → K. 141 Rê thứ với chuỗi nốt lặp rất nhanh (sau Grade 8).
+- **Bắt đầu bằng:** K. 32 Rê thứ, *Aria* (≈ Grade 4) → K. 1 Rê thứ, K. 466 Fa thứ (≈ Grade 6–7) → K. 380 Mi trưởng (≈ Grade 8) → K. 141 Rê thứ với chuỗi nốt lặp rất nhanh (sau Grade 8).
 
 ### Johann Sebastian Bach (1685–1750)
 
@@ -113,8 +113,8 @@ Cây đàn to và ngân hơn (xem [Bàn đạp](ban-dap.md)). Ba kỹ năng trun
 ### Frédéric Chopin (1810–1849)
 
 - **Đặc trưng khi chơi:** giọng hát *bel canto* trên lớp đệm tay trái trải rộng hơn một quãng tám, nên cổ tay trái phải lướt ngang thật mềm. Bàn đạp là một phần của âm thanh, và Chopin ghi bàn đạp khá kỹ. Rubato: giai điệu co giãn, tay trái giữ nhịp. Ngón bấm tự do, ngón cái được đặt lên phím đen. Tiếng tròn, không gắt.
-- **Tác phẩm chính:** 21 nocturne, 24 prélude Op. 28, 27 étude, 4 ballade, 4 scherzo, mazurka, polonaise, valse, hai sonata, *Barcarolle* Op. 60, hai concerto. Nên dùng bản *Wydanie Narodowe* (Jan Ekier biên tập) hoặc Henle.
-- **Bắt đầu bằng:** [Valse La thứ (di cảo)](tac-pham/chopin-valse-la-thu.md) (≈ Grade 3–4) → Prélude số 7 La trưởng, [số 4 Mi thứ](tac-pham/chopin-prelude-mi-thu.md), số 20 Đô thứ (≈ Grade 4–5) → các mazurka dễ, [Valse Si thứ Op. 69 số 2](tac-pham/chopin-valse-si-thu.md) (≈ Grade 5–6) → Nocturne Đô♯ thứ (di cảo), Nocturne Mi thứ Op. 72 số 1 (≈ Grade 7) → [Nocturne Op. 9 số 2](tac-pham/chopin-nocturne-op9-2.md), Valse Op. 64 số 2 (≈ Grade 7–8) → [*Fantaisie-Impromptu*](tac-pham/chopin-fantaisie-impromptu.md), các polonaise → [Ballade số 1](tac-pham/chopin-ballade-1.md), scherzo, [étude](../nghe-nhac/chopin-etude.md).
+- **Tác phẩm chính:** 21 nocturne, 24 prélude Op. 28, 27 étude, 4 ballade, 4 scherzo, mazurka, polonaise, valse, ba sonata (số 2 và số 3 hay được chơi nhất), *Barcarolle* Op. 60, hai concerto. Nên dùng bản *Wydanie Narodowe* (Jan Ekier biên tập) hoặc Henle.
+- **Bắt đầu bằng:** [Valse La thứ (di cảo)](tac-pham/chopin-valse-la-thu.md) (≈ Grade 3–4) → Prélude số 7 La trưởng, [số 4 Mi thứ](tac-pham/chopin-prelude-mi-thu.md), số 20 Đô thứ (≈ Grade 4–5) → các mazurka dễ, [Valse Si thứ Op. 69 số 2](tac-pham/chopin-valse-si-thu.md) (≈ Grade 5–6) → Nocturne Đô♯ thứ (di cảo), Nocturne Mi thứ Op. 72 số 1 (≈ Grade 6) → [Nocturne Op. 9 số 2](tac-pham/chopin-nocturne-op9-2.md), Valse Op. 64 số 2 (≈ Grade 7–8) → [*Fantaisie-Impromptu*](tac-pham/chopin-fantaisie-impromptu.md), các polonaise → [Ballade số 1](tac-pham/chopin-ballade-1.md), scherzo, [étude](../nghe-nhac/chopin-etude.md).
 
 ### Robert Schumann (1810–1856)
 
@@ -138,7 +138,7 @@ Cây đàn to và ngân hơn (xem [Bàn đạp](ban-dap.md)). Ba kỹ năng trun
 
 - **Đặc trưng khi chơi:** ấm, dày, trầm. Tay trái trải quãng mười, một tay chơi quãng ba và quãng sáu song song, nhịp hai chồng nhịp ba, *hemiola* làm lệch phách. Giai điệu thường kẹp giữa các lớp hợp âm. Cần bàn tay mở rộng mà thả lỏng, và tư duy phức điệu như Bach.
 - **Tác phẩm chính:** ba sonata thời trẻ, Biến tấu Handel Op. 24, Biến tấu Paganini Op. 35, 16 valse Op. 39 (bản gốc cho bốn tay), hai *Rhapsody* Op. 79, các tiểu phẩm cuối đời Op. 116–119 (1892–1893), hai concerto.
-- **Bắt đầu bằng:** Valse Op. 39 số 15 La♭ trưởng, bản rút gọn do chính Brahms viết (≈ Grade 5) → Intermezzo Op. 117 số 1, mở đầu bằng câu thơ ru con trích một bài ballad Scotland (≈ Grade 7–8) → [Intermezzo Op. 118 số 2, Op. 119](../nghe-nhac/brahms-intermezzo.md) (sau Grade 8) → *Rhapsody* Op. 79 → Biến tấu Handel, các concerto.
+- **Bắt đầu bằng:** Valse Op. 39 số 15 La♭ trưởng, bản rút gọn do chính Brahms viết (≈ Grade 6) → Intermezzo Op. 117 số 1, mở đầu bằng câu thơ ru con trích một bài ballad Scotland (≈ Grade 7–8) → [Intermezzo Op. 118 số 2](../nghe-nhac/brahms-intermezzo.md) (≈ Grade 7–8) → các Intermezzo Op. 119 (sau Grade 8) → *Rhapsody* Op. 79 → Biến tấu Handel, các concerto.
 
 ## Cuối thế kỷ 19
 
@@ -160,7 +160,7 @@ Nga, Na Uy và Pháp mang giọng nói riêng vào cây đàn: dân ca, màu s�
 
 - **Đặc trưng khi chơi:** những bức tranh nhỏ đậm chất Na Uy: quãng năm ngân dài ở bè trầm, điệu thức dân gian, nhịp nhảy múa, giai điệu giản dị trên hòa âm cromatic tinh tế. Kết cấu rõ, vừa tay, rất hợp trình độ trung cấp.
 - **Tác phẩm chính:** 66 *Lyric Pieces* trong 10 tập (1867–1901), Ballade Op. 24, tổ khúc *Holberg* Op. 40 (bản piano), [Concerto La thứ Op. 16](../nghe-nhac/grieg-concerto.md).
-- **Bắt đầu bằng:** *Arietta* Op. 12 số 1, bài đầu tiên trong 66 bài, giai điệu sẽ trở lại ở bài cuối cùng Op. 71 số 7 (≈ Grade 3–4) → *Valse*, *Elfin Dance* trong Op. 12 (≈ Grade 4–5) → *Notturno* Op. 54 số 4, *Butterfly* Op. 43 số 1 (≈ Grade 7–8) → *Wedding Day at Troldhaugen* Op. 65 số 6 (≈ Grade 8) → Ballade Op. 24, Concerto.
+- **Bắt đầu bằng:** *Arietta* Op. 12 số 1, bài đầu tiên trong 66 bài, giai điệu sẽ trở lại ở bài cuối cùng Op. 71 số 7 (≈ Grade 4) → *Valse*, *Elfin Dance* trong Op. 12 (≈ Grade 4–5) → *Notturno* Op. 54 số 4, *Butterfly* Op. 43 số 1 (≈ Grade 7–8) → *Wedding Day at Troldhaugen* Op. 65 số 6 (≈ Grade 8) → Ballade Op. 24, Concerto.
 
 ### Gabriel Fauré (1845–1924)
 
@@ -175,14 +175,14 @@ Thế kỷ 20 mở rộng vốn từ của đôi tay: màu sắc âm thanh, nh�
 ### Claude Debussy (1862–1918)
 
 - **Đặc trưng khi chơi:** âm thanh là trên hết: nhiều tầng *pianissimo*, chạm phím bằng phần thịt đầu ngón thay vì gõ, bàn đạp tạo những lớp vang (thay một nửa, giữ ngân qua nhiều hòa âm). Hợp âm song song, gam toàn cung, gam ngũ cung. Dưới lớp sương mờ, nhịp vẫn phải chính xác.
-- **Tác phẩm chính:** *Deux Arabesques*, *Suite bergamasque*, *Estampes* (1903), *L'isle joyeuse*, hai tập *Images*, *Children's Corner* (1906–1908, viết cho con gái), hai tập *Préludes* (24 bản, tên đặt ở cuối mỗi bản), 12 *Études* (1915, tưởng nhớ Chopin).
-- **Bắt đầu bằng:** *The Little Shepherd* trong *Children's Corner* (≈ Grade 5) → *Arabesque* số 1, *La fille aux cheveux de lin*, *Rêverie* (≈ Grade 6–7) → [*Clair de lune*](tac-pham/debussy-clair-de-lune.md) (≈ Grade 7–8) → *Golliwogg's Cakewalk*, *Doctor Gradus ad Parnassum*, bản nhại các bài tập của Clementi (≈ Grade 8) → các prelude khác, *Estampes*, *Images* → *Études*.
+- **Tác phẩm chính:** *Deux Arabesques*, *Suite bergamasque*, *Estampes* (1903), *L'isle joyeuse*, hai tập *Images*, *Children's Corner* (1906–1908, viết cho con gái), hai tập *Préludes* (24 bản, tên đặt ở cuối mỗi bản; xem [hướng dẫn nghe quyển 1](../nghe-nhac/debussy-preludes.md)), 12 *Études* (1915, tưởng nhớ Chopin).
+- **Bắt đầu bằng:** *The Little Shepherd* trong *Children's Corner* (≈ Grade 6) → *Arabesque* số 1, *La fille aux cheveux de lin*, *Rêverie* (≈ Grade 6–7) → [*Clair de lune*](tac-pham/debussy-clair-de-lune.md) (≈ Grade 7–8) → *Golliwogg's Cakewalk*, *Doctor Gradus ad Parnassum*, bản nhại các bài tập của Clementi (≈ Grade 8) → các prelude khác, *Estampes*, *Images* → *Études*.
 
 ### Erik Satie (1866–1925)
 
 - **Đặc trưng khi chơi:** ít nốt, chậm, lặp lại: tay trái một nốt trầm rồi một hợp âm, tay phải một giai điệu mảnh. Không khó về ngón, nhưng khó giữ tiếng đều, nhịp tĩnh và không làm điệu. Các *Gnossienne* viết không có vạch nhịp, kèm những lời dặn kỳ quặc thay cho thuật ngữ tốc độ.
 - **Tác phẩm chính:** ba *Gymnopédie* (1888), các *Gnossienne*, valse *Je te veux*, *Sports et divertissements*.
-- **Bắt đầu bằng:** [*Gymnopédie* số 1](tac-pham/satie-gymnopedie.md) (≈ Grade 3–4) → *Gnossienne* số 1 (≈ Grade 4–5) → *Je te veux* (≈ Grade 6) → *Sports et divertissements*.
+- **Bắt đầu bằng:** [*Gymnopédie* số 1](tac-pham/satie-gymnopedie.md) (≈ Grade 4) → *Gnossienne* số 1 (≈ Grade 4–5) → *Je te veux* (≈ Grade 6) → *Sports et divertissements*.
 
 ### Isaac Albéniz (1860–1909) và Enrique Granados (1867–1916)
 

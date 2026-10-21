@@ -68,7 +68,7 @@ Thử bấm vào bàn phím dưới đây. Các phím được tô màu là ba n
     Sol = G, E = Mi, Si = B. Nốt ngay trên B4 là **C5**: tên quay lại Đô và số tăng lên 5.
 
 !!! example "Luyện tập kèm theo"
-    [Bàn phím piano](../luyen-tap/ban-phim.md) để tìm các nốt Đô, và [nhận biết quãng](../luyen-tap/quang.md) bộ Khởi động để nghe quãng 8.
+    [Bàn phím piano](../luyen-tap/ban-phim.md) để tìm các nốt Đô, và [nhận biết quãng](../luyen-tai/nghe-quang.md#luyen-voi-cong-cu) bộ Khởi động để nghe quãng 8.
 
 ```quiz
 ? Nốt Sol trong hệ chữ cái là gì?

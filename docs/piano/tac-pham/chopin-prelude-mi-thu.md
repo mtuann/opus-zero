@@ -205,7 +205,7 @@ Gần như cả bài ở *p* và *pp*. Chỉ có một chữ *f*, ở ô 17; hã
 - **Cùng tác giả:** Prélude Si thứ Op. 28 số 6 (cũng được chơi trong lễ tang Chopin; giai điệu nằm ở tay trái), [Valse La thứ](chopin-valse-la-thu.md), [Valse Si thứ](chopin-valse-si-thu.md), rồi [Nocturne Op. 9 số 2](chopin-nocturne-op9-2.md).
 - **Cùng chặng:** [Bach: Prelude Đô trưởng](bach-prelude-do.md), [Satie: Gymnopédie số 1](satie-gymnopedie.md), [Für Elise](fur-elise.md).
 - **Cùng kỹ năng hát:** [Schumann: Träumerei](schumann-traumerei.md).
-- **Nghe thêm:** [Chopin: Nocturne](../../nghe-nhac/chopin-nocturne.md).
+- **Nghe thêm:** [Chopin: Étude Op. 10](../../nghe-nhac/chopin-etude.md), nhất là số 3, một giai điệu buồn khác của Chopin.
 
 ## Kiểm tra nhanh
 

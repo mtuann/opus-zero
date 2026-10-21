@@ -74,7 +74,7 @@ Vì thế, khi nghe nhạc truyền thống Việt Nam bằng "tai nhạc lý ph
 
 ## Luyện tập
 
-- [Luyện tai gam và điệu thức](../luyen-tap/gam.md): bộ "Điệu thức thường gặp" và "Ngũ cung".
+- [Luyện tai gam và điệu thức](../luyen-tai/nghe-gam.md#luyen-voi-cong-cu): bộ "Điệu thức thường gặp" và "Ngũ cung".
 - [Bàn phím piano](../luyen-tap/ban-phim.md): chọn "Điệu Dorian", "Ngũ cung trưởng"… để xem và nghe.
 - [Xây gam và hợp âm](../luyen-tap/xay-hop-am.md): bài "Điệu thức và ngũ cung".
 

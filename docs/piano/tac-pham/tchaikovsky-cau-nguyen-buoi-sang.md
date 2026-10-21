@@ -29,9 +29,9 @@ Bài mở đầu *Album for the Young* của Tchaikovsky chỉ có 24 ô nhịp,
 
 ## Bối cảnh
 
-Tháng 2 năm 1878, khi đang ở Florence, Tchaikovsky viết cho nhà xuất bản Pyotr Jurgenson rằng ông muốn soạn một loạt bài dễ cho trẻ em. Trở về Kamenka, điền trang của gia đình người chị gái ở Ukraina, ông phác thảo cả 24 bài trong vài tuần, rồi sửa và chép sạch vào mùa hè. Trong thư gửi bà Nadezhda von Meck, người bảo trợ của mình, Tchaikovsky nói muốn có những bản nhạc nhỏ với "tên gọi hấp dẫn, như của Schumann". Bản in mang phụ đề *24 bài dễ (theo kiểu Schumann)*: hình mẫu là tập [Album für die Jugend](schumann-album.md) mà Schumann viết cho các con năm 1848.
+Tháng 2 năm 1878, khi đang ở Florence, Tchaikovsky viết cho nhà xuất bản Pyotr Jurgenson rằng ông muốn soạn một loạt bài dễ cho trẻ em. Trở về Kamenka, điền trang của gia đình em gái ông, Aleksandra Davydova, ở Ukraina, ông phác thảo cả 24 bài trong vài tuần, rồi sửa và chép sạch vào mùa hè. Trong thư gửi bà Nadezhda von Meck, người bảo trợ của mình, Tchaikovsky nói muốn có những bản nhạc nhỏ với "tên gọi hấp dẫn, như của Schumann". Bản in mang phụ đề *24 bài dễ (theo kiểu Schumann)*: hình mẫu là tập [Album für die Jugend](schumann-album.md) mà Schumann viết cho các con năm 1848.
 
-Tập nhạc được đề tặng Vladimir ("Volodya") Davydov, con trai người chị và là đứa cháu Tchaikovsky yêu quý nhất; mười lăm năm sau, ông đề tặng chính người cháu này Giao hưởng số 6 *Pathétique*. Trong bản in, tập mở đầu bằng *Cầu nguyện buổi sáng* và khép lại bằng *Trong nhà thờ* (В церкви, số 24). Ở giữa là thế giới của trẻ con: búp bê, ngựa gỗ, lính gỗ, bài hát của nhiều xứ, chuyện cổ tích, mụ phù thủy Baba Yaga. Thứ tự trong bản viết tay hơi khác (ở đó *Trong nhà thờ* đứng áp chót), nhưng *Cầu nguyện buổi sáng* vẫn đứng đầu, nên con số 1 không đổi. [Bài ca Pháp cổ](tchaikovsky-bai-ca-phap-co.md) mang số 16 trong tập.
+Tập nhạc được đề tặng Vladimir ("Volodya") Davydov, con trai cô em gái và là đứa cháu Tchaikovsky yêu quý nhất; mười lăm năm sau, ông đề tặng chính người cháu này Giao hưởng số 6 *Pathétique*. Trong bản in, tập mở đầu bằng *Cầu nguyện buổi sáng* và khép lại bằng *Trong nhà thờ* (В церкви, số 24). Ở giữa là thế giới của trẻ con: búp bê, ngựa gỗ, lính gỗ, bài hát của nhiều xứ, chuyện cổ tích, mụ phù thủy Baba Yaga. Thứ tự trong bản viết tay hơi khác (ở đó *Trong nhà thờ* đứng áp chót), nhưng *Cầu nguyện buổi sáng* vẫn đứng đầu, nên con số 1 không đổi. [Bài ca Pháp cổ](tchaikovsky-bai-ca-phap-co.md) mang số 16 trong tập.
 
 Cũng trong mùa hè 1878, Tchaikovsky đang viết *Phụng vụ thánh Gioan Kim Khẩu* (Op. 41) cho hợp xướng. Nhạc lễ Chính thống giáo Nga hát không có nhạc cụ, nên bốn bè luôn là bốn giọng người. Kết cấu của *Cầu nguyện buổi sáng* rất gần lối hát ấy: hãy chơi như thể mỗi bè là một ca sĩ cần lấy hơi. Xem thêm [thời kỳ Lãng mạn](../../lich-su/thoi-ky/lang-man.md).
 
@@ -46,7 +46,7 @@ Nghe ít nhất ba lần, mỗi lần một câu hỏi:
 
 Rồi so sánh hai bản thu khác nhau về tốc độ: một bản chậm, ngân như đàn organ, và một bản trôi chảy hơn, như lời cầu nguyện nói khẽ. Ghi lại: ai làm bè trên nổi rõ nhất, ai dùng nhiều bàn đạp nhất, ai lấy hơi rõ giữa các câu? Nếu có thể, nghe thêm một đoạn trong *Phụng vụ* Op. 41 do một dàn hợp xướng Nga hát, để có tiếng bốn giọng người thật trong tai trước khi tập.
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Luis Kolodin&quot;,&quot;lic&quot;:&quot;CC BY-SA 4.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;,&quot;page&quot;:&quot;https://imslp.org/wiki/File:PMLP19418-Y2mate.mx_-_Luis_Kolodin_plays_Tchaikovsky&#x27;s_Morning_Prayer_(128_kbps).mp3&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;../../../assets/audio/tchaikovsky-cau-nguyen-buoi-sang.mp3&quot;,&quot;d&quot;:79.8}],&quot;ref&quot;:[1,14,26,34,37,43,45,51,59]}"></div>
 
 ## Theo dõi khi nghe
 

@@ -13,13 +13,13 @@ Mục này là trung tâm của Opus Zero: một con đường cho **người l�
 <div class="oz-path" markdown>
 ### Tôi chưa từng chạm vào phím đàn
 
-Làm theo [Hai tuần đầu tiên](hai-tuan-dau.md): mỗi ngày 20–30 phút, từ cách ngồi đúng ([tư thế và thế tay](tu-the.md)) đến những bài hai tay đầu tiên trong [10 bài đầu tiên](10-bai-dau-tien.md). Chưa có đàn? Đọc [chọn đàn và góc tập](chon-dan.md) trước.
+Làm theo [Hai tuần đầu tiên](hai-tuan-dau.md): mỗi ngày 20–30 phút, từ cách ngồi đúng ([tư thế và thế tay](tu-the.md)) đến những bài hai tay đầu tiên trong [10 bài đầu tiên](10-bai-dau-tien.md). Rồi đi tiếp theo [lộ trình piano năm đầu](../bat-dau/lo-trinh-choi.md), từng tháng một, và sau đó là [lộ trình 7 chặng](lo-trinh.md). Chưa có đàn? Đọc [chọn đàn và góc tập](chon-dan.md) trước.
 </div>
 
 <div class="oz-path" markdown>
 ### Tôi đã chơi được một chút
 
-Tìm chặng của mình trong [lộ trình 7 chặng](lo-trinh.md), chọn bài ở [tác phẩm theo cấp độ](tac-pham-theo-cap.md), rồi bù những phần người tự học hay bỏ qua: [gam và ngón bấm](gam.md), [đọc thị tấu](thi-tau.md), [bàn đạp](ban-dap.md).
+Làm [bài kiểm tra đầu vào](../bat-dau/kiem-tra-dau-vao.md) để tìm chặng của mình trong [lộ trình 7 chặng](lo-trinh.md), chọn bài ở [tác phẩm theo cấp độ](tac-pham-theo-cap.md), rồi bù những phần người tự học hay bỏ qua: [gam và ngón bấm](gam.md), [đọc thị tấu](thi-tau.md), [bàn đạp](ban-dap.md).
 </div>
 
 <div class="oz-path" markdown>
@@ -38,17 +38,7 @@ Bắt đầu với [các thể loại nhạc piano](the-loai.md) và [nghệ sĩ
 
 ## Lộ trình nhìn nhanh
 
-| Chặng | Tương đương (≈ ABRSM) | Mốc thời gian* | Ví dụ tác phẩm |
-|---|---|---|---|
-| 1. Khởi đầu | trước Grade 1 | 0–6 tháng | [10 bài đầu tiên](10-bai-dau-tien.md) |
-| 2. Sơ cấp | Grade 1–2 | 6 tháng – 1,5 năm | [Minuet Sol trưởng](tac-pham/minuet-sol.md), [Schumann Op. 68](tac-pham/schumann-album.md) |
-| 3. Sơ trung cấp | Grade 3 | 1,5–2,5 năm | [Clementi Op. 36 số 1](tac-pham/clementi-sonatina.md), [Arabesque](tac-pham/burgmuller-arabesque.md) |
-| 4. Trung cấp | Grade 4–5 | 2,5–4 năm | [Bach: Prelude Đô trưởng](tac-pham/bach-prelude-do.md), [Für Elise](tac-pham/fur-elise.md) |
-| 5. Trung cấp cao | Grade 6 | 4–5,5 năm | [Mozart K. 545](tac-pham/mozart-k545.md), [Invention số 1](tac-pham/bach-invention-1.md) |
-| 6. Nâng cao | Grade 7–8 | 5,5–9 năm | [Pathétique, chương 2](tac-pham/pathetique-adagio.md), [Clair de lune](tac-pham/debussy-clair-de-lune.md) |
-| 7. Sau Grade 8 | diploma trở lên | không giới hạn | [Ballade số 1](tac-pham/chopin-ballade-1.md) |
-
-\* Tính từ ngày bắt đầu, cho người lớn tập đều 30–45 phút mỗi ngày và có người hướng dẫn. Thực tế có thể nhanh hoặc chậm hơn nhiều, và điều đó hoàn toàn bình thường. Chi tiết từng chặng: [Lộ trình piano](lo-trinh.md). Năm đầu tiên theo từng tháng: [Lộ trình piano năm đầu](../bat-dau/lo-trinh-choi.md).
+Bảy chặng, từ lần đầu chạm phím đến sau Grade 8: [1. Khởi đầu](lo-trinh.md#chang-1-khoi-au-06-thang) · [2. Sơ cấp](lo-trinh.md#chang-2-so-cap-grade-12) · [3. Sơ trung cấp](lo-trinh.md#chang-3-so-trung-cap-grade-3) · [4. Trung cấp](lo-trinh.md#chang-4-trung-cap-grade-45) · [5. Trung cấp cao](lo-trinh.md#chang-5-trung-cap-cao-grade-6) · [6. Nâng cao](lo-trinh.md#chang-6-nang-cao-grade-78) · [7. Sau Grade 8](lo-trinh.md#chang-7-sau-grade-8-diploma-tro-len). Mỗi chặng có mục tiêu cho tay, gam, đọc nhạc, nhạc lý, tai và một danh sách tác phẩm: xem [Lộ trình piano](lo-trinh.md). Năm đầu tiên theo từng tháng: [Lộ trình piano năm đầu](../bat-dau/lo-trinh-choi.md).
 
 ## Bản đồ mục Piano
 
@@ -114,18 +104,9 @@ Bắt đầu với [các thể loại nhạc piano](the-loai.md) và [nghệ sĩ
 | [Nhà soạn nhạc cho piano](nha-soan-nhac.md) | Phong cách từng tác giả khi chơi, và nên bắt đầu từ tác phẩm nào |
 | [Nghệ sĩ piano và bản thu](nghe-si.md) | Các nghệ sĩ lớn, các cuộc thi, cách so sánh bản thu |
 
-## Một buổi tập điển hình (30 phút)
+## Một buổi tập
 
-| Thời gian | Việc | Công cụ |
-|---|---|---|
-| 3 phút | Thả lỏng vai và cổ tay; năm ngón hoặc gam thật chậm | [Gam và ngón bấm](gam.md) |
-| 5 phút | Kỹ thuật: một bài tập ngón hoặc étude ngắn | [Bài tập ngón](bai-tap-ngon.md), [máy đếm nhịp](../luyen-tap/metronome.md) |
-| 5 phút | Đọc nhạc: thị tấu một bài dễ hơn bài đang tập | [Đọc nốt](../luyen-tap/doc-not.md), [đọc thị tấu](../luyen-tap/thi-tau.md) |
-| 12 phút | Bài đang tập: chỗ khó trước, chậm, chia nhỏ | [Cách tập một bản nhạc](cach-tap.md) |
-| 3 phút | Chơi trọn một lượt như đang biểu diễn và thu âm | [Thu âm buổi tập](../luyen-tap/thu-am.md) |
-| 2 phút | Ghi lại: hôm nay sửa được gì, mai làm gì | [Nhật ký luyện tập](../luyen-tap/nhat-ky.md) |
-
-Ngoài giờ ngồi đàn, hãy dành 10 phút nghe một bản thu của tác phẩm bạn đang tập, hoặc một [hướng dẫn nghe](../nghe-nhac/index.md). Khi có nhiều thời gian hơn, tăng phần bài đang tập trước, phần kỹ thuật sau.
+Khuôn buổi tập 30 phút, ngày bận 10 phút và lịch tuần ở [Thói quen mỗi ngày](../bat-dau/moi-ngay.md); buổi 20, 45 và 90 phút ở [Cách tập hiệu quả](cach-tap.md#mau-buoi-tap). Ngoài giờ ngồi đàn, hãy dành 10 phút nghe một bản thu của tác phẩm bạn đang tập, hoặc một [hướng dẫn nghe](../nghe-nhac/index.md).
 
 ### Phần đọc nhạc và luyện tai hôm nay
 
@@ -138,7 +119,7 @@ Site tự gợi ý dựa trên kết quả các công cụ bạn đã dùng:
 - **Nhạc lý** giải thích những gì tay bạn đang chơi. [Gam trưởng](../nhac-ly/06-gam-truong.md) và [gam thứ](../nhac-ly/07-gam-thu.md) là nền của ngón bấm; [hóa biểu](../nhac-ly/08-hoa-bieu.md) cho biết bài ở giọng nào; [hợp âm ba](../nhac-ly/10-hop-am-ba.md), [hòa âm chức năng](../nhac-ly/12-hoa-am-chuc-nang.md) và [kết](../nhac-ly/13-ket.md) giúp học thuộc nhanh hơn hẳn; [ký hiệu biểu diễn](../nhac-ly/14-ky-hieu-bieu-dien.md) dạy đọc pedal, sắc thái và nốt hoa mỹ. Toàn bộ chương trình ở [Nhạc lý](../nhac-ly/index.md).
 - **Luyện tai**: khi nghe ra [hợp âm](../luyen-tai/nghe-hop-am.md) và [tiến trình hòa âm](../luyen-tai/nghe-tien-trinh.md), bạn tự phát hiện nốt sai, học thuộc bằng tai và đệm được cho người khác hát.
 - **Site nghe bạn**: cắm đàn điện qua [MIDI](../luyen-tap/ket-noi-midi.md) để dùng phím thật trong các công cụ và được [chấm điểm khi chơi theo](../luyen-tap/choi-theo.md); [thu âm](../luyen-tap/thu-am.md) để nghe lại chính mình.
-- **Nghe nhạc**: các hướng dẫn nghe tác phẩm piano, như [Bach: Prelude Đô trưởng](../nghe-nhac/bach-prelude-c.md), [Beethoven: Ánh trăng](../nghe-nhac/beethoven-moonlight.md), [Beethoven: Pathétique](../nghe-nhac/beethoven-pathetique.md), [Chopin: Nocturne Op. 9 số 2](../nghe-nhac/chopin-nocturne.md), [Debussy: Clair de lune](../nghe-nhac/debussy-clair-de-lune.md) và [Rachmaninoff: Concerto số 2](../nghe-nhac/rachmaninoff-2.md). Danh sách đầy đủ ở [Nghe nhạc](../nghe-nhac/index.md).
+- **Nghe nhạc**: các hướng dẫn nghe tác phẩm piano, như [Bach: Biến tấu Goldberg](../nghe-nhac/bach-goldberg.md), [Beethoven: Ánh trăng](../nghe-nhac/beethoven-moonlight.md), [Beethoven: Pathétique](../nghe-nhac/beethoven-pathetique.md), [Chopin: Étude](../nghe-nhac/chopin-etude.md), [Schumann: Kinderszenen](../nghe-nhac/schumann-kinderszenen.md) và [Rachmaninoff: Concerto số 2](../nghe-nhac/rachmaninoff-2.md); mỗi bài học tác phẩm cũng có bản thu và bảng theo dõi khi nghe. Danh sách đầy đủ ở [Nghe nhạc](../nghe-nhac/index.md).
 - **Lịch sử**: đặt mỗi tác phẩm vào thời kỳ của nó ở [Lịch sử](../lich-su/index.md) và [chân dung nhà soạn nhạc](../lich-su/nha-soan-nhac.md).
 
 ## Bốn nguyên tắc của mục này

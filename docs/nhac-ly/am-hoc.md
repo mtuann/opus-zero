@@ -66,10 +66,14 @@ Hai nốt có tỉ lệ tần số **đơn giản** thì có nhiều bồi âm t
 
 ## Âm sắc
 
-Nhìn bồi âm bằng mắt: bấm các nút để so phổ của sóng sin, âm tổng hợp và piano thật, hoặc bật micro (xem thêm trang [Phổ âm thanh](../luyen-tap/pho-am-thanh.md)).
+Nhìn bồi âm bằng mắt: bấm các nút để so phổ của sóng sin, âm tổng hợp và piano thật, hoặc bật micro.
 
 <div class="oz-spectrum"></div>
 
+1. **Phát Đô3: sóng sin**: chỉ có **một** đỉnh, vì sóng sin không có bồi âm. Âm thanh "trơn", nhạt.
+2. **Phát Đô3: âm tổng hợp**: có vài đỉnh ở bồi âm 1, 2, 3…
+3. **Phát Đô3: piano mẫu**: rất nhiều đỉnh, mạnh yếu khác nhau, và chúng **tắt dần** theo thời gian khác nhau. Đó là âm sắc của cây đàn piano thật.
+4. **Bật micro** rồi hát hoặc huýt sáo: huýt sáo cho phổ gần như sóng sin; giọng hát nguyên âm "a" có nhiều bồi âm hơn "u". Nếu có đàn cơ, chơi một nốt trầm rồi một nốt cao và so số đỉnh bồi âm.
 
 Sáo gần như chỉ có âm cơ bản và vài bồi âm yếu, nên nghe tròn và trong. Clarinet có các bồi âm **lẻ** (1, 3, 5, 7) mạnh hơn hẳn các bồi âm chẵn, tạo âm sắc "rỗng" đặc trưng. Violin và oboe có rất nhiều bồi âm mạnh, nên nghe sáng và giàu. Thử chọn chỉ các ô lẻ (1, 3, 5, 7) trong công cụ ở trên rồi nghe cùng lúc.
 
@@ -106,7 +110,7 @@ Ca sĩ, dàn dây và kèn không cố định cao độ nên thường tự đi
 
 Cao độ của nốt La4 không phải lúc nào cũng là 440 Hz:
 
-- **440 Hz** được một hội nghị quốc tế ở London khuyến nghị năm 1939, và trở thành tiêu chuẩn ISO 16. Đây là chuẩn phổ biến nhất hiện nay, cũng là chuẩn của [máy lên dây](../luyen-tap/len-day.md) trên site này.
+- **440 Hz** được một hội nghị quốc tế ở London khuyến nghị năm 1939, và trở thành tiêu chuẩn ISO 16. Đây là chuẩn phổ biến nhất hiện nay, cũng là chuẩn của [máy lên dây](../luyen-tap/hat-lai.md#may-len-day) trên site này.
 - Nhiều dàn nhạc châu Âu lên dây cao hơn một chút, khoảng **442–443 Hz**, cho âm thanh sáng hơn.
 - Các nhóm chơi nhạc Baroque bằng nhạc cụ cổ thường dùng **415 Hz**, thấp hơn gần đúng nửa cung. Đó là lý do khi nghe một bản thu Bach "theo phong cách lịch sử", bạn có thể thấy nó thấp hơn bản nhạc in nửa cung (xem [Đọc tên tác phẩm và bản thu](../nghe-nhac/doc-ten-tac-pham.md)).
 

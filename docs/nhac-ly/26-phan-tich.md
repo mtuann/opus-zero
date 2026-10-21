@@ -13,7 +13,7 @@ Phân tích là **ghép tất cả những gì đã học** vào một bản nh�
 
 ## Thực hành: Bach, Prelude cung Đô trưởng, ô nhịp 1–11
 
-Mở bản nhạc trên [IMSLP](https://imslp.org/) (tìm "BWV 846") hoặc xem [hướng dẫn nghe](../nghe-nhac/bach-prelude-c.md). Mỗi ô nhịp là **một hợp âm rải**, nên đây là bài tập phân tích hòa âm lý tưởng.
+Mở bản nhạc trên [IMSLP](https://imslp.org/) (tìm "BWV 846") và nghe bản thu kèm bản đồ nghe trong [bài học Prelude Đô trưởng](../piano/tac-pham/bach-prelude-do.md#theo-doi-khi-nghe). Mỗi ô nhịp là **một hợp âm rải**, nên đây là bài tập phân tích hòa âm lý tưởng.
 
 Bốn ô nhịp đầu (mỗi ô một hợp âm rải; chữ phía trên là số La Mã của hợp âm):
 

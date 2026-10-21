@@ -12,7 +12,7 @@ Gần như ai học piano cũng gặp bản minuet này, thường dưới cái 
     |---|---|
     | Nhà soạn nhạc | Christian Petzold (1677–1733), nghệ sĩ organ của nhà thờ Sophienkirche ở Dresden. Suốt nhiều thập kỷ, bài này bị gán cho J. S. Bach |
     | Tác phẩm | Minuet Sol trưởng, BWV Anh. 114; đi thành cặp với Minuet Sol thứ, BWV Anh. 115 |
-    | Sáng tác / xuất bản | Hai minuet là hai chương trong một tổ khúc cho harpsichord của Petzold. Anna Magdalena Bach chép chúng vào cuốn sổ tay năm 1725 của bà (bài số 4 và 5). Được in từ cuối thế kỷ 19: C. F. Peters (1880), ấn bản toàn tập Bach-Gesellschaft (1894) |
+    | Sáng tác / xuất bản | Hai minuet hợp thành một chương (một cặp minuet, chơi Sol trưởng, Sol thứ rồi Sol trưởng lần nữa) trong một tổ khúc cho harpsichord của Petzold. Anna Magdalena Bach chép chúng vào cuốn sổ tay năm 1725 của bà (bài số 4 và 5). Được in từ cuối thế kỷ 19: C. F. Peters (1880), ấn bản toàn tập Bach-Gesellschaft (1894) |
     | Giọng · nhịp · tốc độ | Sol trưởng · 3/4 · không ghi tốc độ; nhịp vừa phải của điệu minuet |
     | Hình thức | Hai đoạn (binary), mỗi đoạn 16 ô nhịp và đều có dấu nhắc lại; tổng cộng 32 ô |
     | Độ khó | Khoảng ABRSM Grade 1–2 (ước lượng) |

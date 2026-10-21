@@ -22,6 +22,9 @@ Có khi trước phần trình bày còn có một **đoạn mở đầu chậm*
 
 ## Đi qua một tác phẩm: Mozart Sonata K. 545, chương 1
 
+!!! tip "Muốn chơi chương này?"
+    Có [bài học K. 545](../piano/tac-pham/mozart-k545.md) với cấu trúc từng ô, chỗ khó và kế hoạch tập. Một hình thức sonata nhỏ và dễ hơn: [Sonata Op. 49 số 2 của Beethoven](../piano/tac-pham/beethoven-op49-2.md), chương 1.
+
 *Sonata piano cung Đô trưởng, K. 545 (1788)*, được Mozart ghi là "cho người mới học", là ví dụ rõ ràng nhất về hình thức sonata. Chương 1 chỉ dài khoảng 73 ô nhịp, chơi trong 4–5 phút. Mở bản nhạc trên [IMSLP](https://imslp.org/) (tìm "K.545") và theo dõi:
 
 | Ô nhịp (khoảng) | Phần | Điều xảy ra | Giọng |

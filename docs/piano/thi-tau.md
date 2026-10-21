@@ -173,7 +173,7 @@ K:Am
 
 | Trình độ | Tài liệu | Ghi chú |
 |---|---|---|
-| Mới bắt đầu | [Đọc nốt](../luyen-tap/doc-not.md), [Đọc thị tấu](../luyen-tap/thi-tau.md), [Phiếu bài tập](../luyen-tap/phieu-bai-tap.md) trên site; Bartók, *Mikrokosmos* quyển 1–2 | *Mikrokosmos* bắt đầu bằng những bài rất ngắn và tăng độ khó từng chút |
+| Mới bắt đầu | [Đọc nốt](../luyen-tap/doc-not.md), [Thị tấu một bè](../luyen-tap/thi-tau.md), [Phiếu bài tập](../luyen-tap/phieu-bai-tap.md) trên site; Bartók, *Mikrokosmos* quyển 1–2 | *Mikrokosmos* bắt đầu bằng những bài rất ngắn và tăng độ khó từng chút |
 | Theo cấp thi | Paul Harris, *Improve your sight-reading!* (Faber Music) | Mỗi cấp một quyển, có bài luyện tiết tấu, nhận dạng và bài đọc ngắn |
 | Đọc cùng người khác | Song tấu bốn tay, ví dụ Anton Diabelli, *Melodious Exercises* Op. 149 | Bè của học trò chỉ dùng năm nốt; chơi cùng người khác buộc bạn không được dừng |
 | Trung cấp | Tuyển tập dễ: minuet trong *Notebook for Anna Magdalena Bach*, sonatina, *Album for the Young* của Schumann | Chọn bài dễ hơn bài đang tập |
@@ -184,10 +184,10 @@ K:Am
 ## Luyện trên site
 
 - [Đọc nốt](../luyen-tap/doc-not.md): phản xạ tên nốt trên cả hai khóa.
-- [Thị tấu hai tay](../luyen-tap/thi-tau-hai-tay.md): bài 4 ô nhịp cho hai tay trên khuông kép, bốn cấp đi đúng theo kế hoạch bốn tuần ở trên; chơi trên đàn thật rồi tự chấm.
-- [Đọc thị tấu](../luyen-tap/thi-tau.md): mỗi lần một giai điệu 4 ô nhịp mới; với đàn MIDI, site chấm cả cao độ lẫn nhịp.
+- [Thị tấu hai tay](../luyen-tap/thi-tau-hai-tay.md): bài 4 ô nhịp cho hai tay trên khuông kép, bốn cấp gần với kế hoạch bốn tuần ở trên; chơi trên đàn thật rồi tự chấm.
+- [Thị tấu một bè](../luyen-tap/thi-tau.md): mỗi lần một giai điệu 4 ô nhịp mới; với đàn MIDI, site chấm cả cao độ lẫn nhịp.
 - [Tiết tấu](../luyen-tap/tiet-tau.md): đọc và gõ tiết tấu.
-- [Phiếu bài tập in được](../luyen-tap/phieu-bai-tap.md): đề đọc nốt, tiết tấu để làm trên giấy.
+- [Phiếu bài tập](../luyen-tap/phieu-bai-tap.md): đề đọc nốt, tiết tấu để làm trên giấy.
 - [Kết nối đàn MIDI](../luyen-tap/ket-noi-midi.md): dùng phím thật thay cho chuột.
 
 ## Kiểm tra nhanh

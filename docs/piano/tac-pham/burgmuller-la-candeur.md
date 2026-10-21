@@ -49,7 +49,7 @@ Bài này được thu rất nhiều, cả bởi nghệ sĩ lẫn giáo viên. N
 
 Rồi nghe tiếp [Arabesque](burgmuller-arabesque.md): hai bài đứng liền nhau mà tính cách trái ngược hẳn.
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Luis Kolodin&quot;,&quot;lic&quot;:&quot;CC BY-SA 4.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;,&quot;page&quot;:&quot;https://imslp.org/wiki/File:PMLP7983-Y2mate.mx_-_Luis_Kolodin_plays_Burgmuller&#x27;s_La_candeur_(128_kbps).mp3&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;../../../assets/audio/burgmuller-la-candeur.mp3&quot;,&quot;d&quot;:108.3}],&quot;ref&quot;:[2,23,45,55,65,84,93]}"></div>
 
 ## Theo dõi khi nghe
 
@@ -241,7 +241,7 @@ Số ngón của tập Op. 100 được tính cho bàn tay nhỏ, đúng như t�
 
 - **Cùng tập Op. 100:** [Arabesque (số 2)](burgmuller-arabesque.md) ngay sau, để luyện ngón nhanh và staccato; *La pastorale* (số 3); *Consolation* (số 13) và *Ave Maria* (số 19) để đi tiếp với giai điệu liền và hợp âm.
 - **Giai điệu hát cùng cấp:** [Tchaikovsky: Bài ca Pháp cổ](tchaikovsky-bai-ca-phap-co.md), một giai điệu Sol thứ trên tay trái hai bè; [Schumann: Album für die Jugend](schumann-album.md).
-- **Cổ điển cùng chặng:** [Clementi: Sonatina Op. 36 số 1](clementi-sonatina.md).
+- **Cổ điển cùng chặng:** [Mozart: Minuet Fa trưởng K. 2](mozart-minuet-k2.md); chặng sau: [Sonatina Sol trưởng](beethoven-sonatina-sol.md), rồi [Clementi: Sonatina Op. 36 số 1](clementi-sonatina.md).
 - **Về étude và bài tập ngón:** [Bài tập ngón và étude](../bai-tap-ngon.md). Danh sách theo cấp: [Tác phẩm theo cấp độ](../tac-pham-theo-cap.md).
 
 ## Kiểm tra nhanh

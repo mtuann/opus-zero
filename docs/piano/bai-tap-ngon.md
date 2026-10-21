@@ -146,7 +146,7 @@ K:C
 [V:LH] z8 | z8 | z8 | !1!G,!2!F, !3!E,!1!D, !3!E,!2!F, !1!G,2 | !1!G,F, E,!4!D, !1!C,!4!D, E,F, | !1!G,4 z4 |]
 ```
 
-Ngón cái di chuyển **sớm**: lướt dưới lòng bàn tay ngay sau khi ngón 2 đánh, để khi đến lượt nó đã ở sẵn phía trên phím. Cẳng tay trượt ngang đều, không giật, không vặn cổ tay. Nốt của ngón cái không được to hơn các nốt khác.
+Cách luồn ngón cái (di chuyển sớm, cẳng tay trượt ngang đều, nốt ngón cái không to hơn) được giải thích kỹ ở [Gam: luồn ngón cái và vắt ngón](gam.md#luon-ngon-cai-va-vat-ngon); ở đây chỉ thêm một bước: chơi bài trên với máy đếm nhịp, rồi đổi sang nhịp chấm dôi.
 
 ### 3. Hợp âm thả – nhả
 

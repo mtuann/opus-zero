@@ -146,16 +146,9 @@ Phần lớn nhạc phím của Bach viết cho harpsichord, clavichord và orga
 
 ### Beethoven
 
-Beethoven ghi bàn đạp thường xuyên hơn hẳn Mozart, và nhiều chỉ dẫn của ông là một phần của ý tưởng âm thanh. Ví dụ nổi tiếng nhất là chương 1 Sonata *Ánh trăng* (Op. 27 số 2). Đầu chương, ông ghi: *Si deve suonare tutto questo pezzo delicatissimamente e senza sordino*, "cả chương này phải chơi hết sức tinh tế và không có bộ giảm âm". Thời đó *sordini* là bộ giảm âm, nên *senza sordino* nghĩa là giữ bộ giảm âm nhấc lên suốt chương, tức giữ bàn đạp vang; ở ô đầu, ông còn ghi *sempre pp*.
+Beethoven ghi bàn đạp thường xuyên hơn hẳn Mozart, và nhiều chỉ dẫn của ông là một phần của ý tưởng âm thanh. Ví dụ nổi tiếng nhất là chương 1 Sonata *Ánh trăng* (Op. 27 số 2): đầu chương, ông ghi *senza sordino*, "không có bộ giảm âm". Thời đó *sordini* là bộ giảm âm, nên chỉ dẫn này nghĩa là giữ bộ giảm âm nhấc lên, tức giữ bàn đạp vang, suốt chương.
 
-Trên đàn Vienna đầu thế kỷ 19, tiếng tắt nhanh và âm vực trầm nhẹ, nên giữ bộ giảm âm nhấc suốt chỉ tạo một lớp sương mỏng. Trên đàn hiện đại, giữ nguyên bàn đạp qua các lần đổi hòa âm sẽ thành một khối âm thanh hỗn độn. Các cách xử lý thường gặp:
-
-- Đổi bàn đạp theo hòa âm nhưng **không nhả hết**: chỉ nhả một phần để giữ lại chút hơi sương của hòa âm trước.
-- Giữ bàn đạp ở gần điểm bắt, điều chỉnh rất nhỏ và liên tục, không bao giờ đạp sâu hết cỡ.
-- Giữ đúng *pp*: chơi càng nhỏ, cộng hưởng càng ít nhòe.
-- Một số người dùng bàn đạp giữ âm để giữ nốt trầm trong khi đổi bàn đạp vang phía trên.
-
-Người chơi trên fortepiano có thể theo chỉ dẫn sát chữ hơn. Nghe và so sánh các bản thu trong [hướng dẫn nghe Sonata *Ánh trăng*](../nghe-nhac/beethoven-moonlight.md); cách tập bàn đạp cho chương này có ở [bài học tác phẩm](tac-pham/beethoven-anh-trang.md).
+Trên đàn Vienna đầu thế kỷ 19, tiếng tắt nhanh và âm vực trầm nhẹ, nên giữ bàn đạp suốt chỉ tạo một lớp sương mỏng; trên đàn hiện đại, giữ nguyên bàn đạp qua các lần đổi hòa âm sẽ thành một khối âm thanh hỗn độn. Nguyên văn chỉ dẫn, ba cách đọc thường gặp và cách tập bàn đạp cho chương này nằm ở bài học [Sonata *Ánh trăng*, chương 1](tac-pham/beethoven-anh-trang.md#ban-ap-senza-sordino).
 
 ### Chopin
 

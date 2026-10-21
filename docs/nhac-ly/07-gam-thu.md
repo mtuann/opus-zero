@@ -94,7 +94,7 @@ Thử nghe cả ba dạng trên [bàn phím piano](../luyen-tap/ban-phim.md): ch
     2. Rê – Mi – Fa – Sol – La – Si♭ – **Đô♯** – Rê. Bậc 7 Đô được nâng thành Đô♯.
 
 !!! example "Luyện tập kèm theo"
-    [Nhận biết gam](../luyen-tap/gam.md) bộ "Trưởng và thứ tự nhiên" rồi "Ba dạng gam thứ".
+    [Nhận biết gam](../luyen-tai/nghe-gam.md#luyen-voi-cong-cu) bộ "Trưởng và thứ tự nhiên" rồi "Ba dạng gam thứ".
 
 ```quiz
 ? Giọng thứ song song của Đô trưởng là gì?

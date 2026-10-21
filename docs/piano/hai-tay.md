@@ -24,7 +24,7 @@ Tin tốt là cả hai cái khó đều giảm rất nhanh khi tập đúng các
 
 ## Sáu kiểu phối hợp
 
-Các bài tập dưới đây soạn cho trang này. Mỗi bài: tay phải riêng, tay trái riêng, rồi hai tay ở ♩ = 50–60; chỉ tăng tốc khi chơi đúng ba lần liền.
+Các bài tập dưới đây soạn cho trang này; ba kiểu đầu nối tiếp các bài tập cùng loại ở [Vị trí năm ngón](nam-ngon.md), khó hơn một bậc. Mỗi bài: tay phải riêng, tay trái riêng, rồi hai tay ở ♩ = 50–60; chỉ tăng tốc khi chơi đúng ba lần liền.
 
 ### 1. Một tay giữ, một tay đi
 
@@ -108,7 +108,7 @@ Giai điệu to hơn phần đệm khoảng hai bậc sắc thái. Tay trái: ng
 
 ### 5. Bass Alberti và giai điệu
 
-**Bass Alberti** là hình đệm thấp – cao – giữa – cao của một hợp âm, như ở đầu [sonata K. 545](tac-pham/mozart-k545.md) của Mozart.
+**Bass Alberti** (thấp – cao – giữa – cao; cách tập riêng tay trái ở [Hợp âm và hình đệm](hop-am-rai.md#3-bass-alberti)) là hình đệm mở đầu [sonata K. 545](tac-pham/mozart-k545.md) của Mozart. Ở đây nó đi cùng một giai điệu.
 
 ```abc
 X:5

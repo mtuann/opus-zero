@@ -13,13 +13,13 @@ Các công cụ dưới đây chạy ngay trong trình duyệt, không cần cà
 [Đọc nốt](doc-not.md)
 :   Một nốt ngẫu nhiên hiện trên khuông, bạn chọn tên. Tự ưu tiên những nốt bạn hay sai.
 
-[Hóa biểu](hoa-bieu.md)
-:   Nhìn hóa biểu, đoán giọng trưởng hoặc giọng thứ.
+[Hóa biểu và vòng quãng năm](hoa-bieu.md)
+:   Nhìn hóa biểu, đoán giọng trưởng hoặc giọng thứ; vòng quãng năm bấm được ở cuối trang.
 
 [Tiết tấu](tiet-tau.md)
 :   Đọc một tiết tấu 2 ô nhịp và gõ theo. Site chấm độ chính xác đến từng mili giây.
 
-[Đọc thị tấu](thi-tau.md)
+[Thị tấu một bè](thi-tau.md)
 :   Giai điệu ngẫu nhiên 4 ô nhịp để hát hoặc đàn, rồi nghe đáp án.
 
 [Thị tấu hai tay](thi-tau-hai-tay.md)
@@ -28,19 +28,16 @@ Các công cụ dưới đây chạy ngay trong trình duyệt, không cần cà
 [Chép giai điệu](chep-giai-dieu.md)
 :   Nghe một câu nhạc ngắn và nhập lại từng nốt bằng bàn phím màn hình hoặc đàn MIDI.
 
-[Giấy kẻ khuông](giay-ke-khuong.md)
-:   In giấy kẻ khuông đơn hoặc khuông kép piano để làm bài tập viết.
-
-[Phiếu bài tập in được](phieu-bai-tap.md)
-:   Tạo đề đọc nốt, tiết tấu để in ra giấy làm bài (đáp án ẩn khi in).
+[Phiếu bài tập và giấy kẻ khuông](phieu-bai-tap.md)
+:   Tạo đề đọc nốt, tiết tấu để in ra giấy làm bài (đáp án ẩn khi in); in giấy kẻ khuông đơn hoặc khuông kép piano.
 
 ## Site nghe bạn
 
 [Chơi theo](choi-theo.md)
 :   Chơi hoặc hát theo bài, site nghe qua micro hoặc đàn MIDI và chấm từng nốt.
 
-[Hát lại](hat-lai.md)
-:   Nghe một nốt hoặc một quãng, hát lại, xem mình cao hay thấp bao nhiêu cent.
+[Hát lại và máy lên dây](hat-lai.md)
+:   Nghe một nốt hoặc một quãng, hát lại, xem mình cao hay thấp bao nhiêu cent; máy lên dây ở cuối trang.
 
 [Thu âm buổi tập](thu-am.md)
 :   Thu âm, lưu trên máy, nghe lại và so sánh hai bản thu.
@@ -50,13 +47,15 @@ Các công cụ dưới đây chạy ngay trong trình duyệt, không cần cà
 
 ## Luyện tai
 
-[Nhận biết quãng](quang.md)
+Ba công cụ dưới đây nằm ngay trong các bài [Luyện tai](../luyen-tai/index.md), cạnh phần hướng dẫn cách nghe.
+
+[Nhận biết quãng](../luyen-tai/nghe-quang.md#luyen-voi-cong-cu)
 :   Nghe hai nốt và đoán khoảng cách giữa chúng.
 
-[Nhận biết hợp âm](hop-am.md)
+[Nhận biết hợp âm](../luyen-tai/nghe-hop-am.md#luyen-voi-cong-cu)
 :   Phân biệt hợp âm trưởng, thứ, giảm, tăng và 5 loại hợp âm bảy.
 
-[Nhận biết gam](gam.md)
+[Nhận biết gam](../luyen-tai/nghe-gam.md#luyen-voi-cong-cu)
 :   Nghe một gam và đoán loại: trưởng, thứ, điệu thức hay ngũ cung.
 
 ## Khám phá
@@ -67,10 +66,7 @@ Các công cụ dưới đây chạy ngay trong trình duyệt, không cần cà
 [Xây gam và hợp âm](xay-hop-am.md)
 :   Tự bấm chọn từng nốt để dựng gam hoặc hợp âm theo yêu cầu, rồi kiểm tra.
 
-[Phổ âm thanh](pho-am-thanh.md)
-:   Nhìn thấy bồi âm của giọng hát, nhạc cụ, piano mẫu và âm tổng hợp.
-
-[Vòng quãng năm](vong-quang-nam.md)
+[Vòng quãng năm](hoa-bieu.md#vong-quang-nam)
 :   Bấm vào từng giọng để xem hóa biểu, các nốt và hợp âm.
 
 ## Dụng cụ
@@ -78,8 +74,8 @@ Các công cụ dưới đây chạy ngay trong trình duyệt, không cần cà
 [Máy đếm nhịp](metronome.md)
 :   Giữ nhịp khi vỗ tay, đọc tiết tấu hoặc tập đàn.
 
-[Máy lên dây](len-day.md)
-:   Lên dây violin, guitar hoặc kiểm tra cao độ khi hát, qua micro.
+[Máy lên dây](hat-lai.md#may-len-day)
+:   Đo cao độ qua micro: kiểm tra giọng hát, lên dây violin hoặc guitar, xem đàn piano cơ đang lệch chuẩn bao nhiêu.
 
 [Nhật ký luyện tập](nhat-ky.md)
 :   Chuỗi ngày liên tiếp, bản đồ 16 tuần, danh sách việc hôm nay và ghi chú.

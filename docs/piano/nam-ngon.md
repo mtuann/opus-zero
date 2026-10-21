@@ -226,7 +226,7 @@ K:C
 | 1 | "Bài ca buổi sáng" ở giọng của tuần | Đọc bản Đô trưởng, chơi ở giọng khác |
 
 !!! example "Học tiếp"
-    Khi các bài trên đã trơn tru, chuyển sang [10 bài đầu tiên](10-bai-dau-tien.md) và bắt đầu [gam một quãng tám](gam.md).
+    Trang này đi song song với [10 bài đầu tiên](10-bai-dau-tien.md) từ bài 4 trở đi (ba bài đầu chỉ cần thế Đô của [Hai tuần đầu tiên](hai-tuan-dau.md)). Khi các bài trên đã trơn tru, bắt đầu [gam một quãng tám](gam.md).
 
 ```quiz
 ? Ở thế Đô, tay trái đặt ngón 5 trên nốt nào?

@@ -245,7 +245,7 @@ Bản Peters là một ấn bản thế kỷ 19 với một số chỉ dẫn c�
 - **Nhịp ba của Chopin:** [Valse La thứ](chopin-valse-la-thu.md); mazurka và valse có ở [Thể loại](../the-loai.md).
 - **Cùng kỹ năng nổi bè:** [Tchaikovsky: Cầu nguyện buổi sáng](tchaikovsky-cau-nguyen-buoi-sang.md).
 - **Bước tiếp theo:** [Nocturne Op. 9 số 2](chopin-nocturne-op9-2.md). Danh sách theo cấp: [Tác phẩm theo cấp độ](../tac-pham-theo-cap.md).
-- **Nghe thêm:** bộ biến tấu của Mompou trên chính prélude này; [Chopin: Nocturne](../../nghe-nhac/chopin-nocturne.md).
+- **Nghe thêm:** bộ biến tấu của Mompou trên chính prélude này; [Chopin: Étude Op. 10](../../nghe-nhac/chopin-etude.md).
 
 ## Kiểm tra nhanh
 

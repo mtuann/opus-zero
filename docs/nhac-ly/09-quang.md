@@ -81,7 +81,7 @@ Ví dụ: Đô – Mi (3 trưởng) đảo thành Mi – Đô (6 thứ).
 | Nghịch | 2, 7, tritone | Căng, muốn được giải quyết |
 | Tùy ngữ cảnh | 4 đúng | Thuận khi đứng trên, nghịch khi đứng ở bè trầm |
 
-Luyện tai các quãng với [công cụ nhận biết quãng](../luyen-tap/quang.md) và [bảng giai điệu gợi nhớ](../luyen-tai/index.md).
+Luyện tai các quãng với [công cụ nhận biết quãng](../luyen-tai/nghe-quang.md#luyen-voi-cong-cu) và [bảng giai điệu gợi nhớ](../luyen-tai/index.md).
 
 !!! tip "Trên phím đàn"
     Trên đàn, quãng thành **độ mở của bàn tay**: quãng 2 là hai ngón liền nhau, quãng 5 là ngón 1 và 5 ở thế năm ngón, quãng 8 là gần cả bàn tay. Đọc theo quãng (nhìn khoảng cách) thay vì gọi tên từng nốt giúp thị tấu nhanh hơn: xem [Đọc nhạc và thị tấu](../piano/thi-tau.md).
@@ -96,7 +96,7 @@ Luyện tai các quãng với [công cụ nhận biết quãng](../luyen-tap/qua
     2. **3 trưởng** (9 − 6 = 3, thứ đổi thành trưởng).
 
 !!! example "Luyện tập kèm theo"
-    [Nhận biết quãng](../luyen-tap/quang.md) bộ Cơ bản rồi Mở rộng, và [phiếu bài tập](../luyen-tap/phieu-bai-tap.md) "Gọi tên quãng".
+    [Nhận biết quãng](../luyen-tai/nghe-quang.md#luyen-voi-cong-cu) bộ Cơ bản rồi Mở rộng, và [phiếu bài tập](../luyen-tap/phieu-bai-tap.md) "Gọi tên quãng".
 
 ```quiz
 ? Đô – Mi♭ là quãng gì?

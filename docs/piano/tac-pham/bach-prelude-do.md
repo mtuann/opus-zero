@@ -1,10 +1,12 @@
 # Bach: Prelude Đô trưởng, BWV 846
 
-Bản prelude mở đầu *Bình quân luật* quyển 1 trông như một bài tập hợp âm rải: 35 ô nhịp, mỗi ô một hợp âm, cùng một hình nốt lặp lại gần như từ đầu đến cuối. Chơi nó cho đều, cho vang và có hướng đi là một bài học lớn về tiếng đàn và về hòa âm. Trang này hướng dẫn cách *tập chơi*; muốn nghe trước theo từng đoạn, xem [hướng dẫn nghe Prelude Đô trưởng](../../nghe-nhac/bach-prelude-c.md).
+Bản prelude mở đầu *Bình quân luật* quyển 1 trông như một bài tập hợp âm rải: 35 ô nhịp, mỗi ô một hợp âm, cùng một hình nốt lặp lại gần như từ đầu đến cuối. Chơi nó cho đều, cho vang và có hướng đi là một bài học lớn về tiếng đàn và về hòa âm. Trang này hướng dẫn cách *tập chơi*, kèm bản đồ nghe theo từng đoạn.
 
 <div class="oz-piece" markdown>
 <span class="oz-chip">Đô trưởng · 4/4</span> <span class="oz-chip">Hợp âm rải liên tục</span> <span class="oz-chip oz-chip--level">≈ Grade 4–5</span> <span class="oz-chip">BWV 846</span>
 </div>
+
+*Chỉ muốn nghe?* Đọc phần [Bối cảnh](#boi-canh) và [Theo dõi khi nghe](#theo-doi-khi-nghe); phần còn lại dành cho người tập đàn.
 
 ??? info oz-piece-info "Thông tin tác phẩm và bản nhạc nên dùng"
 
@@ -44,11 +46,12 @@ Bach viết cho đàn phím nói chung (*Klavier*): harpsichord, clavichord, org
 
 ## Nghe trước khi tập
 
-Đọc [hướng dẫn nghe](../../nghe-nhac/bach-prelude-c.md) và nghe ít nhất ba lần, mỗi lần một câu hỏi:
+Bản nhạc dài khoảng hai phút. Nghe ít nhất ba lần, mỗi lần một câu hỏi:
 
 1. **Hợp âm.** Ô nào nghe "căng" nhất? Ô nào nghe như về nhà? Đánh dấu bằng bút chì lên bản nhạc.
 2. **Bè trầm.** Chỉ nghe nốt thấp nhất của mỗi ô: nó đi xuống từng bậc thế nào, và dừng trên nốt Sol bao lâu ở gần cuối?
 3. **Độ vang.** Nghệ sĩ giữ nốt bằng ngón, bằng bàn đạp, hay cả hai? Tiếng đàn khô hay ướt?
+4. **Một giai điệu bên trên.** Năm 1853, Charles Gounod viết thêm một giai điệu lên trên prelude này, thành bài *Ave Maria* nổi tiếng. Nghe bản ấy rồi nghe lại bản gốc: hòa âm của Bach tự nó đã "hát" đến mức nào?
 
 Rồi so sánh vài nghệ sĩ đã thu trọn *Bình quân luật*, chẳng hạn Glenn Gould, Sviatoslav Richter và András Schiff. Gould nổi tiếng với lối chơi Bach rõ và tách tiếng; Schiff chủ trương chơi Bach không dùng bàn đạp vang. Ghi lại: ai chơi nhanh nhất, ai nghe vang nhất, ai để sắc thái thay đổi nhiều nhất? Nghe thêm một bản trên harpsichord để biết âm thanh mà Bach quen thuộc. Không có cách đúng duy nhất; điều quan trọng là bạn biết mình chọn gì và vì sao.
 

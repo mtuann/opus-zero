@@ -19,12 +19,10 @@ Mỗi tay đặt ở **thế năm ngón** bắt đầu từ chủ âm; số ngó
 
 ## Đọc một bài trong 30 giây
 
-1. **Giọng và nhịp.** Nhìn hóa biểu và số chỉ nhịp, đọc thầm "Sol trưởng, nhịp 3/4". Giọng thứ: tìm nốt chủ âm ở cuối bài.
+1. **Quét bài** theo [danh sách 30 giây](../piano/thi-tau.md#quet-30-giay-truoc-khi-choi): giọng và nhịp, hình dạng các câu, tiết tấu khó nhất.
 2. **Vị trí hai tay.** Số ngón ở nốt đầu mỗi tay cho biết thế tay. Đặt cả hai tay lên phím trước khi bắt đầu.
-3. **Hình dạng.** Tìm những chỗ đi liền bậc, nhảy quãng, nốt lặp. Đọc theo hình dạng của quãng, không gọi tên từng nốt (xem [Đọc nhạc và thị tấu](../piano/thi-tau.md)).
-4. **Tiết tấu.** Vỗ tay hoặc đếm to ô khó nhất, nhất là chỗ móc đơn và nốt chấm dôi.
-5. **Đếm vào một ô** rồi chơi một lượt **không dừng**. Sai thì bỏ qua, giữ nhịp: trong thị tấu, giữ nhịp quan trọng hơn đúng từng nốt. Bật **Gõ nhịp** ở trình phát nếu muốn có tiếng đếm.
-6. **Rồi mới nghe.** Bấm phát để so sánh với điều bạn vừa chơi, sau đó tự chấm một trong ba mức.
+3. **Đếm vào một ô** rồi chơi một lượt **không dừng**. Sai thì bỏ qua, giữ nhịp: trong thị tấu, giữ nhịp quan trọng hơn đúng từng nốt. Bật **Gõ nhịp** ở trình phát nếu muốn có tiếng đếm.
+4. **Rồi mới nghe.** Bấm phát để so sánh với điều bạn vừa chơi, sau đó tự chấm một trong ba mức.
 
 !!! tip "Chọn tốc độ"
     Ô phần trăm ở trình phát chỉnh tốc độ phần nghe. Khi tự chơi, hãy chọn tốc độ mà bạn chắc chắn không phải dừng, kể cả khi nó chậm hơn nhiều so với tốc độ ghi trên bài.
@@ -40,5 +38,5 @@ Khi bốn trong năm bài gần nhất ở một cấp đều trôi chảy, côn
 ## Học tiếp
 
 - [Đọc nhạc và thị tấu](../piano/thi-tau.md): đọc hai khóa cùng lúc, đọc theo quãng, chọn sách thị tấu.
-- [Đọc thị tấu](thi-tau.md): giai điệu một bè, hát hoặc chơi một tay, có chấm điểm qua micro hoặc đàn MIDI.
-- [Phiếu bài tập in được](phieu-bai-tap.md) và [Đọc nốt](doc-not.md) khi còn phải dừng lại tìm tên nốt.
+- [Thị tấu một bè](thi-tau.md): giai điệu một bè, hát hoặc chơi một tay, có chấm điểm qua micro hoặc đàn MIDI.
+- [Phiếu bài tập](phieu-bai-tap.md) và [Đọc nốt](doc-not.md) khi còn phải dừng lại tìm tên nốt.

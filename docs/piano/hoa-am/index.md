@@ -74,7 +74,7 @@ Mười phút đều đặn mỗi ngày hiệu quả hơn một giờ dồn vào
 - **Bỏ bản nhạc sớm**: từ lần chơi thứ ba, nhìn lên chứ đừng nhìn xuống. Mục tiêu là để tay và tai tự tìm đường.
 
 !!! tip "Luyện tai song song"
-    Nghe ra kết nửa hay kết trọn là nửa đầu của việc tự đệm. Mỗi ngày làm vài câu ở [nghe tiến trình hợp âm](../../luyen-tai/nghe-tien-trinh.md).
+    Nghe ra kết nửa hay kết trọn là nửa đầu của việc tự đệm. Mỗi ngày làm vài câu với [công cụ nhận biết kết](../../luyen-tai/nghe-tien-trinh.md#luyen-voi-cong-cu).
 
 ## Nguồn
 

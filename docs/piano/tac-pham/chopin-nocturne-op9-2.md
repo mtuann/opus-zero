@@ -1,10 +1,12 @@
 # Chopin: Nocturne Mi♭ trưởng, Op. 9 số 2
 
-Bản nocturne nổi tiếng nhất của Chopin là một bài học trọn vẹn về nghệ thuật **hát trên phím đàn**: một giai điệu dài như giọng ca opera, nằm trên lớp đệm tay trái đều như nhịp thở. Trang này hướng dẫn cách *tập chơi*; muốn nghe theo từng bước trước, xem [hướng dẫn nghe Nocturne Op. 9 số 2](../../nghe-nhac/chopin-nocturne.md).
+Bản nocturne nổi tiếng nhất của Chopin là một bài học trọn vẹn về nghệ thuật **hát trên phím đàn**: một giai điệu dài như giọng ca opera, nằm trên lớp đệm tay trái đều như nhịp thở. Trang này hướng dẫn cách *tập chơi*, kèm bản đồ nghe theo từng đoạn.
 
 <div class="oz-piece" markdown>
 <span class="oz-chip">Mi♭ trưởng · 12/8</span> <span class="oz-chip">Andante</span> <span class="oz-chip oz-chip--level">≈ Grade 7</span> <span class="oz-chip">34 ô nhịp</span>
 </div>
+
+*Chỉ muốn nghe?* Đọc phần [Bối cảnh](#boi-canh) và [Theo dõi khi nghe](#theo-doi-khi-nghe); phần còn lại dành cho người tập đàn.
 
 ??? info oz-piece-info "Thông tin tác phẩm và bản nhạc nên dùng"
 
@@ -28,7 +30,7 @@ Bản nocturne nổi tiếng nhất của Chopin là một bài học trọn v�
 - **Ngắn mà trọn vẹn.** 34 ô nhịp, khoảng 4 phút: đủ để học kỹ trong hai tháng và biểu diễn được.
 
 !!! tip "Chưa sẵn sàng?"
-    Nếu bước nhảy tay trái và chùm nốt nhỏ còn quá sức, hãy bắt đầu bằng những nocturne mà Henle xếp ở mức 5: Nocturne Mi thứ Op. 72 số 1 (di cảo) hoặc Nocturne Đô♯ thứ (di cảo, KK IVa/16). Cả hai dạy cùng một cách hát nhưng ít trang trí hơn. Trên site, [Valse Si thứ Op. 69 số 2](chopin-valse-si-thu.md) cũng là một bước chuẩn bị tốt.
+    Nếu bước nhảy tay trái và chùm nốt nhỏ còn quá sức, hãy bắt đầu bằng những nocturne mà Henle xếp ở mức 5: Nocturne Mi thứ Op. 72 số 1 (di cảo) hoặc Nocturne Đô♯ thứ (di cảo, B. 49). Cả hai dạy cùng một cách hát nhưng ít trang trí hơn. Trên site, [Valse Si thứ Op. 69 số 2](chopin-valse-si-thu.md) cũng là một bước chuẩn bị tốt.
 
 ## Bối cảnh
 
@@ -42,7 +44,7 @@ Các học trò kể rằng Chopin thường thay đổi nét trang trí mỗi l
 
 ## Nghe trước khi tập
 
-Đọc [hướng dẫn nghe](../../nghe-nhac/chopin-nocturne.md) và nghe ít nhất ba lần, mỗi lần với một câu hỏi:
+Nghe ít nhất ba lần, mỗi lần với một câu hỏi:
 
 1. **Hơi thở.** Một câu nhạc dài bao nhiêu? Nghệ sĩ "lấy hơi" ở đâu?
 2. **Tay trái.** Lớp đệm có bao giờ to hơn giai điệu không? Nó có giữ nhịp khi giai điệu co giãn?

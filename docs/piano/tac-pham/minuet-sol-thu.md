@@ -28,13 +28,9 @@ Bài thứ hai của cặp minuet nổi tiếng trong cuốn sổ tay năm 1725 
 
 ## Bối cảnh
 
-Câu chuyện đầy đủ của cặp minuet có ở trang [Minuet Sol trưởng](minuet-sol.md); dưới đây là phần tóm tắt.
+Bài này là người anh em giọng thứ của [Minuet Sol trưởng](minuet-sol.md): cùng nằm trong sổ tay năm 1725 của Anna Magdalena Bach (bài số 5, ngay sau Minuet Sol trưởng), và cùng được xác định là của **Christian Petzold** chứ không phải của Bach; câu chuyện đầy đủ và cách đọc ký hiệu BWV Anh. có ở trang Minuet Sol trưởng.
 
-Năm 1725, J. S. Bach bắt đầu cuốn sổ tay âm nhạc thứ hai cho vợ, ca sĩ **Anna Magdalena Bach**. Minuet Sol trưởng và minuet Sol thứ là bài số 4 và 5, do chính bà chép vào, có lẽ không lâu sau khi nhận cuốn sổ. Có thể Bach mang chúng về sau chuyến đi Dresden tháng 9 năm 1725.
-
-Sổ không ghi tên tác giả, nên thế kỷ 19 in hai bài như nhạc của Bach, và danh mục BWV (1950) xếp chúng vào **phụ lục** (*Anhang*, viết tắt **Anh.**) dành cho tác phẩm còn nghi vấn. Năm 1979, nhà nghiên cứu **Hans-Joachim Schulze** công bố trên *Bach-Jahrbuch* (niên giám Bach) rằng cặp minuet nằm trong một tổ khúc cho harpsichord mang tên **Christian Petzold**, do Johann Benjamin Tzschirich chép vào tập nhạc của mình, có lẽ vào khoảng 1735–1736. Từ ấn bản BWV năm 1990, hai bài được chuyển sang phần phụ lục dành cho tác phẩm của người khác. Cách đọc các ký hiệu này có ở [Đọc tên tác phẩm](../../nghe-nhac/doc-ten-tac-pham.md).
-
-Trong tổ khúc ấy, hai minuet hợp thành một chương, bên cạnh tám chương khác, và được chơi theo thứ tự: Sol trưởng, Sol thứ, rồi Sol trưởng lần nữa (*da capo*). Minuet thứ hai, cùng chủ âm nhưng khác màu, giữ vai trò tương phản mà về sau người ta gọi là **trio** (xem [Minuet và Trio](../../hinh-thuc/minuet-trio.md)).
+Trong tổ khúc cho harpsichord của Petzold, nơi chúng được tìm thấy, hai minuet hợp thành một chương, bên cạnh tám chương khác, và được chơi theo thứ tự: Sol trưởng, Sol thứ, rồi Sol trưởng lần nữa (*da capo*). Minuet thứ hai, cùng chủ âm nhưng khác màu, giữ vai trò tương phản mà về sau người ta gọi là **trio** (xem [Minuet và Trio](../../hinh-thuc/minuet-trio.md)).
 
 Petzold viết cho **harpsichord**: dây được gảy, tiếng tắt nhanh, to nhỏ không đổi theo lực ngón, nên câu nhạc được "nói" bằng phát âm và nhịp điệu. Piano hiện đại ngân lâu và dễ to nhỏ, nhưng cũng dễ làm mọi thứ dính và nặng (xem [Lịch sử cây đàn piano](../lich-su-dan.md) và [thời Baroque](../../lich-su/thoi-ky/baroque.md)).
 
@@ -48,7 +44,7 @@ Nghe ít nhất hai bản: một bản trên harpsichord (Gustav Leonhardt, Igor
 4. **Nốt hoa mỹ.** Có láy ở chỗ dừng cuối câu 1 không? Lần nhắc lại có thêm trang trí không?
 5. **Tốc độ.** So với Minuet Sol trưởng trong cùng bản thu, bài này nhanh hơn, chậm hơn hay bằng?
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Luis Kolodin&quot;,&quot;lic&quot;:&quot;CC BY-SA 4.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;,&quot;page&quot;:&quot;https://imslp.org/wiki/File:PMLP357199-Y2Mate.is_-_Luis_Kolodin_plays_Petzold&#x27;s_Minuet_BWV_Anh_115-T-FK2J7_WaQ-160k-1659057524268.mp3&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;../../../assets/audio/minuet-sol-thu.mp3&quot;,&quot;d&quot;:84.65}],&quot;ref&quot;:[0,11,21,40,50,60]}"></div>
 
 ## Theo dõi khi nghe
 

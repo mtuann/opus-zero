@@ -35,7 +35,7 @@ hide:
 <div class="oz-path" markdown>
 ### Tôi muốn hiểu và nghe nhạc piano
 
-Bắt đầu với [các thể loại nhạc piano](piano/the-loai.md) và [nghệ sĩ, bản thu nên nghe](piano/nghe-si.md), rồi nghe theo [hướng dẫn nghe từng bước](nghe-nhac/index.md): 18 tác phẩm piano, từ Bach đến Rachmaninoff, có công cụ ghi mốc theo bản thu bạn chọn.
+Bắt đầu với [các thể loại nhạc piano](piano/the-loai.md) và [nghệ sĩ, bản thu nên nghe](piano/nghe-si.md), rồi nghe theo [hướng dẫn nghe từng bước](nghe-nhac/index.md): 16 tác phẩm piano, từ Scarlatti đến Gershwin, có công cụ ghi mốc theo bản thu bạn chọn.
 </div>
 
 </div>
@@ -66,6 +66,6 @@ Bấm tên nốt bạn thấy trên khuông (hoặc gõ phím ++c++ ++d++ ++e++ 
 | [Piano](piano/index.md) | Lộ trình từ 0 đến nâng cao; tư thế, bản đồ bàn phím, 10 bài hai tay đầu tiên; kỹ thuật (năm ngón, gam, hợp âm rải, tạo tiếng đàn, bàn đạp, nốt hoa mỹ, phối hợp hai tay); cách tập, thị tấu, học thuộc, giữ tay khỏe, thi cấp; 34 bài học tác phẩm (nút theo dõi bài đang tập, bản đồ nghe theo bản thu); hòa âm bên phím và ứng tác; lịch sử cây đàn, thể loại, nhà soạn nhạc, nghệ sĩ |
 | [Nhạc lý](nhac-ly/index.md) | 32 bài từ tên nốt đến kỹ thuật thế kỷ 20, mỗi bài có ví dụ nghe được và quiz, các bài cơ bản có phần "Trên phím đàn"; từ điển thuật ngữ |
 | [Luyện tập](luyen-tap/index.md) | Hơn 20 công cụ: đọc nốt, thị tấu một bè và hai tay, luyện tai, tiết tấu, chơi theo qua micro hoặc đàn MIDI, thu âm, máy đếm nhịp, nhật ký |
-| [Nghe & nhận diện](nghe-nhac/index.md) | 44 hướng dẫn nghe (18 tác phẩm piano), hình thức âm nhạc, nhận diện thời kỳ và tác giả, nhạc cụ trong dàn nhạc |
+| [Nghe & nhận diện](nghe-nhac/index.md) | 42 hướng dẫn nghe (16 tác phẩm piano), hình thức âm nhạc, nhận diện thời kỳ và tác giả, nhạc cụ trong dàn nhạc |
 | [Lịch sử](lich-su/index.md) | Các thời kỳ, nhà soạn nhạc, opera, nhạc cổ điển và nhạc truyền thống Việt Nam |
 | [Thêm](tai-nguyen.md) | Tài nguyên, tài liệu tham khảo, nhật ký học, nhật ký cập nhật |

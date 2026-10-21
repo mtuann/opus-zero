@@ -62,7 +62,7 @@ Hai mẹo nhớ:
 
 ## Bảng ngón bấm 12 gam trưởng
 
-Một quãng tám, đi lên; đi xuống thì đọc ngược lại. Các giọng xếp theo [vòng quãng năm](../luyen-tap/vong-quang-nam.md).
+Một quãng tám, đi lên; đi xuống thì đọc ngược lại. Các giọng xếp theo [vòng quãng năm](../luyen-tap/hoa-bieu.md#vong-quang-nam).
 
 | Giọng | Tay phải | Tay trái | Ngón 4 tay phải | Ngón 4 tay trái |
 |---|---|---|---|---|

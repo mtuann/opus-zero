@@ -23,7 +23,7 @@ Giọng hát là nhạc cụ đầu tiên và vẫn là trung tâm của rất n
 
 **Nghệ sĩ nên tìm:** Dietrich Fischer-Dieskau (ca khúc), Jessye Norman, Cecilia Bartoli, Luciano Pavarotti, Jonas Kaufmann; các dàn hợp xướng như The Sixteen, Monteverdi Choir.
 
-**Nếu học:** **luôn cần giáo viên thanh nhạc**: hát sai kỹ thuật có thể làm tổn thương dây thanh. Cách bắt đầu dễ nhất là tham gia một **dàn hợp xướng** nghiệp dư; bạn sẽ học đọc nhạc, nghe hòa âm và hát cùng người khác. [Đọc thị tấu](../luyen-tap/thi-tau.md) và [luyện tai](../luyen-tai/index.md) trên site giúp ích trực tiếp.
+**Nếu học:** **luôn cần giáo viên thanh nhạc**: hát sai kỹ thuật có thể làm tổn thương dây thanh. Cách bắt đầu dễ nhất là tham gia một **dàn hợp xướng** nghiệp dư; bạn sẽ học đọc nhạc, nghe hòa âm và hát cùng người khác. [Thị tấu một bè](../luyen-tap/thi-tau.md) và [luyện tai](../luyen-tai/index.md) trên site giúp ích trực tiếp.
 
 ## Organ (đàn ống)
 

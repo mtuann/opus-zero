@@ -49,9 +49,9 @@ Nghe ít nhất ba lần, mỗi lần một câu hỏi:
 3. **Láy.** Ở ô 9–11, nốt Sol của tay trái có láy. Láy nghe rõ từng nốt hay chỉ như một cái rung nhẹ?
 4. **Kết.** Nghệ sĩ có chậm lại ở hai ô cuối không, và chậm từ đâu?
 
-Bài có mặt trong rất nhiều bản thu trọn các prelude nhỏ, cả trên harpsichord lẫn piano: chẳng hạn Kenneth Gilbert thu trên harpsichord, Angela Hewitt và Tatiana Nikolayeva thu trên piano. Hãy nghe ít nhất một bản harpsichord và một bản piano, rồi ghi lại: bản nào nhanh hơn, bản nào thay đổi sắc thái nhiều hơn, hình rải liền hay hơi tách. Muốn nghe trước cái đích của chặng này, đọc [hướng dẫn nghe Prelude BWV 846](../../nghe-nhac/bach-prelude-c.md).
+Bài có mặt trong rất nhiều bản thu trọn các prelude nhỏ, cả trên harpsichord lẫn piano: chẳng hạn Kenneth Gilbert thu trên harpsichord, Angela Hewitt và Tatiana Nikolayeva thu trên piano. Hãy nghe ít nhất một bản harpsichord và một bản piano, rồi ghi lại: bản nào nhanh hơn, bản nào thay đổi sắc thái nhiều hơn, hình rải liền hay hơi tách. Muốn nghe trước bài bạn sẽ học ở chặng sau của lộ trình, mở bản thu và bảng [Theo dõi khi nghe](bach-prelude-do.md#theo-doi-khi-nghe) của Prelude BWV 846.
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Luis Kolodin&quot;,&quot;lic&quot;:&quot;CC BY-SA 4.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;,&quot;page&quot;:&quot;https://imslp.org/wiki/File:PMLP797208-Little_Prelude_in_C_Major_BWV_939_(320_kbps).mp3&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;../../../assets/audio/bach-prelude-bwv939.mp3&quot;,&quot;d&quot;:30.59}],&quot;ref&quot;:[0,6,9,15,19,21,22,24]}"></div>
 
 ## Theo dõi khi nghe
 
@@ -233,7 +233,7 @@ Bản Bach-Gesellschaft và các bản Urtext chỉ có nốt và các dấu lá
 - **Bước tiếp theo:** [Bach: Prelude Đô trưởng, BWV 846](bach-prelude-do.md). Cùng giọng, cùng lối rải hợp âm chia hai tay, nhưng dài 35 ô và đòi tiếng đàn đều hơn nhiều.
 - **Cùng nhóm prelude nhỏ:** BWV 924 (Đô trưởng) và BWV 999 (Đô thứ), hai bài gần cùng độ khó, cũng dựng trên hợp âm rải.
 - **Hai bè độc lập:** [Bach: Invention số 1](bach-invention-1.md), khi bạn sẵn sàng cho phức điệu.
-- **Cùng chặng:** [Minuet Sol trưởng](minuet-sol.md), [Musette Rê trưởng](musette-re.md); danh sách đầy đủ ở [Tác phẩm theo cấp độ](../tac-pham-theo-cap.md).
+- **Cùng chặng:** [Clementi: Sonatina Op. 36 số 1](clementi-sonatina.md), [Tchaikovsky: Cầu nguyện buổi sáng](tchaikovsky-cau-nguyen-buoi-sang.md); nhẹ hơn một chặng: [Minuet Sol trưởng](minuet-sol.md), [Musette Rê trưởng](musette-re.md); danh sách đầy đủ ở [Tác phẩm theo cấp độ](../tac-pham-theo-cap.md).
 
 ## Kiểm tra nhanh
 

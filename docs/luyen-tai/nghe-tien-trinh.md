@@ -1,112 +1,149 @@
 # Nghe tiến trình hòa âm
 
-Tiến trình hòa âm (chord progression) là **chuỗi hợp âm** nâng đỡ cả bản nhạc. Nghe được tiến trình thì bạn nghe được "khung xương" của nhạc pop, nhạc phim và cả nhạc cổ điển — và đoán được bản nhạc sắp đi về đâu.
+Tiến trình hòa âm (*chord progression*) là **chuỗi hợp âm** nâng đỡ cả bản nhạc. Nghe được tiến trình thì bạn nghe ra "khung xương" của bài mình đang tập, đoán được câu nhạc sắp đi về đâu, và tự nhận ra khi mình bấm sai một nốt trầm.
 
-Lý thuyết đầy đủ: [bài 12: Hòa âm chức năng](../nhac-ly/12-hoa-am-chuc-nang.md), [bài 13: Kết](../nhac-ly/13-ket.md). Cần ôn lại: [Nghe hợp âm](nghe-hop-am.md).
+Lý thuyết đầy đủ: [bài 12: Hòa âm chức năng](../nhac-ly/12-hoa-am-chuc-nang.md) và [bài 13: Kết](../nhac-ly/13-ket.md). Chơi các tiến trình này bằng hai tay ở mọi giọng: [Kết ở mọi giọng](../piano/hoa-am/ket.md). Cần ôn lại: [Nghe hợp âm](nghe-hop-am.md).
 
 ## Chìa khóa: nghe bè trầm
 
 Trong đa số bản nhạc, **nốt trầm nhất (bass) chính là gốc của hợp âm** đang vang. Nghe được đường đi của bè trầm là nghe được tiến trình:
 
 - Trầm đi **Đô – Fa – Sol – Đô** → tiến trình I – IV – V – I ở giọng Đô trưởng.
-- Trầm đi **Đô – La – Fa – Sol** → I – vi – IV – V (tiến trình pop kinh điển).
+- Trầm **đứng yên** ở Sol trong khi hợp âm bên trên đổi → thường là I6/4 rồi V ngay trước kết (xem bên dưới).
 
-Kỹ thuật: khi nghe, **hạ tai xuống nốt thấp nhất**. Hát nốt trầm lên, rồi hỏi nó là bậc mấy của giọng? Chuỗi các bậc trầm chính là tiến trình hòa âm.
+Kỹ thuật: khi nghe, **hạ tai xuống nốt thấp nhất**. Hát nốt trầm lên, rồi hỏi nó là bậc mấy của giọng. Chuỗi các bậc trầm chính là tiến trình hòa âm.
 
-Nghe thử tiến trình I – IV – V – I (mỗi hợp âm một ô nhịp):
+Nghe thử tiến trình I – IV – V – I, mỗi hợp âm một ô nhịp; tay trái chơi nốt gốc:
 
 ```abc
 X:1
+T:I – IV – V – I
+M:4/4
 L:1/2
 K:C
-[CEG] | [FAC] | [GBD] | [CEG] |]
+%%score {RH LH}
+V:RH clef=treble
+V:LH clef=bass
+[V:RH] [EGc]2 | [FAc]2 | [DGB]2 | [EGc]2 |]
+[V:LH] C,2 | F,2 | G,2 | C,2 |]
 ```
 
 Nghe kỹ nốt trầm mỗi ô: Đô… Fa… Sol… Đô. Cảm giác "đi xa rồi về nhà" chính là V – I cuối cùng.
 
-## Bốn tiến trình phải thuộc
+## Những tiến trình bạn sẽ gặp khi tập đàn
 
-| Tiến trình (giọng Đô) | Bè trầm | Nghe ở đâu | Cảm giác |
-|---|---|---|---|
-| I – IV – V – I | Đô–Fa–Sol–Đô | Vô số bản nhạc cổ điển, quốc ca nhiều nước | Đi xa – về nhà, vững chãi |
-| I – vi – IV – V | Đô–La–Fa–Sol | Hàng nghìn bài pop (*Stand by Me*, *Unchained Melody*…) | Vòng quay êm, hơi buồn ở vi |
-| ii – V – I | Rê–Sol–Đô | Jazz, bossa nova | Mượt mà "rơi" về chủ |
-| 12-bar blues | (xem dưới) | Blues, rock'n'roll sơ khai | Khung 12 ô lặp đi lặp lại |
+| Tiến trình (giọng Đô) | Nghe bè trầm thế nào | Gặp ở đâu trên site |
+|---|---|---|
+| I – IV – V – I | Đô – Fa – Sol – Đô | Hợp âm tay trái trong [10 bài đầu tiên](../piano/10-bai-dau-tien.md); [Hợp âm và hình đệm](../piano/hop-am-rai.md) |
+| I – IV – I6/4 – V – I | Sol đứng yên qua hai hợp âm, rồi về Đô | Kết của rất nhiều bản Cổ điển; tập ở [Kết ở mọi giọng](../piano/hoa-am/ket.md#i64-truoc-at-am) |
+| I – ii6 – V7 – I | Đô – Fa – Sol – Đô, nhưng hợp âm trên Fa là Rê–Fa–La | [Kết đầy đủ](../piano/hoa-am/ket.md#ii6-va-v7-ket-ay-u) |
+| Chuỗi quãng năm đi xuống | Mỗi bước xuống một quãng năm (hoặc lên một quãng bốn) | [Bài 29: Chuỗi hòa âm](../nhac-ly/29-chuoi-hoa-am.md) |
+| Romanesca, Prinner | Bass đi xuống từng bậc hoặc xuống bốn, lên hai | [Các mẫu hòa âm thời Cổ điển](../piano/hoa-am/mau-galant.md) |
 
-Nghe thử vòng 12 ô blues ở giọng Đô (mỗi hợp âm một ô):
+Nghe thử **I – IV – I6/4 – V – I**. Ở ô 2, tay phải chơi lại đúng hợp âm Đô trưởng nhưng tay trái đã sang Sol: hai nốt trên trượt xuống ("sáu xuống năm, bốn xuống ba") rồi mới về nhà.
 
 ```abc
 X:2
+T:I – IV – I6/4 – V – I
+M:4/4
 L:1/2
 K:C
-[CEG] | [CEG] | [CEG] | [CEG] | [FAC] | [FAC] | [CEG] | [CEG] | [GBD] | [FAC] | [CEG] | [GBD] |]
+%%score {RH LH}
+V:RH clef=treble
+V:LH clef=bass
+[V:RH] [EGc] [FAc] | [EGc] [DGB] | [EGc]2 |]
+[V:LH] C, F, | G,2 | C,2 |]
 ```
 
-Để ý: 4 ô đầu đứng yên ở I, ô 5–6 lên IV, ô 9 là V rồi "quay đầu" về. Nghe được khung này thì nghe blues nào cũng thấy quen.
-
-Một vòng nổi tiếng khác — Canon của Pachelbel (I – V – vi – iii – IV – I – IV – V):
+Một vòng bè trầm nổi tiếng, *Canon* của Pachelbel: bass **xuống bốn, lên hai** lặp đi lặp lại (Đô – Sol – La – Mi – Fa – Đô – Fa – Sol), họ hàng gần của mẫu Romanesca thời Cổ điển.
 
 ```abc
 X:3
+T:Vòng bè trầm của Pachelbel (giọng Đô)
+M:4/4
 L:1/2
 K:C
-[CEG] | [GBD] | [ACE] | [EGB] | [FAC] | [CEG] | [FAC] | [GBD] |]
+%%score {RH LH}
+V:RH clef=treble
+V:LH clef=bass
+[V:RH] [EGc] [DGB] | [CEA] [B,EG] | [A,CF] [CEG] | [CFA] [B,DG] |]
+[V:LH] C, G,, | A,, E,, | F,, C,, | F,, G,, |]
 ```
 
 ## Nghe kết: dấu chấm câu của âm nhạc
 
-**Kết (cadence)** là 2 hợp âm cuối một câu nhạc — như dấu chấm, dấu phẩy trong văn:
+**Kết** (*cadence*) là hai hợp âm cuối một câu nhạc, như dấu chấm, dấu phẩy trong văn. Ví dụ dưới đây lần lượt là kết trọn, kết plagal, kết lừa và kết nửa:
 
 ```abc
 X:4
+T:Bốn loại kết
+M:4/4
 L:1/2
 K:C
-[GBD] [CEG] | [FAC] [CEG] | [GBD] [ACE] |]
+%%score {RH LH}
+V:RH clef=treble
+V:LH clef=bass
+[V:RH] [DGB] [EGc] | [FAc] [EGc] | [DGB] [CEc] | [EGc] [DGB] |]
+[V:LH] G, C, | F, C, | G, A, | C, G, |]
 ```
 
-| Kết | Hai hợp âm cuối | Nghe như |
-|---|---|---|
-| Kết chính (authentic): V – I | Sol – Đô (ô 1) | Dấu chấm. Chắc nịch, kết thúc thật. |
-| Kết phụ (plagal): IV – I | Fa – Đô (ô 2) | "A-men" trong thánh ca. Êm, nhẹ nhàng. |
-| Kết lẩn (deceptive): V – vi | Sol – La thứ (ô 3) | Lừa một cú: tưởng về nhà mà rẽ sang vi. Bất ngờ, dí dỏm. |
-| Nửa kết (half): … – V | Dừng ở Sol | Dấu phẩy / dấu hỏi. Lửng lơ, muốn nghe tiếp. |
+Mẹo nghe kết: **chỉ nghe hai hợp âm cuối câu**. Hỏi: có về "nhà" (I) không? Về thẳng từ V (kết trọn), về êm từ IV (kết plagal), tưởng về mà rẽ sang vi (kết lừa), hay dừng lửng ở V (kết nửa)? Tên gọi và các biến thể khác ở [bài 13](../nhac-ly/13-ket.md).
 
-Mẹo nghe kết: **chỉ nghe 2 hợp âm cuối câu**. Hỏi: có về "nhà" (I) không? Về thẳng (chính), về nhẹ (phụ), hay bị lừa (lẩn)?
+## Luyện với công cụ { #luyen-voi-cong-cu }
+
+Bốn hợp âm; hai hợp âm cuối tạo thành một trong bốn loại kết. Giọng thay đổi ngẫu nhiên mỗi câu. Kết quả được tính vào [nhật ký luyện tập](../luyen-tap/nhat-ky.md).
+
+<div class="oz-cadence-trainer"></div>
+
+| Kết | Cảm giác |
+|---|---|
+| Kết trọn | Dừng hẳn, trọn vẹn, như dấu chấm |
+| Kết nửa | Lơ lửng, chờ câu tiếp, như dấu phẩy |
+| Kết plagal | Êm, trang nghiêm, "A-men" |
+| Kết lừa | Tưởng về nhà nhưng rẽ sang hợp âm buồn hơn |
+
+## Nghe trong bài bạn đang tập
+
+- [*Ode to Joy*](../piano/10-bai-dau-tien.md): câu đầu dừng lửng (kết nửa), câu sau giống hệt nhưng về nhà (kết trọn).
+- [Mozart: Minuet Fa trưởng K. 2](../piano/tac-pham/mozart-minuet-k2.md): những câu bốn ô; nghe chỗ nào kết nửa, chỗ nào kết trọn.
+- [Bach: Prelude Đô trưởng](../piano/tac-pham/bach-prelude-do.md): chỉ nghe nốt thấp nhất mỗi ô; gần cuối, bè trầm giữ Sol suốt nhiều ô (âm nền át) trước khi về Đô.
+- Bài bạn đang tập: chơi chậm riêng bè trầm và hát theo, rồi đánh dấu bằng bút chì mỗi chỗ kết và gọi tên.
 
 ## Thứ tự luyện
 
-1. **Nghe bè trầm**: mở bất kỳ bản pop nào, hát nốt trầm, đoán bậc.
-2. **I – IV – V – I**: nghe ví dụ trên đến thuộc, rồi tìm nó trong nhạc thật.
-3. **I – vi – IV – V**: vòng pop — nghe 3 bài pop và đếm vòng.
-4. **Phân biệt 4 loại kết**: nghe 2 hợp âm cuối mỗi câu nhạc.
-5. **12-bar blues**: nghe một bản blues, gõ theo từng ô (1–12).
+1. **Nghe bè trầm**: trong bài đang tập, chơi riêng tay trái rồi hát nốt trầm, đoán bậc.
+2. **I – IV – V – I**: nghe ví dụ đầu trang đến thuộc, rồi tìm nó trong nhạc thật.
+3. **Bốn loại kết**: mỗi ngày 10 câu với [công cụ](#luyen-voi-cong-cu) ở trên.
+4. **I6/4 – V và ii6 – V7 – I**: chơi ở [Kết ở mọi giọng](../piano/hoa-am/ket.md), rồi nghe lại bằng mắt nhắm.
+5. **Chuỗi và mẫu**: [chuỗi quãng năm](../nhac-ly/29-chuoi-hoa-am.md), [Romanesca và Prinner](../piano/hoa-am/mau-galant.md).
 
 ```quiz
 ? Muốn nghe ra tiến trình hòa âm, nên tập trung vào bè nào?
-+ Bè trầm nhất (bass) — thường là gốc của hợp âm
++ Bè trầm nhất (bass), thường là gốc của hợp âm
 - Bè cao nhất (giai điệu)
 - Bè giữa
 > Nốt trầm cho biết gốc hợp âm; chuỗi các nốt trầm chính là tiến trình.
-? Tiến trình I – vi – IV – V thường gặp ở đâu?
-- Nhạc blues 12 ô
-+ Hàng nghìn bài pop
-- Thánh ca (kết "A-men")
-> Vòng Đô–La–Fa–Sol là khung của vô số bài pop từ thập niên 1950 đến nay.
-? Nghe hai hợp âm cuối là Sol – La thứ (V – vi) — đây là kết gì?
-- Kết chính
-- Kết phụ
-+ Kết lẩn (deceptive)
-> Tưởng về Đô (I) mà rẽ sang La thứ (vi): cú lừa kinh điển.
+? Trong I – IV – I6/4 – V – I, bè trầm làm gì khi đi từ I6/4 sang V?
+- Đi lên một quãng năm
++ Đứng yên ở Sol
+- Đi xuống Đô
+> I6/4 và V có chung nốt trầm Sol; chỉ các nốt bên trên đổi.
+? Nghe hai hợp âm cuối là Sol – La thứ (V – vi). Đây là kết gì?
+- Kết trọn
+- Kết plagal
++ Kết lừa
+> Tưởng về Đô (I) mà rẽ sang La thứ (vi).
 ? Kết nào nghe như dấu phẩy, lửng lơ muốn nghe tiếp?
-- Kết chính (V – I)
-+ Nửa kết (dừng ở V)
-- Kết phụ (IV – I)
+- Kết trọn (V – I)
++ Kết nửa (dừng ở V)
+- Kết plagal (IV – I)
 > Dừng ở át (V) mà chưa về chủ (I): câu nhạc còn bỏ ngỏ.
 ```
 
 ## Nguồn
 
 - [Open Music Theory](https://viva.pressbooks.pub/openmusictheory/); [musictheory.net](https://www.musictheory.net/lessons).
+- Robert O. Gjerdingen, *Music in the Galant Style* (Oxford University Press, 2007): Romanesca, Prinner và các mẫu khác.
 - Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).
 
 Luyện tiếp: [Luyện nghe nhận diện](../nhan-dien/luyen-nghe.md) và [Nghe mù](../nhan-dien/nghe-mu.md).

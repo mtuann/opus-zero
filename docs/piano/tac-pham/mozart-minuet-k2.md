@@ -51,7 +51,7 @@ Cả bài chỉ dài chừng một phút. Nghe ít nhất hai bản: một bản
 
 Muốn nghe Mozart trưởng thành viết minuet ra sao, nghe chương 3 của *Eine kleine Nachtmusik* ([hướng dẫn nghe](../../nghe-nhac/mozart-eine-kleine.md)).
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Jewgeni Smirnow&quot;,&quot;note&quot;:&quot;đàn piano điện&quot;,&quot;lic&quot;:&quot;CC BY 4.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by/4.0/&quot;,&quot;page&quot;:&quot;https://imslp.org/wiki/File:PMLP116890-002_Menuett_F_(Mozart_WA).mp3&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;../../../assets/audio/mozart-minuet-k2.mp3&quot;,&quot;d&quot;:55.01}],&quot;ref&quot;:[1,13,25,31,38,46]}"></div>
 
 ## Theo dõi khi nghe
 
@@ -225,7 +225,7 @@ Bản gốc không có nốt hoa mỹ. Khi đã chơi chắc, bạn có thể th
 
 - **Cùng cuốn sổ nhạc:** các bài khác của cậu bé Mozart như Andante Đô trưởng K. 1a, Allegro Si♭ trưởng K. 3, Minuet Fa trưởng K. 4 và K. 5, đều có trong tập Wiener Urtext ở trên.
 - **Cùng điệu minuet, thời Baroque:** [Petzold: Minuet Sol trưởng](minuet-sol.md) và [Minuet Sol thứ](minuet-sol-thu.md); một vũ khúc khác cùng cấp: [Musette Rê trưởng](musette-re.md).
-- **Bước tiếp theo trong phong cách Cổ điển:** [Clementi: Sonatina Op. 36 số 1](clementi-sonatina.md), rồi [Sonatina Sol trưởng](beethoven-sonatina-sol.md) thường gán cho Beethoven.
+- **Bước tiếp theo trong phong cách Cổ điển:** [Sonatina Sol trưởng](beethoven-sonatina-sol.md) thường gán cho Beethoven, rồi [Clementi: Sonatina Op. 36 số 1](clementi-sonatina.md).
 - **Mục tiêu xa hơn:** [Mozart: Sonata Đô trưởng K. 545](mozart-k545.md). Danh sách đầy đủ theo cấp: [Tác phẩm theo cấp độ](../tac-pham-theo-cap.md).
 
 ## Kiểm tra nhanh

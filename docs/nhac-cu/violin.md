@@ -21,7 +21,7 @@ Jascha Heifetz, David Oistrakh, Itzhak Perlman, Anne-Sophie Mutter, Hilary Hahn.
 
 - **Rất nên có giáo viên** ít nhất ở giai đoạn đầu, để tránh sai tư thế cầm đàn và cầm vĩ; sửa về sau rất khó. Giáo trình phổ biến: *Suzuki Violin School*.
 - **Kích cỡ:** người lớn dùng đàn **4/4**; trẻ em dùng cỡ nhỏ hơn theo chiều dài tay. Đàn thường bán theo **bộ** (đàn, vĩ, hộp, nhựa thông). Quan trọng hơn giá là **cân chỉnh**: ngựa đàn, độ cao dây, trục lên dây xoay trơn; nhờ thợ làm đàn (luthier) hoặc thầy kiểm tra.
-- Mua thêm **gối vai**; dùng [máy lên dây](../luyen-tap/len-day.md) và [máy đếm nhịp](../luyen-tap/metronome.md) mỗi buổi tập.
+- Mua thêm **gối vai**; dùng [máy lên dây](../luyen-tap/hat-lai.md#may-len-day) và [máy đếm nhịp](../luyen-tap/metronome.md) mỗi buổi tập.
 
 ## Lộ trình theo cấp độ
 
@@ -39,7 +39,7 @@ Chương trình violin hiện hành của **ABRSM** có hiệu lực từ 1/1/20
 
 - **Cầm đàn**: đàn đặt trên xương đòn trái, cằm giữ nhẹ, **không kẹp chặt**. Gối vai giúp không phải nhô vai.
 - **Cầm vĩ**: ngón cái cong đặt giữa đuôi vĩ và cần, các ngón khác buông tự nhiên. Đây là phần khó nhất và cần thầy chỉnh trực tiếp.
-- **Cao độ**: dán băng đánh dấu vị trí ngón trong tháng đầu là bình thường; bỏ dần khi tai đã quen. Dùng [máy lên dây](../luyen-tap/len-day.md) để kiểm tra ngón bấm.
+- **Cao độ**: dán băng đánh dấu vị trí ngón trong tháng đầu là bình thường; bỏ dần khi tai đã quen. Dùng [máy lên dây](../luyen-tap/hat-lai.md#may-len-day) để kiểm tra ngón bấm.
 - **Kéo vĩ thẳng**: vĩ song song với ngựa đàn, ở khoảng giữa ngựa và cần đàn. Tập trước gương.
 
 ## Các nốt trên cần đàn

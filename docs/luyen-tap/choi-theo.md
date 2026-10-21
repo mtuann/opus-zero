@@ -7,8 +7,8 @@ Chọn một bài, bấm **Bắt đầu**, nghe 4 tiếng đếm rồi chơi (ho
 ## Mẹo để site nghe chính xác
 
 - **Micro:** chơi ở nơi yên tĩnh, đặt điện thoại hoặc máy tính gần nhạc cụ. Không bật "Nghe mẫu" trong lúc chơi (micro sẽ nghe cả loa).
-- **Micro chỉ nghe chính xác một nốt mỗi lúc**: giọng hát, violin, sáo, giai điệu guitar hoặc piano một tay. Hợp âm piano chưa chấm được.
-- **Giọng nam, guitar**: chọn nhạc cụ tương ứng (bỏ qua quãng tám), vì âm thanh thật thấp hơn nốt viết.
+- **Micro chỉ nghe chính xác một nốt mỗi lúc**: giai điệu piano một tay, hoặc giọng hát. Hợp âm piano chưa chấm được.
+- **Giọng nam** (hay một nhạc cụ khác như guitar): chọn mục tương ứng để công cụ bỏ qua chênh lệch quãng tám, vì âm thanh thật thấp hơn nốt viết.
 - **Đàn MIDI** cho kết quả chính xác nhất, kể cả về nhịp: xem [Kết nối đàn MIDI](ket-noi-midi.md).
 
 Các bài trong công cụ là giai điệu (phần tay phải) của các bài trong [10 bài đầu tiên](../piano/10-bai-dau-tien.md): Twinkle, Hänschen klein, Au clair de la lune, Ode to Joy, cùng gam Đô trưởng đi lên. Hãy tập trên trang đó với cả hai tay, rồi quay lại đây để được chấm phần giai điệu.

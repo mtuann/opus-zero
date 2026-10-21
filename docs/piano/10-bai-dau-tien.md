@@ -11,7 +11,7 @@ Bạn nên đã:
 
 - ngồi đúng tư thế và biết số ngón ([Tư thế, thế tay và cách dùng lực](tu-the.md));
 - tìm được Đô giữa và các nốt mốc ([Bản đồ bàn phím](ban-do-ban-phim.md));
-- quen thế tay năm ngón ([Vị trí năm ngón](nam-ngon.md)).
+- quen thế Đô: năm ngón trên Đô–Rê–Mi–Fa–Sol (tuần 1 của [Hai tuần đầu tiên](hai-tuan-dau.md)). Từ bài 4, tập song song các thế Sol và Fa ở [Vị trí năm ngón](nam-ngon.md).
 
 Nếu chưa, hãy theo [Hai tuần đầu tiên](hai-tuan-dau.md): kế hoạch đó dẫn thẳng vào ba bài đầu của trang này.
 
@@ -26,11 +26,11 @@ Nếu chưa, hãy theo [Hai tuần đầu tiên](hai-tuan-dau.md): kế hoạch 
 1. **Nghe mẫu** hai lần, mắt dõi theo bản nhạc.
 2. **Tay phải riêng**, thật chậm, đếm to "một – hai – ba – bốn".
 3. **Tay trái riêng**. Phần tay trái thường dễ hơn; hãy chơi nó thật đều.
-4. **Hai tay thật chậm** (♩ = 50–60 với [máy đếm nhịp](../luyen-tap/metronome.md)). Dừng ở mỗi chỗ hai tay cùng đánh để kiểm tra: đó là các **điểm neo**.
+4. **Hai tay thật chậm** (♩ = 50–60 với [máy đếm nhịp](../luyen-tap/metronome.md)). Dừng ở mỗi chỗ hai tay cùng đánh để kiểm tra: đó là các **điểm neo** (cách ghép tay đầy đủ ở [Sáu bậc ghép hai tay](hai-tay.md#sau-bac-ghep-hai-tay)).
 5. Tăng tốc độ một nấc (khoảng 4 nhịp/phút) chỉ khi đã chơi đúng ba lần liên tiếp.
 6. Xong một bài: [thu âm](../luyen-tap/thu-am.md), nghe lại và ghi vào [nhật ký](../luyen-tap/nhat-ky.md).
 
-Mỗi bài thường mất 2–5 ngày với 20–30 phút tập mỗi ngày. Đừng sang bài mới khi bài cũ còn phải dừng giữa chừng: dừng lại nghĩa là tay chưa biết đường, và bài sau sẽ khó gấp đôi.
+Mỗi bài mất vài ngày đến vài tuần tùy người; [Lộ trình piano năm đầu](../bat-dau/lo-trinh-choi.md) trải mười bài trong khoảng năm tháng đầu. Đừng sang bài mới khi bài cũ còn phải dừng giữa chừng: dừng lại nghĩa là tay chưa biết đường, và bài sau sẽ khó gấp đôi.
 
 ## Lộ trình 10 bài
 
@@ -118,7 +118,7 @@ K:C
 ```
 
 - Ở ô 12, nốt Sol trầm của giai điệu nằm ở **tay trái** (ngón 1). Tay phải nghỉ; nghe cho nốt ấy nối liền câu hát.
-- Đếm to ô 4 và ô 8: "một – và – hai – ba – bốn". Nốt chấm dôi chiếm "một – và", nốt móc đơn ngắn rơi vào ngay trước "hai".
+- Đếm to ô 4 và ô 8: "một – hai – và – ba – bốn". Nốt chấm dôi bắt đầu ở "một" và ngân qua "hai"; nốt móc đơn rơi đúng vào chữ "và" ngay sau "hai".
 
 ## 4. Hänschen klein
 

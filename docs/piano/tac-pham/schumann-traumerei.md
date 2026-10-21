@@ -28,7 +28,7 @@
 
 ## Bối cảnh
 
-Năm 1838 Schumann đang yêu Clara Wieck mà bị cha nàng ngăn cản. Ông viết cho Clara rằng những bản nhạc nhỏ này nảy ra sau khi nàng nói đôi khi anh "như một đứa trẻ". Ông viết khoảng ba mươi bản, chọn ra 13 bản làm *Kinderszenen*; một số bản còn lại về sau nằm trong *Bunte Blätter* Op. 99 và *Albumblätter* Op. 124.
+Schumann viết *Kinderszenen* năm 1838, khi đang yêu Clara Wieck; câu chuyện ra đời của tập nhạc ở [hướng dẫn nghe](../../nghe-nhac/schumann-kinderszenen.md).
 
 Đây là nhạc **về** tuổi thơ cho người lớn, không phải nhạc cho trẻ em (Schumann viết riêng tập *Album für die Jugend* Op. 68 cho con mình, xem [Schumann: Album cho tuổi trẻ](schumann-album.md)). Các tên bài, theo lời Schumann, chỉ là những gợi ý tinh tế cho cách chơi và cách hiểu. *Träumerei* đứng đúng giữa chu trình, bài thứ 7 trên 13.
 

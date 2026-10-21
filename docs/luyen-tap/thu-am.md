@@ -14,4 +14,12 @@ Khi đang chơi, tai bạn bận với ngón tay và bản nhạc; khi nghe lạ
 - Nghe lại với một câu hỏi duy nhất: nhịp có đều không? Cao độ có chuẩn không? Chỗ to nhỏ có rõ không?
 - Mỗi tháng, chọn hai bản thu cách nhau 4 tuần để so sánh. Tiến bộ thường lớn hơn bạn tưởng.
 
+## Thu sao cho nghe được
+
+- **Cùng một chỗ đặt máy mỗi lần.** Để điện thoại cách đàn khoảng một đến hai mét, không đặt lên nắp hay thân đàn (máy sẽ thu tiếng rung và tiếng phím). Giữ nguyên vị trí ấy từ tuần này sang tuần khác thì hai bản thu mới so sánh được với nhau.
+- **Đừng để tiếng bị vỡ.** Chơi thử đoạn to nhất trước khi thu; nếu nghe lại thấy rè ở chỗ *f*, lùi máy xa hơn. Công cụ thu âm của site đã tắt chế độ khử ồn và tự chỉnh âm lượng của trình duyệt, để to nhỏ trong bản thu đúng như bạn chơi.
+- **Phòng yên tĩnh, đóng cửa sổ.** Quạt, máy lạnh và tiếng xe ngoài đường lấn mất những chỗ *pp*.
+- **Quay video khi cần xem tay.** Đặt máy ở bên cạnh hoặc chếch từ trên cao để thấy cổ tay và ngón (xem bảng góc máy ở [Học với thầy và thi cấp](../piano/thay-va-thi.md)).
+- **Nghe lại bằng tai nghe**, không bằng loa điện thoại: loa nhỏ làm mất tiếng trầm và bàn đạp.
+
 Bản thu chỉ lưu trong trình duyệt này; xóa dữ liệu trình duyệt sẽ mất. Bấm **Tải về** những bản muốn giữ lâu dài.

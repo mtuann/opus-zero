@@ -31,7 +31,7 @@ Nghe thì tưởng dễ: một giai điệu chậm ai cũng ngân nga được, 
 
 Liszt là nghệ sĩ piano lừng lẫy nhất thời ông, và cũng là người đưa rất nhiều ca khúc, của Schubert, Schumann và của chính ông, lên phím đàn. *Liebesträume* là ba ca khúc của ông được viết lại thành ba **notturno** (nocturne) cho piano, in năm 1850. Theo Henle, bản piano in lời thơ ở đầu mỗi bài, như để người chơi đọc thơ trước khi chạm phím.
 
-Ca khúc gốc của bài số 3, viết khoảng cuối năm 1843, phổ thơ Ferdinand Freiligrath. Mở đầu là lời giục giã: *hãy yêu, chừng nào bạn còn có thể yêu*, vì sẽ đến lúc ta đứng bên nấm mồ mà than khóc. Đó không phải một giấc mơ êm ái; nó là một lời nhắc, trìu mến mà khẩn thiết. Hãy nhớ điều này khi chọn tốc độ: Liszt ghi *Poco allegro*, không phải *Adagio*. Đọc thêm về bài thơ trong [hướng dẫn nghe](../../nghe-nhac/liszt-liebestraum.md).
+Ca khúc gốc của bài số 3 (khoảng cuối năm 1843) phổ thơ Ferdinand Freiligrath, mở đầu bằng lời giục giã *hãy yêu, chừng nào bạn còn có thể yêu*: một lời nhắc khẩn thiết chứ không phải một giấc mơ êm ái (bài thơ và ca khúc ở [hướng dẫn nghe](../../nghe-nhac/liszt-liebestraum.md)). Hãy nhớ điều này khi chọn tốc độ: Liszt ghi *Poco allegro*, không phải *Adagio*.
 
 Henle xếp hai Liebestraum đầu ở mức 6, bài số 3 ở mức 7: bài nổi tiếng nhất cũng là bài khó nhất của tập. Xem thêm [thời kỳ Lãng mạn](../../lich-su/thoi-ky/lang-man.md).
 

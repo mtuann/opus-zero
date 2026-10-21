@@ -31,7 +31,7 @@ Chương chậm của *Pathétique* là một bài ca không lời: giai điệu
 
 ## Bối cảnh
 
-Beethoven viết *Pathétique* khi khoảng 27 tuổi, vài năm sau khi đến Vienna, lúc ông nổi tiếng như một nghệ sĩ piano biểu diễn ngẫu hứng hơn là một nhà soạn nhạc. Tên *Grande Sonate pathétique* có ngay trên bản in đầu tiên năm 1799; theo Beethoven-Haus Bonn và ấn bản Henle, chính Beethoven chọn tên này (vài tài liệu khác cho rằng nhà xuất bản đặt và ông đồng ý). "Pathétique" ở đây gần nghĩa với "đầy xúc động, bi tráng", không phải "thảm hại".
+Beethoven viết *Pathétique* khi khoảng 27 tuổi, vài năm sau khi đến Vienna, lúc ông nổi tiếng như một nghệ sĩ piano biểu diễn ngẫu hứng hơn là một nhà soạn nhạc. Tên *Grande Sonate pathétique* có ngay trên bản in đầu tiên năm 1799 (chuyện cái tên ở [hướng dẫn nghe](../../nghe-nhac/beethoven-pathetique.md)); "pathétique" ở đây gần nghĩa với "đầy xúc động, bi tráng", không phải "thảm hại".
 
 Sau chương 1 Đô thứ dữ dội, chương 2 chuyển sang La♭ trưởng, thấp hơn một quãng ba trưởng: một sự yên bình bất ngờ. Nhiều người nhận thấy giai điệu của nó rất gần với một chủ đề trong chương chậm của Sonata Đô thứ K. 457 của Mozart; hai sonata còn giống nhau ở giọng và cách chia chương. So sánh hai bản là một bài tập nghe thú vị về cách Beethoven học từ Mozart. Xem thêm [thời kỳ Cổ điển](../../lich-su/thoi-ky/co-dien.md).
 

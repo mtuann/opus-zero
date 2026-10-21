@@ -22,14 +22,13 @@ Năm đầu tiên được viết chi tiết theo từng tháng ở [Lộ trình
 
 Site dùng **cấp (grade) của ABRSM** làm thước đo độ khó, vì đây là hệ thống phổ biến nhất thế giới và gần như mọi danh sách tác phẩm đều tham chiếu nó.
 
-- **ABRSM** (Anh) có Initial Grade, Grade 1 đến Grade 8, rồi các bằng diploma (ARSM, LRSM, FRSM; bằng DipABRSM đã ngừng sau năm 2023). Bài thi thực hành gồm tác phẩm, gam và hợp âm rải, thị tấu và kiểm tra nghe. Chương trình piano đổi định kỳ: chương trình **2027–2028** dùng được từ 1/1/2027, còn chương trình 2025–2026 vẫn có hiệu lực đến hết 31/12/2027.
-- **Trinity College London** cũng có Initial và Grade 1–8, cùng các bằng ATCL, LTCL, FTCL.
-- Nhà xuất bản **G. Henle** ghi cho mỗi tác phẩm piano trong các ấn bản Urtext của họ một **mức độ khó từ 1 đến 9** (1–3 dễ, 4–6 trung bình, 7–9 khó), do giáo sư Rolf Koenen xếp. Đây là thang thứ hai rất hữu ích khi chọn bài.
+- **ABRSM** và **Trinity College London** (đều của Anh) có cấp Initial, rồi Grade 1 đến Grade 8, sau đó là các bằng diploma. Chương trình thi, lịch đổi chương trình và các bằng diploma được ghi ở [Học với thầy và thi cấp](thay-va-thi.md#thi-cap).
+- Nhà xuất bản **G. Henle** có thang độ khó thứ hai, từ 1 đến 9, cho từng tác phẩm; cách đọc và bảng đối chiếu với các chặng ở [Tác phẩm theo cấp độ](tac-pham-theo-cap.md#cach-oc-danh-muc).
 
 Bạn **không cần đi thi** để theo lộ trình này. Cấp chỉ là ngôn ngữ chung để nói "bài này khó cỡ nào". Nếu muốn thi, đọc [Học với thầy và thi cấp](thay-va-thi.md).
 
 !!! tip "Tìm chặng của mình"
-    Mở bảng tác phẩm của từng chặng. Chặng mà bạn chơi được các bài một cách **thoải mái** (đủ tốc độ, không căng tay, có sắc thái) là chặng bạn vừa hoàn thành. Bắt đầu từ chặng kế tiếp, nhưng vẫn rà lại danh sách kiểm tra của các chặng trước: người tự học thường mạnh về bài và yếu về gam, thị tấu, bàn đạp.
+    Làm [bài kiểm tra đầu vào](../bat-dau/kiem-tra-dau-vao.md), hoặc mở bảng tác phẩm của từng chặng. Chặng mà bạn chơi được các bài một cách **thoải mái** (đủ tốc độ, không căng tay, có sắc thái) là chặng bạn vừa hoàn thành. Bắt đầu từ chặng kế tiếp, nhưng vẫn rà lại danh sách kiểm tra của các chặng trước: người tự học thường mạnh về bài và yếu về gam, thị tấu, bàn đạp.
 
 ## Chặng 1. Khởi đầu (0–6 tháng)
 
@@ -43,7 +42,7 @@ Mục tiêu: ngồi đúng, biết bàn phím, đọc được nốt ở cả ha
 | Nhạc lý | [Bài 1](../nhac-ly/01-cao-do-ten-not.md) đến [bài 5](../nhac-ly/05-dau-hoa.md), rồi [Ôn tập 1](../nhac-ly/on-tap-1.md). |
 | Tai | [Hát lại](../luyen-tap/hat-lai.md) một nốt, [nghe quãng](../luyen-tai/nghe-quang.md) 2, 3 và 5; gõ đúng [tiết tấu](../luyen-tap/tiet-tau.md) đơn giản. |
 | Tác phẩm | [Hai tuần đầu tiên](hai-tuan-dau.md), [10 bài đầu tiên](10-bai-dau-tien.md), một giáo trình cho người lớn (Alfred, Faber), các bài đầu trong Türk, Bartók *Mikrokosmos*. Xem [chặng 1 trong danh mục](tac-pham-theo-cap.md). |
-| Nghe | Những bài bạn sẽ chơi trong vài năm tới, để có đích đến: [Bach: Prelude Đô trưởng](../nghe-nhac/bach-prelude-c.md), [Schumann: Kinderszenen](../nghe-nhac/schumann-kinderszenen.md), [Beethoven: Ánh trăng](../nghe-nhac/beethoven-moonlight.md). |
+| Nghe | Những bài bạn sẽ chơi trong vài năm tới, để có đích đến: [Bach: Prelude Đô trưởng](tac-pham/bach-prelude-do.md), [Schumann: Kinderszenen](../nghe-nhac/schumann-kinderszenen.md), [Beethoven: Ánh trăng](../nghe-nhac/beethoven-moonlight.md). |
 | Biểu diễn | Thu âm mỗi tuần. Cuối chặng, chơi 3 bài cho người thân nghe. |
 
 **Sẵn sàng lên chặng tiếp khi…**
@@ -61,12 +60,12 @@ Mục tiêu: rời khỏi vị trí năm ngón, chơi những bản nhạc cổ 
 | Mảng | Mục tiêu |
 |---|---|
 | Tay | Luồn ngón cái, vắt ngón, mở rộng và đổi vị trí tay. Legato ở tay này, staccato ở tay kia ([phối hợp hai tay](hai-tay.md)). Câu nhạc biết "thở": luyến hai nốt bằng động tác thả xuống rồi nhấc lên ([tạo tiếng đàn](tieng-dan.md)). Sắc thái *p*, *mf*, *f*, to dần và nhỏ dần. Cuối chặng: [bàn đạp vang](ban-dap.md) đổi theo ô nhịp hoặc theo hợp âm. |
-| Gam, hợp âm | Gam trưởng Đô, Sol, Rê, Fa; gam thứ hòa âm La, Mi, Rê; một rồi hai quãng tám, từng tay rồi hai tay. Hợp âm ba ở các thể đảo, hợp âm rải gãy. Vòng kết I–IV–I–V7–I ở Đô, Sol và Fa trưởng. |
+| Gam, hợp âm | Gam trưởng Đô, Sol, Rê, Fa; gam thứ hòa âm La, Mi, Rê; một rồi hai quãng tám, từng tay rồi hai tay. Hợp âm ba ở các thể đảo, hợp âm rải gãy. Vòng kết I–IV–I–V7–I ở Đô, Sol và Fa trưởng; rồi sang [Hòa âm bên phím](hoa-am/index.md): [kết ở mọi giọng](hoa-am/ket.md). |
 | Đọc nhạc | [Thị tấu](thi-tau.md) bài hai tay 4–8 ô nhịp, ít dấu hóa, dễ hơn bài đang tập khoảng hai cấp. Tập đọc theo **hình dạng quãng** thay vì gọi tên từng nốt. |
 | Nhạc lý | [Bài 6](../nhac-ly/06-gam-truong.md) đến [bài 9](../nhac-ly/09-quang.md) (gam, hóa biểu, quãng), rồi [Ôn tập 2](../nhac-ly/on-tap-2.md). |
-| Tai | [Nghe quãng](../luyen-tai/nghe-quang.md), phân biệt [hợp âm trưởng và thứ](../luyen-tai/nghe-hop-am.md), [nhận biết gam](../luyen-tap/gam.md). |
+| Tai | [Nghe quãng](../luyen-tai/nghe-quang.md), phân biệt [hợp âm trưởng và thứ](../luyen-tai/nghe-hop-am.md), [nhận biết gam](../luyen-tai/nghe-gam.md#luyen-voi-cong-cu). |
 | Tác phẩm | [Mozart: Minuet Fa trưởng K. 2](tac-pham/mozart-minuet-k2.md), [Petzold: Minuet Sol trưởng](tac-pham/minuet-sol.md) và [Sol thứ](tac-pham/minuet-sol-thu.md), [Musette Rê trưởng](tac-pham/musette-re.md), [Schumann: Album für die Jugend](tac-pham/schumann-album.md) (Melodie, Wilder Reiter, Fröhlicher Landmann), [Burgmüller: La candeur](tac-pham/burgmuller-la-candeur.md), [Tchaikovsky: Bài ca Pháp cổ](tac-pham/tchaikovsky-bai-ca-phap-co.md), Kabalevsky, Bartók *For Children*. |
-| Nghe | [Mozart: Sonata K. 331](../nghe-nhac/mozart-k331.md), [Scarlatti: các sonata](../nghe-nhac/scarlatti-sonata.md), [Chopin: Nocturne Op. 9 số 2](../nghe-nhac/chopin-nocturne.md). |
+| Nghe | [Mozart: Sonata K. 331](../nghe-nhac/mozart-k331.md), [Scarlatti: các sonata](../nghe-nhac/scarlatti-sonata.md), [Chopin: Nocturne Op. 9 số 2](tac-pham/chopin-nocturne-op9-2.md). |
 | Biểu diễn | Học thuộc một bài. Quay video chơi trọn 3 bài như một buổi hòa nhạc nhỏ. |
 
 **Sẵn sàng lên chặng tiếp khi…**
@@ -84,11 +83,11 @@ Mục tiêu: chơi trọn một sonatina Cổ điển, ngón chạy đều, và 
 | Mảng | Mục tiêu |
 |---|---|
 | Tay | Hình đệm Alberti và đệm valse, nhỏ hơn giai điệu. Chuỗi nốt móc kép đều. Staccato bằng cổ tay. Kỹ thuật **đạp trễ** (legato pedal) thành thạo. [Nốt hoa mỹ](not-hoa-my.md) đơn giản: láy, appoggiatura. Bắt đầu phân biệt cách phát âm của Baroque, Cổ điển và Lãng mạn. |
-| Gam, hợp âm | Gam trưởng và thứ đến 3 dấu hóa, hai tay, hai quãng tám; gam ngược chiều; [hợp âm rải](hop-am-rai.md) hai quãng tám từng tay; gam nửa cung một quãng tám. |
+| Gam, hợp âm | Gam trưởng và thứ đến 3 dấu hóa, hai tay, hai quãng tám; gam ngược chiều; [hợp âm rải](hop-am-rai.md) hai quãng tám từng tay; gam nửa cung một quãng tám. [Đệm cho một giai điệu](hoa-am/dem-giai-dieu.md) bằng I, IV, V. Étude đầu tiên: xem [Bài tập ngón và étude](bai-tap-ngon.md). |
 | Đọc nhạc | Thị tấu ở mức Grade 1–2. Nhận ra hợp âm ba ở mọi thể đảo chỉ bằng một cái nhìn. Đọc trước nửa ô nhịp. |
 | Nhạc lý | [Bài 10](../nhac-ly/10-hop-am-ba.md) đến [bài 14](../nhac-ly/14-ky-hieu-bieu-dien.md) (hợp âm, hòa âm chức năng, kết, ký hiệu biểu diễn), rồi [Ôn tập 3](../nhac-ly/on-tap-3.md). |
 | Tai | [Nghe tiến trình hòa âm](../luyen-tai/nghe-tien-trinh.md): nghe ra I, IV, V và các kết. |
-| Tác phẩm | [Clementi: Sonatina Op. 36 số 1](tac-pham/clementi-sonatina.md), [Burgmüller: Arabesque](tac-pham/burgmuller-arabesque.md), [Chopin: Valse La thứ](tac-pham/chopin-valse-la-thu.md), [Bach: Prelude nhỏ Đô trưởng BWV 939](tac-pham/bach-prelude-bwv939.md), [Sonatina Sol trưởng Anh. 5 số 1](tac-pham/beethoven-sonatina-sol.md), [Tchaikovsky: Cầu nguyện buổi sáng](tac-pham/tchaikovsky-cau-nguyen-buoi-sang.md), Kuhlau: Sonatina Op. 55 số 1, Schumann: *Fröhlicher Landmann*. |
+| Tác phẩm | [Clementi: Sonatina Op. 36 số 1](tac-pham/clementi-sonatina.md), [Burgmüller: Arabesque](tac-pham/burgmuller-arabesque.md), [Chopin: Valse La thứ](tac-pham/chopin-valse-la-thu.md), [Bach: Prelude nhỏ Đô trưởng BWV 939](tac-pham/bach-prelude-bwv939.md), [Sonatina Sol trưởng Anh. 5 số 1](tac-pham/beethoven-sonatina-sol.md), [Tchaikovsky: Cầu nguyện buổi sáng](tac-pham/tchaikovsky-cau-nguyen-buoi-sang.md), Kuhlau: Sonatina Op. 55 số 1. |
 | Nghe | [Mozart: Concerto piano số 21](../nghe-nhac/mozart-concerto-21.md), [Schubert: Impromptu Op. 90 số 3](../nghe-nhac/schubert-impromptu.md), [Beethoven: Pathétique](../nghe-nhac/beethoven-pathetique.md). |
 | Biểu diễn | Chơi trọn một sonatina ba chương. Học thuộc hai bài. |
 
@@ -107,7 +106,7 @@ Mục tiêu: chơi phức điệu, làm nổi giai điệu trong cùng một tay
 | Mảng | Mục tiêu |
 |---|---|
 | Tay | **Phức điệu hai bè** kiểu Bach: mỗi tay một giọng độc lập, đôi khi hai giọng trong một tay. Cân bằng giai điệu và phần đệm trong cùng một tay. Rubato nhẹ. Nốt hoa mỹ Baroque (láy rền bắt đầu từ nốt trên). Chuyền tay nhanh (Für Elise), hợp âm chơi thật khẽ và đều (Chopin, Prélude Mi thứ). |
-| Gam, hợp âm | Mọi gam trưởng và thứ (hòa âm, giai điệu), hai tay, 2–3 quãng tám; gam ngược chiều; hợp âm rải hai tay hai quãng tám; gam nửa cung hai tay. |
+| Gam, hợp âm | Mọi gam trưởng và thứ (hòa âm, giai điệu), hai tay, 2–3 quãng tám; gam ngược chiều; hợp âm rải hai tay hai quãng tám; gam nửa cung hai tay. [Các mẫu hòa âm thời Cổ điển](hoa-am/mau-galant.md) và [ứng tác](hoa-am/ung-tac.md) trên các mẫu ấy. |
 | Đọc nhạc | Thị tấu ở mức Grade 2–3. Đọc trước một ô nhịp. Bắt đầu đọc nhạc [bốn tay](choi-cung-nguoi-khac.md) cùng người khác. |
 | Nhạc lý | [Bài 15](../nhac-ly/15-tiet-tau-nang-cao.md) đến [bài 19](../nhac-ly/19-at-phu-chuyen-giong.md) (tiết tấu nâng cao, điệu thức, dịch giọng, âm ngoài hợp âm, át phụ và chuyển giọng) và [bài 31: Hình thức nhỏ](../nhac-ly/31-hinh-thuc-nho.md); đọc [Rondo](../hinh-thuc/rondo.md). |
 | Tai | [Chép giai điệu](../luyen-tap/chep-giai-dieu.md) ngắn; nghe tiến trình có hợp âm thứ. |
@@ -129,11 +128,11 @@ Mục tiêu: chơi một chương sonata thật, giữ nhiều lớp âm thanh t
 
 | Mảng | Mục tiêu |
 |---|---|
-| Tay | Hình thức sonata thật (Mozart K. 545). Alberti nhanh và đều. Láy rền có nốt kết. **Ba lớp âm thanh** trong hai tay: giai điệu, phần đệm, bè trầm (Träumerei). Bàn đạp tinh hơn: đạp nông, đổi nhanh. Đa tiết tấu hai chọi ba. Quãng tám đơn giản. |
+| Tay | Hình thức sonata thật (Mozart K. 545). Alberti nhanh và đều. Láy rền có nốt kết. **Ba lớp âm thanh** trong hai tay: giai điệu, phần đệm, bè trầm (Träumerei). Bàn đạp tinh hơn: đạp nông, đổi nhanh. Đa tiết tấu hai chọi ba. [Quãng tám](quang-tam-buoc-nhay.md) đơn giản; [nốt lặp và nốt kép](not-lap-not-kep.md) (quãng ba, quãng sáu). |
 | Gam, hợp âm | Mọi gam và hợp âm rải 3–4 quãng tám ở tốc độ vừa; hợp âm bảy át và bảy giảm rải. |
 | Đọc nhạc | Thị tấu ở mức Grade 3–4. Đệm cho người hát hoặc chơi nhạc cụ khác: đọc cùng lúc khuông giai điệu và hai khuông piano. |
 | Nhạc lý | [Bài 21: Hòa âm bốn bè](../nhac-ly/21-hoa-am-bon-be.md), [bài 22: Đối âm](../nhac-ly/22-doi-am.md) (rất có ích khi chơi Bach), bài 23–25, và [bài 26: Phân tích một tác phẩm](../nhac-ly/26-phan-tich.md); đọc [Hình thức sonata](../hinh-thuc/sonata.md). |
-| Tai | Nhận biết [hợp âm bảy](../luyen-tap/hop-am.md) và các kiểu kết. |
+| Tai | Nhận biết [hợp âm bảy](../luyen-tai/nghe-hop-am.md#luyen-voi-cong-cu) và các kiểu kết. |
 | Tác phẩm | [Mozart: Sonata K. 545, chương 1](tac-pham/mozart-k545.md), [Bach: Invention số 1](tac-pham/bach-invention-1.md), [Schumann: Träumerei](tac-pham/schumann-traumerei.md), [Beethoven: *Ánh trăng*, chương 1](tac-pham/beethoven-anh-trang.md), [Chopin: Valse Si thứ Op. 69 số 2](tac-pham/chopin-valse-si-thu.md), [Mendelssohn: Thuyền ca Venice](tac-pham/mendelssohn-thuyen-ca.md), Debussy: *The Little Shepherd*, Bartók: *Romanian Folk Dances*. |
 | Nghe | [Brahms: Intermezzo Op. 118 số 2](../nghe-nhac/brahms-intermezzo.md), [Grieg: Concerto piano](../nghe-nhac/grieg-concerto.md), [Mussorgsky: Bức tranh triển lãm](../nghe-nhac/mussorgsky-tranh.md). |
 | Biểu diễn | Chương trình 15 phút. Thử song tấu bốn tay hoặc đệm cho một người bạn ([cách tập chung](choi-cung-nguoi-khac.md)). |
@@ -152,7 +151,7 @@ Mục tiêu: chơi những tác phẩm lớn được yêu thích nhất, với 
 
 | Mảng | Mục tiêu |
 |---|---|
-| Tay | Tốc độ và sức bền. Quãng tám, hợp âm lớn, nhảy xa. Nhiều lớp âm thanh cùng lúc. Rubato có kiểm soát. Bàn đạp theo phong cách: tiết kiệm với Mozart, theo hòa âm với Chopin, nửa bàn đạp và una corda với Debussy. Nốt hoa mỹ kiểu Chopin. Fugue ba bè. |
+| Tay | Tốc độ và sức bền. [Quãng tám, hợp âm lớn, nhảy xa](quang-tam-buoc-nhay.md). Nhiều lớp âm thanh cùng lúc. Rubato có kiểm soát. Bàn đạp theo phong cách: tiết kiệm với Mozart, theo hòa âm với Chopin, nửa bàn đạp và una corda với Debussy. Nốt hoa mỹ kiểu Chopin. Fugue ba bè. |
 | Gam, hợp âm | Toàn bộ gam và hợp âm rải ở tốc độ nhanh; gam cách quãng ba, quãng sáu nếu bạn định thi. |
 | Đọc nhạc | Thị tấu ở mức Grade 5. Chơi nhạc thính phòng: sonata cho violin hoặc cello với piano. |
 | Nhạc lý | [Bài 27](../nhac-ly/27-ky-hieu-hop-am.md) đến [bài 32](../nhac-ly/32-ky-thuat-the-ky-20.md) (kết cấu, chuỗi hòa âm, phát triển môtip, hình thức, kỹ thuật thế kỷ 20). Phân tích mọi bài mình chơi. |
@@ -171,7 +170,7 @@ Mục tiêu: chơi những tác phẩm lớn được yêu thích nhất, với 
 
 ## Chặng 7. Sau Grade 8 (diploma trở lên)
 
-Ở chặng này không còn "cấp" rõ ràng. Bạn đã có đủ kỹ thuật nền tảng; điều còn lại là **chiều sâu và chiều rộng**: tác phẩm lớn hơn, chương trình dài hơn, âm thanh và ý tưởng của riêng mình. Nếu muốn có mục tiêu chính thức, có các bằng diploma của ABRSM (ARSM, DipABRSM, LRSM, FRSM) và Trinity (ATCL, LTCL, FTCL).
+Ở chặng này không còn "cấp" rõ ràng. Bạn đã có đủ kỹ thuật nền tảng; điều còn lại là **chiều sâu và chiều rộng**: tác phẩm lớn hơn, chương trình dài hơn, âm thanh và ý tưởng của riêng mình. Nếu muốn có mục tiêu chính thức, có các bằng diploma của ABRSM (ARSM, LRSM, FRSM) và Trinity (ATCL, LTCL, FTCL).
 
 Những hướng đi:
 
@@ -191,16 +190,7 @@ Những hướng đi:
 
 ## Khi bị chững lại
 
-Gần như ai cũng có những tháng thấy mình "đứng yên". Thường đó là lúc tay đang tiêu hóa những gì đã học. Nhưng nếu kéo dài, hãy kiểm tra từng điều sau:
-
-1. **Bài có quá khó không?** Chơi một bài vượt hai cấp tốn thời gian gấp nhiều lần và dễ làm căng tay. Lùi lại, học nhiều bài vừa sức: số lượng bài đã chơi là thứ làm bạn tiến nhanh nhất.
-2. **Bạn đang tập hay chỉ đang chơi?** Chơi đi chơi lại từ đầu dễ chịu nhưng ít tiến bộ. Chuyển sang [tập có chủ đích](cach-tap.md): chọn chỗ khó, tập chậm, chia nhỏ, xen kẽ.
-3. **Kỹ thuật gốc có vấn đề không?** Vai nhô, cổ tay cứng, khớp ngón gãy làm mọi thứ chậm lại. Quay video tay mình và đối chiếu với [tư thế và thế tay](tu-the.md).
-4. **Bạn có bỏ qua gam và thị tấu không?** Hai mảng này nhàm nhưng là "từ vựng" và "khả năng đọc" của bạn. 10 phút mỗi ngày là đủ ([gam](gam.md), [thị tấu](thi-tau.md)).
-5. **Bạn có người nghe không?** Một buổi học với thầy, một người bạn, một buổi chơi nhỏ ở nhà đều tạo hạn chót và góc nhìn mới ([học với thầy](thay-va-thi.md), [biểu diễn](hoc-thuoc-bieu-dien.md)).
-6. **Bạn còn nghe nhạc không?** Nghe một nghệ sĩ lớn chơi bài của mình thường mở ra ngay hai, ba ý tưởng mới.
-
-Ghi tiến bộ vào [nhật ký luyện tập](../luyen-tap/nhat-ky.md) và nghe lại bản thu cũ của mình sau ba tháng: bạn sẽ thấy mình đã đi xa hơn mình nghĩ.
+Gần như ai cũng có những tháng thấy mình "đứng yên"; thường đó là lúc tay đang tiêu hóa những gì đã học. Nếu kéo dài, đi qua danh sách kiểm tra ở [Cách tập: khi bị giậm chân tại chỗ](cach-tap.md#khi-bi-giam-chan-tai-cho), và nghe lại bản thu cũ của mình sau ba tháng: bạn sẽ thấy mình đã đi xa hơn mình nghĩ.
 
 ## Nguồn
 

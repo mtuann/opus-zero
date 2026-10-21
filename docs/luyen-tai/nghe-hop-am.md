@@ -2,7 +2,7 @@
 
 Nghe hợp âm là nghe **"màu" của một khối âm thanh**: sáng hay tối, căng hay êm, muốn đứng yên hay muốn đi tiếp. Đây là kỹ năng để nghe ra hòa âm của một bản nhạc — điều làm nên cảm xúc của nhạc cổ điển, nhạc phim và nhạc pop.
 
-Lý thuyết đầy đủ: [bài 10: Hợp âm ba](../nhac-ly/10-hop-am-ba.md), [bài 11: Hợp âm bảy](../nhac-ly/11-hop-am-bay.md). Bài luyện với công cụ: [Nhận biết hợp âm](../luyen-tap/hop-am.md).
+Lý thuyết đầy đủ: [bài 10: Hợp âm ba](../nhac-ly/10-hop-am-ba.md), [bài 11: Hợp âm bảy](../nhac-ly/11-hop-am-bay.md). Công cụ luyện ở [cuối bài](#luyen-voi-cong-cu).
 
 ## Bốn màu của hợp âm ba
 
@@ -62,9 +62,15 @@ K:C
 | Nửa giảm (ø7) | Đô–Mi♭–Sol♭–Si♭ | Căng, u ám — màu của nhạc tiền lãng mạn. |
 | Giảm bảy (o7) | Đô–Mi♭–Sol♭–Si𝄫 | Căng tột độ, chênh vênh — hay dùng trước khi chuyển giọng. |
 
-Hợp âm bảy khó hơn hợp âm ba nhiều. Chỉ tập khi đã phân biệt trưởng/thứ thành thạo — đúng như gợi ý ở [công cụ nhận biết hợp âm](../luyen-tap/hop-am.md).
+Hợp âm bảy khó hơn hợp âm ba nhiều. Chỉ tập khi đã phân biệt trưởng/thứ thành thạo — đúng như gợi ý ở [công cụ cuối bài](#luyen-voi-cong-cu).
 
-## Thứ tự luyện
+## Luyện với công cụ
+
+Công cụ phát một hợp âm, bạn chọn loại hợp âm. Chế độ rải từng nốt dễ hơn chập cùng lúc: tập rải trước.
+
+<div class="oz-chord-trainer"></div>
+
+Thứ tự luyện:
 
 1. **Trưởng vs thứ** (rải): phân biệt quan trọng nhất, đa số nghe được sau vài ngày.
 2. **Trưởng vs thứ** (chập).

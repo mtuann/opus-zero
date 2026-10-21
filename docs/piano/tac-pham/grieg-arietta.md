@@ -47,7 +47,7 @@ Bài chỉ dài khoảng một phút rưỡi, nên hãy nghe nhiều lần, mỗ
 
 Rồi so sánh ít nhất hai bản thu, chẳng hạn Emil Gilels, người đưa *Arietta* vào tuyển tập *Lyric Pieces* nổi tiếng của mình, và Einar Steen-Nøkleberg, nghệ sĩ Na Uy đã thu trọn các tác phẩm piano của Grieg. Ghi lại: ai chơi chậm nhất, ai để nốt trầm vang rõ nhất, ai cho ô cuối tan lâu nhất? Cuối cùng, nghe *Efterklang* Op. 71 số 7 ngay sau *Arietta*: cùng một giai điệu, nhưng đã thành điệu valse của một người nhìn lại. Muốn biết thêm về các nghệ sĩ, xem [Nghệ sĩ piano và bản thu](../nghe-si.md).
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Luis Kolodin&quot;,&quot;lic&quot;:&quot;CC BY-SA 4.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;,&quot;page&quot;:&quot;https://imslp.org/wiki/File:PMLP1776-grieg_arietta.mp3&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;../../../assets/audio/grieg-arietta.mp3&quot;,&quot;d&quot;:87.88}],&quot;ref&quot;:[1,13,25,33,44,53,60,77]}"></div>
 
 ## Theo dõi khi nghe
 

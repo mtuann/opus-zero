@@ -80,7 +80,7 @@ K:C
 
 Nốt Đô xuất hiện từ giữa ô đầu, khi hòa âm vẫn là Sol7 (lúc đó nó là âm ngoài hợp âm), rồi ngân dài thành nốt chủ âm khi hợp âm Đô trưởng đến.
 
-**Âm nền**: bạn đã nghe ở [Bach *Prelude cung Đô trưởng*](../nghe-nhac/bach-prelude-c.md), nơi nốt Sol giữ ở bè trầm qua nhiều ô nhịp gần cuối.
+**Âm nền**: bạn đã nghe ở [Bach *Prelude cung Đô trưởng*](../piano/tac-pham/bach-prelude-do.md), nơi nốt Sol giữ ở bè trầm qua nhiều ô nhịp gần cuối.
 
 ## Vì sao quan trọng khi nghe nhạc?
 

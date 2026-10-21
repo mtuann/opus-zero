@@ -73,7 +73,7 @@ K:Am
 Khi chuyển hợp âm, mỗi bè (giọng) nên đi **gần nhất có thể**: giữ nguyên nốt chung, các nốt khác đi bước liền. Đây là nguyên tắc **dẫn bè** (voice leading), giúp hòa âm nghe mượt mà. Hãy để ý trong các ví dụ trên: bè trên cùng hầu như chỉ đi bước nhỏ.
 
 !!! tip "Trên phím đàn"
-    Chơi chuỗi **I – IV – I – V7 – I** bằng hai tay (tay trái nốt gốc, tay phải ba nốt) ở vài giọng quen. Đó là "vốn từ" hòa âm của phần lớn các bài bạn sẽ tập: xem [Hợp âm, hợp âm rải và hình đệm](../piano/hop-am-rai.md).
+    Chơi chuỗi **I – IV – I – V7 – I** bằng hai tay (tay trái nốt gốc, tay phải ba nốt) ở vài giọng quen. Đó là "vốn từ" hòa âm của phần lớn các bài bạn sẽ tập: xem [Hợp âm, hợp âm rải và hình đệm](../piano/hop-am-rai.md), rồi [Hòa âm bên phím](../piano/hoa-am/index.md).
 
 ## Bài tập
 
@@ -84,7 +84,7 @@ Khi chuyển hợp âm, mỗi bè (giọng) nên đi **gần nhất có thể**:
     Chủ: **G** (I), **Em** (vi). Hạ át: **C** (IV), **Am** (ii). Át: **D7** (V7).
 
 !!! example "Luyện tập kèm theo"
-    [Vòng quãng năm](../luyen-tap/vong-quang-nam.md): chọn từng giọng và bấm "Nghe I – IV – V – I".
+    [Vòng quãng năm](../luyen-tap/hoa-bieu.md#vong-quang-nam): chọn từng giọng và bấm "Nghe I – IV – V – I".
 
 ```quiz
 ? Trong Đô trưởng, hợp âm nào có chức năng át?
