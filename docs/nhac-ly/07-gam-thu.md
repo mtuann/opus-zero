@@ -80,6 +80,9 @@ A, B, C D | E ^F ^G A | A =G =F E | D C B, A, |]
 
 Thử nghe cả ba dạng trên [bàn phím piano](../luyen-tap/ban-phim.md): chọn "Gam thứ…" ở ô "Loại".
 
+!!! tip "Trên phím đàn"
+    Gam La thứ hòa âm dùng cùng ngón bấm với Đô trưởng; chỉ cần nhớ Sol♯ ở bậc 7. Tập gam thứ ngay sau gam trưởng song song của nó (Đô trưởng rồi La thứ) để tay và tai so sánh: xem [Gam và ngón bấm](../piano/gam.md).
+
 ## Bài tập
 
 1. Viết gam Mi thứ tự nhiên. Hóa biểu của nó giống giọng trưởng nào?

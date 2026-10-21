@@ -2,6 +2,7 @@
 (function () {
   "use strict";
   const TASKS = [
+    ["dan", "Tập đàn: khởi động, gam và bài đang tập (20–45 phút)"],
     ["doc-not", "Đọc nốt 5 phút (tự đánh dấu khi đọc đúng 10 nốt)"],
     ["luyen-tai", "Luyện tai 5 phút (tự đánh dấu khi nhận đúng 10 quãng hoặc hợp âm)"],
     ["nhac-ly", "Học hoặc ôn nhạc lý 10 phút (tự đánh dấu khi làm xong một quiz hoặc ôn 10 thẻ thuật ngữ)"],
@@ -16,10 +17,19 @@
     const parts = [];
     [["notes", "nốt đọc đúng"], ["intervals", "quãng"], ["chords", "hợp âm"], ["keysigs", "hóa biểu"],
      ["rhythms", "tiết tấu gõ đúng"], ["scales", "gam nhận đúng"], ["builds", "gam/hợp âm tự xây"], ["melodies", "giai điệu thị tấu"], ["styles", "câu nhận diện"], ["cards", "thẻ thuật ngữ"],
-     ["quizzes", "quiz bài học"], ["minutes", "phút máy đếm nhịp"]].forEach(function (f) {
+     ["quizzes", "quiz bài học"], ["minutes", "phút máy đếm nhịp"], ["piano", "buổi tập bài"], ["readings", "bài thị tấu hai tay"], ["checks", "mục đã đánh dấu xong"]].forEach(function (f) {
       if (d[f[0]]) parts.push(d[f[0]] + " " + f[1]);
     });
     return parts.length ? "Hôm nay: " + parts.join(", ") + "." : "Hôm nay chưa có hoạt động nào.";
+  }
+
+  /* Số bài đang tập và đã chơi được (từ nút trên các bài học tác phẩm) */
+  function pieces() {
+    const rep = OZProgress.getStore("repertoire", {}) || {};
+    const n = function (st) { return Object.keys(rep).filter(function (k) { return rep[k] && rep[k].status === st; }).length; };
+    const a = n("learning"), b = n("done");
+    if (!a && !b) return "";
+    return " " + (a ? "Đang tập " + a + " bài" + (b ? ", đã chơi được " + b + " bài." : ".") : "Đã chơi được " + b + " bài.");
   }
 
   /* Tóm tắt nhỏ cho trang chủ */
@@ -35,7 +45,7 @@
       const today = OZProgress.today();
       const due = Object.keys(cards).filter(function (k) { return cards[k].due <= today; }).length;
       root.innerHTML = '<span class="oz-streak">' + (s ? "Chuỗi " + s + " ngày" : "Bắt đầu chuỗi ngày hôm nay") + "</span>" +
-        "<p class='oz-stats'>" + todayLine(d) + " Đã hoàn thành " + lessons + " bài nhạc lý." +
+        "<p class='oz-stats'>" + todayLine(d) + pieces() + " Đã hoàn thành " + lessons + " bài nhạc lý." +
         (due ? " Có " + due + " thẻ thuật ngữ cần ôn." : "") + "</p>";
     }
     if (!root.dataset.ready) { root.dataset.ready = "1"; document.addEventListener("oz:progress", render); }

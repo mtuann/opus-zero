@@ -24,6 +24,8 @@ Các trang có sẵn **hướng dẫn nghe** từng bước. Mỗi trang có cô
 | [Vivaldi: Mùa xuân, chương 1](vivaldi-mua-xuan.md) | Baroque | Hình thức ritornello, âm nhạc miêu tả |
 | [Vivaldi: Mùa đông, chương 1](vivaldi-mua-dong.md) | Baroque | Ritornello, miêu tả cái rét |
 | [Bach: Prelude cung Đô trưởng](bach-prelude-c.md) | Baroque | Nghe hòa âm, âm nền |
+| [Scarlatti: Ba bản sonata](scarlatti-sonata.md) | Baroque | Hình thức hai đoạn, bắt chéo tay |
+| [Bach: Biến tấu Goldberg](bach-goldberg.md) | Baroque | Biến tấu trên bè trầm, canon |
 | [Bach: Tổ khúc cello số 1, Prelude](bach-cello-1.md) | Baroque | Hòa âm trên một nhạc cụ một bè |
 | [Bach: Air (Tổ khúc số 3)](bach-air.md) | Baroque | Giai điệu, bè trầm bước đều |
 | [Handel: "Hallelujah" (Messiah)](handel-hallelujah.md) | Baroque | Hợp xướng, fugue |
@@ -32,12 +34,19 @@ Các trang có sẵn **hướng dẫn nghe** từng bước. Mỗi trang có cô
 | [Mozart: Nữ hoàng bóng đêm](mozart-nu-hoang-bong-dem.md) | Cổ điển | Opera, giọng coloratura |
 | [Mozart: Requiem](mozart-requiem.md) | Cổ điển | Hợp xướng, fugue kép |
 | [Mozart: Eine kleine Nachtmusik, chương 1](mozart-eine-kleine.md) | Cổ điển | Hình thức sonata, serenade |
+| [Mozart: Sonata K. 331](mozart-k331.md) | Cổ điển | Biến tấu, minuet, rondo "Thổ Nhĩ Kỳ" |
+| [Mozart: Concerto piano số 21](mozart-concerto-21.md) | Cổ điển | Đối thoại piano – dàn nhạc, cadenza |
 | [Beethoven: Giao hưởng số 5](beethoven-5.md) | Cổ điển → Lãng mạn | Phát triển môtip |
 | [Beethoven: Tứ tấu Op. 132, chương 3](beethoven-op132.md) | Beethoven cuối đời | Điệu thức Lydian, nhạc thính phòng |
 | [Beethoven: Sonata "Ánh trăng", chương 1](beethoven-moonlight.md) | Cổ điển → Lãng mạn | Triplet đều, fantasia |
+| [Beethoven: Sonata Pathétique](beethoven-pathetique.md) | Cổ điển → Lãng mạn | Phần mở đầu chậm quay lại, rondo |
 | [Schubert: Erlkönig](schubert-erlkonig.md) | Lãng mạn | Ca khúc nghệ thuật, một ca sĩ bốn vai |
 | [Schubert: Ngũ tấu Con cá hồi, chương 4](schubert-ca-hoi.md) | Lãng mạn | Biến tấu, nhận biết nhạc cụ |
 | [Chopin: Nocturne Op. 9 số 2](chopin-nocturne.md) | Lãng mạn | Giai điệu hát, rubato |
+| [Schubert: Impromptu Sol♭ trưởng](schubert-impromptu.md) | Lãng mạn | Giai điệu và dòng đệm trong cùng một tay |
+| [Chopin: Étude Op. 10 số 3 và số 12](chopin-etude.md) | Lãng mạn | Kỹ thuật phục vụ âm nhạc |
+| [Schumann: Kinderszenen](schumann-kinderszenen.md) | Lãng mạn | Tập tiểu phẩm, chu trình 13 cảnh |
+| [Liszt: Liebestraum số 3](liszt-liebestraum.md) | Lãng mạn | Giai điệu giữa lớp hợp âm rải, cadenza |
 | [Mendelssohn: Concerto violin](mendelssohn-violin.md) | Lãng mạn | Concerto, cadenza đặt khác thường |
 | [Bizet: Habanera](bizet-habanera.md) | Lãng mạn | Opera, tiết tấu habanera |
 | [Tchaikovsky: Hồ thiên nga](tchaikovsky-ho-thien-nga.md) | Lãng mạn | Nhạc ballet, âm sắc |
@@ -45,6 +54,9 @@ Các trang có sẵn **hướng dẫn nghe** từng bước. Mỗi trang có cô
 | [Brahms: Giao hưởng số 4, chương 4](brahms-4.md) | Lãng mạn | Passacaglia, 30 biến tấu |
 | [Dvořák: Giao hưởng số 9, Largo](dvorak-9-largo.md) | Lãng mạn | Gam ngũ cung, cor anglais |
 | [Grieg: "Buổi sáng" (Peer Gynt)](grieg-buoi-sang.md) | Lãng mạn | Gam ngũ cung, sáo và oboe |
+| [Grieg: Concerto piano](grieg-concerto.md) | Lãng mạn | Concerto, chất dân ca Na Uy |
+| [Mussorgsky: Những bức tranh ở phòng triển lãm](mussorgsky-tranh.md) | Lãng mạn | Promenade nối các bức tranh; bản piano và bản phối |
+| [Brahms: Intermezzo Op. 118 số 2](brahms-intermezzo.md) | Cuối Lãng mạn | Ba đoạn, bè giữa, canon |
 | [Puccini: "Nessun dorma" (Turandot)](puccini-nessun-dorma.md) | Lãng mạn | Aria opera, giọng tenor |
 | [Debussy: Clair de lune](debussy-clair-de-lune.md) | Ấn tượng | Không khí, nhịp mơ hồ |
 | [Rachmaninoff: Concerto piano số 2](rachmaninoff-2.md) | Cuối Lãng mạn | Concerto, giai điệu lớn |
@@ -53,6 +65,8 @@ Các trang có sẵn **hướng dẫn nghe** từng bước. Mỗi trang có cô
 | [Stravinsky: Nghi lễ mùa xuân](stravinsky-sacre.md) | Thế kỷ 20 | Tiết tấu, nghịch tai |
 | [Shostakovich: Giao hưởng số 5](shostakovich-5.md) | Thế kỷ 20 | Âm nhạc và chính trị |
 | [Pärt: Spiegel im Spiegel](part-spiegel.md) | Đương đại | Tintinnabuli, tĩnh lặng |
+
+Các hướng dẫn về **nhạc piano** (18 tác phẩm) được gom riêng trong menu, theo thứ tự thời gian từ Bach đến Gershwin. Người học piano nên nghe chúng song song với [lộ trình piano năm đầu](../bat-dau/lo-trinh-choi.md): mỗi tháng một tác phẩm.
 
 Thêm tác phẩm của riêng bạn bằng [mẫu ghi chép](mau.md). Muốn luyện nhận ra thời kỳ và tác giả khi không biết tên bản nhạc, xem mục [Nhận diện](../nhan-dien/index.md). Đã nghe hết? Xem [Nghe gì tiếp](nghe-gi-tiep.md).
 

@@ -80,6 +80,9 @@ K:C
 
 Bạn sẽ gặp cấu trúc câu hỏi – câu trả lời ở khắp nơi trong nhạc thời kỳ Cổ điển, đặc biệt ở Mozart và Haydn.
 
+!!! tip "Trên phím đàn"
+    Khi tập một bản nhạc, đánh dấu các **kết** bằng bút chì. Chúng là ranh giới tự nhiên để chia đoạn khi tập ([Cách tập hiệu quả](../piano/cach-tap.md)) và là điểm bám khi [học thuộc](../piano/hoc-thuoc-bieu-dien.md).
+
 ## Bài tập
 
 1. Nghe một chương nhạc chậm của Mozart (gợi ý: Concerto piano số 21, chương 2). Mỗi khi nghe thấy nhạc "dừng lại", hãy đoán: kết trọn hay kết nửa?

@@ -4,6 +4,33 @@ Trang này ghi lại những thay đổi lớn của site và quy trình giữ c
 
 ## Nhật ký thay đổi
 
+### 10/2026: Phiên bản 11 (tập đàn mỗi ngày)
+
+- **Trình phát luyện tập trên mọi khuông nhạc:** chỉnh tốc độ (%), lặp lại, nghe riêng tay phải hoặc tay trái, tiếng gõ nhịp có một ô đếm vào. Nút **Giá nhạc** phóng to khuông ra toàn màn hình và giữ màn hình sáng trong lúc tập. Trên điện thoại, khuông tự xuống dòng nên nốt và số ngón đủ lớn để đọc.
+- **Theo dõi việc tập:** mọi danh sách việc (lộ trình, kế hoạch tuần) bấm được và được nhớ. Mỗi bài học tác phẩm có nút "Tôi đang tập bài này", "Hôm nay đã tập bài này" và "Đã chơi được trọn bài"; danh sách [bài đang tập](luyen-tap/nhat-ky.md) nằm trong nhật ký. Tất cả đi cùng bản sao lưu ở [Dữ liệu của tôi](luyen-tap/du-lieu.md).
+- **Buổi tập hôm nay bắt đầu bên đàn:** khởi động với gam của tuần theo chặng của bạn, rồi đến bài lâu chưa tập, sau đó mới tới đọc nhạc, nhạc lý và nghe. [Bài kiểm tra đầu vào](bat-dau/kiem-tra-dau-vao.md) có thêm phần tự đánh giá chặng piano.
+- **10 bài học tác phẩm mới cho Grade 1–4**, giai đoạn người lớn ở lâu nhất: Mozart K. 2, Minuet Sol thứ, Musette Rê trưởng, *La candeur*, Sonatina Sol trưởng, *Bài ca Pháp cổ* và *Cầu nguyện buổi sáng* của Tchaikovsky, Prelude nhỏ BWV 939, Prélude La trưởng của Chopin, *Arietta* của Grieg. Các trích đoạn thật được đối chiếu từng nốt với bản nhạc công cộng.
+- Cả 26 bài học tác phẩm có **thẻ tóm tắt**, **bản đồ nghe theo bản thu** (dán link, ghi mốc từng đoạn) và **câu tự kiểm tra**; menu chia các bài theo chặng.
+- **Mục mới [Hòa âm bên phím và ứng tác](piano/hoa-am/index.md):** kết ở mọi giọng, đệm cho một giai điệu, các mẫu hòa âm thời Cổ điển, ứng tác cổ điển.
+- **Công cụ mới [Thị tấu hai tay](luyen-tap/thi-tau-hai-tay.md):** bài bốn ô nhịp cho hai tay trên khuông kép theo bốn cấp, từ thế tay năm ngón ở Đô trưởng đến hợp âm rải và nhịp chấm dôi; chơi trên đàn thật, tự chấm, kết quả tính vào kế hoạch hôm nay.
+- **Hình minh họa kỹ thuật:** tư thế ngồi nhìn ngang và thế tay đúng, sai ở trang [Tư thế và thế tay](piano/tu-the.md); luồn ngón cái và vắt ngón trong gam ở trang [Gam và ngón bấm](piano/gam.md).
+- Chia sẻ link lên Facebook, Zalo có ảnh xem trước; mỗi trang có mô tả ngắn cho công cụ tìm kiếm.
+- Trang chủ có nút bắt đầu; người đã tập thấy khối "Hôm nay" ngay đầu trang. Thêm thanh đường dẫn ở đầu mỗi trang. Sửa tiêu đề khuông nhạc dài bị cắt; gộp hai nhóm "Luyện tai" trùng tên trong menu Luyện tập.
+
+### 10/2026: Phiên bản 10 (trọng tâm piano)
+
+Opus Zero chuyển thành sổ tay **học piano cổ điển** từ con số 0 đến nâng cao.
+
+- **Mục [Piano](piano/index.md) mới:** [lộ trình bảy chặng](piano/lo-trinh.md) từ 0 đến sau Grade 8; chọn đàn, tư thế, bản đồ bàn phím, hai tuần đầu tiên; 8 trang kỹ thuật (năm ngón, gam và ngón bấm cho 12 giọng, hợp âm và hình đệm, tạo tiếng đàn, bàn đạp, nốt hoa mỹ, phối hợp hai tay, bài tập ngón và étude); 5 trang tập luyện (cách tập, thị tấu, học thuộc và biểu diễn, giữ tay khỏe, học với thầy và thi cấp); [tác phẩm theo cấp độ](piano/tac-pham-theo-cap.md); lịch sử cây đàn, thể loại, nhà soạn nhạc và nghệ sĩ piano.
+- **[10 bài đầu tiên](piano/10-bai-dau-tien.md) soạn lại cho hai tay**, có số ngón; thêm nhiều bài tập hai tay trên khuông kép trong các trang kỹ thuật.
+- **[16 bài học tác phẩm](piano/tac-pham/index.md)** từ Minuet Sol trưởng đến Ballade số 1 của Chopin: cấu trúc, chỗ khó và cách tập, bài tập chuẩn bị, kế hoạch theo tuần, diễn tấu.
+- **12 hướng dẫn nghe nhạc piano mới**; mục "Nhạc piano" trong [Nghe nhạc](nghe-nhac/index.md) gom 18 tác phẩm.
+- Trang chủ, [Bắt đầu](bat-dau/index.md), [lộ trình piano năm đầu](bat-dau/lo-trinh-choi.md), thói quen mỗi ngày và hỏi đáp viết lại theo hướng piano; các bài nhạc lý 1–14 có hộp **Trên phím đàn**; từ điển thêm thuật ngữ piano.
+- Violin, cello, guitar, sáo, clarinet, trumpet chuyển vào mục [Nhạc cụ & dàn nhạc](nhac-cu/index.md) trong phần nghe; địa chỉ cũ của các trang piano, cách tập và mua đàn tự chuyển sang trang mới.
+- Hình mới: bàn phím 88 phím, số ngón hai tay, bàn đạp nối, âm vực đàn phím qua các thời kỳ, sơ đồ cấu trúc cho các bài học tác phẩm và hướng dẫn nghe.
+- [Sách in được](bat-dau/sach-in.md): thêm hai cuốn về piano. Kiểm thử độ dài ô nhịp hiểu thêm nốt hoa mỹ, bè chồng và liên ba.
+- [Từ điển thuật ngữ](nhac-ly/tu-dien.md) có thêm mục **Piano**. Tìm kiếm gõ không dấu giờ ưu tiên tiêu đề trang như khi gõ có dấu. Sửa vài lỗi trợ năng: bảng so sánh thiếu tiêu đề cột, ô đánh dấu trong danh sách việc không có nhãn.
+
 ### 10/2026: Phiên bản 9 (hình phản hồi và hình chạy theo âm nhạc)
 
 - **Con trỏ chạy trên khuông:** khi bấm phát, nốt đang vang được tô sáng, trên mọi khuông nhạc của site và các ví dụ phong cách.
@@ -82,7 +109,7 @@ Khung site, 6 bài nhạc lý đầu tiên, 4 công cụ luyện tập.
 
 - [ ] [Âm nhạc hôm nay](lich-su/duong-dai.md): cập nhật tin đáng chú ý (cuộc thi lớn, giải Pulitzer Âm nhạc công bố tháng 5, nhà soạn nhạc qua đời).
 - [ ] [Nhạc cổ điển ở Việt Nam](lich-su/viet-nam.md): dàn nhạc, nhà hát, sự kiện mới.
-- [ ] [Tài nguyên](tai-nguyen.md) và trang các nhạc cụ: kiểm tra giáo trình thi cấp ABRSM, Trinity (giáo trình piano ABRSM hiện hành hết hiệu lực ngày 31/12/2026).
+- [ ] [Tài nguyên](tai-nguyen.md) và trang các nhạc cụ: kiểm tra giáo trình thi cấp ABRSM, Trinity (giáo trình piano ABRSM 2027–2028 dùng được từ 1/1/2027; giáo trình 2025–2026 hết hiệu lực ngày 31/12/2027).
 - [ ] Sửa dòng "Cập nhật lần cuối" ở các trang trên.
 - [ ] Ghi thay đổi vào nhật ký ở trang này.
 

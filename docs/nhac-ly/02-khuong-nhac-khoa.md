@@ -80,6 +80,9 @@ K:C
 [V:LH] C, D, E, F, | G,4 |]
 ```
 
+!!! tip "Trên phím đàn"
+    Bản nhạc piano viết trên **khuông kép**: khóa Sol thường dành cho tay phải, khóa Fa cho tay trái, và Đô giữa nằm trên dòng kẻ phụ ở giữa hai khuông. Thuộc vài **nốt mốc** (Fa3 trên dòng 4 khóa Fa, Sol4 trên dòng 2 khóa Sol) giúp đọc nhanh hơn hẳn so với đếm dòng: xem [Đọc nhạc và thị tấu](../piano/thi-tau.md).
+
 ## Bài tập
 
 1. Luyện với [công cụ đọc nốt](../luyen-tap/doc-not.md), chọn "Khóa Sol, Trong khuông" đến khi đúng 9/10 lần.

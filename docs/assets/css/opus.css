@@ -142,7 +142,7 @@
 /* abcjs */
 .abc-notation { margin: 1rem 0 0.4rem; overflow-x: auto; }
 .abc-notation svg { color: var(--md-default-fg-color); }
-.abc-audio { margin-bottom: 1.2rem; max-width: 420px; }
+.abc-audio { margin-bottom: 0.5rem; max-width: 560px; }
 
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
@@ -423,3 +423,53 @@
 /* Lưới hình nhỏ (kết cấu) */
 .oz-fig-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.6rem; }
 @media (prefers-reduced-motion: reduce) { .md-typeset tr.oz-now td { transition: none; } }
+
+
+/* ---------- Khuông nhạc: tiêu đề, công cụ luyện tập, chế độ giá nhạc ---------- */
+.oz-abc { margin: 1.2rem 0 1.4rem; }
+.md-typeset .oz-abc-title { font-family: var(--oz-heading); font-size: 0.9rem; text-align: center; margin: 0 0 0.1rem; max-width: none; color: var(--md-default-fg-color--light); }
+.oz-abc .abc-notation { margin: 0.2rem 0 0.4rem; }
+.oz-abc-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 0.9rem; font-size: 0.7rem; }
+.oz-abc-tools button { font: inherit; cursor: pointer; padding: 0.2rem 0.65rem; border: 1px solid var(--md-default-fg-color--lighter); border-radius: 999px; background: transparent; color: var(--md-default-fg-color); }
+.oz-abc-tools button:hover { border-color: var(--md-accent-fg-color); }
+.oz-abc-tools button:focus-visible { outline: 2px solid var(--md-accent-fg-color); outline-offset: 2px; }
+.oz-abc-tools button[aria-pressed="true"] { background: var(--md-primary-fg-color); border-color: var(--md-primary-fg-color); color: #fff; }
+.oz-hands { display: inline-flex; flex-wrap: wrap; gap: 0.25rem; }
+/* ô tốc độ (%) của trình phát abcjs không theo kiểu ô số của công cụ */
+.oz-tool .abcjs-inline-audio input.abcjs-midi-tempo { width: 46px; min-height: 0; height: auto; padding: 0 2px; border: none; border-radius: 2px; font-size: 12px; background: #fff; color: #1b1b1b; }
+.oz-check { display: inline-flex; align-items: center; gap: 0.3rem; cursor: pointer; }
+.oz-abc.oz-stand { position: fixed; inset: 0; z-index: 50; margin: 0; overflow-y: auto; display: flex; flex-direction: column; background: var(--md-default-bg-color); padding: 0.4rem max(1rem, env(safe-area-inset-right)) 3rem max(1rem, env(safe-area-inset-left)); }
+.oz-abc.oz-stand .abc-audio { order: -1; margin: 0.4rem 0; }
+.oz-abc.oz-stand .oz-abc-tools { order: -2; position: sticky; top: 0; z-index: 1; padding: 0.5rem 0; background: var(--md-default-bg-color); border-bottom: 1px solid var(--md-default-fg-color--lightest); }
+.oz-abc.oz-stand .abc-audio { max-width: none; }
+.md-typeset .oz-abc.oz-stand .oz-abc-title { font-size: 1.1rem; margin-top: 0.6rem; }
+html.oz-stand-open, html.oz-stand-open body { overflow: hidden; }
+@media screen and (max-width: 600px) { .oz-abc-tools button { min-height: 36px; } }
+
+/* ---------- Bài học tác phẩm: thẻ tóm tắt và nút theo dõi ---------- */
+.md-typeset .oz-piece { border: 1px solid var(--md-default-fg-color--lightest); border-radius: 12px; padding: 0.7rem 0.9rem; margin: 1rem 0 0.6rem; }
+.md-typeset .oz-piece p { margin: 0; max-width: none; }
+.oz-chip { display: inline-block; margin: 0.15rem 0.3rem 0.15rem 0; padding: 0.1rem 0.6rem; border-radius: 999px; font-size: 0.72rem; background: var(--md-default-fg-color--lightest); }
+.oz-chip--level { background: color-mix(in srgb, var(--md-accent-fg-color) 22%, transparent); }
+.oz-piece-actions { display: flex; flex-wrap: wrap; gap: 0.4rem 0.6rem; align-items: center; margin-top: 0.6rem; }
+.oz-piece-actions .oz-btn { font-size: 0.7rem; padding: 0.3rem 0.7rem; }
+.oz-btn--quiet { border-color: transparent; text-decoration: underline; padding-left: 0.2rem; padding-right: 0.2rem; }
+.md-typeset details.oz-piece-info { margin-top: 0.4rem; }
+.oz-tool-title { font-weight: 600; margin: 0 0 0.3rem; }
+.md-typeset .oz-rep-list { margin: 0 0 0.8rem; }
+.md-typeset .oz-rep-list li { margin: 0.1rem 0; }
+.oz-level-result p { margin: 0.3rem 0; }
+
+/* Danh sách việc bấm được: mục đã xong mờ đi một chút */
+.md-typeset .task-list-item.oz-checked { color: var(--md-default-fg-color--light); }
+.md-typeset .task-list-item.oz-checked ul, .md-typeset .task-list-item.oz-checked ol { color: var(--md-default-fg-color); }
+.md-typeset .task-list-control input:not([disabled]) + .task-list-indicator { cursor: pointer; }
+
+/* Trang chủ: nút bắt đầu */
+.oz-hero .oz-cta { margin-top: 1.4rem; }
+.md-typeset .oz-hero .oz-cta p { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 0; max-width: none; }
+.md-typeset .oz-hero .oz-cta .md-button { margin: 0; }
+
+@media print {
+  .oz-abc-tools, .oz-piece-actions { display: none !important; }
+}

@@ -1,6 +1,27 @@
 # Violin
 
-Violin là nhạc cụ khó khởi đầu nhất trong ba nhạc cụ ở site này: không có phím nên phải luyện tai để chơi đúng cao độ, và kéo vĩ ra tiếng đẹp cần nhiều tháng. Nhưng đổi lại, đó là nhạc cụ gần với giọng hát nhất.
+Violin thuộc loại nhạc cụ khó khởi đầu nhất: không có phím nên phải luyện tai để chơi đúng cao độ, và kéo vĩ ra tiếng đẹp cần nhiều tháng. Nhưng đổi lại, đó là nhạc cụ gần với giọng hát nhất.
+
+!!! note "Trang này thuộc phần nghe"
+    Opus Zero tập trung vào piano; trang này giúp bạn **nghe hiểu** nhạc cụ này khi nó xuất hiện trong dàn nhạc, nhạc thính phòng hay concerto. Phần học chơi bên dưới (lộ trình, 10 bài đầu tiên) chỉ để tham khảo. Xem [Nhạc cụ trong dàn nhạc](index.md).
+
+## Nên nghe
+
+- Bach: *Sonatas & Partitas* cho violin độc tấu, đặc biệt là *Chaconne* trong Partita số 2
+- Vivaldi: *Bốn Mùa* (xem [hướng dẫn nghe Mùa xuân](../nghe-nhac/vivaldi-mua-xuan.md))
+- Concerto của Mendelssohn ([hướng dẫn nghe](../nghe-nhac/mendelssohn-violin.md)), Beethoven, Brahms, Tchaikovsky, Sibelius
+- Paganini: *24 Caprices*
+- **Violin và piano ngang hàng:** sonata "Mùa xuân" Op. 24 và "Kreutzer" Op. 47 của Beethoven, Sonata cung La trưởng của César Franck; và [*Spiegel im Spiegel*](../nghe-nhac/part-spiegel.md) của Pärt.
+
+## Nghệ sĩ nên tìm
+
+Jascha Heifetz, David Oistrakh, Itzhak Perlman, Anne-Sophie Mutter, Hilary Hahn.
+
+## Nếu muốn học chơi
+
+- **Rất nên có giáo viên** ít nhất ở giai đoạn đầu, để tránh sai tư thế cầm đàn và cầm vĩ; sửa về sau rất khó. Giáo trình phổ biến: *Suzuki Violin School*.
+- **Kích cỡ:** người lớn dùng đàn **4/4**; trẻ em dùng cỡ nhỏ hơn theo chiều dài tay. Đàn thường bán theo **bộ** (đàn, vĩ, hộp, nhựa thông). Quan trọng hơn giá là **cân chỉnh**: ngựa đàn, độ cao dây, trục lên dây xoay trơn; nhờ thợ làm đàn (luthier) hoặc thầy kiểm tra.
+- Mua thêm **gối vai**; dùng [máy lên dây](../luyen-tap/len-day.md) và [máy đếm nhịp](../luyen-tap/metronome.md) mỗi buổi tập.
 
 ## Lộ trình theo cấp độ
 
@@ -185,7 +206,7 @@ G2 z2 d2 z2 | G2 z2 d2 z2 | G2 d2 g2 b2 | d'4 z4 |]
 - Danh sách tác phẩm theo cấp của [ABRSM](https://www.abrsm.org/) và [Trinity](https://www.trinitycollege.com/).
 - Kênh YouTube **Violin Lab**, **Fiddlerman**, **Eddy Chen và Brett Yang (TwoSetViolin)** để giải trí và truyền cảm hứng.
 
-Xem thêm: [cách tập hiệu quả](cach-tap.md), [mua đàn và chọn thầy](mua-dan-chon-thay.md).
+Nguyên tắc tập luyện chung cho mọi nhạc cụ: [Cách tập hiệu quả](../piano/cach-tap.md).
 
 ## Nguồn
 

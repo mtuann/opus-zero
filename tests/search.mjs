@@ -26,7 +26,10 @@ const CASES = [
   ["điệu thức", "nhac-ly/16-dieu-thuc-ngu-cung/"], ["dieu thuc", "nhac-ly/16-dieu-thuc-ngu-cung/"],
   ["doc not", "luyen-tap/doc-not/"], ["hoa bieu", "nhac-ly/08-hoa-bieu/"],
   ["dan bau", "lich-su/nhac-truyen-thong-viet-nam/"], ["dau van tay", "nhan-dien/dau-van-tay/"],
-  ["nghe mu", "nhan-dien/nghe-mu/"], ["Boléro", "nghe-nhac/ravel-bolero/"]
+  ["nghe mu", "nhan-dien/nghe-mu/"], ["Boléro", "nghe-nhac/ravel-bolero/"],
+  ["bàn đạp", "piano/ban-dap/"], ["ban dap", "piano/ban-dap/"], ["ngon bam", "piano/gam/"],
+  ["lay tren lay duoi", "piano/not-hoa-my/"], ["Goldberg", "nghe-nhac/bach-goldberg/"],
+  ["la candeur", "piano/tac-pham/burgmuller-la-candeur/"], ["schemata", "piano/hoa-am/mau-galant/"], ["ung tac", "piano/hoa-am/ung-tac/"]
 ];
 let bad = 0;
 for (const [q, want] of CASES) {

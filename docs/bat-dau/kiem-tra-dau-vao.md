@@ -1,6 +1,54 @@
 # Kiểm tra đầu vào
 
-Bài kiểm tra gồm 28 câu, mỗi bài nhạc lý có 2 câu, mất khoảng 5–10 phút. Nếu không biết, hãy chọn **"Tôi chưa biết"** thay vì đoán: kết quả sẽ chính xác hơn. Cuối bài, site gợi ý bài nên bắt đầu và lưu kết quả lại.
+Bài kiểm tra có hai phần, làm phần nào trước cũng được. **Phần piano** (khoảng 2 phút) cho biết bạn đang ở chặng nào của [lộ trình piano](../piano/lo-trinh.md). **Phần nhạc lý** cho biết nên bắt đầu từ bài nhạc lý nào. Kết quả được lưu trong trình duyệt và dùng để gợi ý buổi tập hôm nay ở trang chủ.
+
+## Phần 1: Bạn đang ở chặng piano nào?
+
+Đánh dấu những việc bạn **đã làm được một cách thoải mái**, không cần hoàn hảo. Mỗi nhóm có ba việc; làm được hai trong ba là coi như xong chặng đó.
+
+<div class="oz-piano-level" markdown>
+
+**Xong chặng 1 (Khởi đầu)**
+
+- [ ] Chơi được bằng hai tay vài bài đơn giản, như [10 bài đầu tiên](../piano/10-bai-dau-tien.md), không dừng, ở tốc độ chậm vừa
+- [ ] Đọc được nốt ở cả khóa Sol lẫn khóa Fa
+- [ ] Chơi gam Đô trưởng một quãng tám từng tay, luồn ngón cái không giật
+
+**Xong chặng 2 (Sơ cấp, ≈ Grade 1–2)**
+
+- [ ] Chơi trọn vẹn vài bài cấp 1–2, như [Minuet Sol trưởng](../piano/tac-pham/minuet-sol.md), có sắc thái, không dừng khi lỡ sai
+- [ ] Chơi các gam trưởng và thứ đã học bằng hai tay, hai quãng tám
+- [ ] Đổi bàn đạp theo hợp âm mà tiếng không bị nhòe
+
+**Xong chặng 3 (Sơ trung cấp, ≈ Grade 3)**
+
+- [ ] Chơi trọn một sonatina, như [Clementi Op. 36 số 1](../piano/tac-pham/clementi-sonatina.md), nhịp ổn định từ đầu đến cuối
+- [ ] Đệm Alberti đều và nhỏ hơn giai điệu
+- [ ] Chơi gam đến 3 dấu hóa, hai tay, hai quãng tám
+
+**Xong chặng 4 (Trung cấp, ≈ Grade 4–5)**
+
+- [ ] Chơi hai bè độc lập: một bè to, một bè nhỏ, theo ý mình
+- [ ] Chơi mọi gam trưởng và thứ, hai tay, hai quãng tám
+- [ ] Biểu diễn thuộc lòng một chương trình khoảng 10 phút cho người khác nghe
+
+**Xong chặng 5 (Trung cấp cao, ≈ Grade 6)**
+
+- [ ] Chơi trọn một chương sonata Cổ điển ở tốc độ gần với chỉ dẫn
+- [ ] Làm nổi được giai điệu nằm ở giữa hoặc ở tay trái
+- [ ] Hai bè của Bach rõ ràng, như trong [Invention số 1](../piano/tac-pham/bach-invention-1.md)
+
+**Xong chặng 6 (Nâng cao, ≈ Grade 7–8)**
+
+- [ ] Chơi thuộc lòng một chương trình 20–30 phút gồm ít nhất ba thời kỳ
+- [ ] Chơi một prelude và fugue của Bach, các bè nghe rõ
+- [ ] Tự quyết định ngón bấm, sắc thái và tốc độ cho một bài mới, và giải thích được vì sao
+
+</div>
+
+## Phần 2: Nhạc lý
+
+Phần này gồm 28 câu, mỗi bài nhạc lý có 2 câu, mất khoảng 5–10 phút. Nếu không biết, hãy chọn **"Tôi chưa biết"** thay vì đoán: kết quả sẽ chính xác hơn. Cuối bài, site gợi ý bài nên bắt đầu và lưu kết quả lại.
 
 ```placement
 @ 1 | Cao độ và tên nốt | nhac-ly/01-cao-do-ten-not/

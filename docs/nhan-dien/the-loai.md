@@ -25,7 +25,7 @@ flowchart TD
 
 | Nghe thấy | Rất có thể là | Ghi chú |
 |---|---|---|
-| Một piano | Sonata, tiểu phẩm piano | Xem [Piano](../nhac-cu/piano.md) |
+| Một piano | Sonata, tiểu phẩm piano | Xem [Các thể loại nhạc piano](../piano/the-loai.md) |
 | Một nhạc cụ khác và piano | Sonata cho violin (cello, sáo…) và piano | Hai nhạc cụ ngang hàng |
 | Một nhạc cụ không có đệm | Bach cho violin hoặc cello độc tấu; tác phẩm thế kỷ 20 | Ví dụ [Tổ khúc cello](../nghe-nhac/bach-cello-1.md), Debussy *Syrinx* |
 | 2 violin, viola, cello | **Tứ tấu đàn dây** | Thể loại thính phòng quan trọng nhất |

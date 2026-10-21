@@ -13,19 +13,31 @@ def parse_len(s, i):
         v = v / d
     return v, i
 
-def bar_lengths(body, L):
+def bar_lengths(body, L, compound=False):
     s = re.sub(r'"[^"]*"', '', body)       # annotations / chord symbols
     s = re.sub(r'![^!]*!', '', s)           # decorations
     s = re.sub(r'\[[A-Z]:[^\]]*\]', '', s)  # inline fields
-    bars, cur, i, trip = [], F(0), 0, 0
+    s = re.sub(r'\{[^}]*\}', '', s)         # nốt hoa mỹ (grace notes) không chiếm thời gian
+    bars, cur, i, trip, tfac, segs = [], F(0), 0, 0, F(1), []
     while i < len(s):
         c = s[i]
         if c == '(' and i+1 < len(s) and s[i+1].isdigit():
-            trip = int(s[i+1]); i += 2; continue
+            # (p:q:r — p nốt trong thời gian của q nốt, áp dụng cho r nốt tiếp theo
+            m = re.match(r'\((\d)(?::(\d)?)?(?::(\d))?', s[i:])
+            p = int(m.group(1))
+            q = int(m.group(2)) if m.group(2) else {2: 3, 3: 2, 4: 3, 6: 2, 8: 3}.get(p, 3 if compound else 2)
+            trip = int(m.group(3)) if m.group(3) else p
+            tfac = F(q, p); i += len(m.group(0)); continue
+        if c == '&':  # chồng bè trong cùng ô nhịp: mỗi bè phải đủ độ dài ô nhịp
+            segs.append(cur); cur = F(0); i += 1; continue
         if c in '|:]' or c == '[' and i+1 < len(s) and s[i+1] in '|12':
             j = i
             while j < len(s) and s[j] in '|:]12[': j += 1
             if '|' in s[i:j]:
+                if segs:
+                    segs.append(cur)
+                    cur = segs[0] if all(x == segs[0] for x in segs) else F(999)  # 999: các bè chồng lệch độ dài
+                    segs = []
                 bars.append(cur); cur = F(0)
             i = j; continue
         if c == '[':  # chord
@@ -37,7 +49,7 @@ def bar_lengths(body, L):
             d, i = parse_len(s, j+1)
             val = L * dur_in * d
             if trip:
-                val = val * F(2, 3); trip -= 1
+                val = val * tfac; trip -= 1
             cur += val; continue
         if c in '_^=':
             i += 1; continue
@@ -47,19 +59,20 @@ def bar_lengths(body, L):
             d, i = parse_len(s, i)
             val = L * d
             if trip:
-                val = val * F(2, 3); trip -= 1
+                val = val * tfac; trip -= 1
             cur += val; continue
         i += 1
     if cur: bars.append(cur)
     return bars
 
 def check(abc, name):
-    L = F(1, 8); M = None; voices = {}; probs = []
+    L = F(1, 8); M = None; voices = {}; probs = []; compound = False
     lines = abc.split('\n')
     for ln in lines:
         if re.match(r'^L:', ln): L = F(ln[2:].strip())
         elif re.match(r'^M:', ln):
             v = ln[2:].strip(); M = None if v in ('none', '') else (F(4,4) if v == 'C' else F(v))
+            compound = bool(re.match(r'^(6|9|12)/', v))
     if M is None: return []
     body = [ln for ln in lines if not re.match(r'^[A-Za-z]:', ln) and not ln.startswith('%%') and ln.strip()]
     for ln in body:
@@ -68,7 +81,7 @@ def check(abc, name):
         txt = mv.group(2) if mv else ln
         voices.setdefault(key, []).append(txt)
     for v, parts in voices.items():
-        bl = bar_lengths(' '.join(parts), L)
+        bl = bar_lengths(' '.join(parts), L, compound)
         for bi, b in enumerate(bl):
             if b != M and not (bi == 0 and b < M) and not (bi == len(bl)-1 and b < M):
                 probs.append(f"{name} voice {v} bar {bi+1}: {b} != {M}")

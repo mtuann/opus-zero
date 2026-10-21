@@ -1,6 +1,6 @@
 # Các nhạc cụ khác
 
-Ngoài [piano](piano.md), [violin](violin.md), [guitar](guitar.md), [cello](cello.md), [sáo](sao.md), [clarinet](clarinet.md) và [trumpet](trumpet.md), đây là ba "giọng nói" quan trọng khác của nhạc cổ điển. Xem thêm vị trí của chúng trong [dàn nhạc giao hưởng](dan-nhac.md).
+Ngoài piano (mục [Piano](../piano/index.md)) và [violin](violin.md), [guitar](guitar.md), [cello](cello.md), [sáo](sao.md), [clarinet](clarinet.md), [trumpet](trumpet.md), đây là ba "giọng nói" quan trọng khác của nhạc cổ điển. Xem thêm vị trí của chúng trong [dàn nhạc giao hưởng](dan-nhac.md).
 
 Âm vực của các nhạc cụ trong trang này và trong dàn nhạc được so sánh ở trang [Dàn nhạc giao hưởng](dan-nhac.md#am-vuc-cac-nhac-cu).
 

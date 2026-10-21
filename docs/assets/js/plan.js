@@ -11,6 +11,7 @@
     ["scales", "Nhận biết gam", "luyen-tap/gam/", "07-gam-thu", 4],
     ["chords", "Nhận biết hợp âm", "luyen-tap/hop-am/", "10-hop-am-ba", 5],
     ["sight", "Đọc thị tấu", "luyen-tap/thi-tau/", "06-gam-truong", 5],
+    ["sight2", "Thị tấu hai tay", "luyen-tap/thi-tau-hai-tay/", "02-khuong-nhac-khoa", 5],
     ["dictation", "Chép giai điệu", "luyen-tap/chep-giai-dieu/", "09-quang", 5],
     ["sing", "Hát lại", "luyen-tap/hat-lai/", "09-quang", 4],
     ["cadence", "Nhận biết kết", "nhan-dien/luyen-nghe/", "13-ket", 4],
@@ -40,6 +41,40 @@
     return done;
   }
 
+  /* Gam của tuần theo chặng piano: cặp giọng trưởng và giọng thứ song song, xoay vòng mỗi tuần */
+  const KEYS_ALL = ["Đô trưởng và La thứ", "Sol trưởng và Mi thứ", "Rê trưởng và Si thứ", "La trưởng và Fa♯ thứ", "Mi trưởng và Đô♯ thứ", "Si trưởng và Sol♯ thứ",
+    "Fa♯ trưởng và Rê♯ thứ", "Rê♭ trưởng và Si♭ thứ", "La♭ trưởng và Fa thứ", "Mi♭ trưởng và Đô thứ", "Si♭ trưởng và Sol thứ", "Fa trưởng và Rê thứ"];
+  const KEYS_BY_STAGE = {
+    2: ["Đô trưởng và La thứ", "Sol trưởng và Mi thứ", "Fa trưởng và Rê thứ", "Rê trưởng và Si thứ"],
+    3: ["Đô trưởng và La thứ", "Sol trưởng và Mi thứ", "Fa trưởng và Rê thứ", "Rê trưởng và Si thứ", "La trưởng và Fa♯ thứ", "Si♭ trưởng và Sol thứ", "Mi♭ trưởng và Đô thứ", "Mi trưởng và Đô♯ thứ"]
+  };
+  const FIVE = ["Đô", "Sol", "Fa", "Rê", "La"];
+  function weekIndex(today) {
+    const a = today.split("-").map(Number);
+    return Math.floor((Date.UTC(a[0], a[1] - 1, a[2]) / 86400000 + 3) / 7); /* tuần bắt đầu từ thứ Hai */
+  }
+  function warmup(stage, today) {
+    const w = weekIndex(today);
+    if (stage <= 1) return { kind: "piano", name: "Khởi động: thế tay năm ngón ở " + FIVE[w % FIVE.length] + " trưởng, từng tay rồi hai tay", url: "piano/nam-ngon/", mins: 5, reason: "khởi động tuần này" };
+    const list = KEYS_BY_STAGE[stage] || KEYS_ALL;
+    return { kind: "piano", name: "Khởi động: gam " + list[w % list.length] + (stage >= 4 ? ", hai tay, hai quãng tám" : ", từng tay rồi hai tay"), url: "piano/gam/", mins: 5, reason: "gam của tuần" };
+  }
+  function pianoItems(piano, today) {
+    const rep = piano.rep || {};
+    const learning = Object.keys(rep).filter(function (k) { return rep[k] && rep[k].status === "learning"; })
+      .map(function (k) { return { url: k, name: rep[k].name || k, last: rep[k].last || "" }; })
+      .sort(function (a, b) { return a.last < b.last ? -1 : a.last > b.last ? 1 : 0; });
+    const stage = piano.stage || (learning.length ? 2 : 0);
+    if (!stage) return [{ kind: "piano", name: "Bên đàn: Hai tuần đầu tiên", url: "piano/hai-tuan-dau/", mins: 15, reason: "bắt đầu từ đây nếu bạn mới học" }];
+    const out = [warmup(stage, today)];
+    learning.slice(0, 2).forEach(function (r) {
+      const d = daysSince(r.last, today);
+      out.push({ kind: "piece", name: "Tập bài: " + r.name, url: r.url, mins: learning.length > 1 ? 10 : 15, reason: !r.last ? "mới thêm" : d === 0 ? "đã tập hôm nay" : d + " ngày chưa tập" });
+    });
+    if (!learning.length) out.push({ kind: "piece", name: "Chọn một bài cho chặng " + stage, url: "piano/tac-pham-theo-cap/", mins: 5, reason: "chưa có bài đang tập" });
+    return out;
+  }
+
   /* Hàm thuần: nhận dữ liệu, trả kế hoạch. Dùng được cả trong kiểm thử. */
   function compute(state) {
     const today = state.today, skills = state.skills || {}, done = state.lessons || {};
@@ -62,11 +97,11 @@
       if (r.n === 0) { if (fresh >= 1 && rows.some(function (x) { return x.unlocked && x.n > 0 && pick.indexOf(x) < 0; })) return; fresh++; }
       pick.push(r);
     });
-    const plan = [];
+    const plan = pianoItems(state.piano || {}, today);
     const next = LESSONS.filter(function (k) { return !done[k]; })[0];
     if (next) plan.push({ kind: "lesson", name: "Bài học: " + LESSON_NAMES[next], url: "nhac-ly/" + next + "/", mins: 8, reason: "bài tiếp theo chưa xong" });
     if (state.cardsDue > 0) plan.push({ kind: "cards", name: "Ôn " + state.cardsDue + " thẻ thuật ngữ", url: "nhac-ly/tu-dien/", mins: 3, reason: "thẻ đến hạn hôm nay" });
-    pick.forEach(function (r) { plan.push({ kind: "skill", name: r.name, url: r.url, mins: r.mins, reason: r.reason }); });
+    pick.slice(0, 2).forEach(function (r) { plan.push({ kind: "skill", name: r.name, url: r.url, mins: r.mins, reason: r.reason }); });
     plan.push({ kind: "listen", name: "Nghe chủ động một tác phẩm", url: "nghe-nhac/", mins: 6, reason: "mỗi ngày một chút" });
     return { plan: plan, rows: rows, total: plan.reduce(function (s, p) { return s + p.mins; }, 0) };
   }
@@ -75,7 +110,9 @@
     const P = window.OZProgress;
     const cards = P ? P.getStore("cards", {}) : {};
     const t = P ? P.today() : "";
-    return compute({ today: t, skills: P ? P.getStore("skills", {}) : {}, lessons: lessonsDone(), cardsDue: Object.keys(cards).filter(function (k) { return cards[k].due <= t; }).length });
+    const lv = P ? P.getStore("pianoLevel", null) : null;
+    return compute({ today: t, skills: P ? P.getStore("skills", {}) : {}, lessons: lessonsDone(), cardsDue: Object.keys(cards).filter(function (k) { return cards[k].due <= t; }).length,
+      piano: { stage: lv && lv.stage || 0, rep: P ? P.getStore("repertoire", {}) : {} } });
   }
 
   function mountPlan(root) {
@@ -83,7 +120,7 @@
     root.classList.add("oz-tool");
     function render() {
       const r = current(), base = siteBase();
-      root.innerHTML = '<p class="oz-stats">Buổi tập hôm nay (khoảng ' + r.total + " phút), do site tự chọn dựa trên kết quả luyện tập của bạn:</p><ol class=\"oz-plan-list\">" +
+      root.innerHTML = '<p class="oz-stats">Buổi tập hôm nay (khoảng ' + r.total + " phút), bắt đầu bên đàn, rồi đến đọc nhạc, nhạc lý và nghe; site tự chọn dựa trên việc bạn đã tập:</p><ol class=\"oz-plan-list\">" +
         r.plan.map(function (p) { return '<li><a href="' + base + p.url + '">' + p.name + "</a> <span class=\"oz-stats\">· " + p.mins + " phút · " + p.reason + "</span></li>"; }).join("") + "</ol>";
     }
     if (!root.dataset.ready) { root.dataset.ready = "1"; document.addEventListener("oz:progress", render); }
@@ -105,7 +142,15 @@
     if (!root.dataset.ready) { root.dataset.ready = "1"; document.addEventListener("oz:progress", render); }
     render();
   }
-  window.OZPlan = { compute: compute, SKILLS: SKILLS };
-  function init() { document.querySelectorAll(".oz-plan").forEach(mountPlan); document.querySelectorAll(".oz-skills").forEach(mountSkills); }
+  window.OZPlan = { compute: compute, SKILLS: SKILLS, warmup: warmup };
+  /* Trang chủ: người đã từng tập thấy khối "Hôm nay" ngay dưới phần mở đầu; người mới thấy các lối vào trước. */
+  function homeOrder() {
+    const today = document.querySelector(".oz-home-today"), paths = document.querySelector(".oz-home-paths");
+    if (!today || !paths || !window.OZProgress) return;
+    const d = OZProgress.load(), st = d.store || {};
+    const used = Object.keys(d.days || {}).length > 0 || Object.keys(st).some(function (k) { const v = st[k]; return v && (typeof v !== "object" || Object.keys(v).length); });
+    if (used && today.compareDocumentPosition(paths) & Node.DOCUMENT_POSITION_PRECEDING) paths.parentNode.insertBefore(today, paths);
+  }
+  function init() { homeOrder(); document.querySelectorAll(".oz-plan").forEach(mountPlan); document.querySelectorAll(".oz-skills").forEach(mountSkills); }
   (window.OZReady || function (f) { document.addEventListener("DOMContentLoaded", f); })(init);
 })();

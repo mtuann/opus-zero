@@ -4,7 +4,7 @@
   "use strict";
   const PKEY = "opus-zero:v1", SOUND = "opus-zero:sound", MIDI = "opus-zero:midi-auto";
   const FORMAT = "opus-zero-backup";
-  const NUM_FIELDS = ["notes", "intervals", "chords", "keysigs", "rhythms", "melodies", "cards", "quizzes", "minutes", "builds", "scales", "styles"];
+  const NUM_FIELDS = ["notes", "intervals", "chords", "keysigs", "rhythms", "melodies", "cards", "quizzes", "minutes", "builds", "scales", "styles", "piano", "checks", "readings"];
 
   function isObj(x) { return x && typeof x === "object" && !Array.isArray(x); }
   function clone(x) { return JSON.parse(JSON.stringify(x)); }
@@ -36,7 +36,7 @@
   function merge(local, incoming) {
     local = isObj(local) && isObj(local.days) ? local : { days: {} };
     const L = clone(local), I = clone(incoming);
-    const rep = { daysAdded: 0, daysUpdated: 0, lessonsAdded: 0, skillsUpdated: 0, cardsUpdated: 0, blindLogAdded: 0, listenAdded: 0 };
+    const rep = { daysAdded: 0, daysUpdated: 0, lessonsAdded: 0, skillsUpdated: 0, cardsUpdated: 0, blindLogAdded: 0, listenAdded: 0, checksAdded: 0, piecesUpdated: 0 };
     L.store = L.store || {};
     const S = L.store, IS = I.store || {};
     Object.keys(I.days || {}).forEach(function (d) {
@@ -77,9 +77,19 @@
       if (!a) { S.listen[p] = b; rep.listenAdded++; return; }
       if (!a.url && b.url) a.url = b.url;
       a.marks = a.marks || {}; Object.keys(b.marks || {}).forEach(function (i) { if (a.marks[i] === undefined) a.marks[i] = b.marks[i]; }); }); }
+    /* Danh sách việc đã đánh dấu: hợp lại, giữ ngày sớm nhất */
+    if (isObj(IS.checks)) { S.checks = isObj(S.checks) ? S.checks : {}; Object.keys(IS.checks).forEach(function (pg) {
+      const a = S.checks[pg] = isObj(S.checks[pg]) ? S.checks[pg] : {}, b = isObj(IS.checks[pg]) ? IS.checks[pg] : {};
+      Object.keys(b).forEach(function (i) { if (a[i] === undefined) { a[i] = b[i]; rep.checksAdded++; } else if (b[i] && b[i] < a[i]) a[i] = b[i]; }); }); }
+    /* Bài đang tập: mỗi bài lấy bản cập nhật sau cùng */
+    if (isObj(IS.repertoire)) { S.repertoire = isObj(S.repertoire) ? S.repertoire : {}; Object.keys(IS.repertoire).forEach(function (k) {
+      const a = S.repertoire[k], b = IS.repertoire[k];
+      if (isObj(b) && (!a || (b.updated || "") > (a.updated || ""))) { S.repertoire[k] = b; rep.piecesUpdated++; } }); }
+    /* Chặng piano tự đánh giá: lấy lần đánh giá sau cùng */
+    if (isObj(IS.pianoLevel) && (!isObj(S.pianoLevel) || (IS.pianoLevel.updated || "") > (S.pianoLevel.updated || ""))) S.pianoLevel = IS.pianoLevel;
     /* Các khóa khác (ví dụ kết quả kiểm tra đầu vào): giữ của máy này, thêm nếu chưa có */
     Object.keys(IS).forEach(function (k) {
-      if (["lessons", "skills", "skillHist", "cards", "noteStats", "blind", "blindLog", "listen"].indexOf(k) >= 0) return;
+      if (["lessons", "skills", "skillHist", "cards", "noteStats", "blind", "blindLog", "listen", "checks", "repertoire", "pianoLevel"].indexOf(k) >= 0) return;
       if (S[k] === undefined) S[k] = IS[k];
     });
     return { merged: L, report: rep };
@@ -93,6 +103,8 @@
       days: active.length, first: active.sort()[0] || "", last: active.sort().slice(-1)[0] || "",
       lessons: Object.keys(s.lessons || {}).length, skills: Object.keys(s.skills || {}).length,
       cards: Object.keys(s.cards || {}).length, blindLog: (s.blindLog || []).length, listen: Object.keys(s.listen || {}).length,
+      pieces: Object.keys(s.repertoire || {}).filter(function (k) { return s.repertoire[k] && s.repertoire[k].status !== "removed"; }).length,
+      checks: Object.keys(s.checks || {}).reduce(function (n, k) { return n + Object.keys(s.checks[k] || {}).length; }, 0),
       notes: active.filter(function (d) { return (p.days[d].note || "").trim(); }).length
     };
   }
@@ -123,6 +135,7 @@
       "<li>" + s.days + " ngày có luyện tập" + (s.first ? " (từ " + s.first + " đến " + s.last + ")" : "") + ", " + s.notes + " ngày có ghi chú</li>" +
       "<li>" + s.lessons + " bài đã hoàn thành quiz; năng lực của " + s.skills + " kỹ năng</li>" +
       "<li>" + s.cards + " thẻ thuật ngữ đang ôn; " + s.blindLog + " lần nghe mù; mốc nghe ở " + s.listen + " trang</li>" +
+      "<li>" + (s.pieces || 0) + " bài trong danh sách bài đang tập; " + (s.checks || 0) + " mục đã đánh dấu xong</li>" +
       (recs ? "<li>" + recs.n + " bản thu âm (" + mb(recs.bytes) + ")</li>" : "") + "</ul>";
   }
 

@@ -83,6 +83,9 @@ Ví dụ: Đô – Mi (3 trưởng) đảo thành Mi – Đô (6 thứ).
 
 Luyện tai các quãng với [công cụ nhận biết quãng](../luyen-tap/quang.md) và [bảng giai điệu gợi nhớ](../luyen-tai/index.md).
 
+!!! tip "Trên phím đàn"
+    Trên đàn, quãng thành **độ mở của bàn tay**: quãng 2 là hai ngón liền nhau, quãng 5 là ngón 1 và 5 ở thế năm ngón, quãng 8 là gần cả bàn tay. Đọc theo quãng (nhìn khoảng cách) thay vì gọi tên từng nốt giúp thị tấu nhanh hơn: xem [Đọc nhạc và thị tấu](../piano/thi-tau.md).
+
 ## Bài tập
 
 1. Gọi tên các quãng: Mi – Sol, Fa – Si, La – Fa (đi lên), Rê – Rê♯.

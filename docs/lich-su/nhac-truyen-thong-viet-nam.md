@@ -6,7 +6,7 @@ Người Việt học nhạc cổ điển phương Tây có một lợi thế í
 
 ## Hai cách nghĩ về âm nhạc
 
-| | Nhạc cổ điển phương Tây | Nhạc truyền thống Việt Nam (đờn ca tài tử, ca trù, nhã nhạc…) |
+| Khía cạnh | Nhạc cổ điển phương Tây | Nhạc truyền thống Việt Nam (đờn ca tài tử, ca trù, nhã nhạc…) |
 |---|---|---|
 | **Truyền dạy** | Chủ yếu qua **bản nhạc** ghi chính xác từng nốt | Chủ yếu **truyền khẩu**, thầy dạy trò; ký âm (Hò, Xự, Xang…) chỉ ghi bộ khung |
 | **Tác phẩm** | Cố định; nghệ sĩ diễn giải nhưng không đổi nốt | Một **bài bản** là bộ khung (*lòng bản*); mỗi người chơi tô điểm, ứng tác theo cách riêng |

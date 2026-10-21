@@ -13,7 +13,7 @@ flowchart LR
 
 | Phần | Giọng | Điều cần nghe |
 |---|---|---|
-| **A** | La thứ | Giai điệu quen thuộc: Mi – Rê♯ – Mi – Rê♯… (xem [10 bài đầu tiên cho piano](../nhac-cu/piano.md)) |
+| **A** | La thứ | Giai điệu quen thuộc: Mi – Rê♯ – Mi – Rê♯… (xem [bài học Für Elise](../piano/tac-pham/fur-elise.md)) |
 | **B** | Fa trưởng, rồi Đô trưởng | Sáng hơn, trữ tình, rồi chuỗi nốt nhanh đi xuống |
 | **A** | La thứ | Giai điệu chính trở lại, nguyên vẹn |
 | **C** | Rê thứ, trên **âm nền La** ở bè trầm | Nốt La lặp lại dồn dập ở tay trái; căng thẳng, kịch tính nhất bài |

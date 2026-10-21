@@ -71,6 +71,9 @@ C D E G- | G4 |]
 
 Đừng nhầm với **dấu luyến** (slur), là đường cong nối các nốt **khác cao độ**, nghĩa là chơi liền mạch.
 
+!!! tip "Trên phím đàn"
+    Tiếng piano tắt dần sau khi đánh, nhưng nốt trắng hay nốt tròn vẫn phải **giữ phím** đủ số phách. Người mới hay nhấc tay sớm ở nốt dài; hãy đếm to khi tập [10 bài đầu tiên](../piano/10-bai-dau-tien.md).
+
 ## Bài tập
 
 1. Vỗ tay ví dụ đầu tiên, vừa vỗ vừa đếm to "1 – 2 – 3 – 4". Dùng [máy đếm nhịp](../luyen-tap/metronome.md) ở 60 BPM.

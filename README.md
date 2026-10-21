@@ -1,6 +1,6 @@
 # Opus Zero
 
-Sổ tay học đọc nhạc và nhạc cổ điển từ con số 0: nhạc lý, luyện tai, lịch sử, nghe nhạc và các công cụ luyện tập chạy ngay trong trình duyệt.
+Sổ tay học **piano cổ điển** từ con số 0 đến nâng cao: lộ trình, kỹ thuật, 10 bài hai tay đầu tiên, 26 bài học tác phẩm, hòa âm bên phím, cách tập; cùng nhạc lý, luyện tai, lịch sử, nghe nhạc và các công cụ luyện tập chạy ngay trong trình duyệt (kể cả với đàn MIDI).
 
 Website: https://mtuann.github.io/opus-zero/
 
@@ -31,7 +31,7 @@ npm test                   # chạy toàn bộ kiểm thử
 | `tests/a11y.mjs` | Khả năng tiếp cận (axe-core) trên 26 trang tiêu biểu |
 | `tests/site_static.py` | Kiểm tra tĩnh: khối mermaid có quy tắc tải, sách "Hướng dẫn nghe" khớp nav, VERSION của sw.js và loader.js khớp nhau |
 | `tests/search.mjs` | Tìm kiếm có dấu và không dấu ra đúng trang |
-| `tests/abc_bars.py` | Độ dài từng ô nhịp trong mọi khối ```abc và các đoạn nhạc tổng hợp |
+| `tests/abc_bars.py` | Độ dài từng ô nhịp trong mọi khối ```abc (hiểu cả nốt hoa mỹ `{…}`, bè chồng `&` và liên ba `(p:q:r`) và các đoạn nhạc tổng hợp |
 
 GitHub Actions chạy toàn bộ kiểm thử **trước mỗi lần deploy**: nếu có lỗi, site không bị cập nhật. Nhánh khác và pull request được kiểm thử bởi `.github/workflows/test.yml`.
 
@@ -45,15 +45,19 @@ Lần đầu cần vào **Settings → Pages → Build and deployment → Source
 ```
 docs/
 ├── index.md              Trang chủ (có tóm tắt tiến độ hôm nay)
-├── bat-dau/              Bài 0, kiểm tra đầu vào, 3 lộ trình, tóm tắt in được, hỏi đáp
+├── bat-dau/              Bài 0, kiểm tra đầu vào, lộ trình piano năm đầu, lộ trình nhạc lý và nghe, tóm tắt in được, hỏi đáp
+├── piano/                Trục chính: lộ trình 0 → nâng cao, bắt đầu bên phím đàn, 10 bài hai tay, 8 trang kỹ thuật,
+│   │                     5 trang tập luyện, tác phẩm theo cấp, lịch sử cây đàn, thể loại, nhà soạn nhạc, nghệ sĩ
+│   ├── hoa-am/           Hòa âm bên phím và ứng tác (5 trang)
+│   └── tac-pham/         26 bài học tác phẩm (Minuet K. 2 → Ballade số 1)
 ├── nhac-ly/              32 bài nhạc lý + âm học + 3 bài ôn tập (khuông nhạc nghe được, quiz) + từ điển
 ├── nhan-dien/            Nhận diện bằng tai: so sánh thời kỳ, thể loại, dấu vân tay, luyện nghe, nghe mù
 ├── luyen-tap/            16 công cụ luyện tập, phiếu bài tập và giấy kẻ khuông in được
 ├── luyen-tai/            Luyện tai
 ├── lich-su/              Lịch sử, dòng thời gian, nhà soạn nhạc (cả nữ), opera, Việt Nam, đương đại
 ├── hinh-thuc/            Tổng quan + 5 trang hình thức chi tiết (sonata, fugue, biến tấu, rondo, concerto)
-├── nhac-cu/              Piano, violin, guitar (lộ trình + 10 bài đầu), cách tập, mua đàn, dàn nhạc
-├── nghe-nhac/            32 hướng dẫn nghe (có ghi mốc theo bản thu YouTube), đọc tên tác phẩm, nghe gì tiếp
+├── nhac-cu/              Nhạc cụ trong dàn nhạc (phần nghe): dàn nhạc, violin, cello, guitar, sáo, clarinet, trumpet
+├── nghe-nhac/            44 hướng dẫn nghe, 18 về nhạc piano (có ghi mốc theo bản thu YouTube), đọc tên tác phẩm, nghe gì tiếp
 ├── blog/posts/           Nhật ký học (blog)
 ├── tai-nguyen.md         Tài nguyên
 ├── manifest.webmanifest  Cài như ứng dụng (PWA)
@@ -62,6 +66,9 @@ docs/
 overrides/main.html       Thêm manifest và màu chủ đề vào <head>
 hooks/search_vi.py        Tìm kiếm tiếng Việt không dấu
 hooks/books.py            Tạo các sách in được (site/sach/*.html); danh sách chương ở biến BOOKS
+hooks/a11y.py             Vá nhỏ về trợ năng cho HTML sinh từ Markdown (ô đánh dấu của danh sách việc)
+hooks/redirects.py        Trang chuyển hướng cho địa chỉ cũ đã đổi chỗ (biến REDIRECTS)
+hooks/meta.py             Mô tả ngắn cho từng trang; ảnh xem trước khi chia sẻ link nằm ở docs/assets/og.png
 tests/                    Kiểm thử tự động (npm test)
 tools/figures.py          Sinh hình minh họa (SVG, sơ đồ cấu trúc) và chèn vào trang giữa <!-- fig:TÊN -->
 tools/keysigs.mjs         Vẽ sẵn 15 hóa biểu bằng abcjs (chạy: node tools/keysigs.mjs)
@@ -78,7 +85,9 @@ tools/keysigs.mjs         Vẽ sẵn 15 hóa biểu bằng abcjs (chạy: node t
 | `plan.js` | Kế hoạch học tự thích ứng và bảng năng lực |
 | `progress.js` | Lưu tiến độ trong `localStorage` |
 | `theory.js` | Lõi nhạc lý: tên nốt, gam, hợp âm, hóa biểu |
-| `abc.js` | Vẽ khối ```abc thành khuông nhạc có nút phát |
+| `abc.js` | Vẽ khối ```abc thành khuông nhạc kèm trình phát luyện tập: tốc độ, lặp lại, nghe từng tay, gõ nhịp, chế độ giá nhạc |
+| `practice.js` | Danh sách việc đánh dấu được, bài đang tập, tự đánh giá chặng piano |
+| `sight2.js` | Thị tấu hai tay: sinh bài 4 ô trên khuông kép theo 4 cấp (`OZSight2.gen`), tự chấm |
 | `quiz.js` | Khối ```quiz và trạng thái "đã học" |
 | `note-reader.js`, `interval-trainer.js`, `chord-trainer.js`, `scale-trainer.js`, `circle.js`, `rhythm.js`, `sight-reading.js`, `build.js` | Công cụ luyện tập |
 | `placement.js` | Khối ```placement: bài kiểm tra đầu vào |
@@ -99,7 +108,7 @@ tools/keysigs.mjs         Vẽ sẵn 15 hóa biểu bằng abcjs (chạy: node t
 
 1. Tạo file `.md` trong thư mục phù hợp.
 2. Thêm vào mục `nav` trong `mkdocs.yml`.
-3. Muốn chèn khuông nhạc có nút phát, dùng khối mã `abc`:
+3. Muốn chèn khuông nhạc có nút phát, dùng khối mã `abc`. Bản nhạc hai tay dùng `%%score {RH LH}`, `V:RH clef=treble`, `V:LH clef=bass` và mỗi dòng nhạc bắt đầu bằng `[V:RH]` hoặc `[V:LH]`; số ngón viết `!1!`…`!5!`; bàn đạp viết `"_Ped."` và `"_*"` (abcjs không hiểu `!ped!`):
 
    ````markdown
    ```abc

@@ -1,7 +1,7 @@
 {
-  "name": "Opus Zero — học nhạc cổ điển từ con số 0",
+  "name": "Opus Zero — học piano cổ điển từ con số 0",
   "short_name": "Opus Zero",
-  "description": "Đọc nốt, luyện tai, nhạc lý, lịch sử và nhật ký luyện tập mỗi ngày.",
+  "description": "Học piano cổ điển: kỹ thuật, tác phẩm, đọc nốt, luyện tai, nhạc lý và nhật ký luyện tập mỗi ngày.",
   "lang": "vi",
   "start_url": "./",
   "scope": "./",

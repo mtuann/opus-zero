@@ -60,6 +60,9 @@
     if ((d.minutes || 0) >= 5) score += 1;
     if ((d.chords || 0) + (d.keysigs || 0) + (d.rhythms || 0) + (d.melodies || 0) + (d.builds || 0) + (d.scales || 0) + (d.styles || 0) >= 10) score += 1;
     if ((d.cards || 0) >= 10 || (d.quizzes || 0) >= 1) score += 1;
+    if ((d.piano || 0) >= 1) score += 2; /* đã ngồi vào đàn tập bài */
+    if ((d.checks || 0) >= 1) score += 1;
+    if ((d.readings || 0) >= 3) score += 1; /* thị tấu hai tay */
     if (score === 0) return 0;
     if (score <= 1) return 1;
     if (score <= 3) return 2;

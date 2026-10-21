@@ -6,7 +6,7 @@
 
 Beethoven giữ **khung ABA** của minuet (Scherzo – Trio – Scherzo da capo) và nhịp 3, nhưng thay đổi tính cách hoàn toàn:
 
-| | Minuet | Scherzo |
+| Đặc điểm | Minuet | Scherzo |
 |---|---|---|
 | Tốc độ | Vừa phải, bước nhảy | Rất nhanh — nghe như chỉ có **1 phách mỗi ô** |
 | Tính cách | Thanh lịch, cân đối | Hóm hỉnh, bất ngờ, đôi khi dữ dội |

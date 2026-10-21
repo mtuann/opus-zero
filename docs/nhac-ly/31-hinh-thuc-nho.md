@@ -13,7 +13,7 @@ Các [hình thức lớn](../hinh-thuc/index.md) như sonata, fugue, rondo đư�
 - **Phần A** bắt đầu ở giọng chính và thường **chuyển sang giọng át** (hoặc giọng trưởng song song nếu ở giọng thứ).
 - **Phần B** bắt đầu ở giọng mới, đi qua vài giọng khác, rồi **trở về giọng chính** để kết.
 
-Gần như mọi điệu nhảy trong **tổ khúc Baroque** (allemande, courante, sarabande, gigue) đều ở hình thức hai đoạn. Ví dụ dễ nghe: [Minuet cung Sol trưởng](../nhac-cu/piano.md) trong sổ tay Anna Magdalena Bach (Petzold), hay các điệu nhảy trong [Tổ khúc cello số 1](../nghe-nhac/bach-cello-1.md).
+Gần như mọi điệu nhảy trong **tổ khúc Baroque** (allemande, courante, sarabande, gigue) đều ở hình thức hai đoạn. Ví dụ dễ nghe: [Minuet cung Sol trưởng](../piano/tac-pham/minuet-sol.md) trong sổ tay Anna Magdalena Bach (Petzold), hay các điệu nhảy trong [Tổ khúc cello số 1](../nghe-nhac/bach-cello-1.md).
 
 ## Hai đoạn có tái hiện (rounded binary)
 

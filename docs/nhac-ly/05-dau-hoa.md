@@ -57,6 +57,9 @@ K:C
 
 Một phím đen có thể có **hai tên**. Phím giữa Đô và Rê vừa là **Đô♯** vừa là **Rê♭**. Hai tên này chỉ cùng một âm thanh trên piano, gọi là **đồng âm khác tên** (enharmonic). Dùng tên nào phụ thuộc vào giọng của bản nhạc; ta sẽ hiểu điều này ở bài gam.
 
+!!! tip "Trên phím đàn"
+    Trên bàn phím, mỗi phím đen có hai tên (Đô♯ cũng là Rê♭), và có hai cặp phím trắng không có phím đen ở giữa: **Mi–Fa** và **Si–Đô**, chính là hai nửa cung tự nhiên. Xem [Bản đồ bàn phím](../piano/ban-do-ban-phim.md).
+
 ## Bài tập
 
 1. Giữa Mi và Fa là cung hay nửa cung? Giữa Fa và Sol?

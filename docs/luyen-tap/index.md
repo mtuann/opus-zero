@@ -1,6 +1,6 @@
 # Luyện tập
 
-Các công cụ dưới đây chạy ngay trong trình duyệt, không cần cài đặt hay đăng nhập. Kết quả được lưu trong trình duyệt của bạn và tổng hợp ở [nhật ký luyện tập](nhat-ky.md).
+Các công cụ dưới đây chạy ngay trong trình duyệt, không cần cài đặt hay đăng nhập. Kết quả được lưu trong trình duyệt của bạn và tổng hợp ở [nhật ký luyện tập](nhat-ky.md). Có đàn piano điện? [Kết nối qua MIDI](ket-noi-midi.md) để dùng phím thật thay cho chuột. Bài tập kỹ thuật bên đàn (gam, hợp âm rải, bàn đạp…) nằm ở mục [Piano](../piano/index.md).
 
 <div class="oz-sound-setting"></div>
 
@@ -21,6 +21,9 @@ Các công cụ dưới đây chạy ngay trong trình duyệt, không cần cà
 
 [Đọc thị tấu](thi-tau.md)
 :   Giai điệu ngẫu nhiên 4 ô nhịp để hát hoặc đàn, rồi nghe đáp án.
+
+[Thị tấu hai tay](thi-tau-hai-tay.md)
+:   Bài 4 ô nhịp cho hai tay trên khuông kép, theo bốn cấp; chơi trên đàn của bạn rồi tự chấm.
 
 [Chép giai điệu](chep-giai-dieu.md)
 :   Nghe một câu nhạc ngắn và nhập lại từng nốt bằng bàn phím màn hình hoặc đàn MIDI.

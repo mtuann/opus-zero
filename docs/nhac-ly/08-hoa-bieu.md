@@ -76,6 +76,9 @@ Vòng quãng năm còn cho biết **giọng nào "gần" nhau**: hai giọng c�
 !!! example "Luyện tập kèm theo"
     [Hóa biểu](../luyen-tap/hoa-bieu.md) và [phiếu bài tập](../luyen-tap/phieu-bai-tap.md) "Đọc hóa biểu".
 
+!!! tip "Trên phím đàn"
+    Mỗi giọng có một "địa hình" phím đen riêng. Chơi thế năm ngón trưởng ở cả 12 giọng ([Vị trí năm ngón](../piano/nam-ngon.md)), rồi tập gam đi dần quanh vòng quãng năm, là cách nhanh nhất để tay nhớ hóa biểu.
+
 ```quiz
 ? Thứ tự dấu thăng bắt đầu bằng nốt nào?
 + Fa

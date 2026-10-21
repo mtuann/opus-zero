@@ -2,6 +2,9 @@
 
 Clarinet là nhạc cụ **đa tính cách** nhất bộ kèn gỗ: âm vực trầm (chalumeau) dày và bí ẩn, âm vực giữa (clarion) sáng và hát, âm vực cao (altissimo) sắc và chói. Một cây kèn mà như ba nhạc cụ trong một.
 
+!!! note "Trang này thuộc phần nghe"
+    Opus Zero tập trung vào piano; trang này giúp bạn **nghe hiểu** nhạc cụ này khi nó xuất hiện trong dàn nhạc, nhạc thính phòng hay concerto. Phần học chơi bên dưới (lộ trình, 10 bài đầu tiên) chỉ để tham khảo. Xem [Nhạc cụ trong dàn nhạc](index.md).
+
 ## Âm thanh và cấu tạo
 
 Clarinet dùng **dăm đơn** (single reed): một miếng dăm mỏng rung khi hơi thổi qua. Người chơi điều khiển cao độ bằng hệ thống khóa và lỗ bấm, chia ba âm vực:

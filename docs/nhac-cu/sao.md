@@ -2,6 +2,9 @@
 
 Sáo hiện đại có âm thanh **tròn và trong** bậc nhất dàn nhạc — gần như không có bồi âm mạnh (xem [Âm học](../nhac-ly/am-hoc.md)). Tiếng sáo vừa có thể thủ thỉ như gió, vừa có thể sắc lạnh xuyên qua cả dàn nhạc ở âm vực cao.
 
+!!! note "Trang này thuộc phần nghe"
+    Opus Zero tập trung vào piano; trang này giúp bạn **nghe hiểu** nhạc cụ này khi nó xuất hiện trong dàn nhạc, nhạc thính phòng hay concerto. Phần học chơi bên dưới (lộ trình, 10 bài đầu tiên) chỉ để tham khảo. Xem [Nhạc cụ trong dàn nhạc](index.md).
+
 ## Âm thanh và cấu tạo
 
 Sáo hiện đại làm bằng kim loại (có cây bằng gỗ, bạc, thậm chí vàng), với hệ thống khóa do Theobald Boehm hoàn thiện giữa thế kỷ 19. Âm thanh tạo ra khi người chơi thổi luồng hơi **qua lỗ thổi** (không ngậm như kèn clarinet) — vì vậy sáo tốn hơi hơn nhiều so với vẻ ngoài thanh mảnh.

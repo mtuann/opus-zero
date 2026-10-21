@@ -26,6 +26,11 @@ function gen() {
   for (let i = 0; i < rnd() * 4; i++) store.blindLog.push({ d: date(), t: pick(["Bach", "Mozart", "Chopin"]), gp: pick(["baroque", "classical"]), ge: "solo", gc: "", ap: "baroque" });
   if (rnd() < .5) store.listen["/opus-zero/nghe-nhac/ravel-bolero/"] = { url: rnd() < .5 ? "https://youtu.be/abcdefghijk" : "", marks: { 0: 5, 2: Math.floor(rnd() * 99) } };
   if (rnd() < .3) store.placement = { done: true };
+  store.checks = {};
+  for (const pg of ["piano/lo-trinh/", "bat-dau/lo-trinh-choi/"]) if (rnd() < .6) { store.checks[pg] = {}; for (const it of ["a1", "b2", "c3"]) if (rnd() < .5) store.checks[pg][it] = date(); }
+  store.repertoire = {};
+  for (const pc of ["piano/tac-pham/fur-elise/", "piano/tac-pham/minuet-sol/"]) if (rnd() < .6) store.repertoire[pc] = { name: pc, status: pick(["learning", "done", "removed"]), since: date(), last: date(), n: Math.floor(rnd() * 9), updated: date() + "T0" + Math.floor(rnd() * 10) + ":00:00Z" };
+  if (rnd() < .5) store.pianoLevel = { stage: 1 + Math.floor(rnd() * 7), date: date(), updated: date() + "T12:00:00Z" };
   store.skillHist = {};
   for (const sk of ["notes", "rhythm"]) if (rnd() < .7) { store.skillHist[sk] = {}; for (let i = 0; i < 1 + rnd() * 5; i++) { const n = Math.floor(rnd() * 20); store.skillHist[sk][date()] = [n, Math.floor(rnd() * (n + 1))]; } }
   return { days, store };

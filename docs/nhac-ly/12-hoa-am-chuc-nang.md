@@ -72,6 +72,9 @@ K:Am
 
 Khi chuyển hợp âm, mỗi bè (giọng) nên đi **gần nhất có thể**: giữ nguyên nốt chung, các nốt khác đi bước liền. Đây là nguyên tắc **dẫn bè** (voice leading), giúp hòa âm nghe mượt mà. Hãy để ý trong các ví dụ trên: bè trên cùng hầu như chỉ đi bước nhỏ.
 
+!!! tip "Trên phím đàn"
+    Chơi chuỗi **I – IV – I – V7 – I** bằng hai tay (tay trái nốt gốc, tay phải ba nốt) ở vài giọng quen. Đó là "vốn từ" hòa âm của phần lớn các bài bạn sẽ tập: xem [Hợp âm, hợp âm rải và hình đệm](../piano/hop-am-rai.md).
+
 ## Bài tập
 
 1. Xếp các hợp âm sau vào ba chức năng (trong Sol trưởng): G, Am, C, D7, Em.

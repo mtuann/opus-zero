@@ -1,0 +1,242 @@
+# Chopin: Valse La thứ, B. 150
+
+Một bản valse ngắn, buồn và giản dị, không có số opus, chỉ được in sau khi Chopin mất. Với nhiều người, đây là bản nhạc Chopin đầu tiên: nó dạy tay trái valse, giai điệu hát, bàn đạp mỗi ô nhịp và những bước đầu của rubato.
+
+<div class="oz-piece" markdown>
+<span class="oz-chip">La thứ · 3/4</span> <span class="oz-chip">Allegretto</span> <span class="oz-chip oz-chip--level">≈ Grade 3–4</span> <span class="oz-chip">Rondo nhỏ</span>
+</div>
+
+??? info oz-piece-info "Thông tin tác phẩm và bản nhạc nên dùng"
+
+    | Mục | Thông tin |
+    |---|---|
+    | Nhà soạn nhạc | Frédéric Chopin (1810–1849) |
+    | Tác phẩm | Valse La thứ, không số opus: B. 150 (danh mục Brown), KK IVb/11 (danh mục Kobylańska), WN 63 (Ấn bản Quốc gia Ba Lan) |
+    | Sáng tác / xuất bản | Niên đại chưa thống nhất: Ấn bản Quốc gia Ba Lan xếp vào 1847–1849, Maurice Brown ghi 1843, có học giả cho là sớm hơn nhiều (1832–1833). In sau khi Chopin mất; được biết đến rộng rãi và công nhận là của Chopin sau khi tạp chí *La Revue musicale* (Paris) in năm 1955 |
+    | Giọng · nhịp · tốc độ | La thứ (đoạn C ở La trưởng) · 3/4 · *Allegretto* |
+    | Hình thức | Rondo nhỏ: A – B – A' – C – A'' và coda ngắn |
+    | Độ khó | Khoảng ABRSM Grade 3–4 (ước lượng); một trong những valse dễ nhất của Chopin |
+    | Kỹ năng chính | Tay trái valse (trầm – hợp âm – hợp âm), giai điệu hát, nốt hoa mỹ nhỏ, bàn đạp mỗi ô, rubato đơn giản |
+    | Bản nhạc | [IMSLP](https://imslp.org/) (thử tìm "Waltz in A minor, B.150"); bản Urtext: Ấn bản Quốc gia Ba Lan (*Wydanie Narodowe*, biên tập Jan Ekier) |
+
+## Vì sao nên học bài này
+
+- **Cửa vào Chopin.** Phong cách của Chopin (giai điệu hát, tay trái nhảy, bàn đạp, rubato) có đủ ở đây, nhưng ở mức độ vừa sức người mới qua chặng sơ cấp.
+- **Tay trái valse.** Nốt trầm ở phách 1, hai hợp âm nhẹ ở phách 2 và 3. Hình đệm này lặp lại trong hàng trăm tác phẩm Lãng mạn; học nó kỹ một lần, bạn dùng mãi.
+- **Hát trên đàn.** Giai điệu đơn giản, có vài nốt hoa mỹ nhỏ: chuẩn bị tốt cho [Nocturne Op. 9 số 2](chopin-nocturne-op9-2.md) về sau.
+- **Bàn đạp mỗi ô.** Bài tập tự nhiên cho kỹ thuật **đạp trễ**: nhấn sau nốt trầm, đổi đúng lúc, nghe xem có nhòe không.
+- **Thứ và trưởng.** Đoạn giữa chuyển sang La trưởng: một bài học về màu sắc, khi cùng một nốt chủ âm mà không khí đổi hẳn.
+
+## Bối cảnh
+
+**Valse** (waltz) là điệu nhảy nhịp 3 đến từ vùng nói tiếng Đức, phổ biến khắp châu Âu đầu thế kỷ 19, và là món không thể thiếu của các phòng khách (salon) ở Paris, nơi Chopin sống từ năm 1831. Valse của Chopin là nhạc để nghe hơn là để nhảy: ông giữ nhịp 3 và tay trái kiểu valse, nhưng thêm vào đó nỗi buồn, sự tinh tế và những khoảnh khắc ngẫu hứng.
+
+Lúc còn sống, Chopin chỉ cho in tám bản valse (Op. 18, ba bản Op. 34, Op. 42 và ba bản Op. 64). Sau khi ông mất, người bạn Julian Fontana in thêm các bản Op. 69 và Op. 70 (1855); những bản không có số opus, trong đó có bài này, xuất hiện muộn hơn nữa. Năm 1939, nhà nghiên cứu Jacques-Gabriel Prod'homme giới thiệu bản valse La thứ này trên tạp chí *The Musical Quarterly*; năm 1955, nó được in trong một số đặc biệt của tạp chí *La Revue musicale* và được công nhận là của Chopin.
+
+Các ký hiệu B., KK, WN là số trong các danh mục tác phẩm của Chopin do Maurice Brown, Krystyna Kobylańska và Ấn bản Quốc gia Ba Lan lập ra. Vì bài không có số opus, bạn sẽ thấy nó được gọi bằng một trong các số này, hoặc đơn giản là "Valse La thứ (di cảo)". Xem [Đọc tên tác phẩm](../../nghe-nhac/doc-ten-tac-pham.md).
+
+!!! warning "Đừng nhầm"
+    Chopin còn có **Valse La thứ Op. 34 số 2**: một bản *Lento* dài hơn và khó hơn nhiều. Năm 2024 còn có một bản valse La thứ rất ngắn được công bố từ một bản thảo tìm thấy ở Thư viện và Bảo tàng Morgan (New York). Bài trên trang này là bản B. 150.
+
+## Nghe trước khi tập
+
+Các album valse kinh điển thường gồm 14 bản quen thuộc, và bản này không nằm trong số đó, nên bạn có thể phải tìm nó trong các bộ thu âm "toàn tập Chopin". Nghe ít nhất hai nghệ sĩ khác nhau, mỗi lần một câu hỏi:
+
+1. **Tay trái.** Nốt trầm có rõ không? Hai hợp âm có nhẹ hơn nốt trầm không, hay nghe như "um-pa-pa" ồn ào?
+2. **Nốt hoa mỹ.** Những nốt nhỏ trong giai điệu vào nhẹ nhàng như một hơi luyến, hay rõ như một nốt chính?
+3. **Đoạn La trưởng.** Không khí đổi thế nào? Nghệ sĩ có đổi tốc độ, đổi tiếng đàn không?
+4. **Rubato.** Nghệ sĩ nán lại ở đâu? Tay trái có giữ được nhịp valse không?
+
+Rồi nghe Valse Si thứ Op. 69 số 2, bản bạn sẽ học tiếp, qua bản thu của Dinu Lipatti và Arthur Rubinstein. Nhiều người thấy Lipatti thanh thoát và chặt chẽ hơn, Rubinstein ung dung như đang trò chuyện: hãy tự nghe và quyết định. Muốn hiểu lối hát của Chopin, đọc [hướng dẫn nghe Nocturne Op. 9 số 2](../../nghe-nhac/chopin-nocturne.md).
+
+<div class="oz-listen"></div>
+
+## Theo dõi khi nghe
+
+Dán link một bản thu vào khung phía trên, rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
+
+| Thời điểm | Sự kiện |
+|---|---|
+| … | **Đoạn A** (La thứ, 16 ô): giai điệu buồn, đơn giản, có nốt hoa mỹ nhỏ, trên tay trái valse; bốn câu 4 ô, mỗi câu hơi khác câu trước |
+| … | **Đoạn B** (8 ô): sôi nổi hơn, nổi bật với một hợp âm rải đi lên nhanh |
+| … | **Đoạn B nhắc lại**: hợp âm rải đi lên vang lần nữa; nghệ sĩ có nán lại ở nốt đích không? |
+| … | **Đoạn A'**: chủ đề trở lại; nghệ sĩ có chơi khác lần đầu không, nhỏ hơn hay thân mật hơn? |
+| … | **Đoạn C** (La trưởng, 16 ô): giai điệu tươi sáng ở vị trí của phần trio; Đô♯ và Fa♯ đổi hẳn không khí |
+| … | **Đoạn C nhắc lại**: tiếng đàn sáng hơn đoạn A, hay chỉ to hơn? |
+| … | **Đoạn A''**: chủ đề lần cuối, chỉ ba câu đầu |
+| … | **Coda**: ngắn, khép lại lặng lẽ, nhỏ dần đến lặng |
+
+## Cấu trúc
+
+<!-- fig:p-valse-la-thu -->
+<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:16 1 4.6rem"><b>A</b><small>La thứ · 16 ô</small></div><div class="oz-seg k-b" style="flex:8 1 4.6rem"><b>B</b><small>8 ô · nhắc lại</small></div><div class="oz-seg k-a" style="flex:16 1 4.6rem"><b>A&#x27;</b><small>La thứ</small></div><div class="oz-seg k-c" style="flex:16 1 4.6rem"><b>C</b><small>La trưởng · 16 ô · nhắc lại</small></div><div class="oz-seg k-a" style="flex:12 1 4.6rem"><b>A&#x27;&#x27;</b><small>ba câu đầu</small></div><div class="oz-seg k-coda" style="flex:4 1 4.6rem"><b>Coda</b></div></div><figcaption>Valse La thứ, B. 150: rondo nhỏ (độ rộng gần đúng theo số ô nhịp, chưa kể nhắc lại).</figcaption></figure>
+<!-- /fig:p-valse-la-thu -->
+
+Cách chia dưới đây theo một phân tích phổ biến; độ dài các đoạn tính theo ô nhịp đã viết, chưa kể nhắc lại.
+
+| Đoạn | Giọng | Độ dài | Nội dung | Điều cần chú ý |
+|---|---|---|---|---|
+| A | La thứ | 16 ô: bốn câu 4 ô | Giai điệu buồn, đơn giản, có nốt hoa mỹ nhỏ; mỗi câu hơi khác câu trước | Hát; tay trái nhẹ; mỗi câu một hơi |
+| B | – | 8 ô, nhắc lại | Sôi nổi hơn, nổi bật với một hợp âm rải đi lên nhanh | Rải nhẹ, "tung" lên nốt đích, không vội (bài tập 3) |
+| A' | La thứ | | Chủ đề trở lại | Đừng chơi y hệt lần đầu: nhỏ hơn, hoặc thân mật hơn |
+| C | La trưởng | 16 ô, nhắc lại | Giai điệu tươi sáng, đứng ở vị trí của phần trio trong một bản valse thường | Đô♯ và Fa♯ thay cho Đô và Fa; tiếng sáng hơn nhưng không to hơn |
+| A'' và coda | La thứ | Ba câu đầu của chủ đề, rồi coda ngắn | Chủ đề lần cuối, khép lại lặng lẽ | Không chậm dần quá sớm; nốt cuối nhẹ |
+
+Hình thức chủ đề quay lại xen kẽ với các đoạn khác là hình thức [rondo](../../hinh-thuc/rondo.md). Ở đây nó nhỏ gọn, nhưng nguyên tắc vẫn thế: mỗi lần chủ đề trở lại, bạn kể lại cùng một chuyện bằng một giọng hơi khác.
+
+## Chỗ khó và cách tập
+
+| Chỗ khó | Vì sao khó | Cách tập |
+|---|---|---|
+| Bước nhảy tay trái | Từ nốt trầm lên hợp âm chỉ có một phách; nốt trầm cần sâu, hợp âm cần nhẹ | Tập "nhảy rồi dừng": đánh nốt trầm, nhảy ngay lên hợp âm và đặt sẵn tay, chưa đánh; rồi mới đánh đúng nhịp. Mắt nhìn đích. Bài tập 1 |
+| Cân bằng hai tay | Hai hợp âm (sáu nốt) dễ át một nốt giai điệu | Tay trái riêng: nốt trầm *mp*, hợp âm *pp*. Ghép tay: tay phải hát, tay trái "thì thầm". Bài tập 2 |
+| Nốt hoa mỹ nhỏ | Dễ to, dễ làm trễ nốt chính | Tập giai điệu không có nốt hoa mỹ trước; thêm vào sau, thật nhẹ, sát nốt chính. Xem [Nốt hoa mỹ](../not-hoa-my.md) |
+| Hợp âm rải đi lên (đoạn B) | Ngón cái phải luồn nhanh; dễ vội và đánh mạnh nốt đích | Bài tập 3; tập chậm, luồn ngón cái sớm; nốt đích nhẹ hơn bạn nghĩ |
+| Bàn đạp mỗi ô | Đổi muộn làm nhòe hai hòa âm; đổi sớm làm mất nốt trầm; giai điệu đi bậc trong một ô dễ bị nhòe | Đạp trễ: nhấn bàn đạp ngay *sau* khi đánh nốt trầm. Ô nào giai điệu đi bậc, đạp nông hơn. Luôn nghe nốt trầm. Xem [Bàn đạp](../ban-dap.md) |
+| Đoạn La trưởng | Đổi màu đột ngột; đọc thêm Đô♯, Fa♯ | Khoanh các dấu hóa; tập riêng đoạn C như một bài nhỏ; nghĩ đến một tiếng đàn "sáng" hơn chứ không "to" hơn |
+| Rubato | Co giãn quá tay làm mất nhịp valse; hoặc chơi cứng như máy | Tập với máy đếm nhịp trước; rồi chỉ cho phép nán ở một hoặc hai chỗ mỗi câu, và trả lại thời gian ngay sau đó |
+
+## Bài tập chuẩn bị
+
+Các bài dưới đây **soạn riêng cho trang này**, không trích từ bản nhạc gốc. Bài 1 và bài 2 dùng chung một tiến trình hòa âm, nên bạn có thể tập tay trái ở bài 1 rồi thêm tay phải ở bài 2.
+
+### 1. Tay trái valse
+
+Mỗi chữ *Ped.* là một lần đổi bàn đạp, ngay sau nốt trầm. Hợp âm dùng ngón 4-2-1 hoặc 5-3-1.
+
+```abc
+X:1
+T:Tay trái valse (soạn cho trang này)
+M:3/4
+L:1/4
+Q:1/4=96
+K:Am clef=bass
+!p!"_Ped."!5!A,, [E,A,C] [E,A,C] | "_Ped."!5!E,, [D,^G,B,] [D,^G,B,] | "_Ped."E,, [D,^G,B,] [D,^G,B,] | "_Ped."A,, [E,A,C] [E,A,C] |
+"_Ped."!5!D,, [F,A,D] [F,A,D] | "_Ped."A,, [E,A,C] [E,A,C] | "_Ped."E,, [D,^G,B,] [D,^G,B,] | "_Ped."A,, [E,A,C] "_*"z |]
+```
+
+Nốt trầm sâu và được bàn đạp giữ lại; hai hợp âm nhẹ, phách 3 nhẹ nhất. Nhảy sớm, đánh đúng lúc. Tập cả khi nhắm mắt, chỉ dựa vào cảm giác khoảng cách.
+
+### 2. Giai điệu hát trên tay trái valse
+
+```abc
+X:2
+T:Giai điệu trên tay trái valse (soạn cho trang này)
+M:3/4
+L:1/8
+Q:1/4=100
+%%score {RH LH}
+V:RH clef=treble
+V:LH clef=bass
+K:Am
+[V:RH] !p!!5!e4 !4!d!3!c | {/c}!2!B4 !1!^G2 | !2!B3 !3!c !4!d2 | !1!A6 | !5!f4 ed | {/d}!2!c4 !4!e2 | !3!d3 !2!c !1!B2 | !1!A4 z2 |]
+[V:LH] "_Ped."!5!A,,2 [E,A,C]2 [E,A,C]2 | "_Ped."!5!E,,2 [D,^G,B,]2 [D,^G,B,]2 | "_Ped."E,,2 [D,^G,B,]2 [D,^G,B,]2 | "_Ped."A,,2 [E,A,C]2 [E,A,C]2 | "_Ped."!5!D,,2 [F,A,D]2 [F,A,D]2 | "_Ped."A,,2 [E,A,C]2 [E,A,C]2 | "_Ped."E,,2 [D,^G,B,]2 [D,^G,B,]2 | "_Ped."A,,2 [E,A,C]2 "_*"z2 |]
+```
+
+Hai nốt hoa mỹ nhỏ (ô 2 và ô 6) vào đúng phách, cùng lúc với nốt trầm, và trượt ngay vào nốt chính. Nốt Mi đầu bài và nốt Fa ở ô 5 là những nốt dài: nghe chúng tắt dần, rồi cho nốt sau vào nhỏ hơn một chút.
+
+### 3. Hợp âm rải đi lên
+
+```abc
+X:3
+T:Hợp âm rải đi lên (soạn cho trang này)
+M:3/4
+L:1/16
+Q:1/4=80
+%%score {RH LH}
+V:RH clef=treble
+V:LH clef=bass
+K:Am
+[V:RH] !mp!!1!E!2!A!3!c!1!e !4!a4 z4 | !1!E!2!^G!3!B!1!e !3!^g4 z4 | !1!E!2!A!3!c!1!e !4!a4 z4 | !4!a8 z4 |]
+[V:LH] "_Ped."!5!A,,4 [E,A,C]4 [E,A,C]4 | "_Ped."!5!E,,4 [D,^G,B,]4 [D,^G,B,]4 | "_Ped."A,,4 [E,A,C]4 [E,A,C]4 | "_Ped."A,,4 [E,A,C]4 "_*"z4 |]
+```
+
+Ngón cái luồn dưới ngón 3 ngay khi ngón 3 vừa đánh. Bốn nốt rải nhẹ như một hơi thở lấy đà, nốt đích không đánh mạnh. Khi đã chắc, thử chút rubato: rải hơi nhanh, nán nhẹ ở nốt đích, rồi trả lại thời gian ở phách sau trong khi tay trái vẫn đều.
+
+## Kế hoạch tập
+
+Kế hoạch 5 tuần, khoảng 30–45 phút mỗi ngày.
+
+| Tuần | Việc chính | Máy đếm nhịp |
+|---|---|---|
+| 1 | Nghe 2–3 bản thu; đánh dấu các đoạn lên bản nhạc. Bài tập 1. Đoạn A tay trái riêng, rồi tay phải riêng | ♩ = 80–92 |
+| 2 | Đoạn A hai tay, chưa bàn đạp; bài tập 2. Đoạn B từng tay; bài tập 3 | ♩ = 92–104 |
+| 3 | Đoạn B hai tay; thêm bàn đạp cho A và B. Đoạn C từng tay | ♩ = 100–112 |
+| 4 | Đoạn C hai tay; ghép A', A'' và coda; mỗi lần chủ đề trở lại một màu khác | ♩ = 108–120 |
+| 5 | Cả bài liền; rubato có kiểm soát; [thu âm](../../luyen-tap/thu-am.md), nghe xem bàn đạp có nhòe không | ♩ ≈ 120–138 |
+
+<div class="oz-metronome"></div>
+
+## Diễn tấu
+
+### Tốc độ và nhịp valse
+
+*Allegretto* là "hơi nhanh", không phải chậm. Khi đã thuộc bài, cảm **một nhịp lớn mỗi ô**: phách 1 là bước chân, phách 2 và 3 là đà lướt theo. Chơi quá chậm, bản valse thành một bài than thở nặng nề.
+
+### Rubato
+
+Các học trò của Chopin kể rằng khi ông co giãn giai điệu, tay đệm vẫn giữ nhịp (xem trang [Nocturne Op. 9 số 2](chopin-nocturne-op9-2.md)). Với bài này, rubato chỉ cần đơn giản: nán một chút ở nốt cao nhất của câu hoặc ở một bước nhảy đẹp, rồi trả lại thời gian ngay sau đó; chậm lại nhẹ ở cuối câu thứ tư của mỗi đoạn A. Không co giãn ở mọi ô.
+
+### Bàn đạp
+
+Một lần đạp cho mỗi ô là điểm xuất phát: nhấn ngay sau nốt trầm, nhả và nhấn lại ở nốt trầm của ô sau. Ba bẫy cần tránh:
+
+- **Giai điệu đi bậc trong một ô** (ví dụ ba nốt liền nhau): bàn đạp sâu sẽ trộn chúng thành một vệt. Đạp nông hơn, hoặc đổi thêm.
+- **Hòa âm đổi giữa ô**: đổi bàn đạp theo hòa âm, không theo vạch nhịp.
+- **Nốt hoặc hợp âm ngắn** mà bản nhạc muốn tách: bàn đạp sẽ xóa sự ngắn ấy. Nhấc chân sớm hơn ở những chỗ đó.
+
+Luôn để tai quyết định: nếu nghe nhòe, đổi sớm hơn hoặc nông hơn.
+
+### Nốt hoa mỹ và sắc thái
+
+Nhiều chuyên gia về Chopin, trong đó có Jean-Jacques Eigeldinger, cho rằng các nốt hoa mỹ nhỏ trong nhạc Chopin thường vào đúng phách, cùng lúc với nốt trầm, chứ không chen vào trước phách. Hãy chơi chúng nhẹ và gọn. Phần lớn bài nằm trong vùng *p* đến *mf*; đoạn La trưởng sáng hơn nhưng không cần to hơn; kết bài nhỏ dần đến lặng.
+
+## Lỗi thường gặp
+
+- Tay trái nặng ở phách 2 và 3: "um-PA-PA" thay vì "UM-pa-pa".
+- Nốt trầm ngắn vì không có bàn đạp hoặc ngón 5 nhấc quá sớm: mất nền của cả ô.
+- Bàn đạp giữ qua chỗ đổi hòa âm, hoặc nhấn cùng lúc với nốt trầm khiến tiếng bị đứt.
+- Tay trái nhảy trễ, mỗi ô dài ra một chút.
+- Rubato ở mọi nốt đẹp, mất hẳn nhịp valse.
+- Chơi quá chậm và quá nặng.
+- Đoạn La trưởng chơi y như đoạn La thứ, không đổi màu.
+
+## Học tiếp
+
+- **Valse Si thứ Op. 69 số 2:** cũng in sau khi Chopin mất, dài hơn và giàu cảm xúc hơn; bước tiếp tự nhiên.
+- **[Prélude Mi thứ Op. 28 số 4](chopin-prelude-mi-thu.md):** giai điệu dài trên lớp hợp âm đổi chậm, một bài học khác về tiếng đàn và bàn đạp.
+- **Về sau:** [Nocturne Op. 9 số 2](chopin-nocturne-op9-2.md), cùng kỹ năng hát và tay trái nhảy, nhưng có trang trí dày hơn.
+- **Cùng chặng trên site:** [Clementi: Sonatina Op. 36 số 1](clementi-sonatina.md), [Burgmüller: Arabesque](burgmuller-arabesque.md). Danh sách theo cấp: [Tác phẩm theo cấp độ](../tac-pham-theo-cap.md).
+
+## Kiểm tra nhanh
+
+```quiz
+? Valse La thứ B. 150 có hình thức gì?
++ Rondo nhỏ: A – B – A' – C – A'' và coda
+- Hình thức sonata
+- Chủ đề và biến tấu
+> Chủ đề quay lại xen kẽ với các đoạn khác; đoạn C ở La trưởng đứng ở vị trí của phần trio trong một bản valse thường.
+? Đạp trễ trong bài này nghĩa là gì?
+- Nhấn bàn đạp trước khi đánh nốt trầm
++ Nhấn bàn đạp ngay sau khi đánh nốt trầm, rồi đổi ở nốt trầm của ô sau
+- Giữ một lần đạp suốt mỗi câu 4 ô
+> Đổi muộn làm nhòe hai hòa âm, đổi sớm làm mất nốt trầm. Ô nào giai điệu đi bậc thì đạp nông hơn.
+? B. 150 là số gì?
+- Số opus Chopin đặt khi in bài
+- Số trang trong Ấn bản Quốc gia Ba Lan
++ Số trong danh mục tác phẩm Chopin của Maurice Brown
+> Bài không có số opus nên được gọi bằng số danh mục: B. (Brown), KK (Kobylańska) hoặc WN (Ấn bản Quốc gia Ba Lan).
+? Nên tập bước nhảy tay trái thế nào?
++ Nhảy rồi dừng: đánh nốt trầm, nhảy ngay lên hợp âm và đặt sẵn tay, rồi mới đánh đúng nhịp
+- Đánh hợp âm thật mạnh để chắc trúng phím
+- Chậm lại ở phách 2 cho kịp nhảy
+> Mắt nhìn đích. Nốt trầm sâu, hai hợp âm nhẹ, phách 3 nhẹ nhất; tay trái nhảy trễ làm mỗi ô dài ra một chút.
+```
+
+## Nguồn
+
+- "Waltz in A minor, Op. posth. (Chopin)", [Wikipedia](https://en.wikipedia.org/wiki/Waltz_in_A_minor,_Op._posth._%28Chopin%29) (các số danh mục, niên đại, lịch sử in ấn, cấu trúc).
+- Maurice J. E. Brown, *Chopin: An Index of His Works in Chronological Order*, Macmillan, 1960 (số B.).
+- Krystyna Kobylańska, *Frédéric Chopin: Thematisch-bibliographisches Werkverzeichnis*, G. Henle Verlag, 1979 (số KK).
+- Jean-Jacques Eigeldinger, *Chopin: Pianist and Teacher as Seen by His Pupils*, Cambridge University Press, 1986.
+- Chopin, Ấn bản Quốc gia Ba Lan (*Wydanie Narodowe*), biên tập Jan Ekier. Bản nhạc: [IMSLP](https://imslp.org/). Xem thêm [tài liệu tham khảo](../../tai-lieu-tham-khao.md).

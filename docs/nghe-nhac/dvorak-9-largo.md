@@ -49,4 +49,4 @@ Giai điệu chính của chương 2 dùng **gam ngũ cung** (xem [bài 16](../n
 ## Nguồn
 
 - Tổng phổ: [IMSLP](https://imslp.org/) (tìm "Dvořák Op.95").
-- Giai điệu rút gọn để tập chơi: [10 bài đầu tiên cho piano](../nhac-cu/piano.md), bài 6.
+- Chủ đề này soạn cho hai tay, có bàn đạp, để tập chơi: [10 bài đầu tiên](../piano/10-bai-dau-tien.md), bài 8.

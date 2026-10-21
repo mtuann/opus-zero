@@ -62,6 +62,9 @@ Mỗi nốt trong gam là một **bậc**, đánh số La Mã từ I đến VII.
 
 Thử hát Đô – Rê – Mi – Fa – Sol – La – Si rồi **dừng lại**. Bạn sẽ cảm thấy rất muốn hát tiếp lên Đô. Đó là sức kéo của cảm âm.
 
+!!! tip "Trên phím đàn"
+    Ngón bấm gam Đô trưởng một quãng tám: tay phải **1-2-3-1-2-3-4-5**, tay trái **5-4-3-2-1-3-2-1**; ngón cái luồn dưới để nối liền. Bảng ngón bấm cho cả 12 gam và cách tập: [Gam và ngón bấm](../piano/gam.md).
+
 ## Bài tập
 
 1. Viết gam **Rê trưởng** bằng công thức. Có mấy dấu thăng, là những nốt nào?

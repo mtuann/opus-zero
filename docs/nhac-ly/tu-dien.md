@@ -101,6 +101,30 @@ Mỗi ngày site đưa ra tối đa 10 thẻ mới và các thẻ đến hạn �
 | tacet | Im lặng (bè này không chơi) | |
 | attacca | Chuyển sang chương sau không ngắt nghỉ | Beethoven 5, chương 3 sang 4 |
 
+## Piano
+
+| Thuật ngữ | Nghĩa | Ghi chú |
+|---|---|---|
+| Ped. | Nhấn bàn đạp vang | Dấu \* là nhả. Xem [Bàn đạp](../piano/ban-dap.md) |
+| con pedale | Dùng bàn đạp | Thường để người chơi tự quyết định chỗ đổi |
+| senza pedale | Không dùng bàn đạp | |
+| una corda | Dùng bàn đạp trái (làm tiếng nhỏ và mờ hơn) | Nghĩa đen: "một dây" |
+| tre corde | Nhả bàn đạp trái | Nghĩa đen: "ba dây"; viết tắt t.c. |
+| sostenuto (bàn đạp) | Bàn đạp giữa: chỉ giữ các nốt đang được nhấn | Khác *sostenuto* nghĩa là "ngân giữ" |
+| m.d. / m.s. | Tay phải / tay trái | Tiếng Ý *mano destra* / *mano sinistra*; tiếng Pháp m.d. / m.g.; tiếng Anh r.h. / l.h. |
+| loco | Trở lại quãng tám như viết | Sau một đoạn *8va* |
+| leggiero | Nhẹ nhàng, thanh thoát | Hay gặp ở các đoạn chạy nhanh |
+| non legato | Không liền, hơi tách | Cách chơi thường dùng cho nhạc Baroque trên piano |
+| arpeggiando | Rải hợp âm | Ký hiệu đường lượn sóng dọc trước hợp âm |
+| mordent | Láy: chính – dưới – chính (có gạch) | Không gạch là láy trên. Xem [Nốt hoa mỹ](../piano/not-hoa-my.md) |
+| turn | Láy quanh: trên – chính – dưới – chính | Ký hiệu chữ S nằm ngang |
+| appoggiatura | Nốt dựa, đúng phách, lấy bớt độ dài của nốt chính | Nốt nhỏ không gạch |
+| acciaccatura | Nốt luyến cực nhanh trước nốt chính | Nốt nhỏ có gạch chéo |
+| fioritura | Chùm nốt trang trí tự do | Đặc trưng trong nhạc Chopin |
+| Alberti bass | Hình đệm rải hợp âm: trầm – cao – giữa – cao | Đặt theo tên Domenico Alberti |
+| fingering | Số ngón tay ghi trên nốt | 1 là ngón cái, ở cả hai tay |
+| Urtext | Bản nhạc in theo nguồn gốc của tác giả | Ít thêm thắt của người biên tập |
+
 ## Nhạc lý (Anh – Việt)
 
 | Thuật ngữ | Nghĩa | Ghi chú |

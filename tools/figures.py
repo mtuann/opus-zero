@@ -414,6 +414,246 @@ FORMS = {
    [("Introitus", "", 1, "a"), ("Kyrie", "", 1, "b"), ("Dies irae", "", 1, "b"), ("Tuba mirum", "", 1, "b"), ("Rex", "", .8, "b"), ("Recordare", "", 1, "b"), ("Confutatis", "", .8, "b"), ("Lacrimosa", "8 ô nhịp", .8, "b"), ("Offertorium", "", 1.2, "b"), ("Sanctus · Benedictus · Agnus Dei", "", 2.2, "x"), ("Communio", "dùng lại nhạc mở đầu", 1, "c")]),
 }
 
+# ---------------------------------------------------------------- Piano (mục Piano)
+def piano88_svg():
+    """Bàn phím 88 phím A0–C8: ghi tên mọi phím Đô, tô Đô giữa và La4."""
+    WK, HW, HB, X0, Y0 = 12, 62, 39, 14, 30
+    whites = [m for m in range(21, 109) if m % 12 in (0, 2, 4, 5, 7, 9, 11)]
+    xs = {m: X0 + i * WK for i, m in enumerate(whites)}
+    W = X0 * 2 + len(whites) * WK
+    b = []
+    for m in whites:
+        fill = "#f3d27a" if m == 60 else ("#bcd6f2" if m == 69 else "#ffffff")
+        b.append('<rect x="%d" y="%d" width="%d" height="%d" rx="1.5" fill="%s" stroke="#4a4a4a" stroke-width="0.6"/>' % (xs[m], Y0, WK, HW, fill))
+    for m in range(22, 108):
+        if m % 12 in (1, 3, 6, 8, 10):
+            b.append('<rect x="%.1f" y="%d" width="7.4" height="%d" rx="1" fill="#1b1d22"/>' % (xs[m - 1] + WK - 3.7, Y0, HB))
+    for m in whites:
+        if m % 12 == 0 or m == 21:
+            b.append(t(xs[m] + WK / 2, Y0 + HW + 11, note(m) if m != 21 else "A0", 7.5, "middle", "700" if m == 60 else "400"))
+    for m, lab, anchor, dx in ((60, "Đô giữa (C4)", "middle", 0), (69, "La4 = 440 Hz", "start", -2)):
+        cx = xs[m] + WK / 2
+        b.append('<line x1="%.1f" y1="%d" x2="%.1f" y2="%d" stroke="currentColor" stroke-opacity=".6"/>' % (cx, Y0 - 10, cx, Y0 - 1))
+        b.append(t(cx + dx, Y0 - 13, lab, 8.5, anchor, "700" if m == 60 else "400"))
+    yb = Y0 + HW + 27
+    b.append(t(xs[60] - 6, yb, "← thường là vùng của tay trái", 8, "end", op=.75))
+    b.append(t(xs[60] + WK + 6, yb, "thường là vùng của tay phải →", 8, "start", op=.75))
+    return svg(W, Y0 + HW + 34, "Bàn phím piano 88 phím từ A0 đến C8; các phím Đô được ghi tên; Đô giữa (C4) tô vàng; La4 (440 Hz) tô xanh", "".join(b), "oz-fig oz-fig-wide")
+
+def hands_svg():
+    """Hai bàn tay úp trên phím, nhìn từ trên xuống, ghi số ngón 1–5."""
+    skin, edge = "#f1d3b8", "#8a6a55"
+    def hand(cx, mirror):
+        s = -1 if mirror else 1
+        out = []
+        tx, ty, ang = cx - s * 42, 114, -42 * s
+        out.append('<rect x="%.1f" y="%.1f" width="16" height="44" rx="8" fill="%s" stroke="%s" transform="rotate(%d %.1f %.1f)"/>' % (tx - 8, ty - 30, skin, edge, ang, tx, ty))
+        out.append('<rect x="%.1f" y="78" width="80" height="60" rx="20" fill="%s" stroke="%s"/>' % (cx - 40, skin, edge))
+        for n, dx, h in ((2, -27, 46), (3, -9, 54), (4, 9, 50), (5, 27, 38)):
+            x = cx + s * dx
+            out.append('<rect x="%.1f" y="%d" width="15" height="%d" rx="7.5" fill="%s" stroke="%s"/>' % (x - 7.5, 86 - h, h + 8, skin, edge))
+            out.append(t(x, 86 - h + 13, str(n), 10, "middle", "700", "#1b1b1b"))
+        r = math.radians(ang)
+        lx, ly = tx + 21 * math.sin(r), ty - 21 * math.cos(r)
+        out.append(t(lx, ly + 4, "1", 10, "middle", "700", "#1b1b1b"))
+        out.append(t(cx, 158, "Tay trái" if mirror else "Tay phải", 10, "middle", "600"))
+        return "".join(out)
+    return svg(420, 166, "Số ngón tay khi chơi piano: ngón cái là 1, trỏ 2, giữa 3, áp út 4, út 5, ở cả hai tay", hand(110, True) + hand(310, False), "oz-fig oz-fig-mid")
+
+def pedal_svg():
+    """Bàn đạp nối (syncopated pedal): chân nhả đúng lúc hợp âm mới vang, rồi nhấn lại ngay sau."""
+    X0, U = 96, 40
+    yH, hH, yUp, yDn = 30, 26, 104, 128
+    b = [t(X0 - 10, yH + 17, "Tay", 9, "end", "600"), t(X0 - 10, yUp + 4, "chân nhả", 8, "end", op=.75), t(X0 - 10, yDn + 4, "chân nhấn", 8, "end", op=.75)]
+    for i, col in enumerate(("#7aa6d6", "#8cc49a", "#e0b45e")):
+        x = X0 + i * 4 * U
+        b.append('<rect x="%d" y="%d" width="%d" height="%d" rx="4" fill="%s"/>' % (x + 2, yH, 4 * U - 4, hH, col))
+        b.append(t(x + 2 * U, yH + 17, "Hợp âm %d" % (i + 1), 9, "middle", "600", "#1b1b1b"))
+    for k in (4, 8):
+        x = X0 + k * U
+        b.append('<line x1="%d" y1="%d" x2="%d" y2="%d" stroke="currentColor" stroke-opacity=".45" stroke-dasharray="3 3"/>' % (x, yH - 4, x, yDn + 10))
+    pts = [(0, yUp), (.5, yUp), (.5, yDn), (4, yDn), (4, yUp), (4.5, yUp), (4.5, yDn), (8, yDn), (8, yUp), (8.5, yUp), (8.5, yDn), (12, yDn), (12, yUp)]
+    d = " ".join("%s%.1f %d" % ("M" if i == 0 else "L", X0 + p * U, y) for i, (p, y) in enumerate(pts))
+    b.append('<path d="%s" fill="none" stroke="#b3412e" stroke-width="2.5" stroke-linejoin="round"/>' % d)
+    b.append(t(X0 + 4 * U + 5, yUp - 8, "① nhả đúng lúc hợp âm mới vang", 8, "start", op=.85))
+    b.append(t(X0 + 4.5 * U + 5, yDn + 16, "② nhấn lại ngay sau đó, khi ngón tay còn giữ phím", 8, "start", op=.85))
+    b.append(t(X0 + 6 * U, 166, "thời gian →", 8, "middle", op=.6))
+    return svg(X0 + 12 * U + 20, 172, "Sơ đồ bàn đạp nối: chân nhả bàn đạp đúng lúc tay đánh hợp âm mới và nhấn lại ngay sau đó", "".join(b), "oz-fig oz-fig-wide")
+
+def keyboard_ranges_svg():
+    """Âm vực đàn phím qua các thời kỳ, so với piano 88 phím."""
+    rows = [("Thời Bach và Mozart", "Fa1–Fa6 · 5 quãng tám", 29, 89, "#d9c9a3"),
+            ("Broadwood của Beethoven (1817)", "Đô1–Đô7 · 6 quãng tám", 24, 96, "#e0b45e"),
+            ("Graf của Beethoven (1825)", "Đô1–Fa7 · 6½ quãng tám", 24, 101, "#e98f7a"),
+            ("Piano hiện đại (88 phím)", "La0–Đô8 · 7¼ quãng tám", 21, 108, "#7aa6d6")]
+    W, L, R, RH, TOP, lo, hi = 660, 190, 14, 24, 10, 21, 108
+    x = lambda m: L + (m - lo) / (hi - lo) * (W - L - R)
+    H = TOP + len(rows) * RH + 24
+    b = []
+    for c in range(24, 109, 12):
+        b.append('<line x1="%.1f" y1="%d" x2="%.1f" y2="%d" stroke="currentColor" stroke-opacity="%s"%s/>' % (
+            x(c), TOP - 4, x(c), H - 18, ".55" if c == 60 else ".15", ' stroke-dasharray="3 2"' if c == 60 else ""))
+        b.append(t(x(c), H - 6, note(c) + (" (Đô giữa)" if c == 60 else ""), 8, "middle", "600" if c == 60 else "400", op=.8))
+    for i, (name, sub, a, z, col) in enumerate(rows):
+        y = TOP + i * RH
+        b.append(t(L - 8, y + 12, name, 9, "end", "600"))
+        b.append('<rect x="%.1f" y="%d" width="%.1f" height="%d" rx="3" fill="%s"/>' % (x(a), y + 2, x(z) - x(a), RH - 7, col))
+        b.append(t((x(a) + x(z)) / 2, y + 13, sub, 8, "middle", "600", "#1b1b1b"))
+    return svg(W, H, "Âm vực đàn phím qua các thời kỳ: thời Bach và Mozart Fa1–Fa6, Broadwood 1817 Đô1–Đô7, Graf 1825 Đô1–Fa7, piano hiện đại La0–Đô8", "".join(b), "oz-fig oz-fig-wide")
+
+# ---------------------------------------------------------------- Kỹ thuật: tư thế, thế tay, luồn ngón
+SKIN, SKIN_EDGE, CLOTH, CLOTH_EDGE = "#f1d3b8", "#8a6a55", "#9fb5cf", "#4a5d73"
+def limb(pts, w, fill=SKIN, edge=SKIN_EDGE):
+    """Một đoạn chi vẽ bằng nét dày bo tròn: viền trước, màu sau."""
+    p = " ".join("%.1f,%.1f" % xy for xy in pts)
+    style = 'fill="none" stroke-linecap="round" stroke-linejoin="round"'
+    return ('<polyline points="%s" %s stroke="%s" stroke-width="%.1f"/>' % (p, style, edge, w + 2.4) +
+            '<polyline points="%s" %s stroke="%s" stroke-width="%.1f"/>' % (p, style, fill, w))
+
+def posture_svg():
+    """Ngồi đúng trước đàn, nhìn ngang."""
+    b = []
+    b.append('<line x1="8" y1="280" x2="512" y2="280" stroke="currentColor" stroke-opacity=".35"/>')
+    # đàn piano đứng: thân đàn, mặt phím, giá đỡ, bàn đạp
+    b.append('<rect x="360" y="40" width="140" height="240" rx="4" fill="#d9c9a3" stroke="%s"/>' % SKIN_EDGE)
+    b.append('<rect x="292" y="156" width="70" height="14" fill="#5b4636"/>')
+    b.append('<rect x="292" y="148" width="70" height="8" rx="1.5" fill="#ffffff" stroke="#4a4a4a" stroke-width=".8"/>')
+    b.append('<rect x="296" y="170" width="10" height="110" fill="#5b4636"/>')
+    b.append('<rect x="300" y="268" width="62" height="6" rx="2" fill="#b0a48a" stroke="%s" stroke-width=".8"/>' % SKIN_EDGE)
+    # ghế: tô nửa trước mặt ghế
+    b.append('<rect x="70" y="196" width="110" height="10" rx="2" fill="#8a6a55"/>')
+    b.append('<rect x="125" y="196" width="55" height="10" rx="2" fill="#b5832a" fill-opacity=".85"/>')
+    b.append('<rect x="76" y="206" width="8" height="74" fill="#8a6a55"/><rect x="166" y="206" width="8" height="74" fill="#8a6a55"/>')
+    # người: chân, thân, đầu, tay
+    b.append(limb([(150, 192), (232, 197), (262, 270)], 20, CLOTH, CLOTH_EDGE))
+    b.append(limb([(262, 271), (304, 273)], 9))
+    b.append(limb([(150, 188), (160, 100)], 30, CLOTH, CLOTH_EDGE))
+    b.append('<circle cx="170" cy="70" r="18" fill="%s" stroke="%s" stroke-width="1.2"/>' % (SKIN, SKIN_EDGE))
+    b.append(limb([(163, 103), (200, 148)], 14, CLOTH, CLOTH_EDGE))
+    b.append(limb([(200, 148), (272, 146), (292, 141)], 11))
+    b.append(limb([(290, 142), (303, 147), (306, 149)], 6))
+    # đường mặt phím kéo dài qua khuỷu tay
+    b.append('<line x1="186" y1="150" x2="292" y2="150" stroke="#b3412e" stroke-width="1.2" stroke-dasharray="4 3"/>')
+    b.append(t(284, 171, "khuỷu tay ngang mặt phím", 8.5, "end", "600", "#b3412e"))
+    b.append(t(292, 112, "cẳng tay song song mặt phím,", 8.5, "middle"))
+    b.append(t(292, 123, "cổ tay không võng", 8.5, "middle"))
+    b.append(t(140, 70, "lưng thẳng,", 8.5, "end"))
+    b.append(t(140, 81, "vai thả lỏng", 8.5, "end"))
+    b.append(t(125, 226, "ngồi nửa trước", 8.5, "middle", "600"))
+    b.append(t(125, 237, "mặt ghế", 8.5, "middle", "600"))
+    b.append(t(282, 296, "bàn chân phẳng, chân phải gần bàn đạp, gót chạm sàn", 8.5, "middle"))
+    b.append(t(430, 30, "đàn piano", 8.5, "middle", op=.7))
+    return svg(520, 304, "Tư thế ngồi đúng trước đàn, nhìn ngang: ngồi nửa trước mặt ghế, lưng thẳng, khuỷu tay ngang mặt phím, cẳng tay song song mặt phím, bàn chân phẳng và chân phải gần bàn đạp", "".join(b), "oz-fig oz-fig-mid")
+
+def handshape_svg():
+    """Thế tay nhìn ngang: một hình đúng, hai lỗi hay gặp."""
+    def key(ox):
+        return ('<rect x="%d" y="130" width="80" height="6" fill="#5b4636"/>' % (ox + 110) +
+                '<rect x="%d" y="118" width="80" height="12" rx="1.5" fill="#ffffff" stroke="#4a4a4a" stroke-width=".8"/>' % (ox + 110))
+    panels = [
+        ("ĐÚNG", "#2e7d4f", [(0, 100), (70, 101), (108, 93)], [(104, 95), (126, 103), (134, 113), (136, 118)], None,
+         ["cổ tay ngang mặt phím, khớp gốc ngón", "thành vòm, chạm phím bằng đầu ngón"]),
+        ("SAI: cổ tay võng", "#b3412e", [(0, 112), (70, 128), (106, 100)], [(103, 102), (124, 106), (134, 113), (137, 118)], (70, 128),
+         ["cổ tay thấp hơn mặt phím,", "ngón phải với lên phím"]),
+        ("SAI: gãy khớp đầu ngón", "#b3412e", [(0, 100), (70, 101), (108, 94)], [(104, 96), (126, 104), (135, 116), (152, 117)], (135, 116),
+         ["khớp gần móng bẻ gập khi nhấn,", "tiếng yếu và không đều"]),
+    ]
+    b = []
+    for i, (lab, col, arm, finger, ring, desc) in enumerate(panels):
+        ox = i * 200
+        b.append(key(ox))
+        b.append(limb([(ox + x, y) for x, y in arm], 17))
+        b.append(limb([(ox + x, y) for x, y in finger], 8))
+        if i == 0:
+            b.append('<path d="M%d 84 Q%d 74 %d 84" fill="none" stroke="#2e7d4f" stroke-width="1.2" stroke-dasharray="3 2"/>' % (ox + 78, ox + 96, ox + 114))
+            b.append(t(ox + 96, 70, "vòm", 8, "middle", "600", "#2e7d4f"))
+        if ring:
+            b.append('<circle cx="%d" cy="%d" r="10" fill="none" stroke="#b3412e" stroke-width="1.6" stroke-dasharray="3 2"/>' % (ox + ring[0], ring[1]))
+        b.append(t(ox + 100, 30, lab, 10, "middle", "700", col))
+        for k, line in enumerate(desc):
+            b.append(t(ox + 100, 158 + k * 11, line, 8.5, "middle"))
+    return svg(600, 184, "Thế tay nhìn ngang: đúng là cổ tay ngang mặt phím, khớp gốc ngón thành vòm và chạm phím bằng đầu ngón; hai lỗi hay gặp là cổ tay võng xuống dưới mặt phím và gãy khớp đầu ngón khi nhấn", "".join(b), "oz-fig oz-fig-wide")
+
+def thumbunder_svg():
+    """Gam Đô trưởng đi lên: tay phải luồn ngón cái, tay trái vắt ngón 3."""
+    WK, HW, HB, Y0 = 40, 110, 66, 30
+    names = ["Đô", "Rê", "Mi", "Fa", "Sol", "La", "Si", "Đô"]
+    hands = [("Tay phải, đi lên", 20, [1, 2, 3, 1, 2, 3, 4, 5], (0, 3, "under", "ngón cái luồn dưới bàn tay, sang Fa")),
+             ("Tay trái, đi lên", 380, [5, 4, 3, 2, 1, 3, 2, 1], (2, 5, "over", "ngón 3 vắt qua ngón cái, sang La"))]
+    b = []
+    for title, x0, fingers, (a, z, kind, note_txt) in hands:
+        b.append(t(x0 + 160, 18, title, 10, "middle", "700"))
+        for i in range(8):
+            fill = "#ffffff"
+            b.append('<rect x="%d" y="%d" width="%d" height="%d" rx="2" fill="%s" stroke="#4a4a4a" stroke-width=".8"/>' % (x0 + i * WK, Y0, WK, HW, fill))
+        for i in range(7):
+            if i in (2, 6):
+                continue
+            b.append('<rect x="%.1f" y="%d" width="24" height="%d" rx="1.5" fill="#1b1d22"/>' % (x0 + (i + 1) * WK - 12, Y0, HB))
+        for i, f in enumerate(fingers):
+            cx = x0 + i * WK + WK / 2
+            hot = i in (a, z)
+            b.append('<circle cx="%.1f" cy="%d" r="10" fill="%s" stroke="%s" stroke-width="1"/>' % (cx, Y0 + 88, "#b5832a" if hot else "#e8eef5", "#1f3a5f"))
+            b.append(t(cx, Y0 + 92, str(f), 10, "middle", "700", "#ffffff" if hot else "#1f3a5f"))
+            b.append(t(cx, Y0 + HW + 12, names[i], 8, "middle", op=.8))
+        xa, xz = x0 + a * WK + WK / 2, x0 + z * WK + WK / 2
+        if kind == "under":
+            d = "M%.1f %d Q%.1f %d %.1f %d" % (xa, Y0 + 100, (xa + xz) / 2, Y0 + 124, xz - 4, Y0 + 100)
+        else:
+            d = "M%.1f %d Q%.1f %d %.1f %d" % (xa, Y0 + 77, (xa + xz) / 2, Y0 + 44, xz - 4, Y0 + 78)
+        b.append('<path d="%s" fill="none" stroke="#b3412e" stroke-width="2" marker-end="url(#oz-arr-thumb)"/>' % d)
+        b.append(t(x0 + 160, Y0 + HW + 30, note_txt, 9, "middle", "600", "#b3412e"))
+    defs = '<defs><marker id="oz-arr-thumb" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#b3412e"/></marker></defs>'
+    return svg(720, Y0 + HW + 40, "Gam Đô trưởng đi lên, số ngón ghi trên từng phím. Tay phải 1 2 3 1 2 3 4 5: ngón cái luồn dưới bàn tay từ Đô sang Fa. Tay trái 5 4 3 2 1 3 2 1: ngón 3 vắt qua ngón cái từ Mi sang La", defs + "".join(b), "oz-fig oz-fig-wide")
+
+PIANO_FIGS = {
+ "piano-88": figure(piano88_svg(), "Bàn phím 88 phím: 52 phím trắng, 36 phím đen, từ La0 (A0) đến Đô8 (C8). Phím vàng là Đô giữa; phím xanh là La4, nốt chuẩn để lên dây (440 Hz)."),
+ "hands": figure(hands_svg(), "Hai tay úp trên phím, nhìn từ trên xuống. Số ngón giống nhau ở hai tay; tay trái là ảnh gương của tay phải."),
+ "tu-the-ngoi": figure(posture_svg(), "Ngồi đúng, nhìn ngang. Khuỷu tay ngang mặt phím (đường đứt nét), cẳng tay gần song song mặt phím, ngồi nửa trước mặt ghế (phần tô màu), hai bàn chân đặt vững."),
+ "the-tay": figure(handshape_svg(), "Thế tay nhìn ngang. Bên trái là thế đúng; hai hình còn lại là hai lỗi người mới hay mắc nhất (vòng đứt nét chỉ chỗ sai)."),
+ "luon-ngon": figure(thumbunder_svg(), "Gam Đô trưởng đi lên, số ngón ghi trên phím. Chỗ đổi vị trí tay tô màu: tay phải luồn ngón cái, tay trái vắt ngón 3. Khi đi xuống thì ngược lại: tay phải vắt ngón 3 qua ngón cái, tay trái luồn ngón cái."),
+ "pedal-timing": figure(pedal_svg(), "Bàn đạp nối: chân nhả đúng lúc hợp âm mới vang (tay xuống, chân lên), rồi nhấn lại ngay sau đó. Nhờ vậy hai hợp âm nối liền mà không lẫn vào nhau."),
+ "keyboard-ranges": figure(keyboard_ranges_svg(), "Âm vực đàn phím qua các thời kỳ, so với piano hiện đại (gần đúng). Đường nét đứt là Đô giữa."),
+ # Bài học tác phẩm
+ "p-minuet-sol": form_map("Minuet Sol trưởng, BWV Anh. 114: hai đoạn, mỗi đoạn 16 ô nhịp và đều nhắc lại.", [("‖: A, câu 1", "ô 1–8 · kết nửa ở Rê", 8, "a"), ("câu 2 :‖", "ô 9–16 · kết trọn ở Sol", 8, "a"), ("‖: B, câu 3", "ô 17–24 · sang Rê trưởng", 8, "b"), ("câu 4 :‖", "ô 25–32 · về Sol trưởng", 8, "b")]),
+ "p-schumann-68": "".join([form_map("Số 1, Melodie (Đô trưởng, 4/4): các câu 4 ô.", [("a", "vang hai lần", 2, "a"), ("b", "", 1, "b"), ("a'", "kết ở Đô", 1, "a"), ("b", "", 1, "b"), ("a'", "kết ở Đô", 1, "a")]), form_map("Số 8, Wilder Reiter (La thứ, 6/8): ba đoạn, mỗi đoạn 8 ô.", [("A", "La thứ · giai điệu tay phải · nhắc lại", 2, "a"), ("B", "Fa trưởng · giai điệu tay trái", 1, "c"), ("A", "La thứ · giai điệu tay phải", 1, "a")]), form_map("Số 10, Fröhlicher Landmann (Fa trưởng, 4/4).", [("a", "4 ô · giai điệu tay trái · vang hai lần", 2, "a"), ("b", "6 ô · giai điệu cả hai tay · vang hai lần", 3, "b")])]),
+ "p-clementi-36-1": form_map("Sonatina Op. 36 số 1: ba chương (độ rộng chỉ gần đúng).", [("I. Trình bày", "ô 1–15 · Đô → Sol trưởng", 15, "a"), ("Phát triển", "ô 16–23 · thoáng Đô thứ", 8, "dev"), ("Tái hiện", "ô 24–38 · về Đô trưởng", 15, "a"), ("II. Andante", "Fa trưởng · A B A'", 20, "b"), ("III. Vivace", "Đô trưởng · A B A + coda", 24, "c")], "Chương I: trình bày nhắc lại; phát triển và tái hiện nhắc lại cùng nhau."),
+ "p-arabesque": form_map("Arabesque, Op. 100 số 2 (độ rộng gần đúng theo số ô nhịp).", [("Dẫn nhập", "2 ô · tay trái", 2, "intro"), ("‖: A :‖", "chùm nốt ở tay phải · p", 8, "a"), ("‖: B", "f · chùm nốt ở tay trái", 8, "b"), ("A' :‖", "a tempo · p", 8, "a"), ("Coda", "risoluto · f", 5, "coda")]),
+ "p-valse-la-thu": form_map("Valse La thứ, B. 150: rondo nhỏ (độ rộng gần đúng theo số ô nhịp, chưa kể nhắc lại).", [("A", "La thứ · 16 ô", 16, "a"), ("B", "8 ô · nhắc lại", 8, "b"), ("A'", "La thứ", 16, "a"), ("C", "La trưởng · 16 ô · nhắc lại", 16, "c"), ("A''", "ba câu đầu", 12, "a"), ("Coda", "", 4, "coda")]),
+ "p-fur-elise": form_map("Für Elise: rondo nhỏ A–B–A–C–A (độ dài các ô gần đúng theo số ô nhịp, không tính phần nhắc lại).", [("A", "La thứ · a, b + a", 22, "a"), ("B", "Fa trưởng · đường chạy móc ba", 16, "b"), ("A", "La thứ", 20, "a"), ("C", "nốt La trầm lặp lại", 18, "c"), ("Chuyển", "rải La thứ, nửa cung đi xuống", 5, "dev"), ("A", "La thứ · kết", 21, "a")]),
+ "p-prelude-mi-thu": form_map("Prélude Mi thứ Op. 28 số 4: hai câu nhạc; câu sau bắt đầu như câu trước rồi lên cao trào (25 ô nhịp; độ dài các ô theo số ô nhịp).", [("Câu 1", "ô 1–12 · dừng ở hợp âm át", 12, "a"), ("Câu 2", "ô 13–15 · như ô 1", 3, "a"), ("Stretto, cao trào", "ô 16–18 · f", 3, "dev"), ("Lắng xuống", "ô 19–22 · smorz.", 4, "b"), ("Im lặng", "ô 23", 1, "x"), ("Kết", "ô 24–25 · pp", 2, "cad")]),
+ "p-gymnopedie": form_map("Gymnopédie số 1: cả bài được chơi hai lượt gần như giống nhau, chỉ khác phần kết (độ dài các ô theo số ô nhịp).", [("Dạo đầu", "4 ô, chỉ tay trái", 4, "intro"), ("Câu 1", "8 ô", 8, "a"), ("Câu 2", "9 ô", 9, "a"), ("Đoạn giữa", "Đô♮, Fa♮", 10, "b"), ("Kết 1", "Rê trưởng", 8, "cad"), ("Lượt 2", "nhắc lại từ đầu", 31, "x"), ("Kết 2", "Fa♮ · Rê thứ", 8, "coda")]),
+ "p-invention-1": form_map("Invention số 1 Đô trưởng: ba phần, mỗi phần khép bằng một kết (22 ô nhịp).", [("Phần 1", "ô 1–7 · Đô → Sol trưởng", 6.5, "a"), ("Phần 2", "ô 7–15 · chủ đề đảo → La thứ", 8, "b"), ("Phần 3", "ô 15–18 · nốt dài, chuỗi", 3.5, "dev"), ("Kết", "ô 19–22 · về Đô", 4, "coda")]),
+ "p-k545": form_map("Mozart K. 545, chương 1 (73 ô nhịp; độ dài các ô theo số ô nhịp).", [("Chủ đề 1", "Đô trưởng · ô 1–4", 4, "a"), ("Đoạn chuyển", "chuỗi gam · ô 5–12", 8, "x"), ("Chủ đề 2 và kết", "Sol trưởng · ô 13–28", 16, "b"), ("Phát triển", "Sol thứ, Rê thứ, La thứ · ô 29–41", 13, "dev"), ("Tái hiện: chủ đề 1", "Fa trưởng → Đô · ô 42–57", 16, "a"), ("Chủ đề 2 và kết", "Đô trưởng · ô 58–73", 16, "b")], "Phần trình bày (ô 1–28) được nhắc lại."),
+ "p-traumerei": form_map("Träumerei: 24 ô nhịp, sáu câu bốn ô; đoạn A đầu được nhắc lại.", [("A", "ô 1–8 · Fa trưởng", 8, "a"), ("A (nhắc lại)", "", 8, "a"), ("B", "ô 9–16 · Sol thứ → Si♭ → Rê thứ", 8, "b"), ("A'", "ô 17–24 · fermata gần cuối", 8, "a")]),
+ "p-pathetique-2": form_map("Pathétique, chương 2: rondo (73 ô nhịp; độ dài các ô theo số ô nhịp).", [("A", "ô 1–16 · La♭ trưởng", 16, "a"), ("B", "ô 17–28 · Fa thứ → Mi♭", 12, "b"), ("A", "ô 29–36", 8, "a"), ("C", "ô 37–50 · La♭ thứ → Mi trưởng, chùm ba", 14, "c"), ("A", "ô 51–66 · đệm chùm ba", 16, "a"), ("Coda", "ô 66–73", 7, "coda")]),
+ "p-mozart-k2": form_map("Mozart, Minuet Fa trưởng K. 2: đoạn A, đoạn B rời giọng, chủ đề trở lại (độ dài các ô theo số ô nhịp).", [("‖: A :‖", "Fa trưởng · ô 1–8 · kết nửa", 8, "a"), ("B", "sang Sol thứ rồi về Fa · ô 9–16", 8, "dev"), ("A'", "ô 17–20 · kết lừa", 4, "a"), ("Kết", "ô 21–24 · kết trọn", 4, "cad")]),
+ "p-bach-bwv939": form_map("Bach, Prelude nhỏ Đô trưởng BWV 939: một mạch 16 ô, bốn chặng hòa âm (độ dài các ô theo số ô nhịp).", [("Nốt nền chủ", "ô 1–3", 3, "a"), ("Chuyền tay", "sang Sol trưởng · ô 4–8", 5, "dev"), ("Nốt nền át", "ô 9–12", 4, "cad"), ("Về Đô", "ô 13–16 · kết", 4, "a")]),
+ "p-sonatina-sol": form_map("Sonatina Sol trưởng, Anh. 5 số 1: hai chương, mỗi chương A – B – A và coda (độ dài các ô theo số ô nhịp).", [("I. A", "Moderato · ô 1–8", 8, "a"), ("I. B", "quanh Rê bảy · ô 9–16", 8, "b"), ("I. A", "dolce · ô 17–24", 8, "a"), ("I. Coda", "ô 25–34", 10, "coda"), ("II. A", "Romanze · ô 1–8", 8, "a"), ("II. B", "Rê trưởng → Rê bảy · ô 9–21", 13, "c"), ("II. A", "ô 22–29", 8, "a"), ("II. Coda", "ô 29–40", 12, "coda")], "Chương I: ô 9–24 nhắc lại. Chương II: đoạn A nhắc lại; B và A nhắc lại cùng nhau."),
+ "p-la-candeur": form_map("La candeur, Op. 100 số 1: hai đoạn có nhắc lại và một coda ngắn (độ rộng gần đúng theo số ô nhịp).", [("‖: A :‖", "ô 1–8 · tay phải hát, tay trái giữ hợp âm · dừng ở át âm", 8, "a"), ("‖: B :‖", "ô 9–16 · hai tay đổi vai · sf ở ô 14 · kết ở Đô trưởng", 8, "b"), ("Coda", "sau kết thứ hai · âm nền Đô · nhỏ dần đến pp", 6, "coda")], "Lần thứ hai, đoạn B rẽ sang kết thứ hai và đi thẳng vào coda."),
+ "p-prelude-la-truong": form_map("Prélude La trưởng Op. 28 số 7: tám câu hai ô, câu nào cũng mở bằng một nhịp lấy đà (16 ô nhịp; độ dài các ô theo số ô nhịp).", [("Câu 1–2", "ô 1–4 · át → chủ", 4, "a"), ("Câu 3–4", "ô 5–8 · át → chủ", 4, "a"), ("Câu 5", "ô 9–10 · như câu 1", 2, "a"), ("Câu 6", "ô 11–12 · hợp âm rải lớn", 2, "dev"), ("Câu 7", "ô 13–14 · Si thứ → át", 2, "b"), ("Câu 8", "ô 15–16 · về La trưởng", 2, "cad")], "Hai nửa tám ô mở đầu giống nhau; từ ô 11 hòa âm đổi mỗi ô."),
+ "p-arietta": form_map("Arietta Op. 12 số 1: một chủ đề nói hai lần, 23 ô nhịp (độ dài các ô theo số ô nhịp).", [("A · a", "ô 1–4 · chủ đề, Mi♭ trưởng", 4, "a"), ("b", "ô 5–8 · phát triển", 4, "dev"), ("c", "ô 9–12 · Sol thứ → Mi♭, hai lần kết", 4, "cad"), ("A' · a", "ô 13–16 · chủ đề, thêm nốt hoa mỹ", 4, "a"), ("b'", "ô 17–18 · rút gọn", 2, "dev"), ("c'", "ô 19–22 · nhóm kết", 4, "cad"), ("Coda", "ô 23 · mảnh chủ đề", 1, "coda")], "Theo phân tích của PTNA: A = ô 1–12, A' = ô 13–22; hình kết ở ô 9–10 xuất hiện bốn lần."),
+ "p-minuet-sol-thu": form_map("Minuet Sol thứ, BWV Anh. 115: hai đoạn, mỗi đoạn 16 ô nhịp và đều nhắc lại.", [("‖: A, câu 1", "ô 1–8 · Sol thứ · kết nửa trên Rê", 8, "a"), ("câu 2 :‖", "ô 9–16 · kết ở Si♭ trưởng", 8, "a"), ("‖: B, câu 3", "ô 17–24 · Fa trưởng, Si♭ trưởng", 8, "b"), ("câu 4 :‖", "ô 25–32 · Đô thứ → Sol thứ", 8, "b")], "Khi chơi trọn cặp: Minuet Sol trưởng, Minuet Sol thứ, rồi Minuet Sol trưởng lần nữa (da capo)."),
+ "p-musette-re": form_map("Musette Rê trưởng, BWV Anh. 126: hai đoạn có nhắc lại, rồi đoạn A trở lại (da capo); độ dài các ô theo số ô nhịp.", [("‖: A :‖", "ô 1–8 · Rê trưởng · bè trầm Rê", 8, "a"), ("‖: B", "ô 9–12 · La trưởng · bè trầm La", 4, "b"), ("âm nền Mi", "ô 13–18 · Rê♯", 6, "cad"), ("kết :‖", "ô 19–20 · La trưởng", 2, "b"), ("A da capo", "ô 1–8 · dừng ở dấu ngân", 8, "a")], "Đoạn B kết ở La trưởng (giọng át), nên đoạn A trở lại để bài kết ở Rê trưởng."),
+ "p-bai-ca-phap-co": form_map("Bài ca Pháp cổ, Op. 39 số 16: A A B A, mỗi đoạn 8 ô nhịp.", [("A", "ô 1–8 · p · Sol thứ trên âm nền Sol", 8, "a"), ("A", "ô 9–16 · pp", 8, "a"), ("B", "ô 17–24 · hợp âm rải staccato · mf · dừng ở át âm", 8, "b"), ("A", "ô 25–32 · p · kết ở Sol thứ", 8, "a")], "Bài mở đầu bằng một nốt lấy đà (Rê); đoạn B dừng trên hợp âm Rê trưởng để đưa về A."),
+ "p-cau-nguyen-buoi-sang": form_map("Cầu nguyện buổi sáng, Op. 39 số 1: hai câu tám ô và một coda tám ô trên âm nền Sol (24 ô nhịp; độ dài các ô theo số ô nhịp).", [("Câu 1", "ô 1–8 · kết ở Rê trưởng", 8, "a"), ("Câu 2", "ô 9–11 · như câu 1, rồi đi lên", 3, "a"), ("Cao trào", "ô 12–14 · f · vòng quãng năm", 3, "dev"), ("Kết câu 2", "ô 15–16 · kết trọn ở Sol trưởng", 2, "cad"), ("Coda", "ô 17–24 · âm nền Sol · pp", 8, "coda")], "Không có dấu nhắc lại; coda bắt đầu từ phách 3 của ô 16, khi bè trầm đã lặp nốt Sol."),
+ "p-ballade-1": form_map("Chopin, Ballade số 1 (độ dài các ô gần đúng).", [("Largo", "ô 1–7", 7, "intro"), ("Chủ đề 1", "Sol thứ · từ ô 8", 28, "a"), ("Đoạn chuyển", "agitato", 32, "dev"), ("Chủ đề 2", "Mi♭ trưởng · từ ô 68", 26, "b"), ("Chủ đề 1", "La thứ", 12, "dev"), ("Chủ đề 2", "La trưởng · ff", 20, "b"), ("Đoạn nối và valse", "Mi♭ trưởng", 40, "c"), ("Chủ đề 2", "Mi♭ trưởng · ff", 28, "b"), ("Chủ đề 1", "Sol thứ · âm nền Rê", 14, "a"), ("Coda", "Presto con fuoco", 57, "coda")], "Hai chủ đề trở lại theo thứ tự đảo ngược."),
+ "p-nocturne-9-2": form_map("Nocturne Op. 9 số 2: 34 ô nhịp; mỗi lần chủ đề trở lại được trang trí nhiều hơn (độ dài các ô theo số ô nhịp).", [("A", "ô 1–4", 4, "a"), ("A'", "ô 5–8 · thêm trang trí", 4, "a"), ("B", "ô 9–12 · quanh Si♭", 4, "b"), ("A''", "ô 13–16", 4, "a"), ("B'", "ô 17–20", 4, "b"), ("A'''", "ô 21–24 · trang trí nhiều nhất", 4, "a"), ("Coda", "ô 25–34 · cadenza nhỏ", 10, "coda")]),
+ # Hướng dẫn nghe piano
+ "g-goldberg": form_map("Biến tấu Goldberg, BWV 988: Aria, 30 biến tấu, Aria nhắc lại (độ dài các ô chỉ minh họa).", [("Aria", "sarabande · 32 ô", 1.2, "a"), ("BT 1–15", "canon ở 3, 6, 9, 12, 15 · BT 15 Sol thứ", 7, "b"), ("BT 16", "ouverture · mở nửa sau", 1, "intro"), ("BT 17–24", "canon ở 18, 21, 24 · BT 21 Sol thứ", 4.5, "b"), ("BT 25", "Sol thứ · Adagio", 1.6, "c"), ("BT 26–29", "canon ở 27 · rực rỡ", 2.5, "dev"), ("BT 30", "quodlibet", 1, "cad"), ("Aria da capo", "", 1.2, "a")], "Cứ ba biến tấu có một canon, khoảng cách giữa hai bè tăng dần từ đồng âm đến quãng 9."),
+ "g-scarlatti": form_map("Sonata Scarlatti: hình thức hai đoạn, mỗi nửa nhắc lại.", [("‖: Nửa đầu", "giọng chính → giọng mới", 1.3, "a"), ("chất liệu kết :‖", "ở giọng mới", .8, "cad"), ("‖: Nửa sau", "đi xa hơn", 1.3, "dev"), ("chất liệu kết :‖", "về giọng chính", .8, "cad")], "Từ điểm crux, phần cuối của hai nửa “gieo vần” với nhau."),
+ "g-k331": form_map("Sonata La trưởng K. 331: không chương nào ở hình thức sonata (độ dài các ô chỉ minh họa).", [("I. Chủ đề", "La trưởng · 6/8", 1, "a"), ("BT 1", "", .8, "b"), ("BT 2", "chùm ba", .8, "b"), ("BT 3", "La thứ", .8, "c"), ("BT 4", "vắt tay", .8, "b"), ("BT 5", "Adagio", 1.2, "b"), ("BT 6", "Allegro 4/4", .8, "b"), ("II. Menuetto", "trio Rê trưởng", 2.2, "a"), ("III. Alla turca", "La thứ ↔ La trưởng · coda", 2.2, "dev")]),
+ "g-mozart21": form_map("Concerto piano số 21, K. 467: chương 1 có hai lần trình bày, của dàn nhạc rồi của piano (độ dài các ô gần đúng).", [("Dàn nhạc trình bày", "I · Đô trưởng · hành khúc", 1.2, "a"), ("Piano trình bày", "rẽ sang Sol thứ → Sol trưởng", 1.6, "b"), ("Phát triển", "", .9, "dev"), ("Tái hiện", "Đô trưởng", 1.4, "a"), ("Cadenza", "piano một mình", .6, "cad"), ("Coda", "", .4, "coda"), ("II. Andante", "Fa trưởng · dây gắn sordino, chùm ba", 2.6, "c"), ("III. Allegro vivace assai", "Đô trưởng · rondo, có cadenza ngắn", 2.4, "a")], "Cadenza của Mozart cho concerto này đã thất lạc; nghệ sĩ chơi cadenza của người khác hoặc tự soạn."),
+ "g-pathetique": form_map("Sonata Pathétique, Op. 13: ba chương (độ dài các ô chỉ minh họa).", [("Grave", "mở đầu chậm · Đô thứ", .9, "intro"), ("Trình bày", "Allegro · chủ đề 2 ở Mi♭ thứ", 1.5, "a"), ("Grave", "vài ô nhịp", .35, "intro"), ("Phát triển", "", .8, "dev"), ("Tái hiện", "Đô thứ", 1.3, "a"), ("Coda", "Grave thoáng qua", .5, "coda"), ("II. Adagio cantabile", "La♭ trưởng · rondo A B A C A", 2.2, "b"), ("III. Rondo: Allegro", "Đô thứ · các đoạn xen ở Mi♭ và La♭ trưởng", 2, "a")], "Phần Grave quay lại hai lần trong chương 1: ở đầu phần phát triển và trong coda."),
+ "g-impromptu": form_map("Impromptu Sol♭ trưởng, D. 899 số 3: ba đoạn (gần đúng).", [("A", "Sol♭ trưởng · giai điệu hát trên dòng đệm chảy đều", 2, "a"), ("B", "bắt đầu ở Mi♭ thứ · bè trầm nhấn, chuyển giọng liên tục", 1.6, "c"), ("A'", "Sol♭ trưởng · khép lại rất nhỏ", 1.8, "a")], "Dòng đệm hợp âm rải gần như không dừng suốt bài."),
+ "g-kinderszenen": form_map("Kinderszenen, Op. 15: 13 cảnh nhỏ. Xanh dương: giọng trưởng; đỏ: giọng thứ; xanh lá: Träumerei, nằm đúng giữa; xám: lời kết.", [("1", "Xứ lạ · Sol trưởng", 1, "a"), ("2", "Chuyện kỳ lạ · Rê trưởng", 1, "a"), ("3", "Bịt mắt bắt dê · Si thứ", 1, "c"), ("4", "Nài nỉ · Rê trưởng", 1, "a"), ("5", "Đủ hạnh phúc · Rê trưởng", 1, "a"), ("6", "Sự kiện quan trọng · La trưởng", 1, "a"), ("7", "Träumerei · Fa trưởng", 1, "cad"), ("8", "Bên lò sưởi · Fa trưởng", 1, "a"), ("9", "Ngựa gỗ · Đô trưởng", 1, "a"), ("10", "Quá nghiêm trang · Sol♯ thứ", 1, "c"), ("11", "Dọa ma · Mi thứ / Sol trưởng", 1, "c"), ("12", "Thiu thiu ngủ · Mi thứ", 1, "c"), ("13", "Nhà thơ cất lời · Sol trưởng", 1, "coda")], "Chu trình mở và khép ở Sol trưởng; ba bản giọng thứ dồn về gần cuối (10–12), ngay trước lời kết."),
+ "g-chopin-etude": form_map("Étude Op. 10 số 3 (Mi trưởng) và số 12 (Đô thứ), gần đúng.", [("Số 3 · A", "Mi trưởng · giai điệu và đệm trong một tay", 2, "a"), ("B", "poco più animato · nốt kép", 1.6, "b"), ("Hợp âm bảy giảm", "", .8, "dev"), ("Con bravura", "quãng sáu kép", .8, "c"), ("Bảy át kéo dài", "dẫn về chủ đề", .8, "cad"), ("A'", "rút gọn · tắt dần", 1.4, "a"), ("Số 12 · Mở đầu", "tay trái đổ xuống", .7, "intro"), ("A", "Đô thứ · quãng tám tay phải", 1.2, "c"), ("B", "chuyển giọng", 1, "dev"), ("A'", "", 1, "c"), ("Coda", "lắng xuống · kết Đô trưởng", .8, "coda")], "Ở số 12, tay trái chạy móc kép gần như không nghỉ từ đầu đến cuối."),
+ "g-liebestraum": form_map("Liszt, Liebestraum số 3: một giai điệu hát ba lần, ngăn cách bởi hai cadenza (độ dài các ô gần đúng theo số ô nhịp).", [("A", "La♭ trưởng · giai điệu ở âm vực giữa", 23, "a"), ("Cadenza 1", "nốt nhỏ, không vạch nhịp", 2, "cad"), ("A'", "Si trưởng · più animato con passione", 11, "b"), ("Dồn lên cao trào", "sempre stringendo · quãng tám", 21, "dev"), ("Cadenza 2", "quãng ba gãy đi xuống", 2, "cad"), ("A''", "La♭ trưởng · lắng dần đến kết", 26, "a")]),
+ "g-brahms-118-2": form_map("Brahms, Intermezzo Op. 118 số 2: ba đoạn A – B – A (độ dài các ô theo số ô nhịp).", [("A", "La trưởng · ô 1–48", 48, "a"), ("B", "Fa♯ thứ · canon · ô 49–56", 8, "c"), ("Hợp xướng", "Fa♯ trưởng · ô 57–64", 8, "b"), ("B'", "Fa♯ thứ trở lại · ô 65–76", 12, "c"), ("A'", "La trưởng · ô 77–116", 40, "a")], "Đoạn B tự nó cũng là ba đoạn nhỏ: Fa♯ thứ – Fa♯ trưởng – Fa♯ thứ."),
+ "g-grieg": form_map("Grieg, Concerto piano cung La thứ (độ dài các ô gần đúng theo thời lượng).", [("I. Trình bày", "La thứ → Đô trưởng", 4, "a"), ("Phát triển", "", 2, "dev"), ("Tái hiện", "chủ đề 2 ở La trưởng", 3, "a"), ("Cadenza", "piano một mình", 2.5, "cad"), ("Coda", "", 1, "coda"), ("II. Adagio", "Rê♭ trưởng", 6.5, "b"), ("III. Halling", "La thứ, 2/4", 3, "c"), ("Chủ đề sáo", "Fa trưởng", 2.5, "b"), ("Halling trở lại", "", 2, "c"), ("Quasi presto", "3/4", 1, "dev"), ("Andante maestoso", "chủ đề sáo, La trưởng", 1.5, "coda")], "Chương II nối thẳng sang chương III."),
+ "g-mussorgsky": form_map("Mussorgsky, Những bức tranh ở phòng triển lãm (bản piano): mười bức tranh nối với nhau bằng các Promenade (độ dài các ô gần đúng theo thời lượng).", [("Promenade", "Si♭ trưởng", 1.5, "a"), ("1. Gnomus", "", 2.5, "dev"), ("Promenade", "", .8, "a"), ("2. Lâu đài cổ", "", 4, "b"), ("Promenade", "", .5, "a"), ("3. Tuileries", "", 1, "c"), ("4. Bydło", "", 2.5, "dev"), ("Promenade", "", .7, "a"), ("5. Gà con", "", 1.2, "c"), ("6. Goldenberg và Schmuÿle", "", 2.2, "dev"), ("Promenade", "Ravel bỏ", 1.3, "a"), ("7. Limoges", "", 1.3, "c"), ("8. Catacombae", "", 1.7, "dev"), ("Cum mortuis", "Promenade, giọng thứ", 1.8, "a"), ("9. Baba Yaga", "", 3.3, "dev"), ("10. Cổng lớn Kiev", "Promenade trở lại", 5, "coda")], "Ô màu Promenade là chủ đề “người xem tranh”; Cum mortuis là biến thể của nó."),
+}
+
 FIGS = {
     "ranges-orchestra": figure(ranges_svg(RANGES_ORCH, "Âm vực thường dùng (âm thanh thật, gần đúng) của các nhạc cụ trong dàn nhạc, so với bàn phím piano"),
                                "Âm vực thường dùng (âm thanh thật, gần đúng). Đường nét đứt là Đô giữa."),
@@ -433,6 +673,7 @@ FIGS = {
 }
 FIGS.update(FORMS)
 FIGS.update({"voice-leading": voice_leading_figs(), "counterpoint": counterpoint_svg(), "texture-rolls": texture_figs(), "keymap": keymap_svg(), "beats": beats_svg()})
+FIGS.update(PIANO_FIGS)
 EXTERNAL = {"keysigs"}   # sinh bởi tools/keysigs.mjs (cần abcjs)
 
 def insert_all(check=False):
@@ -446,7 +687,7 @@ def insert_all(check=False):
                 if name in EXTERNAL: return m.group(0)   # hình do script khác quản lý
                 if name not in FIGS: raise KeyError("Hình chưa định nghĩa: %s (trong %s)" % (name, p))
                 return "<!-- fig:%s -->\n%s\n<!-- /fig:%s -->" % (name, FIGS[name], name)
-            s = re.sub(r"<!-- fig:([\w-]+) -->(?:\n.*?\n<!-- /fig:\1 -->)?", rep, s, flags=re.S)
+            s = re.sub(r"<!-- fig:([\w-]+) -->(?:\n(?:.*?\n)?<!-- /fig:\1 -->)?", rep, s, flags=re.S)
             if s != orig:
                 changed += 1
                 if check: print("figures: hình trong", os.path.relpath(p, DOCS), "chưa cập nhật; hãy chạy python3 tools/figures.py")

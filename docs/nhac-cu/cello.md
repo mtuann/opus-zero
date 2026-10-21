@@ -2,6 +2,9 @@
 
 Cello có âm vực gần với **giọng nam** — từ trầm ấm đến cao vút — và được nhiều người coi là nhạc cụ "biểu cảm nhất" của dàn nhạc. Tiếng cello vừa có thể làm nền trầm, vừa có thể hát như một giọng người.
 
+!!! note "Trang này thuộc phần nghe"
+    Opus Zero tập trung vào piano; trang này giúp bạn **nghe hiểu** nhạc cụ này khi nó xuất hiện trong dàn nhạc, nhạc thính phòng hay concerto. Phần học chơi bên dưới (lộ trình, 10 bài đầu tiên) chỉ để tham khảo. Xem [Nhạc cụ trong dàn nhạc](index.md).
+
 ## Âm thanh và cấu tạo
 
 Cello có 4 dây lên theo quãng 5: **Đô2 – Sol2 – Rê3 – La3**, thấp hơn viola đúng một quãng tám. Người chơi **ngồi**, đàn tựa giữa hai đầu gối, chân chống (endpin) tì xuống sàn. Âm vực thường dùng từ Đô2 đến khoảng Đô6.

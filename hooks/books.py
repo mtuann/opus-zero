@@ -26,12 +26,21 @@ BOOKS = [
      ["lich-su/", "lich-su/thoi-ky/trung-co/", "lich-su/thoi-ky/phuc-hung/", "lich-su/thoi-ky/baroque/", "lich-su/thoi-ky/co-dien/",
       "lich-su/thoi-ky/lang-man/", "lich-su/thoi-ky/the-ky-20/", "lich-su/duong-dai/", "lich-su/nha-soan-nhac/", "lich-su/nu-nha-soan-nhac/",
       "lich-su/opera/", "lich-su/viet-nam/", "lich-su/nhac-truyen-thong-viet-nam/"]),
-    ("huong-dan-nghe", "Hướng dẫn nghe", "Cách đọc tên tác phẩm và bản thu, cùng 32 hướng dẫn nghe từng bước, có chỗ để ghi mốc thời gian bằng tay.",
+    ("huong-dan-nghe", "Hướng dẫn nghe", "Cách đọc tên tác phẩm và bản thu, cùng 44 hướng dẫn nghe từng bước (18 về nhạc piano), có chỗ để ghi mốc thời gian bằng tay.",
      ["nghe-nhac/doc-ten-tac-pham/"] + ["nghe-nhac/%s/" % n for n in [
          "vivaldi-mua-xuan", "vivaldi-mua-dong", "bach-prelude-c", "bach-cello-1", "bach-air", "handel-hallelujah", "haydn-94", "mozart-40", "mozart-nu-hoang-bong-dem", "mozart-requiem",
          "mozart-eine-kleine", "beethoven-5", "beethoven-op132", "beethoven-moonlight", "schubert-erlkonig", "schubert-ca-hoi", "chopin-nocturne", "mendelssohn-violin", "bizet-habanera",
          "tchaikovsky-ho-thien-nga", "tchaikovsky-1812", "brahms-4", "dvorak-9-largo", "grieg-buoi-sang", "puccini-nessun-dorma", "debussy-clair-de-lune", "rachmaninoff-2", "ravel-bolero",
-         "gershwin-rhapsody", "stravinsky-sacre", "shostakovich-5", "part-spiegel"]]),
+         "gershwin-rhapsody", "stravinsky-sacre", "shostakovich-5", "part-spiegel",
+         "scarlatti-sonata", "bach-goldberg", "mozart-k331", "mozart-concerto-21", "beethoven-pathetique", "schubert-impromptu",
+         "chopin-etude", "schumann-kinderszenen", "liszt-liebestraum", "grieg-concerto", "mussorgsky-tranh", "brahms-intermezzo"]]),
+    ("piano-ky-thuat", "Piano: kỹ thuật và cách tập", "Lộ trình, tư thế, bản đồ bàn phím, năm ngón, gam và ngón bấm, hợp âm và hình đệm, tạo tiếng đàn, bàn đạp, nốt hoa mỹ, phối hợp hai tay, bài tập ngón, cách tập, thị tấu, học thuộc và biểu diễn, giữ tay khỏe; hòa âm bên phím và ứng tác.",
+     ["piano/%s/" % n for n in ["lo-trinh", "tu-the", "ban-do-ban-phim", "nam-ngon", "gam", "hop-am-rai", "tieng-dan", "ban-dap", "not-hoa-my",
+                                 "hai-tay", "bai-tap-ngon", "cach-tap", "thi-tau", "hoc-thuoc-bieu-dien", "suc-khoe",
+                                 "hoa-am", "hoa-am/ket", "hoa-am/dem-giai-dieu", "hoa-am/mau-galant", "hoa-am/ung-tac"]]),
+    ("piano-tac-pham", "Piano: 10 bài đầu tiên và bài học tác phẩm", "10 bài hai tay có số ngón và 26 bài học tác phẩm, từ Minuet Fa trưởng của Mozart đến Ballade số 1 của Chopin: cấu trúc, chỗ khó, bài tập chuẩn bị, kế hoạch tập.",
+     ["piano/10-bai-dau-tien/", "piano/tac-pham-theo-cap/"] + ["piano/tac-pham/%s/" % n for n in [
+         "mozart-minuet-k2", "minuet-sol", "minuet-sol-thu", "musette-re", "schumann-album", "burgmuller-la-candeur", "tchaikovsky-bai-ca-phap-co", "beethoven-sonatina-sol", "clementi-sonatina", "burgmuller-arabesque", "bach-prelude-bwv939", "tchaikovsky-cau-nguyen-buoi-sang", "chopin-valse-la-thu", "chopin-prelude-la-truong", "grieg-arietta", "satie-gymnopedie", "bach-prelude-do", "chopin-prelude-mi-thu", "fur-elise", "bach-invention-1", "mozart-k545", "schumann-traumerei", "pathetique-adagio", "chopin-nocturne-op9-2", "debussy-clair-de-lune", "chopin-ballade-1"]]),
 ]
 LETTERS = "ABCDEFGH"
 

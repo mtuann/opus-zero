@@ -2,6 +2,9 @@
 
 Trumpet là **giọng lệnh** của dàn nhạc: sáng, vang xa, xuyên qua mọi âm thanh khác. Từ tiếng kèn trận thời xưa đến những đoạn cao trào chói lọi trong giao hưởng, trumpet là nhạc cụ của sự hùng tráng — nhưng cũng có thể thủ thỉ rất tình cảm khi chơi nhỏ và dùng sordino (nút bịt).
 
+!!! note "Trang này thuộc phần nghe"
+    Opus Zero tập trung vào piano; trang này giúp bạn **nghe hiểu** nhạc cụ này khi nó xuất hiện trong dàn nhạc, nhạc thính phòng hay concerto. Phần học chơi bên dưới (lộ trình, 10 bài đầu tiên) chỉ để tham khảo. Xem [Nhạc cụ trong dàn nhạc](index.md).
+
 ## Âm thanh và cấu tạo
 
 Trumpet tạo âm bằng **môi rung** (như thổi "bờ" môi) vào miệng kèn, rồi dùng **3 van piston** để đổi độ dài ống, từ đó đổi cao độ. Mỗi van hạ cao độ một lượng cố định (van 2: nửa cung, van 1: nguyên cung, van 3: quãng 3 thứ); phối hợp các van tạo ra mọi nốt chromatic.

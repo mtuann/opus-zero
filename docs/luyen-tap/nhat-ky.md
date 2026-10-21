@@ -8,6 +8,12 @@ Mỗi ô vuông là một ngày; màu càng đậm là ngày luyện tập càng
 
 <div class="oz-plan"></div>
 
+## Bài đang tập
+
+Bấm "Tôi đang tập bài này" ở đầu mỗi [bài học tác phẩm](../piano/tac-pham/index.md); bài sẽ hiện ở đây và trong kế hoạch hôm nay, bài lâu chưa tập được nhắc trước.
+
+<div class="oz-repertoire"></div>
+
 ## Tiến bộ theo tuần
 
 <div class="oz-trends"></div>

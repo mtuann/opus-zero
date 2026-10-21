@@ -51,10 +51,42 @@ test("kế hoạch ưu tiên kỹ năng yếu và chỉ một kỹ năng mới",
   const fresh = r.rows.filter((x) => x.n === 0 && skills.includes(x.name));
   assert.ok(fresh.length <= 1);
 });
-test("người mới: bài học đầu tiên và khóa kỹ năng nâng cao", () => {
+test("người mới: bắt đầu bên đàn, vẫn có bài nhạc lý đầu tiên, khóa kỹ năng nâng cao", () => {
   const r = P.compute({ today: "2026-10-12", skills: {}, lessons: {}, cardsDue: 0 });
-  assert.match(r.plan[0].name, /Cao độ và tên nốt/);
+  assert.equal(r.plan[0].kind, "piano");
+  assert.match(r.plan[0].url, /hai-tuan-dau/);
+  assert.ok(r.plan.some((p) => /Cao độ và tên nốt/.test(p.name)));
   assert.ok(r.rows.find((x) => x.id === "chords").unlocked === false);
+});
+test("bài đang tập lên đầu kế hoạch (bài lâu chưa tập trước), gam theo chặng và đổi mỗi tuần", () => {
+  const r = P.compute({ today: "2026-10-12", skills: {}, lessons: {}, cardsDue: 0, piano: { stage: 3, rep: {
+    "piano/tac-pham/fur-elise/": { name: "Für Elise", status: "learning", last: "2026-10-11" },
+    "piano/tac-pham/minuet-sol/": { name: "Minuet", status: "learning", last: "2026-10-01" },
+    "piano/tac-pham/mozart-k545/": { name: "K. 545", status: "done", last: "2026-09-01" } } } });
+  assert.equal(r.plan[0].kind, "piano");
+  assert.match(r.plan[0].name, /^Khởi động: gam .+ trưởng và .+ thứ/);
+  assert.deepEqual([...r.plan.filter((p) => p.kind === "piece").map((p) => p.name)], ["Tập bài: Minuet", "Tập bài: Für Elise"]);
+  assert.ok(r.plan.filter((p) => p.kind === "skill").length <= 2);
+  assert.notEqual(P.warmup(3, "2026-10-12").name, P.warmup(3, "2026-10-19").name);
+  assert.equal(P.warmup(3, "2026-10-12").name, P.warmup(3, "2026-10-18").name);
+});
+
+const S2 = load("sight2.js").OZSight2;
+test("thị tấu hai tay: đủ phách, trong thế năm ngón, phách mạnh thuộc hợp âm, kết về chủ âm", () => {
+  const CH = { I: [1, 3, 5], IV: [4, 6, 1], V: [5, 7, 2] };
+  for (const lv of [1, 2, 3, 4]) for (let i = 0; i < 300; i++) {
+    const ex = S2.gen(lv), n = ex.meter === "3/4" ? 3 : 4, strong = n === 3 ? [0] : [0, 2];
+    for (const hand of [ex.rh, ex.lh]) for (const bar of hand) if (bar) {
+      assert.equal(bar.reduce((s, x) => s + x[1], 0), n);
+      for (const x of bar) assert.ok(x[0] >= 1 && x[0] <= 5, "ngoài thế năm ngón: " + x[0]);
+    }
+    const last = (lv === 1 ? ex.lh : ex.rh)[3];
+    assert.equal(last[last.length - 1][0], 1);
+    if (lv >= 2) ex.rh.forEach((bar, b) => { let t = 0; for (const x of bar) { if (strong.includes(t)) assert.ok(CH[ex.plan[b]].includes(x[0]), ex.abc); t += x[1]; } });
+    assert.match(ex.abc, /%%score \{RH LH\}/);
+    assert.equal((ex.abc.match(/\|\]/g) || []).length, 2);
+  }
+  assert.equal(S2.abcNote(28), "C"); assert.equal(S2.abcNote(17), "F,,"); assert.equal(S2.abcNote(36), "d");
 });
 
 const R = load("rhythm.js").OZRhythm;

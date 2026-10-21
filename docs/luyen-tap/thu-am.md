@@ -6,7 +6,7 @@ Thu âm ngay trong trình duyệt, đặt tên, nghe lại, tải về, và **so
 
 ## Vì sao nên thu âm?
 
-Khi đang chơi, tai bạn bận với ngón tay và bản nhạc; khi nghe lại, bạn nghe như một khán giả. Đó là nguyên tắc số 6 trong [Cách tập hiệu quả](../nhac-cu/cach-tap.md).
+Khi đang chơi, tai bạn bận với ngón tay và bản nhạc; khi nghe lại, bạn nghe như một khán giả. Đó là lý do thu âm là một phần của [cách tập piano hiệu quả](../piano/cach-tap.md).
 
 **Một thói quen gợi ý:**
 

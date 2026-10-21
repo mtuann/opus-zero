@@ -2,7 +2,7 @@
    Các script được tải song song nhưng chạy đúng thứ tự phụ thuộc (async = false). */
 (function () {
   "use strict";
-  const VERSION = "10";
+  const VERSION = "11";
   const me = document.currentScript || document.querySelector('script[src*="assets/js/loader.js"]');
   const BASE = me ? me.src.replace(/loader\.js.*$/, "") : "assets/js/";
   /* abcjs đi kèm trong repo (docs/assets/js/vendor/) để dùng được khi mất mạng; mermaid vẫn tải từ CDN */
@@ -22,6 +22,7 @@
     [".oz-circle, .oz-keysig-quiz", ["abcjs", "theory", "circle"]],
     [".oz-rhythm", ["abcjs", "viz", "rhythm"]],
     [".oz-sight", ["abcjs", "theory", "midi", "tuner", "mic", "assess", "viz", "sight-reading"]],
+    [".oz-sight2", ["abcjs", "abc", "sight2"]],
     [".oz-tuner", ["tuner"]],
     [".oz-quiz, .oz-lesson-status", ["quiz"]],
     [".oz-placement", ["placement"]],
@@ -39,7 +40,8 @@
     [".oz-trends", ["plan", "viz"]],
     [".oz-flashcards", ["flashcards"]],
     [".oz-journal, .oz-summary", ["journal"]],
-    [".oz-data", ["data"]]
+    [".oz-data", ["data"]],
+    [".task-list-item, .oz-piece, .oz-repertoire, .oz-piano-level", ["practice"]]
   ];
   const requested = {};
   const readyFns = [];

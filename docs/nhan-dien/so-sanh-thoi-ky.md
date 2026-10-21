@@ -9,7 +9,7 @@ Bảng dưới đây đặt các thời kỳ cạnh nhau theo [bảy yếu tố]
 
 ## Bảng so sánh
 
-| | Baroque (~1600–1750) | Cổ điển (~1750–1820) | Lãng mạn (~1820–1900) | Ấn tượng (~1890–1920) | Thế kỷ 20 (từ ~1910) |
+| Đặc điểm | Baroque (~1600–1750) | Cổ điển (~1750–1820) | Lãng mạn (~1820–1900) | Ấn tượng (~1890–1920) | Thế kỷ 20 (từ ~1910) |
 |---|---|---|---|---|---|
 | **Biên chế** | Dàn dây nhỏ; **harpsichord** hoặc organ; kèn trumpet sáng | **Piano**; dàn nhạc chuẩn cỡ vừa; tứ tấu đàn dây | Dàn nhạc **rất lớn**, kèn đồng mạnh, nhiều bộ gõ; piano hiện đại | Màu sắc nhạc cụ tinh tế: sáo, harp, celesta, dây có câm tiếng | Mọi thứ: từ nhóm nhỏ khác thường đến dàn nhạc khổng lồ, nhạc cụ gõ, điện tử |
 | **Kết cấu** | Nhiều **phức điệu**; bè trầm liên tục | **Chủ điệu**: giai điệu rõ trên phần đệm | Chủ điệu, nhưng dày, nhiều lớp | Các lớp âm thanh như sương mù | Rất đa dạng; có khi chỉ là các khối âm thanh |

@@ -1,6 +1,6 @@
-# Lộ trình 12 tháng
+# Lộ trình nhạc lý và nghe 12 tháng
 
-Lộ trình này dành cho người chưa biết gì về nhạc lý, mỗi ngày học khoảng 20–30 phút. Thời gian chỉ là gợi ý: đi chậm hơn hoàn toàn ổn, miễn là đều đặn.
+Lộ trình này dành cho phần "đầu" và "tai": nhạc lý, đọc nhạc và nghe hiểu, mỗi ngày khoảng 20–30 phút. Nếu bạn học piano, [Lộ trình piano năm đầu](lo-trinh-choi.md) đã lồng các bài dưới đây vào kế hoạch từng tháng; trang này hữu ích khi bạn muốn đi sâu hơn về nhạc lý, hoặc chưa có đàn. Thời gian chỉ là gợi ý: đi chậm hơn hoàn toàn ổn, miễn là đều đặn.
 
 ## Giai đoạn 1: Tháng 1–2: Đọc được nốt nhạc
 
@@ -70,10 +70,10 @@ Mục tiêu: đặt mỗi tác phẩm vào bối cảnh thời kỳ và so sánh
 
 - [ ] [Âm học cơ bản](../nhac-ly/am-hoc.md), rồi 7 bài trung cấp, bắt đầu từ [Hòa âm bốn bè](../nhac-ly/21-hoa-am-bon-be.md)
 - [ ] Mỗi tháng phân tích một tác phẩm theo [quy trình 6 bước](../nhac-ly/26-phan-tich.md)
-- [ ] Nghe hết 23 [hướng dẫn nghe](../nghe-nhac/index.md), ghi mốc thời gian theo bản thu bạn chọn
+- [ ] Nghe hết các [hướng dẫn nghe](../nghe-nhac/index.md) (44 tác phẩm, trong đó 18 tác phẩm piano), ghi mốc thời gian theo bản thu bạn chọn
 
 ## Song song suốt năm
 
 - [ ] Luyện tập gần như mỗi ngày, theo dõi bằng [nhật ký luyện tập](../luyen-tap/nhat-ky.md)
-- [ ] Nếu có thể, học một nhạc cụ — xem [Nhạc cụ](../nhac-cu/index.md). Piano giúp hiểu nhạc lý nhanh nhất.
+- [ ] Nếu có thể, học piano song song: [Lộ trình piano năm đầu](lo-trinh-choi.md). Piano biến mọi bài nhạc lý ở trên thành thứ bạn chơi được.
 - [ ] Đi xem ít nhất một buổi hòa nhạc trực tiếp

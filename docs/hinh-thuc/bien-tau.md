@@ -17,7 +17,7 @@ Một số bộ biến tấu không giữ giai điệu mà giữ **vòng hợp �
 
 ## Đi qua một tác phẩm: Mozart, 12 biến tấu "Ah, vous dirai-je, maman", K. 265
 
-Chủ đề là giai điệu dân gian Pháp mà người Việt quen gọi là *Twinkle, Twinkle, Little Star* (xem bản nhạc trong [10 bài đầu tiên cho piano](../nhac-cu/piano.md)). Mozart viết bộ biến tấu này ở Vienna, khoảng 1781–1782.
+Chủ đề là giai điệu dân gian Pháp mà người Việt quen gọi là *Twinkle, Twinkle, Little Star* (xem bản soạn hai tay trong [10 bài đầu tiên](../piano/10-bai-dau-tien.md)). Mozart viết bộ biến tấu này ở Vienna, khoảng 1781–1782.
 
 
 <!-- fig:form-variations-k265 -->

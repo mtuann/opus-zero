@@ -26,12 +26,15 @@ Danh sách được chọn lọc cho người tự học từ đầu. Hầu hế
 - Burkholder, Grout, Palisca, *A History of Western Music* — giáo trình lịch sử chuẩn.
 - Alex Ross, *The Rest Is Noise* — lịch sử âm nhạc thế kỷ 20.
 
-## Thi cấp và giáo trình nhạc cụ
+## Học piano: thi cấp, giáo trình, sách
 
-- [ABRSM](https://www.abrsm.org/): chương trình piano hiện hành có hiệu lực đến 31/12/2026; chương trình đàn dây (violin, viola, cello, contrabass) từ năm 2024 có hiệu lực đến khi có thông báo mới; chương trình guitar từ năm 2019. Danh sách tác phẩm theo cấp là nguồn gợi ý tốt kể cả khi không thi.
+- [ABRSM](https://www.abrsm.org/): chương trình piano **2027–2028** dùng được từ 1/1/2027, chương trình 2025–2026 còn hiệu lực đến 31/12/2027; chương trình đàn dây (violin, viola, cello, contrabass) từ năm 2024 có hiệu lực đến khi có thông báo mới; chương trình guitar từ năm 2019. Danh sách tác phẩm theo cấp là nguồn gợi ý tốt kể cả khi không thi.
 - [Trinity College London](https://www.trinitycollege.com/): thi cấp piano, violin, guitar cổ điển từ Initial đến Grade 8.
 - [Practising the Piano](https://practisingthepiano.com/) của Graham Fitch: bài viết và video về cách tập, có loạt bài về chương trình ABRSM 2025–2026.
-- Kênh **This Is Classical Guitar** (Bradford Werner): bài học và bản nhạc guitar miễn phí.
+- Giáo trình piano cho người lớn: *Alfred's Basic Adult Piano Course* (hoặc *Adult All-in-One*), *Faber Adult Piano Adventures*. Dùng song song với [10 bài đầu tiên](piano/10-bai-dau-tien.md) và [lộ trình piano năm đầu](bat-dau/lo-trinh-choi.md).
+- Bản nhạc **Urtext** (in theo nguồn gốc của tác giả): [G. Henle Verlag](https://www.henle.de/) (có ứng dụng Henle Library và thang độ khó 1–9 cho từng bài), Wiener Urtext, Bärenreiter. Xem cách chọn ấn bản ở [Tác phẩm theo cấp độ](piano/tac-pham-theo-cap.md).
+- Sách về cách chơi và cách tập: Heinrich Neuhaus, *The Art of Piano Playing*; Seymour Bernstein, *With Your Own Two Hands*; Thomas Mark, *What Every Pianist Needs to Know About the Body*; Gerald Klickstein, *The Musician's Way*. Danh mục đầy đủ ở cuối từng trang trong mục [Piano](piano/index.md).
+- Nhạc cụ khác: kênh **This Is Classical Guitar** (Bradford Werner) có bài học và bản nhạc guitar miễn phí.
 
 ## Chọn bản thu
 
@@ -43,7 +46,7 @@ Danh sách được chọn lọc cho người tự học từ đầu. Hầu hế
 
 - Dịch vụ chuyên nhạc cổ điển: **Apple Music Classical**, **Idagio**. Thông tin bản thu đầy đủ hơn ứng dụng nghe nhạc thông thường.
 - Kênh YouTube của **Viện Fryderyk Chopin**: toàn bộ các vòng thi Chopin, gồm cả cuộc thi năm 2025.
-- Xem trang chi tiết từng nhạc cụ: [Piano](nhac-cu/piano.md), [Violin](nhac-cu/violin.md), [Guitar](nhac-cu/guitar.md).
+- Học piano: toàn bộ mục [Piano](piano/index.md). Nhạc cụ khác (để nghe hiểu): [Violin](nhac-cu/violin.md), [Guitar](nhac-cu/guitar.md), [Dàn nhạc](nhac-cu/dan-nhac.md).
 
 ## Nhận biết nhạc cụ
 
@@ -53,6 +56,7 @@ Danh sách được chọn lọc cho người tự học từ đầu. Hầu hế
 
 - [IMSLP](https://imslp.org/) — kho bản nhạc cổ điển thuộc phạm vi công cộng lớn nhất thế giới.
 - [Musopen](https://musopen.org/) — bản thu âm và bản nhạc miễn phí bản quyền.
+- [Mutopia Project](https://www.mutopiaproject.org/) — bản nhạc phạm vi công cộng do cộng đồng chép lại bằng LilyPond, in rõ, tải miễn phí.
 
 ## Phần mềm viết nhạc
 

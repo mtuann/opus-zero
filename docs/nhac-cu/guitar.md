@@ -2,6 +2,28 @@
 
 Guitar cổ điển dùng **dây nylon**, cần đàn rộng hơn guitar dây sắt, và có kỹ thuật tay phải riêng: gảy bằng ngón tay và móng, không dùng phím gảy. Lưu ý: guitar đọc khóa Sol nhưng **âm thanh thật thấp hơn một quãng tám** so với nốt viết.
 
+!!! note "Trang này thuộc phần nghe"
+    Opus Zero tập trung vào piano; trang này giúp bạn **nghe hiểu** nhạc cụ này khi nó xuất hiện trong dàn nhạc, nhạc thính phòng hay concerto. Phần học chơi bên dưới (lộ trình, 10 bài đầu tiên) chỉ để tham khảo. Xem [Nhạc cụ trong dàn nhạc](index.md).
+
+## Nên nghe
+
+- Francisco Tárrega: *Recuerdos de la Alhambra*
+- Isaac Albéniz: *Asturias* (vốn là một bản **piano**, nay nổi tiếng nhất ở dạng chuyển soạn cho guitar)
+- Joaquín Rodrigo: *Concierto de Aranjuez*
+- Heitor Villa-Lobos: *5 Préludes*
+- Agustín Barrios Mangoré: *La Catedral*
+- Fernando Sor: các étude; Bach: các tổ khúc cho đàn lute (bản cho guitar)
+
+## Nghệ sĩ nên tìm
+
+Andrés Segovia, Julian Bream, John Williams (nghệ sĩ guitar người Úc, không phải nhà soạn nhạc phim), Ana Vidović, Marcin Dylla.
+
+## Nếu muốn học chơi
+
+- Chọn **guitar cổ điển dây nylon**, không phải guitar acoustic dây sắt (khác cần đàn, khác kỹ thuật). Kích cỡ chuẩn cho người lớn có chiều dài dây rung khoảng **650 mm**.
+- Kiểm tra **độ cao dây**: dây quá cao rất khó bấm. Mặt đàn **gỗ nguyên tấm** cho tiếng hay hơn mặt ép, nhưng đắt hơn. Mua kèm **ghế kê chân** hoặc **giá đỡ đàn**.
+- Giáo trình: Frederick Noad *Solo Guitar Playing*, *Sagreras Guitar Lessons*, các bài luyện của Carcassi và Giuliani. Tập đúng tư thế ngồi và hai kiểu gảy tay phải (*rest stroke*, *free stroke*) ngay từ đầu.
+
 ## Lộ trình theo cấp độ
 
 **ABRSM** có chương trình guitar (từ năm 2019) với Grade 1–8, và chưa công bố lịch sửa đổi tiếp theo. **Trinity College London** cũng thi guitar cổ điển từ Initial đến Grade 8; xem chương trình hiện hành tại [trinitycollege.com](https://www.trinitycollege.com/).
@@ -185,7 +207,7 @@ G2 z2 d2 z2 | G2 z2 d2 z2 | G2 d2 g2 b2 | d'4 z4 |]
 - [Trinity Classical Guitar](https://www.trinitycollege.com/qualifications/music/grade-exams/classical-guitar): danh sách tác phẩm theo cấp.
 - Kênh YouTube **Bradford Werner (This Is Classical Guitar)** có rất nhiều bài học và bản nhạc miễn phí cho người mới.
 
-Xem thêm: [cách tập hiệu quả](cach-tap.md), [mua đàn và chọn thầy](mua-dan-chon-thay.md).
+Nguyên tắc tập luyện chung cho mọi nhạc cụ: [Cách tập hiệu quả](../piano/cach-tap.md).
 
 ## Nguồn
 

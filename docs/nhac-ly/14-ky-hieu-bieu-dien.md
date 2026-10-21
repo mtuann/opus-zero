@@ -93,7 +93,8 @@ K:C
 | Ký hiệu | Tên | Cách chơi |
 |---|---|---|
 | *tr* | Láy rền (trill) | Đổi nhanh liên tục giữa nốt chính và nốt trên |
-| Hình răng cưa ngắn | Láy (mordent) | Nốt chính – nốt trên – nốt chính, rất nhanh |
+| Răng cưa ngắn, không gạch | Láy trên (pralltriller) | Nốt chính – nốt trên – nốt chính, rất nhanh (trong nhạc Baroque thường bắt đầu từ nốt trên) |
+| Răng cưa ngắn, có gạch dọc | Láy dưới (mordent) | Nốt chính – nốt dưới – nốt chính, rất nhanh |
 | Hình chữ S nằm ngang | Láy quanh (turn) | Nốt trên – nốt chính – nốt dưới – nốt chính |
 | Nốt nhỏ có gạch chéo | Acciaccatura | Nốt luyến cực nhanh ngay trước nốt chính |
 | Nốt nhỏ không gạch | Appoggiatura | Nốt dựa, chiếm một phần độ dài nốt chính |
@@ -106,6 +107,9 @@ K:C
 
 !!! example "Luyện tập kèm theo"
     [Thẻ thuật ngữ](tu-dien.md) mỗi ngày, và [máy đếm nhịp](../luyen-tap/metronome.md) để cảm nhận các tốc độ Adagio, Allegro…
+
+!!! tip "Trên phím đàn"
+    Vài ký hiệu chỉ gặp trên bản nhạc piano: *Ped.* và \* (nhấn và nhả bàn đạp vang), *una corda* / *tre corde* (bàn đạp trái), *m.d.* / *m.s.* (tay phải / tay trái). Xem [Bàn đạp](../piano/ban-dap.md) và [Nốt hoa mỹ](../piano/not-hoa-my.md), nơi giải thích kỹ hai loại láy.
 
 ```quiz
 ? Ký hiệu mf nghĩa là gì?

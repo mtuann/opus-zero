@@ -51,9 +51,9 @@ async function open(rel, wait = 250) {
   return { w, d: w.document, errors, requested, save() { for (let i = 0; i < w.localStorage.length; i++) { const k = w.localStorage.key(i); storage[k] = w.localStorage.getItem(k); } }, close() { w.close(); } };
 }
 
-const TOOL_CLASSES = ["oz-note-reader","oz-interval-trainer","oz-chord-trainer","oz-scale-trainer","oz-metronome","oz-piano-explorer","oz-build","oz-circle","oz-keysig-quiz","oz-rhythm","oz-sight","oz-tuner","oz-quiz","oz-placement","oz-worksheet-gen","oz-timeline","oz-listen","oz-overtones","oz-tuning","oz-staffpaper","oz-style-example","oz-style-trainer","oz-cadence-trainer","oz-texture-trainer","oz-blind","oz-blind-log","oz-playalong","oz-singback","oz-dictation","oz-recorder","oz-spectrum","oz-plan","oz-skills","oz-flashcards","oz-journal","oz-summary","oz-midi-status","oz-sound-setting"];
+const TOOL_CLASSES = ["oz-sight2", "oz-note-reader","oz-interval-trainer","oz-chord-trainer","oz-scale-trainer","oz-metronome","oz-piano-explorer","oz-build","oz-circle","oz-keysig-quiz","oz-rhythm","oz-sight","oz-tuner","oz-quiz","oz-placement","oz-worksheet-gen","oz-timeline","oz-listen","oz-overtones","oz-tuning","oz-staffpaper","oz-style-example","oz-style-trainer","oz-cadence-trainer","oz-texture-trainer","oz-blind","oz-blind-log","oz-playalong","oz-singback","oz-dictation","oz-recorder","oz-spectrum","oz-plan","oz-skills","oz-flashcards","oz-journal","oz-summary","oz-midi-status","oz-sound-setting"];
 const pages = [];
-(function walk(d) { for (const f of fs.readdirSync(d)) { const p = path.join(d, f); if (fs.statSync(p).isDirectory()) walk(p); else if (f === "index.html") pages.push(path.relative(SITE, p)); } })(SITE);
+(function walk(d) { for (const f of fs.readdirSync(d)) { const p = path.join(d, f); if (fs.statSync(p).isDirectory()) walk(p); else if (f === "index.html" && !fs.readFileSync(p, "utf8").includes('http-equiv="refresh"')) pages.push(path.relative(SITE, p)); /* bỏ qua trang chuyển hướng (hooks/redirects.py) */ } })(SITE);
 
 let fail = 0, textOnly = 0, textOnlyScripts = 0;
 for (const rel of pages) {
@@ -157,6 +157,47 @@ const check = (name, cond, info = "") => { checks.push([name, !!cond]); if (!con
   check("bảng năng lực ghi nhận lượt đoán phong cách", /\d+%/.test(r.d.querySelector(".oz-skills").textContent));
   check("biểu đồ tiến bộ theo tuần hiển thị", r.d.querySelectorAll(".oz-trends .oz-trend svg").length >= 1, r.d.querySelector(".oz-trends").textContent.slice(0, 80));
   r.close();
+}
+/* ---- Theo dõi việc tập piano: tự đánh giá chặng, bài đang tập, kế hoạch hôm nay ---- */
+{
+  let r = await open("bat-dau/kiem-tra-dau-vao/index.html");
+  const boxes = [...r.d.querySelectorAll(".oz-piano-level input[type=checkbox]")];
+  check("tự đánh giá piano: ô đánh dấu bấm được và có nhãn", boxes.length >= 15 && boxes.every((b) => !b.disabled && b.getAttribute("aria-label")), String(boxes.length));
+  [0, 1, 2, 3, 4].forEach((i) => boxes[i] && boxes[i].click());
+  const res = r.d.querySelector(".oz-level-result");
+  check("tự đánh giá piano: tính ra chặng 3", res && /Chặng của bạn: 3\./.test(res.textContent), res && res.textContent.slice(0, 80));
+  r.save(); r.close();
+  r = await open("bat-dau/kiem-tra-dau-vao/index.html");
+  check("ô đã đánh dấu được nhớ khi mở lại trang", r.d.querySelectorAll(".oz-piano-level input:checked").length === 5);
+  r.close();
+  r = await open("piano/tac-pham/fur-elise/index.html");
+  const learn = r.d.querySelector('.oz-piece [data-a="learning"]');
+  check("bài học tác phẩm có nút \"Tôi đang tập bài này\"", !!learn);
+  if (learn) learn.click();
+  const done = r.d.querySelector('.oz-piece [data-a="practiced"]');
+  if (done) done.click();
+  r.save(); r.close();
+  r = await open("index.html", 400);
+  const items = [...r.d.querySelectorAll(".oz-plan li")].map((li) => li.textContent);
+  check("kế hoạch hôm nay: gam của chặng 3 rồi bài đang tập", /Khởi động: gam/.test(items[0] || "") && /Für Elise/.test(items[1] || ""), items.slice(0, 3).join(" | "));
+  const today = r.d.querySelector(".oz-home-today"), paths = r.d.querySelector(".oz-home-paths");
+  check("trang chủ: khối Hôm nay lên đầu khi đã có dữ liệu", today && paths && (today.compareDocumentPosition(paths) & 4));
+  r.close();
+}
+/* ---- Thị tấu hai tay ---- */
+{
+  const r = await open("luyen-tap/thi-tau-hai-tay/index.html", 400);
+  const box = r.d.querySelector(".oz-sight2");
+  const svg1 = box && box.querySelector(".abc-notation svg");
+  check("thị tấu hai tay: có bài trên khuông kép", !!svg1 && box.querySelectorAll(".abc-notation svg .abcjs-staff").length >= 2, box ? box.textContent.slice(0, 80) : "không có .oz-sight2");
+  const sel = box && box.querySelector('[data-k="lv"]');
+  if (sel) { sel.value = "3"; sel.dispatchEvent(new r.w.Event("change", { bubbles: true })); }
+  const info = box ? box.querySelector('[data-k="info"]').textContent : "";
+  check("thị tấu hai tay: đổi cấp tạo bài mới", box && box.querySelector(".abc-notation svg") !== svg1 && /nhịp (3|4)\/4/.test(info), info);
+  const good = box && box.querySelector('[data-r="good"]');
+  if (good) good.click();
+  check("thị tấu hai tay: tự chấm được ghi lại", box && /1 bài hai tay/.test(box.querySelector('[data-k="stats"]').textContent), box && box.querySelector('[data-k="stats"]').textContent);
+  r.save(); r.close();
 }
 /* ---- Sách in được ---- */
 for (const f of fs.readdirSync(path.join(SITE, "sach"))) {

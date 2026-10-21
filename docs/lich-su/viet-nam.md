@@ -12,7 +12,7 @@ Nhạc cổ điển phương Tây đến Việt Nam từ thời Pháp thuộc, r
 | **Nhạc viện TP.HCM** | 12/4/1956, tiền thân là trường Quốc gia Âm nhạc Sài Gòn | 112 Nguyễn Du, TP.HCM; đào tạo cả nhạc phương Tây và nhạc truyền thống |
 | **Học viện Âm nhạc Huế** | 2007 | Đại diện khu vực miền Trung |
 
-Các cơ sở này thường có hệ năng khiếu hoặc lớp ngắn hạn, và nhiều giảng viên, sinh viên nhận dạy riêng. Đây là nơi tốt để tìm thầy (xem [chọn giáo viên](../nhac-cu/mua-dan-chon-thay.md)).
+Các cơ sở này thường có hệ năng khiếu hoặc lớp ngắn hạn, và nhiều giảng viên, sinh viên nhận dạy riêng. Đây là nơi tốt để tìm thầy (xem [Học với thầy và thi cấp](../piano/thay-va-thi.md)).
 
 ## Dàn nhạc và đơn vị biểu diễn
 

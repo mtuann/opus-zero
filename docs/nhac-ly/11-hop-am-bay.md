@@ -76,6 +76,9 @@ Hợp âm bảy có 4 nốt nên có **ba thể đảo**:
 | Đảo 2 | Nốt năm | 4/3 |
 | Đảo 3 | Nốt bảy | 4/2 (hoặc 2) |
 
+!!! tip "Trên phím đàn"
+    Thể đảo giúp tay di chuyển ít: từ Đô–Mi–Sol sang Đô–Fa–La hay Si–Fa–Sol chỉ cần dời một hai ngón. Ngón bấm cho từng thể đảo ở hai tay: [Hợp âm, hợp âm rải và hình đệm](../piano/hop-am-rai.md).
+
 ## Bài tập
 
 1. Viết hợp âm Fa trưởng ở đảo 1. Nốt nào ở bè trầm?

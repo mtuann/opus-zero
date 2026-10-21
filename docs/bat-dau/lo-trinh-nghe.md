@@ -8,6 +8,7 @@ Dành cho bạn muốn **hiểu và tận hưởng** nhạc cổ điển, chưa 
 - [ ] Nhạc lý: [bài 1](../nhac-ly/01-cao-do-ten-not.md) và [bài 4](../nhac-ly/04-nhip.md), đủ để hiểu cao độ và nhịp.
 - [ ] Nghe: [Vivaldi *Mùa xuân*](../nghe-nhac/vivaldi-mua-xuan.md), [Mozart *Eine kleine Nachtmusik*](../nghe-nhac/mozart-eine-kleine.md), [Haydn *Surprise*](../nghe-nhac/haydn-94.md).
 - [ ] Mỗi ngày 5 phút [nhận biết quãng](../luyen-tap/quang.md) ở bộ Khởi động.
+- [ ] Một tác phẩm piano: [Mozart *Sonata K. 331*](../nghe-nhac/mozart-k331.md), chương 3 *Alla turca*.
 
 ## Tháng 2: Sáng và tối
 
@@ -41,6 +42,7 @@ Dành cho bạn muốn **hiểu và tận hưởng** nhạc cổ điển, chưa 
 
 - [ ] Đọc trang riêng của từng [thời kỳ](../lich-su/index.md), mỗi trang có 10 tác phẩm để nghe.
 - [ ] Nghe các hướng dẫn còn lại: [Bach cello](../nghe-nhac/bach-cello-1.md), [Mozart *Requiem*](../nghe-nhac/mozart-requiem.md), [Schubert *Con cá hồi*](../nghe-nhac/schubert-ca-hoi.md), [Brahms 4](../nghe-nhac/brahms-4.md), [Ravel *Boléro*](../nghe-nhac/ravel-bolero.md), [Shostakovich 5](../nghe-nhac/shostakovich-5.md), [Beethoven Op. 132](../nghe-nhac/beethoven-op132.md).
+- [ ] Nghe trọn mục **Nhạc piano** (18 hướng dẫn, theo thứ tự thời gian từ [Bach](../nghe-nhac/bach-prelude-c.md) đến [Gershwin](../nghe-nhac/gershwin-rhapsody.md)), kèm [Các thể loại nhạc piano](../piano/the-loai.md) và [Nghệ sĩ piano và bản thu](../piano/nghe-si.md). Muốn tự chơi: [Lộ trình piano năm đầu](lo-trinh-choi.md).
 - [ ] Đọc các trang hình thức chi tiết: [sonata](../hinh-thuc/sonata.md), [fugue](../hinh-thuc/fugue.md), [biến tấu](../hinh-thuc/bien-tau.md).
 - [ ] Học mục [Nhận diện](../nhan-dien/index.md): bảng so sánh các thời kỳ, luyện nghe nhận diện, rồi nghe mù.
 - [ ] Bài [28: Kết cấu](../nhac-ly/28-ket-cau.md), [29: Chuỗi hòa âm](../nhac-ly/29-chuoi-hoa-am.md), [31: Hình thức nhỏ](../nhac-ly/31-hinh-thuc-nho.md).

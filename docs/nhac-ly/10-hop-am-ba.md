@@ -64,6 +64,9 @@ Giọng thứ dùng **gam thứ hòa âm** khi xây hợp âm, để bậc V có
 
 Khám phá mọi hợp âm trên [bàn phím piano](../luyen-tap/ban-phim.md) và luyện nghe với [công cụ nhận biết hợp âm](../luyen-tap/hop-am.md).
 
+!!! tip "Trên phím đàn"
+    Hợp âm ba ở thế gốc: tay phải ngón **1-3-5**, tay trái **5-3-1**. Chơi khối, rồi rải từng nốt, rồi thử các hình đệm (Alberti, valse) ở [Hợp âm, hợp âm rải và hình đệm](../piano/hop-am-rai.md).
+
 ## Bài tập
 
 1. Viết các nốt của hợp âm: Sol trưởng, Rê thứ, Si giảm, Fa tăng.

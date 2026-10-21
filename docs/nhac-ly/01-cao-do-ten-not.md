@@ -54,6 +54,9 @@ Thử bấm vào bàn phím dưới đây. Các phím được tô màu là ba n
 
 <div class="oz-piano" data-range="C3-C5" data-notes="C3 C4 C5"></div>
 
+!!! tip "Trên phím đàn"
+    Trên đàn piano, **Đô giữa (C4)** là phím trắng ngay bên trái nhóm hai phím đen gần giữa bàn phím. Các phím Đô cách nhau một quãng tám; hãy tìm hết các phím Đô trên đàn của bạn, rồi xem toàn bộ 88 phím ở [Bản đồ bàn phím](../piano/ban-do-ban-phim.md).
+
 ## Bài tập
 
 1. Đọc to bảy tên nốt đi lên, rồi đi xuống, theo cả hai hệ (Đô Rê Mi… và C D E…).

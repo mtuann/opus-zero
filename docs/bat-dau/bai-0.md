@@ -1,6 +1,8 @@
 # Bài 0: Trước khi bắt đầu
 
-Trước khi học nốt nhạc đầu tiên, hãy dành 10 phút đọc trang này. Nó trả lời những câu hỏi mà gần như ai mới bắt đầu cũng có, nhưng ít khi được nói ra.
+Trước khi chạm vào phím đàn đầu tiên, hãy dành 10 phút đọc trang này. Nó trả lời những câu hỏi mà gần như ai mới bắt đầu cũng có, nhưng ít khi được nói ra.
+
+Opus Zero dạy nhạc cổ điển **qua cây đàn piano**: bạn học nhạc lý bằng mắt và tai, rồi biến nó thành thứ sờ được dưới mười ngón tay. Chưa có đàn vẫn bắt đầu được (nghe và đọc nhạc), nhưng piano là con đường chính của site.
 
 ## "Nhạc cổ điển" thực ra là gì?
 
@@ -36,10 +38,11 @@ Bạn không cần hát hay. Nhưng **ngân nga** (dù lệch) là công cụ h�
 
 - **Tai nghe hoặc loa tử tế.** Không cần đắt tiền, nhưng loa điện thoại sẽ làm mất hết âm trầm và chi tiết.
 - **Một nguồn nghe nhạc.** YouTube miễn phí là đủ để bắt đầu. Nếu muốn chất lượng cao và thông tin đầy đủ về bản thu, có các dịch vụ chuyên nhạc cổ điển như Apple Music Classical, Idagio hoặc Presto Music. Xem thêm ở [Tài nguyên](../tai-nguyen.md).
-- **20–30 phút mỗi ngày** và site này. Không cần nhạc cụ, dù có một app piano trên điện thoại sẽ rất tiện.
+- **Một cây đàn**: lý tưởng là piano cơ hoặc piano điện 88 phím, phím nặng, có bàn đạp vang. Xem [Chọn đàn và góc tập](../piano/chon-dan.md). Chưa có đàn? Vẫn học được đọc nhạc, nhạc lý và nghe; bàn phím trên màn hình của site đủ cho những tuần đầu.
+- **30–45 phút mỗi ngày** và site này.
 
 ## Bước tiếp theo
 
 1. Làm [bài kiểm tra đầu vào](kiem-tra-dau-vao.md) (5 phút) để biết nên bắt đầu từ đâu.
-2. Chọn [lộ trình nghe hiểu](lo-trinh-nghe.md) hoặc [lộ trình chơi nhạc cụ](lo-trinh-choi.md).
+2. Theo [Hai tuần đầu tiên](../piano/hai-tuan-dau.md) bên phím đàn, rồi [Lộ trình piano năm đầu](lo-trinh-choi.md). Chỉ muốn nghe hiểu? Chọn [lộ trình nghe hiểu](lo-trinh-nghe.md).
 3. In [tờ tóm tắt](tom-tat.md) và dán cạnh bàn học.

@@ -1,11 +1,11 @@
 site_name: Opus Zero
-site_description: Sổ tay học đọc nhạc và nhạc cổ điển từ con số 0 — nhạc lý, luyện tai, lịch sử, nghe nhạc và luyện tập mỗi ngày.
+site_description: Sổ tay học piano cổ điển từ con số 0 đến nâng cao — kỹ thuật, tác phẩm, nhạc lý, luyện tai, lịch sử và nghe nhạc, với công cụ luyện tập ngay trong trình duyệt.
 site_author: mtuann
 site_url: https://mtuann.github.io/opus-zero/
 repo_url: https://github.com/mtuann/opus-zero
 repo_name: mtuann/opus-zero
 edit_uri: edit/main/docs/
-copyright: Opus Zero — sổ tay học nhạc cá nhân của mtuann
+copyright: Opus Zero — sổ tay học piano cổ điển của mtuann
 
 theme:
   name: material
@@ -42,6 +42,7 @@ theme:
     - navigation.prune
     - navigation.instant
     - navigation.tracking
+    - navigation.path
     - search.suggest
     - search.highlight
     - content.code.copy
@@ -51,6 +52,9 @@ theme:
 hooks:
   - hooks/search_vi.py
   - hooks/books.py
+  - hooks/a11y.py
+  - hooks/redirects.py
+  - hooks/meta.py
 
 plugins:
   - search:
@@ -125,14 +129,84 @@ nav:
       - bat-dau/index.md
       - "Bài 0: Trước khi bắt đầu": bat-dau/bai-0.md
       - Kiểm tra đầu vào: bat-dau/kiem-tra-dau-vao.md
+      - Lộ trình piano năm đầu: bat-dau/lo-trinh-choi.md
+      - Lộ trình nhạc lý và nghe 12 tháng: bat-dau/lo-trinh.md
       - Lộ trình nghe hiểu: bat-dau/lo-trinh-nghe.md
-      - Lộ trình chơi nhạc cụ: bat-dau/lo-trinh-choi.md
-      - Lộ trình 12 tháng: bat-dau/lo-trinh.md
       - Thói quen mỗi ngày: bat-dau/moi-ngay.md
       - Tóm tắt một tờ: bat-dau/tom-tat.md
       - Sách in được (PDF): bat-dau/sach-in.md
       - Hỏi đáp: bat-dau/hoi-dap.md
       - Cài như ứng dụng: bat-dau/ung-dung.md
+  - Piano:
+      - piano/index.md
+      - "Lộ trình: từ 0 đến nâng cao": piano/lo-trinh.md
+      - Bắt đầu bên phím đàn:
+          - Chọn đàn và góc tập: piano/chon-dan.md
+          - Tư thế và thế tay: piano/tu-the.md
+          - Bản đồ bàn phím: piano/ban-do-ban-phim.md
+          - Hai tuần đầu tiên: piano/hai-tuan-dau.md
+          - 10 bài đầu tiên (hai tay): piano/10-bai-dau-tien.md
+      - Kỹ thuật:
+          - Vị trí năm ngón: piano/nam-ngon.md
+          - Gam và ngón bấm: piano/gam.md
+          - Hợp âm và hình đệm: piano/hop-am-rai.md
+          - Tạo tiếng đàn: piano/tieng-dan.md
+          - Bàn đạp: piano/ban-dap.md
+          - Nốt hoa mỹ: piano/not-hoa-my.md
+          - Phối hợp hai tay: piano/hai-tay.md
+          - Bài tập ngón và étude: piano/bai-tap-ngon.md
+      - Tập luyện:
+          - Cách tập hiệu quả: piano/cach-tap.md
+          - Đọc nhạc và thị tấu: piano/thi-tau.md
+          - Học thuộc và biểu diễn: piano/hoc-thuoc-bieu-dien.md
+          - Giữ đôi tay khỏe: piano/suc-khoe.md
+          - Học với thầy và thi cấp: piano/thay-va-thi.md
+      - Hòa âm bên phím:
+          - piano/hoa-am/index.md
+          - Kết ở mọi giọng: piano/hoa-am/ket.md
+          - Đệm cho một giai điệu: piano/hoa-am/dem-giai-dieu.md
+          - Các mẫu hòa âm thời Cổ điển: piano/hoa-am/mau-galant.md
+          - "Ứng tác cổ điển: bắt đầu từ đâu": piano/hoa-am/ung-tac.md
+      - Tác phẩm:
+          - Tác phẩm theo cấp độ: piano/tac-pham-theo-cap.md
+          - Bài học tác phẩm:
+              - piano/tac-pham/index.md
+              - "Sơ cấp (≈ Grade 1–2)":
+                  - "Mozart: Minuet Fa trưởng, K. 2": piano/tac-pham/mozart-minuet-k2.md
+                  - "Petzold: Minuet Sol trưởng": piano/tac-pham/minuet-sol.md
+                  - "Petzold: Minuet Sol thứ": piano/tac-pham/minuet-sol-thu.md
+                  - "Musette Rê trưởng": piano/tac-pham/musette-re.md
+                  - "Schumann: Album für die Jugend": piano/tac-pham/schumann-album.md
+                  - "Burgmüller: La candeur": piano/tac-pham/burgmuller-la-candeur.md
+                  - "Tchaikovsky: Bài ca Pháp cổ": piano/tac-pham/tchaikovsky-bai-ca-phap-co.md
+              - "Sơ trung cấp (≈ Grade 3)":
+                  - "Sonatina Sol trưởng, Anh. 5 số 1": piano/tac-pham/beethoven-sonatina-sol.md
+                  - "Clementi: Sonatina Op. 36 số 1": piano/tac-pham/clementi-sonatina.md
+                  - "Burgmüller: Arabesque": piano/tac-pham/burgmuller-arabesque.md
+                  - "Bach: Prelude nhỏ BWV 939": piano/tac-pham/bach-prelude-bwv939.md
+                  - "Tchaikovsky: Cầu nguyện buổi sáng": piano/tac-pham/tchaikovsky-cau-nguyen-buoi-sang.md
+                  - "Chopin: Valse La thứ": piano/tac-pham/chopin-valse-la-thu.md
+              - "Trung cấp (≈ Grade 4–5)":
+                  - "Chopin: Prélude La trưởng": piano/tac-pham/chopin-prelude-la-truong.md
+                  - "Grieg: Arietta": piano/tac-pham/grieg-arietta.md
+                  - "Satie: Gymnopédie số 1": piano/tac-pham/satie-gymnopedie.md
+                  - "Bach: Prelude Đô trưởng": piano/tac-pham/bach-prelude-do.md
+                  - "Chopin: Prélude Mi thứ": piano/tac-pham/chopin-prelude-mi-thu.md
+                  - "Beethoven: Für Elise": piano/tac-pham/fur-elise.md
+              - "Trung cấp cao (≈ Grade 6)":
+                  - "Bach: Invention số 1": piano/tac-pham/bach-invention-1.md
+                  - "Mozart: Sonata K. 545": piano/tac-pham/mozart-k545.md
+                  - "Schumann: Träumerei": piano/tac-pham/schumann-traumerei.md
+              - "Nâng cao (Grade 7 trở lên)":
+                  - "Beethoven: Pathétique, chương 2": piano/tac-pham/pathetique-adagio.md
+                  - "Chopin: Nocturne Op. 9 số 2": piano/tac-pham/chopin-nocturne-op9-2.md
+                  - "Debussy: Clair de lune": piano/tac-pham/debussy-clair-de-lune.md
+                  - "Chopin: Ballade số 1": piano/tac-pham/chopin-ballade-1.md
+      - Văn học piano:
+          - Lịch sử cây đàn piano: piano/lich-su-dan.md
+          - Các thể loại nhạc piano: piano/the-loai.md
+          - Nhà soạn nhạc cho piano: piano/nha-soan-nhac.md
+          - Nghệ sĩ piano và bản thu: piano/nghe-si.md
   - Nhạc lý:
       - nhac-ly/index.md
       - Đọc nhạc:
@@ -187,11 +261,15 @@ nav:
           - Nghe gam và điệu thức: luyen-tai/nghe-gam.md
           - Nghe tiết tấu: luyen-tai/nghe-tiet-tau.md
           - Nghe tiến trình hòa âm: luyen-tai/nghe-tien-trinh.md
+          - "Bài luyện: nhận biết quãng": luyen-tap/quang.md
+          - "Bài luyện: nhận biết hợp âm": luyen-tap/hop-am.md
+          - "Bài luyện: nhận biết gam": luyen-tap/gam.md
       - Đọc nhạc:
           - Đọc nốt: luyen-tap/doc-not.md
           - Hóa biểu: luyen-tap/hoa-bieu.md
           - Tiết tấu: luyen-tap/tiet-tau.md
           - Đọc thị tấu: luyen-tap/thi-tau.md
+          - Thị tấu hai tay: luyen-tap/thi-tau-hai-tay.md
           - Phiếu bài tập in được: luyen-tap/phieu-bai-tap.md
           - Chép giai điệu: luyen-tap/chep-giai-dieu.md
           - Giấy kẻ khuông: luyen-tap/giay-ke-khuong.md
@@ -200,10 +278,6 @@ nav:
           - Hát lại: luyen-tap/hat-lai.md
           - Thu âm buổi tập: luyen-tap/thu-am.md
           - Kết nối đàn MIDI: luyen-tap/ket-noi-midi.md
-      - Luyện tai:
-          - Nhận biết quãng: luyen-tap/quang.md
-          - Nhận biết hợp âm: luyen-tap/hop-am.md
-          - Nhận biết gam: luyen-tap/gam.md
       - Khám phá:
           - Bàn phím piano: luyen-tap/ban-phim.md
           - Xây gam và hợp âm: luyen-tap/xay-hop-am.md
@@ -220,10 +294,28 @@ nav:
           - Đọc tên tác phẩm và bản thu: nghe-nhac/doc-ten-tac-pham.md
           - Nghe gì tiếp: nghe-nhac/nghe-gi-tiep.md
           - Mẫu ghi chép: nghe-nhac/mau.md
+          - Nhạc piano:
+              - "Bach: Prelude cung Đô trưởng": nghe-nhac/bach-prelude-c.md
+              - "Scarlatti: Ba bản sonata": nghe-nhac/scarlatti-sonata.md
+              - "Bach: Biến tấu Goldberg": nghe-nhac/bach-goldberg.md
+              - "Mozart: Sonata K. 331": nghe-nhac/mozart-k331.md
+              - "Mozart: Concerto piano số 21": nghe-nhac/mozart-concerto-21.md
+              - "Beethoven: Sonata Pathétique": nghe-nhac/beethoven-pathetique.md
+              - "Beethoven: Sonata Ánh trăng": nghe-nhac/beethoven-moonlight.md
+              - "Schubert: Impromptu Sol♭ trưởng": nghe-nhac/schubert-impromptu.md
+              - "Chopin: Nocturne Op. 9 số 2": nghe-nhac/chopin-nocturne.md
+              - "Chopin: Étude Op. 10": nghe-nhac/chopin-etude.md
+              - "Schumann: Kinderszenen": nghe-nhac/schumann-kinderszenen.md
+              - "Liszt: Liebestraum số 3": nghe-nhac/liszt-liebestraum.md
+              - "Grieg: Concerto piano": nghe-nhac/grieg-concerto.md
+              - "Mussorgsky: Những bức tranh": nghe-nhac/mussorgsky-tranh.md
+              - "Brahms: Intermezzo Op. 118 số 2": nghe-nhac/brahms-intermezzo.md
+              - "Debussy: Clair de lune": nghe-nhac/debussy-clair-de-lune.md
+              - "Rachmaninoff: Concerto piano số 2": nghe-nhac/rachmaninoff-2.md
+              - "Gershwin: Rhapsody in Blue": nghe-nhac/gershwin-rhapsody.md
           - Baroque:
               - "Vivaldi: Mùa xuân": nghe-nhac/vivaldi-mua-xuan.md
               - "Vivaldi: Mùa đông": nghe-nhac/vivaldi-mua-dong.md
-              - "Bach: Prelude cung Đô trưởng": nghe-nhac/bach-prelude-c.md
               - "Bach: Tổ khúc cello số 1": nghe-nhac/bach-cello-1.md
               - "Bach: Air (Tổ khúc số 3)": nghe-nhac/bach-air.md
               - "Handel: Hallelujah (Messiah)": nghe-nhac/handel-hallelujah.md
@@ -235,11 +327,9 @@ nav:
               - "Mozart: Eine kleine Nachtmusik": nghe-nhac/mozart-eine-kleine.md
               - "Beethoven: Giao hưởng số 5": nghe-nhac/beethoven-5.md
               - "Beethoven: Tứ tấu Op. 132": nghe-nhac/beethoven-op132.md
-              - "Beethoven: Sonata Ánh trăng": nghe-nhac/beethoven-moonlight.md
           - Lãng mạn:
               - "Schubert: Erlkönig": nghe-nhac/schubert-erlkonig.md
               - "Schubert: Con cá hồi": nghe-nhac/schubert-ca-hoi.md
-              - "Chopin: Nocturne Op. 9 số 2": nghe-nhac/chopin-nocturne.md
               - "Mendelssohn: Concerto violin": nghe-nhac/mendelssohn-violin.md
               - "Bizet: Habanera": nghe-nhac/bizet-habanera.md
               - "Tchaikovsky: Hồ thiên nga": nghe-nhac/tchaikovsky-ho-thien-nga.md
@@ -249,10 +339,7 @@ nav:
               - "Grieg: Buổi sáng (Peer Gynt)": nghe-nhac/grieg-buoi-sang.md
               - "Puccini: Nessun dorma": nghe-nhac/puccini-nessun-dorma.md
           - Thế kỷ 20 và nay:
-              - "Debussy: Clair de lune": nghe-nhac/debussy-clair-de-lune.md
-              - "Rachmaninoff: Concerto piano số 2": nghe-nhac/rachmaninoff-2.md
               - "Ravel: Boléro": nghe-nhac/ravel-bolero.md
-              - "Gershwin: Rhapsody in Blue": nghe-nhac/gershwin-rhapsody.md
               - "Stravinsky: Nghi lễ mùa xuân": nghe-nhac/stravinsky-sacre.md
               - "Shostakovich: Giao hưởng số 5": nghe-nhac/shostakovich-5.md
               - "Pärt: Spiegel im Spiegel": nghe-nhac/part-spiegel.md
@@ -274,6 +361,16 @@ nav:
           - Dấu vân tay nhà soạn nhạc: nhan-dien/dau-van-tay.md
           - Luyện nghe nhận diện: nhan-dien/luyen-nghe.md
           - Nghe mù: nhan-dien/nghe-mu.md
+      - Nhạc cụ & dàn nhạc:
+          - nhac-cu/index.md
+          - Dàn nhạc giao hưởng: nhac-cu/dan-nhac.md
+          - Violin: nhac-cu/violin.md
+          - Cello: nhac-cu/cello.md
+          - Guitar cổ điển: nhac-cu/guitar.md
+          - Sáo: nhac-cu/sao.md
+          - Clarinet: nhac-cu/clarinet.md
+          - Trumpet: nhac-cu/trumpet.md
+          - Giọng hát, organ, harpsichord: nhac-cu/nhac-cu-khac.md
   - Lịch sử:
       - lich-su/index.md
       - Dòng thời gian: lich-su/dong-thoi-gian.md
@@ -290,28 +387,9 @@ nav:
       - Nhạc cổ điển ở Việt Nam: lich-su/viet-nam.md
       - Nhạc truyền thống Việt Nam: lich-su/nhac-truyen-thong-viet-nam.md
       - Âm nhạc hôm nay: lich-su/duong-dai.md
-  - Nhạc cụ:
-      - nhac-cu/index.md
-      - Piano: nhac-cu/piano.md
-      - Violin: nhac-cu/violin.md
-      - Guitar cổ điển: nhac-cu/guitar.md
-      - Cello: nhac-cu/cello.md
-      - Sáo: nhac-cu/sao.md
-      - Clarinet: nhac-cu/clarinet.md
-      - Trumpet: nhac-cu/trumpet.md
-      - Các nhạc cụ khác: nhac-cu/nhac-cu-khac.md
-      - Cách tập hiệu quả: nhac-cu/cach-tap.md
-      - Mua nhạc cụ và chọn thầy: nhac-cu/mua-dan-chon-thay.md
-      - Dàn nhạc giao hưởng: nhac-cu/dan-nhac.md
   - Thêm:
       - Nhật ký học:
           - blog/index.md
       - Tài nguyên: tai-nguyen.md
       - Tài liệu tham khảo: tai-lieu-tham-khao.md
       - Cập nhật: cap-nhat.md
-
-validation:
-  links:
-    anchors: warn
-    absolute_links: warn
-    unrecognized_links: warn
