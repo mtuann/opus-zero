@@ -27,7 +27,7 @@
 
 ## Nghe kèm bản thu
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Musopen&quot;,&quot;lic&quot;:&quot;phạm vi công cộng&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Johannes_Brahms_-_klavierstucke,_op._118_-_ii._intermezzo.ogg&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7e/Johannes_Brahms_-_klavierstucke%2C_op._118_-_ii._intermezzo.ogg/Johannes_Brahms_-_klavierstucke%2C_op._118_-_ii._intermezzo.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/7/7e/Johannes_Brahms_-_klavierstucke%2C_op._118_-_ii._intermezzo.ogg&quot;,&quot;d&quot;:328.05}]}"></div>
 
 ## Theo dõi khi nghe
 

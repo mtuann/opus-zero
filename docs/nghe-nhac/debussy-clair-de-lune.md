@@ -23,7 +23,7 @@ Hãy để ý: nhịp **9/8** nhưng đoạn đầu được viết sao cho bạ
 
 ## Nghe kèm bản thu
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Laurens Goedhart&quot;,&quot;note&quot;:&quot;thu năm 2011&quot;,&quot;lic&quot;:&quot;phạm vi công cộng&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Clair_de_lune_(Claude_Debussy)_Suite_bergamasque.ogg&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Clair_de_lune_%28Claude_Debussy%29_Suite_bergamasque.ogg/Clair_de_lune_%28Claude_Debussy%29_Suite_bergamasque.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/b/be/Clair_de_lune_%28Claude_Debussy%29_Suite_bergamasque.ogg&quot;,&quot;d&quot;:304.09}]}"></div>
 
 ## Theo dõi khi nghe
 

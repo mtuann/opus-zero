@@ -45,7 +45,7 @@ Nghe ít nhất ba lần, mỗi lần một câu hỏi:
 
 Rồi so sánh vài nghệ sĩ đã thu trọn bộ prelude với lối chơi rất khác nhau, chẳng hạn Alfred Cortot, Maurizio Pollini và Martha Argerich. Ghi lại: ai co giãn nhịp nhiều nhất, ai giữ tay trái đều nhất, ai làm cao trào dữ dội nhất, ai để khoảng lặng dài nhất?
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Ivan Ilić&quot;,&quot;lic&quot;:&quot;CC BY 3.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by/3.0&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Ivan_Ili%C4%87-Chopin_Prelude_Opus_28_n.4.ogg&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a2/Ivan_Ili%C4%87-Chopin_Prelude_Opus_28_n.4.ogg/Ivan_Ili%C4%87-Chopin_Prelude_Opus_28_n.4.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/a/a2/Ivan_Ili%C4%87-Chopin_Prelude_Opus_28_n.4.ogg&quot;,&quot;d&quot;:109.81}]}"></div>
 
 ## Theo dõi khi nghe
 

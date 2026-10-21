@@ -49,7 +49,7 @@ Nghe cả bài ít nhất ba lần trước khi mở bản nhạc, mỗi lần t
 
 So sánh ít nhất hai bản thu: ai nhanh hơn ở phần A, ai thong thả hơn ở đoạn giữa, ai làm nổi giai điệu tay trái ở coda, và nghệ sĩ chơi bản Fontana hay bản d'Este (xem phần Bối cảnh). Gợi ý nghệ sĩ: [Nghệ sĩ piano và bản thu nên nghe](../nghe-si.md).
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Frank Lévy (Musopen)&quot;,&quot;lic&quot;:&quot;phạm vi công cộng&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Chopin_-_Impromptu_No._4_in_C-sharp_minor,_Op._66_%27Fantaisie-Impromptu%27_(Frank_Levy).flac&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/Chopin_-_Impromptu_No._4_in_C-sharp_minor%2C_Op._66_%27Fantaisie-Impromptu%27_%28Frank_Levy%29.flac/Chopin_-_Impromptu_No._4_in_C-sharp_minor%2C_Op._66_%27Fantaisie-Impromptu%27_%28Frank_Levy%29.flac.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/d/d6/Chopin_-_Impromptu_No._4_in_C-sharp_minor%2C_Op._66_%27Fantaisie-Impromptu%27_%28Frank_Levy%29.flac&quot;,&quot;d&quot;:326.89}]}"></div>
 
 ## Theo dõi khi nghe
 

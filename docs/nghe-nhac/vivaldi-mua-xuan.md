@@ -23,7 +23,7 @@ Chương 1 viết theo **hình thức ritornello**, hình thức đặc trưng c
 
 ## Nghe kèm bản thu
 
-<div class="oz-listen" data-audio="https://upload.wikimedia.org/wikipedia/commons/transcoded/f/ff/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga.mp3" data-audio-ogg="https://commons.wikimedia.org/wiki/Special:FilePath/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga" data-credit="John Harrison (violin), Wichita State University Chamber Players, Robert Turizziani chỉ huy; Wikimedia Commons" data-page="https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;John Harrison (violin), Wichita State University Chamber Players, Robert Turizziani chỉ huy&quot;,&quot;lic&quot;:&quot;CC BY-SA 4.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by-sa/4.0/deed.en&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/f/ff/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/f/ff/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga&quot;,&quot;d&quot;:215.28}]}"></div>
 
 ## Theo dõi khi nghe
 

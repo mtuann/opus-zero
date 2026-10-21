@@ -10,7 +10,7 @@ Ba mươi tư tác phẩm, từ Minuet Fa trưởng K. 2 của Mozart đến Bal
 | Vì sao nên học bài này | Những kỹ năng mà bài này dạy tốt hơn các bài khác |
 | Bối cảnh | Bài ra đời khi nào, cho ai, trên cây đàn nào |
 | Nghe trước khi tập | Nghe điều gì, các nghệ sĩ chơi khác nhau ra sao; link tới hướng dẫn nghe nếu có |
-| Theo dõi khi nghe | Dán link YouTube hoặc link file âm thanh, hoặc chọn một file trên máy; bấm ghi mốc khi nghe thấy từng đoạn; lần sau nghe lại, dòng đang vang được tô sáng |
+| Theo dõi khi nghe | Nghe bản thu gợi ý có sẵn trên trang (22 bài có một bản thu giấy phép mở), hoặc dán link YouTube, link file âm thanh, chọn một file trên máy; bấm ghi mốc khi nghe thấy từng đoạn; lần sau nghe lại, dòng đang vang được tô sáng |
 | Cấu trúc | Sơ đồ hình thức và bảng các đoạn |
 | Chỗ khó và cách tập | Bảng gồm chỗ khó, vì sao khó và cách tập cụ thể |
 | Bài tập chuẩn bị | Hai, ba bài tập ngắn soạn riêng, viết trên khuông hai tay có số ngón, bấm nghe được |

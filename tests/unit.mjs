@@ -127,6 +127,11 @@ test("đọc link YouTube và link file âm thanh", () => {
   const s3 = L.switchSource(Object.assign({}, s2, { marks: { 1: 9 } }), "https://youtu.be/dQw4w9WgXcQ");
   assert.deepEqual([s3.marks[0], s3.byUrl["file:ban-thu.mp3"][1]], [3, 9]);  /* quay lại bản cũ: mốc cũ trở về */
   assert.equal(L.switchSource(s3, s3.url), s3);
+  assert.deepEqual([...L.partAt(0, [10, 20])], [0, 0]);
+  assert.deepEqual([...L.partAt(9.5, [10, 20])], [0, 9.5]);
+  assert.deepEqual([...L.partAt(10, [10, 20])], [1, 0]);   /* đúng ranh giới: sang phần sau */
+  assert.deepEqual([...L.partAt(35, [10, 20])], [1, 25]);  /* quá cuối: vẫn ở phần cuối */
+  assert.deepEqual([...L.partAt(5, [10])], [0, 5]);
   assert.equal(L.videoId("https://youtu.be/dQw4w9WgXcQ"), "dQw4w9WgXcQ");
   assert.equal(L.videoId("https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=30"), "dQw4w9WgXcQ");
   assert.equal(L.videoId("không phải link"), null);

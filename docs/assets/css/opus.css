@@ -261,6 +261,8 @@
 .md-typeset td.oz-mark-cell { white-space: nowrap; }
 .oz-audio { display: block; width: 100%; max-width: 640px; margin: 0.8rem 0; }
 .oz-audio[hidden] { display: none; }
+.oz-part { display: block; max-width: 640px; margin: 0 0 0.6rem; }
+.oz-part[hidden] { display: none; }
 .oz-time, .oz-time-add, .oz-time-x { font-size: 0.65rem; padding: 0.2rem 0.45rem; min-width: 0; }
 .oz-time { font-variant-numeric: tabular-nums; font-weight: 600; }
 .oz-time-x { margin-left: 0.2rem; opacity: 0.6; }

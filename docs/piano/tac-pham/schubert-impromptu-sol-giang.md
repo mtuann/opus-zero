@@ -53,7 +53,7 @@ Schubert ghi nhịp 4/2: mỗi ô bốn phách nốt trắng. Ở tốc độ *A
 4. **Đoạn giữa.** Ô 25 bắt đầu *f*: nghệ sĩ làm nó kịch tính đến đâu, và trở về *pp* nhanh thế nào?
 5. **Tiếng rền ở bè trầm.** Bạn có nghe thấy láy rền ở ô 19 và ô 53 không? Nó rõ từng nốt, hay chỉ như một vệt âm thanh?
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Chiara Bertoglio&quot;,&quot;lic&quot;:&quot;CC BY 3.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by/3.0&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Schubert%27s_Impromptu_no._3_in_G-flat_major,_D.899_-_Chiara_Bertoglio.ogg&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/3/31/Schubert%27s_Impromptu_no._3_in_G-flat_major%2C_D.899_-_Chiara_Bertoglio.ogg/Schubert%27s_Impromptu_no._3_in_G-flat_major%2C_D.899_-_Chiara_Bertoglio.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/3/31/Schubert%27s_Impromptu_no._3_in_G-flat_major%2C_D.899_-_Chiara_Bertoglio.ogg&quot;,&quot;d&quot;:357.84}]}"></div>
 
 ## Theo dõi khi nghe
 

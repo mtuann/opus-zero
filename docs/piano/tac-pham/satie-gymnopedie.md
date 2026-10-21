@@ -46,7 +46,7 @@ Nghe vài lần, mắt theo bản nhạc:
 
 Rồi so sánh vài nghệ sĩ gắn bó với nhạc Satie: Aldo Ciccolini và Pascal Rogé (cả hai thu nhiều nhạc piano của Satie), Reinbert de Leeuw (nổi tiếng với tốc độ cực chậm). Cùng một bài mà độ dài chênh nhau rất nhiều. Ghi lại: tốc độ nào vẫn giữ được mạch giai điệu? Nghe thêm bản phối khí của Debussy để biết những "màu dàn nhạc" bạn có thể gợi ra trên phím đàn.
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Robin Alciatore (Musopen)&quot;,&quot;lic&quot;:&quot;phạm vi công cộng&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Erik_Satie_-_gymnopedies_-_la_1_ere._lent_et_douloureux.ogg&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/9/90/Erik_Satie_-_gymnopedies_-_la_1_ere._lent_et_douloureux.ogg/Erik_Satie_-_gymnopedies_-_la_1_ere._lent_et_douloureux.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/9/90/Erik_Satie_-_gymnopedies_-_la_1_ere._lent_et_douloureux.ogg&quot;,&quot;d&quot;:183.59}]}"></div>
 
 ## Theo dõi khi nghe
 

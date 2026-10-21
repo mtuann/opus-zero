@@ -47,7 +47,7 @@ Nghe trọn bài ít nhất ba lần, mỗi lần với một câu hỏi:
 
 Bản thu các valse của Dinu Lipatti và của Arthur Rubinstein là hai điểm tựa quen thuộc; Alfred Cortot co giãn tự do hơn. Nghe một người rồi người kia và đánh dấu lên bản nhạc chỗ mỗi người nán lại: đó là bản đồ rubato đầu tiên của bạn. Xem thêm [Nghệ sĩ piano và bản thu nên nghe](../nghe-si.md).
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Olga Gurevich (Musopen)&quot;,&quot;lic&quot;:&quot;phạm vi công cộng&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Chopin_-_Waltz_No._10_in_B_minor,_Op._69_No._2_(Olga_Gurevich).flac&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/1/13/Chopin_-_Waltz_No._10_in_B_minor%2C_Op._69_No._2_%28Olga_Gurevich%29.flac/Chopin_-_Waltz_No._10_in_B_minor%2C_Op._69_No._2_%28Olga_Gurevich%29.flac.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/1/13/Chopin_-_Waltz_No._10_in_B_minor%2C_Op._69_No._2_%28Olga_Gurevich%29.flac&quot;,&quot;d&quot;:215.86}]}"></div>
 
 ## Theo dõi khi nghe
 

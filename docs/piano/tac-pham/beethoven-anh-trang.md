@@ -49,7 +49,7 @@ Biệt danh **"Ánh trăng"** không phải của Beethoven. Nhà thơ, nhà ph�
 
 So sánh một bản trên đàn hiện đại (ví dụ Artur Schnabel hoặc Wilhelm Kempff, hai người đều thu trọn 32 sonata) với một bản trên fortepiano (ví dụ Ronald Brautigam). Trên đàn cũ, tiếng tắt nhanh nên bàn đạp giữ lâu vẫn không nhòe như trên đàn hiện đại. Xem thêm [Nghệ sĩ piano và bản thu nên nghe](../nghe-si.md).
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Paul Pitman (Musopen)&quot;,&quot;lic&quot;:&quot;phạm vi công cộng&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27,_op._27_no._2_-_i._adagio_sostenuto.ogg&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/4/48/Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27%2C_op._27_no._2_-_i._adagio_sostenuto.ogg/Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27%2C_op._27_no._2_-_i._adagio_sostenuto.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/4/48/Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27%2C_op._27_no._2_-_i._adagio_sostenuto.ogg&quot;,&quot;d&quot;:335.77}]}"></div>
 
 ## Theo dõi khi nghe
 

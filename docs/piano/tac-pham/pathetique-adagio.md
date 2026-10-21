@@ -45,7 +45,7 @@ Nghe trọn cả sonata (xem [hướng dẫn nghe Pathétique](../../nghe-nhac/b
 
 Nghe hai bản thu khác nhau, ví dụ Wilhelm Kempff và Alfred Brendel (cả hai đều thu trọn 32 sonata của Beethoven): một người trôi hơn, một người chậm và trang nghiêm hơn? Ghi lại thời lượng chương 2 của mỗi bản để thấy *Adagio* có thể rộng hẹp thế nào. Xem thêm [Nghệ sĩ piano và bản thu](../nghe-si.md).
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Daniel Veesey&quot;,&quot;lic&quot;:&quot;CC0&quot;,&quot;licUrl&quot;:&quot;http://creativecommons.org/publicdomain/zero/1.0/deed.en&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Daniel_Veesey_-_02_-_Sonata_8_Pathetique_-_II_Adagio_cantabile.ogg&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/0/07/Daniel_Veesey_-_02_-_Sonata_8_Pathetique_-_II_Adagio_cantabile.ogg/Daniel_Veesey_-_02_-_Sonata_8_Pathetique_-_II_Adagio_cantabile.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/0/07/Daniel_Veesey_-_02_-_Sonata_8_Pathetique_-_II_Adagio_cantabile.ogg&quot;,&quot;d&quot;:380.54}]}"></div>
 
 ## Theo dõi khi nghe
 

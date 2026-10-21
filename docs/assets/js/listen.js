@@ -57,6 +57,22 @@
     return out;
   }
 
+  /* Bản thu gợi ý của trang: data-rec (JSON, một hoặc nhiều phần) hoặc dạng cũ data-audio */
+  function readRec(root) {
+    let r = null;
+    if (root.dataset.rec) { try { r = JSON.parse(root.dataset.rec); } catch (e) { r = null; } }
+    if (!r && root.dataset.audio) r = { by: root.dataset.credit || "", page: root.dataset.page || "", parts: [{ mp3: root.dataset.audio, src: root.dataset.audioOgg || "" }] };
+    if (!r || !r.parts || !r.parts.length || !r.parts[0].mp3) return null;
+    r.key = r.parts[0].mp3;
+    return r;
+  }
+  /* Vị trí của thời điểm t (giây, tính liền qua các phần) trong danh sách phần: [phần, giây trong phần] */
+  function partAt(t, durs) {
+    let i = 0, acc = 0;
+    while (i < durs.length - 1 && t >= acc + (Number(durs[i]) || 0)) { acc += Number(durs[i]) || 0; i++; }
+    return [i, Math.max(0, t - acc)];
+  }
+
   /* Dòng đang nghe: mốc gần nhất không muộn hơn thời điểm đang phát (cho phép sớm 0,25 giây) */
   function activeRow(t, marks) {
     let best = -1, bt = -1;
@@ -88,12 +104,14 @@
     const store = function () { return window.OZProgress ? OZProgress.getStore("listen", {}) : {}; };
     const mine = function () { return store()[key] || { url: "", marks: {} }; };
     const save = function (v) { if (!window.OZProgress) return; const all = store(); all[key] = v; OZProgress.setStore("listen", all); };
-    const def = root.dataset.audio ? { url: root.dataset.audio, ogg: root.dataset.audioOgg || "", credit: root.dataset.credit || "", page: root.dataset.page || "" } : null;
+    const def = readRec(root);
 
     root.innerHTML =
       '<p class="oz-stats">Nghe một bản thu: dán link YouTube hoặc link tới một file âm thanh (.mp3, .ogg…), hoặc chọn một file trên máy bạn. Rồi bấm <strong>Ghi mốc</strong> trong bảng bên dưới mỗi khi nghe thấy sự kiện tương ứng. Mốc được lưu trên máy bạn, riêng cho từng bản thu; bấm vào mốc để tua đến đó.</p>' +
-      (def ? '<p class="oz-stats">Bản thu gợi ý: ' + esc(def.credit || "bản thu có giấy phép mở") +
-        (def.page ? ' (<a href="' + esc(def.page) + '" target="_blank" rel="noopener">nguồn và giấy phép</a>)' : "") +
+      (def ? '<p class="oz-stats oz-rec">Bản thu gợi ý: ' + esc(def.by || "bản thu có giấy phép mở") + (def.note ? " (" + esc(def.note) + ")" : "") +
+        (def.lic ? " · " + (def.licUrl ? '<a href="' + esc(def.licUrl) + '" target="_blank" rel="license noopener">' + esc(def.lic) + "</a>" : esc(def.lic)) : "") +
+        (def.page ? ' · <a href="' + esc(def.page) + '" target="_blank" rel="noopener">Wikimedia Commons</a>' : "") +
+        (def.parts.length > 1 ? " · " + def.parts.length + " phần" : "") +
         '. <button class="oz-btn" data-act="default">Nghe bản này</button></p>' : "") +
       '<div class="oz-row"><input type="url" class="oz-input" placeholder="Link YouTube hoặc link file .mp3, .ogg" aria-label="Link bản thu: YouTube hoặc file âm thanh">' +
       '<button class="oz-btn oz-btn--primary" data-act="load">Tải bản thu</button>' +
@@ -102,12 +120,13 @@
       '<button class="oz-btn" data-act="export">Xuất mốc ra Markdown</button></div>' +
       '<div class="oz-video" hidden><div class="oz-yt"></div></div>' +
       '<audio class="oz-audio" controls preload="none" hidden></audio>' +
+      '<select class="oz-input oz-part" hidden aria-label="Chọn phần của bản thu"></select>' +
       '<div class="oz-feedback" aria-live="polite"></div>';
     const input = root.querySelector('input[type="url"]'), fileIn = root.querySelector('input[type="file"]');
-    const fb = root.querySelector(".oz-feedback"), box = root.querySelector(".oz-video"), audio = root.querySelector("audio");
+    const fb = root.querySelector(".oz-feedback"), box = root.querySelector(".oz-video"), audio = root.querySelector("audio"), sel = root.querySelector(".oz-part");
     let yt = null, player = null, objUrl = null;
     const saved = mine().url || "";
-    input.value = /^file:/.test(saved) || (def && saved === def.url) ? "" : saved;
+    input.value = /^file:/.test(saved) || (def && saved === def.key) ? "" : saved;
     const say = function (msg, cls) { fb.textContent = msg; fb.className = "oz-feedback" + (cls ? " " + cls : ""); };
     const use = function (k) { const v = mine(); if (v.url !== k) { save(switchSource(v, k)); renderCells(); } };
 
@@ -164,28 +183,58 @@
         cells.forEach(function (c) { c.tr.classList.toggle("oz-now", c.i === r); });
       }, 400);
     }
-    function stopVideo() { box.hidden = true; if (yt && yt.pauseVideo) { try { yt.pauseVideo(); } catch (e) { /* trình phát chưa sẵn sàng */ } } }
+    function stopVideo() { box.hidden = true; sel.hidden = true; if (yt && yt.pauseVideo) { try { yt.pauseVideo(); } catch (e) { /* trình phát chưa sẵn sàng */ } } }
     function audioPlayer() {
       return { time: function () { return audio.currentTime || 0; },
         seek: function (t) { audio.currentTime = t; const p = audio.play(); if (p && p.catch) p.catch(function () {}); } };
     }
-    /* Nguồn là file trên mạng: thẻ <source> cho từng định dạng, trình duyệt tự chọn cái phát được */
-    function showAudio(list) {
-      stopVideo();
-      if (!audio.paused) audio.pause();
+    /* Một phần của bản thu: thẻ <source> cho từng định dạng (mp3 trước), trình duyệt tự chọn cái phát được */
+    function setSources(p) {
       audio.removeAttribute("src"); audio.innerHTML = "";
+      const list = [p.mp3, p.src].filter(Boolean);
       list.forEach(function (u, j) {
         const s = document.createElement("source"); s.src = u;
         const ext = audioExt(u); if (ext) s.type = EXT[ext];
         if (j === list.length - 1) s.addEventListener("error", function () { say("Không phát được bản thu này. Hãy kiểm tra kết nối mạng; nếu là link bạn tự dán, link phải trỏ thẳng tới một file âm thanh (.mp3, .ogg…).", "bad"); });
         audio.appendChild(s);
       });
-      audio.hidden = false; audio.load();
-      player = audioPlayer(); follow();
+    }
+    /* Phát một bản thu gồm một hoặc nhiều phần; thời gian và mốc tính liền qua các phần */
+    function showParts(parts) {
+      stopVideo();
+      if (!audio.paused) audio.pause();
+      const durs = parts.map(function (p) { return Number(p.d) || 0; });
+      const offs = durs.map(function (d, i) { return durs.slice(0, i).reduce(function (a, b) { return a + b; }, 0); });
+      let cur = 0;
+      const play = function () { const pr = audio.play(); if (pr && pr.catch) pr.catch(function () {}); };
+      function load(i, t, go) {
+        cur = i; setSources(parts[i]); audio.load();
+        if (parts.length > 1) sel.value = String(i);
+        if (t || go) {
+          const ready = function () { audio.removeEventListener("loadedmetadata", ready); if (t) audio.currentTime = t; if (go) play(); };
+          audio.addEventListener("loadedmetadata", ready);
+        }
+      }
+      audio.onended = function () { if (cur < parts.length - 1) load(cur + 1, 0, true); };
+      if (parts.length > 1) {
+        sel.innerHTML = parts.map(function (p, i) { return '<option value="' + i + '">' + esc(p.t || "Phần " + (i + 1)) + "</option>"; }).join("");
+        sel.onchange = function () { load(Number(sel.value), 0, true); };
+        sel.hidden = false;
+      } else sel.hidden = true;
+      audio.hidden = false;
+      load(0, 0, false);
+      player = {
+        time: function () { return offs[cur] + (audio.currentTime || 0); },
+        seek: function (t) {
+          const at = partAt(t, durs);
+          if (at[0] === cur && audio.readyState > 0) { audio.currentTime = at[1]; play(); } else load(at[0], at[1], true);
+        }
+      };
+      follow();
     }
     function showYouTube(id) {
       if (!audio.paused) audio.pause();
-      audio.hidden = true;
+      audio.hidden = true; sel.hidden = true;
       say("Đang tải…");
       loadApi().then(function () {
         box.hidden = false;
@@ -204,12 +253,12 @@
       if (!id && !au) { say("Link chưa đúng. Hãy dán link YouTube (youtube.com/watch?v=… hoặc youtu.be/…) hoặc link trực tiếp tới một file âm thanh (.mp3, .ogg…).", "bad"); return; }
       use(raw);
       if (id) showYouTube(id);
-      else { showAudio([au]); say("Sẵn sàng. Bấm phát ▶ rồi “Ghi mốc” khi nghe thấy từng sự kiện.", "ok"); }
+      else { showParts([{ mp3: au }]); say("Sẵn sàng. Bấm phát ▶ rồi “Ghi mốc” khi nghe thấy từng sự kiện.", "ok"); }
     }
     function loadDefault() {
-      use(def.url); input.value = "";
-      showAudio(def.ogg ? [def.url, def.ogg] : [def.url]);
-      say("Đã tải bản thu gợi ý. Bấm phát ▶; mốc của bản này được lưu riêng.", "ok");
+      use(def.key); input.value = "";
+      showParts(def.parts);
+      say(def.parts.length > 1 ? "Đã tải bản thu gợi ý, gồm " + def.parts.length + " phần; hết phần này trình phát tự sang phần sau. Bấm phát ▶; mốc của bản này được lưu riêng." : "Đã tải bản thu gợi ý. Bấm phát ▶; mốc của bản này được lưu riêng.", "ok");
     }
     fileIn.addEventListener("change", function () {
       const f = fileIn.files && fileIn.files[0]; if (!f) return;
@@ -218,7 +267,7 @@
       use("file:" + f.name); input.value = "";
       stopVideo();
       if (!audio.paused) audio.pause();
-      audio.innerHTML = ""; audio.src = objUrl; audio.hidden = false; audio.load();
+      audio.onended = null; audio.innerHTML = ""; audio.src = objUrl; audio.hidden = false; audio.load();
       player = audioPlayer(); follow();
       say("Đang dùng file “" + f.name + "” trên máy bạn; file không được gửi đi đâu. Mốc được lưu theo tên file, lần sau chọn lại đúng file này để dùng tiếp.", "ok");
     });
@@ -249,7 +298,7 @@
     input.addEventListener("keydown", function (e) { if (e.key === "Enter") load(); });
   }
 
-  window.OZListen = { videoId: videoId, audioUrl: audioUrl, switchSource: switchSource, fmt: fmt, activeRow: activeRow };
+  window.OZListen = { videoId: videoId, audioUrl: audioUrl, switchSource: switchSource, partAt: partAt, fmt: fmt, activeRow: activeRow };
   function init() { document.querySelectorAll(".oz-listen").forEach(mount); }
   (window.OZReady || function (f) { document.addEventListener("DOMContentLoaded", f); })(init);
 })();

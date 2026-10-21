@@ -46,7 +46,7 @@ Henle xếp hai Liebestraum đầu ở mức 6, bài số 3 ở mức 7: bài n�
 
 So sánh vài nghệ sĩ gắn bó với nhạc Liszt, như Jorge Bolet và Leslie Howard (người thu âm toàn bộ nhạc piano của Liszt). Ai giữ được bước "đi" của *Poco allegro*, ai chậm và đậm hơn? Hai cadenza được nắn hình ra sao: đều đặn hay nhanh dần, chậm dần? Gợi ý cách chọn bản thu: [Nghệ sĩ piano và bản thu](../nghe-si.md).
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Wilhelm Backhaus&quot;,&quot;note&quot;:&quot;thu năm 1923, đĩa 78 vòng&quot;,&quot;lic&quot;:&quot;phạm vi công cộng&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:PDP-CH_-_Wilhelm_Backhaus_-_Liebestraum_No._3_in_A-flat_major,_S.541-3_(Liszt)_-_Hmv-d788-05754.flac&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f0/PDP-CH_-_Wilhelm_Backhaus_-_Liebestraum_No._3_in_A-flat_major%2C_S.541-3_%28Liszt%29_-_Hmv-d788-05754.flac/PDP-CH_-_Wilhelm_Backhaus_-_Liebestraum_No._3_in_A-flat_major%2C_S.541-3_%28Liszt%29_-_Hmv-d788-05754.flac.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/f/f0/PDP-CH_-_Wilhelm_Backhaus_-_Liebestraum_No._3_in_A-flat_major%2C_S.541-3_%28Liszt%29_-_Hmv-d788-05754.flac&quot;,&quot;d&quot;:238.25}]}"></div>
 
 ## Theo dõi khi nghe
 

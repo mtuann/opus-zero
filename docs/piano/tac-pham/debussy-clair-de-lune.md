@@ -46,7 +46,7 @@ Debussy viết bộ tổ khúc khi khoảng 28 tuổi, nhưng chỉ in nó 15 n�
 
 Nghe bản thu của Walter Gieseking, người thu trọn nhạc piano solo của Debussy, cạnh một bản thu chậm, nhiều rubato hơn để thấy biên độ của tự do trong bài này. Ghi lại tốc độ của từng bản (dài bao nhiêu phút) và cảm giác của bạn về mỗi tốc độ.
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Laurens Goedhart&quot;,&quot;note&quot;:&quot;thu năm 2011&quot;,&quot;lic&quot;:&quot;phạm vi công cộng&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Clair_de_lune_(Claude_Debussy)_Suite_bergamasque.ogg&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Clair_de_lune_%28Claude_Debussy%29_Suite_bergamasque.ogg/Clair_de_lune_%28Claude_Debussy%29_Suite_bergamasque.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/b/be/Clair_de_lune_%28Claude_Debussy%29_Suite_bergamasque.ogg&quot;,&quot;d&quot;:304.09}]}"></div>
 
 ## Theo dõi khi nghe
 

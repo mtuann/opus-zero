@@ -52,7 +52,7 @@ Nghe trọn bài hai, ba lần, mắt theo bản nhạc:
 
 So sánh vài bản thu. Để ý tốc độ: nhiều người chơi chủ đề rất chậm và mơ màng, trong khi *Poco moto* nghĩa là "hơi chuyển động". Nếu tìm được, nghe thêm một bản trên **fortepiano**, loại đàn piano thời Beethoven: tiếng nhẹ hơn, tắt nhanh hơn, và bàn đạp nghe khác hẳn.
 
-<div class="oz-listen" data-audio="https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7b/FurElise.ogg/FurElise.ogg.mp3" data-audio-ogg="https://commons.wikimedia.org/wiki/Special:FilePath/FurElise.ogg" data-credit="V. Gao (piano), Wikimedia Commons" data-page="https://commons.wikimedia.org/wiki/File:FurElise.ogg"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;V. Gao&quot;,&quot;lic&quot;:&quot;phạm vi công cộng&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:FurElise.ogg&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7b/FurElise.ogg/FurElise.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/7/7b/FurElise.ogg&quot;,&quot;d&quot;:176.59}]}"></div>
 
 ## Theo dõi khi nghe
 

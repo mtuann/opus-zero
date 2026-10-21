@@ -45,7 +45,7 @@ Nghe ít nhất ba lần, mỗi lần một câu hỏi:
 
 Rồi so sánh vài nghệ sĩ đã thu trọn bộ prelude với lối chơi rất khác nhau, chẳng hạn Alfred Cortot, Maurizio Pollini và Martha Argerich. Ghi lại: ai chơi nhanh nhất, ai co giãn nhịp nhiều nhất, ai rải hợp âm ô 12 chậm nhất, ai để câu cuối ngân lâu nhất? Nếu thích bài này, nghe thêm bộ biến tấu của Mompou để thấy cùng một giai điệu có thể đi xa đến đâu.
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Ivan Ilić&quot;,&quot;lic&quot;:&quot;CC BY-SA 3.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by-sa/3.0&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Ivan_Ili%C4%87-Chopin_-_Prelude_no._7_in_A_major.ogg&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/Ivan_Ili%C4%87-Chopin_-_Prelude_no._7_in_A_major.ogg/Ivan_Ili%C4%87-Chopin_-_Prelude_no._7_in_A_major.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/4/40/Ivan_Ili%C4%87-Chopin_-_Prelude_no._7_in_A_major.ogg&quot;,&quot;d&quot;:37.98}]}"></div>
 
 ## Theo dõi khi nghe
 

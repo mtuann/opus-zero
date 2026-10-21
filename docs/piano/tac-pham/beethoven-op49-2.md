@@ -50,7 +50,7 @@ Nghe cả hai chương vài lần, rồi tập trung vào chương 1 với bốn
 
 Mọi nghệ sĩ thu trọn 32 sonata của Beethoven đều có bài này, ví dụ Wilhelm Kempff, Alfred Brendel hay András Schiff. So sánh tốc độ họ chọn cho *ma non troppo*, độ tách tiếng của các nốt đen và độ nổi của tay trái. Nghe thêm một bản trên fortepiano (Ronald Brautigam thu trọn các sonata của Beethoven trên loại đàn này) để thấy chùm ba và gam trong trẻo thế nào trên một cây đàn gần với đàn thời Beethoven. Site chưa có hướng dẫn nghe riêng cho Op. 49; [hướng dẫn nghe *Pathétique*](../../nghe-nhac/beethoven-pathetique.md) giới thiệu một sonata lớn hơn của Beethoven cùng thời kỳ, và [Nghệ sĩ piano và bản thu nên nghe](../nghe-si.md) giúp bạn chọn bản thu.
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Daniel Veesey&quot;,&quot;lic&quot;:&quot;CC0&quot;,&quot;licUrl&quot;:&quot;http://creativecommons.org/publicdomain/zero/1.0/deed.en&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Daniel_Veesey_-_Sonata_No_20_in_G_Major_Op_49_No_2_-_I_Allegro_ma_non_troppo.ogg&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/Daniel_Veesey_-_Sonata_No_20_in_G_Major_Op_49_No_2_-_I_Allegro_ma_non_troppo.ogg/Daniel_Veesey_-_Sonata_No_20_in_G_Major_Op_49_No_2_-_I_Allegro_ma_non_troppo.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/d/d6/Daniel_Veesey_-_Sonata_No_20_in_G_Major_Op_49_No_2_-_I_Allegro_ma_non_troppo.ogg&quot;,&quot;d&quot;:298.4}]}"></div>
 
 ## Theo dõi khi nghe
 
