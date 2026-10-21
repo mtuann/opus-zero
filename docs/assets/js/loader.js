@@ -2,7 +2,7 @@
    Các script được tải song song nhưng chạy đúng thứ tự phụ thuộc (async = false). */
 (function () {
   "use strict";
-  const VERSION = "12";
+  const VERSION = "13";
   const me = document.currentScript || document.querySelector('script[src*="assets/js/loader.js"]');
   const BASE = me ? me.src.replace(/loader\.js.*$/, "") : "assets/js/";
   /* abcjs đi kèm trong repo (docs/assets/js/vendor/) để dùng được khi mất mạng; mermaid vẫn tải từ CDN */
@@ -74,7 +74,8 @@
   }
   function scan() {
     const list = needed();
-    Promise.all(list.map(load)).then(function () {
+    /* done: xong khi mọi công cụ của trang đã khởi tạo (kiểm thử chờ mốc này thay vì chờ cố định) */
+    window.OZLoader.done = Promise.all(list.map(load)).then(function () {
       if (window.mermaid && document.querySelector('.mermaid:not([data-processed])')) {
         try { window.mermaid.initialize({ startOnLoad: false }); window.mermaid.run(); }
         catch (e) { console.error(e); }
@@ -83,7 +84,7 @@
     });
   }
   window.OZReady = OZReady;
-  window.OZLoader = { needed: needed, RULES: RULES, load: load };
+  window.OZLoader = { needed: needed, RULES: RULES, load: load, done: Promise.resolve() };
   if (window.document$) window.document$.subscribe(scan);
   else if (document.readyState !== "loading") scan();
   else document.addEventListener("DOMContentLoaded", scan);

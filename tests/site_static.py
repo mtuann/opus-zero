@@ -7,6 +7,8 @@
 3. Mọi chương trong BOOKS đều có trang tương ứng trong nav.
 4. VERSION trong docs/sw.js và docs/assets/js/loader.js khớp nhau.
 5. Mọi file trong PRECACHE của sw.js đều tồn tại trong docs/.
+6. Ma trận nhóm trong .github/workflows/test.yml khớp với các nhóm trong tests/run.mjs
+   (thêm nhóm mà quên ma trận thì CI âm thầm bỏ qua nhóm đó).
 """
 import importlib.util
 import re
@@ -79,5 +81,13 @@ for m in re.finditer(r'"(assets/[^"]+)"', sw_src.split("PRECACHE")[1].split("]")
     if not (ROOT / "docs" / rel).exists():
         fail("sw.js precache '%s' nhưng docs/%s không tồn tại" % (m.group(1), rel))
 
-print("site_static: %d kiểm tra, %d lỗi" % (5, len(fails)))
+# --- 6. nhóm kiểm thử: tests/run.mjs và ma trận CI khớp nhau ---
+run_src = (ROOT / "tests/run.mjs").read_text(encoding="utf-8")
+run_groups = re.findall(r'^  "([\w-]+)": \[', run_src.split("const GROUPS")[1].split("\n};")[0], re.M)
+ci = re.search(r"^\s*group:\s*\[([^\]]*)\]", (ROOT / ".github/workflows/test.yml").read_text(encoding="utf-8"), re.M)
+ci_groups = [g.strip().strip("'\"") for g in ci.group(1).split(",")] if ci else []
+if not run_groups or sorted(run_groups) != sorted(ci_groups):
+    fail("nhóm kiểm thử lệch nhau: tests/run.mjs có %s, ma trận trong test.yml có %s" % (run_groups, ci_groups))
+
+print("site_static: %d kiểm tra, %d lỗi" % (6, len(fails)))
 sys.exit(1 if fails else 0)

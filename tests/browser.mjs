@@ -8,6 +8,15 @@ import { JSDOM, ResourceLoader, VirtualConsole } from "jsdom";
 const SITE = path.resolve(new URL("../site", import.meta.url).pathname);
 const ORIGIN = "https://mtuann.github.io/opus-zero/";
 if (!fs.existsSync(SITE)) { console.error("Chưa có site/: hãy chạy `mkdocs build` trước."); process.exit(1); }
+/* Chia việc để chạy song song (xem tests/run.mjs):
+   --pages K/N  chỉ quét phần K trong N phần của danh sách trang, bỏ qua các luồng tương tác
+   --flows      chỉ chạy các luồng tương tác
+   (không có tham số: chạy cả hai, như trước) */
+const ARGV = process.argv.slice(2);
+const PAGES_ARG = ARGV.includes("--pages") ? ARGV[ARGV.indexOf("--pages") + 1] : null;
+const [SHARD, SHARDS] = PAGES_ARG ? PAGES_ARG.split("/").map(Number) : [1, 1];
+if (PAGES_ARG && !(SHARDS >= 1 && SHARD >= 1 && SHARD <= SHARDS)) { console.error("--pages cần dạng K/N, ví dụ 2/3"); process.exit(2); }
+const RUN_SWEEP = !ARGV.includes("--flows"), RUN_FLOWS = !PAGES_ARG;
 
 class Loader extends ResourceLoader {
   fetch(url) {
@@ -31,7 +40,15 @@ function fakeAudio(w) {
   w.navigator.requestMIDIAccess = () => Promise.resolve({ inputs: new Map([["1", { name: "Đàn thử", onmidimessage: null }]]), onstatechange: null });
 }
 const storage = {};
-async function open(rel, wait = 250) {
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+/* Chờ trang "ổn định": bộ tải báo mọi công cụ đã khởi tạo (OZLoader.done, tối đa 5 giây),
+   rồi thêm `extra` ms cho các hẹn giờ ngắn. Nhanh hơn nhiều so với chờ cố định 250 ms mỗi trang. */
+async function settle(w, extra) {
+  const done = w.OZLoader && w.OZLoader.done;
+  if (done) await Promise.race([done, sleep(5000)]);
+  await sleep(extra);
+}
+async function open(rel, extra = 20) {
   const html = fs.readFileSync(path.join(SITE, rel), "utf8");
   const errors = [], requested = [];
   const vc = new VirtualConsole();
@@ -46,7 +63,7 @@ async function open(rel, wait = 250) {
       w.addEventListener("error", (e) => errors.push(e.message));
     } });
   await new Promise((r) => dom.window.addEventListener("load", r));
-  await new Promise((r) => setTimeout(r, wait));
+  await settle(dom.window, extra);
   const w = dom.window;
   return { w, d: w.document, errors, requested, save() { for (let i = 0; i < w.localStorage.length; i++) { const k = w.localStorage.key(i); storage[k] = w.localStorage.getItem(k); } }, close() { w.close(); } };
 }
@@ -56,7 +73,9 @@ const pages = [];
 (function walk(d) { for (const f of fs.readdirSync(d)) { const p = path.join(d, f); if (fs.statSync(p).isDirectory()) walk(p); else if (f === "index.html" && !fs.readFileSync(p, "utf8").includes('http-equiv="refresh"')) pages.push(path.relative(SITE, p)); /* bỏ qua trang chuyển hướng (hooks/redirects.py) */ } })(SITE);
 
 let fail = 0, textOnly = 0, textOnlyScripts = 0;
-for (const rel of pages) {
+const mine = pages.filter((_, i) => i % SHARDS === SHARD - 1);
+if (RUN_SWEEP) {
+for (const rel of mine) {
   const r = await open(rel);
   const probs = [...r.errors];
   r.d.querySelectorAll(".abc-notation").forEach((el, i) => { if (!el.querySelector("svg")) probs.push("khuông nhạc #" + (i + 1) + " không hiển thị"); });
@@ -69,12 +88,13 @@ for (const rel of pages) {
   if (probs.length) { fail++; console.log("✗", rel, probs.slice(0, 4).join(" | ")); }
   r.close();
 }
-console.log(`browser: ${pages.length} trang, ${fail} trang có lỗi; ${textOnly} trang chỉ có chữ tải ${textOnlyScripts} script công cụ`);
+console.log(`browser: ${mine.length}${SHARDS > 1 ? `/${pages.length} (phần ${SHARD}/${SHARDS})` : ""} trang, ${fail} trang có lỗi; ${textOnly} trang chỉ có chữ tải ${textOnlyScripts} script công cụ`);
+}
 
 /* ---- Luồng tương tác chính ---- */
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const checks = [];
 const check = (name, cond, info = "") => { checks.push([name, !!cond]); if (!cond) { fail++; console.log("✗", name, info); } };
+if (RUN_FLOWS) {
 {
   const r = await open("luyen-tap/doc-not/index.html");
   const nr = r.d.querySelector(".oz-note-reader");
@@ -97,7 +117,7 @@ const check = (name, cond, info = "") => { checks.push([name, !!cond]); if (!con
   r.close();
 }
 {
-  const r = await open("nhan-dien/luyen-nghe/index.html", 400);
+  const r = await open("nhan-dien/luyen-nghe/index.html");
   const st = r.d.querySelector(".oz-style-trainer");
   const hidden = st.querySelector(".oz-ex-staff").classList.contains("oz-hidden-staff");
   for (const b of st.querySelectorAll(".oz-answers button")) { b.click(); if (b.classList.contains("is-correct")) break; }
@@ -138,7 +158,7 @@ const check = (name, cond, info = "") => { checks.push([name, !!cond]); if (!con
   r.close();
 }
 {
-  const r = await open("nhan-dien/luyen-nghe/index.html", 400);
+  const r = await open("nhan-dien/luyen-nghe/index.html");
   const ct = r.d.querySelector(".oz-cadence-trainer");
   ct.querySelector('[data-act="new"]').click();
   for (const b of ct.querySelectorAll(".oz-answers button")) { b.click(); if (b.classList.contains("is-correct")) break; }
@@ -177,7 +197,7 @@ const check = (name, cond, info = "") => { checks.push([name, !!cond]); if (!con
   const done = r.d.querySelector('.oz-piece [data-a="practiced"]');
   if (done) done.click();
   r.save(); r.close();
-  r = await open("index.html", 400);
+  r = await open("index.html");
   const items = [...r.d.querySelectorAll(".oz-plan li")].map((li) => li.textContent);
   check("kế hoạch hôm nay: gam của chặng 3 rồi bài đang tập", /Khởi động: gam/.test(items[0] || "") && /Für Elise/.test(items[1] || ""), items.slice(0, 3).join(" | "));
   const today = r.d.querySelector(".oz-home-today"), paths = r.d.querySelector(".oz-home-paths");
@@ -186,7 +206,7 @@ const check = (name, cond, info = "") => { checks.push([name, !!cond]); if (!con
 }
 /* ---- Thị tấu hai tay ---- */
 {
-  const r = await open("luyen-tap/thi-tau-hai-tay/index.html", 400);
+  const r = await open("luyen-tap/thi-tau-hai-tay/index.html");
   const box = r.d.querySelector(".oz-sight2");
   const svg1 = box && box.querySelector(".abc-notation svg");
   check("thị tấu hai tay: có bài trên khuông kép", !!svg1 && box.querySelectorAll(".abc-notation svg .abcjs-staff").length >= 2, box ? box.textContent.slice(0, 80) : "không có .oz-sight2");
@@ -201,7 +221,7 @@ const check = (name, cond, info = "") => { checks.push([name, !!cond]); if (!con
 }
 /* ---- Sách in được ---- */
 for (const f of fs.readdirSync(path.join(SITE, "sach"))) {
-  const r = await open("sach/" + f, 600);
+  const r = await open("sach/" + f);
   const abc = r.d.querySelectorAll(".abc-notation").length, svg = r.d.querySelectorAll(".abc-notation svg").length;
   const ok = !r.errors.length && abc === svg && r.d.body.getAttribute("data-ready") === "1" && r.d.querySelectorAll(".chapter").length > 0
     && r.d.querySelectorAll(".book-quiz").length === r.d.querySelectorAll(".book-answers").length;
@@ -209,4 +229,5 @@ for (const f of fs.readdirSync(path.join(SITE, "sach"))) {
   r.close();
 }
 console.log(`browser: ${checks.length} luồng tương tác, ${checks.filter((c) => !c[1]).length} lỗi`);
+}
 process.exit(fail ? 1 : 0);

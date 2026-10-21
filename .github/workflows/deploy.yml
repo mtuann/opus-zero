@@ -3,6 +3,8 @@ name: Deploy site to GitHub Pages
 on:
   push:
     branches: [main]
+    # Sửa riêng các file này không làm site thay đổi, nên không cần deploy.
+    paths-ignore: ["README.md", "LICENSE"]
   workflow_dispatch:
 
 permissions:
@@ -10,39 +12,38 @@ permissions:
   pages: write
   id-token: write
 
+# Mỗi lúc chỉ một lần deploy; lần push mới chờ lần trước xong để site không bị ghi đè bằng bản cũ hơn.
 concurrency:
   group: pages
   cancel-in-progress: false
 
 jobs:
+  # Kiểm thử (các nhóm chạy song song) và build cho Pages chạy cùng lúc.
+  # Chỉ deploy khi build xong và mọi nhóm kiểm thử đều đạt: có lỗi thì site giữ nguyên bản cũ.
+  test:
+    uses: ./.github/workflows/test.yml
+
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
       - run: mkdocs build --strict
-      # Kiểm thử trước khi deploy: nếu có lỗi, site không bị cập nhật.
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "22"
-          cache: npm
-      - run: npm ci
-      - run: npm test
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site
 
   deploy:
-    needs: build
+    needs: [test, build]
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

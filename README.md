@@ -18,8 +18,11 @@ mkdocs serve                     # mở http://127.0.0.1:8000/opus-zero/
 ```bash
 mkdocs build --strict      # build site/ (bắt link nội bộ và anchor hỏng)
 npm ci                     # cài công cụ kiểm thử (lần đầu)
-npm test                   # chạy toàn bộ kiểm thử
+npm test                   # chạy toàn bộ kiểm thử (4 nhóm song song, khoảng 20 giây)
+npm test -- a11y           # chỉ chạy một nhóm: nhanh, trang-1, trang-2 hoặc a11y
 ```
+
+`tests/run.mjs` chia kiểm thử thành 4 nhóm chạy song song: **nhanh** (mọi kiểm thử nhỏ cùng các luồng tương tác của `browser.mjs`), **trang-1** và **trang-2** (mỗi nhóm mở một nửa số trang), **a11y**. Các kiểm thử mở trang chờ bộ tải báo mọi công cụ đã khởi tạo (`OZLoader.done`) thay vì chờ cố định, nên nhanh gấp khoảng 3 lần so với trước.
 
 `npm test` gồm:
 
@@ -29,11 +32,11 @@ npm test                   # chạy toàn bộ kiểm thử
 | `tests/unit.mjs` | Hàm thuần: tên nốt, gam, hợp âm, chấm cao độ và nhịp, kế hoạch học, sinh bài tập |
 | `tests/browser.mjs` | Mở từng trang đã build như trình duyệt thật: không lỗi JavaScript, mọi khuông nhạc và công cụ khởi tạo, không tải script thừa; thử đàn MIDI ảo, micro ảo, bàn phím |
 | `tests/a11y.mjs` | Khả năng tiếp cận (axe-core) trên 38 trang tiêu biểu |
-| `tests/site_static.py` | Kiểm tra tĩnh: khối mermaid có quy tắc tải, sách "Hướng dẫn nghe" khớp nav, VERSION của sw.js và loader.js khớp nhau |
+| `tests/site_static.py` | Kiểm tra tĩnh: khối mermaid có quy tắc tải, sách "Hướng dẫn nghe" khớp nav, VERSION của sw.js và loader.js khớp nhau, nhóm kiểm thử trong `tests/run.mjs` khớp ma trận CI |
 | `tests/search.mjs` | Tìm kiếm có dấu và không dấu ra đúng trang |
 | `tests/abc_bars.py` | Độ dài từng ô nhịp trong mọi khối ```abc (hiểu cả nốt hoa mỹ `{…}`, bè chồng `&` và liên ba `(p:q:r`) và các đoạn nhạc tổng hợp |
 
-GitHub Actions chạy toàn bộ kiểm thử **trước mỗi lần deploy**: nếu có lỗi, site không bị cập nhật. Nhánh khác và pull request được kiểm thử bởi `.github/workflows/test.yml`.
+GitHub Actions chạy toàn bộ kiểm thử **trước mỗi lần deploy**: nếu có lỗi, site không bị cập nhật. `.github/workflows/test.yml` chạy mỗi nhóm thành một job song song (môi trường chung ở `.github/actions/setup`); `deploy.yml` gọi lại workflow này, đồng thời build bản cho Pages, và chỉ deploy khi mọi nhóm đều đạt. Nhánh khác và pull request cũng được kiểm thử bằng `test.yml`.
 
 ## Deploy
 
