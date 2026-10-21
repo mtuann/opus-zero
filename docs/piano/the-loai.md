@@ -23,7 +23,7 @@ Tên một bản nhạc piano thường đã nói trước cho bạn nhiều đi
 | Prelude (độc lập) | Lãng mạn trở đi | Ngắn, chỉ một ý | Chopin, Op. 28; Debussy, *Préludes* | [Chopin, Prélude Mi thứ](tac-pham/chopin-prelude-mi-thu.md) (trung cấp) |
 | Mazurka, polonaise, valse | Lãng mạn | Điệu nhảy nhịp ba | Chopin | [Chopin, Valse La thứ](tac-pham/chopin-valse-la-thu.md) (sơ–trung cấp) |
 | Ballade, scherzo | Lãng mạn | Lớn, kịch tính, như kể chuyện | Chopin, Ballade số 1 | [Ballade số 1](tac-pham/chopin-ballade-1.md) (nâng cao) |
-| Bài hát không lời | Lãng mạn | Giai điệu như ca khúc | Mendelssohn, *Lieder ohne Worte* | Mendelssohn, Op. 19 số 6 (trung cấp) |
+| Bài hát không lời | Lãng mạn | Giai điệu như ca khúc | Mendelssohn, *Lieder ohne Worte* | [Mendelssohn, Op. 19 số 6](tac-pham/mendelssohn-thuyen-ca.md) (trung cấp) |
 | Chu trình tiểu phẩm | Lãng mạn | Nhiều bản ngắn thành một chuỗi | Schumann, *Kinderszenen*, *Carnaval* | [Schumann, *Album für die Jugend*](tac-pham/schumann-album.md) (sơ cấp) |
 | Intermezzo | Cuối Lãng mạn | Ngắn, trầm tư, nội tâm | Brahms, Op. 117, Op. 118 | Brahms, Valse Op. 39 số 15, bản dễ (trung cấp) |
 | Tiểu phẩm trữ tình | Lãng mạn | Bức tranh nhỏ có tên gợi hình | Grieg, *Lyric Pieces* | Grieg, *Arietta* Op. 12 số 1 (sơ–trung cấp) |
@@ -86,7 +86,7 @@ Thế kỷ 19 yêu **tiểu phẩm tính cách** (*character piece*): một bả
 
 ### Bagatelle, impromptu, moment musical
 
-**Bagatelle** ("chuyện vặt"): Beethoven có ba tập Op. 33, Op. 119, Op. 126, và *Für Elise* WoO 59. **Impromptu** ("ngẫu hứng") và **moment musical** ("khoảnh khắc âm nhạc") gắn với Schubert: hai tập Impromptu D. 899 và D. 935 (1827), sáu Moment musical D. 780. Chopin viết ba Impromptu và *Fantaisie-Impromptu* Op. 66 (in sau khi ông mất). Xem [hướng dẫn nghe Schubert](../nghe-nhac/schubert-impromptu.md).
+**Bagatelle** ("chuyện vặt"): Beethoven có ba tập Op. 33, Op. 119, Op. 126, và *Für Elise* WoO 59. **Impromptu** ("ngẫu hứng") và **moment musical** ("khoảnh khắc âm nhạc") gắn với Schubert: hai tập Impromptu D. 899 và D. 935 (1827), sáu Moment musical D. 780. Chopin viết ba Impromptu và [*Fantaisie-Impromptu* Op. 66](tac-pham/chopin-fantaisie-impromptu.md) (in sau khi ông mất). Xem [hướng dẫn nghe Schubert](../nghe-nhac/schubert-impromptu.md).
 
 ### Nocturne
 

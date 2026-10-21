@@ -154,11 +154,14 @@ nav:
           - Bàn đạp: piano/ban-dap.md
           - Nốt hoa mỹ: piano/not-hoa-my.md
           - Phối hợp hai tay: piano/hai-tay.md
+          - Quãng tám và bước nhảy: piano/quang-tam-buoc-nhay.md
+          - Nốt lặp và nốt kép: piano/not-lap-not-kep.md
           - Bài tập ngón và étude: piano/bai-tap-ngon.md
       - Tập luyện:
           - Cách tập hiệu quả: piano/cach-tap.md
           - Đọc nhạc và thị tấu: piano/thi-tau.md
           - Học thuộc và biểu diễn: piano/hoc-thuoc-bieu-dien.md
+          - Chơi cùng người khác: piano/choi-cung-nguoi-khac.md
           - Giữ đôi tay khỏe: piano/suc-khoe.md
           - Học với thầy và thi cấp: piano/thay-va-thi.md
       - Hòa âm bên phím:
@@ -193,14 +196,23 @@ nav:
                   - "Bach: Prelude Đô trưởng": piano/tac-pham/bach-prelude-do.md
                   - "Chopin: Prélude Mi thứ": piano/tac-pham/chopin-prelude-mi-thu.md
                   - "Beethoven: Für Elise": piano/tac-pham/fur-elise.md
+                  - "Beethoven: Sonata Op. 49 số 2": piano/tac-pham/beethoven-op49-2.md
               - "Trung cấp cao (≈ Grade 6)":
+                  - "Mendelssohn: Thuyền ca Venice": piano/tac-pham/mendelssohn-thuyen-ca.md
+                  - "Chopin: Valse Si thứ": piano/tac-pham/chopin-valse-si-thu.md
                   - "Bach: Invention số 1": piano/tac-pham/bach-invention-1.md
                   - "Mozart: Sonata K. 545": piano/tac-pham/mozart-k545.md
                   - "Schumann: Träumerei": piano/tac-pham/schumann-traumerei.md
-              - "Nâng cao (Grade 7 trở lên)":
+                  - "Beethoven: Ánh trăng, chương 1": piano/tac-pham/beethoven-anh-trang.md
+              - "Nâng cao (≈ Grade 7–8)":
                   - "Beethoven: Pathétique, chương 2": piano/tac-pham/pathetique-adagio.md
                   - "Chopin: Nocturne Op. 9 số 2": piano/tac-pham/chopin-nocturne-op9-2.md
+                  - "Bach: Prelude và fugue Đô thứ": piano/tac-pham/bach-prelude-fugue-do-thu.md
+                  - "Schubert: Impromptu Sol♭ trưởng": piano/tac-pham/schubert-impromptu-sol-giang.md
                   - "Debussy: Clair de lune": piano/tac-pham/debussy-clair-de-lune.md
+              - "Sau Grade 8":
+                  - "Chopin: Fantaisie-Impromptu": piano/tac-pham/chopin-fantaisie-impromptu.md
+                  - "Liszt: Liebestraum số 3": piano/tac-pham/liszt-liebestraum.md
                   - "Chopin: Ballade số 1": piano/tac-pham/chopin-ballade-1.md
       - Văn học piano:
           - Lịch sử cây đàn piano: piano/lich-su-dan.md

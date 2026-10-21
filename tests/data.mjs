@@ -25,6 +25,7 @@ function gen() {
   for (const k of ["treble:30", "bass:20"]) if (rnd() < .6) store.noteStats[k] = [Math.floor(rnd() * 20), Math.floor(rnd() * 5)];
   for (let i = 0; i < rnd() * 4; i++) store.blindLog.push({ d: date(), t: pick(["Bach", "Mozart", "Chopin"]), gp: pick(["baroque", "classical"]), ge: "solo", gc: "", ap: "baroque" });
   if (rnd() < .5) store.listen["/opus-zero/nghe-nhac/ravel-bolero/"] = { url: rnd() < .5 ? "https://youtu.be/abcdefghijk" : "", marks: { 0: 5, 2: Math.floor(rnd() * 99) } };
+  if (rnd() < .5) store.listen["/opus-zero/piano/tac-pham/fur-elise/"] = rnd() < .5 ? { url: "https://example.org/a.mp3", marks: { 1: 7 }, byUrl: { "file:ban-thu.mp3": { 0: Math.floor(rnd() * 50) } } } : { url: "file:ban-thu.mp3", marks: { 0: 4 } };
   if (rnd() < .3) store.placement = { done: true };
   store.checks = {};
   for (const pg of ["piano/lo-trinh/", "bat-dau/lo-trinh-choi/"]) if (rnd() < .6) { store.checks[pg] = {}; for (const it of ["a1", "b2", "c3"]) if (rnd() < .5) store.checks[pg][it] = date(); }

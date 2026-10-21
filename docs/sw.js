@@ -1,6 +1,6 @@
 /* Service worker: cho phép mở lại các trang đã xem và dùng công cụ luyện tập khi không có mạng.
    Khi sửa nhiều JS/CSS, tăng V ở đây VÀ trong docs/assets/js/loader.js (hai số phải khớp nhau). */
-const V = 11;
+const V = 12;
 const VERSION = "opus-zero-v" + V;
 /* Khung ứng dụng lưu sẵn ngay từ lần thăm đầu: trang chủ, bộ tải và abcjs đi kèm trong repo */
 const PRECACHE = ["./", "assets/js/loader.js", "assets/js/vendor/abcjs-basic-min.js?v=" + V];
@@ -24,6 +24,8 @@ function isPage(req) {
 self.addEventListener("fetch", (event) => {
   const req = event.request;
   if (req.method !== "GET" || !req.url.startsWith("http")) return;
+  /* Âm thanh, video và yêu cầu theo đoạn (Range): để trình duyệt tải thẳng, không lưu vào bộ nhớ đệm */
+  if (req.headers.has("range") || req.destination === "audio" || req.destination === "video") return;
 
   if (isPage(req)) {
     /* Trang: ưu tiên bản mới từ mạng, mất mạng thì dùng bản đã lưu */

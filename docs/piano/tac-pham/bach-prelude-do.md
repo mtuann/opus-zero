@@ -56,7 +56,7 @@ Rồi so sánh vài nghệ sĩ đã thu trọn *Bình quân luật*, chẳng h�
 
 ## Theo dõi khi nghe
 
-Dán link một bản thu vào khung phía trên, rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
+Dán link một bản thu vào khung phía trên (hoặc chọn một file trên máy), rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
 
 | Thời điểm | Sự kiện |
 |---|---|
@@ -230,7 +230,7 @@ Một số ấn bản thế kỷ 19 chèn thêm một ô nhịp giữa ô 22 và
 ## Học tiếp
 
 - **Phức điệu:** [Bach: Invention số 1](bach-invention-1.md), bước tiếp theo tự nhiên: hai bè độc lập thay cho hợp âm rải.
-- **Cùng tập:** Prelude Đô thứ BWV 847, ngay sau bài này trong quyển 1: cũng một hình nốt lặp lại, nhưng nhanh và mạnh hơn nhiều.
+- **Cùng tập:** [Prelude và fugue Đô thứ BWV 847](bach-prelude-fugue-do-thu.md), ngay sau bài này trong quyển 1: cũng một hình nốt lặp lại, nhưng nhanh và mạnh hơn nhiều.
 - **Hòa âm trượt dần:** [Chopin: Prélude Mi thứ](chopin-prelude-mi-thu.md). 24 prelude Op. 28 của Chopin cũng đi qua đủ 24 giọng, theo gương Bach.
 - **Ở cùng chặng:** [Für Elise](fur-elise.md), [Satie: Gymnopédie số 1](satie-gymnopedie.md); danh sách đầy đủ ở [Tác phẩm theo cấp độ](../tac-pham-theo-cap.md).
 - **Nghe thêm:** [Bach: Goldberg Variations](../../nghe-nhac/bach-goldberg.md).

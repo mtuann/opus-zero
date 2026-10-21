@@ -23,7 +23,7 @@ Chi tiết lịch sử thú vị: tác phẩm vốn có **5 chương**, nhưng c
 
 ## Nghe kèm bản thu
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-audio="https://upload.wikimedia.org/wikipedia/commons/transcoded/2/24/Mozart_-_Eine_kleine_Nachtmusik_-_1._Allegro.ogg/Mozart_-_Eine_kleine_Nachtmusik_-_1._Allegro.ogg.mp3" data-audio-ogg="https://commons.wikimedia.org/wiki/Special:FilePath/Mozart_-_Eine_kleine_Nachtmusik_-_1._Allegro.ogg" data-credit="Advent Chamber Orchestra, Wikimedia Commons" data-page="https://commons.wikimedia.org/wiki/File:Mozart_-_Eine_kleine_Nachtmusik_-_1._Allegro.ogg"></div>
 
 ## Theo dõi khi nghe
 

@@ -1,6 +1,6 @@
 # Bài học tác phẩm
 
-Hai mươi sáu tác phẩm, từ Minuet Fa trưởng K. 2 của Mozart đến Ballade số 1 của Chopin, được hướng dẫn tỉ mỉ như trong một buổi học với thầy: nghe gì, bài được xây dựng thế nào, chỗ nào khó và tập ra sao, tuần này làm gì. Chọn một bài vừa sức ở bảng dưới, hoặc tìm thêm bài ở [Tác phẩm theo cấp độ](../tac-pham-theo-cap.md).
+Ba mươi tư tác phẩm, từ Minuet Fa trưởng K. 2 của Mozart đến Ballade số 1 của Chopin, được hướng dẫn tỉ mỉ như trong một buổi học với thầy: nghe gì, bài được xây dựng thế nào, chỗ nào khó và tập ra sao, tuần này làm gì. Chọn một bài vừa sức ở bảng dưới, hoặc tìm thêm bài ở [Tác phẩm theo cấp độ](../tac-pham-theo-cap.md).
 
 ## Mỗi bài học có gì
 
@@ -10,7 +10,7 @@ Hai mươi sáu tác phẩm, từ Minuet Fa trưởng K. 2 của Mozart đến B
 | Vì sao nên học bài này | Những kỹ năng mà bài này dạy tốt hơn các bài khác |
 | Bối cảnh | Bài ra đời khi nào, cho ai, trên cây đàn nào |
 | Nghe trước khi tập | Nghe điều gì, các nghệ sĩ chơi khác nhau ra sao; link tới hướng dẫn nghe nếu có |
-| Theo dõi khi nghe | Dán link một bản thu, bấm ghi mốc khi nghe thấy từng đoạn; lần sau nghe lại, dòng đang vang được tô sáng |
+| Theo dõi khi nghe | Dán link YouTube hoặc link file âm thanh, hoặc chọn một file trên máy; bấm ghi mốc khi nghe thấy từng đoạn; lần sau nghe lại, dòng đang vang được tô sáng |
 | Cấu trúc | Sơ đồ hình thức và bảng các đoạn |
 | Chỗ khó và cách tập | Bảng gồm chỗ khó, vì sao khó và cách tập cụ thể |
 | Bài tập chuẩn bị | Hai, ba bài tập ngắn soạn riêng, viết trên khuông hai tay có số ngón, bấm nghe được |
@@ -30,7 +30,7 @@ Hai mươi sáu tác phẩm, từ Minuet Fa trưởng K. 2 của Mozart đến B
 
 Quy trình chung để học một bài mới nằm ở [Cách tập một bản nhạc](../cach-tap.md); ghi lại tiến độ trong [nhật ký luyện tập](../../luyen-tap/nhat-ky.md).
 
-## 26 tác phẩm theo cấp độ
+## 34 tác phẩm theo cấp độ
 
 Cấp là ước lượng theo thang ABRSM; "chặng" là chặng tương ứng trong [lộ trình piano](../lo-trinh.md).
 
@@ -55,12 +55,20 @@ Cấp là ước lượng theo thang ABRSM; "chặng" là chặng tương ứng 
 | [Bach: Prelude Đô trưởng BWV 846](bach-prelude-do.md) | Grade 4–5 (chặng 4) | Baroque | Hợp âm rải đều, nghe hòa âm, cổ tay thả lỏng |
 | [Chopin: Prélude Mi thứ Op. 28 số 4](chopin-prelude-mi-thu.md) | Grade 5 (chặng 4) | Lãng mạn | Hợp âm khẽ và đều, giai điệu hát, bàn đạp |
 | [Beethoven: *Für Elise* WoO 59](fur-elise.md) | Grade 5 (chặng 4) | Cổ điển | Chuyền tay, nửa cung đều, các đoạn tương phản |
+| [Beethoven: Sonata Sol trưởng Op. 49 số 2, chương 1](beethoven-op49-2.md) | Grade 5 (chặng 4) | Cổ điển | Hình thức sonata nghe từ bên trong, chùm ba và nhịp chấm dôi, gam chùm ba |
+| [Mendelssohn: Thuyền ca Venice, Op. 19 số 6](mendelssohn-thuyen-ca.md) | Grade 5–6 (chặng 5) | Lãng mạn | Giai điệu quãng ba, quãng sáu trong một tay, nhịp đung đưa 6/8, bàn đạp theo nốt trầm |
+| [Chopin: Valse Si thứ, Op. 69 số 2](chopin-valse-si-thu.md) | Grade 5–6 (chặng 5) | Lãng mạn | Bước nhảy tay trái, trang trí viết ra, rubato trong nhịp valse, quãng ba legato |
 | [Bach: Invention số 1 BWV 772](bach-invention-1.md) | Grade 6 (chặng 5) | Baroque | Phức điệu hai bè, môtip và đảo môtip |
 | [Mozart: Sonata Đô trưởng K. 545](mozart-k545.md) | Grade 6 (chặng 5) | Cổ điển | Hình thức sonata, Alberti, gam nhanh, phát âm Cổ điển |
 | [Schumann: *Träumerei*, Op. 15 số 7](schumann-traumerei.md) | Grade 6 (chặng 5) | Lãng mạn | Ba lớp âm thanh, câu nhạc dài, bàn đạp tinh |
+| [Beethoven: Sonata *Ánh trăng* Op. 27 số 2, chương 1](beethoven-anh-trang.md) | Grade 6–7 (chặng 5) | Cổ điển | Ba lớp trong hai tay, giai điệu ngón 5, bàn đạp *senza sordino* |
 | [Beethoven: *Pathétique* Op. 13, chương 2](pathetique-adagio.md) | Grade 7 (chặng 6) | Cổ điển | Giai điệu hát giữa phần đệm, ba lớp trong hai tay |
 | [Chopin: Nocturne Mi♭ trưởng Op. 9 số 2](chopin-nocturne-op9-2.md) | Grade 7 (chặng 6) | Lãng mạn | Cantabile, fioritura, rubato, bước nhảy tay trái |
+| [Bach: Prelude và fugue Đô thứ, BWV 847](bach-prelude-fugue-do-thu.md) | Grade 7–8 (chặng 6) | Baroque | Móc kép đều ở hai tay, fugue ba bè, nghe và giữ từng bè |
+| [Schubert: Impromptu Sol♭ trưởng, D. 899 số 3](schubert-impromptu-sol-giang.md) | Grade 7–8 (chặng 6) | Lãng mạn | Giai điệu và dòng đệm trong cùng tay phải, câu nhạc rất dài, bàn đạp |
 | [Debussy: *Clair de lune*](debussy-clair-de-lune.md) | Grade 8 (chặng 6) | Ấn tượng | Sắc thái *pp*, bàn đạp nửa, tự do nhịp |
+| [Chopin: *Fantaisie-Impromptu*, Op. 66](chopin-fantaisie-impromptu.md) | Grade 8 trở lên (chặng 7) | Lãng mạn | Ba chọi bốn, móc kép nhanh và nhẹ, tay trái rải rộng, sức bền |
+| [Liszt: *Liebestraum* số 3](liszt-liebestraum.md) | Grade 8 trở lên (chặng 7) | Lãng mạn | Giai điệu ngón cái ở giọng giữa, hợp âm rải chia hai tay, cadenza, quãng tám |
 | [Chopin: Ballade số 1 Op. 23](chopin-ballade-1.md) | Sau Grade 8 (chặng 7) | Lãng mạn | Hình thức lớn, sức bền, coda nhanh, rubato |
 
 ## Chọn bài theo mục tiêu
@@ -69,21 +77,22 @@ Mỗi bài dạy nhiều thứ, nhưng có một hai kỹ năng nó dạy tốt 
 
 | Muốn luyện | Chuỗi bài nên học |
 |---|---|
-| Legato và tiếng hát | Cầu nguyện buổi sáng → *Arietta* → Prélude Mi thứ → *Träumerei* → Nocturne Op. 9 số 2 → *Pathétique*, chương 2 |
-| Ngón đều và nhanh | *La candeur* → *Arabesque* → Sonatina Clementi → K. 545 → Ballade số 1 |
-| Phức điệu | Minuet Sol trưởng → Minuet Sol thứ → Invention số 1, rồi các Sinfonia và fugue trong [danh mục](../tac-pham-theo-cap.md) |
-| Bàn đạp | Prélude La trưởng → Valse La thứ → Gymnopédie số 1 → *Träumerei* → *Clair de lune* |
-| Rubato | Valse La thứ → Prélude Mi thứ → Nocturne Op. 9 số 2 → Ballade số 1 |
-| Hình thức sonata | Sonatina Sol trưởng → Sonatina Clementi → K. 545, rồi nghe trọn *Pathétique* |
+| Legato và tiếng hát | Cầu nguyện buổi sáng → *Arietta* → Prélude Mi thứ → Thuyền ca Venice → *Träumerei* → Nocturne Op. 9 số 2 → *Pathétique*, chương 2 → Impromptu Sol♭ trưởng |
+| Ngón đều và nhanh | *La candeur* → *Arabesque* → Sonatina Clementi → Sonata Op. 49 số 2 → K. 545 → Prelude Đô thứ BWV 847 → *Fantaisie-Impromptu* → Ballade số 1 |
+| Phức điệu | Minuet Sol trưởng → Minuet Sol thứ → Invention số 1 → Prelude và fugue Đô thứ BWV 847, rồi các Sinfonia và fugue khác trong [danh mục](../tac-pham-theo-cap.md) |
+| Bàn đạp | Prélude La trưởng → Valse La thứ → Gymnopédie số 1 → *Träumerei* → *Ánh trăng*, chương 1 → *Clair de lune* → *Liebestraum* số 3 |
+| Rubato | Valse La thứ → Prélude Mi thứ → Valse Si thứ → Nocturne Op. 9 số 2 → Ballade số 1 |
+| Hình thức sonata | Sonatina Sol trưởng → Sonatina Clementi → Sonata Op. 49 số 2 → K. 545, rồi nghe trọn *Pathétique* |
 | Nghe hòa âm | Prelude nhỏ BWV 939 → Prelude Đô trưởng BWV 846 → Prélude Mi thứ → *Clair de lune* |
-| Chuyền tay và bước nhảy | *Für Elise* → Gymnopédie số 1 → Nocturne Op. 9 số 2 |
-| Nhiều lớp âm thanh | Cầu nguyện buổi sáng → *Arietta* → *Träumerei* → *Pathétique*, chương 2 → *Clair de lune* |
+| Chuyền tay và bước nhảy | *Für Elise* → Gymnopédie số 1 → Valse Si thứ → Nocturne Op. 9 số 2 → *Liebestraum* số 3 |
+| Nhiều lớp âm thanh | Cầu nguyện buổi sáng → *Arietta* → *Träumerei* → *Ánh trăng*, chương 1 → *Pathétique*, chương 2 → Impromptu Sol♭ trưởng → *Clair de lune* → *Liebestraum* số 3 |
+| Đa tiết tấu | Bài 9 và 10 ở trang [Phối hợp hai tay](../hai-tay.md) → *Fantaisie-Impromptu* (ba chọi bốn) |
 
-Muốn có một **chương trình nhỏ** để biểu diễn, ghép ba bài của ba thời kỳ ở cùng tầm: Musette Rê trưởng, Minuet Fa trưởng K. 2 và Bài ca Pháp cổ; hoặc Minuet Sol trưởng, Sonatina Clementi và *Arabesque*; hoặc Prelude Đô trưởng, *Für Elise* và Prélude Mi thứ; hoặc Invention số 1, chương 1 K. 545 và *Träumerei*. Xem thêm [Học thuộc và biểu diễn](../hoc-thuoc-bieu-dien.md).
+Muốn có một **chương trình nhỏ** để biểu diễn, ghép ba bài của ba thời kỳ ở cùng tầm: Musette Rê trưởng, Minuet Fa trưởng K. 2 và Bài ca Pháp cổ; hoặc Minuet Sol trưởng, Sonatina Clementi và *Arabesque*; hoặc Prelude Đô trưởng, *Für Elise* và Prélude Mi thứ; hoặc Invention số 1, chương 1 K. 545 và *Träumerei*; hoặc Prelude và fugue Đô thứ BWV 847, Impromptu Sol♭ trưởng của Schubert và *Clair de lune*. Xem thêm [Học thuộc và biểu diễn](../hoc-thuoc-bieu-dien.md).
 
 ## Nghe kèm
 
-Năm bài học có hướng dẫn nghe riêng, nên đọc ở bước "nghe trước": [Bach: Prelude Đô trưởng](../../nghe-nhac/bach-prelude-c.md), [Schumann: Kinderszenen](../../nghe-nhac/schumann-kinderszenen.md) (cho *Träumerei*), [Beethoven: Pathétique](../../nghe-nhac/beethoven-pathetique.md), [Chopin: Nocturne Op. 9 số 2](../../nghe-nhac/chopin-nocturne.md) và [Debussy: Clair de lune](../../nghe-nhac/debussy-clair-de-lune.md). Các hướng dẫn khác, kể cả những tác phẩm bạn sẽ chơi trong vài năm tới, ở [Nghe nhạc](../../nghe-nhac/index.md).
+Tám bài học có hướng dẫn nghe riêng, nên đọc ở bước "nghe trước": [Bach: Prelude Đô trưởng](../../nghe-nhac/bach-prelude-c.md), [Schumann: Kinderszenen](../../nghe-nhac/schumann-kinderszenen.md) (cho *Träumerei*), [Beethoven: *Ánh trăng*](../../nghe-nhac/beethoven-moonlight.md), [Beethoven: Pathétique](../../nghe-nhac/beethoven-pathetique.md), [Chopin: Nocturne Op. 9 số 2](../../nghe-nhac/chopin-nocturne.md), [Schubert: Impromptu Sol♭ trưởng](../../nghe-nhac/schubert-impromptu.md), [Debussy: Clair de lune](../../nghe-nhac/debussy-clair-de-lune.md) và [Liszt: Liebestraum số 3](../../nghe-nhac/liszt-liebestraum.md). Các hướng dẫn khác, kể cả những tác phẩm bạn sẽ chơi trong vài năm tới, ở [Nghe nhạc](../../nghe-nhac/index.md).
 
 ## Nguồn
 

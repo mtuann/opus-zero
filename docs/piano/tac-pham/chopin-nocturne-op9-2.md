@@ -28,7 +28,7 @@ Bản nocturne nổi tiếng nhất của Chopin là một bài học trọn v�
 - **Ngắn mà trọn vẹn.** 34 ô nhịp, khoảng 4 phút: đủ để học kỹ trong hai tháng và biểu diễn được.
 
 !!! tip "Chưa sẵn sàng?"
-    Nếu bước nhảy tay trái và chùm nốt nhỏ còn quá sức, hãy bắt đầu bằng những nocturne mà Henle xếp ở mức 5: Nocturne Mi thứ Op. 72 số 1 (di cảo) hoặc Nocturne Đô♯ thứ (di cảo, KK IVa/16). Cả hai dạy cùng một cách hát nhưng ít trang trí hơn.
+    Nếu bước nhảy tay trái và chùm nốt nhỏ còn quá sức, hãy bắt đầu bằng những nocturne mà Henle xếp ở mức 5: Nocturne Mi thứ Op. 72 số 1 (di cảo) hoặc Nocturne Đô♯ thứ (di cảo, KK IVa/16). Cả hai dạy cùng một cách hát nhưng ít trang trí hơn. Trên site, [Valse Si thứ Op. 69 số 2](chopin-valse-si-thu.md) cũng là một bước chuẩn bị tốt.
 
 ## Bối cảnh
 
@@ -54,7 +54,7 @@ Rồi nghe hai, ba nghệ sĩ khác nhau, ví dụ Arthur Rubinstein, Claudio Ar
 
 ## Theo dõi khi nghe
 
-Dán link một bản thu vào khung phía trên, rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
+Dán link một bản thu vào khung phía trên (hoặc chọn một file trên máy), rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
 
 | Thời điểm | Sự kiện |
 |---|---|
@@ -230,8 +230,8 @@ Phần lớn bài ở *p* và *pp*; dải sắc thái hẹp nên từng nấc nh
 ## Học tiếp
 
 - **Nocturne khác:** Mi thứ Op. 72 số 1 và Đô♯ thứ (di cảo) nếu cần lùi một bước; Rê♭ trưởng Op. 27 số 2 (Henle mức 6) để tiến lên; Đô thứ Op. 48 số 1 và Si trưởng Op. 9 số 3 (Henle mức 7) khi đã vững.
-- **Cùng tác giả, trên site:** [Valse La thứ](chopin-valse-la-thu.md) (dễ hơn), [Prélude Mi thứ](chopin-prelude-mi-thu.md), rồi [Ballade số 1](chopin-ballade-1.md) khi đã ở trình độ cao.
-- **Cùng kỹ năng hát:** [Schumann: Träumerei](schumann-traumerei.md), [Beethoven: Pathétique, chương 2](pathetique-adagio.md).
+- **Cùng tác giả, trên site:** [Valse La thứ](chopin-valse-la-thu.md) và [Valse Si thứ](chopin-valse-si-thu.md) (dễ hơn), [Prélude Mi thứ](chopin-prelude-mi-thu.md), rồi [Fantaisie-Impromptu](chopin-fantaisie-impromptu.md) và [Ballade số 1](chopin-ballade-1.md) khi đã ở trình độ cao.
+- **Cùng kỹ năng hát:** [Schumann: Träumerei](schumann-traumerei.md), [Beethoven: Pathétique, chương 2](pathetique-adagio.md), [Schubert: Impromptu Sol♭ trưởng](schubert-impromptu-sol-giang.md); khó hơn, với giai điệu nằm ở giọng giữa: [Liszt: Liebestraum số 3](liszt-liebestraum.md).
 - **Nghe thêm:** vài nocturne của John Field để thấy khuôn mẫu mà Chopin kế thừa; các nghệ sĩ nên nghe ở [Nghệ sĩ piano và bản thu](../nghe-si.md).
 
 ## Kiểm tra nhanh

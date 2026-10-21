@@ -34,13 +34,13 @@ BOOKS = [
          "gershwin-rhapsody", "stravinsky-sacre", "shostakovich-5", "part-spiegel",
          "scarlatti-sonata", "bach-goldberg", "mozart-k331", "mozart-concerto-21", "beethoven-pathetique", "schubert-impromptu",
          "chopin-etude", "schumann-kinderszenen", "liszt-liebestraum", "grieg-concerto", "mussorgsky-tranh", "brahms-intermezzo"]]),
-    ("piano-ky-thuat", "Piano: kỹ thuật và cách tập", "Lộ trình, tư thế, bản đồ bàn phím, năm ngón, gam và ngón bấm, hợp âm và hình đệm, tạo tiếng đàn, bàn đạp, nốt hoa mỹ, phối hợp hai tay, bài tập ngón, cách tập, thị tấu, học thuộc và biểu diễn, giữ tay khỏe; hòa âm bên phím và ứng tác.",
+    ("piano-ky-thuat", "Piano: kỹ thuật và cách tập", "Lộ trình, tư thế, bản đồ bàn phím, năm ngón, gam và ngón bấm, hợp âm và hình đệm, tạo tiếng đàn, bàn đạp, nốt hoa mỹ, phối hợp hai tay, quãng tám và bước nhảy, nốt lặp và nốt kép, bài tập ngón, cách tập, thị tấu, học thuộc và biểu diễn, chơi cùng người khác, giữ tay khỏe; hòa âm bên phím và ứng tác.",
      ["piano/%s/" % n for n in ["lo-trinh", "tu-the", "ban-do-ban-phim", "nam-ngon", "gam", "hop-am-rai", "tieng-dan", "ban-dap", "not-hoa-my",
-                                 "hai-tay", "bai-tap-ngon", "cach-tap", "thi-tau", "hoc-thuoc-bieu-dien", "suc-khoe",
+                                 "hai-tay", "quang-tam-buoc-nhay", "not-lap-not-kep", "bai-tap-ngon", "cach-tap", "thi-tau", "hoc-thuoc-bieu-dien", "choi-cung-nguoi-khac", "suc-khoe",
                                  "hoa-am", "hoa-am/ket", "hoa-am/dem-giai-dieu", "hoa-am/mau-galant", "hoa-am/ung-tac"]]),
-    ("piano-tac-pham", "Piano: 10 bài đầu tiên và bài học tác phẩm", "10 bài hai tay có số ngón và 26 bài học tác phẩm, từ Minuet Fa trưởng của Mozart đến Ballade số 1 của Chopin: cấu trúc, chỗ khó, bài tập chuẩn bị, kế hoạch tập.",
+    ("piano-tac-pham", "Piano: 10 bài đầu tiên và bài học tác phẩm", "10 bài hai tay có số ngón và 34 bài học tác phẩm, từ Minuet Fa trưởng của Mozart đến Ballade số 1 của Chopin: cấu trúc, chỗ khó, bài tập chuẩn bị, kế hoạch tập.",
      ["piano/10-bai-dau-tien/", "piano/tac-pham-theo-cap/"] + ["piano/tac-pham/%s/" % n for n in [
-         "mozart-minuet-k2", "minuet-sol", "minuet-sol-thu", "musette-re", "schumann-album", "burgmuller-la-candeur", "tchaikovsky-bai-ca-phap-co", "beethoven-sonatina-sol", "clementi-sonatina", "burgmuller-arabesque", "bach-prelude-bwv939", "tchaikovsky-cau-nguyen-buoi-sang", "chopin-valse-la-thu", "chopin-prelude-la-truong", "grieg-arietta", "satie-gymnopedie", "bach-prelude-do", "chopin-prelude-mi-thu", "fur-elise", "bach-invention-1", "mozart-k545", "schumann-traumerei", "pathetique-adagio", "chopin-nocturne-op9-2", "debussy-clair-de-lune", "chopin-ballade-1"]]),
+         "mozart-minuet-k2", "minuet-sol", "minuet-sol-thu", "musette-re", "schumann-album", "burgmuller-la-candeur", "tchaikovsky-bai-ca-phap-co", "beethoven-sonatina-sol", "clementi-sonatina", "burgmuller-arabesque", "bach-prelude-bwv939", "tchaikovsky-cau-nguyen-buoi-sang", "chopin-valse-la-thu", "chopin-prelude-la-truong", "grieg-arietta", "satie-gymnopedie", "bach-prelude-do", "chopin-prelude-mi-thu", "fur-elise", "beethoven-op49-2", "mendelssohn-thuyen-ca", "chopin-valse-si-thu", "bach-invention-1", "mozart-k545", "schumann-traumerei", "beethoven-anh-trang", "pathetique-adagio", "chopin-nocturne-op9-2", "bach-prelude-fugue-do-thu", "schubert-impromptu-sol-giang", "debussy-clair-de-lune", "chopin-fantaisie-impromptu", "liszt-liebestraum", "chopin-ballade-1"]]),
 ]
 LETTERS = "ABCDEFGH"
 

@@ -49,7 +49,7 @@ Rồi so sánh vài nghệ sĩ đã thu trọn bộ prelude với lối chơi r�
 
 ## Theo dõi khi nghe
 
-Dán link một bản thu vào khung phía trên, rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
+Dán link một bản thu vào khung phía trên (hoặc chọn một file trên máy), rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
 
 | Thời điểm | Sự kiện |
 |---|---|

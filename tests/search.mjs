@@ -29,7 +29,9 @@ const CASES = [
   ["nghe mu", "nhan-dien/nghe-mu/"], ["Boléro", "nghe-nhac/ravel-bolero/"],
   ["bàn đạp", "piano/ban-dap/"], ["ban dap", "piano/ban-dap/"], ["ngon bam", "piano/gam/"],
   ["lay tren lay duoi", "piano/not-hoa-my/"], ["Goldberg", "nghe-nhac/bach-goldberg/"],
-  ["la candeur", "piano/tac-pham/burgmuller-la-candeur/"], ["schemata", "piano/hoa-am/mau-galant/"], ["ung tac", "piano/hoa-am/ung-tac/"]
+  ["la candeur", "piano/tac-pham/burgmuller-la-candeur/"], ["schemata", "piano/hoa-am/mau-galant/"], ["ung tac", "piano/hoa-am/ung-tac/"],
+  ["fantaisie impromptu", "piano/tac-pham/chopin-fantaisie-impromptu/"], ["gondellied", "piano/tac-pham/mendelssohn-thuyen-ca/"],
+  ["quang tam", "piano/quang-tam-buoc-nhay/"], ["bốn tay", "piano/choi-cung-nguoi-khac/"], ["senza sordino", "piano/tac-pham/beethoven-anh-trang/"]
 ];
 let bad = 0;
 for (const [q, want] of CASES) {

@@ -155,7 +155,7 @@ Trên đàn Vienna đầu thế kỷ 19, tiếng tắt nhanh và âm vực trầ
 - Giữ đúng *pp*: chơi càng nhỏ, cộng hưởng càng ít nhòe.
 - Một số người dùng bàn đạp giữ âm để giữ nốt trầm trong khi đổi bàn đạp vang phía trên.
 
-Người chơi trên fortepiano có thể theo chỉ dẫn sát chữ hơn. Nghe và so sánh các bản thu trong [hướng dẫn nghe Sonata *Ánh trăng*](../nghe-nhac/beethoven-moonlight.md).
+Người chơi trên fortepiano có thể theo chỉ dẫn sát chữ hơn. Nghe và so sánh các bản thu trong [hướng dẫn nghe Sonata *Ánh trăng*](../nghe-nhac/beethoven-moonlight.md); cách tập bàn đạp cho chương này có ở [bài học tác phẩm](tac-pham/beethoven-anh-trang.md).
 
 ### Chopin
 

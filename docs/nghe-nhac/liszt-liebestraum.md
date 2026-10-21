@@ -66,7 +66,7 @@ Cách chọn và so sánh bản thu: xem [Nghệ sĩ piano và bản thu](../pia
 
 ## Nếu bạn muốn chơi
 
-Liebestraum số 3 thuộc trình độ **nâng cao** (khoảng Grade 8 trở lên, ước lượng). Cái khó không nằm ở tốc độ mà ở **sự cân bằng**: ngón cái hát giai điệu trong khi các ngón khác rải hợp âm thật nhẹ, giai điệu chuyền tay mà không đứt, bàn đạp thay theo hòa âm. Hai cadenza và đoạn cao trào, với quãng tám và bước nhảy xa ở cả hai tay, đòi hỏi kỹ thuật vững.
+Liebestraum số 3 thuộc trình độ **nâng cao** (khoảng Grade 8 trở lên, ước lượng). Cái khó không nằm ở tốc độ mà ở **sự cân bằng**: ngón cái hát giai điệu trong khi các ngón khác rải hợp âm thật nhẹ, giai điệu chuyền tay mà không đứt, bàn đạp thay theo hòa âm. Hai cadenza và đoạn cao trào, với quãng tám và bước nhảy xa ở cả hai tay, đòi hỏi kỹ thuật vững. Cách tập từng phần có ở [bài học tác phẩm Liebestraum số 3](../piano/tac-pham/liszt-liebestraum.md).
 
 Một con đường hợp lý: [Nocturne Op. 9 số 2 của Chopin](../piano/tac-pham/chopin-nocturne-op9-2.md) để học hát trên nền hợp âm rải; *Consolation* số 3 cung Rê♭ trưởng (S. 172) của chính Liszt, nhẹ nhàng hơn nhiều, để làm quen với cách viết của ông; song song luyện hợp âm rải chia giữa hai tay và cách [làm nổi giai điệu](../piano/tieng-dan.md). Khi tập cadenza, hãy chia nốt thành nhóm, kẻ vạch nhịp tạm bằng bút chì và tập chậm như một đoạn có nhịp hẳn hoi. Xem thêm [Tác phẩm theo cấp độ](../piano/tac-pham-theo-cap.md).
 

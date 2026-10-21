@@ -15,7 +15,7 @@ Mười sáu ô nhịp, chơi chưa đầy một phút, nhưng có gần đủ n
     | Sáng tác / xuất bản | Không còn bản viết tay của Bach. Nguồn thế kỷ 18 duy nhất là một bản chép trong tập P 804 ở Thư viện Quốc gia Berlin, bộ sưu tập gắn với Johann Peter Kellner. Năm sáng tác chưa xác định: các tài liệu ước đoán từ thời Köthen (1717–1723) đến khoảng 1726–1727. In lần đầu năm 1843 (nhà Peters, Leipzig) |
     | Giọng · nhịp · tốc độ | Đô trưởng · 4/4 · không ghi tốc độ (thường ♩ ≈ 80–100) |
     | Hình thức | Một mạch liền 16 ô, bốn chặng: nốt nền chủ (ô 1–3) → chuyền tay, sang Sol trưởng (ô 4–8) → nốt nền át có láy (ô 9–12) → về Đô, gam móc kép và kết (ô 13–16) |
-    | Độ khó | Khoảng ABRSM Grade 3 (ước lượng); Henle xếp mức 2 (dễ) trên thang 1–9 |
+    | Độ khó | Khoảng ABRSM Grade 3 (ước lượng) |
     | Kỹ năng chính | Hợp âm rải chia giữa hai tay, giữ nốt trầm bằng ngón, móc đơn đều, láy ở tay trái, gam móc kép có chỗ quay đầu, tiếng đàn rõ với rất ít hoặc không bàn đạp |
     | Bản nhạc | [IMSLP](https://imslp.org/) (tìm "5 Kleine Präludien, BWV 939-943", có bản Bach-Gesellschaft năm 1890); bản Urtext: [G. Henle Verlag](https://www.henle.de/) HN 106, *Kleine Präludien und Fughetten* (Prelude nhỏ và fughetta) |
 
@@ -55,7 +55,7 @@ Bài có mặt trong rất nhiều bản thu trọn các prelude nhỏ, cả tr�
 
 ## Theo dõi khi nghe
 
-Dán link một bản thu vào khung phía trên, rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
+Dán link một bản thu vào khung phía trên (hoặc chọn một file trên máy), rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
 
 | Thời điểm | Sự kiện |
 |---|---|
@@ -263,7 +263,7 @@ Bản Bach-Gesellschaft và các bản Urtext chỉ có nốt và các dấu lá
 ## Nguồn
 
 - Bài "Twelve Little Preludes", Wikipedia tiếng Anh (tổng hợp từ cơ sở dữ liệu Bach Digital và danh mục BWV): nguồn P 804, người chép, các ấn bản Peters 1843 và Bach-Gesellschaft 1890.
-- G. Henle Verlag, HN 106 *Kleine Präludien und Fughetten* (Rudolf Steglich biên tập): lời nói đầu về bản chép của Kellner; mức độ khó theo trang của ấn bản trên [henle.de](https://www.henle.de/).
+- G. Henle Verlag, HN 106 *Kleine Präludien und Fughetten* (Rudolf Steglich biên tập): lời nói đầu về bản chép của Kellner ([henle.de](https://www.henle.de/)).
 - Bài "Johann Peter Kellner", Wikipedia tiếng Anh: tiểu sử và vai trò người chép nhạc Bach.
 - David Schulenberg, *The Keyboard Music of J. S. Bach*, ấn bản 2, Routledge, 2006.
 - Danh sách bản thu: [Bach Cantatas Website](https://www.bach-cantatas.com/).

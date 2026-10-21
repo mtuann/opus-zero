@@ -22,8 +22,8 @@ const PAGES = ["index.html", "nhac-ly/02-khuong-nhac-khoa/index.html", "nhac-ly/
   "nghe-nhac/tchaikovsky-1812/index.html", "nghe-nhac/gershwin-rhapsody/index.html",
   "piano/index.html", "piano/10-bai-dau-tien/index.html", "piano/gam/index.html", "piano/ban-dap/index.html",
   "piano/tac-pham/fur-elise/index.html", "nghe-nhac/bach-goldberg/index.html",
-  "bat-dau/kiem-tra-dau-vao/index.html", "piano/hoa-am/mau-galant/index.html", "piano/tac-pham/grieg-arietta/index.html",
-  "luyen-tap/thi-tau-hai-tay/index.html", "piano/tu-the/index.html"];
+  "piano/tac-pham/chopin-fantaisie-impromptu/index.html", "piano/hoa-am/mau-galant/index.html", "piano/tac-pham/grieg-arietta/index.html",
+  "luyen-tap/thi-tau-hai-tay/index.html", "piano/tu-the/index.html", "piano/tac-pham/bach-prelude-fugue-do-thu/index.html"];
 let total = 0;
 const seen = {};
 for (const rel of PAGES) {

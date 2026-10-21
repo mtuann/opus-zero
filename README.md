@@ -1,6 +1,6 @@
 # Opus Zero
 
-Sổ tay học **piano cổ điển** từ con số 0 đến nâng cao: lộ trình, kỹ thuật, 10 bài hai tay đầu tiên, 26 bài học tác phẩm, hòa âm bên phím, cách tập; cùng nhạc lý, luyện tai, lịch sử, nghe nhạc và các công cụ luyện tập chạy ngay trong trình duyệt (kể cả với đàn MIDI).
+Sổ tay học **piano cổ điển** từ con số 0 đến nâng cao: lộ trình, kỹ thuật, 10 bài hai tay đầu tiên, 34 bài học tác phẩm, hòa âm bên phím, cách tập; cùng nhạc lý, luyện tai, lịch sử, nghe nhạc và các công cụ luyện tập chạy ngay trong trình duyệt (kể cả với đàn MIDI).
 
 Website: https://mtuann.github.io/opus-zero/
 
@@ -28,7 +28,7 @@ npm test                   # chạy toàn bộ kiểm thử
 | `tests/data.mjs` | Gộp dữ liệu sao lưu: 300 cặp dữ liệu ngẫu nhiên, kiểm tra không mất dữ liệu, gộp nhiều lần không nhân đôi, thứ tự gộp không đổi kết quả |
 | `tests/unit.mjs` | Hàm thuần: tên nốt, gam, hợp âm, chấm cao độ và nhịp, kế hoạch học, sinh bài tập |
 | `tests/browser.mjs` | Mở từng trang đã build như trình duyệt thật: không lỗi JavaScript, mọi khuông nhạc và công cụ khởi tạo, không tải script thừa; thử đàn MIDI ảo, micro ảo, bàn phím |
-| `tests/a11y.mjs` | Khả năng tiếp cận (axe-core) trên 26 trang tiêu biểu |
+| `tests/a11y.mjs` | Khả năng tiếp cận (axe-core) trên 38 trang tiêu biểu |
 | `tests/site_static.py` | Kiểm tra tĩnh: khối mermaid có quy tắc tải, sách "Hướng dẫn nghe" khớp nav, VERSION của sw.js và loader.js khớp nhau |
 | `tests/search.mjs` | Tìm kiếm có dấu và không dấu ra đúng trang |
 | `tests/abc_bars.py` | Độ dài từng ô nhịp trong mọi khối ```abc (hiểu cả nốt hoa mỹ `{…}`, bè chồng `&` và liên ba `(p:q:r`) và các đoạn nhạc tổng hợp |
@@ -49,7 +49,7 @@ docs/
 ├── piano/                Trục chính: lộ trình 0 → nâng cao, bắt đầu bên phím đàn, 10 bài hai tay, 8 trang kỹ thuật,
 │   │                     5 trang tập luyện, tác phẩm theo cấp, lịch sử cây đàn, thể loại, nhà soạn nhạc, nghệ sĩ
 │   ├── hoa-am/           Hòa âm bên phím và ứng tác (5 trang)
-│   └── tac-pham/         26 bài học tác phẩm (Minuet K. 2 → Ballade số 1)
+│   └── tac-pham/         34 bài học tác phẩm (Minuet K. 2 → Ballade số 1)
 ├── nhac-ly/              32 bài nhạc lý + âm học + 3 bài ôn tập (khuông nhạc nghe được, quiz) + từ điển
 ├── nhan-dien/            Nhận diện bằng tai: so sánh thời kỳ, thể loại, dấu vân tay, luyện nghe, nghe mù
 ├── luyen-tap/            16 công cụ luyện tập, phiếu bài tập và giấy kẻ khuông in được

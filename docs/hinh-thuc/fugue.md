@@ -34,12 +34,12 @@ Fugue số 2 trong *Bình quân luật* quyển 1 (1722) có **3 bè** và chỉ
 | 3–4 | **Bè soprano** (cao) vào **đáp đề** ở Sol thứ; bè alto chơi **đối đề** bên dưới |
 | 5–6 | **Đoạn chuyển** ngắn, chưa có bè thứ ba |
 | 7–8 | **Bè bass** (thấp) vào chủ đề ở Đô thứ: kết thúc phần trình bày |
-| 9–26 | Xen kẽ đoạn chuyển và chủ đề ở các giọng gần (Mi♭ trưởng, Sol thứ…) |
-| 27–31 | Gần cuối có một **âm nền** Đô ở bè trầm; fugue kết thúc ở hợp âm **Đô trưởng** dù cả bài ở Đô thứ |
+| 9–25 | Xen kẽ đoạn chuyển và chủ đề ở các giọng gần: Mi♭ trưởng (ô 11), Sol thứ (ô 15), Đô thứ (ô 20) |
+| 26–31 | Bè bass vào chủ đề lần cuối (ô 26); từ giữa ô 29, một **âm nền** Đô ngân ở bè trầm dưới lần vào cuối của soprano; fugue kết thúc ở hợp âm **Đô trưởng** dù cả bài ở Đô thứ |
 
 Hợp âm trưởng ở cuối một bài giọng thứ có tên riêng: **quãng 3 Picardy** (*tierce de Picardie*), rất phổ biến trong nhạc Baroque.
 
-**Cách nghe:** lần đầu, chỉ đếm số lần chủ đề xuất hiện. Lần sau, đoán xem chủ đề đang ở bè nào: cao, giữa hay thấp. Nghe kèm video có bản nhạc chạy theo (tìm *"BWV 847 score"*) sẽ dễ hơn nhiều.
+**Cách nghe:** lần đầu, chỉ đếm số lần chủ đề xuất hiện. Lần sau, đoán xem chủ đề đang ở bè nào: cao, giữa hay thấp. Nghe kèm video có bản nhạc chạy theo (tìm *"BWV 847 score"*) sẽ dễ hơn nhiều. Muốn tự chơi bài này, xem [bài học Prelude và fugue Đô thứ](../piano/tac-pham/bach-prelude-fugue-do-thu.md).
 
 ## Nghe thêm
 

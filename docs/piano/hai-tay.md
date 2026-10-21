@@ -209,7 +209,7 @@ Ba chọi bốn khó hơn vì lưới chung có **mười hai** phần:
 
 Đọc mười hai phần thành bốn nhóm ba tiếng đều nhau: "**một** hai ba, **một** hai ba, **một** hai ba, **một** hai ba". Tay chơi bốn đánh ở mỗi chữ "một"; tay chơi ba đánh ở chữ "một" đầu tiên, chữ "hai" của nhóm thứ hai và chữ "ba" của nhóm thứ ba. Hình chung, tính theo phần lưới, là 3 – 1 – 2 – 2 – 1 – 3; người học tiếng Anh hay dùng câu "pass the golden butter" cho hình này.
 
-Tập theo đúng các bước của hai chọi ba: gõ trên bàn thật chậm, rồi bài 9 (viết chính xác trên lưới 12), rồi bài 10 (liên ba chọi móc kép). Fantaisie-Impromptu Op. 66 của Chopin là ví dụ nổi tiếng: ở hai phần nhanh, tay phải chơi bốn nốt trong khi tay trái chơi ba nốt ở mỗi phách.
+Tập theo đúng các bước của hai chọi ba: gõ trên bàn thật chậm, rồi bài 9 (viết chính xác trên lưới 12), rồi bài 10 (liên ba chọi móc kép). [Fantaisie-Impromptu Op. 66](tac-pham/chopin-fantaisie-impromptu.md) của Chopin là ví dụ nổi tiếng: ở hai phần nhanh, tay phải chơi bốn nốt trong khi tay trái chơi ba nốt ở mỗi phách.
 
 ```abc
 X:9

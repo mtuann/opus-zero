@@ -71,7 +71,7 @@ Xem thêm [Nghệ sĩ piano và bản thu](../piano/nghe-si.md).
 
 ## Nếu bạn muốn chơi
 
-Bản này ở mức **khoảng Grade 7–8**: không nhanh, nhưng tay phải phải làm hai việc cùng lúc, bàn tay nhỏ sẽ vất vả với những quãng rộng, và bàn đạp phải rất tinh. Chuẩn bị bằng các bài tập cân bằng trong cùng một tay ở trang [Tạo tiếng đàn](../piano/tieng-dan.md), rồi [*Träumerei*](../piano/tac-pham/schumann-traumerei.md) và [Nocturne Op. 9 số 2 của Chopin](../piano/tac-pham/chopin-nocturne-op9-2.md). Muốn một Impromptu Schubert dễ tiếp cận hơn, hãy thử D. 935 số 2 (La♭ trưởng). Xem [Tác phẩm theo cấp độ](../piano/tac-pham-theo-cap.md); nghe thêm Schubert trong [Ngũ tấu *Con cá hồi*](schubert-ca-hoi.md).
+Bản này ở mức **khoảng Grade 7–8**: không nhanh, nhưng tay phải phải làm hai việc cùng lúc, bàn tay nhỏ sẽ vất vả với những quãng rộng, và bàn đạp phải rất tinh. Chuẩn bị bằng các bài tập cân bằng trong cùng một tay ở trang [Tạo tiếng đàn](../piano/tieng-dan.md), rồi [*Träumerei*](../piano/tac-pham/schumann-traumerei.md) và [Nocturne Op. 9 số 2 của Chopin](../piano/tac-pham/chopin-nocturne-op9-2.md). Muốn một Impromptu Schubert dễ tiếp cận hơn, hãy thử D. 935 số 2 (La♭ trưởng). Khi đã sẵn sàng, [bài học tác phẩm Impromptu Sol♭ trưởng](../piano/tac-pham/schubert-impromptu-sol-giang.md) hướng dẫn tập từng lớp âm thanh, bàn đạp và các câu nhạc dài. Xem [Tác phẩm theo cấp độ](../piano/tac-pham-theo-cap.md); nghe thêm Schubert trong [Ngũ tấu *Con cá hồi*](schubert-ca-hoi.md).
 
 ## Ghi chép của bạn
 

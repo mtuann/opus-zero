@@ -54,7 +54,7 @@ Nghe bè trầm: Đô – Fa – Si – Mi – La – Rê – Sol – Đô, cứ
 
 - [Vivaldi *Mùa xuân*](../nghe-nhac/vivaldi-mua-xuan.md): các đoạn độc tấu violin đầy chuỗi giai điệu.
 - Handel *Messiah*, *Hallelujah*: nhiều chuỗi tạo cảm giác hân hoan dâng lên.
-- Bach, Prelude cung Đô thứ BWV 847 (cặp với [Fugue](../hinh-thuc/fugue.md)): những hình nốt lặp lại trên chuỗi hợp âm.
+- Bach, [Prelude cung Đô thứ BWV 847](../piano/tac-pham/bach-prelude-fugue-do-thu.md) (cặp với [Fugue](../hinh-thuc/fugue.md)): những hình nốt lặp lại trên chuỗi hợp âm.
 
 ## Bài tập
 

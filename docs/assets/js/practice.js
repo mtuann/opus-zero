@@ -14,10 +14,10 @@
     1: [["piano/hai-tuan-dau/", "Hai tuần đầu tiên"], ["piano/10-bai-dau-tien/", "10 bài đầu tiên (hai tay)"]],
     2: [["piano/tac-pham/mozart-minuet-k2/", "Mozart: Minuet Fa trưởng, K. 2"], ["piano/tac-pham/minuet-sol/", "Petzold: Minuet Sol trưởng"], ["piano/tac-pham/schumann-album/", "Schumann: Album für die Jugend"]],
     3: [["piano/tac-pham/clementi-sonatina/", "Clementi: Sonatina Op. 36 số 1"], ["piano/tac-pham/burgmuller-arabesque/", "Burgmüller: Arabesque"], ["piano/tac-pham/bach-prelude-bwv939/", "Bach: Prelude nhỏ Đô trưởng, BWV 939"]],
-    4: [["piano/tac-pham/fur-elise/", "Beethoven: Für Elise"], ["piano/tac-pham/bach-prelude-do/", "Bach: Prelude Đô trưởng"], ["piano/tac-pham/chopin-valse-la-thu/", "Chopin: Valse La thứ"]],
-    5: [["piano/tac-pham/mozart-k545/", "Mozart: Sonata K. 545"], ["piano/tac-pham/bach-invention-1/", "Bach: Invention số 1"], ["piano/tac-pham/schumann-traumerei/", "Schumann: Träumerei"]],
-    6: [["piano/tac-pham/pathetique-adagio/", "Beethoven: Pathétique, chương 2"], ["piano/tac-pham/chopin-nocturne-op9-2/", "Chopin: Nocturne Op. 9 số 2"], ["piano/tac-pham/debussy-clair-de-lune/", "Debussy: Clair de lune"]],
-    7: [["piano/tac-pham/chopin-ballade-1/", "Chopin: Ballade số 1"], ["piano/tac-pham-theo-cap/", "Tác phẩm theo cấp độ"]]
+    4: [["piano/tac-pham/fur-elise/", "Beethoven: Für Elise"], ["piano/tac-pham/bach-prelude-do/", "Bach: Prelude Đô trưởng"], ["piano/tac-pham/beethoven-op49-2/", "Beethoven: Sonata Op. 49 số 2"]],
+    5: [["piano/tac-pham/mozart-k545/", "Mozart: Sonata K. 545"], ["piano/tac-pham/bach-invention-1/", "Bach: Invention số 1"], ["piano/tac-pham/schumann-traumerei/", "Schumann: Träumerei"], ["piano/tac-pham/beethoven-anh-trang/", "Beethoven: Ánh trăng, chương 1"]],
+    6: [["piano/tac-pham/pathetique-adagio/", "Beethoven: Pathétique, chương 2"], ["piano/tac-pham/chopin-nocturne-op9-2/", "Chopin: Nocturne Op. 9 số 2"], ["piano/tac-pham/bach-prelude-fugue-do-thu/", "Bach: Prelude và fugue Đô thứ"], ["piano/tac-pham/debussy-clair-de-lune/", "Debussy: Clair de lune"]],
+    7: [["piano/tac-pham/chopin-fantaisie-impromptu/", "Chopin: Fantaisie-Impromptu"], ["piano/tac-pham/liszt-liebestraum/", "Liszt: Liebestraum số 3"], ["piano/tac-pham/chopin-ballade-1/", "Chopin: Ballade số 1"], ["piano/tac-pham-theo-cap/", "Tác phẩm theo cấp độ"]]
   };
 
   function P() { return window.OZProgress; }

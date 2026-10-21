@@ -13,13 +13,22 @@ Danh mục này xếp những tác phẩm thật, từ bài đầu tiên đến 
 |---|---|---|
 | Schumann: *Melodie*, Op. 68 số 1 | 2 | 2 |
 | Beethoven: *Für Elise* WoO 59 | 4 | 3 |
+| Beethoven: Sonata Sol trưởng Op. 49 số 2 | 4 | 3 |
 | Bach: Invention số 1, BWV 772 | 5 | 3 |
-| Mozart: Sonata Đô trưởng K. 545 | 5 | 5 |
+| Mendelssohn: Thuyền ca Venice, Op. 19 số 6 | 5 | 4 |
+| Chopin: Valse Si thứ, Op. 69 số 2 | 5 | 4 |
+| Mozart: Sonata Đô trưởng K. 545 | 5 | 4–5 |
+| Beethoven: Sonata *Ánh trăng*, Op. 27 số 2 | 5 (chương 1) | 7 (cả bản sonata) |
 | Debussy: *Clair de lune* | 6 | 5 |
+| Bach: Prelude và fugue Đô thứ, BWV 847 | 6 | 6 (prelude), 5 (fugue) |
+| Chopin: Nocturne Mi♭ trưởng, Op. 9 số 2 | 6 | 6 |
+| Schubert: Impromptu Sol♭ trưởng, D. 899 số 3 | 6 | 6 |
 | Grieg: *Bryllupsdag på Troldhaugen* (Ngày cưới ở Troldhaugen), Op. 65 số 6 | 6 | 6 |
+| Chopin: *Fantaisie-Impromptu*, Op. 66 | 7 | 7 |
+| Liszt: *Liebestraum* số 3 | 7 | 7 |
 | Chopin: Ballade số 1, Op. 23 | 7 | 8 |
 
-Henle xếp *Für Elise* và Invention số 1 cùng mức 3, và *Clair de lune* ngang K. 545. Site đặt *Clair de lune* cao hơn một chặng vì âm thanh, bàn đạp và sự tự do nhịp điệu mà bài này đòi hỏi. Hãy dùng các thang để so sánh tương đối, đừng coi chúng là phép đo chính xác.
+Henle xếp *Für Elise* và Invention số 1 cùng mức 3, và *Clair de lune* (mức 5) gần ngang K. 545 (mức 4–5). Site đặt *Clair de lune* cao hơn một chặng vì âm thanh, bàn đạp và sự tự do nhịp điệu mà bài này đòi hỏi. Mức 7 của Sonata *Ánh trăng* là cho cả bản, gồm chương 3 *Presto agitato* rất khó; riêng chương 1 thì site xếp ở chặng 5. Hãy dùng các thang để so sánh tương đối, đừng coi chúng là phép đo chính xác.
 
 ## Chọn bài thế nào
 
@@ -46,6 +55,8 @@ Người lớn thường muốn đi thẳng tới bài mình yêu: *Clair de lun
 | Chopin: Nocturne Op. 9 số 2 | 6 | Prélude Mi thứ (4), Valse Si thứ Op. 69 số 2 (5), Nocturne Mi thứ Op. 72 số 1 (5) |
 | Debussy: *Clair de lune* | 6 | Gymnopédie số 1 (4), *The Little Shepherd* (5), *Träumerei* (5) |
 | Beethoven: *Pathétique*, chương 2 | 6 | Sonatina của Clementi (3), Sonata Op. 49 số 2 (4), K. 545 (5) |
+| Chopin: *Fantaisie-Impromptu* | 7 | Valse Si thứ (5), Nocturne Op. 9 số 2 (6), bài tập ba chọi bốn ở trang [Phối hợp hai tay](hai-tay.md) |
+| Liszt: *Liebestraum* số 3 | 7 | Thuyền ca Venice (5), Nocturne Op. 9 số 2 (6), Impromptu Sol♭ trưởng của Schubert (6) |
 | Chopin: Ballade số 1 | 7 | Nocturne Op. 9 số 2 (6), Valse Op. 64 số 2 (6), Impromptu Op. 90 số 2 của Schubert (6) |
 
 ### Kiểm tra trước khi chọn
@@ -125,7 +136,7 @@ Hai kỹ năng lớn của chặng là **phức điệu** (Bach) và **giai đi�
 | Scarlatti: Sonata Rê thứ K. 32 (*Aria*) | Baroque | Giai điệu như một aria ngắn, hai bè rõ ràng |
 | Handel: Sarabande trong Suite Rê thứ HWV 437 | Baroque | Hợp âm trang trọng nhịp 3/4, phách 2 nặng theo kiểu sarabande |
 | [Beethoven: *Für Elise* WoO 59](tac-pham/fur-elise.md) | Cổ điển | Chuyền tay, nửa cung Mi–Rê♯ đều, các đoạn tương phản |
-| Beethoven: Sonata Op. 49 số 2 (Sol trưởng) và số 1 (Sol thứ) | Cổ điển | Sonata hai chương của Beethoven; chương 2 của số 2 là một *Tempo di Menuetto* |
+| [Beethoven: Sonata Op. 49 số 2 (Sol trưởng)](tac-pham/beethoven-op49-2.md) và số 1 (Sol thứ) | Cổ điển | Sonata hai chương của Beethoven: chương 1 của số 2 là một hình thức sonata nhỏ, rõ ràng; chương 2 là một *Tempo di Menuetto* |
 | Clementi: Sonatina Op. 36 số 4–6; Kuhlau: Sonatina Op. 20 số 2 và 3 | Cổ điển | Chạy ngón nhanh hơn, sonatina nhiều chương |
 | [Chopin: Prélude Mi thứ Op. 28 số 4](tac-pham/chopin-prelude-mi-thu.md) | Lãng mạn | Hợp âm tay trái thật khẽ và đều dưới một giai điệu gần như chỉ quanh một nốt |
 | Chopin: Prélude Op. 28 số 6 (Si thứ), [số 7 (La trưởng)](tac-pham/chopin-prelude-la-truong.md), số 20 (Đô thứ) | Lãng mạn | Số 6: giai điệu ở tay trái; số 7: một mazurka 16 ô nhịp; số 20: hợp âm dày, nhỏ dần từ *ff* xuống *pp* |
@@ -146,10 +157,10 @@ Chương sonata thật đầu tiên, phức điệu Bach có chủ đích, và *
 | Bach: Invention số 4 (Rê thứ, BWV 775), số 8 (Fa trưởng, BWV 779), số 13 (La thứ, BWV 784) | Baroque | Số 4: chuỗi móc kép liền mạch nhịp 3/8; số 8: hai bè đuổi nhau như canon; số 13: hợp âm rải chạy trong cả hai tay |
 | [Schumann: *Träumerei*, *Kinderszenen* Op. 15 số 7](tac-pham/schumann-traumerei.md) | Lãng mạn | Ba lớp âm thanh, câu nhạc dài, bàn đạp tinh |
 | Schumann: *Von fremden Ländern und Menschen* (Về những xứ sở và con người xa lạ), *Kinderszenen* Op. 15 số 1 | Lãng mạn | Giai điệu, chùm ba nốt đệm và bè trầm chia trong hai tay; nghe [Kinderszenen](../nghe-nhac/schumann-kinderszenen.md) |
-| Beethoven: Sonata Op. 27 số 2 (*Ánh trăng*), chương 1 | Cổ điển | Chùm ba nốt đều, giai điệu nổi trên cùng, bàn đạp đổi theo hòa âm; nghe [hướng dẫn](../nghe-nhac/beethoven-moonlight.md) |
-| Chopin: Valse Si thứ Op. 69 số 2; Nocturne Mi thứ Op. 72 số 1 | Lãng mạn | Rubato trong khuôn nhịp valse; giai điệu hát trên hợp âm rải rộng của tay trái |
+| [Beethoven: Sonata Op. 27 số 2 (*Ánh trăng*), chương 1](tac-pham/beethoven-anh-trang.md) | Cổ điển | Chùm ba nốt đều, giai điệu nổi trên cùng, bàn đạp đổi theo hòa âm; nghe [hướng dẫn](../nghe-nhac/beethoven-moonlight.md) |
+| [Chopin: Valse Si thứ Op. 69 số 2](tac-pham/chopin-valse-si-thu.md); Nocturne Mi thứ Op. 72 số 1 | Lãng mạn | Rubato trong khuôn nhịp valse; giai điệu hát trên hợp âm rải rộng của tay trái |
 | Haydn: Sonata Đô trưởng Hob. XVI:35 | Cổ điển | Ngón nhẹ và nhanh, tính hài hước rất Haydn |
-| Mendelssohn: *Lieder ohne Worte* (Bài ca không lời) Op. 19 số 6, *Venetianisches Gondellied* (Sol thứ) | Lãng mạn | Giai điệu hát trên nhịp đung đưa của bài ca chèo thuyền |
+| [Mendelssohn: *Lieder ohne Worte* (Bài ca không lời) Op. 19 số 6, *Venetianisches Gondellied* (Sol thứ)](tac-pham/mendelssohn-thuyen-ca.md) | Lãng mạn | Giai điệu hát trên nhịp đung đưa của bài ca chèo thuyền |
 | Schubert: *Moments musicaux* D. 780 số 3 (Fa thứ) | Lãng mạn | Staccato nhẹ, nhịp đều, giai điệu mang màu dân ca |
 | Brahms: Valse La♭ trưởng Op. 39 số 15 | Lãng mạn | Giai điệu quãng ba, quãng sáu trong một tay, đệm valse mềm |
 | Kabalevsky: Sonatina Đô trưởng Op. 13 số 1 | Thế kỷ 20 | Hình thức sonatina với hòa âm thế kỷ 20 |
@@ -166,14 +177,14 @@ Những tác phẩm lớn được yêu thích nhất. Mỗi bài cần vài th�
 | [Chopin: Nocturne Mi♭ trưởng Op. 9 số 2](tac-pham/chopin-nocturne-op9-2.md) | Lãng mạn | Cantabile, chùm nốt hoa mỹ (fioritura), rubato, bước nhảy tay trái |
 | [Debussy: *Clair de lune*](tac-pham/debussy-clair-de-lune.md) (*Suite bergamasque*) | Ấn tượng | Sắc thái *pp*, bàn đạp nửa, tự do nhịp, nhiều lớp âm thanh |
 | Mozart: Sonata Đô trưởng K. 330; Fantasia Rê thứ K. 397 | Cổ điển | Phát âm trong sáng, bàn đạp tiết kiệm; tự do ngẫu hứng của fantasia (khoảng mười ô nhịp cuối có lẽ do August Eberhard Müller viết thêm) |
-| Bach: *Sinfonia* (Invention ba bè) BWV 787–801; Prelude và fugue Đô thứ BWV 847 (*Bình quân luật*, quyển 1); *French Suite* số 5 Sol trưởng BWV 816 | Baroque | Ba bè độc lập, fugue ba bè đầu tiên, chuỗi vũ khúc của một tổ khúc |
-| Schubert: Impromptu Op. 90 (D. 899) số 2 (Mi♭ trưởng) và số 3 (Sol♭ trưởng) | Lãng mạn | Số 3: giai điệu và phần đệm trong cùng tay phải; số 2: chuỗi móc ba nhẹ và đều; nghe [Impromptu](../nghe-nhac/schubert-impromptu.md) |
+| Bach: *Sinfonia* (Invention ba bè) BWV 787–801; [Prelude và fugue Đô thứ BWV 847](tac-pham/bach-prelude-fugue-do-thu.md) (*Bình quân luật*, quyển 1); *French Suite* số 5 Sol trưởng BWV 816 | Baroque | Ba bè độc lập, fugue ba bè đầu tiên, chuỗi vũ khúc của một tổ khúc |
+| Schubert: Impromptu Op. 90 (D. 899) số 2 (Mi♭ trưởng) và [số 3 (Sol♭ trưởng)](tac-pham/schubert-impromptu-sol-giang.md) | Lãng mạn | Số 3: giai điệu và phần đệm trong cùng tay phải; số 2: chuỗi móc ba nhẹ và đều; nghe [Impromptu](../nghe-nhac/schubert-impromptu.md) |
 | Brahms: Intermezzo La trưởng Op. 118 số 2; Intermezzo Mi♭ trưởng Op. 117 số 1 | Lãng mạn | Giai điệu ở giọng giữa, hòa âm dày, câu nhạc dài; nghe [Intermezzo](../nghe-nhac/brahms-intermezzo.md) |
 | Chopin: Valse Op. 64 số 1 (Rê♭ trưởng) và số 2 (Đô♯ thứ); Nocturne Đô♯ thứ (di cảo, B. 49) | Lãng mạn | Ngón nhanh và nhẹ, rubato, chùm nốt nhanh |
 | Chopin: Prélude Rê♭ trưởng Op. 28 số 15 | Lãng mạn | Nốt lặp đều suốt bài, cao trào ở đoạn giữa Đô♯ thứ |
 | Grieg: *Bryllupsdag på Troldhaugen* (Ngày cưới ở Troldhaugen) Op. 65 số 6 | Lãng mạn | Hợp âm và quãng tám mạnh, đoạn giữa trữ tình |
 | Debussy: Arabesque số 1 (Mi trưởng); *La fille aux cheveux de lin* (Cô gái tóc lanh), *Préludes* quyển 1 số 8 | Ấn tượng | Hai chọi ba, bàn đạp nửa, câu nhạc tự do |
-| Liszt: *Consolation* số 3 (Rê♭ trưởng) S. 172; *Liebestraum* số 3 | Lãng mạn | *Consolation*: giai điệu hát trên hợp âm rải rộng; *Liebestraum*: giai điệu ở giọng giữa, hai tay chia nhau phần đệm; nghe [Liebestraum](../nghe-nhac/liszt-liebestraum.md) |
+| Liszt: *Consolation* số 3 (Rê♭ trưởng) S. 172 | Lãng mạn | Giai điệu hát trên hợp âm rải rộng; bước chuẩn bị cho *Liebestraum* số 3 ở chặng 7 |
 | Rachmaninoff: Prelude Đô♯ thứ Op. 3 số 2 | Lãng mạn muộn | Hợp âm lớn trải rộng, dùng sức nặng cánh tay mà tiếng không gắt |
 | Ravel: *Menuet sur le nom d'Haydn* (Minuet trên tên Haydn, 1909) | Thế kỷ 20 | 54 ô nhịp, chủ đề tạo từ các chữ cái trong tên Haydn, hòa âm tinh tế |
 | Gershwin: *Three Preludes* (Ba prelude) | Thế kỷ 20 | Đảo phách, hợp âm màu jazz |
@@ -184,6 +195,8 @@ Những tác phẩm lớn được yêu thích nhất. Mỗi bài cần vài th�
 
 | Tác phẩm | Thời kỳ | Học được gì |
 |---|---|---|
+| [Chopin: *Fantaisie-Impromptu* Đô♯ thứ Op. 66](tac-pham/chopin-fantaisie-impromptu.md) | Lãng mạn | Ba chọi bốn, móc kép nhanh và nhẹ, đoạn giữa hát như một nocturne |
+| [Liszt: *Liebestraum* số 3](tac-pham/liszt-liebestraum.md) | Lãng mạn | Giai điệu ở giọng giữa do ngón cái hát, hai tay chia nhau phần đệm, hai cadenza, cao trào quãng tám; nghe [Liebestraum](../nghe-nhac/liszt-liebestraum.md) |
 | [Chopin: Ballade số 1 Sol thứ Op. 23](tac-pham/chopin-ballade-1.md) | Lãng mạn | Hình thức tự sự lớn, sức bền, coda *Presto con fuoco* |
 | Chopin: Ballade số 2–4 (Op. 38, 47, 52); bốn Scherzo (Op. 20, 31, 39, 54); Études Op. 10 và Op. 25; Sonata Op. 35 và Op. 58; *Barcarolle* Op. 60 | Lãng mạn | Đỉnh cao kỹ thuật và hình thức của Chopin; nghe [Études](../nghe-nhac/chopin-etude.md) |
 | Bach: *Bình quân luật* (BWV 846–893); Partita (BWV 825–830); *Goldberg Variations* BWV 988 | Baroque | Fugue bốn, năm bè; tổ khúc lớn; nghe [Goldberg](../nghe-nhac/bach-goldberg.md) |

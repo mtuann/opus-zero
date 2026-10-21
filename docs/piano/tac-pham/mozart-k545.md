@@ -27,7 +27,7 @@ Bản sonata mà chính Mozart ghi là "cho người mới học" thật ra là 
 - **Trong suốt.** Không có bàn đạp và hòa âm dày, từng nốt lệch nhịp hay to hơn nốt bên cạnh đều nghe thấy. Đó là trường luyện tai tốt nhất cho sự sạch sẽ.
 
 !!! tip "Chưa sẵn sàng?"
-    Nếu Alberti và gam móc kép ở ♩ = 100 còn vất vả, hãy học trước [Clementi: Sonatina Op. 36 số 1](clementi-sonatina.md): cùng ngôn ngữ, ngắn hơn, chậm hơn.
+    Nếu Alberti và gam móc kép ở ♩ = 100 còn vất vả, hãy học trước [Clementi: Sonatina Op. 36 số 1](clementi-sonatina.md): cùng ngôn ngữ, ngắn hơn, chậm hơn. Một bước đệm khác là [Beethoven: Sonata Op. 49 số 2, chương 1](beethoven-op49-2.md): cũng hình thức sonata, ít Alberti hơn.
 
 ## Bối cảnh
 
@@ -51,7 +51,7 @@ So sánh một nghệ sĩ chơi đàn hiện đại (Mitsuko Uchida, Maria João
 
 ## Theo dõi khi nghe
 
-Dán link một bản thu vào khung phía trên, rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
+Dán link một bản thu vào khung phía trên (hoặc chọn một file trên máy), rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
 
 | Thời điểm | Sự kiện |
 |---|---|
@@ -222,7 +222,7 @@ Vì không có sắc thái gốc, các ấn bản phổ thông thường in rấ
 ## Học tiếp
 
 - **Cùng phong cách, khó hơn:** Mozart Sonata K. 330 hoặc K. 283; nghe trước [Sonata K. 331](../../nghe-nhac/mozart-k331.md).
-- **Bước sang Beethoven:** [Pathétique, chương 2](pathetique-adagio.md), nơi tiếng đàn hát và nhiều lớp hơn.
+- **Bước sang Beethoven:** [Sonata *Ánh trăng*, chương 1](beethoven-anh-trang.md) ở cùng chặng, rồi [Pathétique, chương 2](pathetique-adagio.md), nơi tiếng đàn hát và nhiều lớp hơn.
 - **Hai bè độc lập:** [Bach: Invention số 1](bach-invention-1.md) rèn sự đều tay theo một hướng khác.
 - Xem thứ tự gợi ý ở [Tác phẩm theo cấp độ](../tac-pham-theo-cap.md).
 

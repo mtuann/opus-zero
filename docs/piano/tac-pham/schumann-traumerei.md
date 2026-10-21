@@ -48,7 +48,7 @@ Vladimir Horowitz hay chơi bài này như một bản encore: trong buổi hòa
 
 ## Theo dõi khi nghe
 
-Dán link một bản thu vào khung phía trên, rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
+Dán link một bản thu vào khung phía trên (hoặc chọn một file trên máy), rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
 
 | Thời điểm | Sự kiện |
 |---|---|
@@ -206,6 +206,7 @@ Schumann chỉ ghi *ritard.* ở ba chỗ, nơi các đoạn nối vào nhau, v�
 ## Học tiếp
 
 - **Cùng chu trình:** học thêm *Von fremden Ländern und Menschen* (bài 1) và *Der Dichter spricht* (bài 13) để chơi một nhóm ba bài.
+- **Hát trên phím đàn, cùng chặng:** [Mendelssohn: Thuyền ca Venice](mendelssohn-thuyen-ca.md), [Beethoven: *Ánh trăng*, chương 1](beethoven-anh-trang.md).
 - **Hát trên phím đàn, khó hơn:** [Chopin: Nocturne Op. 9 số 2](chopin-nocturne-op9-2.md), [Beethoven: Pathétique, chương 2](pathetique-adagio.md).
 - **Nhiều bè độc lập hơn:** [Bach: Invention số 1](bach-invention-1.md).
 - Xem thứ tự gợi ý ở [Tác phẩm theo cấp độ](../tac-pham-theo-cap.md).

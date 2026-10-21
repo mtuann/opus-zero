@@ -25,7 +25,7 @@ Tìm chặng của mình trong [lộ trình 7 chặng](lo-trinh.md), chọn bài
 <div class="oz-path" markdown>
 ### Tôi muốn chơi một tác phẩm cụ thể
 
-Xem [26 bài học tác phẩm](tac-pham/index.md), từ Minuet Fa trưởng K. 2 của Mozart đến Ballade số 1 của Chopin. Mỗi bài có cấu trúc, chỗ khó và cách tập, bài tập chuẩn bị, kế hoạch theo tuần và gợi ý diễn tấu.
+Xem [34 bài học tác phẩm](tac-pham/index.md), từ Minuet Fa trưởng K. 2 của Mozart đến Ballade số 1 của Chopin. Mỗi bài có cấu trúc, chỗ khó và cách tập, bài tập chuẩn bị, kế hoạch theo tuần và gợi ý diễn tấu.
 </div>
 
 <div class="oz-path" markdown>
@@ -73,6 +73,8 @@ Bắt đầu với [các thể loại nhạc piano](the-loai.md) và [nghệ sĩ
 | [Bàn đạp](ban-dap.md) | Ba bàn đạp, kỹ thuật đạp trễ, dùng bàn đạp theo phong cách |
 | [Nốt hoa mỹ](not-hoa-my.md) | Láy rền, láy, láy quanh, appoggiatura: đọc ký hiệu và chơi đúng phong cách |
 | [Phối hợp hai tay](hai-tay.md) | Ghép tay từng bước, độc lập hai tay, đa tiết tấu hai chọi ba |
+| [Quãng tám và bước nhảy](quang-tam-buoc-nhay.md) | Khung quãng tám, cổ tay mềm, nhảy sớm đánh đúng lúc, tập bước nhảy không nhìn tay |
+| [Nốt lặp và nốt kép](not-lap-not-kep.md) | Đổi ngón trên nốt lặp, quãng ba và quãng sáu legato, làm nổi bè trên |
 | [Bài tập ngón và étude](bai-tap-ngon.md) | Hanon, Czerny, Burgmüller…: dùng thế nào cho có ích mà không hại tay |
 
 ### Tập luyện
@@ -82,6 +84,7 @@ Bắt đầu với [các thể loại nhạc piano](the-loai.md) và [nghệ sĩ
 | [Cách tập một bản nhạc](cach-tap.md) | Quy trình học bài mới, buổi tập mẫu, sửa lỗi tận gốc |
 | [Đọc nhạc và thị tấu](thi-tau.md) | Đọc hai khóa cùng lúc, đọc theo hình dạng quãng, thị tấu mỗi ngày |
 | [Học thuộc và biểu diễn](hoc-thuoc-bieu-dien.md) | Các loại trí nhớ, cách kiểm tra trí nhớ, chuẩn bị và vượt qua hồi hộp |
+| [Chơi cùng người khác](choi-cung-nguoi-khac.md) | Bốn tay, hai đàn piano, đệm hát, song tấu với nhạc cụ khác, cách tập chung |
 | [Giữ đôi tay khỏe](suc-khoe.md) | Khởi động, nghỉ, dấu hiệu cảnh báo, khi nào cần gặp bác sĩ |
 | [Học với thầy và thi cấp](thay-va-thi.md) | Chọn thầy, học trực tuyến, các kỳ thi ABRSM và Trinity |
 
@@ -100,7 +103,7 @@ Bắt đầu với [các thể loại nhạc piano](the-loai.md) và [nghệ sĩ
 | Trang | Bạn sẽ có |
 |---|---|
 | [Tác phẩm theo cấp độ](tac-pham-theo-cap.md) | Danh mục tác phẩm thật từ bài đầu tiên đến sân khấu hòa nhạc, chia theo 7 chặng |
-| [Bài học tác phẩm](tac-pham/index.md) | 26 tác phẩm được hướng dẫn tỉ mỉ: nghe, cấu trúc, chỗ khó, kế hoạch tập; chia theo chặng |
+| [Bài học tác phẩm](tac-pham/index.md) | 34 tác phẩm được hướng dẫn tỉ mỉ: nghe, cấu trúc, chỗ khó, kế hoạch tập; chia theo chặng |
 
 ### Văn học piano
 

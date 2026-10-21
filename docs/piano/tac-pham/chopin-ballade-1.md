@@ -54,7 +54,7 @@ Rồi so sánh các cách chơi. Vladimir Horowitz đưa bài này vào chương
 
 ## Theo dõi khi nghe
 
-Dán link một bản thu vào khung phía trên, rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
+Dán link một bản thu vào khung phía trên (hoặc chọn một file trên máy), rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
 
 | Thời điểm | Sự kiện |
 |---|---|
@@ -227,6 +227,7 @@ Hợp âm kết thúc phần *Largo* có một nốt mà các ấn bản in khá
 - **Ballade khác:** số 3 (La♭ trưởng, Op. 47) thường được coi là "dễ" nhất trong bốn bản; số 2 và số 4 khó hơn, nhất là số 4.
 - **Cùng tác giả:** các scherzo, *Fantaisie* Op. 49, *Barcarolle* Op. 60; và các étude để củng cố kỹ thuật (nghe trước [hướng dẫn nghe Étude](../../nghe-nhac/chopin-etude.md)).
 - **Lùi một bước nếu cần:** [Nocturne Op. 9 số 2](chopin-nocturne-op9-2.md) cho tiếng hát và rubato; [Debussy: Clair de lune](debussy-clair-de-lune.md) cho bàn đạp và tầng âm thanh.
+- **Cùng chặng, ngắn hơn:** [Fantaisie-Impromptu](chopin-fantaisie-impromptu.md) (ba chọi bốn, ngón nhanh và nhẹ), [Liszt: Liebestraum số 3](liszt-liebestraum.md) (giai điệu ở giọng giữa, quãng tám).
 - Xem [Tác phẩm theo cấp độ](../tac-pham-theo-cap.md) và [Nghệ sĩ piano và bản thu](../nghe-si.md).
 
 ## Kiểm tra nhanh

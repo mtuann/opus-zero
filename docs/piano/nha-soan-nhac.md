@@ -52,7 +52,7 @@ Phần lớn nhạc phím thời này viết cho harpsichord hoặc clavichord, 
 
 - **Đặc trưng khi chơi:** phức điệu. Mỗi tay thường giữ hai bè, bè nào cũng phải hát. Bản gốc gần như không ghi sắc thái hay dấu luyến, nên bạn tự chọn cách phát âm cho chủ đề và giữ nhất quán mỗi lần nó trở lại. Ghi ngón từ đầu, tập từng bè, ghép hai bè trong một tay rồi mới ghép hai tay.
 - **Tác phẩm chính:** *Notebook for Anna Magdalena Bach* (1725), *Little Preludes*, 15 Invention và 15 Sinfonia, *French Suites*, *English Suites*, sáu *Partita*, hai quyển *Bình quân luật*, *Goldberg Variations* (1741). Xem [Fugue](../hinh-thuc/fugue.md).
-- **Bắt đầu bằng:** [Minuet Sol trưởng](tac-pham/minuet-sol.md) của Petzold trong *Notebook* (≈ Grade 1–2) → *Little Preludes* như BWV 939, BWV 999 (≈ Grade 3–5) → [Prelude Đô trưởng BWV 846](tac-pham/bach-prelude-do.md) (≈ Grade 4–5) → [Invention số 1](tac-pham/bach-invention-1.md), số 4, số 8 (≈ Grade 6) → Sinfonia, các chương trong *French Suites* (≈ Grade 7–8) → prelude và fugue trong *Bình quân luật*, *Partita* (sau Grade 8) → [*Goldberg*](../nghe-nhac/bach-goldberg.md).
+- **Bắt đầu bằng:** [Minuet Sol trưởng](tac-pham/minuet-sol.md) của Petzold trong *Notebook* (≈ Grade 1–2) → *Little Preludes* như BWV 939, BWV 999 (≈ Grade 3–5) → [Prelude Đô trưởng BWV 846](tac-pham/bach-prelude-do.md) (≈ Grade 4–5) → [Invention số 1](tac-pham/bach-invention-1.md), số 4, số 8 (≈ Grade 6) → Sinfonia, các chương trong *French Suites*, [Prelude và fugue Đô thứ BWV 847](tac-pham/bach-prelude-fugue-do-thu.md) (≈ Grade 7–8) → các prelude và fugue khác trong *Bình quân luật*, *Partita* (sau Grade 8) → [*Goldberg*](../nghe-nhac/bach-goldberg.md).
 
 ### George Frideric Handel (1685–1759)
 
@@ -92,7 +92,7 @@ Kết cấu chuyển sang **giai điệu và đệm** (tay trái thường rải
 
 - **Đặc trưng khi chơi:** kịch tính: *sforzando* bất ngờ, *subito piano* ngay sau đỉnh *crescendo*, hợp âm dày ở âm vực thấp, motif ngắn phát triển không ngừng. Cần trọng lượng cánh tay, sức bền và kỷ luật nhịp, vì kịch tính của Beethoven nằm ngay trong nhịp. Chương chậm đòi tiếng hát dài trên những nốt ngân.
 - **Tác phẩm chính:** 32 sonata, ba tập *Bagatelle* (Op. 33, 119, 126), 32 biến tấu Đô thứ WoO 80, *Diabelli Variations* Op. 120, năm concerto.
-- **Bắt đầu bằng:** Sonatina Sol trưởng (Anh. 5 số 1, chưa chắc của Beethoven) hoặc 6 biến tấu WoO 64 (≈ Grade 2–3) → [*Für Elise*](tac-pham/fur-elise.md), Bagatelle Op. 119 (≈ Grade 4–5) → hai sonata ngắn Op. 49, thường gọi là "sonata dễ" (≈ Grade 5–6) → Op. 79, [*Pathétique*, chương 2](tac-pham/pathetique-adagio.md), chương 1 [*Ánh trăng*](../nghe-nhac/beethoven-moonlight.md) (≈ Grade 7–8) → trọn [*Pathétique*](../nghe-nhac/beethoven-pathetique.md), Op. 10, Op. 14 (sau Grade 8) → *Waldstein*, *Appassionata*, các sonata cuối.
+- **Bắt đầu bằng:** Sonatina Sol trưởng (Anh. 5 số 1, chưa chắc của Beethoven) hoặc 6 biến tấu WoO 64 (≈ Grade 2–3) → [*Für Elise*](tac-pham/fur-elise.md), Bagatelle Op. 119 (≈ Grade 4–5) → hai sonata ngắn Op. 49, thường gọi là "sonata dễ", như [Op. 49 số 2](tac-pham/beethoven-op49-2.md) (≈ Grade 5) → [chương 1 *Ánh trăng*](tac-pham/beethoven-anh-trang.md) (≈ Grade 6–7) → Op. 79, [*Pathétique*, chương 2](tac-pham/pathetique-adagio.md) (≈ Grade 7–8) → trọn [*Pathétique*](../nghe-nhac/beethoven-pathetique.md), Op. 10, Op. 14 (sau Grade 8) → *Waldstein*, *Appassionata*, các sonata cuối.
 
 ## Lãng mạn
 
@@ -102,19 +102,19 @@ Cây đàn to và ngân hơn (xem [Bàn đạp](ban-dap.md)). Ba kỹ năng trun
 
 - **Đặc trưng khi chơi:** ca khúc không lời: giai điệu dài như một Lied trên lớp đệm lặp (hợp âm lặp, chùm ba) phải nhỏ và đều suốt nhiều trang. Hòa âm trượt giữa trưởng và thứ, sang những giọng xa; cần *pianissimo* thật mỏng và kiên nhẫn với cấu trúc dài.
 - **Tác phẩm chính:** Impromptu D. 899 và D. 935, *Moments musicaux* D. 780, *Wanderer-Fantasie* D. 760, ba sonata cuối D. 958–960 (1828), Fantasia Fa thứ D. 940 cho bốn tay.
-- **Bắt đầu bằng:** ländler, valse, écossaise (≈ Grade 2–4) → *Moment musical* số 3 Fa thứ (≈ Grade 5) → Impromptu La♭ trưởng D. 935 số 2 (≈ Grade 7) → [Impromptu D. 899](../nghe-nhac/schubert-impromptu.md) số 2, 3, 4 (≈ Grade 8 trở lên) → Sonata La trưởng D. 664 → ba sonata cuối.
+- **Bắt đầu bằng:** ländler, valse, écossaise (≈ Grade 2–4) → *Moment musical* số 3 Fa thứ (≈ Grade 5) → Impromptu La♭ trưởng D. 935 số 2 (≈ Grade 7) → [Impromptu Sol♭ trưởng D. 899 số 3](tac-pham/schubert-impromptu-sol-giang.md) (≈ Grade 7–8; [hướng dẫn nghe](../nghe-nhac/schubert-impromptu.md)) → Impromptu D. 899 số 2 và 4 (≈ Grade 8 trở lên) → Sonata La trưởng D. 664 → ba sonata cuối.
 
 ### Felix Mendelssohn (1809–1847)
 
 - **Đặc trưng khi chơi:** hai mặt. Giai điệu hát trên lớp đệm rải đều, nhiều khi **trong cùng một tay** (ngón 4–5 hát, các ngón còn lại đệm); và sự nhẹ nhàng "thần tiên": staccato nhanh, sáng, rất ít bàn đạp. Cầu nối tốt giữa Mozart và Chopin.
 - **Tác phẩm chính:** tám tập *Lieder ohne Worte* (48 bài hát không lời; chỉ vài tên như *Venetianisches Gondellied* là do chính ông đặt), *Rondo capriccioso* Op. 14, *Variations sérieuses* Op. 54, *Kinderstücke* Op. 72.
-- **Bắt đầu bằng:** *Kinderstücke* Op. 72 (≈ Grade 4–6) → *Lieder ohne Worte* Op. 19 số 6, Op. 30 số 6 (≈ Grade 5–6) → Op. 19 số 1, Op. 62 số 6 (≈ Grade 7–8) → *Rondo capriccioso* (sau Grade 8) → *Variations sérieuses*.
+- **Bắt đầu bằng:** *Kinderstücke* Op. 72 (≈ Grade 4–6) → *Lieder ohne Worte* [Op. 19 số 6](tac-pham/mendelssohn-thuyen-ca.md), Op. 30 số 6 (≈ Grade 5–6) → Op. 19 số 1, Op. 62 số 6 (≈ Grade 7–8) → *Rondo capriccioso* (sau Grade 8) → *Variations sérieuses*.
 
 ### Frédéric Chopin (1810–1849)
 
 - **Đặc trưng khi chơi:** giọng hát *bel canto* trên lớp đệm tay trái trải rộng hơn một quãng tám, nên cổ tay trái phải lướt ngang thật mềm. Bàn đạp là một phần của âm thanh, và Chopin ghi bàn đạp khá kỹ. Rubato: giai điệu co giãn, tay trái giữ nhịp. Ngón bấm tự do, ngón cái được đặt lên phím đen. Tiếng tròn, không gắt.
 - **Tác phẩm chính:** 21 nocturne, 24 prélude Op. 28, 27 étude, 4 ballade, 4 scherzo, mazurka, polonaise, valse, hai sonata, *Barcarolle* Op. 60, hai concerto. Nên dùng bản *Wydanie Narodowe* (Jan Ekier biên tập) hoặc Henle.
-- **Bắt đầu bằng:** [Valse La thứ (di cảo)](tac-pham/chopin-valse-la-thu.md) (≈ Grade 3–4) → Prélude số 7 La trưởng, [số 4 Mi thứ](tac-pham/chopin-prelude-mi-thu.md), số 20 Đô thứ (≈ Grade 4–5) → các mazurka dễ, Valse Si thứ Op. 69 số 2 (≈ Grade 5–6) → Nocturne Đô♯ thứ (di cảo), Nocturne Mi thứ Op. 72 số 1 (≈ Grade 7) → [Nocturne Op. 9 số 2](tac-pham/chopin-nocturne-op9-2.md), Valse Op. 64 số 2 (≈ Grade 7–8) → *Fantaisie-Impromptu*, các polonaise → [Ballade số 1](tac-pham/chopin-ballade-1.md), scherzo, [étude](../nghe-nhac/chopin-etude.md).
+- **Bắt đầu bằng:** [Valse La thứ (di cảo)](tac-pham/chopin-valse-la-thu.md) (≈ Grade 3–4) → Prélude số 7 La trưởng, [số 4 Mi thứ](tac-pham/chopin-prelude-mi-thu.md), số 20 Đô thứ (≈ Grade 4–5) → các mazurka dễ, [Valse Si thứ Op. 69 số 2](tac-pham/chopin-valse-si-thu.md) (≈ Grade 5–6) → Nocturne Đô♯ thứ (di cảo), Nocturne Mi thứ Op. 72 số 1 (≈ Grade 7) → [Nocturne Op. 9 số 2](tac-pham/chopin-nocturne-op9-2.md), Valse Op. 64 số 2 (≈ Grade 7–8) → [*Fantaisie-Impromptu*](tac-pham/chopin-fantaisie-impromptu.md), các polonaise → [Ballade số 1](tac-pham/chopin-ballade-1.md), scherzo, [étude](../nghe-nhac/chopin-etude.md).
 
 ### Robert Schumann (1810–1856)
 
@@ -132,7 +132,7 @@ Cây đàn to và ngân hơn (xem [Bàn đạp](ban-dap.md)). Ba kỹ năng trun
 
 - **Đặc trưng khi chơi:** piano như cả dàn nhạc: quãng tám liên tục, nhảy quãng xa, nốt lặp nhanh, cadenza, giai điệu ở giữa do ngón cái giữ trong khi hai tay rải nốt bao quanh. Dùng trọng lượng cả cánh tay và phải thật thả lỏng (xem [Sức khỏe khi chơi đàn](suc-khoe.md)). Liszt cũng có những trang trữ tình như opera và những bản cuối đời thưa thớt, lạ lùng.
 - **Tác phẩm chính:** *Années de pèlerinage* (Những năm hành hương), 12 *Études d'exécution transcendante*, *Grandes études de Paganini* (có *La campanella*), ba *Liebesträume*, sáu *Consolations*, 19 *Hungarian Rhapsody*, Sonata Si thứ, rất nhiều bản chuyển soạn.
-- **Bắt đầu bằng:** những bản cuối đời ít nốt như *Nuages gris* (≈ Grade 6–7) → *Consolation* số 3 Rê♭ trưởng (≈ Grade 8) → [*Liebestraum* số 3](../nghe-nhac/liszt-liebestraum.md), *Un sospiro* (sau Grade 8) → *Hungarian Rhapsody*, các étude → Sonata Si thứ.
+- **Bắt đầu bằng:** những bản cuối đời ít nốt như *Nuages gris* (≈ Grade 6–7) → *Consolation* số 3 Rê♭ trưởng (≈ Grade 8) → [*Liebestraum* số 3](tac-pham/liszt-liebestraum.md), *Un sospiro* (sau Grade 8) → *Hungarian Rhapsody*, các étude → Sonata Si thứ.
 
 ### Johannes Brahms (1833–1897)
 

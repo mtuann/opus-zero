@@ -52,11 +52,11 @@ Nghe trọn bài hai, ba lần, mắt theo bản nhạc:
 
 So sánh vài bản thu. Để ý tốc độ: nhiều người chơi chủ đề rất chậm và mơ màng, trong khi *Poco moto* nghĩa là "hơi chuyển động". Nếu tìm được, nghe thêm một bản trên **fortepiano**, loại đàn piano thời Beethoven: tiếng nhẹ hơn, tắt nhanh hơn, và bàn đạp nghe khác hẳn.
 
-<div class="oz-listen"></div>
+<div class="oz-listen" data-audio="https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7b/FurElise.ogg/FurElise.ogg.mp3" data-audio-ogg="https://commons.wikimedia.org/wiki/Special:FilePath/FurElise.ogg" data-credit="V. Gao (piano), Wikimedia Commons" data-page="https://commons.wikimedia.org/wiki/File:FurElise.ogg"></div>
 
 ## Theo dõi khi nghe
 
-Dán link một bản thu vào khung phía trên, rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
+Dán link một bản thu vào khung phía trên (hoặc chọn một file trên máy), rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
 
 | Thời điểm | Sự kiện |
 |---|---|
@@ -234,7 +234,7 @@ Vì bản viết tay đã mất, các ấn bản có thể khác nhau ở vài c
 ## Học tiếp
 
 - **Cùng chặng:** [Bach: Prelude Đô trưởng](bach-prelude-do.md), [Chopin: Prélude Mi thứ](chopin-prelude-mi-thu.md), [Satie: Gymnopédie số 1](satie-gymnopedie.md).
-- **Beethoven tiếp theo:** Sonata Sol trưởng Op. 49 số 2 và các bagatelle trong Op. 33 hoặc Op. 119; rồi [Pathétique, chương 2](pathetique-adagio.md).
+- **Beethoven tiếp theo:** [Sonata Sol trưởng Op. 49 số 2](beethoven-op49-2.md) và các bagatelle trong Op. 33 hoặc Op. 119; rồi [Pathétique, chương 2](pathetique-adagio.md).
 - **Cổ điển:** [Mozart: Sonata K. 545](mozart-k545.md), cùng lối viết trong sáng nhưng dài hơi hơn.
 - **Nghe thêm:** [Beethoven: Sonata *Ánh trăng*](../../nghe-nhac/beethoven-moonlight.md).
 

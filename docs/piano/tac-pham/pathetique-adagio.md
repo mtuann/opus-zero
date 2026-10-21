@@ -49,7 +49,7 @@ Nghe hai bản thu khác nhau, ví dụ Wilhelm Kempff và Alfred Brendel (cả 
 
 ## Theo dõi khi nghe
 
-Dán link một bản thu vào khung phía trên, rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
+Dán link một bản thu vào khung phía trên (hoặc chọn một file trên máy), rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
 
 | Thời điểm | Sự kiện |
 |---|---|
@@ -216,7 +216,8 @@ Các bản thế kỷ 19 (như của Hans von Bülow) thêm nhiều sắc thái,
 
 - **Cả sonata:** chương 3 (Rondo: Allegro) là bước tiếp theo tự nhiên; chương 1 cần tốc độ và sức bền ở mức Grade 8 trở lên.
 - **Hát trên phím đàn:** [Chopin: Nocturne Op. 9 số 2](chopin-nocturne-op9-2.md), [Debussy: Clair de lune](debussy-clair-de-lune.md).
-- **Beethoven khác:** chương 1 Sonata *Ánh trăng* (nghe trước [hướng dẫn nghe](../../nghe-nhac/beethoven-moonlight.md)).
+- **Beethoven khác:** [chương 1 Sonata *Ánh trăng*](beethoven-anh-trang.md) (nghe trước [hướng dẫn nghe](../../nghe-nhac/beethoven-moonlight.md)).
+- **Cùng chặng:** [Bach: Prelude và fugue Đô thứ](bach-prelude-fugue-do-thu.md), [Schubert: Impromptu Sol♭ trưởng](schubert-impromptu-sol-giang.md).
 - Xem [Tác phẩm theo cấp độ](../tac-pham-theo-cap.md).
 
 ## Kiểm tra nhanh

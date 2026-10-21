@@ -49,7 +49,7 @@ So sánh vài cách chơi rất khác nhau, chẳng hạn Glenn Gould (nổi ti�
 
 ## Theo dõi khi nghe
 
-Dán link một bản thu vào khung phía trên, rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
+Dán link một bản thu vào khung phía trên (hoặc chọn một file trên máy), rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
 
 | Thời điểm | Sự kiện |
 |---|---|
@@ -197,7 +197,7 @@ Dùng bản Urtext. Nhiều ấn bản cũ thêm dấu luyến, sắc thái và 
 
 ## Học tiếp
 
-- **Invention khác:** số 4 (Rê thứ) và số 8 (Fa trưởng) là hai bước tiếp phổ biến; sau đó là các sinfonia ba bè.
+- **Invention khác:** số 4 (Rê thứ) và số 8 (Fa trưởng) là hai bước tiếp phổ biến; sau đó là các sinfonia ba bè và [Prelude và fugue Đô thứ BWV 847](bach-prelude-fugue-do-thu.md), fugue ba bè nên học đầu tiên.
 - **Cùng tác giả:** [Prelude Đô trưởng BWV 846](bach-prelude-do.md), nếu bạn chưa chơi.
 - **Cùng chặng:** [Mozart: Sonata K. 545](mozart-k545.md), [Schumann: Träumerei](schumann-traumerei.md).
 - **Nghe thêm:** [Bach: Goldberg Variations](../../nghe-nhac/bach-goldberg.md); đọc về [fugue](../../hinh-thuc/fugue.md) để thấy chủ đề và nhại đi xa đến đâu.

@@ -47,13 +47,13 @@ Các album valse kinh điển thường gồm 14 bản quen thuộc, và bản n
 3. **Đoạn La trưởng.** Không khí đổi thế nào? Nghệ sĩ có đổi tốc độ, đổi tiếng đàn không?
 4. **Rubato.** Nghệ sĩ nán lại ở đâu? Tay trái có giữ được nhịp valse không?
 
-Rồi nghe Valse Si thứ Op. 69 số 2, bản bạn sẽ học tiếp, qua bản thu của Dinu Lipatti và Arthur Rubinstein. Nhiều người thấy Lipatti thanh thoát và chặt chẽ hơn, Rubinstein ung dung như đang trò chuyện: hãy tự nghe và quyết định. Muốn hiểu lối hát của Chopin, đọc [hướng dẫn nghe Nocturne Op. 9 số 2](../../nghe-nhac/chopin-nocturne.md).
+Rồi nghe [Valse Si thứ Op. 69 số 2](chopin-valse-si-thu.md), bản bạn sẽ học tiếp, qua bản thu của Dinu Lipatti và Arthur Rubinstein. Nhiều người thấy Lipatti thanh thoát và chặt chẽ hơn, Rubinstein ung dung như đang trò chuyện: hãy tự nghe và quyết định. Muốn hiểu lối hát của Chopin, đọc [hướng dẫn nghe Nocturne Op. 9 số 2](../../nghe-nhac/chopin-nocturne.md).
 
 <div class="oz-listen"></div>
 
 ## Theo dõi khi nghe
 
-Dán link một bản thu vào khung phía trên, rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
+Dán link một bản thu vào khung phía trên (hoặc chọn một file trên máy), rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
 
 | Thời điểm | Sự kiện |
 |---|---|
@@ -203,7 +203,7 @@ Nhiều chuyên gia về Chopin, trong đó có Jean-Jacques Eigeldinger, cho r�
 
 ## Học tiếp
 
-- **Valse Si thứ Op. 69 số 2:** cũng in sau khi Chopin mất, dài hơn và giàu cảm xúc hơn; bước tiếp tự nhiên.
+- **[Valse Si thứ Op. 69 số 2](chopin-valse-si-thu.md):** cũng in sau khi Chopin mất, dài hơn và giàu cảm xúc hơn; bước tiếp tự nhiên.
 - **[Prélude Mi thứ Op. 28 số 4](chopin-prelude-mi-thu.md):** giai điệu dài trên lớp hợp âm đổi chậm, một bài học khác về tiếng đàn và bàn đạp.
 - **Về sau:** [Nocturne Op. 9 số 2](chopin-nocturne-op9-2.md), cùng kỹ năng hát và tay trái nhảy, nhưng có trang trí dày hơn.
 - **Cùng chặng trên site:** [Clementi: Sonatina Op. 36 số 1](clementi-sonatina.md), [Burgmüller: Arabesque](burgmuller-arabesque.md). Danh sách theo cấp: [Tác phẩm theo cấp độ](../tac-pham-theo-cap.md).

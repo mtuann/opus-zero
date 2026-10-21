@@ -49,7 +49,7 @@ Rồi so sánh vài nghệ sĩ đã thu trọn bộ prelude với lối chơi r�
 
 ## Theo dõi khi nghe
 
-Dán link một bản thu vào khung phía trên, rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
+Dán link một bản thu vào khung phía trên (hoặc chọn một file trên máy), rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
 
 | Thời điểm | Sự kiện |
 |---|---|
@@ -202,7 +202,7 @@ Gần như cả bài ở *p* và *pp*. Chỉ có một chữ *f*, ở ô 17; hã
 
 ## Học tiếp
 
-- **Cùng tác giả:** Prélude Si thứ Op. 28 số 6 (cũng được chơi trong lễ tang Chopin; giai điệu nằm ở tay trái), [Valse La thứ](chopin-valse-la-thu.md), rồi [Nocturne Op. 9 số 2](chopin-nocturne-op9-2.md).
+- **Cùng tác giả:** Prélude Si thứ Op. 28 số 6 (cũng được chơi trong lễ tang Chopin; giai điệu nằm ở tay trái), [Valse La thứ](chopin-valse-la-thu.md), [Valse Si thứ](chopin-valse-si-thu.md), rồi [Nocturne Op. 9 số 2](chopin-nocturne-op9-2.md).
 - **Cùng chặng:** [Bach: Prelude Đô trưởng](bach-prelude-do.md), [Satie: Gymnopédie số 1](satie-gymnopedie.md), [Für Elise](fur-elise.md).
 - **Cùng kỹ năng hát:** [Schumann: Träumerei](schumann-traumerei.md).
 - **Nghe thêm:** [Chopin: Nocturne](../../nghe-nhac/chopin-nocturne.md).

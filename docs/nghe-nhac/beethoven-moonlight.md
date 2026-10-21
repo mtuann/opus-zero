@@ -11,11 +11,13 @@
 
 ## Điều cần biết trước khi nghe
 
-Biệt danh **"Ánh trăng"** không phải của Beethoven đặt. Năm 1832 — 5 năm sau khi Beethoven mất (1827) — nhà phê bình Ludwig Rellstab ví chương 1 như ánh trăng trên mặt hồ Lucerne, và cái tên ở lại đến nay.
+Biệt danh **"Ánh trăng"** không phải của Beethoven đặt. Nhà thơ, nhà phê bình Ludwig Rellstab đã tả chương 1 như một mặt hồ lặng dưới ánh trăng mờ trong truyện ngắn *Theodor*, đăng năm 1824 trên một tạp chí âm nhạc ở Berlin, khi Beethoven còn sống. Đến khoảng năm 1840, tên *Mondscheinsonate* (Sonata ánh trăng) đã quen thuộc ở Đức. Chuyện thường được kể rằng năm 1832 Rellstab ví bài với con thuyền dưới trăng trên hồ Lucerne bắt nguồn từ một cuốn sách in năm 1852 của Wilhelm von Lenz; con số 1832 chỉ là suy đoán của người đời sau.
 
 Tên gốc Beethoven đặt là ***Sonata quasi una fantasia*** ("sonata gần như một fantasia"): thay vì chương 1 nhanh như thông lệ, ông mở bằng một chương **chậm** (*Adagio sostenuto*). Toàn chương là một dòng **bộ ba nốt móc** (triplet) chảy đều không ngừng ở tay phải, trên đó giai điệu cất lên từng nốt dài, thưa thớt — như lời thì thầm trên mặt nước.
 
-Nghe kỹ **tay trái**: các nốt trầm đi từng bước, chính là bè bass của tiến trình hòa âm. Chương nhạc ở giọng Đô♯ thứ u ám, và gần như không rời khỏi đó — sự tĩnh lặng chính là điểm đặc biệt.
+Nghe kỹ **tay trái**: các nốt trầm đi từng bước, chính là bè bass của tiến trình hòa âm. Chương nhạc ở giọng Đô♯ thứ u ám; giai điệu có lúc đi qua những giọng khác (Mi trưởng, Mi thứ, Fa♯ thứ) nhưng không khí tĩnh lặng thì giữ nguyên từ đầu đến cuối, và chính sự tĩnh lặng ấy là điểm đặc biệt.
+
+Muốn tự chơi chương này? Xem [bài học tác phẩm *Ánh trăng*, chương 1](../piano/tac-pham/beethoven-anh-trang.md): cấu trúc từng đoạn, cách tập ba lớp âm thanh và chỉ dẫn bàn đạp *senza sordino*.
 
 ## Nghe kèm bản thu
 
@@ -48,3 +50,4 @@ Ghi lại thời điểm (phút:giây) bạn nghe thấy từng sự kiện tron
 
 - Bản nhạc và tổng phổ: [IMSLP](https://imslp.org/) (tìm "Op.27 No.2").
 - Bối cảnh lịch sử: Burkholder, Grout, Palisca, *A History of Western Music*; Grove Music Online. Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).
+- Nguồn gốc biệt danh: bài viết về tên *Moonlight* trên [crumey.co.uk](https://crumey.co.uk/beethoven_5_why_moonlight_sonata.html) (truyện *Theodor* của Rellstab năm 1824, sách *Beethoven et ses trois styles* của Wilhelm von Lenz năm 1852, tên *Mondscheinsonate* quanh năm 1840).

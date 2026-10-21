@@ -2,7 +2,7 @@
    Các script được tải song song nhưng chạy đúng thứ tự phụ thuộc (async = false). */
 (function () {
   "use strict";
-  const VERSION = "11";
+  const VERSION = "12";
   const me = document.currentScript || document.querySelector('script[src*="assets/js/loader.js"]');
   const BASE = me ? me.src.replace(/loader\.js.*$/, "") : "assets/js/";
   /* abcjs đi kèm trong repo (docs/assets/js/vendor/) để dùng được khi mất mạng; mermaid vẫn tải từ CDN */

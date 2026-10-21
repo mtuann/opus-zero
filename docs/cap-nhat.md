@@ -4,6 +4,14 @@ Trang này ghi lại những thay đổi lớn của site và quy trình giữ c
 
 ## Nhật ký thay đổi
 
+### 10/2026: Phiên bản 12 (các chặng nâng cao)
+
+- **8 bài học tác phẩm mới cho chặng 4–7**, nâng tổng số lên [34 bài](piano/tac-pham/index.md): Sonata Op. 49 số 2 và chương 1 Sonata *Ánh trăng* của Beethoven, Thuyền ca Venice Op. 19 số 6 của Mendelssohn, Valse Si thứ Op. 69 số 2 và *Fantaisie-Impromptu* của Chopin, Prelude và fugue Đô thứ BWV 847 của Bach, Impromptu Sol♭ trưởng của Schubert, *Liebestraum* số 3 của Liszt. Trích đoạn thật được đối chiếu từng nốt với bản nhạc công cộng; mức độ khó của Henle chỉ ghi khi đã đọc trên trang của nhà xuất bản. Menu bài học tác phẩm chia sáu nhóm theo chặng, thêm nhóm "Sau Grade 8".
+- **Hai trang kỹ thuật mới:** [Quãng tám và bước nhảy](piano/quang-tam-buoc-nhay.md) và [Nốt lặp và nốt kép](piano/not-lap-not-kep.md), mỗi trang sáu bài tập hai tay.
+- **Trang mới [Chơi cùng người khác](piano/choi-cung-nguoi-khac.md):** bốn tay, hai đàn piano, đệm hát, song tấu với nhạc cụ, nhạc thính phòng, cách tập chung và nơi tìm bạn chơi.
+- **Bản đồ nghe** nhận cả link file âm thanh (.mp3, .ogg…) và file trên máy bạn, bên cạnh YouTube; mốc được lưu riêng cho từng bản thu. Vài trang có sẵn một bản thu giấy phép mở để bấm nghe ngay.
+- **Rà soát độ chính xác:** cấp độ của từng bài được thống nhất giữa danh mục, menu, lộ trình và trang bài học; [hướng dẫn nghe *Ánh trăng*](nghe-nhac/beethoven-moonlight.md) sửa lại nguồn gốc biệt danh (hình ảnh mặt hồ dưới trăng có từ truyện *Theodor* của Rellstab năm 1824; chuyện hồ Lucerne năm 1832 không có nguồn gốc chắc chắn); phân tích [fugue Đô thứ](hinh-thuc/fugue.md) sửa vị trí âm nền ở cuối bài.
+
 ### 10/2026: Phiên bản 11 (tập đàn mỗi ngày)
 
 - **Trình phát luyện tập trên mọi khuông nhạc:** chỉnh tốc độ (%), lặp lại, nghe riêng tay phải hoặc tay trái, tiếng gõ nhịp có một ô đếm vào. Nút **Giá nhạc** phóng to khuông ra toàn màn hình và giữ màn hình sáng trong lúc tập. Trên điện thoại, khuông tự xuống dòng nên nốt và số ngón đủ lớn để đọc.

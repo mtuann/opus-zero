@@ -50,7 +50,7 @@ Nghe bản thu của Walter Gieseking, người thu trọn nhạc piano solo c�
 
 ## Theo dõi khi nghe
 
-Dán link một bản thu vào khung phía trên, rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
+Dán link một bản thu vào khung phía trên (hoặc chọn một file trên máy), rồi bấm ghi mốc khi bạn nghe thấy từng sự kiện.
 
 | Thời điểm | Sự kiện |
 |---|---|
@@ -209,7 +209,7 @@ Bản thảo gốc đã thất lạc; các bản Urtext dựa vào ấn bản 19
 
 - **Debussy tiếp theo:** *Rêverie*, *Arabesque* số 1, các bài trong *Children's Corner*, rồi tập *Préludes*.
 - **Cùng kỹ năng hát và bàn đạp:** [Chopin: Nocturne Op. 9 số 2](chopin-nocturne-op9-2.md), [Beethoven: Pathétique, chương 2](pathetique-adagio.md).
-- **Tác phẩm lớn:** [Chopin: Ballade số 1](chopin-ballade-1.md) khi đã vững Grade 8.
+- **Sau Grade 8:** [Liszt: Liebestraum số 3](liszt-liebestraum.md) cho giai điệu ở giọng giữa và bàn đạp; [Chopin: Ballade số 1](chopin-ballade-1.md), một tác phẩm lớn.
 - Xem thêm [Tác phẩm theo cấp độ](../tac-pham-theo-cap.md) và [Nghệ sĩ piano và bản thu](../nghe-si.md).
 
 ## Kiểm tra nhanh

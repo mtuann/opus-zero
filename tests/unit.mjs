@@ -113,7 +113,20 @@ test("dữ liệu nhận diện", () => {
   for (const t of RC.TRACKS) assert.ok(t.sources.length >= 1 && t.page.startsWith("https://commons.wikimedia.org/"));
 });
 const L = load("listen.js").OZListen;
-test("đọc link YouTube", () => {
+test("đọc link YouTube và link file âm thanh", () => {
+  assert.equal(L.audioUrl("https://example.org/nhac/a.mp3"), "https://example.org/nhac/a.mp3");
+  assert.equal(L.audioUrl("https://commons.wikimedia.org/wiki/Special:FilePath/FurElise.ogg"), "https://commons.wikimedia.org/wiki/Special:FilePath/FurElise.ogg");
+  assert.equal(L.audioUrl("https://example.org/a.mp3?x=1"), "https://example.org/a.mp3?x=1");
+  assert.equal(L.audioUrl("https://youtu.be/dQw4w9WgXcQ"), null);
+  assert.equal(L.audioUrl("https://example.org/trang.html"), null);
+  assert.equal(L.audioUrl("ftp://example.org/a.mp3"), null);
+  const s1 = L.switchSource({ url: "", marks: { 0: 3 } }, "https://youtu.be/dQw4w9WgXcQ");
+  assert.deepEqual([s1.url, s1.marks[0]], ["https://youtu.be/dQw4w9WgXcQ", 3]);   /* bản đầu tiên nhận mốc đang có */
+  const s2 = L.switchSource(s1, "file:ban-thu.mp3");
+  assert.deepEqual([Object.keys(s2.marks).length, s2.byUrl["https://youtu.be/dQw4w9WgXcQ"][0]], [0, 3]);
+  const s3 = L.switchSource(Object.assign({}, s2, { marks: { 1: 9 } }), "https://youtu.be/dQw4w9WgXcQ");
+  assert.deepEqual([s3.marks[0], s3.byUrl["file:ban-thu.mp3"][1]], [3, 9]);  /* quay lại bản cũ: mốc cũ trở về */
+  assert.equal(L.switchSource(s3, s3.url), s3);
   assert.equal(L.videoId("https://youtu.be/dQw4w9WgXcQ"), "dQw4w9WgXcQ");
   assert.equal(L.videoId("https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=30"), "dQw4w9WgXcQ");
   assert.equal(L.videoId("không phải link"), null);

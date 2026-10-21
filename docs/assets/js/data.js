@@ -75,8 +75,13 @@
     if (IS.listen) { S.listen = S.listen || {}; Object.keys(IS.listen).forEach(function (p) {
       const a = S.listen[p], b = IS.listen[p];
       if (!a) { S.listen[p] = b; rep.listenAdded++; return; }
+      const add = function (dst, src) { Object.keys(src || {}).forEach(function (i) { if (dst[i] === undefined) dst[i] = src[i]; }); };
+      const into = function (u, m) { if (!m || !Object.keys(m).length) return; if (u === a.url) add(a.marks, m); else { a.byUrl = a.byUrl || {}; a.byUrl[u] = a.byUrl[u] || {}; add(a.byUrl[u], m); } };
       if (!a.url && b.url) a.url = b.url;
-      a.marks = a.marks || {}; Object.keys(b.marks || {}).forEach(function (i) { if (a.marks[i] === undefined) a.marks[i] = b.marks[i]; }); }); }
+      a.marks = a.marks || {};
+      /* Mốc thuộc về từng bản thu: mốc của bản khác thì cất riêng, không trộn vào bản đang dùng */
+      if (!b.url || b.url === a.url) add(a.marks, b.marks); else into(b.url, b.marks);
+      if (isObj(b.byUrl)) Object.keys(b.byUrl).forEach(function (u) { into(u, b.byUrl[u]); }); }); }
     /* Danh sách việc đã đánh dấu: hợp lại, giữ ngày sớm nhất */
     if (isObj(IS.checks)) { S.checks = isObj(S.checks) ? S.checks : {}; Object.keys(IS.checks).forEach(function (pg) {
       const a = S.checks[pg] = isObj(S.checks[pg]) ? S.checks[pg] : {}, b = isObj(IS.checks[pg]) ? IS.checks[pg] : {};

@@ -65,7 +65,7 @@ Mục tiêu: rời khỏi vị trí năm ngón, chơi những bản nhạc cổ 
 | Đọc nhạc | [Thị tấu](thi-tau.md) bài hai tay 4–8 ô nhịp, ít dấu hóa, dễ hơn bài đang tập khoảng hai cấp. Tập đọc theo **hình dạng quãng** thay vì gọi tên từng nốt. |
 | Nhạc lý | [Bài 6](../nhac-ly/06-gam-truong.md) đến [bài 9](../nhac-ly/09-quang.md) (gam, hóa biểu, quãng), rồi [Ôn tập 2](../nhac-ly/on-tap-2.md). |
 | Tai | [Nghe quãng](../luyen-tai/nghe-quang.md), phân biệt [hợp âm trưởng và thứ](../luyen-tai/nghe-hop-am.md), [nhận biết gam](../luyen-tap/gam.md). |
-| Tác phẩm | [Mozart: Minuet Fa trưởng K. 2](tac-pham/mozart-minuet-k2.md), [Petzold: Minuet Sol trưởng](tac-pham/minuet-sol.md) và [Sol thứ](tac-pham/minuet-sol-thu.md), [Musette Rê trưởng](tac-pham/musette-re.md), [Schumann: Album für die Jugend](tac-pham/schumann-album.md) (Melodie, Soldatenmarsch, Wilder Reiter), [Burgmüller: La candeur](tac-pham/burgmuller-la-candeur.md), [Tchaikovsky: Bài ca Pháp cổ](tac-pham/tchaikovsky-bai-ca-phap-co.md), Kabalevsky, Bartók *For Children*. |
+| Tác phẩm | [Mozart: Minuet Fa trưởng K. 2](tac-pham/mozart-minuet-k2.md), [Petzold: Minuet Sol trưởng](tac-pham/minuet-sol.md) và [Sol thứ](tac-pham/minuet-sol-thu.md), [Musette Rê trưởng](tac-pham/musette-re.md), [Schumann: Album für die Jugend](tac-pham/schumann-album.md) (Melodie, Wilder Reiter, Fröhlicher Landmann), [Burgmüller: La candeur](tac-pham/burgmuller-la-candeur.md), [Tchaikovsky: Bài ca Pháp cổ](tac-pham/tchaikovsky-bai-ca-phap-co.md), Kabalevsky, Bartók *For Children*. |
 | Nghe | [Mozart: Sonata K. 331](../nghe-nhac/mozart-k331.md), [Scarlatti: các sonata](../nghe-nhac/scarlatti-sonata.md), [Chopin: Nocturne Op. 9 số 2](../nghe-nhac/chopin-nocturne.md). |
 | Biểu diễn | Học thuộc một bài. Quay video chơi trọn 3 bài như một buổi hòa nhạc nhỏ. |
 
@@ -108,10 +108,10 @@ Mục tiêu: chơi phức điệu, làm nổi giai điệu trong cùng một tay
 |---|---|
 | Tay | **Phức điệu hai bè** kiểu Bach: mỗi tay một giọng độc lập, đôi khi hai giọng trong một tay. Cân bằng giai điệu và phần đệm trong cùng một tay. Rubato nhẹ. Nốt hoa mỹ Baroque (láy rền bắt đầu từ nốt trên). Chuyền tay nhanh (Für Elise), hợp âm chơi thật khẽ và đều (Chopin, Prélude Mi thứ). |
 | Gam, hợp âm | Mọi gam trưởng và thứ (hòa âm, giai điệu), hai tay, 2–3 quãng tám; gam ngược chiều; hợp âm rải hai tay hai quãng tám; gam nửa cung hai tay. |
-| Đọc nhạc | Thị tấu ở mức Grade 2–3. Đọc trước một ô nhịp. Bắt đầu đọc nhạc bốn tay cùng người khác. |
+| Đọc nhạc | Thị tấu ở mức Grade 2–3. Đọc trước một ô nhịp. Bắt đầu đọc nhạc [bốn tay](choi-cung-nguoi-khac.md) cùng người khác. |
 | Nhạc lý | [Bài 15](../nhac-ly/15-tiet-tau-nang-cao.md) đến [bài 19](../nhac-ly/19-at-phu-chuyen-giong.md) (tiết tấu nâng cao, điệu thức, dịch giọng, âm ngoài hợp âm, át phụ và chuyển giọng) và [bài 31: Hình thức nhỏ](../nhac-ly/31-hinh-thuc-nho.md); đọc [Rondo](../hinh-thuc/rondo.md). |
 | Tai | [Chép giai điệu](../luyen-tap/chep-giai-dieu.md) ngắn; nghe tiến trình có hợp âm thứ. |
-| Tác phẩm | [Bach: Prelude Đô trưởng](tac-pham/bach-prelude-do.md), [Beethoven: Für Elise](tac-pham/fur-elise.md), [Chopin: Prélude Mi thứ](tac-pham/chopin-prelude-mi-thu.md), [Satie: Gymnopédie số 1](tac-pham/satie-gymnopedie.md), [Chopin: Prélude La trưởng](tac-pham/chopin-prelude-la-truong.md), [Grieg: Arietta](tac-pham/grieg-arietta.md) và các *Lyric Pieces* khác trong Op. 12, Beethoven: Sonata Op. 49 số 2. |
+| Tác phẩm | [Bach: Prelude Đô trưởng](tac-pham/bach-prelude-do.md), [Beethoven: Für Elise](tac-pham/fur-elise.md), [Chopin: Prélude Mi thứ](tac-pham/chopin-prelude-mi-thu.md), [Satie: Gymnopédie số 1](tac-pham/satie-gymnopedie.md), [Chopin: Prélude La trưởng](tac-pham/chopin-prelude-la-truong.md), [Grieg: Arietta](tac-pham/grieg-arietta.md) và các *Lyric Pieces* khác trong Op. 12, [Beethoven: Sonata Op. 49 số 2](tac-pham/beethoven-op49-2.md). |
 | Nghe | [Bach: Goldberg Variations](../nghe-nhac/bach-goldberg.md), [Chopin: Études](../nghe-nhac/chopin-etude.md), [Liszt: Liebestraum số 3](../nghe-nhac/liszt-liebestraum.md). |
 | Biểu diễn | Một chương trình 10 phút, ba bài thuộc ba thời kỳ, học thuộc. |
 
@@ -134,9 +134,9 @@ Mục tiêu: chơi một chương sonata thật, giữ nhiều lớp âm thanh t
 | Đọc nhạc | Thị tấu ở mức Grade 3–4. Đệm cho người hát hoặc chơi nhạc cụ khác: đọc cùng lúc khuông giai điệu và hai khuông piano. |
 | Nhạc lý | [Bài 21: Hòa âm bốn bè](../nhac-ly/21-hoa-am-bon-be.md), [bài 22: Đối âm](../nhac-ly/22-doi-am.md) (rất có ích khi chơi Bach), bài 23–25, và [bài 26: Phân tích một tác phẩm](../nhac-ly/26-phan-tich.md); đọc [Hình thức sonata](../hinh-thuc/sonata.md). |
 | Tai | Nhận biết [hợp âm bảy](../luyen-tap/hop-am.md) và các kiểu kết. |
-| Tác phẩm | [Mozart: Sonata K. 545, chương 1](tac-pham/mozart-k545.md), [Bach: Invention số 1](tac-pham/bach-invention-1.md), [Schumann: Träumerei](tac-pham/schumann-traumerei.md), Chopin: Valse Si thứ Op. 69 số 2, Debussy: *The Little Shepherd*, Bartók: *Romanian Folk Dances*. |
+| Tác phẩm | [Mozart: Sonata K. 545, chương 1](tac-pham/mozart-k545.md), [Bach: Invention số 1](tac-pham/bach-invention-1.md), [Schumann: Träumerei](tac-pham/schumann-traumerei.md), [Beethoven: *Ánh trăng*, chương 1](tac-pham/beethoven-anh-trang.md), [Chopin: Valse Si thứ Op. 69 số 2](tac-pham/chopin-valse-si-thu.md), [Mendelssohn: Thuyền ca Venice](tac-pham/mendelssohn-thuyen-ca.md), Debussy: *The Little Shepherd*, Bartók: *Romanian Folk Dances*. |
 | Nghe | [Brahms: Intermezzo Op. 118 số 2](../nghe-nhac/brahms-intermezzo.md), [Grieg: Concerto piano](../nghe-nhac/grieg-concerto.md), [Mussorgsky: Bức tranh triển lãm](../nghe-nhac/mussorgsky-tranh.md). |
-| Biểu diễn | Chương trình 15 phút. Thử song tấu bốn tay hoặc đệm cho một người bạn. |
+| Biểu diễn | Chương trình 15 phút. Thử song tấu bốn tay hoặc đệm cho một người bạn ([cách tập chung](choi-cung-nguoi-khac.md)). |
 
 **Sẵn sàng lên chặng tiếp khi…**
 
@@ -157,7 +157,7 @@ Mục tiêu: chơi những tác phẩm lớn được yêu thích nhất, với 
 | Đọc nhạc | Thị tấu ở mức Grade 5. Chơi nhạc thính phòng: sonata cho violin hoặc cello với piano. |
 | Nhạc lý | [Bài 27](../nhac-ly/27-ky-hieu-hop-am.md) đến [bài 32](../nhac-ly/32-ky-thuat-the-ky-20.md) (kết cấu, chuỗi hòa âm, phát triển môtip, hình thức, kỹ thuật thế kỷ 20). Phân tích mọi bài mình chơi. |
 | Tai | Nghe và so sánh nhiều bản thu của cùng một tác phẩm, xem [nghệ sĩ và bản thu](nghe-si.md). |
-| Tác phẩm | [Beethoven: Pathétique, chương 2](tac-pham/pathetique-adagio.md), [Chopin: Nocturne Op. 9 số 2](tac-pham/chopin-nocturne-op9-2.md), [Debussy: Clair de lune](tac-pham/debussy-clair-de-lune.md), Schubert: Impromptu Op. 90, Brahms: Intermezzo Op. 118 số 2, Bach: Sinfonia và prelude, fugue trong *Bình quân luật*, Mozart: Sonata K. 330. |
+| Tác phẩm | [Beethoven: Pathétique, chương 2](tac-pham/pathetique-adagio.md), [Chopin: Nocturne Op. 9 số 2](tac-pham/chopin-nocturne-op9-2.md), [Debussy: Clair de lune](tac-pham/debussy-clair-de-lune.md), [Schubert: Impromptu Sol♭ trưởng](tac-pham/schubert-impromptu-sol-giang.md) và các Impromptu khác trong Op. 90, Brahms: Intermezzo Op. 118 số 2, [Bach: Prelude và fugue Đô thứ BWV 847](tac-pham/bach-prelude-fugue-do-thu.md) và các Sinfonia, Mozart: Sonata K. 330. |
 | Nghe | [Beethoven: Pathétique](../nghe-nhac/beethoven-pathetique.md) (cả ba chương), [Rachmaninoff: Concerto số 2](../nghe-nhac/rachmaninoff-2.md), [Bach: Goldberg Variations](../nghe-nhac/bach-goldberg.md) trong hai bản thu khác nhau. |
 | Biểu diễn | Chương trình 20–30 phút thuộc lòng, nhiều phong cách. Biểu diễn trước khán giả không quen biết. |
 
@@ -175,8 +175,9 @@ Mục tiêu: chơi những tác phẩm lớn được yêu thích nhất, với 
 
 Những hướng đi:
 
+- **Những bài đầu tiên của chặng**: [Chopin: *Fantaisie-Impromptu*](tac-pham/chopin-fantaisie-impromptu.md) và [Liszt: *Liebestraum* số 3](tac-pham/liszt-liebestraum.md): kỹ thuật lớn (ba chọi bốn, quãng tám, cadenza) trong khuôn khổ năm phút.
 - **Mỗi năm một tác phẩm lớn**: [Chopin: Ballade số 1](tac-pham/chopin-ballade-1.md), một sonata giữa hoặc cuối đời của Beethoven, một Partita của Bach, *Kinderszenen* hay *Kreisleriana* của Schumann, *Préludes* của Debussy.
-- **Chơi cùng người khác**: song tấu bốn tay, sonata violin và piano, tam tấu, đệm hát. Đây là cách nhanh nhất để tiến bộ về nhịp và lắng nghe.
+- **Chơi cùng người khác**: song tấu bốn tay, sonata violin và piano, tam tấu, đệm hát. Đây là cách nhanh nhất để tiến bộ về nhịp và lắng nghe (xem [Chơi cùng người khác](choi-cung-nguoi-khac.md)).
 - **Concerto**: học một concerto Mozart với người chơi phần dàn nhạc trên piano thứ hai.
 - **Phong cách lịch sử**: nếu có dịp, thử fortepiano hoặc harpsichord để hiểu vì sao Mozart và Bach viết như vậy ([lịch sử cây đàn](lich-su-dan.md)).
 - **Học từ người khác**: masterclass, so sánh bản thu, đọc sách về diễn tấu ([nghệ sĩ và bản thu](nghe-si.md)).
