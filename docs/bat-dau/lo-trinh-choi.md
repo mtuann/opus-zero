@@ -1,11 +1,11 @@
 # Lộ trình piano năm đầu
 
-Kế hoạch 12 tháng cho người lớn bắt đầu học piano từ con số 0, tập khoảng **30–45 phút mỗi ngày, 5–6 ngày mỗi tuần**. Mỗi tháng có ba mảng song song: **bên đàn** (tay), **đọc nhạc và nhạc lý** (đầu), **tai và nghe**. Cuối năm, bạn có một chương trình nhỏ ba bài để chơi cho người khác nghe, ở khoảng trình độ ABRSM Grade 1–2.
+Kế hoạch 12 tháng cho người lớn bắt đầu học piano từ con số 0, tập **20–30 phút mỗi ngày trong sáu tháng đầu, rồi khoảng 30 phút**, 5–6 ngày mỗi tuần. Mỗi tháng có ba mảng song song: **bên đàn** (tay), **đọc nhạc và nhạc lý** (đầu), **tai và nghe**. Cuối năm, bạn có một chương trình nhỏ ba bài để chơi cho người khác nghe, ở khoảng trình độ ABRSM Grade 1–2.
 
 Thời gian chỉ là gợi ý. Đi chậm hơn một nửa vẫn hoàn toàn ổn, miễn là đều đặn và tay không đau. Sau năm đầu, [lộ trình piano từ 0 đến nâng cao](../piano/lo-trinh.md) dẫn bạn qua các chặng tiếp theo.
 
-!!! tip "Một buổi tập trong năm đầu"
-    5 phút năm ngón hoặc gam · 15–20 phút bài đang học (đoạn khó trước) · 5 phút đọc nốt hoặc thị tấu · 5 phút nhạc lý hoặc luyện tai · 1 phút ghi [nhật ký](../luyen-tap/nhat-ky.md). Nghe nhạc làm ngoài giờ ngồi đàn. Chi tiết: [Thói quen mỗi ngày](moi-ngay.md).
+!!! tip "Một buổi 30 phút trong năm đầu"
+    3 phút khởi động · 5 phút năm ngón hoặc gam · 15 phút bài đang học (đoạn khó trước) · 5 phút đọc nốt hoặc thị tấu · 2 phút ghi [nhật ký](../luyen-tap/nhat-ky.md). Nhạc lý, luyện tai và nghe nhạc làm thêm ngoài giờ ngồi đàn, khoảng 10 phút. Chi tiết: [Thói quen mỗi ngày](moi-ngay.md); buổi 20 phút cho những tháng đầu ở [Mẫu buổi tập](../piano/cach-tap.md#mau-buoi-tap).
 
 ## Trước khi bắt đầu
 

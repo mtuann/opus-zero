@@ -19,7 +19,7 @@ Giao hưởng số 1 (1800), chương 3 của Beethoven còn ghi là *Menuetto* 
 Chương scherzo cung **Đô thứ** này không kết thúc độc lập: nó **chảy thẳng** vào chương cuối (attacca) — một trong những chuyển đoạn nổi tiếng nhất lịch sử nhạc giao hưởng.
 
 | Phần | Điều xảy ra |
-|---|---|---|
+|---|---|
 | Scherzo | Dây trầm (cello, contrabass) mở đầu bằng chủ đề bí ẩn, rón rén; kèn horn đáp lại |
 | Trio | Chuyển sang **Đô trưởng**: fugue của cello và contrabass — trầm mà hùng tráng |
 | Scherzo da capo | Trở lại, nhưng **nhỏ dần, mỏng dần**… |
@@ -30,7 +30,7 @@ Nghe chương 3 và 4 liền nhau ([hướng dẫn nghe](../nghe-nhac/beethoven-
 
 ## Scherzo ở vị trí lạ
 
-Trong Giao hưởng số 9, Beethoven đặt scherzo ở **chương 2** (thay vì chương 3) — chương dài, dữ dội, với đoạn trio hai lần. Mahler sau này cũng hay xáo trộn vị trí các chương.
+Trong Giao hưởng số 9, Beethoven đặt scherzo ở **chương 2** (thay vì chương 3) — chương dài và dữ dội; ở cuối chương, trio vừa bắt đầu quay lại thì bị cắt ngang. Mahler sau này cũng hay xáo trộn vị trí các chương.
 
 Ngoài giao hưởng, scherzo còn là thể loại độc lập: *Scherzo* trong *Giấc mộng đêm hè* của Mendelssohn (nhẹ như tiên), các scherzo piano của Chopin (4 bản, đầy kịch tính).
 
@@ -39,6 +39,6 @@ Ngoài giao hưởng, scherzo còn là thể loại độc lập: *Scherzo* tron
 | Tác phẩm | Điều cần tìm | Hướng dẫn |
 |---|---|---|
 | [Beethoven, Giao hưởng số 5, chương 3–4](../nghe-nhac/beethoven-5.md) | Cầu nối scherzo → finale | Hướng dẫn nghe |
-| Beethoven, Giao hưởng số 9, chương 2 | Scherzo ở vị trí chương 2, trio hai lần | |
+| Beethoven, Giao hưởng số 9, chương 2 | Scherzo ở vị trí chương 2; trio thoáng quay lại ở cuối | |
 | Mendelssohn, *Giấc mộng đêm hè*: Scherzo | Nhẹ, nhanh, như tiếng tiên đùa | |
 | Chopin, Scherzo số 2 cung Si♭ thứ | Scherzo cho piano độc tấu | |

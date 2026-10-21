@@ -8,7 +8,7 @@
 |---|---|
 | **Số bè** | Thường 3 hoặc 4 bè (soprano, alto, tenor, bass), kể cả khi chơi trên một cây đàn phím |
 | **Chủ đề** (subject) | Giai điệu chính, ngắn, dễ nhận ra, xuất hiện đầu tiên ở một bè **đơn độc** |
-| **Đáp đề** (answer) | Chủ đề được nhắc lại ở bè thứ hai, cao hoặc thấp hơn một quãng 5 (tức ở giọng át) |
+| **Đáp đề** (answer) | Chủ đề được nhắc lại ở bè thứ hai, cao hơn một quãng 5 hoặc thấp hơn một quãng 4 (tức ở giọng át) |
 | **Đối đề** (countersubject) | Giai điệu đi kèm, bè trước chơi trong lúc bè sau vào chủ đề; thường quay lại nhiều lần |
 | **Phần trình bày** | Đoạn đầu, khi mọi bè lần lượt vào với chủ đề hoặc đáp đề |
 | **Đoạn chuyển** (episode) | Đoạn không có chủ đề trọn vẹn, thường dùng mảnh của chủ đề để chuyển sang giọng khác |
@@ -53,7 +53,7 @@ Hợp âm trưởng ở cuối một bài giọng thứ có tên riêng: **quãn
 + Đáp đề, chủ đề ở giọng át
 - Một giai điệu hoàn toàn mới
 - Chủ đề ngược
-> Cao hoặc thấp hơn một quãng 5.
+> Cao hơn một quãng 5 hoặc thấp hơn một quãng 4.
 ? Stretto là gì?
 + Các bè vào chủ đề chồng lấn nhau
 - Đoạn không có chủ đề

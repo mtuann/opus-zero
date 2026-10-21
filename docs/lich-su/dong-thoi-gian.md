@@ -34,7 +34,7 @@ Hãy để ý những điều thú vị mà dòng thời gian cho thấy: Bach v
 | 1853 | Verdi *La traviata* công diễn ở Venice |
 | 1875 | Bizet *Carmen* công diễn ở Paris |
 | 1876 | Khai trương nhà hát Bayreuth của Wagner với trọn bộ *Der Ring des Nibelungen* |
-| 1877 | Edison phát minh máy hát (phonograph): âm nhạc lần đầu được ghi lại |
+| 1877 | Edison phát minh máy hát (phonograph): lần đầu ghi và phát lại được âm thanh |
 | 1911 | Nhà hát Lớn Hà Nội hoàn thành |
 | 1913 | Stravinsky *Le Sacre du printemps* gây náo loạn ở Paris |
 | 1927 | Cuộc thi Piano Quốc tế Chopin lần đầu tiên ở Warsaw |

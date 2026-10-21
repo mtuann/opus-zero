@@ -48,9 +48,9 @@ Lần đầu cần vào **Settings → Pages → Build and deployment → Source
 ```
 docs/
 ├── index.md              Trang chủ (có tóm tắt tiến độ hôm nay)
-├── bat-dau/              Bài 0, kiểm tra đầu vào, lộ trình piano năm đầu, lộ trình nghe hiểu và nhạc lý, tóm tắt in được, hỏi đáp
-├── piano/                Trục chính: lộ trình 0 → nâng cao, bắt đầu bên phím đàn, 10 bài hai tay, 8 trang kỹ thuật,
-│   │                     5 trang tập luyện, tác phẩm theo cấp, lịch sử cây đàn, thể loại, nhà soạn nhạc, nghệ sĩ
+├── bat-dau/              Bài 0, kiểm tra đầu vào, lộ trình piano năm đầu, lộ trình nghe hiểu và nhạc lý, tóm tắt và sách in được, hỏi đáp
+├── piano/                Trục chính: lộ trình 0 → nâng cao, bắt đầu bên phím đàn, 10 bài hai tay, 10 trang kỹ thuật,
+│   │                     6 trang tập luyện, tác phẩm theo cấp, lịch sử cây đàn, thể loại, nhà soạn nhạc, nghệ sĩ
 │   ├── hoa-am/           Hòa âm bên phím và ứng tác (5 trang)
 │   └── tac-pham/         34 bài học tác phẩm (Minuet K. 2 → Ballade số 1)
 ├── nhac-ly/              32 bài nhạc lý + âm học + 3 bài ôn tập (khuông nhạc nghe được, quiz) + từ điển
@@ -58,8 +58,8 @@ docs/
 ├── luyen-tap/            Công cụ luyện tập: đọc nốt, thị tấu, chơi theo, hát lại và máy lên dây, thu âm, phiếu bài tập và giấy kẻ khuông in được
 ├── luyen-tai/            Luyện tai; công cụ nhận biết quãng, hợp âm, gam và kết nằm ngay trong từng bài
 ├── lich-su/              Lịch sử, dòng thời gian, nhà soạn nhạc (cả nữ), opera, Việt Nam, đương đại
-├── hinh-thuc/            Tổng quan + 5 trang hình thức chi tiết (sonata, fugue, biến tấu, rondo, concerto)
-├── nhac-cu/              Nhạc cụ trong dàn nhạc (phần nghe): dàn nhạc, violin, cello, guitar, sáo, clarinet, trumpet
+├── hinh-thuc/            Tổng quan + 9 trang hình thức (sonata, fugue, biến tấu, rondo, concerto, minuet và trio, scherzo, overture, symphonic poem)
+├── nhac-cu/              Nhạc cụ trong dàn nhạc (phần nghe): dàn nhạc, violin, cello, guitar, sáo, clarinet, trumpet, giọng hát, organ, harpsichord
 ├── nghe-nhac/            42 hướng dẫn nghe, 16 về nhạc piano (có ghi mốc theo bản thu), đọc tên tác phẩm, nghe gì tiếp
 ├── blog/posts/           Nhật ký học (blog)
 ├── tai-nguyen.md         Tài nguyên

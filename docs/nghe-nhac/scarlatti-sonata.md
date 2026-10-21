@@ -63,13 +63,13 @@ Ghi lại thời điểm (phút:giây) bạn nghe thấy từng sự kiện tron
 
 ## So sánh bản thu
 
-- **Vladimir Horowitz**: thu âm K. 380 nhiều lần và mở đầu buổi hòa nhạc ở Moscow năm 1986 bằng chính bản này; tiếng đàn mềm mại, nhiều màu.
+- **Vladimir Horowitz**: thu âm K. 380 nhiều lần; bản này mở đầu đĩa *Horowitz in Moscow*, ghi buổi hòa nhạc ở Moscow năm 1986; tiếng đàn mềm mại, nhiều màu.
 - **Martha Argerich**: hay chơi K. 141 như một bản tặng thêm (encore); những nốt lặp lại nhanh và sắc như tia lửa. Angela Hewitt cũng có bản thu K. 141 rất đáng nghe để so sánh.
 - **Scott Ross** (harpsichord): người đầu tiên một mình thu âm trọn 555 bản sonata (1984–1985). Nghe để biết âm thanh gốc mà Scarlatti nghĩ tới.
 
 ## Nếu bạn muốn chơi
 
-Sonata Scarlatti là những "bài kỹ thuật có hồn" tuyệt vời cho người chơi piano trung cấp trở lên. K. 380 thuộc mức trung cấp cao (≈ Grade 7–8); K. 141 khó hơn nhiều vì nốt lặp lại nhanh và bắt chéo tay. Hãy bắt đầu bằng những bản ngắn, chậm như **K. 32** (Rê thứ, *Aria*) hoặc **K. 34** (Rê thứ, *Larghetto*), đồng thời tập [nốt hoa mỹ](../piano/not-hoa-my.md), [phối hợp và bắt chéo hai tay](../piano/hai-tay.md) và [staccato nhẹ](../piano/tieng-dan.md). Xem thêm [Tác phẩm theo cấp độ](../piano/tac-pham-theo-cap.md).
+Sonata Scarlatti là những "bài kỹ thuật có hồn" tuyệt vời cho người chơi piano trung cấp trở lên. K. 380 ở khoảng chặng 6 (≈ Grade 8, xem [Nhà soạn nhạc cho piano](../piano/nha-soan-nhac.md#domenico-scarlatti-16851757)); K. 141 khó hơn nhiều vì nốt lặp lại nhanh và bắt chéo tay. Hãy bắt đầu bằng những bản ngắn, chậm như **K. 32** (Rê thứ, *Aria*) hoặc **K. 34** (Rê thứ, *Larghetto*), đồng thời tập [nốt hoa mỹ](../piano/not-hoa-my.md), [phối hợp và bắt chéo hai tay](../piano/hai-tay.md) và [staccato nhẹ](../piano/tieng-dan.md). Xem thêm [Tác phẩm theo cấp độ](../piano/tac-pham-theo-cap.md).
 
 ## Ghi chép của bạn
 

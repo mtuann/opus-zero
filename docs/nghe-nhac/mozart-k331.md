@@ -68,7 +68,7 @@ Ghi lại thời điểm (phút:giây) bạn nghe thấy từng sự kiện tron
 
 ## Nếu bạn muốn chơi
 
-Chương 1 và chương 3 thuộc mức **trung cấp** (≈ Grade 6–7 tùy chương); chủ đề chương 1 có thể tập sớm hơn để làm quen với nhịp 6/8 và cách trang trí kiểu Mozart. Chuẩn bị bằng [Sonata K. 545](../piano/tac-pham/mozart-k545.md) và [Sonatina Clementi](../piano/tac-pham/clementi-sonatina.md), luyện gam và hợp âm rải thật đều tay (xem [lộ trình piano](../piano/lo-trinh.md)), và đọc [nốt hoa mỹ](../piano/not-hoa-my.md). Ở chương 3, tập hợp âm rải tay trái thật nhẹ trước rồi mới tăng tốc.
+Chương 1 và chương 3 ở khoảng chặng 6 (≈ Grade 7–8, xem [Nhà soạn nhạc cho piano](../piano/nha-soan-nhac.md#wolfgang-amadeus-mozart-17561791)); chủ đề chương 1 có thể tập sớm hơn để làm quen với nhịp 6/8 và cách trang trí kiểu Mozart. Chuẩn bị bằng [Sonata K. 545](../piano/tac-pham/mozart-k545.md) và [Sonatina Clementi](../piano/tac-pham/clementi-sonatina.md), luyện gam và hợp âm rải thật đều tay (xem [lộ trình piano](../piano/lo-trinh.md)), và đọc [nốt hoa mỹ](../piano/not-hoa-my.md). Ở chương 3, tập hợp âm rải tay trái thật nhẹ trước rồi mới tăng tốc.
 
 ## Ghi chép của bạn
 

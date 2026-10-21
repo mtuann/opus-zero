@@ -4,7 +4,7 @@
 
 Phục hưng là thời của chủ nghĩa nhân văn, của Leonardo và Michelangelo. Âm nhạc vẫn gắn với nhà thờ, nhưng **triều đình** các thành bang Ý, Pháp, vùng Burgundy và Flanders cũng nuôi những dàn hát và nhạc công riêng. **Máy in nhạc** ra đời: năm 1501, Ottaviano Petrucci ở Venice in tuyển tập nhạc đa âm đầu tiên bằng chữ in rời. Âm nhạc bắt đầu lan rộng ngoài các trung tâm tôn giáo.
 
-Cuối thế kỷ 16, cuộc **Cải cách Tin lành** và **Phản Cải cách** của Công giáo ảnh hưởng mạnh đến âm nhạc nhà thờ: Luther khuyến khích giáo dân cùng hát thánh ca bằng tiếng mẹ đẻ; Công đồng Trent (1545–1563) đòi hỏi lời hát phải nghe rõ.
+Từ thế kỷ 16 (Luther, từ năm 1517), cuộc **Cải cách Tin lành** và **Phản Cải cách** của Công giáo ảnh hưởng mạnh đến âm nhạc nhà thờ: Luther khuyến khích giáo dân cùng hát thánh ca bằng tiếng mẹ đẻ; Công đồng Trent (1545–1563) đòi hỏi lời hát phải nghe rõ.
 
 ## Âm thanh đặc trưng
 

@@ -31,7 +31,7 @@ Thuật ngữ tốc độ chính đã có ở trang [máy đếm nhịp](../luye
 | **sfz** | sforzando | Nhấn mạnh đột ngột một nốt |
 | **fp** | forte-piano | To rồi nhỏ ngay |
 
-Cây đàn piano có tên đầy đủ là *pianoforte*, nghĩa là "nhỏ – to": nó là nhạc cụ phím đầu tiên điều chỉnh được âm lượng theo lực bấm.
+Cây đàn piano có tên đầy đủ là *pianoforte*, nghĩa là "nhỏ – to": khác harpsichord, nó chơi to hay nhỏ theo lực ngón mà vẫn đủ vang (clavichord cũng làm được, nhưng rất nhỏ tiếng). Xem [Lịch sử cây đàn piano](../piano/lich-su-dan.md).
 
 ```abc
 X:1

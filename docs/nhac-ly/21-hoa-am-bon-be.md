@@ -1,6 +1,6 @@
 # 21. Hòa âm bốn bè
 
-Phần **Trung cấp** dành cho bạn đã vững 20 bài trước. Bài đầu tiên dạy cách **viết** hợp âm cho bốn giọng hát, cách mà Bach viết hàng trăm bài thánh ca (chorale), và là bài tập nền tảng của mọi khóa học sáng tác.
+Phần **Hòa âm mở rộng và phân tích** (bài 21–27) dành cho bạn đã vững các bài trước. Bài đầu tiên dạy cách **viết** hợp âm cho bốn giọng hát, cách mà Bach viết hàng trăm bài thánh ca (chorale), và là bài tập nền tảng của mọi khóa học sáng tác.
 
 ## Bốn bè và âm vực
 
@@ -54,12 +54,12 @@ V:S clef=treble
 V:B clef=bass
 K:C
 [V:S] [Ec] [Fc] [DB] [Ec] |]
-[V:B] [C,,G,] [F,,A,] [G,,G,] [C,,G,] |]
+[V:B] [C,G,] [F,,A,] [G,,G,] [C,G,] |]
 ```
 
 Đọc từ dưới lên ở mỗi hợp âm: bass – tenor (khuông dưới), alto – soprano (khuông trên).
 
-- I → IV: soprano **giữ** Đô (nốt chung); các bè trên đi lên bước nhỏ, bass nhảy quãng 4 lên Fa.
+- I → IV: soprano **giữ** Đô (nốt chung); các bè trên đi lên bước nhỏ, bass nhảy xuống quãng 5 tới Fa.
 - IV → V: bass đi **lên** bước liền (Fa → Sol), ba bè trên đi xuống ngược chiều; không có quãng song song cấm.
 - V → I: **cảm âm Si đi lên Đô** ở soprano; tenor giữ Sol (nốt chung).
 
@@ -71,7 +71,7 @@ T:Sai: quãng 5 song song (Đô–Sol rồi Rê–La)
 L:1/2
 M:2/2
 K:C clef=bass
-[C,,G,,] [D,,A,,] |]
+[C,G,] [D,A,] |]
 ```
 
 ## Bài tập viết

@@ -1,6 +1,6 @@
 # Symphonic poem (thơ giao hưởng)
 
-Symphonic poem (tiếng Đức: *Tondichtung*, "thơ bằng âm thanh") là **nhạc kể chuyện một chương** cho dàn nhạc — do Franz Liszt phát minh vào thập niên 1850 với 13 tác phẩm. Khác với giao hưởng (4 chương, cấu trúc trừu tượng), symphonic poem bám theo một **cốt truyện, bức tranh hay ý niệm** có sẵn.
+Symphonic poem (tiếng Đức: *symphonische Dichtung*; Richard Strauss gọi là *Tondichtung*, "thơ bằng âm thanh") là **nhạc kể chuyện một chương** cho dàn nhạc. Franz Liszt đặt ra tên gọi này vào thập niên 1850 và viết 13 tác phẩm như vậy. Khác với giao hưởng (4 chương, cấu trúc trừu tượng), symphonic poem bám theo một **cốt truyện, bức tranh hay ý niệm** có sẵn.
 
 ## Ý tưởng cốt lõi: âm nhạc minh họa
 
@@ -12,7 +12,7 @@ Người nghe thường được cho một **chương trình** (program) — và
 
 ## Đi qua một tác phẩm: Smetana, *Moldau*
 
-*Moldau* (sông Vltava) là chương nổi tiếng nhất trong chùm 6 symphonic poem *Má vlast* ("Tổ quốc tôi") của Smetana — một chuyến xuôi dòng sông từ nguồn đến biển:
+*Moldau* (sông Vltava) là chương nổi tiếng nhất trong chùm 6 symphonic poem *Má vlast* ("Tổ quốc tôi") của Smetana — một chuyến xuôi dòng sông, từ hai con suối đầu nguồn đến khi sông chảy qua Prague:
 
 | Đoạn | Sự kiện | Nghe gì |
 |---|---|---|

@@ -6,7 +6,7 @@ Thời Baroque, nhạc công đàn phím không có bản nhạc đầy đủ. H
 
 Các con số chỉ **quãng tính từ nốt bè trầm lên**, theo **hóa biểu**, không phân biệt quãng tám. Người chơi tự chọn cách xếp các nốt đó.
 
-| Ký hiệu | Đầy đủ | Nghĩa | Ví dụ (bass Đô, Đô trưởng) |
+| Ký hiệu | Đầy đủ | Nghĩa | Ví dụ (Đô trưởng) |
 |---|---|---|---|
 | (không có) | 5/3 | Hợp âm ba thể gốc | Đô – Mi – Sol |
 | **6** | 6/3 | Hợp âm ba đảo 1 | bass Đô: Đô – Mi – La (La thứ đảo 1) |

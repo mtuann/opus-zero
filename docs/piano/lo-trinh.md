@@ -18,6 +18,8 @@ Năm đầu tiên được viết chi tiết theo từng tháng ở [Lộ trình
 
 \* Tính từ ngày bắt đầu, cho người lớn tập đều đặn và có người hướng dẫn (thầy, hoặc ít nhất là người nghe và góp ý định kỳ). Đây là con số rất thô: có người đi nhanh gấp đôi, có người mất gấp đôi thời gian, và cả hai đều bình thường. Điều quyết định không phải tốc độ, mà là bạn có tiếp tục đi hay không.
 
+Hàng **Nhạc lý** ở mỗi chặng là mức tối thiểu cần có. Nhạc lý thường đi nhanh hơn đôi tay: [lộ trình năm đầu](../bat-dau/lo-trinh-choi.md) học hết bài 1–15 ngay trong 12 tháng, và học trước như vậy là tốt.
+
 ## Các cấp ABRSM, Trinity và các chặng ở đây
 
 Site dùng **cấp (grade) của ABRSM** làm thước đo độ khó, vì đây là hệ thống phổ biến nhất thế giới và gần như mọi danh sách tác phẩm đều tham chiếu nó.

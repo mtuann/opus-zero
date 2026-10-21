@@ -11,7 +11,7 @@
 
 ## Điều cần biết trước khi nghe
 
-Tác phẩm được đặt hàng nhân lễ khánh thành **Nhà thờ Chúa Cứu thế ở Moscow** — xây để tưởng niệm chiến thắng của Nga trước Napoleon năm 1812. Tchaikovsky kể lại cuộc chiến bằng âm nhạc, với hai "phe" được đại diện bằng hai bài quốc ca:
+Tchaikovsky viết tác phẩm năm 1880, theo gợi ý của Nikolai Rubinstein, cho dịp Triển lãm Nghệ thuật và Công nghiệp toàn Nga ở Moscow; buổi công diễn đầu tiên năm 1882 diễn ra trong một chiếc lều cạnh **Nhà thờ Chúa Cứu thế** đang xây dở, nhà thờ dựng để tưởng niệm chiến thắng của Nga trước Napoleon năm 1812 (câu chuyện "viết cho lễ khánh thành nhà thờ" là một ngộ nhận phổ biến). Tchaikovsky kể lại cuộc chiến bằng âm nhạc, với hai "phe" được đại diện bằng hai bài quốc ca:
 
 - **Phe Pháp** (quân xâm lược): quốc ca Pháp *La Marseillaise*.
 - **Phe Nga**: bài thánh ca Chính thống giáo, rồi cuối cùng là quốc ca Nga hoàng *"God Save the Tsar!"*.

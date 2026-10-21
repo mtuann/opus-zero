@@ -1,6 +1,6 @@
 # Hỏi đáp
 
-Những câu hỏi thường gặp của người mới. Chưa thấy câu hỏi của bạn? Hãy ghi vào [nhật ký học](../blog/index.md) và tự tìm câu trả lời; đó cũng là một cách học.
+Những câu hỏi thường gặp của người mới. Chưa thấy câu hỏi của bạn? Hãy gửi qua [trang GitHub của dự án](https://github.com/mtuann/opus-zero/issues), hoặc ghi lại trong [nhật ký luyện tập](../luyen-tap/nhat-ky.md) để hỏi thầy ở buổi học sau.
 
 ## Về học piano
 
@@ -19,8 +19,20 @@ Những câu hỏi thường gặp của người mới. Chưa thấy câu hỏi
 ??? question "Bài “Spring Waltz” của Chopin ở cấp nào?"
     Bài ấy không phải của Chopin. Đó là *Mariage d'Amour* của Paul de Senneville, viết năm 1978 và nổi tiếng qua bản thu của Richard Clayderman. Bản piano solo đầy đủ ở khoảng Grade 5–6 (đầu chặng 5); có nhiều bản soạn dễ hơn cho chặng 2–3. Bài còn bản quyền, nên hãy dùng bản nhạc được cấp phép. Xem [Bài phổ biến ngoài nhạc cổ điển](../piano/tac-pham-theo-cap.md#ngoai-co-dien).
 
+??? question "Tôi muốn chơi nhạc phim, “River Flows in You”, “Kiss the Rain”… được không?"
+    Được, nhưng nên biết hai điều. Thứ nhất, các bài này còn bản quyền: hãy dùng bản nhạc được cấp phép (của nhà xuất bản hoặc các trang bán bản nhạc như Musicnotes), không dùng bản chép lậu. Thứ hai, bản gốc của nhiều bài nghe đơn giản nhưng không dễ: tay trái rải rộng, bàn đạp nhiều, giai điệu phải hát trên phần đệm; phần lớn cần trình độ trung cấp, khoảng chặng 4–5, và có nhiều bản soạn dễ hơn. Những bài học dạy đúng các kỹ năng ấy: [Gymnopédie số 1](../piano/tac-pham/satie-gymnopedie.md), [Prélude Mi thứ](../piano/tac-pham/chopin-prelude-mi-thu.md), [Arietta](../piano/tac-pham/grieg-arietta.md). Xem thêm [Bài phổ biến ngoài nhạc cổ điển](../piano/tac-pham-theo-cap.md#ngoai-co-dien).
+
+??? question "Học bằng ứng dụng (Simply Piano, Flowkey) hay video “phím rơi” (Synthesia) có được không?"
+    Được, như một cách tạo động lực. Nhưng các ứng dụng và video ấy thường bỏ qua ba thứ mà về sau bạn rất cần: đọc nhạc, ngón bấm và tiếng đàn. Nếu dùng, hãy dùng song song với [đọc nốt](../luyen-tap/doc-not.md) và [thị tấu](../piano/thi-tau.md) mỗi ngày, tập theo bản nhạc có ghi số ngón, và [thu âm](../luyen-tap/thu-am.md) để nghe lại chính mình.
+
+??? question "Tôi từng học đàn hồi nhỏ, nay quay lại thì bắt đầu từ đâu?"
+    Làm [bài kiểm tra đầu vào](kiem-tra-dau-vao.md), rồi bắt đầu thấp hơn chặng nó gợi ý một chặng: tay cần vài tuần để nhớ lại, và bài dễ giúp bạn lấy lại nhịp tập đều. Mấy tuần đầu dành nhiều thời gian cho gam và đọc nhạc, hai thứ hay mai một nhất sau nhiều năm nghỉ. Xem [lộ trình piano](../piano/lo-trinh.md).
+
+??? question "Tải bản nhạc ở đâu? Có vi phạm bản quyền không?"
+    [IMSLP](https://imslp.org/) và [Mutopia](https://www.mutopiaproject.org/) có bản nhạc cổ điển thuộc phạm vi công cộng; IMSLP ghi tình trạng bản quyền theo từng nước ngay trên trang tải, nên hãy đọc dòng đó. Các ấn bản Urtext mới, bản soạn lại và nhạc của tác giả còn sống hoặc mới mất vẫn được bảo hộ. Ở Việt Nam, quyền tác giả với phần lớn tác phẩm kéo dài suốt cuộc đời tác giả và 50 năm sau năm tác giả mất (Luật Sở hữu trí tuệ, Điều 27). Cách chọn ấn bản tốt: [Tác phẩm theo cấp độ](../piano/tac-pham-theo-cap.md).
+
 ??? question "Tay tôi nhỏ, ngón ngắn, có học piano được không?"
-    Được. Phần lớn văn học piano không đòi bàn tay lớn; khi gặp quãng tám hay hợp âm rộng, có cách chọn ngón, rải hợp âm, chia nốt cho tay kia. Đừng cố "căng" tay quá sức. Xem [Giữ đôi tay khỏe](../piano/suc-khoe.md).
+    Được. Phần lớn văn học piano không đòi bàn tay lớn; khi gặp quãng tám hay hợp âm rộng, có cách chọn ngón, rải hợp âm, chia nốt cho tay kia. Đừng cố "căng" tay quá sức. Xem [Bàn tay nhỏ: chọn bài và ngón bấm](../piano/suc-khoe.md#ban-tay-nho-chon-bai-va-ngon-bam-cho-vua-tay) và lưu ý cho tay nhỏ ở [Quãng tám và bước nhảy](../piano/quang-tam-buoc-nhay.md).
 
 ??? question "Có nên tập Hanon và các bài tập ngón không?"
     Có thể, với liều lượng nhỏ và cách tập có ý thức (chậm, thả lỏng, đổi tiết tấu), nhưng chúng không thay được gam, hợp âm rải và các étude có nhạc tính. Xem [Bài tập ngón và étude](../piano/bai-tap-ngon.md).
@@ -68,4 +80,4 @@ Những câu hỏi thường gặp của người mới. Chưa thấy câu hỏi
     Kiểm tra điện thoại không ở chế độ im lặng (trên iPhone, công tắc im lặng chặn cả âm thanh trang web), và bấm vào trang một lần trước khi phát. Âm thanh của khuông nhạc cần mạng ở lần đầu tiên.
 
 ??? question "Đàn điện của tôi dùng được với site không?"
-    Được, nếu đàn có cổng USB-MIDI (hoặc MIDI qua bộ chuyển) và bạn dùng trình duyệt hỗ trợ Web MIDI (như Chrome hoặc Edge). Đàn thay chuột trong các công cụ đọc nốt, chơi theo, chép giai điệu. Xem [Kết nối đàn MIDI](../luyen-tap/ket-noi-midi.md).
+    Được, nếu đàn có cổng USB-MIDI (hoặc MIDI qua bộ chuyển) và bạn dùng trình duyệt hỗ trợ Web MIDI (Chrome, Edge hoặc Opera trên máy tính). Safari và mọi trình duyệt trên iPhone, iPad chưa hỗ trợ MIDI trên web; khi đó các công cụ dùng micro (chơi theo, hát lại) vẫn chạy. Đàn thay chuột trong các công cụ đọc nốt, chơi theo, chép giai điệu. Xem [Kết nối đàn MIDI](../luyen-tap/ket-noi-midi.md).

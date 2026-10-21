@@ -90,7 +90,7 @@ Xem thêm [Nghệ sĩ piano và bản thu](../piano/nghe-si.md).
 
 ## Nếu bạn muốn chơi
 
-Phần lớn các bản ở mức **trung cấp**, khoảng Grade 5–7; khó ở phân bè, tiếng đàn và rubato hơn là ở tốc độ. Bắt đầu với số 1 và [*Träumerei*](../piano/tac-pham/schumann-traumerei.md); chuẩn bị bằng vài bản trong [*Album für die Jugend*](../piano/tac-pham/schumann-album.md). Nếu chơi cả tập, hãy tập cả những chỗ nối giữa các bản. Xem [Tác phẩm theo cấp độ](../piano/tac-pham-theo-cap.md) và [các thể loại nhạc piano](../piano/the-loai.md).
+Phần lớn các bản ở khoảng chặng 4–6 (≈ Grade 5–7); khó ở phân bè, tiếng đàn và rubato hơn là ở tốc độ. Bắt đầu với số 1 và [*Träumerei*](../piano/tac-pham/schumann-traumerei.md); chuẩn bị bằng vài bản trong [*Album für die Jugend*](../piano/tac-pham/schumann-album.md). Nếu chơi cả tập, hãy tập cả những chỗ nối giữa các bản. Xem [Tác phẩm theo cấp độ](../piano/tac-pham-theo-cap.md) và [các thể loại nhạc piano](../piano/the-loai.md).
 
 ## Ghi chép của bạn
 

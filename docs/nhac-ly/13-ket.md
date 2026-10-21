@@ -90,7 +90,7 @@ Bạn sẽ gặp cấu trúc câu hỏi – câu trả lời ở khắp nơi tro
 3. Mỗi ngày 10 câu với [công cụ nhận biết kết](../luyen-tai/nghe-tien-trinh.md#luyen-voi-cong-cu): bốn hợp âm, đoán loại kết của hai hợp âm cuối.
 
 !!! example "Luyện tập kèm theo"
-    [Đọc thị tấu](../luyen-tap/thi-tau.md): mọi giai điệu đều kết bằng bậc 2 hoặc 7 về chủ âm; hát và cảm nhận lực kéo của kết.
+    [Thị tấu một bè](../luyen-tap/thi-tau.md): mọi giai điệu đều kết bằng bậc 2 hoặc 7 về chủ âm; hát và cảm nhận lực kéo của kết.
 
 ```quiz
 ? Kết nửa kết thúc ở hợp âm nào?

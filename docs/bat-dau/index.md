@@ -32,6 +32,7 @@ Chưa có đàn, hoặc trước hết muốn **nghe hiểu** nhạc cổ điể
 | 1 2 3 4 5 trên nốt | **Số ngón tay**: 1 là ngón cái, 5 là ngón út, ở cả hai tay |
 | *Ped.* … \* | Nhấn và nhả **bàn đạp vang** |
 | khoảng Grade 5 | Độ khó ước lượng theo thang thi cấp ABRSM (Initial, rồi Grade 1 đến 8) |
+| chặng 1–7 | Bảy chặng của [lộ trình piano](../piano/lo-trinh.md#tong-quan): chặng 1 trước Grade 1, chặng 2 ≈ Grade 1–2, chặng 3 ≈ Grade 3, chặng 4 ≈ Grade 4–5, chặng 5 ≈ Grade 6, chặng 6 ≈ Grade 7–8, chặng 7 sau Grade 8 |
 
 !!! tip "Âm thanh trên site"
     Các ví dụ và công cụ phát âm thanh ngay trong trình duyệt bằng mẫu âm piano thật. Nếu không nghe thấy gì, hãy kiểm tra điện thoại không ở chế độ im lặng và bấm vào trang một lần trước khi phát.

@@ -68,5 +68,4 @@ Mỗi nhạc cụ chỉ chơi được trong một khoảng cao độ nhất đ�
 
 ## Nguồn
 
-- Giáo trình thi cấp: [ABRSM](https://www.abrsm.org/), [Trinity College London](https://www.trinitycollege.com/).
 - Bản nhạc: [IMSLP](https://imslp.org/). Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

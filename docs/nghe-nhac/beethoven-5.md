@@ -1,7 +1,5 @@
 # Beethoven: Giao hưởng số 5
 
-*Đây là trang ví dụ để minh họa cách dùng [mẫu ghi chép](mau.md). Phần cảm nhận cá nhân để trống cho bạn tự điền.*
-
 | Mục | Thông tin |
 |---|---|
 | Nhà soạn nhạc | Ludwig van Beethoven (1770–1827) |
@@ -9,7 +7,7 @@
 | Năm sáng tác | 1804–1808; công diễn lần đầu tại Vienna ngày 22/12/1808 |
 | Thời kỳ | Cổ điển, chuyển sang Lãng mạn |
 | Thể loại | Giao hưởng, 4 chương, khoảng 30–35 phút |
-| Bản thu gợi ý | Carlos Kleiber và Wiener Philharmoniker (Deutsche Grammophon, 1975) |
+| Bản thu gợi ý | Carlos Kleiber và Wiener Philharmoniker (Deutsche Grammophon, thu năm 1974) |
 
 ## Môtip mở đầu
 
@@ -49,21 +47,29 @@ Chương 3 chuyển thẳng sang chương 4 không ngắt nghỉ: tiếng nhạc
 - Chương 3: nghe xem nhịp "ngắn – ngắn – ngắn – dài" có quay lại không.
 - So sánh tốc độ chương 1 giữa bản Kleiber và một bản thu khác.
 
-## Lần 1 — Cảm nhận
+## Nghe kèm bản thu
 
-*(điền vào đây)*
+<div class="oz-listen"></div>
 
-## Lần 2 — Giai điệu chính
+## Theo dõi khi nghe
 
-*(điền vào đây)*
+Ghi lại thời điểm (phút:giây) bạn nghe thấy từng sự kiện của chương 1 trong bản thu của mình; dòng cuối là chỗ chương 3 nối sang chương 4.
 
-## Lần 3 — Cấu trúc
+| Thời điểm | Sự kiện |
+|---|---|
+| … | **Môtip mở đầu**: cả dàn nhạc đồng âm "ngắn – ngắn – ngắn – dài", hai lần, mỗi lần dừng trên một dấu ngân |
+| … | **Chủ đề 1**: môtip chuyền từ bè dây này sang bè dây khác, chồng lên nhau, dồn lên một cao trào |
+| … | **Kèn horn gọi**: một câu ngắn, mạnh, dùng chính nhịp của môtip, mở đường sang Mi♭ trưởng |
+| … | **Chủ đề 2**, Mi♭ trưởng: giai điệu êm ở violin; bên dưới, bè trầm vẫn gõ nhịp "ngắn – ngắn – ngắn – dài" |
+| … | **Hết phần trình bày**; phần lớn bản thu chơi nhắc lại từ đầu |
+| … | **Phát triển**: môtip bị chia nhỏ dần, đến lúc chỉ còn những hợp âm đơn lẻ chuyền qua lại giữa kèn gỗ và đàn dây, rất nhỏ |
+| … | **Tái hiện**: môtip trở lại mạnh mẽ; ngay sau đó, oboe chơi một mình một câu ngắn và chậm (*Adagio*) |
+| … | **Coda**: dài bất thường, gần như một phần phát triển thứ hai, khép lại bằng môtip dứt khoát |
+| … | **Từ chương 3 sang chương 4**: cuối chương 3, nhạc lắng xuống rất nhỏ trên tiếng trống timpani gõ đều, rồi dâng lên và bùng nổ thành Đô trưởng ở đầu chương 4, không ngắt nghỉ |
 
-*(điền vào đây)*
+## Ghi chép của bạn
 
-## Lần 4 — So sánh bản thu
-
-*(điền vào đây)*
+*(Dùng [mẫu ghi chép](mau.md) để điền cảm nhận.)*
 
 ## Nguồn
 

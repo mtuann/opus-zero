@@ -47,7 +47,7 @@ Các công cụ dưới đây chạy ngay trong trình duyệt, không cần cà
 
 ## Luyện tai
 
-Ba công cụ dưới đây nằm ngay trong các bài [Luyện tai](../luyen-tai/index.md), cạnh phần hướng dẫn cách nghe.
+Bốn công cụ dưới đây nằm ngay trong các bài [Luyện tai](../luyen-tai/index.md), cạnh phần hướng dẫn cách nghe.
 
 [Nhận biết quãng](../luyen-tai/nghe-quang.md#luyen-voi-cong-cu)
 :   Nghe hai nốt và đoán khoảng cách giữa chúng.
@@ -57,6 +57,11 @@ Ba công cụ dưới đây nằm ngay trong các bài [Luyện tai](../luyen-ta
 
 [Nhận biết gam](../luyen-tai/nghe-gam.md#luyen-voi-cong-cu)
 :   Nghe một gam và đoán loại: trưởng, thứ, điệu thức hay ngũ cung.
+
+[Nhận biết kết](../luyen-tai/nghe-tien-trinh.md#luyen-voi-cong-cu)
+:   Nghe bốn hợp âm và đoán loại kết ở cuối: trọn, nửa, plagal hay lừa.
+
+Đoán phong cách và nhận biết kết cấu (giai điệu và đệm, đối âm…) nằm ở [Luyện nghe nhận diện](../nhan-dien/luyen-nghe.md).
 
 ## Khám phá
 

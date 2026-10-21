@@ -1,6 +1,6 @@
 # Tài liệu tham khảo
 
-Những nguồn chính được dùng để viết và kiểm tra nội dung site. Các trang cụ thể ghi thêm nguồn riêng ở cuối trang. Nếu thấy thông tin sai, hãy đối chiếu với các nguồn dưới đây, sửa trang, và ghi lại ở [Cập nhật](cap-nhat.md).
+Những nguồn chính được dùng để viết và kiểm tra nội dung site. Các trang cụ thể ghi thêm nguồn riêng ở cuối trang. Nếu thấy thông tin sai, hãy đối chiếu với các nguồn dưới đây và báo qua [trang GitHub của dự án](https://github.com/mtuann/opus-zero/issues); những thay đổi lớn được ghi ở [Cập nhật](cap-nhat.md).
 
 ## Từ điển và bách khoa
 
@@ -22,9 +22,19 @@ Những nguồn chính được dùng để viết và kiểm tra nội dung sit
 - Johann Joseph Fux, *Gradus ad Parnassum* (1725), bản dịch tiếng Anh *The Study of Counterpoint*: nguồn của [bài 22](nhac-ly/22-doi-am.md).
 - Steven G. Laitz, *The Complete Musician*: giáo trình hòa âm và phân tích bậc đại học.
 
+## Piano: sư phạm, cấp độ và kho tác phẩm
+
+- Chương trình thi cấp của [ABRSM](https://www.abrsm.org/) và [Trinity College London](https://www.trinitycollege.com/): thước đo cấp độ (Grade) dùng trên toàn site.
+- Thang độ khó 1–9 của [G. Henle Verlag](https://www.henle.de/) (do Rolf Koenen xếp), in kèm từng ấn bản Urtext.
+- Jane Magrath, *The Pianist's Guide to Standard Teaching and Performance Literature* (Alfred, 1995); Maurice Hinson, Wesley Roberts, *Guide to the Pianist's Repertoire* (tái bản lần 4, Indiana University Press, 2014): xếp cấp và mô tả tác phẩm.
+- Heinrich Neuhaus, *The Art of Piano Playing*; Thomas Mark, *What Every Pianist Needs to Know About the Body* (2003); Gerald Klickstein, *The Musician's Way* (2009); Graham Fitch, [Practising the Piano](https://practisingthepiano.com/): kỹ thuật, cách tập và giữ tay khỏe.
+- Giáo trình cho người lớn: *Alfred's Basic Adult Piano Course*, *Faber Adult Piano Adventures*.
+
 ## Bản nhạc
 
 - [IMSLP](https://imslp.org/): bản nhạc và tổng phổ thuộc phạm vi công cộng; nguồn để kiểm tra mọi ví dụ nhạc trên site.
+- [Mutopia Project](https://www.mutopiaproject.org/): bản nhạc phạm vi công cộng chép bằng LilyPond, nguồn của nhiều đoạn trích trong các bài học tác phẩm.
+- Ấn bản Urtext ([G. Henle Verlag](https://www.henle.de/), Wiener Urtext, Bärenreiter) để đối chiếu nốt, ngón bấm và năm sáng tác.
 
 ## Tin tức, cập nhật và Việt Nam
 
@@ -37,6 +47,12 @@ Những nguồn chính được dùng để viết và kiểm tra nội dung sit
 - Mẫu âm piano: **Salamander Grand Piano V3** của **Alexander Holm** (đàn Yamaha C5), giấy phép [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/); bản MP3 lấy từ dự án [Tone.js audio](https://github.com/Tonejs/audio); bản gốc: [archive.org](https://archive.org/details/SalamanderGrandPianoV3).
 - Bản thu trong [Nghe mù](nhan-dien/nghe-mu.md): Wikimedia Commons, giấy phép ghi ở từng trang tệp.
 - Bản thu gợi ý trong các [bài học tác phẩm](piano/tac-pham/index.md) và [hướng dẫn nghe](nghe-nhac/index.md): từ [Wikimedia Commons](https://commons.wikimedia.org/) và [IMSLP](https://imslp.org/), giấy phép Creative Commons hoặc phạm vi công cộng; tên người chơi, giấy phép và link nguồn ghi ngay dưới khung nghe. Mười ba bản thu từ IMSLP, dùng cho mười bài học, được lưu trên site (chuyển mã MP3, cắt bớt khoảng lặng ở đầu và cuối); danh sách đầy đủ ở [tệp nguồn âm thanh](assets/audio/NGUON.txt).
+- Mốc tham khảo trong các bảng "Theo dõi khi nghe" được căn tự động giữa bản thu và bản nhạc dạng số: dữ liệu của piano-midi.de, bộ ASAP, các bản Humdrum của Craig Sapp và Viện Chopin, và các bản Mutopia.
+
+## Phần mềm
+
+- [abcjs](https://paulrosen.github.io/abcjs/): vẽ khuông nhạc và phát âm thanh từ ký hiệu ABC.
+- [MkDocs](https://www.mkdocs.org/) và [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/): khung và giao diện của site.
 
 ## Về độ chính xác
 

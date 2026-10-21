@@ -84,7 +84,7 @@ Cách chọn và so sánh bản thu: xem [Nghệ sĩ piano và bản thu](../pia
 
 ## Nếu bạn muốn chơi
 
-Trọn tổ khúc thuộc trình độ biểu diễn: cần sức bền, hợp âm và quãng tám nặng (*Bydło*, *Baba Yaga*, *Cổng lớn thành Kiev*). Nhưng vài bản có thể tập sớm hơn nhiều: Promenade đầu tiên (khoảng Grade 6–7, ước lượng) để luyện hợp âm dày và đổi nhịp; *Il vecchio castello* (khoảng Grade 7) để giữ nốt trầm lặp thật đều dưới một giai điệu hát dài; *Vũ khúc gà con chưa nở* (khoảng Grade 8) để luyện [nốt hoa mỹ](../piano/not-hoa-my.md) nhẹ và nhanh ở âm vực cao. Hãy chơi hợp âm nặng bằng sức nặng của cả cánh tay, không gồng cổ tay (xem [sức khỏe người chơi đàn](../piano/suc-khoe.md)). Xem thêm [Tác phẩm theo cấp độ](../piano/tac-pham-theo-cap.md).
+Trọn tổ khúc thuộc trình độ biểu diễn: cần sức bền, hợp âm và quãng tám nặng (*Bydło*, *Baba Yaga*, *Cổng lớn thành Kiev*). Nhưng vài bản có thể tập sớm hơn nhiều: Promenade đầu tiên (khoảng Grade 5–6, chặng 4–5) để luyện hợp âm dày và đổi nhịp; *Il vecchio castello* (khoảng Grade 7–8, chặng 6) để giữ nốt trầm lặp thật đều dưới một giai điệu hát dài; *Vũ khúc gà con chưa nở* (khoảng Grade 8) để luyện [nốt hoa mỹ](../piano/not-hoa-my.md) nhẹ và nhanh ở âm vực cao. Hãy chơi hợp âm nặng bằng sức nặng của cả cánh tay, không gồng cổ tay (xem [sức khỏe người chơi đàn](../piano/suc-khoe.md)). Xem thêm [Tác phẩm theo cấp độ](../piano/tac-pham-theo-cap.md).
 
 ## Ghi chép của bạn
 

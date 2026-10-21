@@ -79,7 +79,7 @@ Sáo gần như chỉ có âm cơ bản và vài bồi âm yếu, nên nghe trò
 
 Bồi âm còn là cách **chơi** một số nhạc cụ:
 
-- **Kèn đồng không có van** (như kèn horn thời Mozart) chỉ chơi được các nốt trong chuỗi bồi âm. Người chơi đổi nốt bằng cách thay đổi môi.
+- **Kèn đồng không có van** (như kèn trumpet tự nhiên thời Bach) chỉ chơi được các nốt trong chuỗi bồi âm. Người chơi đổi nốt bằng cách thay đổi môi; người chơi kèn horn thời Mozart còn bịt bàn tay vào loa kèn để có thêm những nốt nằm giữa.
 - **Đàn bầu** của Việt Nam dùng một dây duy nhất, và gần như mọi nốt đều là **bồi âm**: người chơi chạm nhẹ cạnh bàn tay vào các điểm chia dây trong khi gảy, còn cần đàn uốn cao độ lên xuống.
 - Nghệ sĩ violin, cello, guitar dùng **bồi âm** (harmonics) để tạo những nốt cao trong veo như tiếng sáo.
 

@@ -2,7 +2,7 @@
 
 | Mục | Thông tin |
 |---|---|
-| Nhà soạn nhạc | George Frideric Handel (1685–1750) |
+| Nhà soạn nhạc | George Frideric Handel (1685–1759) |
 | Tên đầy đủ | Hợp xướng "Hallelujah" (số 44), kết thúc Phần II của oratorio *Messiah*, HWV 56 |
 | Sáng tác | 22/8–14/9/1741 (chỉ 24 ngày); công diễn 13/4/1742 tại Dublin |
 | Lời | Charles Jennens, trích Kinh Thánh (Khải Huyền 19:6, 19:16; 11:15) |
@@ -12,7 +12,7 @@
 
 ## Điều cần biết trước khi nghe
 
-**Handel** (1685–1750) là nhà soạn nhạc người Đức thành danh ở London. Ông nổi tiếng trước hết với các **opera tiếng Ý** hoành tráng, nhưng khi khán giả London chán opera, ông chuyển sang một thể loại mới: **oratorio** — vở nhạc kịch tôn giáo **không dàn dựng, không phục trang**, hát bằng tiếng Anh, chỉ có ca sĩ, hợp xướng và dàn nhạc. *Messiah* là oratorio nổi tiếng nhất của ông, và cũng là tác phẩm hợp xướng nổi tiếng nhất thời Baroque.
+**Handel** (1685–1759) là nhà soạn nhạc người Đức thành danh ở London. Ông nổi tiếng trước hết với các **opera tiếng Ý** hoành tráng, nhưng khi khán giả London chán opera, ông chuyển sang một thể loại mới: **oratorio** — vở nhạc kịch tôn giáo **không dàn dựng, không phục trang**, hát bằng tiếng Anh, chỉ có ca sĩ, hợp xướng và dàn nhạc. *Messiah* là oratorio nổi tiếng nhất của ông, và cũng là tác phẩm hợp xướng nổi tiếng nhất thời Baroque.
 
 Mùa hè năm 1741, Handel đang nợ nần và tưởng sự nghiệp đã hết. Người bạn **Charles Jennens** đưa cho ông một tập lời trích toàn từ Kinh Thánh, kể về Đấng Cứu Thế: lời tiên tri và giáng sinh (Phần I), chịu nạn – phục sinh – thăng thiên (Phần II), và sự sống đời đời (Phần III). Handel viết xong toàn bộ bản nhạc 260 trang **trong 24 ngày** (22/8–14/9/1741). Tác phẩm công diễn lần đầu ngày **13/4/1742 tại Dublin**, trong một buổi hòa nhạc từ thiện.
 

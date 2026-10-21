@@ -10,9 +10,9 @@ Luyện tai (ear training) là tập **nhận ra bằng tai** những gì ta h�
 2. **[Nghe hợp âm](nghe-hop-am.md)** — màu sắc trưởng/thứ/giảm/tăng, nghe nốt trầm để đoán thể đảo, hợp âm bảy.
 3. **[Nghe gam và điệu thức](nghe-gam.md)** — dấu hiệu nốt 3, ba dạng gam thứ, tìm "một nốt khác biệt" của điệu thức, nghe bậc trong gam.
 4. **[Nghe tiết tấu](nghe-tiet-tau.md)** — đoán nhịp qua phách mạnh, nhịp đơn/kép, gõ lại tiết tấu, syncopation.
-5. **[Nghe tiến trình hòa âm](nghe-tien-trinh.md)** — nghe bè trầm để đoán chuỗi hợp âm, 4 tiến trình kinh điển, 4 loại kết.
+5. **[Nghe tiến trình hòa âm](nghe-tien-trinh.md)** — nghe bè trầm để đoán chuỗi hợp âm, những tiến trình gặp khi tập đàn, bốn loại kết.
 
-Mỗi bài đi kèm [công cụ luyện tập](../luyen-tap/index.md) tương ứng: nhận biết quãng, hợp âm, gam, tiết tấu. Mỗi ngày 10 phút đều đặn hiệu quả hơn một buổi dài mỗi tuần.
+Bài 1, 2, 3 và 5 có công cụ luyện ngay trong trang: nhận biết quãng, hợp âm, gam và kết. Bài 4 luyện với công cụ [Tiết tấu](../luyen-tap/tiet-tau.md) và [máy đếm nhịp](../luyen-tap/metronome.md). Mỗi ngày 10 phút đều đặn hiệu quả hơn một buổi dài mỗi tuần.
 
 ## Site nghe bạn hát
 
@@ -20,7 +20,7 @@ Luyện tai hiệu quả nhất khi bạn **phát ra** âm thanh, không chỉ n
 
 ## Luyện tai nâng cao: nhận diện
 
-Sau 5 bài trên, bước tiếp theo là nghe **kết**, **kết cấu** và **phong cách**: xem [Luyện nghe nhận diện](../nhan-dien/luyen-nghe.md) và [Nghe mù](../nhan-dien/nghe-mu.md).
+Sau 5 bài trên, bước tiếp theo là nghe **kết cấu** và **phong cách**: xem [Luyện nghe nhận diện](../nhan-dien/luyen-nghe.md) và [Nghe mù](../nhan-dien/nghe-mu.md).
 
 ## Gắn quãng với giai điệu quen thuộc
 

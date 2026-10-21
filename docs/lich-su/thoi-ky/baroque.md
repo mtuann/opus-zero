@@ -46,7 +46,7 @@ Họ đàn **violin** thay thế dần họ viol và trở thành trung tâm c�
 2. Purcell, *Dido and Aeneas*, aria *When I am laid in earth* (dựng trên một bè trầm lặp lại).
 3. Corelli, *Concerto grosso* Op. 6 số 8 *"Giáng sinh"*.
 4. [Vivaldi, *Mùa xuân*](../../nghe-nhac/vivaldi-mua-xuan.md).
-5. [Bach, *Prelude cung Đô trưởng*](../../piano/tac-pham/bach-prelude-do.md) và Fugue BWV 847.
+5. [Bach, *Prelude và fugue cung Đô trưởng*, BWV 846](../../piano/tac-pham/bach-prelude-do.md), cặp mở đầu *Bình quân luật* quyển 1; nghe tiếp cặp Đô thứ [BWV 847](../../piano/tac-pham/bach-prelude-fugue-do-thu.md).
 6. [Bach, Tổ khúc cello số 1](../../nghe-nhac/bach-cello-1.md).
 7. Bach, *Brandenburg Concerto* số 5.
 8. Bach, *Thương khó theo Thánh Matthew*, hợp xướng mở đầu.

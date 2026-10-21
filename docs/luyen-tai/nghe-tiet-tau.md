@@ -47,9 +47,9 @@ Ví dụ câu "đen – móc đơn móc đơn – đen" trong nhịp 4/4: đếm
 
 1. **Đoán nhịp 2/3/4** của các bản nhạc quen thuộc: gõ chân, đếm số phách giữa hai lần mạnh.
 2. **Phân biệt nhịp đơn/kép**: đếm "và" một lần hay hai lần giữa hai phách.
-3. **Gõ lại** với công cụ tiết tấu: bắt đầu 2 ô nhịp đơn giản, đếm to khi đọc.
+3. **Gõ lại** với [công cụ tiết tấu](../luyen-tap/tiet-tau.md): bắt đầu 2 ô nhịp đơn giản, đếm to khi đọc.
 4. **Syncopation**: tìm trong nhạc jazz/Latin, tập chân–tay tách nhau.
-5. **Máy đếm nhịp**: bật 60 BPM, gõ đúng từng tiếng; tăng dần tốc độ.
+5. **[Máy đếm nhịp](../luyen-tap/metronome.md)**: bật 60 BPM, gõ đúng từng tiếng; tăng dần tốc độ.
 
 ```quiz
 ? Nghe "Mạnh – nhẹ – nhẹ – Mạnh – nhẹ – nhẹ…" — đây là nhịp mấy?

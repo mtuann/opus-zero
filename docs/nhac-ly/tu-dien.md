@@ -67,7 +67,7 @@ Mỗi ngày site đưa ra tối đa 10 thẻ mới và các thẻ đến hạn �
 | arco | Kéo vĩ | Trở lại sau pizzicato |
 | glissando | Lướt liên tục từ nốt này sang nốt khác | |
 | tremolo | Lặp lại rất nhanh một nốt hoặc đổi giữa hai nốt | |
-| con sordino | Dùng câm tiếng (mute) | Âm thanh mờ, nhỏ |
+| con sordino | Dùng câm tiếng (mute) | Với đàn dây và kèn; âm thanh mờ, nhỏ. Trên piano, xem mục Piano bên dưới |
 | trill | Láy rền: đổi nhanh giữa nốt chính và nốt trên | Ký hiệu tr |
 
 ## Tính cách
@@ -110,6 +110,8 @@ Mỗi ngày site đưa ra tối đa 10 thẻ mới và các thẻ đến hạn �
 | senza pedale | Không dùng bàn đạp | |
 | una corda | Dùng bàn đạp trái (làm tiếng nhỏ và mờ hơn) | Nghĩa đen: "một dây" |
 | tre corde | Nhả bàn đạp trái | Nghĩa đen: "ba dây"; viết tắt t.c. |
+| senza sordino | Ở Beethoven: giữ bộ giảm âm nhấc lên, tức giữ bàn đạp vang | Đầu chương 1 Sonata *Ánh trăng*. Xem [Bàn đạp](../piano/ban-dap.md#beethoven) |
+| con sordino, con sordina | Ở nhiều nhà soạn nhạc về sau (Debussy, Ravel…): dùng bàn đạp trái *una corda* | Cùng chữ *sordino*: ở Beethoven là bộ giảm âm, về sau là una corda. Xem [Bàn đạp: ký hiệu](../piano/ban-dap.md#ky-hieu) |
 | sostenuto (bàn đạp) | Bàn đạp giữa: chỉ giữ các nốt đang được nhấn | Khác *sostenuto* nghĩa là "ngân giữ" |
 | m.d. / m.s. | Tay phải / tay trái | Tiếng Ý *mano destra* / *mano sinistra*; tiếng Pháp m.d. / m.g.; tiếng Anh r.h. / l.h. |
 | loco | Trở lại quãng tám như viết | Sau một đoạn *8va* |

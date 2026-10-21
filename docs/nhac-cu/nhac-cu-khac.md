@@ -53,5 +53,4 @@ Harpsichord trông giống piano nhưng dây được **gảy** bởi những mi
 
 ## Nguồn
 
-- Giáo trình thi cấp: [ABRSM](https://www.abrsm.org/), [Trinity College London](https://www.trinitycollege.com/).
 - Bản nhạc: [IMSLP](https://imslp.org/). Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

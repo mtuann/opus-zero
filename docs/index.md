@@ -63,7 +63,7 @@ Bấm tên nốt bạn thấy trên khuông (hoặc gõ phím ++c++ ++d++ ++e++ 
 | Mục | Nội dung |
 |---|---|
 | [Bắt đầu](bat-dau/index.md) | Bài 0, kiểm tra đầu vào, lộ trình piano năm đầu, thói quen mỗi ngày, hỏi đáp |
-| [Piano](piano/index.md) | Lộ trình từ 0 đến nâng cao; tư thế, bản đồ bàn phím, 10 bài hai tay đầu tiên; kỹ thuật (năm ngón, gam, hợp âm rải, tạo tiếng đàn, bàn đạp, nốt hoa mỹ, phối hợp hai tay); cách tập, thị tấu, học thuộc, giữ tay khỏe, thi cấp; 34 bài học tác phẩm (nút theo dõi bài đang tập, bản đồ nghe theo bản thu); hòa âm bên phím và ứng tác; lịch sử cây đàn, thể loại, nhà soạn nhạc, nghệ sĩ |
+| [Piano](piano/index.md) | Lộ trình từ 0 đến nâng cao; chọn đàn, tư thế, bản đồ bàn phím, hai tuần đầu tiên, 10 bài hai tay đầu tiên; kỹ thuật (năm ngón, gam, hợp âm rải, tạo tiếng đàn, bàn đạp, nốt hoa mỹ, phối hợp hai tay, quãng tám, nốt lặp, bài tập ngón); cách tập, thị tấu, học thuộc, chơi cùng người khác, giữ tay khỏe, thi cấp; 34 bài học tác phẩm (nút theo dõi bài đang tập, bản đồ nghe theo bản thu); hòa âm bên phím và ứng tác; lịch sử cây đàn, thể loại, nhà soạn nhạc, nghệ sĩ |
 | [Nhạc lý](nhac-ly/index.md) | 32 bài từ tên nốt đến kỹ thuật thế kỷ 20, mỗi bài có ví dụ nghe được và quiz, các bài cơ bản có phần "Trên phím đàn"; từ điển thuật ngữ |
 | [Luyện tập](luyen-tap/index.md) | Hơn 20 công cụ: đọc nốt, thị tấu một bè và hai tay, luyện tai, tiết tấu, chơi theo qua micro hoặc đàn MIDI, thu âm, máy đếm nhịp, nhật ký |
 | [Nghe & nhận diện](nghe-nhac/index.md) | 42 hướng dẫn nghe (16 tác phẩm piano), hình thức âm nhạc, nhận diện thời kỳ và tác giả, nhạc cụ trong dàn nhạc |

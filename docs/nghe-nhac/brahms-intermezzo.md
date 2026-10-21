@@ -63,9 +63,9 @@ Cách chọn và so sánh bản thu: xem [Nghệ sĩ piano và bản thu](../pia
 
 ## Nếu bạn muốn chơi
 
-Op. 118 số 2 là một trong những bản Brahms dễ tiếp cận nhất: nhà Henle xếp ở **mức 6** trên thang 1–9 (khoảng Grade 7–8, ước lượng). Nốt không nhanh; cái khó là **cân bằng các bè** trong cùng một bàn tay, giữ legato bằng ngón và bàn đạp, và chơi chùm ba nốt ở bè trầm thật đều. Một số hợp âm trải rộng; tay nhỏ có thể chia lại nốt giữa hai tay hoặc để bàn đạp giữ một nốt.
+Op. 118 số 2 là một trong những bản Brahms dễ tiếp cận nhất: nhà Henle xếp ở **mức 6** trên thang 1–9; trên site, bài thuộc chặng 6 (khoảng Grade 7–8). Nốt không nhanh; cái khó là **cân bằng các bè** trong cùng một bàn tay, giữ legato bằng ngón và bàn đạp, và chơi chùm ba nốt ở bè trầm thật đều. Một số hợp âm trải rộng; tay nhỏ có thể chia lại nốt giữa hai tay hoặc để bàn đạp giữ một nốt.
 
-Chuẩn bị: [Träumerei của Schumann](../piano/tac-pham/schumann-traumerei.md) (nhiều bè trong một tay), [Prélude Mi thứ của Chopin](../piano/tac-pham/chopin-prelude-mi-thu.md) (hợp âm chậm, làm nổi giai điệu) và Valse Op. 39 số 15 của chính Brahms. Đọc [tiếng đàn](../piano/tieng-dan.md) về cách làm nổi một bè. Sau bản này, hãy thử Intermezzo Op. 117 số 1 (Mi♭ trưởng), một khúc hát ru khác của Brahms. Xem thêm [Tác phẩm theo cấp độ](../piano/tac-pham-theo-cap.md).
+Chuẩn bị: [Träumerei của Schumann](../piano/tac-pham/schumann-traumerei.md) (nhiều bè trong một tay), [Prélude Mi thứ của Chopin](../piano/tac-pham/chopin-prelude-mi-thu.md) (hợp âm chậm, làm nổi giai điệu) và Valse Op. 39 số 15 của chính Brahms. Đọc [tiếng đàn](../piano/tieng-dan.md) về cách làm nổi một bè. Cùng chặng có Intermezzo Op. 117 số 1 (Mi♭ trưởng), một khúc hát ru khác của Brahms. Xem thêm [Tác phẩm theo cấp độ](../piano/tac-pham-theo-cap.md).
 
 ## Ghi chép của bạn
 

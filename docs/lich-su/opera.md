@@ -66,7 +66,7 @@ Trong nhà hát, khán giả thường vỗ tay sau mỗi aria nổi tiếng, kh
 
 ## Opera ở Việt Nam
 
-Opera đến Việt Nam muộn hơn châu Âu khoảng ba thế kỷ rưỡi, và đến nay vẫn là loại hình "kén" khán giả nhất trong nhạc cổ điển Việt Nam. Nhưng lịch sử của nó cũng đã hơn nửa thế kỷ.
+Opera được biểu diễn ở Việt Nam từ thời Pháp thuộc, chủ yếu cho khán giả người Pháp, ở các nhà hát lớn Sài Gòn và Hà Nội (xem [Nhạc cổ điển ở Việt Nam](viet-nam.md)). Opera **do người Việt sáng tác** thì ra đời muộn hơn nhiều, và đến nay vẫn là loại hình "kén" khán giả nhất trong nhạc cổ điển Việt Nam; dù vậy, lịch sử của nó cũng đã hơn nửa thế kỷ.
 
 Vở opera Việt Nam đầu tiên là ***Cô Sao*** của **Đỗ Nhuận** (1922–1991), công diễn năm **1965** tại Nhà hát Lớn Hà Nội. Đỗ Nhuận viết vở này khi đang du học tại Nhạc viện Tchaikovsky (Moskva); câu chuyện kể về A Sao, cô gái người Thái bị hủ tục ruồng bỏ rồi được cách mạng giác ngộ. Vở opera kết hợp kỹ thuật hát bel canto châu Âu với chất liệu âm nhạc dân tộc Tây Bắc — công thức mà nhiều opera Việt sau này đi theo. *Cô Sao* từng thất lạc bản tổng phổ, được con trai ông là nhạc sĩ Đỗ Hồng Quân phục dựng và công diễn lại năm 2012.
 

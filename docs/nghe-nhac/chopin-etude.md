@@ -68,7 +68,7 @@ Xem thêm [Nghệ sĩ piano và bản thu](../piano/nghe-si.md).
 
 ## Nếu bạn muốn chơi
 
-Étude của Chopin thuộc trình độ **nâng cao**, phần lớn ở mức sau Grade 8. Phần đầu của số 3 (khoảng 20 ô nhịp) chậm, có thể tập sớm hơn để luyện cân bằng trong một tay; đoạn giữa khó hơn nhiều. Số 12 cần một tay trái đã được rèn kỹ bằng [gam](../piano/gam.md) và [hợp âm rải](../piano/hop-am-rai.md) nhanh. Trước đó, hãy học [Nocturne Op. 9 số 2](../piano/tac-pham/chopin-nocturne-op9-2.md) (bài học có sẵn bản thu và bản đồ nghe) và các étude của Czerny, Cramer. *Trois nouvelles études* thường được xem là cửa vào dễ hơn cho étude Chopin. Xem [Tác phẩm theo cấp độ](../piano/tac-pham-theo-cap.md).
+Étude của Chopin phần lớn thuộc chặng 7 (sau Grade 8). Phần đầu của số 3 (khoảng 20 ô nhịp) chậm, có thể tập sớm hơn để luyện cân bằng trong một tay; đoạn giữa khó hơn nhiều. Số 12 cần một tay trái đã được rèn kỹ bằng [gam](../piano/gam.md) và [hợp âm rải](../piano/hop-am-rai.md) nhanh. Trước đó, hãy học [Nocturne Op. 9 số 2](../piano/tac-pham/chopin-nocturne-op9-2.md) (bài học có sẵn bản thu và bản đồ nghe) và các étude của Czerny, Cramer. *Trois nouvelles études* thường được xem là cửa vào dễ hơn cho étude Chopin. Xem [Tác phẩm theo cấp độ](../piano/tac-pham-theo-cap.md).
 
 ## Ghi chép của bạn
 

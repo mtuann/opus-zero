@@ -28,12 +28,12 @@ Luôn đi từ **dễ** đến **khó**:
 
 | Công cụ | Luyện gì |
 |---|---|
-| [Luyện nghe nhận diện](luyen-nghe.md) | Đoán thời kỳ qua 10 đoạn nhạc ngắn; nhận biết kết; nhận biết kết cấu |
+| [Luyện nghe nhận diện](luyen-nghe.md) | Đoán thời kỳ qua 10 đoạn nhạc ngắn; nhận biết kết cấu |
 | [Nghe mù](nghe-mu.md) | Đoán thời kỳ và biên chế của 10 bản thu thật (giấy phép mở), tên tác phẩm ẩn đến khi trả lời; phiếu nghe mù cho bản thu của riêng bạn |
 
 ## Lộ trình gợi ý
 
 - **Tuần 1–2:** đọc [bảng so sánh](so-sanh-thoi-ky.md), nghe các ví dụ minh họa; luyện [nhận biết kết cấu](luyen-nghe.md) mỗi ngày.
-- **Tuần 3–4:** [đoán phong cách](luyen-nghe.md) đến khi đúng 8/10; luyện nhận biết kết.
+- **Tuần 3–4:** [đoán phong cách](luyen-nghe.md) đến khi đúng 8/10; luyện [nhận biết kết](../luyen-tai/nghe-tien-trinh.md#luyen-voi-cong-cu).
 - **Tháng 2:** [nghe mù](nghe-mu.md) với bản thu thật; bắt đầu dùng phiếu nghe mù với radio hoặc danh sách phát ngẫu nhiên.
 - **Tháng 3 trở đi:** đọc [dấu vân tay nhà soạn nhạc](dau-van-tay.md), thử đoán tác giả.

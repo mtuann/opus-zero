@@ -15,7 +15,7 @@
 
 Ngay tiếng đầu tiên đã là huyền thoại: một nốt **[clarinet](../nhac-cu/clarinet.md) vuốt lên (glissando)** dài, từ trầm vút lên cao. Chuyện kể rằng nghệ sĩ clarinet Ross Gorman đùa nghịch kéo dài tiếng vuốt trong buổi tập, Gershwin nghe thấy và giữ lại — thành mở đầu nổi tiếng nhất của nhạc Mỹ thế kỷ 20.
 
-Tác phẩm là một dòng chảy liền mạch (đúng nghĩa "rhapsody": phóng túng, không theo khuôn), hòa trộn giai điệu blues, tiết tấu jazz syncopation và hòa âm cổ điển. Bản phối cho dàn nhạc giao hưởng đầy đủ do Ferde Grofé thực hiện năm 1926 là bản thường được chơi nhất.
+Tác phẩm là một dòng chảy liền mạch (đúng nghĩa "rhapsody": phóng túng, không theo khuôn), hòa trộn giai điệu blues, tiết tấu jazz syncopation và hòa âm cổ điển. Phần dàn nhạc do Ferde Grofé phối: bản gốc năm 1924 cho ban nhạc jazz của Paul Whiteman, một bản năm 1926 cho dàn nhạc nhà hát, và bản năm 1942 cho dàn nhạc giao hưởng đầy đủ, ngày nay được chơi nhiều nhất.
 
 ## Nghe kèm bản thu
 

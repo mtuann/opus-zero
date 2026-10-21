@@ -91,40 +91,6 @@ def seating_svg():
                "".join(b), "oz-fig oz-fig-wide")
 
 # ---------------------------------------------------------------- Violin, guitar
-def fingerboard_svg(strings, frets, label, title_note, fret_names):
-    """strings: [(tên dây, [nốt ở dây buông, phím/ngón 1..n]; None = bỏ trống)]"""
-    LBL, OPEN, NUT, STEP = 96, 122, 146, 92   # cột tên dây | dây buông | lược đàn | khoảng phím
-    n = len(strings); W = NUT + frets * STEP + 10; H = 40 + n * 30
-    b = []
-    for f in range(frets + 1):
-        xx = NUT + f * STEP
-        b.append('<line x1="%d" y1="28" x2="%d" y2="%d" stroke="currentColor" stroke-width="%s" stroke-opacity="%s"/>' % (xx, xx, 28 + (n - 1) * 30, 4 if f == 0 else 1.2, .9 if f == 0 else .35))
-        if f < frets: b.append(t(xx + STEP / 2, 18, fret_names[f], 8, "middle", op=.7))
-    b.append(t(OPEN, 18, "dây buông", 8, "middle", op=.7))
-    for i, (sname, notes) in enumerate(strings):
-        y = 28 + i * 30
-        b.append('<line x1="%d" y1="%d" x2="%d" y2="%d" stroke="currentColor" stroke-width="%.1f" stroke-opacity=".75"/>' % (OPEN - 14, y, W - 6, y, 1 + (n - 1 - i) * .35 if n == 6 else 1 + i * .4))
-        b.append(t(LBL, y + 4, sname, 9, "end", "600"))
-        for k, nm in enumerate(notes):
-            if nm is None: continue
-            xx = OPEN if k == 0 else NUT + (k - 1) * STEP + STEP / 2
-            fill = "#f3e3b8" if k == 0 else "#7aa6d6"
-            b.append('<circle cx="%.1f" cy="%d" r="11" fill="%s" stroke="#1b1b1b" stroke-opacity=".4"/>' % (xx, y, fill))
-            b.append(t(xx, y + 3.5, nm, 8 if len(nm) < 4 else 7, "middle", "600", "#1b1b1b"))
-    return svg(W, H, label, "".join(b), "oz-fig oz-fig-wide")
-def violin_svg():
-    # Thế bấm thứ nhất, ngón 2 "cao" (như Rê trưởng, La trưởng): dây buông, ngón 1, 2, 3, 4
-    strings = [("Mi (E5)", ["Mi", "Fa♯", "Sol♯", "La", "Si"]), ("La (A4)", ["La", "Si", "Đô♯", "Rê", "Mi"]),
-               ("Rê (D4)", ["Rê", "Mi", "Fa♯", "Sol", "La"]), ("Sol (G3)", ["Sol", "La", "Si", "Đô", "Rê"])]
-    return fingerboard_svg(strings, 4, "Cần đàn violin, thế bấm thứ nhất: các nốt trên từng dây với dây buông và ngón 1 đến 4 (ngón 2 cao, như ở Rê trưởng và La trưởng)",
-                           "", ["ngón 1", "ngón 2", "ngón 3", "ngón 4"])
-def guitar_svg():
-    strings = [("1 · Mi (E4)", ["Mi", "Fa", None, "Sol"]), ("2 · Si (B3)", ["Si", "Đô", None, "Rê"]),
-               ("3 · Sol (G3)", ["Sol", None, "La", None]), ("4 · Rê (D3)", ["Rê", None, "Mi", "Fa"]),
-               ("5 · La (A2)", ["La", None, "Si", "Đô"]), ("6 · Mi (E2)", ["Mi", "Fa", None, "Sol"])]
-    return fingerboard_svg(strings, 3, "Cần đàn guitar, thế bấm thứ nhất: các nốt tự nhiên trên 6 dây ở phím 0 đến 3", "", ["phím 1", "phím 2", "phím 3"])
-
-# ---------------------------------------------------------------- Bàn phím và điệu thức
 def keyboard_modes_svg():
     W, H, BW, BH = 54, 100, 30, 60
     whites = [m for m in range(60, 73) if m % 12 in (0, 2, 4, 5, 7, 9, 11)]
@@ -383,13 +349,13 @@ def form_map(caption, segs, note=""):
 FORMS = {
  "form-sonata": form_map("Hình thức sonata (độ dài các phần chỉ minh họa).", [("Trình bày", "chủ đề 1 → chủ đề 2 (giọng mới)", 3, "a"), ("Phát triển", "nhiều giọng, căng thẳng", 2.2, "dev"), ("Tái hiện", "cả hai chủ đề ở giọng chính", 3, "a"), ("Coda", "", .8, "coda")]),
  "form-overview": "".join([
-   form_map("Hai đoạn (binary).", [("A", "→ giọng át", 1, "a"), ("B", "→ về giọng chính", 1, "b")]),
+   form_map("Hai đoạn (binary).", [("A", "thường → giọng át", 1, "a"), ("B", "→ về giọng chính", 1, "b")]),
    form_map("Ba đoạn (ternary).", [("A", "", 1, "a"), ("B", "tương phản", 1, "b"), ("A", "", 1, "a")]),
    form_map("Rondo.", [("A", "", 1, "a"), ("B", "", 1, "b"), ("A", "", 1, "a"), ("C", "", 1, "c"), ("A", "", 1, "a")]),
    form_map("Chủ đề và biến tấu.", [("Chủ đề", "", 1, "a")] + [("A'", "", 1, "b"), ("A''", "", 1, "c"), ("A'''", "", 1, "b"), ("…", "", .6, "x")]),
    form_map("Hình thức sonata.", [("Trình bày", "", 3, "a"), ("Phát triển", "", 2.2, "dev"), ("Tái hiện", "", 3, "a"), ("Coda", "", .8, "coda")])]),
  "form-small": "".join([
-   form_map("Hai đoạn: mỗi phần có dấu nhắc lại.", [("‖: A :‖", "giọng chính → giọng át", 1, "a"), ("‖: B :‖", "đi xa → về giọng chính", 1, "b")]),
+   form_map("Hai đoạn: mỗi phần có dấu nhắc lại.", [("‖: A :‖", "giọng chính → thường sang giọng át", 1, "a"), ("‖: B :‖", "đi xa → về giọng chính", 1, "b")]),
    form_map("Hai đoạn có tái hiện.", [("‖: A :‖", "→ giọng át", 1, "a"), ("‖: B", "đi xa", .8, "b"), ("A' :‖", "giọng chính", .8, "a")]),
    form_map("Ba đoạn: mỗi đoạn tự kết.", [("A", "trọn vẹn", 1, "a"), ("B", "tương phản rõ", 1, "c"), ("A", "trọn vẹn", 1, "a")]),
    form_map("Minuet và trio: A B A lớn, mỗi khối là hai đoạn có tái hiện.", [("Minuet", "‖:a:‖ ‖:b a':‖", 1, "a"), ("Trio", "‖:c:‖ ‖:d c':‖", 1, "c"), ("Minuet da capo", "không nhắc lại", 1, "a")])]),
@@ -670,8 +636,6 @@ FIGS = {
     "ranges-satb": figure(ranges_svg([("Soprano", "giọng", 60, 79), ("Alto", "giọng", 55, 74), ("Tenor", "giọng", 48, 67), ("Bass", "giọng", 40, 60)], "Âm vực dùng cho bốn bè soprano, alto, tenor, bass trong bài tập hòa âm", 36, 84),
                           "Âm vực an toàn cho bài tập bốn bè: soprano Đô4–Sol5, alto Sol3–Rê5, tenor Đô3–Sol4, bass Mi2–Đô4."),
     "seating": figure(seating_svg(), "Một cách xếp chỗ thường gặp; mỗi dàn nhạc có thể bố trí khác (ví dụ violin 2 ngồi bên phải)."),
-    "violin": figure(violin_svg(), "Thế bấm thứ nhất trên violin: tròn vàng là dây buông, tròn xanh là nốt bấm bằng ngón 1–4. Dây buông cách nhau quãng 5."),
-    "guitar": figure(guitar_svg(), "Các nốt tự nhiên ở thế bấm thứ nhất trên guitar (dây 1 là dây mảnh nhất, ở trên). Âm thanh thật thấp hơn nốt viết một quãng tám."),
     "modes": figure(keyboard_modes_svg(), "Mỗi điệu thức là gam phím trắng bắt đầu từ một nốt khác. Phím tô màu là nốt bắt đầu."),
     "circle": figure(circle_svg(), "Theo chiều kim đồng hồ: thêm một dấu thăng; ngược chiều: thêm một dấu giáng."),
     "functions": figure(functions_svg(), "Câu chuyện cơ bản của hòa âm: ổn định → rời đi → căng thẳng → trở về."),

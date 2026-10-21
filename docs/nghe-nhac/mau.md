@@ -1,6 +1,6 @@
-# Mẫu ghi chép
+# Mẫu nhật ký nghe
 
-Sao chép khối dưới đây vào một file mới trong `docs/nghe-nhac/` (ví dụ `mozart-40.md`), điền thông tin, rồi thêm trang vào mục `nav` trong `mkdocs.yml`.
+Một khung ghi chép cho bốn lần nghe theo [phương pháp 4 lần nghe](index.md#phuong-phap-4-lan-nghe). Chép khung dưới đây vào sổ tay hoặc ứng dụng ghi chú, mỗi tác phẩm một trang; vài dòng cho mỗi lần nghe là đủ. Ghi chép về buổi tập đàn thì để ở [Nhật ký luyện tập](../luyen-tap/nhat-ky.md).
 
 ```markdown
 # Tên nhà soạn nhạc: Tên tác phẩm
@@ -32,3 +32,8 @@ Sao chép khối dưới đây vào một file mới trong `docs/nghe-nhac/` (v�
 ## Nghe tiếp
 (Tác phẩm liên quan muốn nghe sau)
 ```
+
+Ví dụ hai dòng đầu cho [Prelude Đô trưởng của Bach](../piano/tac-pham/bach-prelude-do.md):
+
+> **Lần 1 — Cảm nhận:** êm và đều như nước chảy; khoảng phút thứ nhất nhạc căng lên rồi lắng xuống.
+> **Lần 3 — Cấu trúc:** Đô trưởng → sang Sol trưởng → trở về → nốt Sol trầm ngân rất lâu → kết.

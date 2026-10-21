@@ -72,7 +72,7 @@ Cách chọn và so sánh bản thu: xem [Nghệ sĩ piano và bản thu](../pia
 
 ## Nếu bạn muốn chơi
 
-Concerto này thuộc trình độ **biểu diễn chuyên nghiệp**: hợp âm và quãng tám nặng, sức bền, và khả năng chơi cùng dàn nhạc. Con đường đến với nó đi qua các ***Lyric Pieces*** (Tiểu phẩm trữ tình) của chính Grieg (xem [các thể loại nhạc piano](../piano/the-loai.md)): *Arietta* Op. 12 số 1 (sơ–trung cấp), *Notturno* Op. 54 số 4 (trung cấp khá), rồi *Ngày cưới ở Troldhaugen* Op. 65 số 6, với hợp âm và quãng tám mang dáng dấp concerto. Khi đã sẵn sàng, concerto được học cùng một người chơi đàn piano thứ hai, đảm nhận phần dàn nhạc rút gọn. Xem thêm [Tác phẩm theo cấp độ](../piano/tac-pham-theo-cap.md).
+Concerto này thuộc trình độ **biểu diễn chuyên nghiệp**: hợp âm và quãng tám nặng, sức bền, và khả năng chơi cùng dàn nhạc. Con đường đến với nó đi qua các ***Lyric Pieces*** (Tiểu phẩm trữ tình) của chính Grieg (xem [các thể loại nhạc piano](../piano/the-loai.md)): [*Arietta* Op. 12 số 1](../piano/tac-pham/grieg-arietta.md) (chặng 4), *Notturno* Op. 54 số 4 (chặng 6, ≈ Grade 7–8), rồi *Ngày cưới ở Troldhaugen* Op. 65 số 6, với hợp âm và quãng tám mang dáng dấp concerto. Khi đã sẵn sàng, concerto được học cùng một người chơi đàn piano thứ hai, đảm nhận phần dàn nhạc rút gọn. Xem thêm [Tác phẩm theo cấp độ](../piano/tac-pham-theo-cap.md).
 
 ## Ghi chép của bạn
 

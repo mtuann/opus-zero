@@ -1,6 +1,6 @@
 # 15. Tiết tấu nâng cao
 
-Phần **Nâng cao** dành cho bạn đã xong 14 bài nền tảng và 3 bài ôn tập. Bài đầu tiên lấp những lỗ hổng về tiết tấu mà bạn sẽ gặp ngay khi đọc bản nhạc thật.
+Phần **Tiết tấu, điệu thức và chuyển giọng** (bài 15–20) dành cho bạn đã xong 14 bài nền tảng và 3 bài ôn tập. Bài đầu tiên lấp những lỗ hổng về tiết tấu mà bạn sẽ gặp ngay khi đọc bản nhạc thật.
 
 ## Liên ba
 
