@@ -136,6 +136,19 @@ test("đọc link YouTube và link file âm thanh", () => {
   assert.equal(L.videoId("https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=30"), "dQw4w9WgXcQ");
   assert.equal(L.videoId("không phải link"), null);
 });
+test("mốc tham khảo: so sánh và đọc dữ liệu", () => {
+  assert.deepEqual({ ...L.compare(12, 12) }, { d: 0, ok: true, text: "khớp" });
+  assert.equal(L.compare(14, 12).ok, true);                 /* lệch 2 giây vẫn coi là khớp */
+  assert.deepEqual([L.compare(15, 12).ok, L.compare(15, 12).text], [false, "muộn 3 giây"]);
+  assert.equal(L.compare(7, 12).text, "sớm 5 giây");
+  assert.deepEqual({ ...L.tally({ 0: 3, 1: 40, 3: 99 }, [2, 30, null, 99]) }, { n: 3, ok: 2 });   /* dòng không có mốc tham khảo bị bỏ */
+  assert.deepEqual({ ...L.tally({}, [1, 2]) }, { n: 0, ok: 0 });
+  const el = (rec) => ({ dataset: { rec: JSON.stringify(rec) } });
+  const r = L.readRec(el({ by: "X", parts: [{ mp3: "https://x.org/a.mp3", d: 10 }], ref: [1, null, -4, "7", 30] }));
+  assert.deepEqual([...r.ref], [1, null, null, null, 30]);  /* chỉ nhận số không âm */
+  assert.equal(r.key, "https://x.org/a.mp3");
+  assert.deepEqual([...L.readRec(el({ parts: [{ mp3: "https://x.org/a.mp3" }] })).ref], []);
+});
 const VZ = load("viz.js").OZViz;
 test("piano roll tô màu theo kết quả chấm", () => {
   const exp = [{ t0: 0, dur: .5, midi: 60, status: "ok" }, { t0: .5, dur: .5, midi: 62, status: "high" }, { t0: 1, dur: .5, midi: 64, status: "missing" }];

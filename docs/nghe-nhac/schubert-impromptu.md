@@ -35,7 +35,7 @@ Năm 1827 là năm trọn vẹn cuối cùng trong đời Schubert; ông mất t
 
 ## Nghe kèm bản thu
 
-<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Chiara Bertoglio&quot;,&quot;lic&quot;:&quot;CC BY 3.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by/3.0&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Schubert%27s_Impromptu_no._3_in_G-flat_major,_D.899_-_Chiara_Bertoglio.ogg&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/3/31/Schubert%27s_Impromptu_no._3_in_G-flat_major%2C_D.899_-_Chiara_Bertoglio.ogg/Schubert%27s_Impromptu_no._3_in_G-flat_major%2C_D.899_-_Chiara_Bertoglio.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/3/31/Schubert%27s_Impromptu_no._3_in_G-flat_major%2C_D.899_-_Chiara_Bertoglio.ogg&quot;,&quot;d&quot;:357.84}]}"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Chiara Bertoglio&quot;,&quot;lic&quot;:&quot;CC BY 3.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by/3.0&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Schubert%27s_Impromptu_no._3_in_G-flat_major,_D.899_-_Chiara_Bertoglio.ogg&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/3/31/Schubert%27s_Impromptu_no._3_in_G-flat_major%2C_D.899_-_Chiara_Bertoglio.ogg/Schubert%27s_Impromptu_no._3_in_G-flat_major%2C_D.899_-_Chiara_Bertoglio.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/3/31/Schubert%27s_Impromptu_no._3_in_G-flat_major%2C_D.899_-_Chiara_Bertoglio.ogg&quot;,&quot;d&quot;:357.84}],&quot;ref&quot;:[1,33,66,99,114,209,219,301]}"></div>
 
 ## Theo dõi khi nghe
 

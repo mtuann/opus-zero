@@ -29,7 +29,7 @@ const seen = {};
 for (const rel of PAGES) {
   const vc = new VirtualConsole();
   const dom = new JSDOM(fs.readFileSync(path.join(SITE, rel), "utf8"), { url: ORIGIN + rel.replace(/index\.html$/, ""), runScripts: "dangerously", resources: new Loader(), pretendToBeVisual: true, virtualConsole: vc,
-    beforeParse(w) { w.AudioContext = function () { this.currentTime = 0; const n = () => ({ connect: (x) => x || n(), gain: { value: 0, setValueAtTime() {}, exponentialRampToValueAtTime() {} }, start() {}, stop() {}, frequency: { value: 0 } }); this.createGain = n; this.createOscillator = n; this.destination = {}; this.resume = () => {}; }; } });
+    beforeParse(w) { try { w.localStorage.setItem("opus-zero:listen-ref", JSON.stringify({ "/opus-zero/piano/tac-pham/fur-elise/": 1 })); } catch (e) { /* bỏ qua */ } /* bật mốc tham khảo để kiểm tra cả các nút ấy */ w.AudioContext = function () { this.currentTime = 0; const n = () => ({ connect: (x) => x || n(), gain: { value: 0, setValueAtTime() {}, exponentialRampToValueAtTime() {} }, start() {}, stop() {}, frequency: { value: 0 } }); this.createGain = n; this.createOscillator = n; this.destination = {}; this.resume = () => {}; }; } });
   await new Promise((r) => dom.window.addEventListener("load", r));
   /* Chờ bộ tải báo mọi công cụ đã khởi tạo (tối đa 5 giây) thay vì chờ cố định */
   if (dom.window.OZLoader) await Promise.race([dom.window.OZLoader.done, new Promise((r) => setTimeout(r, 5000))]);

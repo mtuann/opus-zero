@@ -100,7 +100,7 @@ tools/keysigs.mjs         Vẽ sẵn 15 hóa biểu bằng abcjs (chạy: node t
 | `flashcards.js` | Thẻ ghi nhớ, đọc từ các bảng có cột đầu "Thuật ngữ" |
 | `journal.js` | Nhật ký luyện tập và tóm tắt trang chủ |
 | `recognition.js` | Ví dụ phong cách, đoán phong cách, nhận biết kết và kết cấu, nghe mù (bản thu Wikimedia Commons), phiếu nghe mù |
-| `listen.js` | Nghe kèm bản thu YouTube và ghi mốc thời gian trong hướng dẫn nghe |
+| `listen.js` | Nghe kèm bản thu (bản gợi ý từ Commons, YouTube, link file, file trên máy), ghi mốc trong bảng "Theo dõi khi nghe", bật/tắt mốc tham khảo (`ref` trong `data-rec`) để so sánh |
 | `acoustics.js` | Chuỗi bồi âm và so sánh hệ lên dây |
 | `staffpaper.js`, `print.js` | Giấy kẻ khuông in được; nút "In bài này" |
 | `pwa.js` | Đăng ký service worker |

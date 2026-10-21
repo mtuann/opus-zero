@@ -4,6 +4,13 @@ Trang này ghi lại những thay đổi lớn của site và quy trình giữ c
 
 ## Nhật ký thay đổi
 
+### 10/2026: Phiên bản 13 (mốc tham khảo khi nghe)
+
+- **Mốc tham khảo trong bảng "Theo dõi khi nghe":** 32 trang có bản thu gợi ý giờ có sẵn thời điểm của từng sự kiện trong bản thu ấy. Mặc định ẩn để bạn tự nghe và ghi mốc trước; bật ô **Hiện mốc tham khảo** thì mỗi dòng có mốc tham khảo, bấm vào để nghe từ đó, và nếu bạn đã ghi mốc trên cùng bản thu, bảng cho biết bạn khớp (lệch không quá 2 giây), sớm hay muộn bao nhiêu giây. Lựa chọn bật hay tắt được nhớ riêng cho từng trang.
+- Mốc được căn tự động giữa bản nhạc (dữ liệu số của piano-midi.de, bộ ASAP, các bản Humdrum của Craig Sapp và Viện Chopin) và bản thu, bằng ba cách căn khác nhau; chỗ nào các cách không thống nhất thì kiểm tra lại trên phổ âm thanh và khởi âm của từng nốt. Dòng nào bản thu không có (ví dụ nghệ sĩ không chơi dấu nhắc lại) hoặc chưa căn được đủ chính xác thì ghi "chưa có". Ba trang chưa có mốc: Valse La thứ của Chopin, *Mùa xuân* của Vivaldi và *Eine kleine Nachtmusik*.
+- File chương I *Pathétique* (Daniel Veesey) trên Commons dừng ở khoảng 6:24, giữa phần phát triển; trang hướng dẫn nghe ghi rõ điều này.
+- Kiểm thử tự động nhanh gấp ba: chờ đúng lúc công cụ trên trang khởi tạo xong thay vì chờ cố định, và chia thành bốn nhóm chạy song song (mỗi lần deploy từ khoảng 3,5 phút còn khoảng 1 phút).
+
 ### 10/2026: Phiên bản 12 (các chặng nâng cao)
 
 - **8 bài học tác phẩm mới cho chặng 4–7**, nâng tổng số lên [34 bài](piano/tac-pham/index.md): Sonata Op. 49 số 2 và chương 1 Sonata *Ánh trăng* của Beethoven, Thuyền ca Venice Op. 19 số 6 của Mendelssohn, Valse Si thứ Op. 69 số 2 và *Fantaisie-Impromptu* của Chopin, Prelude và fugue Đô thứ BWV 847 của Bach, Impromptu Sol♭ trưởng của Schubert, *Liebestraum* số 3 của Liszt. Trích đoạn thật được đối chiếu từng nốt với bản nhạc công cộng; mức độ khó của Henle chỉ ghi khi đã đọc trên trang của nhà xuất bản. Menu bài học tác phẩm chia sáu nhóm theo chặng, thêm nhóm "Sau Grade 8".

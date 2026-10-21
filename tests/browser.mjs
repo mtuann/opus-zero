@@ -204,6 +204,31 @@ if (RUN_FLOWS) {
   check("trang chủ: khối Hôm nay lên đầu khi đã có dữ liệu", today && paths && (today.compareDocumentPosition(paths) & 4));
   r.close();
 }
+/* ---- Mốc tham khảo trong bảng "Theo dõi khi nghe": bật/tắt, nhớ theo trang, so với mốc của người học ---- */
+{
+  const page = "piano/tac-pham/fur-elise/index.html";
+  let r = await open(page);
+  const box = r.d.querySelector(".oz-listen .oz-ref-on");
+  const rows = r.d.querySelectorAll(".oz-mark-cell").length;
+  const refs = JSON.parse(r.d.querySelector(".oz-listen").dataset.rec).ref.filter((x) => x !== null).length;
+  check("mốc tham khảo: có ô bật/tắt, mặc định ẩn", box && !box.checked && !r.d.querySelector(".oz-mark-cell .oz-ref"));
+  box.click();
+  check("mốc tham khảo: bật lên thì mỗi dòng có mốc", r.d.querySelectorAll(".oz-mark-cell .oz-ref-time").length === refs && refs === rows, refs + "/" + rows);
+  const key = JSON.parse(r.d.querySelector(".oz-listen").dataset.rec).parts[0].mp3;
+  r.w.OZProgress.setStore("listen", { [r.w.location.pathname]: { url: key, marks: { 0: 3, 1: 20 } } });
+  r.save(); r.close();
+  r = await open(page);
+  const d = [...r.d.querySelectorAll(".oz-mark-cell .oz-ref-d")].map((x) => x.textContent);
+  check("mốc tham khảo: nhớ trạng thái bật theo trang", r.d.querySelector(".oz-listen .oz-ref-on").checked);
+  check("mốc tham khảo: so mốc của người học (khớp / muộn)", d[0] === "khớp" && /^muộn \d+ giây$/.test(d[1] || ""), d.join(" | "));
+  check("mốc tham khảo: tóm tắt số mốc khớp", /So sánh: 1\/2 mốc/.test(r.d.querySelector(".oz-listen .oz-ref-sum").textContent), r.d.querySelector(".oz-listen .oz-ref-sum").textContent);
+  r.d.querySelector(".oz-listen .oz-ref-on").click();
+  check("mốc tham khảo: tắt thì ẩn hết", !r.d.querySelector(".oz-mark-cell .oz-ref"));
+  r.save(); r.close();
+  r = await open("nghe-nhac/mozart-eine-kleine/index.html");
+  check("trang chưa có mốc tham khảo thì không có ô bật/tắt", !r.d.querySelector(".oz-listen .oz-ref-on") && !!r.d.querySelector(".oz-listen [data-act=default]"));
+  r.close();
+}
 /* ---- Thị tấu hai tay ---- */
 {
   const r = await open("luyen-tap/thi-tau-hai-tay/index.html");
