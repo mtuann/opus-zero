@@ -21,7 +21,7 @@ Mục tiêu của v15, theo thứ tự:
 1. Giao cho mỗi agent đúng một giai đoạn (hoặc một lô của giai đoạn G6), theo thứ tự ở mục 3.
 2. Dùng lời giao việc mẫu ở cuối tài liệu, thay số giai đoạn.
 3. Agent làm trên nhánh riêng, chỉ commit khi build và kiểm thử đều đạt, rồi viết báo cáo vào `plans/bao-cao-v15/`.
-4. Gửi Claude tên nhánh và file báo cáo để review. Sửa xong mới gộp vào `main` và sang giai đoạn sau.
+4. Gửi Claude tên nhánh và file báo cáo để review. Sửa xong mới gộp vào `main`; Claude cập nhật mục Tiến độ, rồi sang giai đoạn sau.
 5. Việc ghi "bạn quyết" chỉ giao cho agent sau khi bạn đã chọn (ghi lựa chọn ngay trong mục G7).
 
 ## Tiến độ
@@ -35,15 +35,23 @@ Cập nhật 22/10/2026.
 | G2. Hiệu năng và trợ năng | Xong, đã review (G2.5 không làm) | `plans/bao-cao-v15/giai-doan-2.md` |
 | G3. Dọn trùng lặp còn lại | Xong, đã review | `plans/bao-cao-v15/giai-doan-3.md` |
 | G4a. Công cụ âm thanh | Xong, đã review | `plans/bao-cao-v15/giai-doan-4a.md` |
-| G4b, G5, G6, G7, G8 | Chưa làm | |
+| G4b, G5, G6, G7, G8, việc lẻ | Chưa làm | |
 
-Review của Claude cho G0–G4a: `plans/bao-cao-v15/review-g0-g4a.md`.
+Review của Claude cho G0–G4a: `plans/bao-cao-v15/review-g0-g4a.md`. Báo cáo và review là biên bản, không cần sửa. Việc còn mở trong đó đã chép vào các ghi chú dưới đây; chỗ nào cần đọc thêm báo cáo thì ghi chú nói rõ.
 
 Ghi chú từ các báo cáo cho giai đoạn sau:
 
 - G4b: các file K. 331 trên Commons phần lớn là nhạc dựng từ MIDI (các file "Variation…", bộ của Bernd Krueger): không dùng; bản Leonid Kreutzer phải xác định năm phát hành trước (xem báo cáo G4a, mục Ghi chú cho G4b). piano-midi.de chặn User-Agent của dự án và KernScores đang bảo trì: nguồn bản nhạc số lấy theo `tools/audio/align/sources.json` (`fetch.py --from _imslp/_scripts/align/src` cho file đã có).
+- G4b, thêm: căn mốc cho ba trang đã có bản thu nhưng chưa có mốc: `docs/nghe-nhac/mozart-eine-kleine.md`, `docs/nghe-nhac/vivaldi-mua-xuan.md`, `docs/piano/tac-pham/chopin-valse-la-thu.md` (`tools/audio/attach.py --ref`, theo bước 4 của G4b).
 - G5: thêm bài luyện tai thứ sáu thì sửa "Lộ trình 5 bài" và "Sau 5 bài trên" (`tests/counts.py` báo).
 - G6: thêm bài học *Alla turca* thì số cặp bài học có hướng dẫn nghe cùng tác phẩm thành sáu: sửa đoạn "Năm bài học…" và danh sách link ở `docs/piano/tac-pham/index.md`.
+
+Việc lẻ, mỗi việc một nhánh nhỏ, giao bất kỳ lúc nào bằng lời mẫu (thay "Giai đoạn N" bằng tên việc, nhánh `v15/<tên>`, báo cáo `plans/bao-cao-v15/viec-le-<tên>.md`):
+
+- `nguon`: thêm mục "## Nguồn" với nguồn thật cho 9 trang: `docs/hinh-thuc/minuet-trio.md`, `overture.md`, `scherzo.md`, `symphonic-poem.md` và `docs/nhac-ly/28-ket-cau.md` đến `32-ky-thuat-the-ky-20.md`. Trang mục lục, ôn tập 1–3 và từ điển không bắt buộc.
+- `mermaid`: bỏ quy tắc mermaid trong `docs/assets/js/loader.js` (`EXT.mermaid`, dòng `[".mermaid", …]`, `mermaid` trong `NOW`) và kiểm tra 1 của `tests/site_static.py`, vì Material tự tải mermaid. Xem sơ đồ ở `hinh-thuc/sonata/` trên Chrome có mạng trước và sau khi bỏ.
+
+Không cần làm: bấm Ctrl+P trong vài giây đầu thì bản in có thể thiếu khuông ở xa (nút "In bài này" không bị); ba file MP3 còn dưới 3 giây im lặng ở cuối.
 
 ## 1. Nhận xét nào đã xong, nào còn lại
 
@@ -131,6 +139,7 @@ npm test                           # mọi nhóm: nhanh, trang-1, trang-2, a11y 
 | 6 | G5. Chơi theo tai; bài phổ biến ngoài nhạc cổ điển | vừa | G1 |
 | 7 | G6. Bài học tác phẩm mới, mỗi lô 3 bài | lớn | G1, G4a |
 | bất kỳ lúc nào | G7. Việc bạn quyết | nhỏ | quyết định của bạn |
+| bất kỳ lúc nào | Việc lẻ ở mục Tiến độ: `nguon`, `mermaid` | nhỏ | |
 | cuối | G8. Phát hành v15 | nhỏ | các giai đoạn đã chọn |
 
 G2 và G3 làm song song được vì ít đụng file chung. Các giai đoạn khác nên gộp vào `main` lần lượt, để tránh xung đột ở `mkdocs.yml`, `docs/index.md` và `README.md`. G7.2 (tạo release) nên làm ngay vì không phụ thuộc giai đoạn nào.
@@ -488,10 +497,10 @@ Khi đã chọn: thêm file giấy phép cho nội dung (ví dụ `LICENSE-CONTE
 
 ### G7.2 GitHub Release (nên làm ngay)
 
-Tạo release `v14` trỏ vào commit đang chạy trên site, nội dung lấy từ mục Phiên bản 14 trong `docs/cap-nhat.md`, ví dụ:
+Tạo release `v14` trỏ vào `ed69d89` (commit của phiên bản 14; từ 22/10/2026 site chạy thêm G0–G4a, phần này thuộc v15), nội dung lấy từ mục Phiên bản 14 trong `docs/cap-nhat.md`, ví dụ:
 
 ```bash
-gh release create v14 --target <sha> --title "Phiên bản 14" --notes-file <file-ghi-chú>
+gh release create v14 --target ed69d892aeff1e85a0c3497e5a0f09549369e36a --title "Phiên bản 14" --notes-file <file-ghi-chú>
 ```
 
 Kết quả: hết lỗi 404 trong console ở mọi trang, góc trang hiện số phiên bản. Từ nay mỗi phiên bản một release (xem G8).
@@ -540,7 +549,7 @@ Khi đã chọn: link ở chân trang (`extra.social` trong `mkdocs.yml`), ở H
 
 ## Lời giao việc mẫu
 
-> Bạn làm **Giai đoạn N** trong `plans/ke-hoach-v15.md` của repo opus-zero. Đọc `AGENTS.md`, `README.md`, mục "Quy tắc chung" và mục Giai đoạn N trong kế hoạch. Tạo nhánh `v15/gN-<tên-ngắn>` từ `main`. Chỉ sửa trong phạm vi giai đoạn; gặp việc ngoài phạm vi thì ghi vào báo cáo, không tự làm. Không push. Khi xong: chạy `mkdocs build --strict` và `npm test` (đều phải đạt), commit, rồi viết báo cáo `plans/bao-cao-v15/giai-doan-N.md`: file đã sửa và lý do, kết quả build và test, số đo (nếu có), chỗ chưa chắc chắn, nguồn đã dùng để kiểm chứng.
+> Bạn làm **Giai đoạn N** trong `plans/ke-hoach-v15.md` của repo opus-zero. Đọc `AGENTS.md`, `README.md`, các mục "Tiến độ" và "Quy tắc chung", và mục Giai đoạn N trong kế hoạch. Tạo nhánh `v15/gN-<tên-ngắn>` từ `main`. Chỉ sửa trong phạm vi giai đoạn; gặp việc ngoài phạm vi thì ghi vào báo cáo, không tự làm. Không push. Khi xong: chạy `mkdocs build --strict` và `npm test` (đều phải đạt), commit, rồi viết báo cáo `plans/bao-cao-v15/giai-doan-N.md`: file đã sửa và lý do, kết quả build và test, số đo (nếu có), chỗ chưa chắc chắn, nguồn đã dùng để kiểm chứng.
 
 ## Claude review những gì
 
