@@ -8,7 +8,7 @@ edit_uri: edit/main/docs/
 copyright: Opus Zero — sổ tay học piano cổ điển của mtuann
 
 # Link tới một mục (#...) không có trên trang đích là cảnh báo, nên `mkdocs build --strict` dừng lại.
-# Link trong JavaScript và HTML viết tay: tests/anchors.py.
+# Link trong JavaScript, HTML viết tay và MP3 trong data-rec: tests/anchors.py.
 validation:
   anchors: warn
 
