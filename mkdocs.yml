@@ -7,6 +7,11 @@ repo_name: mtuann/opus-zero
 edit_uri: edit/main/docs/
 copyright: Opus Zero — sổ tay học piano cổ điển của mtuann
 
+# Link tới một mục (#...) không có trên trang đích là cảnh báo, nên `mkdocs build --strict` dừng lại.
+# Link trong JavaScript và HTML viết tay: tests/anchors.py.
+validation:
+  anchors: warn
+
 theme:
   name: material
   custom_dir: overrides
