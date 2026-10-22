@@ -148,6 +148,7 @@
 
   function mount(el) {
     if (el._oz) return;
+    el.style.minHeight = "";
     if (!el.dataset.src) el.dataset.src = el.textContent.trim();
     el.dataset.rendered = "1";
     const t = splitTitle(el.dataset.src);
@@ -176,9 +177,31 @@
 
   window.OZAbc.mount = function (el) { if (window.ABCJS) mount(el); };
 
+  /* Chiều cao tạm (px) cho khuông chưa vẽ, gần với chiều cao thật (đo trên các trang của site): phần tiêu đề và
+     trình phát, cộng số hệ khuông × số khuông mỗi hệ. Khung hẹp thì abcjs tự xuống dòng, khoảng 4 ô nhịp một hệ. */
+  function guess(el) {
+    const music = (el.dataset.src || el.textContent).split("\n").filter(function (l) { return l.trim() && !/^\s*%/.test(l) && !/^[A-Za-z]:/.test(l); });
+    const voice = function (l) { const m = /^\s*\[V:\s*([^\]\s]+)/.exec(l); return m ? m[1] : ""; };
+    const ids = [];
+    music.forEach(function (l) { if (ids.indexOf(voice(l)) < 0) ids.push(voice(l)); });
+    const staves = Math.max(1, ids.length), narrow = width(el) < NARROW;
+    let systems = Math.max(1, Math.round(music.length / staves));
+    if (narrow) {
+      const first = music.filter(function (l) { return voice(l) === ids[0]; }).join(" ").replace(/\[V:[^\]]*\]|"[^"]*"|![^!]*!/g, "");
+      systems = Math.max(systems, Math.ceil(first.split("|").filter(function (s) { return /[A-Ga-gz]/.test(s); }).length / 4));
+    }
+    return narrow ? 230 + systems * staves * 85 : 170 + systems * staves * 75;
+  }
+
+  /* Mỗi khuông vẽ khi tới gần màn hình (OZLoader.whenNear); không có bộ tải thì vẽ ngay */
   function render() {
     if (!window.ABCJS) return;
-    document.querySelectorAll(".abc-notation").forEach(mount);
+    const near = (window.OZLoader && window.OZLoader.whenNear) || function (el, fn) { fn(); };
+    document.querySelectorAll(".abc-notation").forEach(function (el) {
+      if (el._oz) return;
+      if (!el.style.minHeight) el.style.minHeight = guess(el) + "px";
+      near(el, function () { mount(el); });
+    });
   }
   (window.OZReady || function (f) { document.addEventListener("DOMContentLoaded", f); })(render);
 

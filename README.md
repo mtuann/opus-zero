@@ -109,7 +109,7 @@ tools/keysigs.mjs         Vẽ sẵn 15 hóa biểu bằng abcjs (chạy: node t
 | `staffpaper.js`, `print.js` | Giấy kẻ khuông in được; nút "In bài này" |
 | `pwa.js` | Đăng ký service worker |
 | `data.js` | Dữ liệu của tôi: sao lưu, khôi phục kiểu gộp (hàm `OZData.merge`), xóa |
-| `loader.js` | Bộ tải theo nhu cầu: mỗi trang chỉ tải những công cụ nó dùng |
+| `loader.js` | Bộ tải theo nhu cầu: mỗi trang chỉ tải những công cụ nó dùng. Công cụ ở xa màn hình chỉ được tải khi người đọc cuộn tới gần (khoảng 600px); khuông nhạc và ví dụ phong cách vẽ từng khối như vậy (`OZLoader.whenNear`). Phần phía trên chỗ đang đọc, kể cả phần trước đích của link `#mục`, được vẽ ngay; trước khi in thì vẽ hết; `window.OZ_EAGER = true` vẽ hết ngay (kiểm thử dùng) |
 
 ## Viết bài mới
 
@@ -130,6 +130,7 @@ tools/keysigs.mjs         Vẽ sẵn 15 hóa biểu bằng abcjs (chạy: node t
    `(window.OZReady || function (f) { document.addEventListener("DOMContentLoaded", f); })(init);`
    và **thêm một quy tắc vào `RULES` trong `loader.js`** (bộ chọn CSS → các script cần, theo thứ tự phụ thuộc).
    Mỗi trang chỉ tải script mà nó dùng; quên thêm quy tắc thì công cụ không chạy (`npm test` sẽ báo lỗi).
+   Công cụ ở xa màn hình chỉ được tải khi người đọc cuộn tới gần. Công cụ phải chạy ngay dù ở đâu (lưu hay hiện trạng thái của người học) thì thêm tên script vào `NOW` trong `loader.js`; công cụ có nhiều khối trên một trang thì khởi tạo từng khối bằng `OZLoader.whenNear(el, fn)` (xem `abc.js`).
 5. Quiz cuối bài dùng khối mã `quiz`: dòng `?` là câu hỏi, `+` đáp án đúng, `-` đáp án sai, `>` giải thích.
 6. Chèn công cụ vào bất kỳ trang nào bằng một thẻ `div`, ví dụ
    `<div class="oz-piano" data-range="C4-C5" data-notes="C4 E4 G4" data-play="chord"></div>`.

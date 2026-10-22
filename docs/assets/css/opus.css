@@ -143,6 +143,8 @@
 
 /* abcjs */
 .abc-notation { margin: 1rem 0 0.4rem; overflow-x: auto; }
+/* Khuông chưa vẽ (chờ tới gần màn hình, xem loader.js): ẩn mã ABC, giữ chỗ; abc.js đặt chiều cao tạm theo số dòng nhạc */
+.abc-notation:not([data-rendered]) { font-size: 0; min-height: 8rem; }
 .abc-notation svg { color: var(--md-default-fg-color); }
 .abc-audio { margin-bottom: 0.5rem; max-width: 560px; }
 

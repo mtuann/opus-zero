@@ -1,4 +1,4 @@
-/* Nút "In bài này" cho các trang bài học: mở mọi đáp án đang thu gọn rồi in. */
+/* Nút "In bài này" cho các trang bài học: mở mọi đáp án đang thu gọn, vẽ hết khuông nhạc rồi in. */
 (function () {
   "use strict";
   function init() {
@@ -11,8 +11,11 @@
     b.addEventListener("click", function () {
       const closed = Array.prototype.filter.call(document.querySelectorAll("article details"), function (d) { return !d.open; });
       closed.forEach(function (d) { d.open = true; });
-      window.print();
-      setTimeout(function () { closed.forEach(function (d) { d.open = false; }); }, 500);
+      /* Vẽ mọi khuông và công cụ còn chờ tới gần màn hình rồi mới in */
+      (window.OZLoader && window.OZLoader.all ? window.OZLoader.all() : Promise.resolve()).then(function () {
+        window.print();
+        setTimeout(function () { closed.forEach(function (d) { d.open = false; }); }, 500);
+      });
     });
     h1.after(b);
   }

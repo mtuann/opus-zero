@@ -48,7 +48,8 @@ async function settle(w, extra) {
   if (done) await Promise.race([done, sleep(5000)]);
   await sleep(extra);
 }
-/* opts.query: thêm vào URL (ví dụ "?h=piano"); opts.before(w): chạy trước mọi script của trang */
+/* opts.query: thêm vào URL (ví dụ "?h=piano", "#muc"); opts.before(w): chạy trước mọi script của trang;
+   opts.lazy: giữ chế độ khởi tạo khi gần màn hình (mặc định vẽ hết ngay, window.OZ_EAGER, để kiểm được mọi khuông và công cụ) */
 async function open(rel, extra = 20, opts = {}) {
   const html = fs.readFileSync(path.join(SITE, rel), "utf8");
   const errors = [], requested = [];
@@ -57,6 +58,7 @@ async function open(rel, extra = 20, opts = {}) {
   vc.on("error", (e) => errors.push(String(e && e.message || e)));
   const dom = new JSDOM(html, { url: ORIGIN + rel.replace(/index\.html$/, "") + (opts.query || ""), runScripts: "dangerously", resources: new Loader(), pretendToBeVisual: true, virtualConsole: vc,
     beforeParse(w) {
+      if (!opts.lazy) w.OZ_EAGER = true;
       if (opts.before) opts.before(w);
       fakeAudio(w);
       for (const k in storage) w.localStorage.setItem(k, storage[k]);
@@ -266,6 +268,54 @@ if (RUN_FLOWS) {
   r = await open("index.html", 20, { before: fakeXHR(sent), query: "?h=piano" });
   ask(r.w, "search/search_index.json");
   check("tìm kiếm: đến từ kết quả tìm kiếm (?h=) thì tải chỉ mục ngay", sent.length === 1, sent.join(" "));
+  r.close();
+}
+/* ---- Khởi tạo khi gần màn hình: IntersectionObserver giả, vị trí giả theo thứ tự phần tử trong trang (100px mỗi phần tử) ---- */
+{
+  const ios = [];
+  const lazy = (w) => {
+    ios.length = 0;
+    w.requestIdleCallback = (fn) => setTimeout(fn, 0);
+    w.IntersectionObserver = class { constructor(cb) { this.cb = cb; this.els = new Set(); ios.push(this); } observe(el) { this.els.add(el); } unobserve(el) { this.els.delete(el); } disconnect() { this.els.clear(); } };
+    let order = null;
+    w.Element.prototype.getBoundingClientRect = function () {
+      if (!order) { order = new Map(); [...w.document.querySelectorAll("*")].forEach((e, i) => order.set(e, i)); }
+      const top = (order.get(this) || 0) * 100 - (w.__scroll || 0);
+      return { top, bottom: top + 100, left: 0, right: 100, width: 100, height: 100 };
+    };
+  };
+  /* "Cuộn" tới phần tử el rồi báo cho mọi observer những phần tử nằm trong khoảng 600px quanh màn hình */
+  const scrollTo = (w, el) => {
+    w.__scroll = 0; w.__scroll = el.getBoundingClientRect().top;
+    for (const io of [...ios]) {
+      const entries = [...io.els].map((e) => { const r = e.getBoundingClientRect(); return { target: e, isIntersecting: r.top < w.innerHeight + 600 && r.bottom > -600 }; });
+      if (entries.length) io.cb(entries);
+    }
+  };
+  const until = async (fn) => { for (let i = 0; i < 100 && !fn(); i++) await sleep(20); return fn(); };
+  const page = "piano/tac-pham/fur-elise/index.html";
+  let r = await open(page, 20, { lazy: true, before: lazy });
+  const blocks = [...r.d.querySelectorAll(".abc-notation")];
+  const drawn = () => blocks.filter((b) => b.querySelector("svg")).length;
+  check("gần màn hình: lúc mở trang chưa vẽ khuông nào ở xa, chưa tải listen.js, công cụ trạng thái (oz-piece) vẫn chạy ngay",
+    blocks.length === 4 && drawn() === 0 && !r.requested.some((u) => /listen\.js/.test(u)) && !!r.d.querySelector('.oz-piece[data-ready="1"]'), drawn() + " " + r.requested.join(" "));
+  await until(() => r.w.ABCJS && r.w.OZAbc);
+  check("gần màn hình: khi rảnh thì tải sẵn abcjs nhưng chưa vẽ", !!r.w.ABCJS && drawn() === 0 && blocks.every((b) => /px$/.test(b.style.minHeight)), String(drawn()));
+  scrollTo(r.w, blocks[0]);
+  check("gần màn hình: cuộn tới khuông đầu thì vẽ khuông đó, khuông cuối vẫn chờ", !!blocks[0].querySelector("svg") && !blocks[3].querySelector("svg") && blocks[0].style.minHeight === "", String(drawn()));
+  scrollTo(r.w, r.d.querySelector(".oz-listen"));
+  check("gần màn hình: cuộn tới khung nghe thì tải listen.js và khởi tạo", await until(() => r.d.querySelector(".oz-listen").dataset.ready === "1"));
+  r.w.dispatchEvent(new r.w.Event("beforeprint"));
+  check("gần màn hình: trước khi in thì vẽ hết", drawn() === 4, String(drawn()));
+  r.close();
+  r = await open(page, 20, { lazy: true, before: lazy, query: "#dien-tau" });
+  await until(() => r.d.querySelectorAll(".abc-notation svg").length === 4);
+  check("gần màn hình: mở link tới #dien-tau thì mọi khuông phía trên đích đã vẽ", r.d.querySelectorAll(".abc-notation svg").length === 4, String(r.d.querySelectorAll(".abc-notation svg").length));
+  r.close();
+  r = await open(page, 20, { lazy: true, before: lazy, query: "#bai-tap-chuan-bi" });
+  await until(() => r.d.querySelectorAll(".abc-notation svg").length >= 1);
+  await sleep(50);
+  check("gần màn hình: mở link tới #bai-tap-chuan-bi thì chỉ khuông phía trên đích được vẽ ngay", r.d.querySelectorAll(".abc-notation svg").length === 1, String(r.d.querySelectorAll(".abc-notation svg").length));
   r.close();
 }
 /* ---- Sách in được ---- */

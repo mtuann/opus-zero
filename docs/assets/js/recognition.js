@@ -540,7 +540,9 @@
 
   window.OZRecognition = { EX: EX, CAD: CAD, VOICING: VOICING, FJ: FJ, TRACKS: TRACKS };
   function init() {
-    document.querySelectorAll(".oz-style-example").forEach(mountExample);
+    /* Ví dụ phong cách (mười khuông trên một trang) vẽ khi tới gần màn hình */
+    const near = (window.OZLoader && window.OZLoader.whenNear) || function (el, fn) { fn(); };
+    document.querySelectorAll(".oz-style-example").forEach(function (el) { near(el, function () { mountExample(el); }); });
     document.querySelectorAll(".oz-style-trainer").forEach(mountStyle);
     document.querySelectorAll(".oz-cadence-trainer").forEach(mountCadence);
     document.querySelectorAll(".oz-texture-trainer").forEach(mountTexture);
