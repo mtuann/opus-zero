@@ -12,6 +12,7 @@ const GROUPS = {
     ["node", "tests/data.mjs"],
     ["python3", "tests/site_static.py"],
     ["python3", "tests/counts.py"],
+    ["python3", "tests/levels.py"],
     ["node", "tests/search.mjs"],
     ["node", "tests/extract-examples.mjs"],
     ["python3", "tests/abc_bars.py", "tests/.examples.json"],
