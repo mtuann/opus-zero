@@ -249,6 +249,13 @@
   "sha256": "9b689a9b3f178e7bb2b5899d0559e223e9d8de7081d83fc087760ac2b4d378e1",
   "ly": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/BurgmullerJFF/O100/25EF-02/25EF-02.ly"
  },
+ "mutopia_MozartWA-KV525-mov-01.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV525/MozartWA-KV525/MozartWA-KV525-mids.zip",
+  "sha256": "7a6f71b2b7763524a56322723c774d584af006dd980289fce60ebd93a91a16d7",
+  "member": "MozartWA-KV525-mov-01.mid",
+  "ly": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/MozartWA/KV525/MozartWA-KV525/MozartWA-KV525-lys/MozartWA-KV525.ly"
+ },
  "mutopia_anna-magdalena-05.mid": {
   "set": "mutopia",
   "url": "https://www.mutopiaproject.org/ftp/BachJS/BWVAnh115/anna-magdalena-05/anna-magdalena-05.mid",
@@ -266,6 +273,12 @@
   "url": "https://www.mutopiaproject.org/ftp/BachJS/BWV939/bwv-939/bwv-939.mid",
   "sha256": "a3dc077fb05ad47984a62ac5f2edd6d55a1b2723fa4d26c187c65245d1ce8c4f",
   "ly": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/BachJS/BWV939/bwv-939/bwv-939.ly"
+ },
+ "mutopia_eine-kleine-nachtmusik-mvt1.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV525/eine-kleine-nachtmusik-mvt1/eine-kleine-nachtmusik-mvt1.mid",
+  "sha256": "f8b6dc991df6e90e2e2e11d561ab2cf8fec47beda747c69984c3fef4b539506b",
+  "ly": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/MozartWA/KV525/eine-kleine-nachtmusik-mvt1/eine-kleine-nachtmusik-mvt1-lys/eine-kleine-nachtmusik-mvt1.ly"
  },
  "mutopia_gondellied-op19-6.mid": {
   "set": "mutopia",
@@ -290,5 +303,12 @@
   "url": "https://www.mutopiaproject.org/ftp/SchumannR/O68/schumann-op68-10-gai-laboureur/schumann-op68-10-gai-laboureur.mid",
   "sha256": "2cdada01ea988df090bfd0ab4bc377b28d97c7dee390a862822e541a47d921de",
   "ly": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/SchumannR/O68/schumann-op68-10-gai-laboureur/schumann-op68-10-gai-laboureur.ly"
+ },
+ "mutopia_spring-score.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/VivaldiA/O8/spring/spring-mids.zip",
+  "sha256": "9f9eaaaac0f1a6b0e1a9af86ff2ff65a0ff786dd4fa8d8b8eda19f8d564e35e0",
+  "member": "spring-score.mid",
+  "ly": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/VivaldiA/O8/spring/spring-lys/spring-score.ly"
  }
 }

@@ -17,7 +17,7 @@ Giấy phép ghi ở đây là giấy phép chính chủ ghi trong kho hoặc tr
 | `chopin-first-editions` | Viện Fryderyk Chopin (NIFC), https://github.com/pl-wnifc/humdrum-chopin-first-editions | CC BY 4.0 (`LICENSE.txt`) | Nocturne Op. 9 số 2 (bản Kistner), Valse Op. 69 số 2 |
 | `dcml-grieg` | DCML, https://github.com/DCMLab/grieg_lyric_pieces: bảng nốt và ô nhịp TSV | CC BY-NC-SA 4.0 (README và `LICENSE`) | Grieg Arietta Op. 12 số 1 |
 | `trompa-beethoven` | Werner Goebl (mdw), dự án TROMPA, https://github.com/trompamusic-encodings/Beethoven_WoOAnh5_BreitkopfHaertel: MEI theo ấn bản Breitkopf & Härtel | CC BY 4.0 (`LICENSE.md`) | Sonatina Sol trưởng Anh. 5 số 1, hai chương |
-| `mutopia` | Mutopia Project, https://www.mutopiaproject.org: file MIDI do Mutopia dựng từ bản LilyPond (`ly` trong sources.json là bản nguồn) | Theo từng bài, xem bảng dưới | 11 bài, xem bảng dưới |
+| `mutopia` | Mutopia Project, https://www.mutopiaproject.org: file MIDI do Mutopia dựng từ bản LilyPond (`ly` trong sources.json là bản nguồn); bài nhiều phần được đóng gói thành `<tên>-mids.zip`, `member` trong sources.json là file lấy ra | Theo từng bài, xem bảng dưới | 14 file, xem bảng dưới |
 
 Bản chép tay trong `hand.py`: Gymnopédie số 1 (Satie, xuất bản 1888, phạm vi công cộng), chép cao độ và trường độ theo bản LilyPond của https://github.com/rileylev/gymnopedie (kho không ghi giấy phép).
 
@@ -36,8 +36,11 @@ Bản chép tay trong `hand.py`: Gymnopédie số 1 (Satie, xuất bản 1888, p
 | `mutopia_01MorningPrayer.mid` | Tchaikovsky: Cầu nguyện buổi sáng Op. 39 số 1 | Mutopia-2015/07/09-2032 | Phạm vi công cộng |
 | `mutopia_16OldFrenchSong.mid` | Tchaikovsky: Bài ca Pháp cổ Op. 39 số 16 | Mutopia-2015/11/27-2080 | Phạm vi công cộng |
 | `mutopia_gondellied-op19-6.mid` | Mendelssohn: *Venetianisches Gondellied* Op. 19 số 6 | Mutopia-2009/06/12-1679 | CC BY 3.0 |
+| `mutopia_eine-kleine-nachtmusik-mvt1.mid` | Mozart: *Eine kleine Nachtmusik* K. 525, chương 1 (MIDI viết ra phần trình bày nhắc lại) | Mutopia-2007/01/01-900 | Phạm vi công cộng |
+| `mutopia_MozartWA-KV525-mov-01.mid` | Mozart: *Eine kleine Nachtmusik* K. 525, chương 1, theo ấn bản Breitkopf & Härtel 1883 (file trong `MozartWA-KV525-mids.zip`; dùng để đối chiếu) | Mutopia-2018/08/04-2230 | Phạm vi công cộng |
+| `mutopia_spring-score.mid` | Vivaldi: *La primavera* (Mùa xuân) Op. 8 số 1, chương 1 (file trong `spring-mids.zip`; `spring-score-1.mid`, `-2.mid` là chương 2, 3) | Mutopia-2010/02/08-301 | CC BY-SA 3.0 |
 
-Ở v14, các MIDI này được dựng trên máy bằng LilyPond 2.25.12 từ file `.ly`. Nay `fetch.py` tải MIDI dựng sẵn của Mutopia: cùng nốt với bản v14, trừ hai nốt ở La candeur (không ảnh hưởng căn mốc). Hai bài Minuet K. 2 và Minuet Sol thứ ở v14 dùng bản đã viết ra dấu nhắc lại; nay `pieces.py` nối đoạn bằng `segs`, cho ra đúng từng nốt như trước.
+Ở v14, 11 MIDI đầu tiên trong bảng được dựng trên máy bằng LilyPond 2.25.12 từ file `.ly`. Nay `fetch.py` tải MIDI dựng sẵn của Mutopia: cùng nốt với bản v14, trừ hai nốt ở La candeur (không ảnh hưởng căn mốc). Hai bài Minuet K. 2 và Minuet Sol thứ ở v14 dùng bản đã viết ra dấu nhắc lại; nay `pieces.py` nối đoạn bằng `segs`, cho ra đúng từng nốt như trước. Ba file của K. 525 và *Mùa xuân* (thêm ở v15) lấy thẳng từ Mutopia.
 
 ## Thêm một nguồn mới
 

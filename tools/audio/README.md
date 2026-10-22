@@ -143,7 +143,7 @@ Biến thể thô→mịn thường cho ra đúng như biến thể thường, n
 
 Ghi khối bản thu vào trang trước (mục 2): `run.py` căn bản thu ghi trong `data-rec`. Các lệnh `explore.py` nhận thẳng một file hoặc link âm thanh nếu trang chưa có khối bản thu.
 
-1. **Nguồn bản nhạc số.** Tìm bản đúng tác phẩm và đúng chương (Mutopia, KernScores, ASAP, piano-midi.de...); mở đầu file xem ghi tác phẩm gì. Đọc giấy phép, thêm vào `align/NGUON.md`. Rồi `$PY tools/audio/align/fetch.py --add <tên> --set <bộ> --url <link>`: lệnh tải file, tính sha256, ghi `sources.json` (link GitHub ghim theo commit). Cách đặt tên file ở `fetch.py --help`. Nguồn phải tải tay thì thêm `--file <file đã tải> --manual`.
+1. **Nguồn bản nhạc số.** Tìm bản đúng tác phẩm và đúng chương (Mutopia, KernScores, ASAP, piano-midi.de...); mở đầu file xem ghi tác phẩm gì. Đọc giấy phép, thêm vào `align/NGUON.md`. Rồi `$PY tools/audio/align/fetch.py --add <tên> --set <bộ> --url <link>`: lệnh tải file, tính sha256, ghi `sources.json` (link GitHub ghim theo commit). Cách đặt tên file ở `fetch.py --help`. Nguồn phải tải tay thì thêm `--file <file đã tải> --manual`. File nằm trong một file zip (Mutopia đóng gói MIDI của bài nhiều phần thành `<tên>-mids.zip`): `--url` là link file zip, thêm `--member <tên file trong zip>`.
 2. **Chỉ số ô.** Chạy `$PY tools/audio/align/explore.py bars <tên file> [--qpm 80]`.
     - Cột đầu là chỉ số ô dùng trong `pieces.py`, từ 0, theo thứ tự trong file. Số trong ngoặc vuông là số ô in trên bản nhạc (kern, MEI, MusicXML, DCML); MIDI không có số in.
     - Ô lấy đà, kết 1, kết 2, cadenza là những ô riêng và thường không có số in, nên chỉ số lệch dần so với số in. Luôn tra bảng này, đừng suy từ số in.
