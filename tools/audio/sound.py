@@ -26,11 +26,14 @@ def probe(path):
             int(st.get("sample_rate") or 0), int(st.get("channels") or 0))
 
 
-def levels(path, start=None, win=WIN):
-    """Mức RMS (dBFS) của từng khung win giây, trộn về một kênh. start: chỉ đo từ giây này (âm: tính từ cuối file)."""
+def levels(path, start=None, win=WIN, dur=None):
+    """Mức RMS (dBFS) của từng khung win giây, trộn về một kênh. start: chỉ đo từ giây này (âm: tính từ cuối file);
+    dur: chỉ đo chừng ấy giây."""
     cmd = ["ffmpeg", "-v", "error"]
     if start is not None:
         cmd += ["-sseof" if start < 0 else "-ss", "%.3f" % start]
+    if dur is not None:
+        cmd += ["-t", "%.3f" % dur]
     cmd += ["-i", str(path), "-ac", "1", "-ar", str(SR), "-f", "s16le", "-"]
     a = array.array("h")
     a.frombytes(subprocess.run(cmd, capture_output=True, check=True).stdout)

@@ -23,6 +23,7 @@ Bản đầy đủ không chạy trong npm test (cần ffmpeg, và --network c�
 Có lỗi thì thoát với mã 1.
 """
 import argparse
+import glob
 import re
 import sys
 import urllib.parse
@@ -67,21 +68,43 @@ def check_nguon(errs):
 
 
 def original(source_url):
-    """File gốc trong _imslp/ ứng với link trang file IMSLP (None nếu không có trên máy)."""
+    """File gốc trong _imslp/ ứng với link trang file IMSLP (None nếu không có trên máy). File tải từ IMSLP có thể
+    mang thêm tiền tố IMSLP<số>- trước tên trang file."""
     m = re.match(r"https?://imslp\.org/wiki/File:(.+)$", source_url or "")
     if not m:
         return None
-    f = IMSLP_DIR / urllib.parse.unquote(m.group(1))
-    return f if f.exists() else None
+    name = urllib.parse.unquote(m.group(1))
+    f = IMSLP_DIR / name
+    if f.exists():
+        return f
+    found = [g for g in IMSLP_DIR.glob("IMSLP*-" + glob.escape(name)) if re.fullmatch(r"IMSLP\d+-", g.name[:-len(name)])]
+    return found[0] if len(found) == 1 else None
+
+
+def head_trim(hosted, orig, secs=20.0, win=0.01, max_lag=8.0):
+    """Giây đã cắt ở đầu file gốc: độ lệch khớp nhất giữa đường bao mức âm (dBFS) 20 giây đầu của file trên site và
+    của file gốc. Không dùng hiệu "tiếng đầu tiên" của hai file: bản thu mở đầu rất nhỏ thì sau khi chuyển mã, tiếng
+    vượt ngưỡng −60 dBFS ở chỗ khác, lệch cả chục khung."""
+    h = [max(x, -80.0) for x in sound.levels(hosted, win=win, dur=secs)]
+    o = [max(x, -80.0) for x in sound.levels(orig, win=win, dur=secs + max_lag)]
+    mh = sum(h) / len(h)
+    h = [x - mh for x in h]
+    best, best_lag = None, 0
+    for lag in range(0, min(int(max_lag / win), len(o) - len(h)) + 1):
+        seg = o[lag:lag + len(h)]
+        mo = sum(seg) / len(seg)
+        c = sum(a * (b - mo) for a, b in zip(h, seg))
+        if best is None or c > best:
+            best, best_lag = c, lag
+    return best_lag * win
 
 
 def compare_tail(hosted, orig):
     """So file trên site với file gốc: (giây tiếng ngân bị mất, giây còn giữ sau khi tiếng tắt, giây file gốc có
     sau khi tắt, giây đã cắt ở đầu). Giây cắt ở đầu là --start cần dùng nếu chuyển mã lại mà giữ nguyên mốc."""
     o_dur, h_dur = sound.probe(orig)[0], sound.probe(hosted)[0]
-    o_first, o_last = sound.sound_span(sound.levels(orig))
-    h_first, _ = sound.sound_span(sound.levels(hosted))
-    trim = o_first - h_first
+    _, o_last = sound.sound_span(sound.levels(orig))
+    trim = head_trim(hosted, orig)
     end = h_dur + trim                             # cuối file trên site, tính theo thời gian của file gốc
     return max(0.0, o_last - end), end - o_last, o_dur - o_last, trim
 

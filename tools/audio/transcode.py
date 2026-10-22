@@ -15,6 +15,7 @@ Việc làm:
 
 --out-dir DIR: ghi file vào DIR thay vì docs/assets/audio, không sửa NGUON.txt (để thử).
 --source: trang file ở nguồn; bỏ trống thì suy ra từ tên file IMSLP (PMLP…/IMSLP…): https://imslp.org/wiki/File:<tên>.
+  File tải từ IMSLP thường có thêm tiền tố IMSLP<số>- (IMSLP815839-PMLP1846-….mp3): trang file là phần sau tiền tố.
 """
 import argparse
 import json
@@ -34,6 +35,7 @@ HEAD_KEEP, TAIL_KEEP, FADE = 0.5, 3.0, 1.0
 
 
 def imslp_page(filename):
+    filename = re.sub(r"^IMSLP\d+-(?=PMLP)", "", filename)   # tiền tố của file tải về, không có trong tên trang file
     return "https://imslp.org/wiki/File:" + urllib.parse.quote(filename.replace(" ", "_"), safe="/:(),'_-.")
 
 
@@ -109,8 +111,9 @@ def main():
 
     start, end, fade, info = plan(src, a.start)
     rate = bitrate(src)
-    cmd = ["ffmpeg", "-v", "error", "-y", "-ss", "%.3f" % start, "-to", "%.3f" % end, "-i", str(src),
-           "-map", "0:a:0", "-map_metadata", "-1"]
+    # Không cắt đuôi thì giữ trọn luồng: độ dài ffprobe báo có thể ngắn hơn phần giải mã được (mất tiếng ngân cuối)
+    cmd = ["ffmpeg", "-v", "error", "-y", "-ss", "%.3f" % start] + (["-to", "%.3f" % end] if fade else []) + [
+           "-i", str(src), "-map", "0:a:0", "-map_metadata", "-1"]
     if fade:
         cmd += ["-af", "afade=t=out:st=%.3f:d=%.3f" % (end - start - FADE, FADE)]
     if sound.probe(src)[2] > 48000:
