@@ -45,28 +45,21 @@ Người ta dùng chữ cái để gọi các đoạn nhạc: cùng chữ là c�
 
 | Hình thức | Sơ đồ | Ý tưởng | Nghe thử |
 |---|---|---|---|
-| Hai đoạn | A B | Hai phần, thường mỗi phần lặp lại | Các điệu múa trong tổ khúc của Bach |
-| Ba đoạn | A B A | Đi xa rồi trở về | Chopin Prélude Op. 28 số 15 *Giọt mưa* |
-| Rondo | A B A C A … | Một đoạn chính quay lại nhiều lần | Beethoven *Für Elise* |
-| Chủ đề và biến tấu | A A' A'' A''' … | Một giai điệu được biến đổi nhiều lần | Mozart Biến tấu *Ah vous dirai-je, Maman* (K. 265) |
-| Minuet và trio | A B A | Điệu múa 3/4, đoạn giữa (trio) nhẹ hơn | Chương 3 nhiều giao hưởng của Haydn, Mozart |
+| [Hai đoạn](../nhac-ly/31-hinh-thuc-nho.md#hinh-thuc-hai-oan-binary) | A B | Hai phần, thường mỗi phần lặp lại | Các điệu múa trong tổ khúc của Bach |
+| [Ba đoạn](../nhac-ly/31-hinh-thuc-nho.md#hinh-thuc-ba-oan-ternary) | A B A | Đi xa rồi trở về | Chopin Prélude Op. 28 số 15 *Giọt mưa* |
+| [Rondo](rondo.md) | A B A C A … | Một đoạn chính quay lại nhiều lần | Beethoven *Für Elise* |
+| [Chủ đề và biến tấu](bien-tau.md) | A A' A'' A''' … | Một giai điệu được biến đổi nhiều lần | Mozart Biến tấu *Ah vous dirai-je, Maman* (K. 265) |
+| [Minuet và trio](minuet-trio.md) | A B A | Điệu múa 3/4, đoạn giữa (trio) nhẹ hơn | Chương 3 nhiều giao hưởng của Haydn, Mozart |
+
+Hai đoạn, hai đoạn có tái hiện và ba đoạn, những khối nhỏ dựng nên các hình thức lớn, được giải thích kỹ cùng ví dụ nghe ở bài nhạc lý [31. Hình thức nhỏ](../nhac-ly/31-hinh-thuc-nho.md).
 
 ## Hình thức sonata
 
-Đây là hình thức quan trọng nhất của thời kỳ Cổ điển và Lãng mạn, thường dùng cho **chương đầu** của giao hưởng, sonata, concerto, tứ tấu.
-
-1. **Trình bày** (exposition): giới thiệu **chủ đề 1** ở giọng chính, rồi chuyển sang giọng mới (thường là giọng át) cho **chủ đề 2**, có tính chất tương phản. Thời Cổ điển, cả phần này thường được nhắc lại.
-2. **Phát triển** (development): các chủ đề bị chia nhỏ, biến đổi, chuyển qua nhiều giọng. Đây là phần căng thẳng và bất ổn nhất.
-3. **Tái hiện** (recapitulation): cả hai chủ đề trở lại, lần này **cùng ở giọng chính**. Xung đột được giải quyết.
-4. Thường có thêm **phần kết** (coda).
-
-Hãy nghe Mozart Giao hưởng số 40, chương 1, và thử chỉ ra ba phần này.
+Hình thức quan trọng nhất của thời Cổ điển và Lãng mạn, thường dùng cho **chương đầu** của giao hưởng, sonata, concerto, tứ tấu: **trình bày** hai chủ đề ở hai giọng, **phát triển** chúng qua nhiều giọng, rồi **tái hiện** cả hai ở giọng chính, thường có thêm **coda**. Chi tiết và bài phân tích Mozart Sonata K. 545 ở trang [Hình thức sonata](sonata.md).
 
 ## Fugue
 
-**Fugue** là hình thức phức điệu đỉnh cao của Baroque. Một **chủ đề** ngắn xuất hiện ở một bè, rồi lần lượt được các bè khác "đuổi theo", chồng lên nhau. Giữa các lần xuất hiện của chủ đề là những **đoạn chuyển**.
-
-Nghe thử: Bach *Fugue cung Sol thứ* BWV 578 ("Little Fugue") cho organ. Đếm xem chủ đề vào bao nhiêu lần.
+**Fugue** là hình thức phức điệu đỉnh cao của Baroque: một **chủ đề** ngắn vào lần lượt ở từng bè, các bè đuổi theo và chồng lên nhau, xen giữa là những **đoạn chuyển**. Chi tiết và bài phân tích Bach Fugue cung Đô thứ BWV 847 ở trang [Fugue](fugue.md).
 
 ## Các thể loại chính
 

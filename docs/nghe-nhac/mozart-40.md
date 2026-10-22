@@ -12,7 +12,7 @@
 
 Mozart chỉ viết hai bản giao hưởng ở giọng thứ, cả hai đều ở **Sol thứ** (số 25 và số 40). Bản số 40 có hai phiên bản: bản đầu không có clarinet, bản sửa sau có thêm clarinet.
 
-Chương 1 là ví dụ mẫu mực của **[hình thức sonata](../hinh-thuc/index.md#hinh-thuc-sonata)**. Đây là chương để luyện nhận ra ba phần: trình bày, phát triển, tái hiện.
+Chương 1 là ví dụ mẫu mực của **[hình thức sonata](../hinh-thuc/sonata.md)**. Đây là chương để luyện nhận ra ba phần: trình bày, phát triển, tái hiện.
 
 ## Sơ đồ cấu trúc
 

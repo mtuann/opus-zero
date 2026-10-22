@@ -28,17 +28,15 @@ Gần như mọi điệu nhảy trong **tổ khúc Baroque** (allemande, courant
 
 ## Minuet và trio
 
-Chương 3 của rất nhiều giao hưởng, tứ tấu, sonata thời Cổ điển là **minuet và trio**, ghép ba khối:
+Chương 3 của rất nhiều giao hưởng, tứ tấu, sonata thời Cổ điển là **minuet và trio**: ba khối ghép thành một **A B A** lớn, mà mỗi khối lại là một hình thức hai đoạn có tái hiện.
 
 | Phần | Hình thức bên trong | Tính chất |
 |---|---|---|
 | **Minuet** | Hai đoạn có tái hiện, có nhắc lại | Điệu nhảy nhịp 3/4, đĩnh đạc |
-| **Trio** | Hai đoạn có tái hiện, có nhắc lại | Tương phản: nhẹ hơn, ít nhạc cụ hơn (tên "trio" từ thói quen thời Baroque dùng ba nhạc cụ) |
+| **Trio** | Hai đoạn có tái hiện, có nhắc lại | Tương phản: nhẹ hơn, ít nhạc cụ hơn |
 | **Minuet da capo** | Chơi lại minuet, thường **bỏ các dấu nhắc lại** | |
 
-Toàn bộ tạo thành một **A B A** lớn, mà mỗi khối lại là một hình thức hai đoạn nhỏ. Ví dụ dễ nghe: chương 3 *Eine kleine Nachtmusik* của Mozart.
-
-Từ Beethoven, minuet thường được thay bằng **scherzo** (tiếng Ý: "trò đùa"): nhanh hơn nhiều, nghịch ngợm hoặc dữ dội, nhưng giữ cấu trúc scherzo – trio – scherzo. Ví dụ: chương 3 [Giao hưởng số 5](../nghe-nhac/beethoven-5.md).
+Nguồn gốc, tên gọi và một bài nghe đi qua từng phần (chương 3 *Eine kleine Nachtmusik* của Mozart) ở trang [Minuet và Trio](../hinh-thuc/minuet-trio.md). Từ Beethoven, minuet thường được thay bằng [scherzo](../hinh-thuc/scherzo.md): nhanh hơn nhiều, nhưng giữ khung scherzo – trio – scherzo.
 
 ## Hình thức ca khúc
 

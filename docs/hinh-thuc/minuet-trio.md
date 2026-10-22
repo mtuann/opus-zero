@@ -7,10 +7,10 @@ Minuet là **vũ khúc quý tộc Pháp** (menuet) đi vào nhạc cổ điển:
 | Phần | Đặc điểm |
 |---|---|
 | **Minuet** (A) | Giai điệu chính, nhịp 3/4 rõ ràng, thường có hai đoạn nhỏ nhắc lại (:\|: :\|:). |
-| **Trio** (B) | Tương phản: mỏng hơn (ít nhạc cụ hơn), thường chuyển giọng (giọng át, giọng song song). Tên "trio" vì xưa kia chỉ còn 3 nhạc cụ chơi. |
+| **Trio** (B) | Tương phản: mỏng hơn (ít nhạc cụ hơn), thường chuyển giọng (giọng át, giọng song song). Tên "trio" (bộ ba) có từ thời Baroque, khi đoạn này thường chỉ do ba nhạc cụ chơi. |
 | **Minuet da capo** (A) | Chơi lại minuet từ đầu (thường không nhắc lại các đoạn nhỏ). |
 
-Toàn bộ chương vì vậy có dạng **ABA** — một trong những hình thức 3 phần rõ ràng nhất để tai nhận ra.
+Toàn bộ chương vì vậy có dạng **ABA** — một trong những hình thức 3 phần rõ ràng nhất để tai nhận ra. Bên trong, mỗi khối minuet và trio lại là một [hình thức hai đoạn có tái hiện](../nhac-ly/31-hinh-thuc-nho.md#hai-oan-co-tai-hien-rounded-binary) ‖: a :‖ ‖: b a' :‖, được giải thích ở bài nhạc lý 31.
 
 ## Đi qua một tác phẩm: Mozart, Eine kleine Nachtmusik, chương 3
 

@@ -4,7 +4,7 @@
 
 ## Từ minuet đến scherzo
 
-Beethoven giữ **khung ABA** của minuet (Scherzo – Trio – Scherzo da capo) và nhịp 3, nhưng thay đổi tính cách hoàn toàn:
+Beethoven giữ **[khung ABA](../nhac-ly/31-hinh-thuc-nho.md#minuet-va-trio)** của minuet (Scherzo – Trio – Scherzo da capo) và nhịp 3, nhưng thay đổi tính cách hoàn toàn:
 
 | Đặc điểm | Minuet | Scherzo |
 |---|---|---|
