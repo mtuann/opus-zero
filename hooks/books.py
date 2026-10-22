@@ -198,7 +198,8 @@ def on_post_build(config, **kwargs):
             if not m:
                 raise ValueError("books: không đọc được nội dung %s" % url)
             h1 = re.search(r"<h1[^>]*>(.*?)</h1>", m.group(1), re.S)
-            name = re.sub(r"<[^>]+>", "", h1.group(1)).replace("¶", "").strip() if h1 else url
+            # Tiêu đề trong HTML đã build còn thực thể (&para; của ký hiệu ¶, &amp;...): giải mã trước khi bỏ ¶ và escape lại
+            name = html.unescape(re.sub(r"<[^>]+>", "", h1.group(1))).replace("¶", "").strip() if h1 else url
             toc.append('<li><a href="#chuong-%d">%s</a></li>' % (i, html.escape(name)))
             parts.append('<section class="chapter" id="chuong-%d">%s</section>' % (i, clean(m.group(1), url, i, site_url)))
         page = TEMPLATE.format(title=html.escape(title), desc=html.escape(desc), date=today, chapters=len(pages),

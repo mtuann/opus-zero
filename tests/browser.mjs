@@ -323,8 +323,9 @@ for (const f of fs.readdirSync(path.join(SITE, "sach"))) {
   const r = await open("sach/" + f);
   const abc = r.d.querySelectorAll(".abc-notation").length, svg = r.d.querySelectorAll(".abc-notation svg").length;
   const ok = !r.errors.length && abc === svg && r.d.body.getAttribute("data-ready") === "1" && r.d.querySelectorAll(".chapter").length > 0
-    && r.d.querySelectorAll(".book-quiz").length === r.d.querySelectorAll(".book-answers").length;
-  check("sách " + f + ": " + abc + " khuông, " + r.d.querySelectorAll(".chapter").length + " chương", ok, r.errors.join(" | ") + ` abc=${abc} svg=${svg}`);
+    && r.d.querySelectorAll(".book-quiz").length === r.d.querySelectorAll(".book-answers").length
+    && !/&[a-z]+;|¶/.test(r.d.querySelector(".toc").textContent); /* mục lục không còn thực thể HTML hay ký hiệu ¶ của tiêu đề */
+  check("sách " + f + ": " + abc + " khuông, " + r.d.querySelectorAll(".chapter").length + " chương", ok, r.errors.join(" | ") + ` abc=${abc} svg=${svg}` + ((r.d.querySelector(".toc").textContent.match(/&[a-z]+;|¶/) || [])[0] ? " mục lục còn " + r.d.querySelector(".toc").textContent.match(/&[a-z]+;|¶/)[0] : ""));
   r.close();
 }
 console.log(`browser: ${checks.length} luồng tương tác, ${checks.filter((c) => !c[1]).length} lỗi`);

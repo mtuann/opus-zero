@@ -2,7 +2,7 @@
 
 "Nhạc cổ điển" theo nghĩa rộng là truyền thống âm nhạc nghệ thuật phương Tây kéo dài hơn một nghìn năm. Theo nghĩa hẹp, **thời kỳ Cổ điển** chỉ là giai đoạn khoảng 1750–1820 của Haydn, Mozart và Beethoven thời trẻ.
 
-Các mốc năm dưới đây là quy ước gần đúng; phong cách thay đổi dần dần chứ không đổi trong một đêm. Mỗi thời kỳ có một trang chi tiết (bối cảnh, âm thanh đặc trưng, nhạc cụ, 10 tác phẩm để nghe): [Trung cổ](thoi-ky/trung-co.md), [Phục hưng](thoi-ky/phuc-hung.md), [Baroque](thoi-ky/baroque.md), [Cổ điển](thoi-ky/co-dien.md), [Lãng mạn](thoi-ky/lang-man.md), [Thế kỷ 20](thoi-ky/the-ky-20.md), [Đương đại](duong-dai.md). Xem cả [dòng thời gian](dong-thoi-gian.md) và [Nhạc truyền thống Việt Nam và nhạc cổ điển](nhac-truyen-thong-viet-nam.md).
+Các mốc năm dưới đây là quy ước gần đúng; phong cách thay đổi dần dần chứ không đổi trong một đêm. Mỗi thời kỳ có một trang chi tiết (bối cảnh, âm thanh đặc trưng, nhạc cụ, 10 tác phẩm để nghe): [Trung cổ](thoi-ky/trung-co.md), [Phục hưng](thoi-ky/phuc-hung.md), [Baroque](thoi-ky/baroque.md), [Cổ điển](thoi-ky/co-dien.md), [Lãng mạn](thoi-ky/lang-man.md), [Thế kỷ 20](thoi-ky/the-ky-20.md). Thời Đương đại có trang [Âm nhạc hôm nay](duong-dai.md): những nhà soạn nhạc nên nghe, tin đáng chú ý, tên tuổi Việt Nam và các cuộc thi lớn. Xem cả [dòng thời gian](dong-thoi-gian.md) và [Nhạc truyền thống Việt Nam và nhạc cổ điển](nhac-truyen-thong-viet-nam.md).
 
 | Thời kỳ | Khoảng thời gian | Một câu tóm tắt |
 |---|---|---|
