@@ -36,6 +36,7 @@ npm test -- a11y           # chỉ chạy một nhóm: nhanh, trang-1, trang-2 h
 | `tests/counts.py` | Con số viết tay (số bài học, hướng dẫn nghe, bài nhạc lý, chặng, cuốn sách, công cụ...) bằng số thật đếm từ nav, thư mục, `BOOKS`, dữ liệu trong JavaScript; con số viết bằng chữ cũng được đọc. Mọi cụm "số + danh từ đếm" mới phải được đăng ký (`CLAIMS`) hoặc bỏ qua kèm lý do (`IGNORE`) |
 | `tests/levels.py` | Grade và chặng của từng bài học tác phẩm giống nhau ở mọi nơi: chip và dòng "Độ khó" trên trang, bảng mục lục, nhóm nav, Tác phẩm theo cấp độ (nơi quyết định chặng), `practice.js`, lộ trình, bảng thi cấp, sách in, link kèm "(chặng N)"; Grade hợp với chặng theo bảng quy đổi |
 | `tests/anchors.py` | Link nội bộ mà `mkdocs build --strict` không thấy: đường dẫn trang trong JavaScript (`plan.js`, `practice.js`...) và `href` trong HTML viết tay, kể cả phần `#mục`; file MP3 lưu trên site mà `data-rec` trỏ tới. Link Markdown tới một mục không có thì chính lệnh build báo (`validation.anchors` trong `mkdocs.yml`) |
+| `tools/audio/check_audio.py --static` | Bản thu: mỗi file trong `docs/assets/audio/` có dòng nguồn trong `NGUON.txt` và ngược lại; mọi `data-rec` đúng thứ tự khóa, giấy phép được nhận và link giấy phép khớp, mốc `ref` tăng dần và không nhiều hơn số dòng của bảng "Theo dõi khi nghe". Bản đầy đủ (không có `--static`, cần ffmpeg) đo thêm độ dài và đuôi từng file, chạy tay: xem `tools/audio/README.md` |
 | `tests/search.mjs` | Tìm kiếm có dấu và không dấu ra đúng trang |
 | `tests/abc_bars.py` | Độ dài từng ô nhịp trong mọi khối ```abc (hiểu cả nốt hoa mỹ `{…}`, bè chồng `&` và liên ba `(p:q:r`) và các đoạn nhạc tổng hợp |
 | `tests/abc_warn.mjs` | Mọi khối ```abc đọc được bằng abcjs mà không có cảnh báo (ký hiệu abcjs không hiểu như `!ped!`, `!8va(!` sẽ bị báo); khối được chấp nhận có cảnh báo thì ghi vào `IGNORE` kèm lý do |
@@ -77,6 +78,7 @@ hooks/a11y.py             Vá nhỏ về trợ năng cho HTML của trang (ô đ
 hooks/redirects.py        Trang chuyển hướng cho địa chỉ cũ đã đổi chỗ hoặc đã gộp vào trang khác (biến REDIRECTS; đích có thể kèm #mục)
 hooks/meta.py             Mô tả ngắn cho từng trang; ảnh xem trước khi chia sẻ link nằm ở docs/assets/og.png
 tests/                    Kiểm thử tự động (npm test)
+tools/audio/              Bản thu: tìm trên Commons, chuyển mã bản IMSLP, ghi khối bản thu, kiểm tra, căn mốc (tools/audio/README.md)
 tools/figures.py          Sinh hình minh họa (SVG, sơ đồ cấu trúc) và chèn vào trang giữa <!-- fig:TÊN -->
 tools/keysigs.mjs         Vẽ sẵn 15 hóa biểu bằng abcjs (chạy: node tools/keysigs.mjs)
 tools/lighthouse/         Đo Lighthouse ba trang tại máy (máy chủ HTTP/2 có nén) hoặc trên site thật; cách đo ở plans/v15-do-luong.md

@@ -26,6 +26,7 @@ docs/
 └── sw.js           Service worker
 hooks/              search_vi.py (tìm không dấu), books.py (sách in, biến BOOKS), a11y.py,
                     redirects.py (địa chỉ cũ, biến REDIRECTS; đích có thể kèm #mục), meta.py (mô tả trang)
+tools/audio/        Bản thu: tìm trên Commons, chuyển mã bản IMSLP, ghi khối bản thu, kiểm tra, căn mốc (README trong thư mục)
 tools/figures.py    Sinh hình (sơ đồ cấu trúc...) chèn giữa <!-- fig:TÊN --> và <!-- /fig:TÊN -->
 tools/lighthouse/   Đo Lighthouse tại máy (serve.mjs: HTTP/2 có nén) và trên site thật (measure.mjs)
 tests/              Kiểm thử (npm test)
@@ -47,8 +48,9 @@ npm test -- nhanh                  # chạy một nhóm
 - Kiểm thử gọi `python3`: chạy trong venv đã kích hoạt (hoặc `PATH="$PWD/.venv/bin:$PATH" npm test`).
 - Đừng nâng MkDocs lên 2.x: Material không tương thích.
 - Thêm hoặc đổi tên nhóm kiểm thử thì sửa cả ma trận trong `.github/workflows/test.yml` (`tests/site_static.py` kiểm hai nơi khớp nhau).
-- Nhóm `nhanh` gồm: `unit.mjs`, `data.mjs`, `site_static.py` (sách in khớp nav, VERSION khớp nhau, precache, ma trận CI, font tự host), `counts.py` (con số viết tay, xem mục Con số viết tay), `levels.py` (Grade và chặng của bài học ở mọi nơi), `anchors.py` (link trong JavaScript, HTML viết tay và MP3 trong `data-rec`; cần `site/`), `search.mjs` (truy vấn có dấu và không dấu ra đúng trang), `extract-examples.mjs` + `abc_bars.py` (độ dài ô nhịp), `abc_warn.mjs` (cảnh báo của abcjs), `tools/figures.py --check` (hình khớp dữ liệu), `browser.mjs --flows`. Nhóm `trang-1`, `trang-2` mở từng trang đã build (không lỗi JS, mọi công cụ khởi tạo). Nhóm `a11y` chạy axe trên các trang trong `PAGES` của `tests/a11y.mjs`.
+- Nhóm `nhanh` gồm: `unit.mjs`, `data.mjs`, `site_static.py` (sách in khớp nav, VERSION khớp nhau, precache, ma trận CI, font tự host), `counts.py` (con số viết tay, xem mục Con số viết tay), `levels.py` (Grade và chặng của bài học ở mọi nơi), `anchors.py` (link trong JavaScript, HTML viết tay và MP3 trong `data-rec`; cần `site/`), `tools/audio/check_audio.py --static` (`NGUON.txt` và mọi `data-rec`: thứ tự khóa, giấy phép, mốc), `search.mjs` (truy vấn có dấu và không dấu ra đúng trang), `extract-examples.mjs` + `abc_bars.py` (độ dài ô nhịp), `abc_warn.mjs` (cảnh báo của abcjs), `tools/figures.py --check` (hình khớp dữ liệu), `browser.mjs --flows`. Nhóm `trang-1`, `trang-2` mở từng trang đã build (không lỗi JS, mọi công cụ khởi tạo). Nhóm `a11y` chạy axe trên các trang trong `PAGES` của `tests/a11y.mjs`.
 - Sửa nhiều JS/CSS thì tăng `VERSION` ở **cả** `docs/sw.js` và `docs/assets/js/loader.js`.
+- Thêm hoặc sửa bản thu thì chạy thêm `python3 tools/audio/check_audio.py` (cần ffmpeg; đo độ dài và đuôi từng file lưu trên site) và `--network` (đối chiếu với Commons).
 - Thêm công cụ JS mới: file trong `docs/assets/js/`, đăng ký bằng `(window.OZReady || function (f) { document.addEventListener("DOMContentLoaded", f); })(init);` và thêm quy tắc vào `RULES` trong `loader.js`; thêm lớp vào `TOOL_CLASSES` trong `tests/browser.mjs`. Công cụ ở xa màn hình chỉ được tải khi người đọc cuộn tới gần; công cụ phải chạy ngay (lưu, hiện trạng thái người học) thì thêm vào `NOW` trong `loader.js`; công cụ có nhiều khối trên một trang thì khởi tạo từng khối bằng `OZLoader.whenNear(el, fn)`, như `abc.js`.
 
 ## Cách làm việc
@@ -172,6 +174,7 @@ Tiêu đề `## Theo dõi khi nghe` phải viết đúng như vậy (ở cả b�
     - `parts`: mảng phần `{t: tên phần (khi có nhiều phần), mp3: URL hoặc đường dẫn tương đối, src: file gốc (tùy chọn), d: độ dài tính bằng giây}`; thời gian tính liền qua các phần theo `d`;
     - `ref`: mốc tham khảo, mỗi phần tử là số giây hoặc `null`, theo thứ tự các dòng của bảng "Theo dõi khi nghe"; bỏ các `null` ở cuối. **Mốc phải đúng hoặc bỏ trống**: chỉ ghi khi đã căn và đối chiếu (lệch không quá 2 giây).
     - File lưu trên site nằm trong `docs/assets/audio/`; từ trang `piano/tac-pham/<slug>/` đường dẫn là `../../../assets/audio/<file>.mp3`.
+    - Đừng sửa khối này bằng tay: `tools/audio/attach.py` ghi khối (đúng thứ tự khóa, đúng cách escape, kiểm giấy phép và mốc trước khi ghi); `tools/audio/align/run.py --write` ghi mốc. Quy trình đầy đủ: `tools/audio/README.md`.
 - **Hình:** `<!-- fig:TÊN -->` và `<!-- /fig:TÊN -->` trên hai dòng riêng; định nghĩa trong `tools/figures.py`, ví dụ `"p-ten": form_map("Chú thích.", [("Nhãn", "chữ nhỏ", trọng số, "loại"), ...], "ghi chú tùy chọn"),`; loại: `a`, `b`, `c` (tương phản), `dev` (phát triển, không ổn định), `cad` (kết, âm nền), `coda`, `intro`, `x`; trọng số gần đúng theo số ô nhịp hoặc thời lượng; tiền tố `p-` cho bài học, `g-` cho hướng dẫn nghe. Rồi chạy `python3 tools/figures.py`.
 - **Công cụ nhúng** (tự tải theo nhu cầu, dùng tiết kiệm): `<div class="oz-piano" data-range="C3-C5" data-notes="C4 E4 G4" data-play="chord"></div>`, `<div class="oz-metronome"></div>`; danh sách lớp ở README, mục "Viết bài mới".
 
@@ -180,7 +183,7 @@ Tiêu đề `## Theo dõi khi nghe` phải viết đúng như vậy (ở cả b�
 - [ ] Kiểm tra bản quyền (mục Bản quyền) và tìm bản thu hợp lệ **trước khi viết**; không có bản thu thì báo trong báo cáo.
 - [ ] Trang `docs/piano/tac-pham/<slug>.md` theo mẫu; trích đoạn thật đã đối chiếu; bài tập chuẩn bị soạn riêng.
 - [ ] Hình `p-<tên>` trong `tools/figures.py`, chạy `python3 tools/figures.py`.
-- [ ] Bản thu (`data-rec`) và mốc tham khảo.
+- [ ] Bản thu (`data-rec`) và mốc tham khảo, theo quy trình trong `tools/audio/README.md`.
 - [ ] Cấp độ giống nhau ở mọi nơi: chip `oz-chip--level` và dòng "Độ khó"; bảng ở `docs/piano/tac-pham/index.md` ("Grade X (chặng N)"); nhóm nav trong `mkdocs.yml`; mục chặng trong `docs/piano/tac-pham-theo-cap.md`; `SUGGEST` trong `docs/assets/js/practice.js` (nếu đưa vào gợi ý); hàng "Tác phẩm" ở `docs/piano/lo-trinh.md` (nếu có); bảng Grade ↔ chặng ở `docs/piano/thay-va-thi.md` (nếu có); cuốn `piano-tac-pham` trong `hooks/books.py`, đúng thứ tự chặng. `tests/levels.py` kiểm các nơi này; chặng do `docs/piano/tac-pham-theo-cap.md` quyết định.
 - [ ] Mục "Chọn bài theo mục tiêu" ở `docs/piano/tac-pham/index.md` nếu bài hợp một con đường kỹ năng.
 - [ ] Con số "34 bài học" ở mọi nơi: `tests/counts.py` chỉ ra từng chỗ (xem mục Con số viết tay).
