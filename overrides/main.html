@@ -38,6 +38,10 @@
       });
     })();
   </script>
+  {#- Nạp trước font của màn hình đầu (chữ thường và tiêu đề, bộ latin và vietnamese) để chữ hiện đúng font ngay lần vẽ đầu -#}
+  {%- for f in ["be-vietnam-pro-400-normal-latin", "be-vietnam-pro-400-normal-vietnamese", "literata-600-normal-latin", "literata-600-normal-vietnamese"] %}
+  <link rel="preload" href="{{ ('assets/fonts/' ~ f ~ '.woff2') | url }}" as="font" type="font/woff2" crossorigin>
+  {%- endfor %}
   <link rel="manifest" href="{{ 'manifest.webmanifest' | url }}">
   <meta name="theme-color" content="#1f3a5f">
   <link rel="apple-touch-icon" href="{{ 'assets/icons/icon-192.png' | url }}">

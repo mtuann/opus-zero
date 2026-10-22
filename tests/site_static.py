@@ -10,7 +10,8 @@
 6. Ma trận nhóm trong .github/workflows/test.yml khớp với các nhóm trong tests/run.mjs
    (thêm nhóm mà quên ma trận thì CI âm thầm bỏ qua nhóm đó).
 7. Font tự host: không còn chỗ nào tải font từ Google Fonts (mkdocs.yml, overrides, hooks, docs/assets),
-   và mọi url() trong docs/assets/fonts/fonts.css trỏ tới file có thật.
+   mọi url() trong docs/assets/fonts/fonts.css và mọi font được nạp trước trong overrides/main.html
+   trỏ tới file có thật.
 """
 import importlib.util
 import re
@@ -100,6 +101,11 @@ fonts_css = (ROOT / "docs/assets/fonts/fonts.css").read_text(encoding="utf-8")
 for u in re.findall(r'url\("?([^")]+)"?\)', fonts_css):
     if not (ROOT / "docs/assets/fonts" / u).exists():
         fail("docs/assets/fonts/fonts.css dùng %s nhưng file không có" % u)
+main_html = (ROOT / "overrides/main.html").read_text(encoding="utf-8")
+preload = re.search(r'\{%-? for f in \[([^\]]*)\]', main_html)
+for name in re.findall(r'"([\w-]+)"', preload.group(1)) if preload else []:
+    if not (ROOT / "docs/assets/fonts" / (name + ".woff2")).exists():
+        fail("overrides/main.html nạp trước font %s.woff2 nhưng file không có" % name)
 
 print("site_static: %d kiểm tra, %d lỗi" % (7, len(fails)))
 sys.exit(1 if fails else 0)
