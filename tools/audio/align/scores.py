@@ -4,10 +4,14 @@ Nguồn: MIDI (piano-midi.de, Mutopia), ASAP (MIDI kèm chú thích phách và �
 bảng nốt DCML (TSV). File nằm trong scores/ của bộ nhớ đệm (xem fetch.py và sources.json).
 
 Chỉ số ô nhịp trong code là thứ tự ô trong nguồn, bắt đầu từ 0 (có phần lẻ cho vị trí giữa ô: 8.5 là giữa ô
-thứ 9 của nguồn). Nguồn có nhịp lấy đà thì ô 0 là nhịp lấy đà; với kern, MEI, MusicXML, DCML, số ô in trên bản
-nhạc nằm trong Score.labels. Dùng explore.py bars để xem nội dung từng ô trước khi ghi cấu hình.
+thứ 9 của nguồn). Nguồn có nhịp lấy đà thì ô 0 là nhịp lấy đà. Kết 1, kết 2 cũng là những ô riêng, nên chỉ số
+ô có thể lệch dần so với số ô in. Với kern, MEI, MusicXML, DCML, số ô in trên bản nhạc nằm trong Score.labels
+(chuỗi rỗng khi ô không có số: nhịp lấy đà, kết 2...); MIDI và ASAP không có số ô in. Kern không mở dấu nhắc lại:
+dòng *>[A,A,B,B...] trong file cho biết thứ tự chơi các đoạn, nối bằng segs. Dùng explore.py bars để xem nội dung
+từng ô trước khi ghi cấu hình.
 """
 import csv
+import os
 import sys
 import warnings
 from fractions import Fraction
@@ -23,7 +27,7 @@ class Score:
     def __init__(self, notes, bars, labels=None):
         self.notes = np.asarray(notes, float)              # (giây bắt đầu, giây kết thúc, cao độ MIDI, lực bấm)
         self.bars = np.asarray(bars, float)                # giây bắt đầu từng ô, theo thứ tự trong nguồn
-        self.labels = list(labels) if labels is not None else list(range(len(bars)))
+        self.labels = [str(x) for x in labels] if labels is not None else [""] * len(bars)
 
     def t(self, barf):
         """Giây ứng với vị trí ô nhịp (chỉ số trong nguồn, có phần lẻ)."""
@@ -124,7 +128,7 @@ def asap(prefix):
 def _from_quarters(on_q, du_q, pitch, mq, labels, qpm, tempi=None):
     """Nốt và ô nhịp tính bằng phách đen -> Score theo giây. tempi: [(nhãn ô, qpm)] đổi tốc độ từ ô đó."""
     on_q, du_q = np.asarray(on_q, float), np.asarray(du_q, float)
-    segs = [(mq[0], qpm)] + [(mq[labels.index(bar)], q) for bar, q in (tempi or [])]
+    segs = [(mq[0], qpm)] + [(mq[[str(x) for x in labels].index(str(bar))], q) for bar, q in (tempi or [])]
     segs.sort()
 
     def q2s(q):
@@ -149,7 +153,8 @@ def _partitura(score, qpm, tempi):
     ms = list(part.iter_all(pt.score.Measure))
     on_q = na["onset_quarter"] if "onset_quarter" in na.dtype.names else qmap(na["onset_div"])
     du_q = na["duration_quarter"] if "duration_quarter" in na.dtype.names else qmap(na["onset_div"] + na["duration_div"]) - on_q
-    return _from_quarters(on_q, du_q, na["pitch"], [float(qmap(m.start.t)) for m in ms], [m.number for m in ms], qpm, tempi)
+    names = ["" if getattr(m, "name", None) in (None, "") else str(m.name) for m in ms]   # số ô in (number là thứ tự)
+    return _from_quarters(on_q, du_q, na["pitch"], [float(qmap(m.start.t)) for m in ms], names, qpm, tempi)
 
 
 def kern(name, qpm=80.0, tempi=None):
@@ -178,7 +183,7 @@ def dcml(stem, qpm=60.0, tempi=None):
     on = [float(Fraction(r["quarterbeats"])) for r in keep]
     du = [float(Fraction(r["duration_qb"])) for r in keep]
     pitch = np.array([int(r["midi"]) for r in keep])
-    return _from_quarters(on, du, pitch, [float(Fraction(m["quarterbeats"])) for m in meas], [int(m["mn"]) for m in meas], qpm, tempi)
+    return _from_quarters(on, du, pitch, [float(Fraction(m["quarterbeats"])) for m in meas], [m["mn"] for m in meas], qpm, tempi)
 
 
 # ---------------------------------------------------------------- nối đoạn (nhắc lại)
@@ -202,9 +207,43 @@ def expand(score, segs):
     return np.vstack(out), pos
 
 
+def concat(parts):
+    """Nối nhiều bản nhạc liền nhau (ví dụ chủ đề và từng biến tấu nằm ở các file riêng) thành một Score.
+    Ô trống ở cuối mỗi file (vạch kết) bị bỏ; chỉ số ô của file sau nối tiếp file trước."""
+    notes, bars, labels, t0 = [], [], [], 0.0
+    for sc in parts:
+        end = sc.notes[:, 1].max()
+        keep = [i for i, b in enumerate(sc.bars) if b < end - 1e-6]
+        n = sc.notes.copy()
+        n[:, :2] += t0
+        notes.append(n)
+        bars += [sc.bars[i] + t0 for i in keep]
+        labels += [sc.labels[i] for i in keep]
+        t0 += end
+    return Score(np.vstack(notes), bars, labels)
+
+
+KINDS = {".mid": "midi", ".midi": "midi", ".krn": "kern", ".mei": "mei", ".musicxml": "musicxml", ".xml": "musicxml", ".mxl": "musicxml"}
+
+
+def kind(src):
+    """Cách đọc suy từ tên file: asap_… (ASAP), dcml_… (DCML), đuôi .mid, .krn, .mei, .musicxml/.xml/.mxl."""
+    if src.startswith("asap_"):
+        return "asap"
+    if src.startswith("dcml_"):
+        return "dcml"
+    k = KINDS.get(os.path.splitext(src)[1].lower())
+    if not k:
+        raise SystemExit("không biết đọc %s: ghi read=... (midi, asap, kern, mei, musicxml, dcml, hand)" % src)
+    return k
+
+
 def load(spec):
-    """Score từ mô tả nguồn trong pieces.py: dict(src=tên file hoặc tiền tố, read=cách đọc, qpm=..., tempi=...)."""
-    read = spec.get("read") or ("asap" if spec["src"].startswith("asap_") else "midi")
+    """Score từ mô tả nguồn trong pieces.py: dict(src=tên file hoặc tiền tố, read=cách đọc, qpm=..., tempi=...),
+    hoặc dict(join=[mô tả, mô tả...]) để nối nhiều file liền nhau."""
+    if spec.get("join"):
+        return concat([load(s) for s in spec["join"]])
+    read = spec.get("read") or kind(spec["src"])
     if read == "hand":
         import hand
         return getattr(hand, spec["src"])(spec.get("qpm"))

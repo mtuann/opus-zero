@@ -12,9 +12,11 @@ Kiểm:
    (licenses.py); mỗi phần có mp3 và d; ref là số giây hoặc null, tăng dần, không dài hơn bảng "Theo dõi khi nghe".
 3. File lưu trên site: d khớp độ dài file (lệch không quá 0,5 giây); 0,25 giây cuối không to hơn −50 dBFS
    (bắt lỗi cắt cụt đuôi khi nhạc còn to).
-4. Khi có file gốc trong _imslp/ (theo link nguồn IMSLP ở NGUON.txt): so với file gốc, file trên site không được
-   dừng trước khi tiếng tắt (dưới −60 dBFS), và phải giữ ít nhất 3 giây sau đó nếu file gốc có. Phép kiểm này bắt
-   được lỗi của script cũ (cắt theo ngưỡng −45 dB, mất tiếng ngân ở mức khoảng −60 dBFS) mà ngưỡng −50 dBFS bỏ sót.
+4. Khi có file gốc trong _imslp/ (theo link nguồn IMSLP ở NGUON.txt): so với file gốc, file trên site dừng trước
+   khi tiếng tắt (dưới −60 dBFS) là lỗi. Phép kiểm này bắt được lỗi của script cũ (cắt theo ngưỡng −45 dB, mất
+   tiếng ngân ở mức khoảng −60 dBFS) mà ngưỡng −50 dBFS bỏ sót. Tiếng đã tắt nhưng giữ ít hơn 3 giây khoảng lặng
+   sau đó (trong khi file gốc có) thì chỉ in "chú ý": không nghe thấy khác biệt; transcode.py giữ đủ 3 giây.
+   Số "cắt đầu" in ra với -v là --start của transcode.py khi chuyển mã lại mà giữ nguyên mốc.
    File gốc không có trên máy (ví dụ trong CI) thì bỏ qua.
 5. --network: file trên Commons còn đó, độ dài khớp d, giấy phép trên Commons vẫn là giấy phép ghi trên trang.
 Bản đầy đủ không chạy trong npm test (cần ffmpeg, và --network cần mạng); npm test chạy --static.

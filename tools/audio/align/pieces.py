@@ -1,18 +1,23 @@
 """Cấu hình căn mốc cho từng trang có bản thu gợi ý (đã dùng để tính ref hiện có trên trang, v13–v14).
 
-PIECES[tên] = dict(page="đường dẫn trong docs/", jobs=[...]). Mỗi job căn một phần của bản thu:
-- part: chỉ số phần trong parts của data-rec (mặc định 0).
-- src, read, qpm, tempi: nguồn bản nhạc (tên file trong sources.json; read mặc định là "asap" với tiền tố asap_,
-  còn lại "midi"; kern, mei, musicxml, dcml cần qpm: tốc độ danh nghĩa, phách đen mỗi phút; "hand" là bản chép tay
-  trong hand.py). Không có src: các dòng trong rows là thời điểm cố định (giây trong phần), đã đo tay, hoặc
-  "start": lúc có tiếng đầu tiên của phần (dòng ứng với đầu một chương, một bài trong tập).
+PIECES[tên] = dict(page="đường dẫn trong docs/", jobs=[...]). Mỗi job căn trọn một phần của bản thu: bản nhạc
+(sau segs, join) phải phủ mọi thứ phần đó chơi, từ nốt đầu tới nốt cuối.
+- part: chỉ số phần trong parts của data-rec (từ 0, mặc định 0).
+- src, read, qpm, tempi: nguồn bản nhạc: tên file trong sources.json. read thường đoán được từ tên (asap_…, dcml_…,
+  .mid, .krn, .mei, .musicxml); "hand" là bản chép tay trong hand.py. kern, mei, musicxml, dcml cần qpm: tốc độ
+  danh nghĩa, phách đen mỗi phút (chỉ để dựng bản nhạc, bộ căn tự kéo cho bằng bản thu).
+- join: [dict(src=...), dict(src=...)] thay cho src: nối nhiều file liền nhau (chủ đề và từng biến tấu ở file riêng);
+  chỉ số ô chạy liền qua các file (xem explore.py bars a b ...).
+- Không có src hay join: các dòng trong rows là thời điểm cố định (giây trong phần), đã đo tay.
 - segs: [(từ ô, đến ô)] nối các đoạn theo thứ tự bản thu chơi (dấu nhắc lại, đoạn bỏ qua); chỉ số ô trong nguồn.
-- rows: {số thứ tự dòng của bảng "Theo dõi khi nghe" (từ 0): vị trí}. Vị trí là chỉ số ô trong nguồn (có phần lẻ:
-  8.667 là phách 3 của ô 3/4 thứ 9 trong nguồn), 'first' (nốt đầu tiên), hoặc (đoạn, chỉ số ô) khi có segs.
-- anchors: [(vị trí, giây trong bản thu)] mốc neo đã biết chắc (đo trên phổ): căn từng khúc giữa các mốc neo.
-- fix: {dòng: giây} giá trị đã kiểm tra tay trên phổ (khởi âm từng cao độ), dùng thay cho kết quả căn.
+- rows: {số thứ tự dòng của bảng "Theo dõi khi nghe", tính từ 0 (run.py in từ 1): vị trí}. Vị trí là chỉ số ô trong
+  nguồn (có phần lẻ: 8.667 là phách 3 của ô 3/4 có chỉ số 8), 'first' (nốt đầu tiên), (đoạn, chỉ số ô) khi có
+  segs, hoặc "start": lúc có tiếng đầu tiên của phần (dòng ứng với đầu một chương, một bài trong tập).
+- anchors: [(vị trí, giây trong phần)] mốc neo đã biết chắc (đo trên phổ): căn từng khúc giữa các mốc neo.
+- fix: {dòng: giây trong phần} giá trị đã kiểm tra tay trên phổ (khởi âm từng cao độ), dùng thay cho kết quả căn.
 - check: nguồn bản nhạc thứ hai (độc lập) để đối chiếu, dạng dict(src=..., read=..., qpm=..., segs=..., rows={...}).
 - wpitch, band: tham số căn (mặc định 0,6 và không giới hạn).
+Giây trong anchors, fix và mốc cố định tính trong phần; run.py cộng độ dài các phần trước để ra ref.
 Ghi chú bên phải: số ô trên bản nhạc in, hoặc cách đã đo mốc cố định.
 """
 BACH846 = dict(src="asap_Bach_Prelude_bwv_846")

@@ -5,6 +5,7 @@
 In sai số (giây) của từng biến thể tham số: trung bình |sai số|, lớn nhất, số mốc lệch quá 1 giây.
 Mỗi mục: trang, phần, nguồn bản nhạc (như job trong pieces.py), {vị trí: giây đúng trong bản thu}.
 """
+import argparse
 import sys
 from pathlib import Path
 
@@ -30,6 +31,7 @@ GRID = [(c, w) for c in (0.0, 1.5, 3.0) for w in (0.0, 0.4)]
 
 
 def main():
+    argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter).parse_args()
     cases = []
     for rel, part, spec, truth in TRUTH:
         md = page.md_path(rel)

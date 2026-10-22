@@ -2,15 +2,22 @@
 
     python3 tools/audio/commons.py search "Chopin nocturne op 9" [--limit 20]
     python3 tools/audio/commons.py info "File:FurElise.ogg" ["File:..." ...]
+    python3 tools/audio/commons.py page "File:FurElise.ogg"
     python3 tools/audio/commons.py rec --by "Người chơi" "File:A.ogg" "File:B.ogg" --t "I. Allegro" --t "II. Adagio"
 
 search: liệt kê file âm thanh khớp truy vấn, kèm độ dài, giấy phép (✓ được nhận, ✗ không) và có MP3 chuyển mã chưa.
+        Mặc định 20 kết quả; chạm giới hạn thì tăng --limit hoặc đổi truy vấn (tên tác phẩm, số danh mục, người chơi).
 info: thông tin đầy đủ của từng file (giấy phép, link giấy phép, trang mô tả, người chơi, MP3 chuyển mã, file gốc).
+      "artist" của Commons nhiều khi là nhà soạn nhạc, không phải người chơi: đọc trang mô tả.
+page: nội dung (wikitext) của trang mô tả file: mẫu giấy phép, mô tả, người chơi, ngày thu, nguồn, ghi chú.
 rec: in JSON của khối bản thu (by, note, lic, licUrl, page, parts) cho các file đã chọn, theo đúng thứ tự phần,
      để đưa vào attach.py (--json). Báo lỗi nếu một file không có MP3, giấy phép không được nhận, hoặc các file
      khác giấy phép nhau.
+--fresh: hỏi lại Commons, không dùng câu trả lời đã lưu (nên dùng khi chốt giấy phép).
 
-Đọc giấy phép trên trang mô tả của từng file trước khi dùng: extmetadata của API là bản tóm tắt.
+Dấu ✓ chỉ nói giấy phép ghi trên Commons thuộc danh sách được nhận. Nó không cho biết file là người chơi thật hay
+nhạc dựng từ MIDI ("synthesized"), thu năm nào (bản thu xuất bản ở Mỹ 1923–1946 còn bảo hộ 100 năm), có chơi trọn
+tác phẩm không. Đọc trang mô tả (lệnh page) và nghe thử trước khi chọn.
 """
 import argparse
 import json
@@ -31,9 +38,12 @@ PROPS = {
 }
 
 
+FRESH = False                       # --fresh: không dùng câu trả lời đã lưu
+
+
 def api(**params):
     params.update(format="json", formatversion="2")
-    return net.get_json(API + "?" + urllib.parse.urlencode(params))
+    return net.get_json(API + "?" + urllib.parse.urlencode(params), cache=not FRESH)
 
 
 def text(v):
@@ -97,6 +107,14 @@ def files(names):
     return [found.get(n, {"title": n, "missing": True}) for n in names]
 
 
+def wikitext(name):
+    """Wikitext của trang mô tả file (chuỗi rỗng nếu không có)."""
+    d = api(action="query", titles=title(name), prop="revisions", rvprop="content", rvslots="main", redirects="1")
+    pages = d.get("query", {}).get("pages", [])
+    revs = pages[0].get("revisions") if pages else None
+    return revs[0]["slots"]["main"]["content"] if revs else ""
+
+
 def search(query, limit=20):
     d = api(action="query", generator="search", gsrnamespace="6", gsrlimit=str(limit), gsrsearch="filetype:audio " + query, **PROPS)
     return sorted((row(p) for p in d.get("query", {}).get("pages", [])), key=lambda r: r["title"])
@@ -132,16 +150,26 @@ def main():
     s.add_argument("--limit", type=int, default=20)
     i = sub.add_parser("info", help="thông tin từng file")
     i.add_argument("names", nargs="+")
+    w = sub.add_parser("page", help="nội dung trang mô tả file")
+    w.add_argument("name")
     r = sub.add_parser("rec", help="JSON khối bản thu cho attach.py")
     r.add_argument("names", nargs="+")
     r.add_argument("--by", required=True, help="người chơi, ghi như trên trang")
     r.add_argument("--note", default="", help="ghi chú, ví dụ 'file dừng ở khoảng 6:24'")
     r.add_argument("--t", action="append", default=[], help="tên phần, theo thứ tự file (khi có nhiều phần)")
+    ap.add_argument("--fresh", action="store_true", help="hỏi lại Commons, không dùng câu trả lời đã lưu")
     a = ap.parse_args()
+    global FRESH
+    FRESH = a.fresh
     if a.cmd == "search":
-        for x in search(a.query, a.limit):
+        found = search(a.query, a.limit)
+        for x in found:
             mark = "✓" if x["ok"] else "✗"
             print("- %s | %4.0f s | %s %s | %s | mp3: %s" % (x["title"][5:], x["d"], mark, x["lic_raw"] or "?", x["artist"][:40], "có" if x["mp3"] else "không"))
+        if len(found) >= a.limit:
+            print("(đủ %d kết quả: có thể còn nữa, tăng --limit hoặc đổi truy vấn)" % a.limit)
+    elif a.cmd == "page":
+        print(wikitext(a.name) or "không có trang %s" % title(a.name))
     elif a.cmd == "info":
         for x in files(a.names):
             print(json.dumps(x, ensure_ascii=False, indent=1))

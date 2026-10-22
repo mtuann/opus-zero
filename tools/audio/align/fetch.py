@@ -4,6 +4,13 @@
     python3 tools/audio/align/fetch.py cpm_elise.mid ...     # một vài file
     python3 tools/audio/align/fetch.py --from _imslp/_scripts/align/src   # chép từ thư mục có sẵn trước khi tải
     python3 tools/audio/align/fetch.py --status              # file nào đã có, file nào còn thiếu
+    python3 tools/audio/align/fetch.py --add kern_sonata11-3.krn --set kernscores-mozart \\
+        --url https://raw.githubusercontent.com/craigsapp/mozart-piano-sonatas/<commit>/kern/sonata11-3.krn
+                                                             # thêm một nguồn: tải, tính sha256, ghi sources.json
+
+Đặt tên file theo bộ: asap_<Tác giả>_<Tác phẩm>_<số>_midi_score.mid (kèm _midi_score_annotations.txt), cpm_<tên>.mid
+(piano-midi.de), kern_<tên>.krn, mutopia_<tên>.mid, dcml_<tên>.notes.tsv và .measures.tsv; MEI, MusicXML giữ tên gốc.
+--add với file đã tải tay (site chặn tải tự động): thêm --file <đường dẫn> --manual.
 
 Mỗi file phải khớp sha256 ghi trong sources.json (đúng bản đã dùng để căn mốc hiện có). File "manual" (site chặn
 tải tự động hoặc tạm ngừng) thì tải tay bằng trình duyệt từ link in ra, đặt vào thư mục scores/ với đúng tên.
@@ -27,12 +34,47 @@ def sha256(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 
+def add(a):
+    if a.add in SOURCES:
+        sys.exit("%s đã có trong sources.json" % a.add)
+    if not (a.url and a.dataset):
+        sys.exit("--add cần --url và --set")
+    dest = net.cache_dir("scores")
+    if a.file:
+        data = Path(a.file).read_bytes()
+    elif a.manual:
+        sys.exit("nguồn tải tay: tải bằng trình duyệt rồi chạy lại với --file <đường dẫn>")
+    else:
+        data = net.download(a.url, dest / (a.add + ".new")).read_bytes()
+        (dest / (a.add + ".new")).unlink()
+    entry = {"set": a.dataset, "url": a.url, "sha256": hashlib.sha256(data).hexdigest()}
+    if a.manual:
+        entry["manual"] = True
+    if a.note:
+        entry["note"] = a.note
+    (dest / a.add).write_bytes(data)
+    SOURCES[a.add] = entry
+    (HERE / "sources.json").write_text(json.dumps(dict(sorted(SOURCES.items())), ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print("đã thêm %s (sha256 %s) vào sources.json và chép vào %s" % (a.add, entry["sha256"], dest))
+    if a.dataset not in {v["set"] for k, v in SOURCES.items() if k != a.add}:
+        print("bộ %r mới: thêm nguồn và giấy phép vào align/NGUON.md" % a.dataset)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("names", nargs="*", help="tên file trong sources.json (bỏ trống: tất cả)")
     ap.add_argument("--from", dest="mirror", help="thư mục có sẵn các file cùng tên (chỉ nhận file đúng sha256)")
     ap.add_argument("--status", action="store_true")
+    ap.add_argument("--add", metavar="TÊN", help="thêm một file vào sources.json (cần --url, --set)")
+    ap.add_argument("--url", help="link tải (GitHub: ghim theo commit)")
+    ap.add_argument("--set", dest="dataset", help="tên bộ dữ liệu, như trong NGUON.md (thêm dòng mới vào NGUON.md nếu là bộ mới)")
+    ap.add_argument("--file", help="lấy nội dung từ file này thay vì tải (file đã tải tay)")
+    ap.add_argument("--manual", action="store_true", help="đánh dấu phải tải tay")
+    ap.add_argument("--note", help="ghi chú cho người tải sau")
     a = ap.parse_args()
+    if a.add:
+        add(a)
+        return
     unknown = [n for n in a.names if n not in SOURCES]
     if unknown:
         sys.exit("không có trong sources.json: " + ", ".join(unknown))

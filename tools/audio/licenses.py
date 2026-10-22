@@ -92,6 +92,8 @@ def check(lic, lic_url):
 
 
 if __name__ == "__main__":
+    if len(sys.argv) < 2 or sys.argv[1] in ("-h", "--help"):
+        sys.exit(__doc__)
     for arg in sys.argv[1:]:
         try:
             print("%s -> %s %s" % (arg, *parse(arg)))

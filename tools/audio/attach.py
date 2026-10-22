@@ -6,7 +6,7 @@
 
     # bản thu lưu trên site (sau transcode.py): mỗi --part là JSON một phần, theo thứ tự
     python3 tools/audio/attach.py docs/piano/tac-pham/x.md --by "Luis Kolodin" --lic "CC BY-SA 4.0" \\
-        --page "https://imslp.org/wiki/File:...mp3" --part '{"mp3":"../../../assets/audio/x.mp3","d":87.88}'
+        --source "https://imslp.org/wiki/File:...mp3" --part '{"mp3":"../../../assets/audio/x.mp3","d":87.88}'
 
     # chỉ ghi mốc tham khảo (giây hoặc null, theo thứ tự các dòng của bảng "Theo dõi khi nghe")
     python3 tools/audio/attach.py docs/piano/tac-pham/x.md --ref "1,13,null,33"

@@ -45,7 +45,17 @@ def positions(sc, segs):
 
 def at(notes, pos, spec):
     seg, b = spec if isinstance(spec, tuple) else (0, spec)
-    return notes[:, 0].min() if b == "first" else pos(seg, b)
+    if b == "first":
+        return notes[:, 0].min()
+    if not isinstance(b, (int, float)):
+        raise SystemExit("vị trí không hợp lệ: %r (cần số ô, 'first', (đoạn, số ô); 'start' chỉ dùng như một dòng riêng)" % (spec,))
+    return pos(seg, b)
+
+
+def first_sound(audio):
+    """Giây có tiếng đầu tiên của một phần bản thu (mức trên mức 95% trừ 30 dB)."""
+    p = core.Params()
+    return core.first_last_sound(core.audio_feat(audio, p), p.fps)[0]
 
 
 def align_job(job, audio, verbose=True):
@@ -78,17 +88,22 @@ def run(name, plot=None, verbose=True):
     res, detail = {}, {}
     for job in cfg["jobs"]:
         part = job.get("part", 0)
-        if "src" not in job:
-            for r, v in job["rows"].items():
-                if v == "start":
-                    p = core.Params()
-                    v = core.first_last_sound(core.audio_feat(audio_for(md, rec["parts"][part]), p), p.fps)[0]
-                    detail[r] = "tiếng đầu tiên của phần %d: %.2f s" % (part + 1, v)
-                else:
-                    detail[r] = "đo tay"
-                res[r] = offs[part] + v
+        if part >= len(rec["parts"]):
+            raise SystemExit("%s: job có part=%d nhưng bản thu chỉ có %d phần" % (name, part, len(rec["parts"])))
+        aligned = "src" in job or "join" in job
+        rows_to_align = {r: v for r, v in job["rows"].items() if v != "start"} if aligned else {}
+        audio = audio_for(md, rec["parts"][part]) if rows_to_align or "start" in job["rows"].values() else None
+        for r, v in job["rows"].items():               # dòng là thời điểm cố định hoặc đầu phần, không cần căn
+            if v == "start":
+                v = first_sound(audio)
+                detail[r] = "tiếng đầu tiên của phần %d: %.2f s" % (part + 1, v)
+            elif not aligned:
+                detail[r] = "đo tay"
+            else:
+                continue
+            res[r] = offs[part] + v
+        if not rows_to_align:
             continue
-        audio = audio_for(md, rec["parts"][part])
         notes, pos, V = align_job(job, audio)
         info = V[1][2]
         if verbose:
@@ -102,7 +117,7 @@ def run(name, plot=None, verbose=True):
             for r, spec in chk["rows"].items():
                 alt[r] = float(V2[1][1](at(n2, pos2, spec)))
         marks, flagged = [], []
-        for r, spec in job["rows"].items():
+        for r, spec in rows_to_align.items():
             vals = [float(f(at(notes, pos, spec))) for _, f, _ in V]
             gap, t = min((abs(a - b), (a + b) / 2) for a, b in itertools.combinations(vals, 2))
             ok = gap <= TOL
