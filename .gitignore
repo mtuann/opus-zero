@@ -9,3 +9,6 @@ tests/.examples.json
 
 # Bản thu IMSLP tải về bằng tay (nguồn để chuyển mã vào docs/assets/audio)
 _imslp/
+
+# Môi trường riêng cho công cụ căn mốc (tools/audio/requirements.txt)
+.venv-audio/
