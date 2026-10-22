@@ -23,7 +23,9 @@ Rachmaninoff là nghệ sĩ piano với đôi bàn tay rất lớn; những hợ
 
 ## Nghe kèm bản thu
 
-<div class="oz-listen"></div>
+Bản thu dưới đây ghi một buổi hòa nhạc của **Skidmore College Orchestra** do **Anthony Holland** chỉ huy, được Musopen phát hành; người chơi piano không được ghi tên. Mỗi chương là một phần; sau khi chương III kết thúc, file còn tiếng vỗ tay và một bản piano độc tấu chơi thêm. Muốn nghe bản thu khác, dán link YouTube hoặc link file vào khung.
+
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Skidmore College Orchestra, Anthony Holland chỉ huy (Musopen)&quot;,&quot;note&quot;:&quot;không ghi tên người chơi piano; cuối file chương III còn tiếng vỗ tay và một bản bis&quot;,&quot;lic&quot;:&quot;phạm vi công cộng&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_-_piano_concerto_no._2_in_c_minor,_op._18_-_i._moderato.ogg&quot;,&quot;parts&quot;:[{&quot;t&quot;:&quot;I. Moderato&quot;,&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/6/63/Sergei_Rachmaninoff_-_piano_concerto_no._2_in_c_minor%2C_op._18_-_i._moderato.ogg/Sergei_Rachmaninoff_-_piano_concerto_no._2_in_c_minor%2C_op._18_-_i._moderato.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/6/63/Sergei_Rachmaninoff_-_piano_concerto_no._2_in_c_minor%2C_op._18_-_i._moderato.ogg&quot;,&quot;d&quot;:654.41},{&quot;t&quot;:&quot;II. Adagio sostenuto&quot;,&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a5/Sergei_Rachmaninoff_-_piano_concerto_no._2_in_c_minor%2C_op._18_-_ii._adagio_sostenuto.ogg/Sergei_Rachmaninoff_-_piano_concerto_no._2_in_c_minor%2C_op._18_-_ii._adagio_sostenuto.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/a/a5/Sergei_Rachmaninoff_-_piano_concerto_no._2_in_c_minor%2C_op._18_-_ii._adagio_sostenuto.ogg&quot;,&quot;d&quot;:664.1},{&quot;t&quot;:&quot;III. Allegro scherzando&quot;,&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/1/16/Sergei_Rachmaninoff_-_piano_concerto_no._2_in_c_minor%2C_op._18_-_iii._allegro_scherzando.ogg/Sergei_Rachmaninoff_-_piano_concerto_no._2_in_c_minor%2C_op._18_-_iii._allegro_scherzando.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/1/16/Sergei_Rachmaninoff_-_piano_concerto_no._2_in_c_minor%2C_op._18_-_iii._allegro_scherzando.ogg&quot;,&quot;d&quot;:1152.1}],&quot;ref&quot;:[1,null,null,null,654,1319]}"></div>
 
 ## Theo dõi khi nghe
 
@@ -51,3 +53,4 @@ Rachmaninoff là nghệ sĩ piano với đôi bàn tay rất lớn; những hợ
 
 - Tổng phổ: [IMSLP](https://imslp.org/) (tìm "Rachmaninoff Op.18").
 - Về thể loại: [Concerto và ritornello](../hinh-thuc/concerto.md).
+- Bản thu Musopen: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_-_piano_concerto_no._2_in_c_minor,_op._18_-_i._moderato.ogg); tên dàn nhạc và nhạc trưởng theo [trang tác phẩm trên IMSLP](https://imslp.org/wiki/Piano_Concerto_No.2,_Op.18_(Rachmaninoff,_Sergei)), nơi đăng cùng bản thu này.

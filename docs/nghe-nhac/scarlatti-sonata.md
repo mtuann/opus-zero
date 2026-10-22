@@ -35,7 +35,9 @@ Ba bản trong trang này có ba tính cách khác hẳn nhau:
 
 ## Nghe kèm bản thu
 
-<div class="oz-listen"></div>
+Bản thu dưới đây chỉ có **K. 380**, do **Raymond Smullyan** chơi trên piano. Ông không chơi các dấu nhắc lại, nên dòng "nửa đầu được nhắc lại" trong bảng không có mốc. Muốn nghe K. 141 và K. 466, dán link YouTube hoặc link file của một bản thu khác vào khung.
+
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Raymond Smullyan&quot;,&quot;note&quot;:&quot;chỉ có Sonata K. 380, chơi trên piano, không chơi các dấu nhắc lại&quot;,&quot;lic&quot;:&quot;CC BY-SA 2.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by-sa/2.0&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Scarlatti_Sonata_E_Major_K380.ogg&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6e/Scarlatti_Sonata_E_Major_K380.ogg/Scarlatti_Sonata_E_Major_K380.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/6/6e/Scarlatti_Sonata_E_Major_K380.ogg&quot;,&quot;d&quot;:180.33}],&quot;ref&quot;:[0,null,null,88]}"></div>
 
 ## Theo dõi khi nghe
 
@@ -80,4 +82,5 @@ Sonata Scarlatti là những "bài kỹ thuật có hồn" tuyệt vời cho ng�
 - Bản nhạc: [IMSLP](https://imslp.org/) (tìm "Scarlatti Keyboard Sonata K.380", "K.141", "K.466").
 - Ralph Kirkpatrick, *Domenico Scarlatti* (Princeton University Press, 1953).
 - Malcolm Boyd, *Domenico Scarlatti: Master of Music* (1986).
+- Bản thu K. 380 của Raymond Smullyan: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Scarlatti_Sonata_E_Major_K380.ogg), từ bộ sưu tập Al Goldstein (Pandora Music).
 - Grove Music Online. Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

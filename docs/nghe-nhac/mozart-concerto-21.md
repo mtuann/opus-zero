@@ -35,7 +35,9 @@ Ba chương theo khuôn mẫu **nhanh – chậm – nhanh** của [concerto C�
 
 ## Nghe kèm bản thu
 
-<div class="oz-listen"></div>
+Bản thu dưới đây chỉ có **chương 3**, do **Giorgi Latsabidze** chơi piano cùng Hsinchu Chamber Orchestra (Đài Loan), **David L. Wen** chỉ huy, thu năm 2011. Muốn nghe chương 1 và 2, dán link YouTube hoặc link file của một bản thu khác vào khung.
+
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Giorgi Latsabidze (piano), Hsinchu Chamber Orchestra, David L. Wen chỉ huy&quot;,&quot;note&quot;:&quot;chỉ có chương 3, thu năm 2011&quot;,&quot;lic&quot;:&quot;CC BY-SA 3.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by-sa/3.0&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Mozart_Piano_Concerto_N_21_in_C_major,_K._467_(3rd_movement).oga&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3a/Mozart_Piano_Concerto_N_21_in_C_major%2C_K._467_%283rd_movement%29.oga/Mozart_Piano_Concerto_N_21_in_C_major%2C_K._467_%283rd_movement%29.oga.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/3/3a/Mozart_Piano_Concerto_N_21_in_C_major%2C_K._467_%283rd_movement%29.oga&quot;,&quot;d&quot;:482.83}],&quot;ref&quot;:[null,null,null,null,null,null,null,null,4]}"></div>
 
 ## Theo dõi khi nghe
 
@@ -83,4 +85,5 @@ Concerto Mozart là mục tiêu của trình độ **nâng cao**. Chương 2 kh�
 - Danh mục Köchel trực tuyến của Mozarteum Salzburg ([kv.mozarteum.at](https://kv.mozarteum.at/)): ngày hoàn thành, các cadenza thất lạc.
 - Norbert Gertsch, lời tựa tổng phổ K. 467 (Breitkopf & Härtel, 2007): ngày 9 và 10/3/1785; bản thảo lưu ở Thư viện Morgan, New York.
 - Arthur Hutchings, *A Companion to Mozart's Piano Concertos* (Oxford University Press, 1948); Charles Rosen, *The Classical Style* (1971).
+- Bản thu chương 3 của Giorgi Latsabidze: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mozart_Piano_Concerto_N_21_in_C_major,_K._467_(3rd_movement).oga).
 - Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

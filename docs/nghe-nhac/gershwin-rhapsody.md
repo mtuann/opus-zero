@@ -19,7 +19,9 @@ Tác phẩm là một dòng chảy liền mạch (đúng nghĩa "rhapsody": phó
 
 ## Nghe kèm bản thu
 
-<div class="oz-listen"></div>
+Bản thu dưới đây là bản thu đầu tiên của tác phẩm: chính **George Gershwin** chơi piano cùng dàn nhạc của **Paul Whiteman**, ngày 10/6/1924, cho hãng Victor. Để vừa hai mặt một đĩa hát thời đó, tác phẩm được rút gọn còn khoảng 9 phút; hết mặt thứ nhất, công cụ tự chuyển sang mặt thứ hai. Muốn nghe bản đầy đủ, dán link YouTube hoặc link file vào khung.
+
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;George Gershwin (piano), Paul Whiteman Concert Orchestra, Paul Whiteman chỉ huy&quot;,&quot;note&quot;:&quot;thu ngày 10/6/1924 cho hãng Victor, bản rút gọn trên hai mặt đĩa&quot;,&quot;lic&quot;:&quot;phạm vi công cộng&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Paul_Whiteman_Concert_Orchestra_-_Rhapsody_in_Blue_Part_01.mp3&quot;,&quot;parts&quot;:[{&quot;t&quot;:&quot;Phần 1&quot;,&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/c/cb/Paul_Whiteman_Concert_Orchestra_-_Rhapsody_in_Blue_Part_01.mp3&quot;,&quot;d&quot;:261.09},{&quot;t&quot;:&quot;Phần 2&quot;,&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/b/be/Paul_Whiteman_Concert_Orchestra_-_Rhapsody_in_Blue_Part_02.mp3&quot;,&quot;d&quot;:272.88}],&quot;ref&quot;:[1]}"></div>
 
 ## Theo dõi khi nghe
 
@@ -49,4 +51,5 @@ Ghi lại thời điểm (phút:giây) bạn nghe thấy từng sự kiện tron
 ## Nguồn
 
 - Bản nhạc và tổng phổ: [IMSLP](https://imslp.org/) (tìm "Rhapsody in Blue").
+- Bản thu năm 1924: [Library of Congress, National Jukebox](https://www.loc.gov/item/jukebox-70342/) (Victor 55225, thu ngày 10/6/1924; [mặt thứ hai](https://www.loc.gov/item/jukebox-70335/)); file trên [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Paul_Whiteman_Concert_Orchestra_-_Rhapsody_in_Blue_Part_01.mp3).
 - Bối cảnh lịch sử: Burkholder, Grout, Palisca, *A History of Western Music*; Grove Music Online. Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

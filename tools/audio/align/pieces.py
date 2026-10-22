@@ -203,4 +203,21 @@ PIECES = {
     "grieg-arietta": dict(page="piano/tac-pham/grieg-arietta.md", jobs=[
         dict(src="dcml_op12n01", read="dcml", qpm=60, rows={0: "first", 1: 4, 2: 8, 3: 10, 4: 12, 5: 16, 6: 18, 7: 22},
              fix={7: 76.8})]),  # 7: Sol5 lặp của chủ đề ở 76,7 s, bè trầm Mi♭3 ở 77,2 s
+
+    # Hướng dẫn nghe nhạc piano, bản thu thêm ở v15 (G4b). Chưa có bản nhạc số đáng tin cho các tác phẩm có dàn nhạc:
+    # chỉ ghi các dòng ứng với đầu một chương ("start"); dòng giữa chương để trống.
+    # Smullyan chỉ chơi K. 380 và không chơi dấu nhắc lại: hợp âm Si trưởng khép nửa đầu ở 85,9 s, tắt hẳn ở 87,25 s;
+    # nửa sau vào ở 87,5 s (khởi âm đầu tiên sau khoảng lặng)
+    "scarlatti-sonata": dict(page="nghe-nhac/scarlatti-sonata.md", jobs=[dict(rows={0: "start", 3: 87.5})]),
+    # chỉ có chương 3. Bốn giây đầu file là tiếng ồn nền (khoảng −50 dBFS) nên "start" bắt nhầm ở 0,1 s; theo phổ,
+    # Đô trưởng vào ở 4,0 s (to rõ từ 5,0 s)
+    "mozart-concerto-21": dict(page="nghe-nhac/mozart-concerto-21.md", jobs=[dict(rows={8: 4.0})]),
+    # chương II: tám giây đầu là tiếng ồn nền (khoảng −64 dBFS), "start" bắt nhầm ở 1,1 s; dây câm tiếng vào ở 8,5 s
+    # (hợp âm Rê♭ trưởng)
+    "grieg-concerto": dict(page="nghe-nhac/grieg-concerto.md", jobs=[
+        dict(part=0, rows={0: "start"}), dict(part=1, rows={6: 8.5}), dict(part=2, rows={8: "start"})]),
+    "rachmaninoff-2": dict(page="nghe-nhac/rachmaninoff-2.md", jobs=[
+        dict(part=0, rows={0: "start"}), dict(part=1, rows={4: "start"}), dict(part=2, rows={5: "start"})]),
+    # mặt thứ nhất: 0,7 giây đầu chỉ có tiếng rè của đĩa, clarinet vào ở 0,75 s
+    "gershwin-rhapsody": dict(page="nghe-nhac/gershwin-rhapsody.md", jobs=[dict(part=0, rows={0: 0.75})]),
 }

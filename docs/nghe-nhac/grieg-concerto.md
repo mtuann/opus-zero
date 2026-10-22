@@ -33,7 +33,9 @@ Chương cuối mang nhịp điệu **halling**, điệu nhảy dân gian của 
 
 ## Nghe kèm bản thu
 
-<div class="oz-listen"></div>
+Bản thu dưới đây do **Neal O'Doan** chơi piano cùng **University of Washington Symphony**, **Peter Erős** chỉ huy. Mỗi chương là một phần; hết phần này, công cụ tự chuyển sang phần sau. Muốn nghe bản thu khác, dán link YouTube hoặc link file vào khung.
+
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Neal O&#x27;Doan (piano), University of Washington Symphony, Peter Erős chỉ huy&quot;,&quot;lic&quot;:&quot;CC BY-SA 2.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by-sa/2.0&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Edvard_Grieg_-_Concerto_in_A_minor,_1st_movement.ogg&quot;,&quot;parts&quot;:[{&quot;t&quot;:&quot;I. Allegro molto moderato&quot;,&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3a/Edvard_Grieg_-_Concerto_in_A_minor%2C_1st_movement.ogg/Edvard_Grieg_-_Concerto_in_A_minor%2C_1st_movement.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/3/3a/Edvard_Grieg_-_Concerto_in_A_minor%2C_1st_movement.ogg&quot;,&quot;d&quot;:763.59},{&quot;t&quot;:&quot;II. Adagio&quot;,&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/6/61/Edvard_Grieg_-_Concerto_in_A_minor%2C_2nd_movement.ogg/Edvard_Grieg_-_Concerto_in_A_minor%2C_2nd_movement.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/6/61/Edvard_Grieg_-_Concerto_in_A_minor%2C_2nd_movement.ogg&quot;,&quot;d&quot;:390.61},{&quot;t&quot;:&quot;III. Allegro moderato molto e marcato&quot;,&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/8/85/Edvard_Grieg_-_Concerto_in_A_minor%2C_3rd_movement.ogg/Edvard_Grieg_-_Concerto_in_A_minor%2C_3rd_movement.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/8/85/Edvard_Grieg_-_Concerto_in_A_minor%2C_3rd_movement.ogg&quot;,&quot;d&quot;:615.53}],&quot;ref&quot;:[3,null,null,null,null,null,772,null,1157]}"></div>
 
 ## Theo dõi khi nghe
 
@@ -82,4 +84,5 @@ Concerto này thuộc trình độ **biểu diễn chuyên nghiệp**: hợp âm
 
 - Bản nhạc: [IMSLP](https://imslp.org/) (tìm "Piano Concerto, Op.16 (Grieg, Edvard)"), có cả bản rút gọn cho hai đàn piano.
 - Finn Benestad và Dag Schjelderup-Ebbe, *Edvard Grieg: The Man and the Artist* (1988).
+- Bản thu Neal O'Doan và University of Washington Symphony: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Edvard_Grieg_-_Concerto_in_A_minor,_1st_movement.ogg), từ bộ sưu tập Al Goldstein (Pandora Music).
 - Grove Music Online. Xem [Concerto và ritornello](../hinh-thuc/concerto.md) và [tài liệu tham khảo](../tai-lieu-tham-khao.md).
