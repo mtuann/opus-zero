@@ -79,6 +79,7 @@ hooks/meta.py             Mô tả ngắn cho từng trang; ảnh xem trước k
 tests/                    Kiểm thử tự động (npm test)
 tools/figures.py          Sinh hình minh họa (SVG, sơ đồ cấu trúc) và chèn vào trang giữa <!-- fig:TÊN -->
 tools/keysigs.mjs         Vẽ sẵn 15 hóa biểu bằng abcjs (chạy: node tools/keysigs.mjs)
+tools/lighthouse/         Đo Lighthouse ba trang tại máy (máy chủ HTTP/2 có nén) hoặc trên site thật; cách đo ở plans/v15-do-luong.md
 ```
 
 ## JavaScript

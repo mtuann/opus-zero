@@ -27,6 +27,7 @@ docs/
 hooks/              search_vi.py (tìm không dấu), books.py (sách in, biến BOOKS), a11y.py,
                     redirects.py (địa chỉ cũ, biến REDIRECTS; đích có thể kèm #mục), meta.py (mô tả trang)
 tools/figures.py    Sinh hình (sơ đồ cấu trúc...) chèn giữa <!-- fig:TÊN --> và <!-- /fig:TÊN -->
+tools/lighthouse/   Đo Lighthouse tại máy (serve.mjs: HTTP/2 có nén) và trên site thật (measure.mjs)
 tests/              Kiểm thử (npm test)
 plans/              Kế hoạch và báo cáo của từng phiên bản
 overrides/main.html Phần <head> thêm vào theme (kể cả đoạn hoãn tải chỉ mục tìm kiếm)
