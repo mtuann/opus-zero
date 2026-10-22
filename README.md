@@ -31,7 +31,7 @@ npm test -- a11y           # chỉ chạy một nhóm: nhanh, trang-1, trang-2 h
 | `tests/data.mjs` | Gộp dữ liệu sao lưu: 300 cặp dữ liệu ngẫu nhiên, kiểm tra không mất dữ liệu, gộp nhiều lần không nhân đôi, thứ tự gộp không đổi kết quả |
 | `tests/unit.mjs` | Hàm thuần: tên nốt, gam, hợp âm, chấm cao độ và nhịp, kế hoạch học, sinh bài tập |
 | `tests/browser.mjs` | Mở từng trang đã build như trình duyệt thật: không lỗi JavaScript, mọi khuông nhạc và công cụ khởi tạo, không tải script thừa; thử đàn MIDI ảo, micro ảo, bàn phím |
-| `tests/a11y.mjs` | Khả năng tiếp cận (axe-core) trên 41 trang tiêu biểu |
+| `tests/a11y.mjs` | Khả năng tiếp cận (axe-core) trên 41 trang tiêu biểu (phần bài viết; trang chủ kiểm cả đầu trang và hộp tìm kiếm) |
 | `tests/site_static.py` | Kiểm tra tĩnh: khối mermaid có quy tắc tải, sách "Hướng dẫn nghe" khớp nav, VERSION của sw.js và loader.js khớp nhau, nhóm kiểm thử trong `tests/run.mjs` khớp ma trận CI, font tự host (không tải từ Google Fonts) |
 | `tests/counts.py` | Con số viết tay (số bài học, hướng dẫn nghe, bài nhạc lý, chặng, cuốn sách, công cụ...) bằng số thật đếm từ nav, thư mục, `BOOKS`, dữ liệu trong JavaScript; con số viết bằng chữ cũng được đọc. Mọi cụm "số + danh từ đếm" mới phải được đăng ký (`CLAIMS`) hoặc bỏ qua kèm lý do (`IGNORE`) |
 | `tests/levels.py` | Grade và chặng của từng bài học tác phẩm giống nhau ở mọi nơi: chip và dòng "Độ khó" trên trang, bảng mục lục, nhóm nav, Tác phẩm theo cấp độ (nơi quyết định chặng), `practice.js`, lộ trình, bảng thi cấp, sách in, link kèm "(chặng N)"; Grade hợp với chặng theo bảng quy đổi |
@@ -73,7 +73,7 @@ docs/
 overrides/main.html       Thêm vào <head>: manifest, màu chủ đề, thẻ chia sẻ link; hoãn tải chỉ mục tìm kiếm tới khi cần
 hooks/search_vi.py        Tìm kiếm tiếng Việt không dấu
 hooks/books.py            Tạo các sách in được (site/sach/*.html); danh sách chương ở biến BOOKS
-hooks/a11y.py             Vá nhỏ về trợ năng cho HTML sinh từ Markdown (ô đánh dấu của danh sách việc)
+hooks/a11y.py             Vá nhỏ về trợ năng cho HTML của trang (ô đánh dấu của danh sách việc, tên của hộp tìm kiếm)
 hooks/redirects.py        Trang chuyển hướng cho địa chỉ cũ đã đổi chỗ hoặc đã gộp vào trang khác (biến REDIRECTS; đích có thể kèm #mục)
 hooks/meta.py             Mô tả ngắn cho từng trang; ảnh xem trước khi chia sẻ link nằm ở docs/assets/og.png
 tests/                    Kiểm thử tự động (npm test)

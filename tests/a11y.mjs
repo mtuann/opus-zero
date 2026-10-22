@@ -27,7 +27,9 @@ const PAGES = ["index.html", "nhac-ly/02-khuong-nhac-khoa/index.html", "nhac-ly/
   "luyen-tap/hat-lai/index.html", "luyen-tai/nghe-quang/index.html", "nghe-nhac/debussy-preludes/index.html"];
 let total = 0;
 const seen = {};
-for (const rel of PAGES) {
+/* Mỗi trang trong PAGES kiểm phần bài viết (article); riêng trang chủ kiểm thêm cả trang (đầu trang, hộp tìm kiếm, mục lục…) */
+const RUNS = [...PAGES.map((rel) => [rel, "article"]), ["index.html", "toàn trang"]];
+for (const [rel, scope] of RUNS) {
   const vc = new VirtualConsole();
   const dom = new JSDOM(fs.readFileSync(path.join(SITE, rel), "utf8"), { url: ORIGIN + rel.replace(/index\.html$/, ""), runScripts: "dangerously", resources: new Loader(), pretendToBeVisual: true, virtualConsole: vc,
     beforeParse(w) { w.OZ_EAGER = true; /* vẽ hết, không chờ tới gần màn hình */ try { w.localStorage.setItem("opus-zero:listen-ref", JSON.stringify({ "/opus-zero/piano/tac-pham/fur-elise/": 1 })); } catch (e) { /* bỏ qua */ } /* bật mốc tham khảo để kiểm tra cả các nút ấy */ w.AudioContext = function () { this.currentTime = 0; const n = () => ({ connect: (x) => x || n(), gain: { value: 0, setValueAtTime() {}, exponentialRampToValueAtTime() {} }, start() {}, stop() {}, frequency: { value: 0 } }); this.createGain = n; this.createOscillator = n; this.destination = {}; this.resume = () => {}; }; } });
@@ -36,15 +38,15 @@ for (const rel of PAGES) {
   if (dom.window.OZLoader) await Promise.race([dom.window.OZLoader.done, new Promise((r) => setTimeout(r, 5000))]);
   await new Promise((r) => setTimeout(r, 20));
   dom.window.eval(AXE);
-  const res = await dom.window.axe.run(dom.window.document.querySelector("article") || dom.window.document, {
+  const res = await dom.window.axe.run(scope === "article" ? dom.window.document.querySelector("article") || dom.window.document : dom.window.document, {
     rules: { "color-contrast": { enabled: false }, "target-size": { enabled: false }, "region": { enabled: false } } });
   for (const v of res.violations) {
     const key = v.id;
     seen[key] = seen[key] || { help: v.help, impact: v.impact, pages: new Set(), sample: v.nodes[0] && v.nodes[0].html.slice(0, 120) };
-    seen[key].pages.add(rel); total += v.nodes.length;
+    seen[key].pages.add(rel + (scope === "article" ? "" : " (" + scope + ")")); total += v.nodes.length;
   }
   dom.window.close();
 }
 for (const [id, v] of Object.entries(seen)) console.log(`✗ [${v.impact}] ${id}: ${v.help} — ${v.pages.size} trang, ví dụ: ${v.sample}`);
-console.log(`a11y: ${PAGES.length} trang, ${Object.keys(seen).length} loại vi phạm, ${total} phần tử`);
+console.log(`a11y: ${PAGES.length} trang (cả toàn trang chủ), ${Object.keys(seen).length} loại vi phạm, ${total} phần tử`);
 process.exit(total ? 1 : 0);

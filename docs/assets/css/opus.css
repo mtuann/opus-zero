@@ -45,6 +45,15 @@
 .md-typeset h1 { color: var(--md-default-fg-color); }
 .md-typeset { line-height: 1.7; }
 .md-typeset p, .md-typeset li { max-width: 72ch; }
+/* Link trong bài có gạch chân, để không chỉ phân biệt với chữ quanh nó bằng màu (trợ năng, quy tắc link-in-text-block);
+   trừ các link trông như nút. Khi in vẫn bỏ gạch chân (xem @media print). */
+@media screen {
+  .md-content .md-typeset a:not(.md-button):not(.headerlink):not(.md-content__button):not(.oz-btn):not(.md-tag) {
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+    text-decoration-thickness: from-font;
+  }
+}
 
 
 /* ---------- Home hero: tiêu đề nằm trên khuông nhạc ---------- */
