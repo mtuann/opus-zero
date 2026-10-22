@@ -209,6 +209,51 @@
   "url": "https://raw.githubusercontent.com/craigsapp/chopin-preludes/f8fb01f09d717e84929fb8b2950f96dd6bc05686/kern/prelude28-04.krn",
   "sha256": "5ba3baadd5496df84c96dda950c7f14b600cb27bf05dd1acbad697b326c93718"
  },
+ "kern_sonata11-1a.krn": {
+  "set": "kernscores-mozart",
+  "url": "https://raw.githubusercontent.com/craigsapp/mozart-piano-sonatas/0f1f49d914494f8461709b2a2642153bb240c6da/kern/sonata11-1a.krn",
+  "sha256": "593d88a82f330289d3b393ff0d478e2785c6d2fe78cc0539935bc8c872a1db47"
+ },
+ "kern_sonata11-1b.krn": {
+  "set": "kernscores-mozart",
+  "url": "https://raw.githubusercontent.com/craigsapp/mozart-piano-sonatas/0f1f49d914494f8461709b2a2642153bb240c6da/kern/sonata11-1b.krn",
+  "sha256": "f005aba5e71c432413c67742c6965b218743fc6011c266e93406acc982affc15"
+ },
+ "kern_sonata11-1c.krn": {
+  "set": "kernscores-mozart",
+  "url": "https://raw.githubusercontent.com/craigsapp/mozart-piano-sonatas/0f1f49d914494f8461709b2a2642153bb240c6da/kern/sonata11-1c.krn",
+  "sha256": "ca9b15972570ec1258f50b3a62dcc9e285dddd67b8a7b9142e6387cbdd71d586"
+ },
+ "kern_sonata11-1d.krn": {
+  "set": "kernscores-mozart",
+  "url": "https://raw.githubusercontent.com/craigsapp/mozart-piano-sonatas/0f1f49d914494f8461709b2a2642153bb240c6da/kern/sonata11-1d.krn",
+  "sha256": "b5ce104cdc5bb732e44ba1714a6dadfcdca16b91309c0500e55867fcd65d1d82"
+ },
+ "kern_sonata11-1e.krn": {
+  "set": "kernscores-mozart",
+  "url": "https://raw.githubusercontent.com/craigsapp/mozart-piano-sonatas/0f1f49d914494f8461709b2a2642153bb240c6da/kern/sonata11-1e.krn",
+  "sha256": "b44821687c458ca31ebbdf80e85cd4afe923745efbf2694098c9fde88ec5d2d0"
+ },
+ "kern_sonata11-1f.krn": {
+  "set": "kernscores-mozart",
+  "url": "https://raw.githubusercontent.com/craigsapp/mozart-piano-sonatas/0f1f49d914494f8461709b2a2642153bb240c6da/kern/sonata11-1f.krn",
+  "sha256": "fcac6b9355814ef75b1507481bc0584ac2e3b7f7135a5cf1fd71a6edb3e1bc5b"
+ },
+ "kern_sonata11-1g.krn": {
+  "set": "kernscores-mozart",
+  "url": "https://raw.githubusercontent.com/craigsapp/mozart-piano-sonatas/0f1f49d914494f8461709b2a2642153bb240c6da/kern/sonata11-1g.krn",
+  "sha256": "9837fa240104d84a81e4c550442fbc4120ddd17333db08f4593c86fc9fbbc36f"
+ },
+ "kern_sonata11-2.krn": {
+  "set": "kernscores-mozart",
+  "url": "https://raw.githubusercontent.com/craigsapp/mozart-piano-sonatas/0f1f49d914494f8461709b2a2642153bb240c6da/kern/sonata11-2.krn",
+  "sha256": "a5c8edf672aa9225bad827692714b44c623b6e8f7f45e8fa8b1cf45c4a4425f3"
+ },
+ "kern_sonata11-3.krn": {
+  "set": "kernscores-mozart",
+  "url": "https://raw.githubusercontent.com/craigsapp/mozart-piano-sonatas/0f1f49d914494f8461709b2a2642153bb240c6da/kern/sonata11-3.krn",
+  "sha256": "20986000444bfce93da6f23daf65663dfee20f25d2988c8e7635e29eb91bb0ab"
+ },
  "kern_sonata14-1.krn": {
   "set": "kernscores-beethoven",
   "url": "https://raw.githubusercontent.com/craigsapp/beethoven-piano-sonatas/2d6627b8a2b085145b2be48e640fbb993771542b/kern/sonata14-1.krn",
@@ -248,6 +293,60 @@
   "url": "https://www.mutopiaproject.org/ftp/BurgmullerJFF/O100/25EF-02/25EF-02.mid",
   "sha256": "9b689a9b3f178e7bb2b5899d0559e223e9d8de7081d83fc087760ac2b4d378e1",
   "ly": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/BurgmullerJFF/O100/25EF-02/25EF-02.ly"
+ },
+ "mutopia_KV331_1_1_tema.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV331/KV331_1_1_tema/KV331_1_1_tema.mid",
+  "sha256": "028e017fe5030fa982d906b649c578e4e853473b8cb6b987410ed4edfc00c884",
+  "ly": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/MozartWA/KV331/KV331_1_1_tema/KV331_1_1_tema.ly"
+ },
+ "mutopia_KV331_1_2_var1.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV331/KV331_1_2_var1/KV331_1_2_var1.mid",
+  "sha256": "aad71ccf4760824bdaa7bfa3f0bfb3a58599e984185bc8f42141a3f4aa9c4a42",
+  "ly": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/MozartWA/KV331/KV331_1_2_var1/KV331_1_2_var1.ly"
+ },
+ "mutopia_KV331_1_3_var2.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV331/KV331_1_3_var2/KV331_1_3_var2.mid",
+  "sha256": "bf7ffc2309bac344c7d4c7f7df381208e4e86a5b83eddf3e77d0fddb71d2b44f",
+  "ly": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/MozartWA/KV331/KV331_1_3_var2/KV331_1_3_var2.ly"
+ },
+ "mutopia_KV331_1_4_var3.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV331/KV331_1_4_var3/KV331_1_4_var3.mid",
+  "sha256": "e0508deea94473736c415682d955b75cc4c14549b56004e8b6bb8b483ca9dee5",
+  "ly": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/MozartWA/KV331/KV331_1_4_var3/KV331_1_4_var3.ly"
+ },
+ "mutopia_KV331_1_5_var4.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV331/KV331_1_5_var4/KV331_1_5_var4.mid",
+  "sha256": "15302b5c84575d75b51cf88aca037557bd4ba011b43ad497b34475ee6cc10617",
+  "ly": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/MozartWA/KV331/KV331_1_5_var4/KV331_1_5_var4.ly"
+ },
+ "mutopia_KV331_1_6_var5.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV331/KV331_1_6_var5/KV331_1_6_var5.mid",
+  "sha256": "8fd0e380891de8e47613db901828f659bfbb7edd589ed38fa393f062f0032a41",
+  "ly": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/MozartWA/KV331/KV331_1_6_var5/KV331_1_6_var5.ly"
+ },
+ "mutopia_KV331_1_7_var6.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV331/KV331_1_7_var6/KV331_1_7_var6.mid",
+  "sha256": "09fa40ff4b70bbc742807f05fef993f4c15f910660c4d950bccebae2201fff17",
+  "ly": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/MozartWA/KV331/KV331_1_7_var6/KV331_1_7_var6.ly"
+ },
+ "mutopia_KV331_2_1_menuetto.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV331/KV331_2_1_menuetto/KV331_2_1_menuetto.mid",
+  "sha256": "3ba1912acb167ad527e964ecfaee4acb448baf74589ef6b8b338e8cdb0f5a6c8",
+  "ly": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/MozartWA/KV331/KV331_2_1_menuetto/KV331_2_1_menuetto.ly"
+ },
+ "mutopia_KV331_3_RondoAllaTurca.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MozartWA/KV331/KV331_3_RondoAllaTurca/KV331_3_RondoAllaTurca.mid",
+  "sha256": "c14299cbdd34c8b2081da84dc06519ef8a52a0d589ee53c758d28b8e3d727d1c",
+  "ly": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/MozartWA/KV331/KV331_3_RondoAllaTurca/KV331_3_RondoAllaTurca-lys/KV331_3_RondoAllaTurca.ly"
  },
  "mutopia_MozartWA-KV525-mov-01.mid": {
   "set": "mutopia",
