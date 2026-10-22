@@ -24,6 +24,27 @@ Mục tiêu của v15, theo thứ tự:
 4. Gửi Claude tên nhánh và file báo cáo để review. Sửa xong mới gộp vào `main` và sang giai đoạn sau.
 5. Việc ghi "bạn quyết" chỉ giao cho agent sau khi bạn đã chọn (ghi lựa chọn ngay trong mục G7).
 
+## Tiến độ
+
+Cập nhật 22/10/2026.
+
+| Giai đoạn | Trạng thái | Báo cáo |
+|---|---|---|
+| G0. Sổ tay cho agent, kiểm tra ABC, mốc đo | Xong, đã review | `plans/bao-cao-v15/giai-doan-0.md` |
+| G1. Kiểm thử con số, cấp độ, anchor | Xong, đã review | `plans/bao-cao-v15/giai-doan-1.md` |
+| G2. Hiệu năng và trợ năng | Xong, đã review (G2.5 không làm) | `plans/bao-cao-v15/giai-doan-2.md` |
+| G3. Dọn trùng lặp còn lại | Xong, đã review | `plans/bao-cao-v15/giai-doan-3.md` |
+| G4a. Công cụ âm thanh | Xong, đã review | `plans/bao-cao-v15/giai-doan-4a.md` |
+| G4b, G5, G6, G7, G8 | Chưa làm | |
+
+Review của Claude cho G0–G4a: `plans/bao-cao-v15/review-g0-g4a.md`.
+
+Ghi chú từ các báo cáo cho giai đoạn sau:
+
+- G4b: các file K. 331 trên Commons phần lớn là nhạc dựng từ MIDI (các file "Variation…", bộ của Bernd Krueger): không dùng; bản Leonid Kreutzer phải xác định năm phát hành trước (xem báo cáo G4a, mục Ghi chú cho G4b). piano-midi.de chặn User-Agent của dự án và KernScores đang bảo trì: nguồn bản nhạc số lấy theo `tools/audio/align/sources.json` (`fetch.py --from _imslp/_scripts/align/src` cho file đã có).
+- G5: thêm bài luyện tai thứ sáu thì sửa "Lộ trình 5 bài" và "Sau 5 bài trên" (`tests/counts.py` báo).
+- G6: thêm bài học *Alla turca* thì số cặp bài học có hướng dẫn nghe cùng tác phẩm thành sáu: sửa đoạn "Năm bài học…" và danh sách link ở `docs/piano/tac-pham/index.md`.
+
 ## 1. Nhận xét nào đã xong, nào còn lại
 
 Một số nhận xét được viết trước commit `ed69d89`, nên đã được xử lý xong hoặc xử lý khác đi một chút. Bảng dưới đây là trạng thái thật để agent không làm lại.
