@@ -14,6 +14,7 @@ const GROUPS = {
     ["node", "tests/search.mjs"],
     ["node", "tests/extract-examples.mjs"],
     ["python3", "tests/abc_bars.py", "tests/.examples.json"],
+    ["node", "tests/abc_warn.mjs"],
     ["python3", "tools/figures.py", "--check"],
     ["node", "tests/browser.mjs", "--flows"],
   ],

@@ -35,6 +35,7 @@ npm test -- a11y           # chỉ chạy một nhóm: nhanh, trang-1, trang-2 h
 | `tests/site_static.py` | Kiểm tra tĩnh: khối mermaid có quy tắc tải, sách "Hướng dẫn nghe" khớp nav, VERSION của sw.js và loader.js khớp nhau, nhóm kiểm thử trong `tests/run.mjs` khớp ma trận CI |
 | `tests/search.mjs` | Tìm kiếm có dấu và không dấu ra đúng trang |
 | `tests/abc_bars.py` | Độ dài từng ô nhịp trong mọi khối ```abc (hiểu cả nốt hoa mỹ `{…}`, bè chồng `&` và liên ba `(p:q:r`) và các đoạn nhạc tổng hợp |
+| `tests/abc_warn.mjs` | Mọi khối ```abc đọc được bằng abcjs mà không có cảnh báo (ký hiệu abcjs không hiểu như `!ped!`, `!8va(!` sẽ bị báo); khối được chấp nhận có cảnh báo thì ghi vào `IGNORE` kèm lý do |
 
 GitHub Actions chạy toàn bộ kiểm thử **trước mỗi lần deploy**: nếu có lỗi, site không bị cập nhật. `.github/workflows/test.yml` chạy mỗi nhóm thành một job song song (môi trường chung ở `.github/actions/setup`); `deploy.yml` gọi lại workflow này, đồng thời build bản cho Pages, và chỉ deploy khi mọi nhóm đều đạt. Nhánh khác và pull request cũng được kiểm thử bằng `test.yml`.
 
