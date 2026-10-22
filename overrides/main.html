@@ -3,7 +3,8 @@
 {% block extrahead %}
   {#- Hoãn tải chỉ mục tìm kiếm (search/search_index.json, khoảng 1,2 MB khi nén). Bundle của Material gọi nó bằng
       XMLHttpRequest ngay khi khởi động; đoạn này (chạy trước bundle) giữ lời gọi send() của đúng yêu cầu đó tới khi
-      người đọc mở tìm kiếm, khi trang có ?h= (đến từ kết quả tìm kiếm), hoặc khi trang đã tải xong và trình duyệt rảnh.
+      người đọc mở tìm kiếm, khi trang có ?h= (đến từ kết quả tìm kiếm), hoặc khi trang đã tải xong được 2 giây và trình
+      duyệt rảnh (để chỉ mục không tranh đường truyền với phần hiển thị đầu tiên, kể cả chữ chờ font).
       Material chỉ tải chỉ mục một lần, kể cả khi chuyển trang bằng navigation.instant. -#}
   <script>
     (function () {
@@ -30,8 +31,10 @@
       }, true);
       if (/[?&]h=/.test(location.search)) release();
       window.addEventListener("load", function () {
-        if (window.requestIdleCallback) requestIdleCallback(release, { timeout: 5000 });
-        else setTimeout(release, 5000);
+        setTimeout(function () {
+          if (window.requestIdleCallback) requestIdleCallback(release, { timeout: 3000 });
+          else setTimeout(release, 3000);
+        }, 2000);
       });
     })();
   </script>
