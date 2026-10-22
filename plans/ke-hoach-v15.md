@@ -93,6 +93,7 @@ npm test                           # mọi nhóm: nhanh, trang-1, trang-2, a11y 
 - Không bịa năm, số danh mục, trích dẫn, bản thu (năm, hãng) hay con số. Không chắc thì kiểm chứng hoặc bỏ đi. Mỗi trang kết thúc bằng mục "## Nguồn" với nguồn thật.
 - Khuông nhạc (khối ```abc): chỉ chép tác phẩm thật khi đã đối chiếu từng nốt với nguồn công cộng (Mutopia, IMSLP) và ghi ấn bản trên trang. Không đối chiếu được thì soạn bài tập chuẩn bị và ghi "soạn cho trang này".
 - Bản quyền: tác phẩm còn bảo hộ thì không chép khuông nhạc, tên nốt của giai điệu hay lời. Bản thu chỉ nhận phạm vi công cộng, CC0, CC BY, CC BY-SA; không nhận NC, ND.
+- Giấy phép dùng cá nhân (chỉ để học và luyện tập) mà chủ site có với một số bài không cho phép đăng công khai. Repo và site đều công khai, nên tài liệu thuộc loại này chỉ để trong thư mục riêng ngoài git, không đưa vào `docs/`; chỗ nào cần chúng thì ghi vào báo cáo để chủ site tự xử lý.
 - Mạng: gửi User-Agent có link repo (`https://github.com/mtuann/opus-zero`), tôn trọng giới hạn tần suất (Wikimedia trả 429 khi gọi dồn). Không vượt cơ chế tải của IMSLP: bản thu IMSLP do bạn tải tay vào `_imslp/`.
 - Thêm, bớt hoặc đổi tên trang thì cập nhật: nav trong `mkdocs.yml`; `hooks/books.py` nếu trang thuộc một cuốn sách in; các trang mục lục liên quan; con số (kiểm thử G1 sẽ báo); `hooks/redirects.py` (biến `REDIRECTS`) nếu địa chỉ cũ đã tồn tại.
 
