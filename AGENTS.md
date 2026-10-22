@@ -29,7 +29,7 @@ hooks/              search_vi.py (tìm không dấu), books.py (sách in, biến
 tools/figures.py    Sinh hình (sơ đồ cấu trúc...) chèn giữa <!-- fig:TÊN --> và <!-- /fig:TÊN -->
 tests/              Kiểm thử (npm test)
 plans/              Kế hoạch và báo cáo của từng phiên bản
-overrides/main.html Phần <head> thêm vào theme
+overrides/main.html Phần <head> thêm vào theme (kể cả đoạn hoãn tải chỉ mục tìm kiếm)
 ```
 
 ## Môi trường, build và kiểm thử

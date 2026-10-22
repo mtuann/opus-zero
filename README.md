@@ -70,7 +70,7 @@ docs/
 ├── manifest.webmanifest  Cài như ứng dụng (PWA)
 ├── sw.js                 Service worker: dùng khi không có mạng
 └── assets/               CSS, JavaScript, icon
-overrides/main.html       Thêm manifest và màu chủ đề vào <head>
+overrides/main.html       Thêm vào <head>: manifest, màu chủ đề, thẻ chia sẻ link; hoãn tải chỉ mục tìm kiếm tới khi cần
 hooks/search_vi.py        Tìm kiếm tiếng Việt không dấu
 hooks/books.py            Tạo các sách in được (site/sach/*.html); danh sách chương ở biến BOOKS
 hooks/a11y.py             Vá nhỏ về trợ năng cho HTML sinh từ Markdown (ô đánh dấu của danh sách việc)

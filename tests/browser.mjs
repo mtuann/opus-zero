@@ -48,14 +48,16 @@ async function settle(w, extra) {
   if (done) await Promise.race([done, sleep(5000)]);
   await sleep(extra);
 }
-async function open(rel, extra = 20) {
+/* opts.query: thêm vào URL (ví dụ "?h=piano"); opts.before(w): chạy trước mọi script của trang */
+async function open(rel, extra = 20, opts = {}) {
   const html = fs.readFileSync(path.join(SITE, rel), "utf8");
   const errors = [], requested = [];
   const vc = new VirtualConsole();
   vc.on("jsdomError", (e) => { if (!/Not implemented|Could not load|Could not parse CSS/.test(e.message)) errors.push(e.message); });
   vc.on("error", (e) => errors.push(String(e && e.message || e)));
-  const dom = new JSDOM(html, { url: ORIGIN + rel.replace(/index\.html$/, ""), runScripts: "dangerously", resources: new Loader(), pretendToBeVisual: true, virtualConsole: vc,
+  const dom = new JSDOM(html, { url: ORIGIN + rel.replace(/index\.html$/, "") + (opts.query || ""), runScripts: "dangerously", resources: new Loader(), pretendToBeVisual: true, virtualConsole: vc,
     beforeParse(w) {
+      if (opts.before) opts.before(w);
       fakeAudio(w);
       for (const k in storage) w.localStorage.setItem(k, storage[k]);
       const orig = w.document.createElement.bind(w.document);
@@ -245,6 +247,26 @@ if (RUN_FLOWS) {
   if (good) good.click();
   check("thị tấu hai tay: tự chấm được ghi lại", box && /1 bài hai tay/.test(box.querySelector('[data-k="stats"]').textContent), box && box.querySelector('[data-k="stats"]').textContent);
   r.save(); r.close();
+}
+/* ---- Chỉ mục tìm kiếm chỉ được tải khi mở tìm kiếm, khi đến từ kết quả tìm kiếm (?h=) hoặc khi trang rảnh ---- */
+{
+  const fakeXHR = (sent) => (w) => {
+    w.XMLHttpRequest = function () {};
+    Object.assign(w.XMLHttpRequest.prototype, { open(m, u) { this.u = String(u); }, send() { sent.push(this.u); }, addEventListener() {}, setRequestHeader() {} });
+  };
+  const ask = (w, u) => { const x = new w.XMLHttpRequest(); x.open("GET", ORIGIN + u); x.send(); };
+  let sent = [];
+  let r = await open("index.html", 20, { before: fakeXHR(sent) });
+  ask(r.w, "search/search_index.json"); ask(r.w, "sitemap.xml");
+  check("tìm kiếm: chưa mở thì chưa gửi yêu cầu tải chỉ mục, yêu cầu khác vẫn đi qua", sent.length === 1 && /sitemap\.xml$/.test(sent[0]), sent.join(" "));
+  r.d.querySelector(".md-search__input").dispatchEvent(new r.w.FocusEvent("focusin", { bubbles: true }));
+  check("tìm kiếm: mở ô tìm kiếm thì gửi yêu cầu tải chỉ mục", sent.length === 2 && /search_index\.json$/.test(sent[1]), sent.join(" "));
+  r.close();
+  sent = [];
+  r = await open("index.html", 20, { before: fakeXHR(sent), query: "?h=piano" });
+  ask(r.w, "search/search_index.json");
+  check("tìm kiếm: đến từ kết quả tìm kiếm (?h=) thì tải chỉ mục ngay", sent.length === 1, sent.join(" "));
+  r.close();
 }
 /* ---- Sách in được ---- */
 for (const f of fs.readdirSync(path.join(SITE, "sach"))) {

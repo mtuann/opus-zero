@@ -1,6 +1,40 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
+  {#- Hoãn tải chỉ mục tìm kiếm (search/search_index.json, khoảng 1,2 MB khi nén). Bundle của Material gọi nó bằng
+      XMLHttpRequest ngay khi khởi động; đoạn này (chạy trước bundle) giữ lời gọi send() của đúng yêu cầu đó tới khi
+      người đọc mở tìm kiếm, khi trang có ?h= (đến từ kết quả tìm kiếm), hoặc khi trang đã tải xong và trình duyệt rảnh.
+      Material chỉ tải chỉ mục một lần, kể cả khi chuyển trang bằng navigation.instant. -#}
+  <script>
+    (function () {
+      var X = XMLHttpRequest.prototype, open = X.open, send = X.send, held = [], go = false;
+      function release() {
+        if (go) return;
+        go = true;
+        held.forEach(function (h) { send.apply(h[0], h[1]); });
+        held = [];
+      }
+      X.open = function (method, url) {
+        this._ozIndex = /\/search\/search_index\.json(?:[?#]|$)/.test(String(url));
+        return open.apply(this, arguments);
+      };
+      X.send = function () {
+        if (this._ozIndex && !go) { held.push([this, arguments]); return; }
+        return send.apply(this, arguments);
+      };
+      function inside(e, sel) { return e.target && e.target.closest && e.target.closest(sel); }
+      document.addEventListener("focusin", function (e) { if (inside(e, ".md-search")) release(); });
+      document.addEventListener("click", function (e) { if (inside(e, 'label[for="__search"]')) release(); }, true);
+      document.addEventListener("keydown", function (e) {
+        if (/^[fs/]$/.test(e.key) && !inside(e, "input, textarea, select, [contenteditable]")) release();
+      }, true);
+      if (/[?&]h=/.test(location.search)) release();
+      window.addEventListener("load", function () {
+        if (window.requestIdleCallback) requestIdleCallback(release, { timeout: 5000 });
+        else setTimeout(release, 5000);
+      });
+    })();
+  </script>
   <link rel="manifest" href="{{ 'manifest.webmanifest' | url }}">
   <meta name="theme-color" content="#1f3a5f">
   <link rel="apple-touch-icon" href="{{ 'assets/icons/icon-192.png' | url }}">
