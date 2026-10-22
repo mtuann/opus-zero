@@ -46,7 +46,7 @@ npm test -- nhanh                  # chạy một nhóm
 - Kiểm thử gọi `python3`: chạy trong venv đã kích hoạt (hoặc `PATH="$PWD/.venv/bin:$PATH" npm test`).
 - Đừng nâng MkDocs lên 2.x: Material không tương thích.
 - Thêm hoặc đổi tên nhóm kiểm thử thì sửa cả ma trận trong `.github/workflows/test.yml` (`tests/site_static.py` kiểm hai nơi khớp nhau).
-- Nhóm `nhanh` gồm: `unit.mjs`, `data.mjs`, `site_static.py` (sách in khớp nav, VERSION khớp nhau, precache, ma trận CI), `search.mjs` (truy vấn có dấu và không dấu ra đúng trang), `extract-examples.mjs` + `abc_bars.py` (độ dài ô nhịp), `abc_warn.mjs` (cảnh báo của abcjs), `tools/figures.py --check` (hình khớp dữ liệu), `browser.mjs --flows`. Nhóm `trang-1`, `trang-2` mở từng trang đã build (không lỗi JS, mọi công cụ khởi tạo). Nhóm `a11y` chạy axe trên các trang trong `PAGES` của `tests/a11y.mjs`.
+- Nhóm `nhanh` gồm: `unit.mjs`, `data.mjs`, `site_static.py` (sách in khớp nav, VERSION khớp nhau, precache, ma trận CI), `counts.py` (con số viết tay, xem mục Con số viết tay), `levels.py` (Grade và chặng của bài học ở mọi nơi), `anchors.py` (link trong JavaScript và HTML viết tay; cần `site/`), `search.mjs` (truy vấn có dấu và không dấu ra đúng trang), `extract-examples.mjs` + `abc_bars.py` (độ dài ô nhịp), `abc_warn.mjs` (cảnh báo của abcjs), `tools/figures.py --check` (hình khớp dữ liệu), `browser.mjs --flows`. Nhóm `trang-1`, `trang-2` mở từng trang đã build (không lỗi JS, mọi công cụ khởi tạo). Nhóm `a11y` chạy axe trên các trang trong `PAGES` của `tests/a11y.mjs`.
 - Sửa nhiều JS/CSS thì tăng `VERSION` ở **cả** `docs/sw.js` và `docs/assets/js/loader.js`.
 - Thêm công cụ JS mới: file trong `docs/assets/js/`, đăng ký bằng `(window.OZReady || function (f) { document.addEventListener("DOMContentLoaded", f); })(init);` và thêm quy tắc vào `RULES` trong `loader.js`; thêm lớp vào `TOOL_CLASSES` trong `tests/browser.mjs`.
 
@@ -67,7 +67,7 @@ npm test -- nhanh                  # chạy một nhóm
 - Từ vựng của site: nốt tròn, trắng, đen, móc đơn, móc kép; chấm dôi; dấu nối, dấu luyến; ô nhịp, nhịp lấy đà, số chỉ nhịp; hóa biểu, giọng, gam, quãng; hợp âm, hợp âm rải, thể đảo; chủ âm, át âm, hạ át âm; kết, câu nhạc; tiết tấu, tốc độ, sắc thái; bàn đạp vang, *una corda*; nốt hoa mỹ (láy rền, láy, láy quanh, appoggiatura, acciaccatura); ngón 1–5 (ngón cái là 1), thế tay năm ngón, luồn ngón cái, vắt ngón; khuông kép, thị tấu, bản Urtext; trình bày, phát triển, tái hiện, coda, cadenza.
 - Cấp độ: "khoảng ABRSM Grade N", kèm chặng 1–7 theo bảng ở `docs/piano/lo-trinh.md`: chặng 1 trước Grade 1; chặng 2 Grade 1–2; chặng 3 Grade 3; chặng 4 Grade 4–5; chặng 5 Grade 6; chặng 6 Grade 7–8; chặng 7 sau Grade 8. Mức độ khó của Henle chỉ ghi khi đã đọc trên trang henle.de của đúng tác phẩm.
 - **Độ chính xác là quan trọng nhất.** Không bịa năm, số danh mục, trích dẫn, bản thu (năm, hãng), con số hay nguồn gốc biệt danh. Không chắc thì kiểm chứng hoặc bỏ đi, hoặc viết chung chung. Số ô nhịp chỉ ghi khi chắc; nếu không, mô tả bằng lời.
-- Link nội bộ dùng đường dẫn tương đối tới file `.md` (từ `docs/piano/tac-pham/x.md`: `../gam.md`, `../../nhac-ly/13-ket.md`). Link tới một mục (`#...`) phải lấy id từ HTML đã build, không đoán: bộ tạo id bỏ chữ "đ" ("Chặng 1. Khởi đầu" thành `chang-1-khoi-au`). Tiêu đề cần id cố định thì ghi `{ #id }` ở cuối tiêu đề.
+- Link nội bộ dùng đường dẫn tương đối tới file `.md` (từ `docs/piano/tac-pham/x.md`: `../gam.md`, `../../nhac-ly/13-ket.md`). Link tới một mục (`#...`) phải lấy id từ HTML đã build, không đoán (`mkdocs build --strict` báo link tới mục không có): bộ tạo id bỏ chữ "đ" ("Chặng 1. Khởi đầu" thành `chang-1-khoi-au`). Tiêu đề cần id cố định thì ghi `{ #id }` ở cuối tiêu đề.
 - Hộp nhấn mạnh: `!!! tip "…"`, `!!! note "…"`, `!!! warning "…"`, `??? question "…"`, nội dung thụt 4 dấu cách.
 
 ## Bản quyền
@@ -180,9 +180,9 @@ Tiêu đề `## Theo dõi khi nghe` phải viết đúng như vậy (ở cả b�
 - [ ] Trang `docs/piano/tac-pham/<slug>.md` theo mẫu; trích đoạn thật đã đối chiếu; bài tập chuẩn bị soạn riêng.
 - [ ] Hình `p-<tên>` trong `tools/figures.py`, chạy `python3 tools/figures.py`.
 - [ ] Bản thu (`data-rec`) và mốc tham khảo.
-- [ ] Cấp độ giống nhau ở mọi nơi: chip `oz-chip--level` và dòng "Độ khó"; bảng ở `docs/piano/tac-pham/index.md` ("Grade X (chặng N)"); nhóm nav trong `mkdocs.yml`; mục chặng trong `docs/piano/tac-pham-theo-cap.md`; `SUGGEST` trong `docs/assets/js/practice.js` (nếu đưa vào gợi ý); hàng "Tác phẩm" ở `docs/piano/lo-trinh.md` (nếu có); bảng Grade ↔ chặng ở `docs/piano/thay-va-thi.md` (nếu có); cuốn `piano-tac-pham` trong `hooks/books.py`, đúng thứ tự chặng.
+- [ ] Cấp độ giống nhau ở mọi nơi: chip `oz-chip--level` và dòng "Độ khó"; bảng ở `docs/piano/tac-pham/index.md` ("Grade X (chặng N)"); nhóm nav trong `mkdocs.yml`; mục chặng trong `docs/piano/tac-pham-theo-cap.md`; `SUGGEST` trong `docs/assets/js/practice.js` (nếu đưa vào gợi ý); hàng "Tác phẩm" ở `docs/piano/lo-trinh.md` (nếu có); bảng Grade ↔ chặng ở `docs/piano/thay-va-thi.md` (nếu có); cuốn `piano-tac-pham` trong `hooks/books.py`, đúng thứ tự chặng. `tests/levels.py` kiểm các nơi này; chặng do `docs/piano/tac-pham-theo-cap.md` quyết định.
 - [ ] Mục "Chọn bài theo mục tiêu" ở `docs/piano/tac-pham/index.md` nếu bài hợp một con đường kỹ năng.
-- [ ] Con số "34 bài học" ở mọi nơi (xem mục Con số viết tay).
+- [ ] Con số "34 bài học" ở mọi nơi: `tests/counts.py` chỉ ra từng chỗ (xem mục Con số viết tay).
 - [ ] "Học tiếp" của 1–2 bài liền trước cùng chặng link tới bài mới; trang `docs/piano/nha-soan-nhac.md` cũng vậy nếu tác giả có mục ở đó.
 - [ ] Mục "Kiểm tra nhanh" và "Nguồn" với nguồn thật.
 
@@ -191,12 +191,17 @@ Tiêu đề `## Theo dõi khi nghe` phải viết đúng như vậy (ở cả b�
 - [ ] Trang `docs/nghe-nhac/<slug>.md` theo mẫu; hình `g-<tên>`; bản thu hợp lệ hoặc khối `oz-listen` trống.
 - [ ] Nav: đúng nhóm trong "Hướng dẫn nghe" (Nhạc piano hoặc theo thời kỳ), đúng thứ tự thời gian.
 - [ ] `hooks/books.py`, cuốn `huong-dan-nghe` (`tests/site_static.py` báo nếu thiếu).
-- [ ] Bảng ở `docs/nghe-nhac/index.md`; con số hướng dẫn nghe (và hướng dẫn nhạc piano) ở mọi nơi.
+- [ ] Bảng ở `docs/nghe-nhac/index.md`; con số hướng dẫn nghe (và hướng dẫn nhạc piano) ở mọi nơi (`tests/counts.py` báo chỗ còn số cũ).
 - [ ] Link từ các trang liên quan (bài học cùng tác phẩm, trang nhà soạn nhạc, thời kỳ).
 
 ## Con số viết tay
 
-Nhiều trang ghi con số đếm được ("34 bài học", "42 hướng dẫn nghe, 16 về nhạc piano", "7 chặng", "Bảy cuốn"...). Khi thêm hoặc bớt trang, tìm và sửa mọi chỗ: README, `docs/index.md`, `docs/piano/index.md`, `docs/piano/tac-pham/index.md`, `docs/bat-dau/sach-in.md`, `docs/bat-dau/lo-trinh-nghe.md`, `docs/nhac-ly/index.md`, `hooks/books.py`. Kiểm thử tự động cho con số và cấp độ được thêm ở giai đoạn G1 của kế hoạch v15; khi có, mục này sẽ ghi cách đăng ký một con số mới.
+Nhiều trang ghi con số đếm được ("34 bài học", "42 hướng dẫn nghe, 16 về nhạc piano", "7 chặng", "Bảy cuốn"...). `tests/counts.py` (nhóm `nhanh`) đếm số thật từ nav, thư mục, `BOOKS`, `PAGES` của `tests/a11y.mjs`, mục "## Chặng" của lộ trình và dữ liệu trong JavaScript, rồi so với mọi chỗ ghi đã đăng ký. Nó đọc được cả số viết bằng chữ ("Bảy", "ba mươi tư").
+
+- **Thêm hoặc bớt trang:** chạy `python3 tests/counts.py` và sửa đúng những chỗ nó báo (file, dòng, số đang ghi, số thật).
+- **Viết một con số mới về site:** thêm một dòng `(file, mẫu, khóa)` vào `CLAIMS`; mẫu là biểu thức chính quy có `{N}` ở chỗ con số. Chưa có khóa phù hợp thì thêm cách đếm vào `TRUTH`. Câu kiểu "Hơn N công cụ" dùng khóa có tiền tố `<` (con số phải nhỏ hơn số thật).
+- **Cụm số không phải con số của site** (số bài trong một tập nhạc, số trang của một bản thảo): thêm một dòng `(file, mẫu, lý do)` vào `IGNORE`.
+- Kiểm thử báo mọi cụm "số + danh từ đếm" (bài học, hướng dẫn nghe, trang, công cụ, chặng, cuốn...) chưa thuộc `CLAIMS` hay `IGNORE`, và mọi dòng `CLAIMS`, `IGNORE` không còn khớp chỗ nào. Không quét: khoảng ("2–3 bài"), số một, và số viết bằng chữ từ hai đến bốn đi với danh từ chung ("ba bài", "hai trang").
 
 ## Tài liệu tham khảo cho agent
 

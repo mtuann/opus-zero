@@ -137,8 +137,9 @@ tools/keysigs.mjs         Vẽ sẵn 15 hóa biểu bằng abcjs (chạy: node t
    `oz-circle`, `oz-rhythm`, `oz-sight`, `oz-piano`, `oz-piano-explorer`, `oz-metronome`, `oz-tuner`,
    `oz-flashcards`, `oz-journal`, `oz-summary`, `oz-scale-trainer`, `oz-build`, `oz-worksheet-gen`, `oz-timeline`.
 7. **Thêm bài vào sách in được:** thêm đường dẫn trang vào danh sách tương ứng trong `hooks/books.py` (`tests/site_static.py` sẽ báo lỗi nếu thêm hướng dẫn nghe mà quên sách).
-8. **Hình minh họa:** đặt `<!-- fig:TÊN -->` vào trang, định nghĩa hình trong `tools/figures.py`, chạy `python3 tools/figures.py`. Sửa dữ liệu hình (ví dụ âm vực, cấu trúc tác phẩm) cũng chỉ cần sửa ở đó rồi chạy lại.
-9. Bài nhật ký học: tạo file trong `docs/blog/posts/` với `date:` ở phần đầu (xem bài mẫu).
+8. **Con số và cấp độ:** thêm, bớt trang hoặc đổi chặng của một bài học thì chạy `npm test -- nhanh`. `tests/counts.py` chỉ ra mọi chỗ ghi con số cần sửa (cách đăng ký một con số mới: đầu file và `AGENTS.md`), `tests/levels.py` chỉ ra chỗ ghi Grade hoặc chặng lệch nhau.
+9. **Hình minh họa:** đặt `<!-- fig:TÊN -->` vào trang, định nghĩa hình trong `tools/figures.py`, chạy `python3 tools/figures.py`. Sửa dữ liệu hình (ví dụ âm vực, cấu trúc tác phẩm) cũng chỉ cần sửa ở đó rồi chạy lại.
+10. Bài nhật ký học: tạo file trong `docs/blog/posts/` với `date:` ở phần đầu (xem bài mẫu).
 
 ## Kiểm tra link tự động
 
