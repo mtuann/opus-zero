@@ -220,4 +220,34 @@ PIECES = {
         dict(part=0, rows={0: "start"}), dict(part=1, rows={4: "start"}), dict(part=2, rows={5: "start"})]),
     # mặt thứ nhất: 0,7 giây đầu chỉ có tiếng rè của đĩa, clarinet vào ở 0,75 s
     "gershwin-rhapsody": dict(page="nghe-nhac/gershwin-rhapsody.md", jobs=[dict(part=0, rows={0: 0.75})]),
+    # MIDI Mutopia đã viết ra phần trình bày nhắc lại (chỉ số 55–109 = ô 1–55 lần hai), bản thu có chơi nhắc lại; từ phát
+    # triển trở đi chỉ số = số ô + 54. Ô 11: violin hát Rê–Mi, ô 12 viola và cello đáp lại; ô 18 đoạn chuyển (sf);
+    # ô 28 chủ đề 2 (Rê trưởng); ô 35 phần kết; ô 56 phát triển; ô 76 tái hiện; ô 101 chủ đề 2 ở Sol trưởng.
+    # Đối chiếu: ấn bản Breitkopf 1883 trên Mutopia (137 ô, không viết ra nhắc lại)
+    "mozart-eine-kleine": dict(page="nghe-nhac/mozart-eine-kleine.md", jobs=[
+        dict(src="mutopia_eine-kleine-nachtmusik-mvt1.mid", rows={0: "first", 1: 10, 2: 17, 3: 27, 4: 34, 5: 110, 6: 130, 7: 155},
+             check=dict(src="mutopia_MozartWA-KV525-mov-01.mid", segs=[(0, 54), (0, 54), (55, 136)],
+                        rows={1: (0, 10), 2: (0, 17), 3: (0, 27), 4: (0, 34), 5: (2, 55), 6: (2, 75), 7: (2, 100)}),
+             # kiểm tra trên phổ (10/2026): ô 11 bè trầm tắt, violin vào ở 19,0 s, viola và cello đáp ở 20,75 s; ô 76 bè
+             # trầm vào lại ở 233,2 s. 5: căn ra 200,4 s nhưng tiếng đồng âm forte mở phần phát triển vang ở 199,2 s
+             fix={5: 199.2})]),
+    # MIDI Mutopia bắt đầu bằng nhịp lấy đà (móc đơn) nên ô in n bắt đầu ở chỉ số n − 1 + 0,125. Theo các chữ đánh dấu
+    # trong bản LilyPond: B (chim hót) giữa ô 13; tutti lấy đà cuối ô 27; C (suối) ô 31 từ móc đơn thứ hai; Forte lấy đà
+    # cuối ô 40; D (sấm sét) ô 44; tutti lấy đà cuối ô 55 (Đô♯ thứ); E (chim hót) ô 59. Dòng cuối ("Ritornello cuối
+    # cùng") để trống: ritornello ô 66 hay ô 76 đều có thể là "cuối cùng"
+    "vivaldi-mua-xuan": dict(page="nghe-nhac/vivaldi-mua-xuan.md", jobs=[
+        # neo theo khởi âm (kiểm tra 10/2026: biến thể khởi-âm và thô→mịn cùng căn nhầm ritornello 2 vào 66 s): tutti lấy
+        # đà sau khoảng lặng 70,1–70,4 s ở 70,45 s; Forte lấy đà sau khoảng lặng ở 103,2 s; tutti Đô♯ thứ lấy đà 138,05 s;
+        # Đô♯ mở ô 59 (chim hót trở lại) 146,0 s
+        dict(src="mutopia_spring-score.mid", anchors=[(27.0, 70.45), (40.0, 103.2), (55.0, 138.05), (58.125, 146.0)],
+             rows={0: "first", 1: 12.625, 2: 27.0, 3: 30.25, 4: 40.0, 5: 43.125, 6: 55.0, 7: 58.125},
+             # 5: ba biến thể lệch nhau (110,9 / 115,4 / 113,2 s); quãng tám Si (Si2, Si3, Si4) mở tiếng sấm ở 111,0 s, chuỗi
+             # nốt đi lên của ô 45 ở 113,5 s
+             fix={5: 111.0})]),
+    # Chưa có bản nhạc số dùng được: đo trên bản thu (10/2026). Tìm từng câu của chủ đề A, đoạn B, đoạn C bằng chroma
+    # (so khớp mẫu), rồi lấy khởi âm ở đầu đoạn. Bản thu chơi A | B B | A' | C, chủ đề La thứ | C | A'' (ba câu) | coda.
+    # B: nốt lấy đà 26,0 và 38,75 s (cùng hợp âm Mi–Rê♯–Si); A': 50,6 s; C sau khoảng lặng ở 64,0 và 87,5 s;
+    # A'': nốt Mi lấy đà 98,3 s, như nốt đầu bài (0,26 s); coda sau ba câu của A'', khoảng 117 s (chắc trong 1 giây)
+    "chopin-valse-la-thu": dict(page="piano/tac-pham/chopin-valse-la-thu.md", jobs=[
+        dict(rows={0: 0.26, 1: 26.0, 2: 38.75, 3: 50.6, 4: 64.0, 5: 87.5, 6: 98.3, 7: 117.0})]),
 }

@@ -23,7 +23,7 @@ Chi tiết lịch sử thú vị: tác phẩm vốn có **5 chương**, nhưng c
 
 ## Nghe kèm bản thu
 
-<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Advent Chamber Orchestra&quot;,&quot;lic&quot;:&quot;CC BY-SA 2.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by-sa/2.0&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Mozart_-_Eine_kleine_Nachtmusik_-_1._Allegro.ogg&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/2/24/Mozart_-_Eine_kleine_Nachtmusik_-_1._Allegro.ogg/Mozart_-_Eine_kleine_Nachtmusik_-_1._Allegro.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/2/24/Mozart_-_Eine_kleine_Nachtmusik_-_1._Allegro.ogg&quot;,&quot;d&quot;:355.41}]}"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Advent Chamber Orchestra&quot;,&quot;lic&quot;:&quot;CC BY-SA 2.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by-sa/2.0&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Mozart_-_Eine_kleine_Nachtmusik_-_1._Allegro.ogg&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/2/24/Mozart_-_Eine_kleine_Nachtmusik_-_1._Allegro.ogg/Mozart_-_Eine_kleine_Nachtmusik_-_1._Allegro.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/2/24/Mozart_-_Eine_kleine_Nachtmusik_-_1._Allegro.ogg&quot;,&quot;d&quot;:355.41}],&quot;ref&quot;:[1,19,32,50,63,199,233,281]}"></div>
 
 ## Theo dõi khi nghe
 

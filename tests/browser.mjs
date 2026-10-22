@@ -49,9 +49,11 @@ async function settle(w, extra) {
   await sleep(extra);
 }
 /* opts.query: thêm vào URL (ví dụ "?h=piano", "#muc"); opts.before(w): chạy trước mọi script của trang;
-   opts.lazy: giữ chế độ khởi tạo khi gần màn hình (mặc định vẽ hết ngay, window.OZ_EAGER, để kiểm được mọi khuông và công cụ) */
+   opts.lazy: giữ chế độ khởi tạo khi gần màn hình (mặc định vẽ hết ngay, window.OZ_EAGER, để kiểm được mọi khuông và công cụ);
+   opts.transform(html): sửa HTML đã build trước khi mở (dựng tình huống không còn trang thật nào có) */
 async function open(rel, extra = 20, opts = {}) {
-  const html = fs.readFileSync(path.join(SITE, rel), "utf8");
+  let html = fs.readFileSync(path.join(SITE, rel), "utf8");
+  if (opts.transform) html = opts.transform(html);
   const errors = [], requested = [];
   const vc = new VirtualConsole();
   vc.on("jsdomError", (e) => { if (!/Not implemented|Could not load|Could not parse CSS/.test(e.message)) errors.push(e.message); });
@@ -231,8 +233,10 @@ if (RUN_FLOWS) {
   r.d.querySelector(".oz-listen .oz-ref-on").click();
   check("mốc tham khảo: tắt thì ẩn hết", !r.d.querySelector(".oz-mark-cell .oz-ref"));
   r.save(); r.close();
-  r = await open("nghe-nhac/mozart-eine-kleine/index.html");
-  check("trang chưa có mốc tham khảo thì không có ô bật/tắt", !r.d.querySelector(".oz-listen .oz-ref-on") && !!r.d.querySelector(".oz-listen [data-act=default]"));
+  /* từ v15 mọi bản thu gợi ý đều có ít nhất một mốc: bỏ ref khỏi data-rec của một trang để kiểm */
+  const noRef = (h) => h.replace(/,&quot;ref&quot;:\[[^\]]*\]/, "");
+  r = await open("nghe-nhac/mozart-eine-kleine/index.html", 20, { transform: noRef });
+  check("trang chưa có mốc tham khảo thì không có ô bật/tắt", !JSON.parse(r.d.querySelector(".oz-listen").dataset.rec).ref && !r.d.querySelector(".oz-listen .oz-ref-on") && !!r.d.querySelector(".oz-listen [data-act=default]"));
   r.close();
 }
 /* ---- Thị tấu hai tay ---- */
