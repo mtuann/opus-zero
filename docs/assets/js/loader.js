@@ -6,7 +6,7 @@
    Mọi thứ khởi tạo ngay từ đầu khi trình duyệt không có IntersectionObserver, hoặc khi window.OZ_EAGER = true (kiểm thử). */
 (function () {
   "use strict";
-  const VERSION = "16";
+  const VERSION = "17";
   const me = document.currentScript || document.querySelector('script[src*="assets/js/loader.js"]');
   const BASE = me ? me.src.replace(/loader\.js.*$/, "") : "assets/js/";
   /* abcjs đi kèm trong repo (docs/assets/js/vendor/) để dùng được khi mất mạng; mermaid vẫn tải từ CDN */

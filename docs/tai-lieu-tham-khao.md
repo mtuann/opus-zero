@@ -53,6 +53,7 @@ Những nguồn chính được dùng để viết và kiểm tra nội dung sit
 
 - [abcjs](https://paulrosen.github.io/abcjs/): vẽ khuông nhạc và phát âm thanh từ ký hiệu ABC.
 - [MkDocs](https://www.mkdocs.org/) và [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/): khung và giao diện của site.
+- Font [Be Vietnam Pro](https://github.com/bettergui/BeVietnamPro) (chữ thường) và [Literata](https://github.com/googlefonts/literata) (tiêu đề), giấy phép [SIL Open Font License 1.1](https://openfontlicense.org/); bản lưu trên site lấy từ [Google Fonts](https://fonts.google.com/); văn bản giấy phép: [Be Vietnam Pro](assets/fonts/OFL-BeVietnamPro.txt), [Literata](assets/fonts/OFL-Literata.txt).
 
 ## Về độ chính xác
 

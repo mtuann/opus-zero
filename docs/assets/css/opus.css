@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&display=swap");
-
 /* ---------- Tokens ---------- */
 :root {
   --oz-ink: #1f3a5f;        /* mực xanh đậm */
@@ -10,7 +8,8 @@
   --oz-ok: #2e7d4f;
   --oz-bad: #b3412e;
   --oz-warn: #8a5a12;       /* lệch so với mốc tham khảo */
-  --oz-heading: "Literata", Georgia, "Times New Roman", serif;
+  --oz-heading: "Literata", Georgia, "Times New Roman", serif; /* Literata chỉ có độ đậm 600 (assets/fonts/fonts.css) */
+  --md-text-font: "Be Vietnam Pro";
 }
 
 [data-md-color-scheme="default"] {
@@ -444,7 +443,7 @@
 
 /* ---------- Khuông nhạc: tiêu đề, công cụ luyện tập, chế độ giá nhạc ---------- */
 .oz-abc { margin: 1.2rem 0 1.4rem; }
-.md-typeset .oz-abc-title { font-family: var(--oz-heading); font-size: 0.9rem; text-align: center; margin: 0 0 0.1rem; max-width: none; color: var(--md-default-fg-color--light); }
+.md-typeset .oz-abc-title { font-family: var(--oz-heading); font-weight: 600; font-size: 0.9rem; text-align: center; margin: 0 0 0.1rem; max-width: none; color: var(--md-default-fg-color--light); }
 .oz-abc .abc-notation { margin: 0.2rem 0 0.4rem; }
 .oz-abc-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 0.9rem; font-size: 0.7rem; }
 .oz-abc-tools button { font: inherit; cursor: pointer; padding: 0.2rem 0.65rem; border: 1px solid var(--md-default-fg-color--lighter); border-radius: 999px; background: transparent; color: var(--md-default-fg-color); }

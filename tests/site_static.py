@@ -9,6 +9,8 @@
 5. Mọi file trong PRECACHE của sw.js đều tồn tại trong docs/.
 6. Ma trận nhóm trong .github/workflows/test.yml khớp với các nhóm trong tests/run.mjs
    (thêm nhóm mà quên ma trận thì CI âm thầm bỏ qua nhóm đó).
+7. Font tự host: không còn chỗ nào tải font từ Google Fonts (mkdocs.yml, overrides, hooks, docs/assets),
+   và mọi url() trong docs/assets/fonts/fonts.css trỏ tới file có thật.
 """
 import importlib.util
 import re
@@ -89,5 +91,15 @@ ci_groups = [g.strip().strip("'\"") for g in ci.group(1).split(",")] if ci else 
 if not run_groups or sorted(run_groups) != sorted(ci_groups):
     fail("nhóm kiểm thử lệch nhau: tests/run.mjs có %s, ma trận trong test.yml có %s" % (run_groups, ci_groups))
 
-print("site_static: %d kiểm tra, %d lỗi" % (6, len(fails)))
+# --- 7. Font tự host ---
+for f in [ROOT / "mkdocs.yml", *(ROOT / "overrides").rglob("*.html"), *(ROOT / "hooks").glob("*.py"),
+          *(ROOT / "docs/assets").rglob("*.css"), *(ROOT / "docs/assets/js").glob("*.js")]:
+    if re.search(r"fonts\.(googleapis|gstatic)\.com", f.read_text(encoding="utf-8")):
+        fail("%s tải font từ Google Fonts; font đã tự host trong docs/assets/fonts/" % f.relative_to(ROOT))
+fonts_css = (ROOT / "docs/assets/fonts/fonts.css").read_text(encoding="utf-8")
+for u in re.findall(r'url\("?([^")]+)"?\)', fonts_css):
+    if not (ROOT / "docs/assets/fonts" / u).exists():
+        fail("docs/assets/fonts/fonts.css dùng %s nhưng file không có" % u)
+
+print("site_static: %d kiểm tra, %d lỗi" % (7, len(fails)))
 sys.exit(1 if fails else 0)

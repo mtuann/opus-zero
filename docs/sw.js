@@ -1,6 +1,6 @@
 /* Service worker: cho phép mở lại các trang đã xem và dùng công cụ luyện tập khi không có mạng.
    Khi sửa nhiều JS/CSS, tăng V ở đây VÀ trong docs/assets/js/loader.js (hai số phải khớp nhau). */
-const V = 16;
+const V = 17;
 const VERSION = "opus-zero-v" + V;
 /* Khung ứng dụng lưu sẵn ngay từ lần thăm đầu: trang chủ, bộ tải và abcjs đi kèm trong repo */
 const PRECACHE = ["./", "assets/js/loader.js", "assets/js/vendor/abcjs-basic-min.js?v=" + V];

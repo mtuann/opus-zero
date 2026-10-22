@@ -107,8 +107,7 @@ def clean(article, url, chap, site_url):
 TEMPLATE = """<!doctype html>
 <html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title} · Opus Zero</title>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,600;1,400&family=Literata:opsz,wght@7..72,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/fonts/fonts.css">
 <style>
 :root {{ --ink:#1f3a5f; --muted:#555; --line:#ccc; }}
 * {{ box-sizing: border-box; }}

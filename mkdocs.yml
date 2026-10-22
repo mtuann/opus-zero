@@ -16,9 +16,8 @@ theme:
   name: material
   custom_dir: overrides
   language: vi
-  font:
-    text: Be Vietnam Pro
-    code: JetBrains Mono
+  # Font tự host trong docs/assets/fonts/ (fonts.css), không tải từ Google Fonts; chữ trong khối mã dùng font hệ thống
+  font: false
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -113,6 +112,7 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 
 extra_css:
+  - assets/fonts/fonts.css
   - assets/css/vendor/abcjs-audio.css
   - assets/css/opus.css
 
