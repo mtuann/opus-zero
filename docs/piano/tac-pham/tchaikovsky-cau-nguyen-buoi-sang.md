@@ -46,7 +46,7 @@ Nghe ít nhất ba lần, mỗi lần một câu hỏi:
 
 Rồi so sánh hai bản thu khác nhau về tốc độ: một bản chậm, ngân như đàn organ, và một bản trôi chảy hơn, như lời cầu nguyện nói khẽ. Ghi lại: ai làm bè trên nổi rõ nhất, ai dùng nhiều bàn đạp nhất, ai lấy hơi rõ giữa các câu? Nếu có thể, nghe thêm một đoạn trong *Phụng vụ* Op. 41 do một dàn hợp xướng Nga hát, để có tiếng bốn giọng người thật trong tai trước khi tập.
 
-<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Luis Kolodin&quot;,&quot;lic&quot;:&quot;CC BY-SA 4.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;,&quot;page&quot;:&quot;https://imslp.org/wiki/File:PMLP19418-Y2mate.mx_-_Luis_Kolodin_plays_Tchaikovsky&#x27;s_Morning_Prayer_(128_kbps).mp3&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;../../../assets/audio/tchaikovsky-cau-nguyen-buoi-sang.mp3&quot;,&quot;d&quot;:79.8}],&quot;ref&quot;:[1,14,26,34,37,43,45,51,59]}"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Luis Kolodin&quot;,&quot;lic&quot;:&quot;CC BY-SA 4.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;,&quot;page&quot;:&quot;https://imslp.org/wiki/File:PMLP19418-Y2mate.mx_-_Luis_Kolodin_plays_Tchaikovsky&#x27;s_Morning_Prayer_(128_kbps).mp3&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;../../../assets/audio/tchaikovsky-cau-nguyen-buoi-sang.mp3&quot;,&quot;d&quot;:79.8}],&quot;ref&quot;:[1,14,26,34,36,43,45,51,59]}"></div>
 
 ## Theo dõi khi nghe
 
