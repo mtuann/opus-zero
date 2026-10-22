@@ -33,6 +33,7 @@ npm test -- a11y           # chỉ chạy một nhóm: nhanh, trang-1, trang-2 h
 | `tests/browser.mjs` | Mở từng trang đã build như trình duyệt thật: không lỗi JavaScript, mọi khuông nhạc và công cụ khởi tạo, không tải script thừa; thử đàn MIDI ảo, micro ảo, bàn phím |
 | `tests/a11y.mjs` | Khả năng tiếp cận (axe-core) trên 41 trang tiêu biểu |
 | `tests/site_static.py` | Kiểm tra tĩnh: khối mermaid có quy tắc tải, sách "Hướng dẫn nghe" khớp nav, VERSION của sw.js và loader.js khớp nhau, nhóm kiểm thử trong `tests/run.mjs` khớp ma trận CI |
+| `tests/counts.py` | Con số viết tay (số bài học, hướng dẫn nghe, bài nhạc lý, chặng, cuốn sách, công cụ...) bằng số thật đếm từ nav, thư mục, `BOOKS`, dữ liệu trong JavaScript; con số viết bằng chữ cũng được đọc. Mọi cụm "số + danh từ đếm" mới phải được đăng ký (`CLAIMS`) hoặc bỏ qua kèm lý do (`IGNORE`) |
 | `tests/search.mjs` | Tìm kiếm có dấu và không dấu ra đúng trang |
 | `tests/abc_bars.py` | Độ dài từng ô nhịp trong mọi khối ```abc (hiểu cả nốt hoa mỹ `{…}`, bè chồng `&` và liên ba `(p:q:r`) và các đoạn nhạc tổng hợp |
 | `tests/abc_warn.mjs` | Mọi khối ```abc đọc được bằng abcjs mà không có cảnh báo (ký hiệu abcjs không hiểu như `!ped!`, `!8va(!` sẽ bị báo); khối được chấp nhận có cảnh báo thì ghi vào `IGNORE` kèm lý do |
