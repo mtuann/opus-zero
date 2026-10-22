@@ -58,4 +58,19 @@
 - Trợ năng 93 → 100 ở cả ba trang.
 - CLS: sau G2.1 và G2.2, trang chủ có lần đo CLS 0,149, và G2.3 bản đầu 0,181. Nguyên nhân là đoạn giới thiệu đổi từ font hệ thống sang Be Vietnam Pro ngay sau lần vẽ đầu, xuống thêm một dòng, đẩy khối nút và khối "Bạn đang ở đâu?" xuống 36px. Với Google Fonts trước đây, cú đổi này có hay không là tùy lúc font về. Sửa bằng `font-display: fallback` cho chữ thường cộng nạp trước font màn hình đầu: CLS còn 0.
 - Thực hành tốt 96 không đổi. Lỗi console duy nhất là 404 của `https://api.github.com/repos/mtuann/opus-zero/releases/latest`: widget kho mã của Material hỏi release mới nhất, mà repo chưa có release (G7.2). Đo nhiều lần trong một giờ thì API GitHub trả 403 vì hết hạn mức 60 lượt mỗi giờ; lỗi ấy cũng không do site.
-- Chưa đo trên site thật vì chưa deploy. Sau khi push, chạy `node tools/lighthouse/measure.mjs https://mtuann.github.io/opus-zero/ 3` và ghi vào bảng này.
+- Lúc viết nhận xét này chưa đo trên site thật vì chưa deploy (số đo ở mục dưới). Sau khi push, chạy `node tools/lighthouse/measure.mjs https://mtuann.github.io/opus-zero/ 3` và ghi vào bảng này.
+
+## Site thật sau G0–G4a và release v14 (ngày 22/10/2026)
+
+Site ở commit `7fefd4a` (G0–G4a và review, deploy lúc 15:09 UTC), đo ngay sau khi tạo release `v14` (G7.2). Lệnh: `node tools/lighthouse/measure.mjs https://mtuann.github.io/opus-zero/ 3`, từ máy của chủ dự án.
+
+| Trang | Hiệu năng (từng lần) | Trợ năng | Thực hành tốt | SEO | FCP | LCP | TBT | CLS | Tổng tải | Tải trước LCP | Chỉ mục tìm kiếm |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Trang chủ | 99 (99/100/99) | 100 | 100 | 100 | 1,4 s | 1,8 s | 9 ms | 0,000 | 173 KiB | 164 KiB | sau LCP cả 3 lần |
+| Bài học Für Elise | 99 (98/99/99) | 100 | 100 | 100 | 1,6 s | 1,9 s | 32 ms | 0,029 | 353 KiB | 184 KiB | sau LCP cả 3 lần |
+| Debussy: Préludes | 99 (100/99/99) | 100 | 100 | 100 | 1,5 s | 1,9 s | 28 ms | 0,000 | 205 KiB | 204 KiB | sau LCP cả 3 lần |
+
+- So với mốc ban đầu trên site thật (G0, `ed69d89`): hiệu năng trang chủ 86 → 99, Für Elise 86 → 99, Debussy 96 → 99; lần xấu nhất trong 3 lần 65 → 99 và 67 → 98; LCP 3,0 → 1,8 giây và 3,2 → 1,9 giây.
+- Trợ năng 93 → 100 ở cả ba trang.
+- Thực hành tốt 96 → 100: có release `v14` nên widget kho mã của Material không còn gặp 404 khi hỏi release mới nhất.
+- Số trên site thật gần như bằng số đo tại máy qua HTTP/2 ở G2 (mục trên); LCP chậm hơn 0,1 giây ở trang chủ.
