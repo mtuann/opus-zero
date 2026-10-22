@@ -53,12 +53,14 @@ Phần lớn nhạc phím thời này viết cho harpsichord hoặc clavichord, 
 - **Đặc trưng khi chơi:** phức điệu. Mỗi tay thường giữ hai bè, bè nào cũng phải hát. Bản gốc gần như không ghi sắc thái hay dấu luyến, nên bạn tự chọn cách phát âm cho chủ đề và giữ nhất quán mỗi lần nó trở lại. Ghi ngón từ đầu, tập từng bè, ghép hai bè trong một tay rồi mới ghép hai tay.
 - **Tác phẩm chính:** *Notebook for Anna Magdalena Bach* (1725), *Little Preludes*, 15 Invention và 15 Sinfonia, *French Suites*, *English Suites*, sáu *Partita*, hai quyển *Bình quân luật*, *Goldberg Variations* (1741). Xem [Fugue](../hinh-thuc/fugue.md).
 - **Bắt đầu bằng:** [Minuet Sol trưởng](tac-pham/minuet-sol.md) của Petzold trong *Notebook* (≈ Grade 1–2) → *Little Preludes* như BWV 939, BWV 999 (≈ Grade 3–5) → [Prelude Đô trưởng BWV 846](tac-pham/bach-prelude-do.md) (≈ Grade 4–5) → [Invention số 1](tac-pham/bach-invention-1.md), số 4, số 8 (≈ Grade 6) → Sinfonia, các chương trong *French Suites*, [Prelude và fugue Đô thứ BWV 847](tac-pham/bach-prelude-fugue-do-thu.md) (≈ Grade 7–8) → các prelude và fugue khác trong *Bình quân luật*, *Partita* (sau Grade 8) → [*Goldberg*](../nghe-nhac/bach-goldberg.md).
+- **Cuộc đời và các tác phẩm khác:** [Nhà soạn nhạc](../lich-su/nha-soan-nhac.md#johann-sebastian-bach-16851750).
 
 ### George Frideric Handel (1685–1759)
 
 - **Đặc trưng khi chơi:** thoáng và dễ tay hơn Bach: giai điệu trên bè trầm, hợp âm rải rộng, nhiều biến tấu, những prelude như đang ứng tác. Hợp với người muốn chơi Baroque mà chưa sẵn sàng cho fugue ba bè.
 - **Tác phẩm chính:** tám tổ khúc in năm 1720 (Tổ khúc số 5 Mi trưởng HWV 430 kết bằng bộ biến tấu *The Harmonious Blacksmith*); Sarabande trong Tổ khúc Rê thứ HWV 437; Chaconne Sol trưởng HWV 435.
 - **Bắt đầu bằng:** các minuet, gavotte ngắn (≈ Grade 2–3) → Sarabande HWV 437 cùng hai biến tấu (≈ Grade 4–5) → các chương trong tổ khúc (≈ Grade 6–7) → trọn *The Harmonious Blacksmith*, Chaconne HWV 435 (≈ Grade 8 trở lên).
+- **Cuộc đời và các tác phẩm khác:** [Nhà soạn nhạc](../lich-su/nha-soan-nhac.md#george-frideric-handel-16851759).
 
 ## Cổ điển
 
@@ -75,12 +77,14 @@ Kết cấu chuyển sang **giai điệu và đệm** (tay trái thường rải
 - **Đặc trưng khi chơi:** hóm hỉnh: dấu lặng đặt bẫy, kết giả, đổi giọng bất ngờ, những câu ngắn hỏi đáp nhau. Cần phát âm rõ, staccato nhẹ và một chút diễn kịch.
 - **Tác phẩm chính:** khoảng 60 sonata (Hob. XVI), những bản cuối viết ở London khoảng 1794–1795; Biến tấu Fa thứ Hob. XVII:6 (1793).
 - **Bắt đầu bằng:** minuet, *German Dance* và các sonata sớm, ngắn mà thời ấy thường gọi là *divertimento* hay *partita* (≈ Grade 3–5) → Sonata Đô trưởng Hob. XVI:35 (≈ Grade 6–7) → Rê trưởng Hob. XVI:37, Mi thứ Hob. XVI:34 (≈ Grade 7–8) → Mi♭ trưởng Hob. XVI:52, Biến tấu Fa thứ (sau Grade 8).
+- **Cuộc đời và các tác phẩm khác:** [Nhà soạn nhạc](../lich-su/nha-soan-nhac.md#joseph-haydn-17321809).
 
 ### Wolfgang Amadeus Mozart (1756–1791)
 
 - **Đặc trưng khi chơi:** trong suốt. Ít nốt, nên mọi chỗ lệch nhịp hay to nhỏ không đều đều nghe thấy. Tay phải hát như giọng opera, nhiều luyến hai nốt như tiếng thở dài; tay trái đệm Alberti nhẹ và đều; gam phải mịn. Đừng phóng đại sắc thái.
 - **Tác phẩm chính:** 18 sonata, Fantasia Rê thứ K. 397, Rondo La thứ K. 511, các bộ biến tấu (như K. 265 trên giai điệu "Ah, vous dirai-je, maman"), các concerto (nghe [Concerto số 21](../nghe-nhac/mozart-concerto-21.md)).
 - **Bắt đầu bằng:** các bản nhỏ K. 1–5, viết lúc 5–6 tuổi (≈ Grade 1–3) → [Sonata Đô trưởng K. 545](tac-pham/mozart-k545.md), mà chính ông ghi là sonata nhỏ "cho người mới học" (≈ Grade 6) → K. 283, K. 330 (≈ Grade 7) → Fantasia K. 397, [K. 331](../nghe-nhac/mozart-k331.md) (≈ Grade 7–8) → K. 310, K. 457, Rondo K. 511 (sau Grade 8).
+- **Cuộc đời và các tác phẩm khác:** [Nhà soạn nhạc](../lich-su/nha-soan-nhac.md#wolfgang-amadeus-mozart-17561791).
 
 ### Muzio Clementi (1752–1832)
 
@@ -93,6 +97,7 @@ Kết cấu chuyển sang **giai điệu và đệm** (tay trái thường rải
 - **Đặc trưng khi chơi:** kịch tính: *sforzando* bất ngờ, *subito piano* ngay sau đỉnh *crescendo*, hợp âm dày ở âm vực thấp, motif ngắn phát triển không ngừng. Cần trọng lượng cánh tay, sức bền và kỷ luật nhịp, vì kịch tính của Beethoven nằm ngay trong nhịp. Chương chậm đòi tiếng hát dài trên những nốt ngân.
 - **Tác phẩm chính:** 32 sonata, ba tập *Bagatelle* (Op. 33, 119, 126), 32 biến tấu Đô thứ WoO 80, *Diabelli Variations* Op. 120, năm concerto.
 - **Bắt đầu bằng:** Sonatina Sol trưởng (Anh. 5 số 1, chưa chắc của Beethoven) hoặc 6 biến tấu WoO 64 (≈ Grade 2–3) → [*Für Elise*](tac-pham/fur-elise.md), Bagatelle Op. 119 (≈ Grade 4–5) → hai sonata ngắn Op. 49, thường gọi là "sonata dễ", như [Op. 49 số 2](tac-pham/beethoven-op49-2.md) (≈ Grade 5) → [chương 1 *Ánh trăng*](tac-pham/beethoven-anh-trang.md) (≈ Grade 6–7) → Op. 79, [*Pathétique*, chương 2](tac-pham/pathetique-adagio.md) (≈ Grade 7–8) → trọn [*Pathétique*](../nghe-nhac/beethoven-pathetique.md), Op. 10, Op. 14 (sau Grade 8) → *Waldstein*, *Appassionata*, các sonata cuối.
+- **Cuộc đời và các tác phẩm khác:** [Nhà soạn nhạc](../lich-su/nha-soan-nhac.md#ludwig-van-beethoven-17701827).
 
 ## Lãng mạn
 
@@ -103,42 +108,49 @@ Cây đàn to và ngân hơn (xem [Bàn đạp](ban-dap.md)). Ba kỹ năng trun
 - **Đặc trưng khi chơi:** ca khúc không lời: giai điệu dài như một Lied trên lớp đệm lặp (hợp âm lặp, chùm ba) phải nhỏ và đều suốt nhiều trang. Hòa âm trượt giữa trưởng và thứ, sang những giọng xa; cần *pianissimo* thật mỏng và kiên nhẫn với cấu trúc dài.
 - **Tác phẩm chính:** Impromptu D. 899 và D. 935, *Moments musicaux* D. 780, *Wanderer-Fantasie* D. 760, ba sonata cuối D. 958–960 (1828), Fantasia Fa thứ D. 940 cho bốn tay.
 - **Bắt đầu bằng:** ländler, valse, écossaise (≈ Grade 2–4) → *Moment musical* số 3 Fa thứ (≈ Grade 5) → Impromptu La♭ trưởng D. 935 số 2 (≈ Grade 7) → [Impromptu Sol♭ trưởng D. 899 số 3](tac-pham/schubert-impromptu-sol-giang.md) (≈ Grade 7–8; [hướng dẫn nghe](../nghe-nhac/schubert-impromptu.md)) → Impromptu D. 899 số 2 và 4 (≈ Grade 8 trở lên) → Sonata La trưởng D. 664 → ba sonata cuối.
+- **Cuộc đời và các tác phẩm khác:** [Nhà soạn nhạc](../lich-su/nha-soan-nhac.md#franz-schubert-17971828).
 
 ### Felix Mendelssohn (1809–1847)
 
 - **Đặc trưng khi chơi:** hai mặt. Giai điệu hát trên lớp đệm rải đều, nhiều khi **trong cùng một tay** (ngón 4–5 hát, các ngón còn lại đệm); và sự nhẹ nhàng "thần tiên": staccato nhanh, sáng, rất ít bàn đạp. Cầu nối tốt giữa Mozart và Chopin.
 - **Tác phẩm chính:** tám tập *Lieder ohne Worte* (48 bài hát không lời; chỉ vài tên như *Venetianisches Gondellied* là do chính ông đặt), *Rondo capriccioso* Op. 14, *Variations sérieuses* Op. 54, *Kinderstücke* Op. 72.
 - **Bắt đầu bằng:** *Kinderstücke* Op. 72 (≈ Grade 4–6) → *Lieder ohne Worte* [Op. 19 số 6](tac-pham/mendelssohn-thuyen-ca.md), Op. 30 số 6 (≈ Grade 5–6) → Op. 19 số 1, Op. 62 số 6 (≈ Grade 7–8) → *Rondo capriccioso* (sau Grade 8) → *Variations sérieuses*.
+- **Cuộc đời và các tác phẩm khác:** [Nhà soạn nhạc](../lich-su/nha-soan-nhac.md#felix-mendelssohn-18091847).
 
 ### Frédéric Chopin (1810–1849)
 
 - **Đặc trưng khi chơi:** giọng hát *bel canto* trên lớp đệm tay trái trải rộng hơn một quãng tám, nên cổ tay trái phải lướt ngang thật mềm. Bàn đạp là một phần của âm thanh, và Chopin ghi bàn đạp khá kỹ. Rubato: giai điệu co giãn, tay trái giữ nhịp. Ngón bấm tự do, ngón cái được đặt lên phím đen. Tiếng tròn, không gắt.
 - **Tác phẩm chính:** 21 nocturne, 24 prélude Op. 28, 27 étude, 4 ballade, 4 scherzo, mazurka, polonaise, valse, ba sonata (số 2 và số 3 hay được chơi nhất), *Barcarolle* Op. 60, hai concerto. Nên dùng bản *Wydanie Narodowe* (Jan Ekier biên tập) hoặc Henle.
 - **Bắt đầu bằng:** [Valse La thứ (di cảo)](tac-pham/chopin-valse-la-thu.md) (≈ Grade 3–4) → Prélude số 7 La trưởng, [số 4 Mi thứ](tac-pham/chopin-prelude-mi-thu.md), số 20 Đô thứ (≈ Grade 4–5) → các mazurka dễ, [Valse Si thứ Op. 69 số 2](tac-pham/chopin-valse-si-thu.md) (≈ Grade 5–6) → Nocturne Đô♯ thứ (di cảo), Nocturne Mi thứ Op. 72 số 1 (≈ Grade 6) → [Nocturne Op. 9 số 2](tac-pham/chopin-nocturne-op9-2.md), Valse Op. 64 số 2 (≈ Grade 7–8) → [*Fantaisie-Impromptu*](tac-pham/chopin-fantaisie-impromptu.md), các polonaise → [Ballade số 1](tac-pham/chopin-ballade-1.md), scherzo, [étude](../nghe-nhac/chopin-etude.md).
+- **Cuộc đời và các tác phẩm khác:** [Nhà soạn nhạc](../lich-su/nha-soan-nhac.md#frederic-chopin-18101849).
 
 ### Robert Schumann (1810–1856)
 
 - **Đặc trưng khi chơi:** mỗi bản một nhân vật, tâm trạng đổi rất nhanh. Giai điệu hay ẩn ở bè giữa; chấm dôi và đảo phách làm mờ vạch nhịp; kết cấu dày ở âm vực giữa, dễ đục nếu bàn đạp không khéo. Nhiều chỗ khó tay mà người nghe không nhận ra.
 - **Tác phẩm chính:** *Album für die Jugend* Op. 68 (1848, 43 bản viết cho ba con gái), *Kinderszenen* Op. 15, *Papillons*, *Carnaval*, *Kreisleriana*, Fantasie Op. 17, *Arabeske*, *Waldszenen*, Concerto La thứ.
 - **Bắt đầu bằng:** [*Album für die Jugend*](tac-pham/schumann-album.md), phần đầu dành cho trẻ nhỏ: *Melodie*, *Soldatenmarsch*, *Wilder Reiter* (≈ Grade 1–3) → phần hai, từ số 19 trở đi (≈ Grade 4–6) → [*Kinderszenen*](../nghe-nhac/schumann-kinderszenen.md), [*Träumerei*](tac-pham/schumann-traumerei.md) (≈ Grade 5–7) → *Waldszenen*, *Arabeske* (≈ Grade 8) → *Papillons*, *Carnaval*, *Kreisleriana* (sau Grade 8).
+- **Cuộc đời và các tác phẩm khác:** [Nhà soạn nhạc](../lich-su/nha-soan-nhac.md#robert-schumann-18101856).
 
 ### Clara Schumann (1819–1896)
 
 - **Đặc trưng khi chơi:** là nghệ sĩ piano bậc thầy, bà viết thuận tay mà vẫn đòi hỏi: hợp âm rải rộng, giai điệu ở bè giữa, kết cấu dày gần với Brahms, người bạn thân của bà. Bà là một trong những nghệ sĩ đầu tiên biểu diễn thuộc lòng, thói quen nay đã thành chuẩn.
-- **Tác phẩm chính:** Concerto La thứ Op. 7, *Romance* Op. 11, *Quatre pièces fugitives* Op. 15, Prelude và Fugue Op. 16, Tam tấu piano Op. 17, Biến tấu trên một chủ đề của Robert Schumann Op. 20 (1853), *Romanze* Op. 21. Xem [Các nhà soạn nhạc nữ](../lich-su/nu-nha-soan-nhac.md).
+- **Tác phẩm chính:** Concerto La thứ Op. 7, *Romance* Op. 11, *Quatre pièces fugitives* Op. 15, Prelude và Fugue Op. 16, Tam tấu piano Op. 17, Biến tấu trên một chủ đề của Robert Schumann Op. 20 (1853), *Romanze* Op. 21.
 - **Bắt đầu bằng:** các bản trong Op. 15 và *Romance* Op. 11 (≈ Grade 7–8) → *Romanze* Op. 21 (≈ Grade 8) → Biến tấu Op. 20 (sau Grade 8) → Concerto La thứ.
+- **Cuộc đời và các tác phẩm khác:** [Các nhà soạn nhạc nữ](../lich-su/nu-nha-soan-nhac.md#the-ky-19).
 
 ### Franz Liszt (1811–1886)
 
 - **Đặc trưng khi chơi:** piano như cả dàn nhạc: quãng tám liên tục, nhảy quãng xa, nốt lặp nhanh, cadenza, giai điệu ở giữa do ngón cái giữ trong khi hai tay rải nốt bao quanh. Dùng trọng lượng cả cánh tay và phải thật thả lỏng (xem [Sức khỏe khi chơi đàn](suc-khoe.md)). Liszt cũng có những trang trữ tình như opera và những bản cuối đời thưa thớt, lạ lùng.
 - **Tác phẩm chính:** *Années de pèlerinage* (Những năm hành hương), 12 *Études d'exécution transcendante*, *Grandes études de Paganini* (có *La campanella*), ba *Liebesträume*, sáu *Consolations*, 19 *Hungarian Rhapsody*, Sonata Si thứ, rất nhiều bản chuyển soạn.
 - **Bắt đầu bằng:** những bản cuối đời ít nốt như *Nuages gris* (≈ Grade 6–7) → *Consolation* số 3 Rê♭ trưởng (≈ Grade 8) → [*Liebestraum* số 3](tac-pham/liszt-liebestraum.md), *Un sospiro* (sau Grade 8) → *Hungarian Rhapsody*, các étude → Sonata Si thứ.
+- **Cuộc đời và các tác phẩm khác:** [Nhà soạn nhạc](../lich-su/nha-soan-nhac.md#franz-liszt-18111886).
 
 ### Johannes Brahms (1833–1897)
 
 - **Đặc trưng khi chơi:** ấm, dày, trầm. Tay trái trải quãng mười, một tay chơi quãng ba và quãng sáu song song, nhịp hai chồng nhịp ba, *hemiola* làm lệch phách. Giai điệu thường kẹp giữa các lớp hợp âm. Cần bàn tay mở rộng mà thả lỏng, và tư duy phức điệu như Bach.
 - **Tác phẩm chính:** ba sonata thời trẻ, Biến tấu Handel Op. 24, Biến tấu Paganini Op. 35, 16 valse Op. 39 (bản gốc cho bốn tay), hai *Rhapsody* Op. 79, các tiểu phẩm cuối đời Op. 116–119 (1892–1893), hai concerto.
 - **Bắt đầu bằng:** Valse Op. 39 số 15 La♭ trưởng, bản rút gọn do chính Brahms viết (≈ Grade 6) → Intermezzo Op. 117 số 1, mở đầu bằng câu thơ ru con trích một bài ballad Scotland (≈ Grade 7–8) → [Intermezzo Op. 118 số 2](../nghe-nhac/brahms-intermezzo.md) (≈ Grade 7–8) → các Intermezzo Op. 119 (sau Grade 8) → *Rhapsody* Op. 79 → Biến tấu Handel, các concerto.
+- **Cuộc đời và các tác phẩm khác:** [Nhà soạn nhạc](../lich-su/nha-soan-nhac.md#johannes-brahms-18331897).
 
 ## Cuối thế kỷ 19
 
@@ -155,12 +167,14 @@ Nga, Na Uy và Pháp mang giọng nói riêng vào cây đàn: dân ca, màu s�
 - **Đặc trưng khi chơi:** nhà soạn nhạc của giai điệu. Tiểu phẩm piano có kết cấu dễ hiểu (giai điệu, bè trầm, hợp âm đệm) nhưng tư duy như dàn nhạc; khó nhất là làm giai điệu hát và cân bằng các lớp. Concerto thì ngược lại: hợp âm và quãng tám đồ sộ.
 - **Tác phẩm chính:** *Album for the Young* Op. 39 (24 bản, 1878), *Các mùa* Op. 37a (mỗi tháng một bản, đăng trên tạp chí *Nouvellist* suốt năm 1876), *Dumka* Op. 59, Concerto số 1 Op. 23.
 - **Bắt đầu bằng:** *Album for the Young*: *Cầu nguyện buổi sáng*, *Búp bê bị ốm*, *Bài ca Pháp cổ* (≈ Grade 1–4) → *Các mùa*: Tháng Mười (*Bài ca mùa thu*), Tháng Sáu (*Barcarolle*) (≈ Grade 6–8) → Tháng Mười một (*Troika*) (≈ Grade 8) → *Dumka*, Concerto số 1.
+- **Cuộc đời và các tác phẩm khác:** [Nhà soạn nhạc](../lich-su/nha-soan-nhac.md#pyotr-ilyich-tchaikovsky-18401893).
 
 ### Edvard Grieg (1843–1907)
 
 - **Đặc trưng khi chơi:** những bức tranh nhỏ đậm chất Na Uy: quãng năm ngân dài ở bè trầm, điệu thức dân gian, nhịp nhảy múa, giai điệu giản dị trên hòa âm cromatic tinh tế. Kết cấu rõ, vừa tay, rất hợp trình độ trung cấp.
 - **Tác phẩm chính:** 66 *Lyric Pieces* trong 10 tập (1867–1901), Ballade Op. 24, tổ khúc *Holberg* Op. 40 (bản piano), [Concerto La thứ Op. 16](../nghe-nhac/grieg-concerto.md).
 - **Bắt đầu bằng:** *Arietta* Op. 12 số 1, bài đầu tiên trong 66 bài, giai điệu sẽ trở lại ở bài cuối cùng Op. 71 số 7 (≈ Grade 4) → *Valse*, *Elfin Dance* trong Op. 12 (≈ Grade 4–5) → *Notturno* Op. 54 số 4, *Butterfly* Op. 43 số 1 (≈ Grade 7–8) → *Wedding Day at Troldhaugen* Op. 65 số 6 (≈ Grade 8) → Ballade Op. 24, Concerto.
+- **Cuộc đời và các tác phẩm khác:** [Nhà soạn nhạc](../lich-su/nha-soan-nhac.md#edvard-grieg-18431907).
 
 ### Gabriel Fauré (1845–1924)
 
@@ -177,6 +191,7 @@ Thế kỷ 20 mở rộng vốn từ của đôi tay: màu sắc âm thanh, nh�
 - **Đặc trưng khi chơi:** âm thanh là trên hết: nhiều tầng *pianissimo*, chạm phím bằng phần thịt đầu ngón thay vì gõ, bàn đạp tạo những lớp vang (thay một nửa, giữ ngân qua nhiều hòa âm). Hợp âm song song, gam toàn cung, gam ngũ cung. Dưới lớp sương mờ, nhịp vẫn phải chính xác.
 - **Tác phẩm chính:** *Deux Arabesques*, *Suite bergamasque*, *Estampes* (1903), *L'isle joyeuse*, hai tập *Images*, *Children's Corner* (1906–1908, viết cho con gái), hai tập *Préludes* (24 bản, tên đặt ở cuối mỗi bản; xem [hướng dẫn nghe quyển 1](../nghe-nhac/debussy-preludes.md)), 12 *Études* (1915, tưởng nhớ Chopin).
 - **Bắt đầu bằng:** *The Little Shepherd* trong *Children's Corner* (≈ Grade 6) → *Arabesque* số 1, *La fille aux cheveux de lin*, *Rêverie* (≈ Grade 6–7) → [*Clair de lune*](tac-pham/debussy-clair-de-lune.md) (≈ Grade 7–8) → *Golliwogg's Cakewalk*, *Doctor Gradus ad Parnassum*, bản nhại các bài tập của Clementi (≈ Grade 8) → các prelude khác, *Estampes*, *Images* → *Études*.
+- **Cuộc đời và các tác phẩm khác:** [Nhà soạn nhạc](../lich-su/nha-soan-nhac.md#claude-debussy-18621918).
 
 ### Erik Satie (1866–1925)
 
@@ -201,24 +216,28 @@ Thế kỷ 20 mở rộng vốn từ của đôi tay: màu sắc âm thanh, nh�
 - **Đặc trưng khi chơi:** viết cho bàn tay rất lớn của chính ông: hợp âm dày trải rộng, tiếng chuông nhà thờ Nga ở âm vực trầm, giai điệu dài ẩn trong lớp hợp âm, hợp âm rải quét khắp bàn phím. Cần trọng lượng cánh tay để tiếng to mà không gắt, biết làm nổi nốt trên cùng của hợp âm, và sức bền.
 - **Tác phẩm chính:** *Morceaux de fantaisie* Op. 3 (1892, có Prelude Đô♯ thứ), 24 prelude (Op. 3 số 2, Op. 23, Op. 32), *Moments musicaux* Op. 16, *Études-tableaux* Op. 33 và Op. 39, Biến tấu Corelli Op. 42, bốn concerto và *Rhapsody on a Theme of Paganini*.
 - **Bắt đầu bằng:** xây nền bằng nocturne và étude của Chopin → *Élégie* Op. 3 số 1, Prelude Op. 3 số 2 (≈ Grade 8) → Prelude Op. 23 số 4 Rê trưởng, Op. 32 số 5 Sol trưởng (sau Grade 8) → *Moments musicaux*, *Études-tableaux* → [Concerto số 2](../nghe-nhac/rachmaninoff-2.md).
+- **Cuộc đời và các tác phẩm khác:** [Nhà soạn nhạc](../lich-su/nha-soan-nhac.md#sergei-rachmaninoff-18731943).
 
 ### Maurice Ravel (1875–1937)
 
 - **Đặc trưng khi chơi:** chính xác như đồng hồ: ký hiệu rất chi tiết, ngón rõ và nhanh, tay chồng tay, nốt lặp nhanh, glissando. Hình thức thường cổ điển (sonatine, minuet, tổ khúc kiểu Baroque) nhưng hòa âm và màu sắc mới. Bàn đạp nhiều hơn Mozart mà đường nét vẫn phải trong.
 - **Tác phẩm chính:** *Pavane pour une infante défunte* (1899), *Jeux d'eau* (1901), *Sonatine*, *Miroirs*, *Gaspard de la nuit* (1908), *Ma mère l'Oye* (bốn tay), *Le tombeau de Couperin*, hai concerto.
 - **Bắt đầu bằng:** *Ma mère l'Oye*, chơi bốn tay (≈ Grade 3–6 tùy bè và tùy bài) → *Menuet sur le nom d'Haydn* (1909), Prélude La thứ (1913) (≈ Grade 6–7) → *Pavane* (≈ Grade 8) → *Sonatine*, Menuet và Forlane trong *Le tombeau de Couperin* (sau Grade 8) → *Jeux d'eau*, *Miroirs* → *Gaspard de la nuit*.
+- **Cuộc đời và các tác phẩm khác:** [Nhà soạn nhạc](../lich-su/nha-soan-nhac.md#maurice-ravel-18751937).
 
 ### Béla Bartók (1881–1945)
 
 - **Đặc trưng khi chơi:** piano như nhạc cụ gõ: tiếng chắc, dấu nhấn, staccato khô, ostinato lặp đi lặp lại. Nhịp lẻ từ dân ca Đông Âu (5/8, 7/8), điệu thức cổ, nghịch âm. Ký hiệu cực kỳ chính xác, nhiều bản ghi cả thời lượng ở cuối. Không gì rèn độc lập hai tay và nhịp tốt hơn.
 - **Tác phẩm chính:** *For Children* (dựa trên dân ca Hungary và Slovakia), *Mikrokosmos* (153 bài trong 6 tập), *Allegro barbaro* (1911), *Romanian Folk Dances* (1915), Sonatina, Suite Op. 14, *Out of Doors*, Sonata (1926), ba concerto.
 - **Bắt đầu bằng:** *Mikrokosmos* tập 1–2 (ngay từ những tháng đầu) → *For Children* (≈ Grade 1–4) → *Mikrokosmos* tập 3–4 (≈ Grade 3–6) → *Romanian Folk Dances*, Sonatina (≈ Grade 6–7) → *Allegro barbaro*, Suite Op. 14 (sau Grade 8) → *Out of Doors*, Sonata.
+- **Cuộc đời và các tác phẩm khác:** [Nhà soạn nhạc](../lich-su/nha-soan-nhac.md#bela-bartok-18811945).
 
 ### Sergei Prokofiev (1891–1953)
 
 - **Đặc trưng khi chơi:** "ngón tay thép": nhịp máy chạy đều kiểu *toccata*, staccato sắc, nhảy quãng rộng, hòa âm rẽ đột ngột sang giọng khác như một cái nháy mắt; bên cạnh là những giai điệu trữ tình nhiều bước nhảy. Cần nhịp không lay chuyển và tiếng gõ không thô.
 - **Tác phẩm chính:** *Toccata* Op. 11 (1912), *Visions fugitives* Op. 22, 9 sonata (số 6–8 là ba "sonata chiến tranh"), *Music for Children* Op. 65 (1935), 10 bản trích ballet *Romeo và Juliet* Op. 75, 5 concerto.
 - **Bắt đầu bằng:** *Music for Children*: *Morning*, *Promenade*, *March*, *Tarantella* (≈ Grade 3–6) → vài bản trong *Visions fugitives* (≈ Grade 6–8) → *Romeo và Juliet* Op. 75, như *Montagues and Capulets* (sau Grade 8) → Sonata số 3, *Toccata* → Sonata số 7.
+- **Cuộc đời và các tác phẩm khác:** [Nhà soạn nhạc](../lich-su/nha-soan-nhac.md#sergei-prokofiev-18911953).
 
 ### George Gershwin (1898–1937)
 
@@ -237,6 +256,7 @@ Thế kỷ 20 mở rộng vốn từ của đôi tay: màu sắc âm thanh, nh�
 - **Đặc trưng khi chơi:** gọn và sắc: kết cấu hai bè trong trẻo, giai điệu ngây thơ bị bẻ cong bởi một nốt nghịch, châm biếm xen bi kịch. Lối viết phức điệu nối tiếp Bach. Cần staccato khô, nhịp chính xác và cảm nhận được sự mỉa mai.
 - **Tác phẩm chính:** 24 Prelude Op. 34 (1932–1933), *Children's Notebook* Op. 69 (1944–1945, viết cho con gái Galina), *Dances of the Dolls* (1952), 24 Prelude và Fugue Op. 87 (1950–1951), hai concerto (số 2 viết cho con trai Maxim).
 - **Bắt đầu bằng:** *Children's Notebook* (≈ Grade 1–3) → *Dances of the Dolls* (≈ Grade 3–5) → vài prelude Op. 34 (≈ Grade 5–8) → Prelude và Fugue Op. 87, như số 1 Đô trưởng hoặc số 7 La trưởng (sau Grade 8) → Concerto số 2.
+- **Cuộc đời và các tác phẩm khác:** [Nhà soạn nhạc](../lich-su/nha-soan-nhac.md#dmitri-shostakovich-19061975).
 
 ### György Ligeti (1923–2006)
 

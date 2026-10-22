@@ -33,11 +33,15 @@ Nhạc sĩ organ và giám đốc âm nhạc nhà thờ ở Leipzig suốt 27 n�
 
 **Nghe trước:** [Prelude cung Đô trưởng](../piano/tac-pham/bach-prelude-do.md); [Tổ khúc cello số 1](../nghe-nhac/bach-cello-1.md); *Brandenburg Concerto số 3*; *Thương khó theo Thánh Matthew*.
 
+**Nhạc cho piano:** xem [Nhà soạn nhạc cho piano](../piano/nha-soan-nhac.md#johann-sebastian-bach-16851750).
+
 ### George Frideric Handel (1685–1759)
 
 Sinh ở Đức cùng năm với Bach, nhưng làm nên sự nghiệp ở London với opera Ý và sau đó là oratorio tiếng Anh.
 
 **Nghe trước:** *Messiah*; *Water Music*; *Music for the Royal Fireworks*.
+
+**Nhạc cho piano:** xem [Nhà soạn nhạc cho piano](../piano/nha-soan-nhac.md#george-frideric-handel-16851759).
 
 ## Cổ điển
 
@@ -47,17 +51,23 @@ Phục vụ gia đình quý tộc Esterházy gần 30 năm, Haydn được gọi
 
 **Nghe trước:** [Giao hưởng số 94 *Surprise*](../nghe-nhac/haydn-94.md); Tứ tấu đàn dây Op. 76 số 3 *Hoàng đế*; oratorio *Sự sáng tạo*.
 
+**Nhạc cho piano:** xem [Nhà soạn nhạc cho piano](../piano/nha-soan-nhac.md#joseph-haydn-17321809).
+
 ### Wolfgang Amadeus Mozart (1756–1791)
 
 Thần đồng biểu diễn khắp châu Âu từ năm 6 tuổi, Mozart sống chỉ 35 năm nhưng để lại hơn 600 tác phẩm ở mọi thể loại. Các tác phẩm được đánh số theo danh mục Köchel (K.).
 
 **Nghe trước:** [Giao hưởng số 40](../nghe-nhac/mozart-40.md); *Eine kleine Nachtmusik* K. 525; Concerto piano số 21 K. 467; opera *Cây sáo thần* ([aria Nữ hoàng bóng đêm](../nghe-nhac/mozart-nu-hoang-bong-dem.md)).
 
+**Nhạc cho piano:** xem [Nhà soạn nhạc cho piano](../piano/nha-soan-nhac.md#wolfgang-amadeus-mozart-17561791).
+
 ### Ludwig van Beethoven (1770–1827)
 
 Học ở Vienna (có thời gian học với Haydn), Beethoven bắt đầu bị mất thính lực từ khoảng tuổi 28 và gần như điếc hoàn toàn khi viết những tác phẩm vĩ đại nhất. Ông là cây cầu từ Cổ điển sang Lãng mạn, đưa giao hưởng và sonata lên quy mô và chiều sâu chưa từng có.
 
 **Nghe trước:** [Giao hưởng số 5](../nghe-nhac/beethoven-5.md); Sonata piano *Ánh trăng*; Giao hưởng số 9; [Tứ tấu đàn dây Op. 132](../nghe-nhac/beethoven-op132.md).
+
+**Nhạc cho piano:** xem [Nhà soạn nhạc cho piano](../piano/nha-soan-nhac.md#ludwig-van-beethoven-17701827).
 
 ## Lãng mạn
 
@@ -67,11 +77,15 @@ Mất năm 31 tuổi, Schubert viết hơn 600 ca khúc nghệ thuật (Lied), b
 
 **Nghe trước:** [*Erlkönig*](../nghe-nhac/schubert-erlkonig.md); [Ngũ tấu *Con cá hồi*](../nghe-nhac/schubert-ca-hoi.md); Giao hưởng số 8 *Dang dở*.
 
+**Nhạc cho piano:** xem [Nhà soạn nhạc cho piano](../piano/nha-soan-nhac.md#franz-schubert-17971828).
+
 ### Frédéric Chopin (1810–1849)
 
 Sinh ở Ba Lan, sống và biểu diễn tại Paris. Gần như mọi tác phẩm của Chopin đều cho piano, và ông được coi là "nhà thơ của cây đàn piano".
 
 **Nghe trước:** [Nocturne Op. 9 số 2](../piano/tac-pham/chopin-nocturne-op9-2.md); Ballade số 1; Étude Op. 10 số 3.
+
+**Nhạc cho piano:** xem [Nhà soạn nhạc cho piano](../piano/nha-soan-nhac.md#frederic-chopin-18101849).
 
 ### Felix Mendelssohn (1809–1847)
 
@@ -79,17 +93,23 @@ Thần đồng được so với Mozart: viết Bát tấu đàn dây năm 16 tu
 
 **Nghe trước:** [Concerto violin cung Mi thứ](../nghe-nhac/mendelssohn-violin.md); khúc mở màn *Giấc mộng đêm hè*; Giao hưởng số 4 *Ý*.
 
+**Nhạc cho piano:** xem [Nhà soạn nhạc cho piano](../piano/nha-soan-nhac.md#felix-mendelssohn-18091847).
+
 ### Robert Schumann (1810–1856)
 
 Nhà soạn nhạc, nhà phê bình âm nhạc (ông sáng lập một tạp chí âm nhạc có ảnh hưởng lớn và là người giới thiệu Chopin, Brahms với công chúng), chồng của nghệ sĩ piano [Clara Schumann](nu-nha-soan-nhac.md). Âm nhạc piano và ca khúc của ông giàu tưởng tượng, gắn với văn học. Những năm cuối đời ông bị bệnh tâm thần nặng.
 
 **Nghe trước:** *Kinderszenen* Op. 15 (có *Träumerei*); *Dichterliebe* Op. 48; Concerto piano cung La thứ.
 
+**Nhạc cho piano:** xem [Nhà soạn nhạc cho piano](../piano/nha-soan-nhac.md#robert-schumann-18101856).
+
 ### Franz Liszt (1811–1886)
 
 Nghệ sĩ piano điêu luyện nhất thế kỷ 19, người tạo ra buổi độc tấu piano (recital) theo kiểu hiện đại và thể loại thơ giao hưởng.
 
 **Nghe trước:** *Liebestraum* số 3; *Hungarian Rhapsody* số 2; Sonata cung Si thứ.
+
+**Nhạc cho piano:** xem [Nhà soạn nhạc cho piano](../piano/nha-soan-nhac.md#franz-liszt-18111886).
 
 ### Richard Wagner (1813–1883)
 
@@ -109,6 +129,8 @@ Người kế thừa truyền thống Beethoven, kết hợp hình thức chặt
 
 **Nghe trước:** [Giao hưởng số 4](../nghe-nhac/brahms-4.md); Concerto violin; *Hungarian Dances*.
 
+**Nhạc cho piano:** xem [Nhà soạn nhạc cho piano](../piano/nha-soan-nhac.md#johannes-brahms-18331897).
+
 ### Georges Bizet (1838–1875)
 
 Nhà soạn nhạc Pháp, mất năm 36 tuổi chỉ vài tháng sau khi vở opera *Carmen* ra mắt — vở opera ban đầu bị chê là "thô tục" nhưng sau đó trở thành một trong những opera được diễn nhiều nhất thế giới. Âm nhạc của ông đầy màu sắc Tây Ban Nha và giai điệu bắt tai.
@@ -121,6 +143,8 @@ Nhà soạn nhạc Nga có giai điệu dễ nhớ bậc nhất, tác giả củ
 
 **Nghe trước:** [*Hồ thiên nga*](../nghe-nhac/tchaikovsky-ho-thien-nga.md); Concerto piano số 1; Giao hưởng số 6 *Bi tráng*.
 
+**Nhạc cho piano:** xem [Nhà soạn nhạc cho piano](../piano/nha-soan-nhac.md#pyotr-ilyich-tchaikovsky-18401893).
+
 ### Antonín Dvořák (1841–1904)
 
 Nhà soạn nhạc Séc đưa chất dân ca vào nhạc giao hưởng. Ông sống ở Mỹ ba năm và viết Giao hưởng số 9 tại đó. Dấu vân tay của ông: giai điệu tươi sáng, mộc mạc như dân ca; tiết tấu nảy, rộn ràng; âm nhạc luôn toát lên niềm vui sống và nỗi nhớ quê hương.
@@ -132,6 +156,8 @@ Nhà soạn nhạc Séc đưa chất dân ca vào nhạc giao hưởng. Ông s�
 Nhà soạn nhạc Na Uy, đưa dân ca và phong cảnh Bắc Âu vào nhạc cổ điển; bậc thầy của các tiểu phẩm ngắn. Dấu vân tay của ông: những tiểu phẩm trong trẻo như tranh phong cảnh — nghe là thấy núi tuyết, vịnh hẹp và ánh sáng phương Bắc; hòa âm tinh tế, hiếm khi ồn ào.
 
 **Nghe trước:** *Peer Gynt*: *Buổi sáng*, *Trong cung điện vua núi*; Concerto piano cung La thứ; *Holberg Suite*.
+
+**Nhạc cho piano:** xem [Nhà soạn nhạc cho piano](../piano/nha-soan-nhac.md#edvard-grieg-18431907).
 
 ### Edward Elgar (1857–1934)
 
@@ -165,11 +191,15 @@ Người Pháp, mở ra chủ nghĩa ấn tượng trong âm nhạc với hòa �
 
 **Nghe trước:** [*Clair de lune*](../piano/tac-pham/debussy-clair-de-lune.md); *Prélude à l'après-midi d'un faune*; *La Mer*.
 
+**Nhạc cho piano:** xem [Nhà soạn nhạc cho piano](../piano/nha-soan-nhac.md#claude-debussy-18621918).
+
 ### Sergei Rachmaninoff (1873–1943)
 
 Nghệ sĩ piano và nhà soạn nhạc Nga, giữ phong cách Lãng mạn giữa thế kỷ 20. Ông rời Nga sau Cách mạng 1917 và sống phần lớn quãng đời còn lại ở Mỹ.
 
 **Nghe trước:** [Concerto piano số 2](../nghe-nhac/rachmaninoff-2.md); *Rhapsody on a Theme of Paganini*; *Vocalise*.
+
+**Nhạc cho piano:** xem [Nhà soạn nhạc cho piano](../piano/nha-soan-nhac.md#sergei-rachmaninoff-18731943).
 
 ### Maurice Ravel (1875–1937)
 
@@ -177,11 +207,15 @@ Thường được xếp cạnh Debussy, nhưng âm nhạc của Ravel sắc né
 
 **Nghe trước:** [*Boléro*](../nghe-nhac/ravel-bolero.md); *Pavane pour une infante défunte*; Concerto piano cung Sol.
 
+**Nhạc cho piano:** xem [Nhà soạn nhạc cho piano](../piano/nha-soan-nhac.md#maurice-ravel-18751937).
+
 ### Béla Bartók (1881–1945)
 
 Nhà soạn nhạc và nghệ sĩ piano Hungary, đồng thời là nhà dân tộc nhạc học: ông đi khắp các làng quê Đông Âu **ghi âm hàng nghìn bài dân ca** bằng máy ghi âm ống sáp. Âm nhạc của ông kết hợp tiết tấu dân gian với ngôn ngữ hiện đại. Ông mất trong cảnh nghèo khó ở New York.
 
 **Nghe trước:** *Concerto cho dàn nhạc*; *Music for Strings, Percussion and Celesta*; *Mikrokosmos* (153 bài piano từ dễ đến khó).
+
+**Nhạc cho piano:** xem [Nhà soạn nhạc cho piano](../piano/nha-soan-nhac.md#bela-bartok-18811945).
 
 ### Igor Stravinsky (1882–1971)
 
@@ -195,11 +229,15 @@ Nhà soạn nhạc Nga, sống ở phương Tây rồi trở về Liên Xô năm
 
 **Nghe trước:** *Peter và chó sói*; ballet *Romeo và Juliet*, *Vũ điệu các hiệp sĩ*; Giao hưởng số 1 *Cổ điển*.
 
+**Nhạc cho piano:** xem [Nhà soạn nhạc cho piano](../piano/nha-soan-nhac.md#sergei-prokofiev-18911953).
+
 ### Dmitri Shostakovich (1906–1975)
 
 Sáng tác dưới chế độ Xô viết, âm nhạc của ông vừa phải làm vừa lòng chính quyền vừa ẩn chứa sự châm biếm và đau đớn.
 
 **Nghe trước:** [Giao hưởng số 5](../nghe-nhac/shostakovich-5.md); *Waltz* số 2 (trích *Suite for Variety Orchestra*); Tứ tấu đàn dây số 8.
+
+**Nhạc cho piano:** xem [Nhà soạn nhạc cho piano](../piano/nha-soan-nhac.md#dmitri-shostakovich-19061975).
 
 
 ### Olivier Messiaen (1908–1992)
