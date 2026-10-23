@@ -44,7 +44,7 @@ Nguồn gốc, tên gọi và một bài nghe đi qua từng phần (chương 3 
 | Hình thức | Cách xây | Ví dụ |
 |---|---|---|
 | **Theo khổ** (strophic) | Mọi khổ lời hát cùng một giai điệu | Schubert *Heidenröslein*; hầu hết dân ca, thánh ca |
-| **Theo khổ có biến đổi** | Cùng giai điệu nhưng một khổ (thường là khổ cuối hoặc khổ buồn) được thay đổi | Nhiều ca khúc Schubert, Brahms |
+| **Theo khổ có biến đổi** | Cùng giai điệu, nhưng có khổ được thay đổi | Nhiều ca khúc của Brahms |
 | **Xuyên suốt** (through-composed) | Nhạc mới cho mỗi đoạn lời, đi theo câu chuyện | Schubert [*Erlkönig*](../nghe-nhac/schubert-erlkonig.md) |
 
 ## Nghe để nhận ra hình thức nhỏ

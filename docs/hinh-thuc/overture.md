@@ -15,7 +15,7 @@ Thế kỷ 19, các nhà soạn nhạc viết **concert overture**: một chươ
 
 | Tác phẩm | Câu chuyện |
 |---|---|
-| Mendelssohn, *Hebrides* (*Động Fingal*) | Biển cả và hang động Scotland; sóng vỗ mở đầu nổi tiếng |
+| Mendelssohn, *Hebrides* (*Động Fingal*) | Biển cả và hang Fingal ở Scotland; âm nhạc gợi sóng biển |
 | Berlioz, *Roman Carnival* | Lễ hội Rome |
 | Tchaikovsky, *1812* | Cuộc chiến Nga–Pháp năm 1812 (có đại bác thật — ở buổi diễn ngoài trời!) |
 | Tchaikovsky, *Romeo và Juliet* | Bi kịch Shakespeare — chủ đề tình yêu đối đầu chủ đề gươm đao |
@@ -25,8 +25,8 @@ Thế kỷ 19, các nhà soạn nhạc viết **concert overture**: một chươ
 Xem [hướng dẫn nghe chi tiết](../nghe-nhac/tchaikovsky-1812.md). Khung overture ở đây rất rõ:
 
 1. **Mở đầu chậm**: thánh ca Chính thống giáo — không khí Nga yên bình.
-2. **Thân chính** (gần như sonata): *Marseillaise* (chủ đề 1, phe Pháp) đối đầu nhạc Nga (chủ đề 2).
-3. **Phát triển**: trận chiến — hai phe giằng co.
+2. **Thân chính**: *Marseillaise* (phe Pháp) đối đầu với nhạc dân gian Nga.
+3. **Trận chiến**: hai phe giằng co.
 4. **Kết**: *Marseillaise* sụp đổ, quốc ca Nga hoàng khải hoàn với đại bác và chuông.
 
 Nghe overture là nghe **kể chuyện bằng dàn nhạc**: mỗi lần một chủ đề xuất hiện, hãy hỏi "đây là phe nào, chuyện đang đến đâu?"
@@ -36,7 +36,7 @@ Nghe overture là nghe **kể chuyện bằng dàn nhạc**: mỗi lần một c
 | Tác phẩm | Điều cần tìm | Hướng dẫn |
 |---|---|---|
 | [Tchaikovsky, *1812 Overture*](../nghe-nhac/tchaikovsky-1812.md) | Hai quốc ca đối đầu | Hướng dẫn nghe |
-| Mendelssohn, *Hebrides* | Sóng biển trong phần mở đầu | |
+| Mendelssohn, *Hebrides* | Hình ảnh sóng biển | |
 | Mozart, *Don Giovanni*: Overture | Overture opera kinh điển, chơi trước khi màn mở | |
 
 ## Nguồn

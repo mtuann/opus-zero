@@ -20,7 +20,7 @@ Chương scherzo cung **Đô thứ** này không kết thúc độc lập: nó *
 
 | Phần | Điều xảy ra |
 |---|---|
-| Scherzo | Dây trầm (cello, contrabass) mở đầu bằng chủ đề bí ẩn, rón rén; kèn horn đáp lại |
+| Scherzo | Dây trầm (cello, contrabass) mở đầu bằng chủ đề bí ẩn, rón rén; rồi kèn horn vang lên chủ đề chính |
 | Trio | Chuyển sang **Đô trưởng**: fugue của cello và contrabass — trầm mà hùng tráng |
 | Scherzo da capo | Trở lại, nhưng **nhỏ dần, mỏng dần**… |
 | Đoạn chuyển | Tiếng trống timpani gõ đều như nhịp tim; nhạc dồn nén, chờ đợi… |

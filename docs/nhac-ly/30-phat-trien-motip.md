@@ -39,7 +39,7 @@ K:Cm
 "^chuỗi" z F F F | D4 | "^đảo" z G G G | =B4 | "^nới rộng" z2 G2 | G2 G2 | E4- | E4 | "^chia nhỏ" z G G G | z G G G | z G G G | G4 |]
 ```
 
-Trong chương 1 Giao hưởng số 5, Beethoven dùng gần như tất cả các kỹ thuật này. Phần phát triển (xem [Hình thức sonata](../hinh-thuc/sonata.md)) đặc biệt dùng nhiều **chia nhỏ**: môtip bị cắt ngắn dần, chuyền qua lại giữa các bè, căng thẳng tăng dần.
+Trong chương 1 Giao hưởng số 5, Beethoven dùng nhiều kỹ thuật trong số này. Phần phát triển (xem [Hình thức sonata](../hinh-thuc/sonata.md)) đặc biệt dùng nhiều **chia nhỏ**: môtip bị cắt ngắn dần, chuyền qua lại giữa các bè, căng thẳng tăng dần.
 
 ## Cấu trúc câu nhạc: "câu" và "đoạn"
 

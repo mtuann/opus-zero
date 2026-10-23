@@ -80,7 +80,7 @@ K:C
 [V:V2] cd d/e/d e2dc | cd d/e/d e2dc | ef f/g/f g4 | ef f/g/f g4 |]
 ```
 
-*Gặp ở:* **nhạc truyền thống Việt Nam** (đờn ca tài tử, nhã nhạc: các nhạc cụ cùng chơi một bài bản theo cách riêng, xem [trang này](../lich-su/nhac-truyen-thong-viet-nam.md)), gamelan, nhạc Ả Rập; trong nhạc cổ điển phương Tây thì hiếm.
+*Gặp ở:* **nhạc truyền thống Việt Nam** (đờn ca tài tử: các nhạc cụ cùng chơi một bài bản theo cách riêng, xem [trang này](../lich-su/nhac-truyen-thong-viet-nam.md)), gamelan, nhạc Ả Rập; trong nhạc cổ điển phương Tây thì hiếm.
 
 ## Nhìn thấy kết cấu
 
