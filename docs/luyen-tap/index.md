@@ -61,7 +61,7 @@ Bốn công cụ dưới đây nằm ngay trong các bài [Luyện tai](../luyen
 [Nhận biết kết](../luyen-tai/nghe-tien-trinh.md#luyen-voi-cong-cu)
 :   Nghe bốn hợp âm và đoán loại kết ở cuối: trọn, nửa, plagal hay lừa.
 
-Đoán phong cách và nhận biết kết cấu (giai điệu và đệm, đối âm…) nằm ở [Luyện nghe nhận diện](../nhan-dien/luyen-nghe.md).
+Đoán phong cách và nhận biết kết cấu (giai điệu và đệm, đối âm…) nằm ở [Luyện nghe nhận diện](../nhan-dien/luyen-nghe.md). Đưa tai vào tay: bài [Chơi theo tai bên phím đàn](../luyen-tai/choi-bang-tai.md) dùng [Hát lại](hat-lai.md) và [Chép giai điệu](chep-giai-dieu.md) để tìm giai điệu trên phím, đệm và dịch giọng.
 
 ## Khám phá
 

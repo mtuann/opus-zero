@@ -146,4 +146,4 @@ Bốn hợp âm; hai hợp âm cuối tạo thành một trong bốn loại kế
 - Robert O. Gjerdingen, *Music in the Galant Style* (Oxford University Press, 2007): Romanesca, Prinner và các mẫu khác.
 - Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).
 
-Luyện tiếp: [Luyện nghe nhận diện](../nhan-dien/luyen-nghe.md) và [Nghe mù](../nhan-dien/nghe-mu.md).
+Bài tiếp theo: [Chơi theo tai bên phím đàn](choi-bang-tai.md). Luyện tiếp phần nghe: [Luyện nghe nhận diện](../nhan-dien/luyen-nghe.md) và [Nghe mù](../nhan-dien/nghe-mu.md).

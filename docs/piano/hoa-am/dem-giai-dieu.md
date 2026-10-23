@@ -1,6 +1,6 @@
 # Đệm cho một giai điệu
 
-Có trong tay một giai điệu, bạn sẽ chọn hợp âm cho nó, quyết định đổi hợp âm khi nào, viết một bè bass biết hát và lắp một hình đệm quen thuộc. Các ví dụ dùng những giai điệu bạn đã chơi trong [10 bài đầu tiên](../10-bai-dau-tien.md); hình đệm thì đã học ở [hợp âm và hình đệm](../hop-am-rai.md).
+Có trong tay một giai điệu, bạn sẽ chọn hợp âm cho nó, quyết định đổi hợp âm khi nào, viết một bè bass biết hát và lắp một hình đệm quen thuộc. Các ví dụ dùng những giai điệu bạn đã chơi trong [10 bài đầu tiên](../10-bai-dau-tien.md); hình đệm thì đã học ở [hợp âm và hình đệm](../hop-am-rai.md). Trang này chọn hợp âm bằng mắt, từ bản nhạc; muốn tìm cả giai điệu lẫn nốt trầm bằng tai, không cần bản nhạc, xem [Chơi theo tai bên phím đàn](../../luyen-tai/choi-bang-tai.md).
 
 ## Nốt giai điệu nằm trong hợp âm nào
 

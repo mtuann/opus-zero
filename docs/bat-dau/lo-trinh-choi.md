@@ -60,10 +60,11 @@ Thời gian chỉ là gợi ý. Đi chậm hơn một nửa vẫn hoàn toàn �
 
 | Bên đàn | Đọc nhạc và nhạc lý | Tai và nghe |
 |---|---|---|
-| 10 bài đầu tiên, bài 9–10. [Hợp âm và hình đệm](../piano/hop-am-rai.md): chuỗi I–IV–I–V7–I ở Đô, Sol, Fa; hợp âm rải | [Ôn tập 2](../nhac-ly/on-tap-2.md) và [bài 10](../nhac-ly/10-hop-am-ba.md): hợp âm ba | [Schumann: Kinderszenen](../nghe-nhac/schumann-kinderszenen.md) |
+| 10 bài đầu tiên, bài 9–10. [Hợp âm và hình đệm](../piano/hop-am-rai.md): chuỗi I–IV–I–V7–I ở Đô, Sol, Fa; hợp âm rải | [Ôn tập 2](../nhac-ly/on-tap-2.md) và [bài 10](../nhac-ly/10-hop-am-ba.md): hợp âm ba | [Schumann: Kinderszenen](../nghe-nhac/schumann-kinderszenen.md). [Chơi theo tai](../luyen-tai/choi-bang-tai.md): tìm lại *Ode to Joy* không nhìn bản nhạc, đệm bằng I, IV, V |
 
 - [ ] Xong cả 10 bài; chọn ba bài thích nhất làm "tiết mục" và chơi lại mỗi tuần để giữ
 - [ ] Chơi cho một người nghe: buổi biểu diễn đầu tiên của bạn
+- [ ] Tìm lại trên phím, không nhìn bản nhạc, một giai điệu quen và đệm tay trái bằng nốt trầm Đô, Fa, Sol
 
 ### Tháng 6: tác phẩm thật đầu tiên
 
