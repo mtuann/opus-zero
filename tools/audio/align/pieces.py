@@ -251,12 +251,16 @@ PIECES = {
              # 5: ba biến thể lệch nhau (110,9 / 115,4 / 113,2 s); quãng tám Si (Si2, Si3, Si4) mở tiếng sấm ở 111,0 s, chuỗi
              # nốt đi lên của ô 45 ở 113,5 s
              fix={5: 111.0})]),
-    # Chưa có bản nhạc số dùng được: đo trên bản thu (10/2026). Tìm từng câu của chủ đề A, đoạn B, đoạn C bằng chroma
-    # (so khớp mẫu), rồi lấy khởi âm ở đầu đoạn. Bản thu chơi A | B B | A' | C, chủ đề La thứ | C | A'' (ba câu) | coda.
-    # B: nốt lấy đà 26,0 và 38,75 s (cùng hợp âm Mi–Rê♯–Si); A': 50,6 s; C sau khoảng lặng ở 64,0 và 87,5 s;
-    # A'': nốt Mi lấy đà 98,3 s, như nốt đầu bài (0,26 s); coda sau ba câu của A'', khoảng 117 s (chắc trong 1 giây)
+    # Chưa có bản nhạc số trong sources.json: đo trên bản thu (10/2026). Bản nhạc (bản khắc WIMA của André Van Ryckeghem,
+    # 1999; bản LilyPond chép theo bản thảo, github.com/rdj/music): nhịp lấy đà + 56 ô, A 1–16 | ‖: B 17–24 :‖ |
+    # ‖: A' 25–32, C 33–40 :‖ | A'' 41–52 | coda 53–56; bản thu chơi đủ các dấu nhắc lại. Đã kiểm thêm bằng DTW trên
+    # bản LilyPond (ngoài repo): cách nối có đủ nhắc lại cho chi phí thấp nhất, ba biến thể cho các mốc dưới đây trong
+    # khoảng 0,8 giây. Khởi âm ở đầu đoạn: Mi4 lấy đà 0,26 s; B (Mi2 trầm, Mi5) 26,0 và 38,75 s; A' (La2 + La4 mở ô 25)
+    # 51,2 s (50,4 s là hợp âm phách 3 của ô 24), lần hai Mi4 lấy đà cuối ô 40 ở 74,9 s (ô 25 ở 75,4 s); C (Mi2 trầm,
+    # Si5 mở ô 33) 64,0 và 87,5 s (Mi2 87,35, Si5 87,54); A'' Mi4 lấy đà 98,3 s; coda: Đô3 mở ô 53 ở 117,6 s
+    # (Đô6 118,1 s, hợp âm phách 2 118,5 s)
     "chopin-valse-la-thu": dict(page="piano/tac-pham/chopin-valse-la-thu.md", jobs=[
-        dict(rows={0: 0.26, 1: 26.0, 2: 38.75, 3: 50.6, 4: 64.0, 5: 87.5, 6: 98.3, 7: 117.0})]),
+        dict(rows={0: 0.26, 1: 26.0, 2: 38.75, 3: 51.2, 4: 64.0, 5: 74.9, 6: 87.5, 7: 98.3, 8: 117.6})]),
     # Bản thu Chiara Bertoglio (IMSLP), một file 33:44. Neo ở đầu các bài đứng sau khoảng lặng, đo bằng khởi âm của nốt
     # đầu trong MIDI (10/2026): Gnomus Si2–Si3 88,4 s; Promenade 2 Fa3 250,9 s; Promenade 3 La♭3–La♭4 577,3 s;
     # Promenade 4 hợp âm Rê thứ (Rê5–Fa5–La5–Rê6) 843,9 s; Promenade 5 Sol4 1084,4 s; Baba Yaga Fa♯–Sol quãng tám 1553,8 s.

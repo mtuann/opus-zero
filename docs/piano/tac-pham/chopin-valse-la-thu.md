@@ -49,7 +49,7 @@ Các album valse kinh điển thường gồm 14 bản quen thuộc, và bản n
 
 Rồi nghe [Valse Si thứ Op. 69 số 2](chopin-valse-si-thu.md), bản bạn sẽ học tiếp, qua bản thu của Dinu Lipatti và Arthur Rubinstein. Nhiều người thấy Lipatti thanh thoát và chặt chẽ hơn, Rubinstein ung dung như đang trò chuyện: hãy tự nghe và quyết định. Muốn hiểu lối hát của Chopin, nghe bản thu kèm bản đồ nghe trong bài học [Nocturne Op. 9 số 2](chopin-nocturne-op9-2.md#theo-doi-khi-nghe).
 
-<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Aya Higuchi (Musopen)&quot;,&quot;lic&quot;:&quot;phạm vi công cộng&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Chopin_-_Waltz_No._19_in_A_minor,_B._150_(Aya_Higuchi).flac&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/Chopin_-_Waltz_No._19_in_A_minor%2C_B._150_%28Aya_Higuchi%29.flac/Chopin_-_Waltz_No._19_in_A_minor%2C_B._150_%28Aya_Higuchi%29.flac.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/6/6a/Chopin_-_Waltz_No._19_in_A_minor%2C_B._150_%28Aya_Higuchi%29.flac&quot;,&quot;d&quot;:130.68}],&quot;ref&quot;:[0,26,39,51,64,88,98,117]}"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Aya Higuchi (Musopen)&quot;,&quot;lic&quot;:&quot;phạm vi công cộng&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Chopin_-_Waltz_No._19_in_A_minor,_B._150_(Aya_Higuchi).flac&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/Chopin_-_Waltz_No._19_in_A_minor%2C_B._150_%28Aya_Higuchi%29.flac/Chopin_-_Waltz_No._19_in_A_minor%2C_B._150_%28Aya_Higuchi%29.flac.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/6/6a/Chopin_-_Waltz_No._19_in_A_minor%2C_B._150_%28Aya_Higuchi%29.flac&quot;,&quot;d&quot;:130.68}],&quot;ref&quot;:[0,26,39,51,64,75,88,98,118]}"></div>
 
 ## Theo dõi khi nghe
 
@@ -57,30 +57,31 @@ Dán link một bản thu vào khung phía trên (hoặc chọn một file trên
 
 | Thời điểm | Sự kiện |
 |---|---|
-| … | **Đoạn A** (La thứ, 16 ô): giai điệu buồn, đơn giản, có nốt hoa mỹ nhỏ, trên tay trái valse; bốn câu 4 ô, mỗi câu hơi khác câu trước |
-| … | **Đoạn B** (8 ô): sôi nổi hơn, nổi bật với một hợp âm rải đi lên nhanh |
+| … | **Đoạn A** (La thứ, ô 1–16): giai điệu buồn, đơn giản, có nốt hoa mỹ nhỏ, trên tay trái valse; bốn câu 4 ô, mỗi câu hơi khác câu trước |
+| … | **Đoạn B** (ô 17–24): sôi nổi hơn, nổi bật với một hợp âm rải đi lên nhanh |
 | … | **Đoạn B nhắc lại**: hợp âm rải đi lên vang lần nữa; nghệ sĩ có nán lại ở nốt đích không? |
-| … | **Đoạn A'**: chủ đề trở lại; nghệ sĩ có chơi khác lần đầu không, nhỏ hơn hay thân mật hơn? |
-| … | **Đoạn C** (La trưởng, 16 ô): giai điệu tươi sáng ở vị trí của phần trio; Đô♯ và Fa♯ đổi hẳn không khí |
+| … | **Đoạn A'** (ô 25–32): chủ đề trở lại, nhưng câu thứ hai đi lên và dừng ở hợp âm át, mở đường sang La trưởng; nghệ sĩ có chơi khác lần đầu không, nhỏ hơn hay thân mật hơn? |
+| … | **Đoạn C** (La trưởng, ô 33–40): giai điệu tươi sáng ở vị trí của phần trio; Đô♯ và Fa♯ đổi hẳn không khí |
+| … | **Đoạn A' nhắc lại** (A' và C nhắc lại cùng nhau): chủ đề La thứ trở lại ngay sau đoạn La trưởng |
 | … | **Đoạn C nhắc lại**: tiếng đàn sáng hơn đoạn A, hay chỉ to hơn? |
-| … | **Đoạn A''**: chủ đề lần cuối, chỉ ba câu đầu |
-| … | **Coda**: ngắn, khép lại lặng lẽ, nhỏ dần đến lặng |
+| … | **Đoạn A''** (ô 41–52): chủ đề lần cuối, chỉ ba câu đầu |
+| … | **Coda** (ô 53–56): ngắn, khép lại lặng lẽ, nhỏ dần đến lặng |
 
 ## Cấu trúc
 
 <!-- fig:p-valse-la-thu -->
-<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:16 1 4.6rem"><b>A</b><small>La thứ · 16 ô</small></div><div class="oz-seg k-b" style="flex:8 1 4.6rem"><b>B</b><small>8 ô · nhắc lại</small></div><div class="oz-seg k-a" style="flex:16 1 4.6rem"><b>A&#x27;</b><small>La thứ</small></div><div class="oz-seg k-c" style="flex:16 1 4.6rem"><b>C</b><small>La trưởng · 16 ô · nhắc lại</small></div><div class="oz-seg k-a" style="flex:12 1 4.6rem"><b>A&#x27;&#x27;</b><small>ba câu đầu</small></div><div class="oz-seg k-coda" style="flex:4 1 4.6rem"><b>Coda</b></div></div><figcaption>Valse La thứ, B. 150: rondo nhỏ (độ rộng gần đúng theo số ô nhịp, chưa kể nhắc lại).</figcaption></figure>
+<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:16 1 4.6rem"><b>A</b><small>La thứ · ô 1–16</small></div><div class="oz-seg k-b" style="flex:8 1 4.6rem"><b>‖: B :‖</b><small>La thứ · ô 17–24</small></div><div class="oz-seg k-a" style="flex:8 1 4.6rem"><b>‖: A&#x27;</b><small>La thứ · ô 25–32</small></div><div class="oz-seg k-c" style="flex:8 1 4.6rem"><b>C :‖</b><small>La trưởng · ô 33–40</small></div><div class="oz-seg k-a" style="flex:12 1 4.6rem"><b>A&#x27;&#x27;</b><small>ba câu đầu · ô 41–52</small></div><div class="oz-seg k-coda" style="flex:4 1 4.6rem"><b>Coda</b><small>ô 53–56</small></div></div><figcaption>Valse La thứ, B. 150: rondo nhỏ, 56 ô nhịp 3/4 và một nhịp lấy đà (độ rộng theo số ô đã viết, chưa kể nhắc lại). A&#x27; và C nhắc lại cùng nhau.</figcaption></figure>
 <!-- /fig:p-valse-la-thu -->
 
-Cách chia dưới đây theo một phân tích phổ biến; độ dài các đoạn tính theo ô nhịp đã viết, chưa kể nhắc lại.
+Bài có 56 ô nhịp và một nhịp lấy đà (bản nhạc đã đối chiếu: xem mục Nguồn). Có hai chỗ nhắc lại: đoạn B (ô 17–24), và ô 25–40, tức là A' và C nhắc lại cùng nhau, nên bạn nghe A – B – B – A' – C – A' – C – A'' – coda.
 
-| Đoạn | Giọng | Độ dài | Nội dung | Điều cần chú ý |
+| Đoạn | Giọng | Ô nhịp | Nội dung | Điều cần chú ý |
 |---|---|---|---|---|
-| A | La thứ | 16 ô: bốn câu 4 ô | Giai điệu buồn, đơn giản, có nốt hoa mỹ nhỏ; mỗi câu hơi khác câu trước | Hát; tay trái nhẹ; mỗi câu một hơi |
-| B | – | 8 ô, nhắc lại | Sôi nổi hơn, nổi bật với một hợp âm rải đi lên nhanh | Rải nhẹ, "tung" lên nốt đích, không vội (bài tập 3) |
-| A' | La thứ | | Chủ đề trở lại | Đừng chơi y hệt lần đầu: nhỏ hơn, hoặc thân mật hơn |
-| C | La trưởng | 16 ô, nhắc lại | Giai điệu tươi sáng, đứng ở vị trí của phần trio trong một bản valse thường | Đô♯ và Fa♯ thay cho Đô và Fa; tiếng sáng hơn nhưng không to hơn |
-| A'' và coda | La thứ | Ba câu đầu của chủ đề, rồi coda ngắn | Chủ đề lần cuối, khép lại lặng lẽ | Không chậm dần quá sớm; nốt cuối nhẹ |
+| A | La thứ | 1–16: bốn câu 4 ô | Giai điệu buồn, đơn giản, có nốt hoa mỹ nhỏ; mỗi câu hơi khác câu trước | Hát; tay trái nhẹ; mỗi câu một hơi |
+| B | La thứ | 17–24, nhắc lại | Sôi nổi hơn, nổi bật với một hợp âm rải đi lên nhanh | Rải nhẹ, "tung" lên nốt đích, không vội (bài tập 3) |
+| A' | La thứ | 25–32, nhắc lại cùng C | Câu đầu của chủ đề, rồi một câu đi lên (Rê♯, Fa♯, Sol♯) và dừng ở hợp âm át, mở đường sang La trưởng | Đừng chơi y hệt lần đầu: nhỏ hơn, hoặc thân mật hơn |
+| C | La trưởng | 33–40, nhắc lại cùng A' | Giai điệu tươi sáng, đứng ở vị trí của phần trio trong một bản valse thường | Đô♯ và Fa♯ thay cho Đô và Fa; tiếng sáng hơn nhưng không to hơn |
+| A'' và coda | La thứ | 41–52: ba câu đầu của chủ đề; coda 53–56 | Chủ đề lần cuối, câu thứ ba khép bằng một kết; coda khép lại lặng lẽ | Không chậm dần quá sớm; nốt cuối nhẹ |
 
 Hình thức chủ đề quay lại xen kẽ với các đoạn khác là hình thức [rondo](../../hinh-thuc/rondo.md). Ở đây nó nhỏ gọn, nhưng nguyên tắc vẫn thế: mỗi lần chủ đề trở lại, bạn kể lại cùng một chuyện bằng một giọng hơi khác.
 
@@ -175,7 +176,7 @@ Kế hoạch 5 tuần, khoảng 30–45 phút mỗi ngày.
 
 ### Rubato
 
-Các học trò của Chopin kể rằng khi ông co giãn giai điệu, tay đệm vẫn giữ nhịp (xem trang [Nocturne Op. 9 số 2](chopin-nocturne-op9-2.md)). Với bài này, rubato chỉ cần đơn giản: nán một chút ở nốt cao nhất của câu hoặc ở một bước nhảy đẹp, rồi trả lại thời gian ngay sau đó; chậm lại nhẹ ở cuối câu thứ tư của mỗi đoạn A. Không co giãn ở mọi ô.
+Các học trò của Chopin kể rằng khi ông co giãn giai điệu, tay đệm vẫn giữ nhịp (xem trang [Nocturne Op. 9 số 2](chopin-nocturne-op9-2.md)). Với bài này, rubato chỉ cần đơn giản: nán một chút ở nốt cao nhất của câu hoặc ở một bước nhảy đẹp, rồi trả lại thời gian ngay sau đó; chậm lại nhẹ ở cuối đoạn A (câu thứ tư), trước khi vào đoạn B. Không co giãn ở mọi ô.
 
 ### Bàn đạp
 
@@ -236,6 +237,7 @@ Nhiều chuyên gia về Chopin, trong đó có Jean-Jacques Eigeldinger, cho r�
 ## Nguồn
 
 - "Waltz in A minor, Op. posth. (Chopin)", [Wikipedia](https://en.wikipedia.org/wiki/Waltz_in_A_minor,_Op._posth._%28Chopin%29) (các số danh mục, niên đại, lịch sử in ấn, cấu trúc).
+- Bản nhạc dùng để đối chiếu cấu trúc và số ô nhịp: bản khắc của André Van Ryckeghem cho Werner Icking Music Archive (1999), nay có trên [IMSLP](https://imslp.org/wiki/Waltz_in_A_minor,_B.150_(Chopin,_Fr%C3%A9d%C3%A9ric)); và bản LilyPond chép theo bản thảo của Chopin ở Thư viện Quốc gia Pháp, trong kho [rdj/music](https://github.com/rdj/music) trên GitHub. Hai bản cùng cho 56 ô nhịp, với dấu nhắc lại ở ô 17–24 và ô 25–40.
 - Maurice J. E. Brown, *Chopin: An Index of His Works in Chronological Order*, Macmillan, 1960 (số B.).
 - Krystyna Kobylańska, *Frédéric Chopin: Thematisch-bibliographisches Werkverzeichnis*, G. Henle Verlag, 1979 (số KK).
 - Jean-Jacques Eigeldinger, *Chopin: Pianist and Teacher as Seen by His Pupils*, Cambridge University Press, 1986.
