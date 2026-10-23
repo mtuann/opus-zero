@@ -12,6 +12,7 @@
 7. Font tự host: không còn chỗ nào tải font từ Google Fonts (mkdocs.yml, overrides, hooks, docs/assets),
    mọi url() trong docs/assets/fonts/fonts.css và mọi font được nạp trước trong overrides/main.html
    trỏ tới file có thật.
+8. requirements.txt khóa mọi gói bằng "==" (kể cả gói kéo theo), để build không tự đổi khi một gói lên bản mới.
 """
 import importlib.util
 import re
@@ -107,5 +108,12 @@ for name in re.findall(r'"([\w-]+)"', preload.group(1)) if preload else []:
     if not (ROOT / "docs/assets/fonts" / (name + ".woff2")).exists():
         fail("overrides/main.html nạp trước font %s.woff2 nhưng file không có" % name)
 
-print("site_static: %d kiểm tra, %d lỗi" % (7, len(fails)))
+# --- 8. requirements.txt khóa mọi gói ---
+reqs = [l.strip() for l in (ROOT / "requirements.txt").read_text(encoding="utf-8").splitlines()
+        if l.strip() and not l.lstrip().startswith("#")]
+for l in reqs:
+    if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]*==[^\s=<>!~;]+", l):
+        fail("requirements.txt: dòng %r chưa khóa phiên bản (dùng tên==phiên-bản)" % l)
+
+print("site_static: %d kiểm tra, %d lỗi" % (8, len(fails)))
 sys.exit(1 if fails else 0)

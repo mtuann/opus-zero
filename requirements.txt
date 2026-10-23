@@ -1,3 +1,38 @@
+# Gói Python để build site. Mọi gói đều khóa phiên bản, kể cả gói kéo theo, để build không tự đổi khi một
+# gói lên bản mới. Bộ khóa này là đúng bộ gói lần deploy của commit 7cea23b đã cài (Python 3.12).
+# tests/site_static.py báo lỗi nếu có dòng không khóa bằng "==".
+
+# Ba gói chính. Đừng nâng MkDocs lên 2.x: Material không tương thích.
 mkdocs==1.6.1
 mkdocs-material==9.7.6
 pymdown-extensions==10.21.2
+
+# Gói kéo theo. Muốn nâng một gói chính: cài ba gói chính vào một môi trường sạch (Python 3.12),
+# chạy `pip freeze`, thay các dòng dưới đây, rồi build và chạy kiểm thử.
+babel==2.18.0
+backrefs==8.1
+certifi==2026.10.19
+charset-normalizer==3.5.2
+click==8.5.0
+colorama==0.4.6
+ghp-import==2.1.0
+idna==3.20
+jinja2==3.1.6
+markdown==3.11.2
+markupsafe==3.0.4
+mergedeep==1.3.4
+mkdocs-get-deps==0.2.2
+mkdocs-material-extensions==1.3.1
+packaging==26.3
+paginate==0.5.7
+pathspec==1.1.1
+platformdirs==4.13.5
+pygments==2.21.0
+python-dateutil==3.0.0
+pyyaml==6.0.3
+pyyaml-env-tag==1.1
+requests==2.34.2
+six==1.17.0
+tzdata==2026.5
+urllib3==2.8.0
+watchdog==6.0.0
