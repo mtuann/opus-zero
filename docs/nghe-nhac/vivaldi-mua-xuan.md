@@ -18,12 +18,12 @@ Chương 1 viết theo **hình thức ritornello**, hình thức đặc trưng c
 ## Sơ đồ cấu trúc
 
 <!-- fig:g-vivaldi -->
-<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>R</b></div><div class="oz-seg k-b" style="flex:1.1 1 4.6rem"><b>Chim hót</b><small>solo</small></div><div class="oz-seg k-a" style="flex:0.7 1 4.6rem"><b>R</b></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>Suối chảy</b></div><div class="oz-seg k-a" style="flex:0.7 1 4.6rem"><b>R</b></div><div class="oz-seg k-dev" style="flex:1.3 1 4.6rem"><b>Bão</b><small>giọng thứ</small></div><div class="oz-seg k-a" style="flex:0.7 1 4.6rem"><b>R</b><small>giọng thứ</small></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>Chim trở lại</b></div><div class="oz-seg k-a" style="flex:0.8 1 4.6rem"><b>R</b></div></div><figcaption>Mùa xuân, chương 1: hình thức ritornello (R = ritornello của cả dàn nhạc).</figcaption></figure>
+<figure class="oz-figure"><div class="oz-form-map"><div class="oz-seg k-a" style="flex:1 1 4.6rem"><b>R</b></div><div class="oz-seg k-b" style="flex:1.1 1 4.6rem"><b>Chim hót</b><small>solo</small></div><div class="oz-seg k-a" style="flex:0.7 1 4.6rem"><b>R</b></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>Suối chảy</b></div><div class="oz-seg k-a" style="flex:0.7 1 4.6rem"><b>R</b></div><div class="oz-seg k-dev" style="flex:1.3 1 4.6rem"><b>Bão</b><small>giọng thứ</small></div><div class="oz-seg k-a" style="flex:0.7 1 4.6rem"><b>R</b><small>giọng thứ</small></div><div class="oz-seg k-b" style="flex:1 1 4.6rem"><b>Chim trở lại</b></div><div class="oz-seg k-a" style="flex:0.6 1 4.6rem"><b>R</b></div><div class="oz-seg k-b" style="flex:0.7 1 4.6rem"><b>Độc tấu</b><small>violin</small></div><div class="oz-seg k-a" style="flex:0.8 1 4.6rem"><b>R</b></div></div><figcaption>Mùa xuân, chương 1: hình thức ritornello (R = ritornello của cả dàn nhạc).</figcaption></figure>
 <!-- /fig:g-vivaldi -->
 
 ## Nghe kèm bản thu
 
-<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;John Harrison (violin), Wichita State University Chamber Players, Robert Turizziani chỉ huy&quot;,&quot;lic&quot;:&quot;CC BY-SA 4.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by-sa/4.0/deed.en&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/f/ff/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/f/ff/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga&quot;,&quot;d&quot;:215.28}],&quot;ref&quot;:[1,33,70,79,103,111,138,146]}"></div>
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;John Harrison (violin), Wichita State University Chamber Players, Robert Turizziani chỉ huy&quot;,&quot;lic&quot;:&quot;CC BY-SA 4.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by-sa/4.0/deed.en&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/f/ff/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/f/ff/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga&quot;,&quot;d&quot;:215.28}],&quot;ref&quot;:[1,33,70,79,103,111,138,146,164,176,193]}"></div>
 
 ## Theo dõi khi nghe
 
@@ -39,7 +39,9 @@ Ghi lại thời điểm (phút:giây) bạn nghe thấy từng sự kiện tron
 | … | **Tremolo** nhanh và các chuỗi nốt đi lên vụt qua, giọng chuyển sang thứ | Sấm sét kéo đến, mây đen phủ trời |
 | … | Ritornello trở lại, giọng thứ | |
 | … | Tiếng chim hót trở lại | Bão tan, chim lại cất tiếng hót |
-| … | Ritornello cuối cùng | |
+| … | Ritornello trở lại: cả dàn nhạc nhắc nhịp điệu của câu mở đầu | |
+| … | Violin độc tấu thêm một đoạn ngắn: chuỗi nốt nhanh, chỉ có bè trầm liên tục đệm | |
+| … | Ritornello cuối cùng; câu cuối nhắc lại nhỏ như tiếng vọng | |
 
 ## Câu hỏi để nghe chủ động
 
@@ -54,4 +56,5 @@ Ghi lại thời điểm (phút:giây) bạn nghe thấy từng sự kiện tron
 ## Nguồn
 
 - Bản nhạc và tổng phổ: [IMSLP](https://imslp.org/) (tìm theo tên nhà soạn nhạc và số hiệu danh mục).
+- Thứ tự các đoạn trong bảng theo dõi, nhất là phần cuối (*Tutti* ở ô 66, *Solo* từ giữa ô 70, *Tutti* ở ô 76): tổng phổ chép bằng LilyPond của [Mutopia Project](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301) (Mutopia-2010/02/08-301, theo bản in chụp lại của Performers' Facsimiles, giấy phép CC BY-SA 3.0).
 - Bối cảnh lịch sử: Burkholder, Grout, Palisca, *A History of Western Music*; Grove Music Online. Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

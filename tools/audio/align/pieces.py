@@ -240,14 +240,21 @@ PIECES = {
              fix={5: 199.2})]),
     # MIDI Mutopia bắt đầu bằng nhịp lấy đà (móc đơn) nên ô in n bắt đầu ở chỉ số n − 1 + 0,125. Theo các chữ đánh dấu
     # trong bản LilyPond: B (chim hót) giữa ô 13; tutti lấy đà cuối ô 27; C (suối) ô 31 từ móc đơn thứ hai; Forte lấy đà
-    # cuối ô 40; D (sấm sét) ô 44; tutti lấy đà cuối ô 55 (Đô♯ thứ); E (chim hót) ô 59. Dòng cuối ("Ritornello cuối
-    # cùng") để trống: ritornello ô 66 hay ô 76 đều có thể là "cuối cùng"
+    # cuối ô 40; D (sấm sét) ô 44; tutti lấy đà cuối ô 55 (Đô♯ thứ); E (chim hót) ô 59; Tutti ô 66; Solo từ phách 3 ô 70
+    # (violin I, II và viola nghỉ ô 71–75, chỉ còn bè trầm); Tutti ô 76, ritornello cuối, Piano từ phách 4 ô 79
     "vivaldi-mua-xuan": dict(page="nghe-nhac/vivaldi-mua-xuan.md", jobs=[
         # neo theo khởi âm (kiểm tra 10/2026: biến thể khởi-âm và thô→mịn cùng căn nhầm ritornello 2 vào 66 s): tutti lấy
         # đà sau khoảng lặng 70,1–70,4 s ở 70,45 s; Forte lấy đà sau khoảng lặng ở 103,2 s; tutti Đô♯ thứ lấy đà 138,05 s;
-        # Đô♯ mở ô 59 (chim hót trở lại) 146,0 s
-        dict(src="mutopia_spring-score.mid", anchors=[(27.0, 70.45), (40.0, 103.2), (55.0, 138.05), (58.125, 146.0)],
-             rows={0: "first", 1: 12.625, 2: 27.0, 3: 30.25, 4: 40.0, 5: 43.125, 6: 55.0, 7: 58.125},
+        # Đô♯ mở ô 59 (chim hót trở lại) 146,0 s.
+        # Sau ô 59 căn tự động không dùng được (ô 66 ra 157,8 / 159,4 s; ô 70–79 dồn về một điểm ở hai biến thể): neo theo
+        # khởi âm (10/2026). Ô 66: Sol♯5, Si2 164,49 s, Đô♯3 (cello, móc đơn lặp) và Mi4 164,58 s, mức âm từ −40 lên −28 dB;
+        # Fa♯3 phách 3 ở 165,79 s, Si2 mở ô 67 ở 167,00 s. Ô 70: Mi3 cello 174,61 / 174,99 / 175,31 s, Si2 175,50 s, violin
+        # độc tấu Fa♯5 ở phách 3 175,96 s rồi Si4, Rê♯5 (móc kép). Ô 76: sau trill Fa♯5–Sol♯5 (191,98–192,59 s), tutti
+        # Mi3 + Mi4 + Mi5 ở 192,63 s
+        dict(src="mutopia_spring-score.mid", anchors=[(27.0, 70.45), (40.0, 103.2), (55.0, 138.05), (58.125, 146.0),
+                                                      (65.125, 164.5), (69.625, 175.96), (75.125, 192.63)],
+             rows={0: "first", 1: 12.625, 2: 27.0, 3: 30.25, 4: 40.0, 5: 43.125, 6: 55.0, 7: 58.125, 8: 65.125, 9: 69.625,
+                   10: 75.125},
              # 5: ba biến thể lệch nhau (110,9 / 115,4 / 113,2 s); quãng tám Si (Si2, Si3, Si4) mở tiếng sấm ở 111,0 s, chuỗi
              # nốt đi lên của ô 45 ở 113,5 s
              fix={5: 111.0})]),
