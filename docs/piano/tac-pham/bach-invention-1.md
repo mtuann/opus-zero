@@ -45,7 +45,9 @@ Nghe vài lần, mắt theo bản nhạc:
 
 So sánh vài cách chơi rất khác nhau, chẳng hạn Glenn Gould (nổi tiếng với lối chơi Bach rõ, tách tiếng), András Schiff và Angela Hewitt, cùng một bản trên harpsichord hoặc clavichord. Ghi lại: ai chơi móc kép liền, ai tách; ai dùng sắc thái nhiều; tốc độ chênh nhau bao nhiêu?
 
-<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Marcelle Meyer&quot;,&quot;note&quot;:&quot;thu năm 1948&quot;,&quot;lic&quot;:&quot;phạm vi công cộng&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:01_-_Invention_%C3%A0_2_voix_BWV_772_en_do_majeur.ogg&quot;,&quot;parts&quot;:[{&quot;mp3&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/transcoded/5/53/01_-_Invention_%C3%A0_2_voix_BWV_772_en_do_majeur.ogg/01_-_Invention_%C3%A0_2_voix_BWV_772_en_do_majeur.ogg.mp3&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/5/53/01_-_Invention_%C3%A0_2_voix_BWV_772_en_do_majeur.ogg&quot;,&quot;d&quot;:59.13}],&quot;ref&quot;:[0,3,6,16,22,27,37,38,48]}"></div>
+Bản thu gợi ý của **Marcelle Meyer** (thu năm 1948) nằm trên Wikimedia Commons. Ở Mỹ, nơi đặt site, bản thu này vẫn còn được bảo hộ, nên khối dưới đây chỉ dẫn link, không phát trực tiếp; mốc tham khảo tính theo file ấy.
+
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Marcelle Meyer&quot;,&quot;note&quot;:&quot;thu năm 1948&quot;,&quot;lic&quot;:&quot;phạm vi công cộng&quot;,&quot;page&quot;:&quot;https://commons.wikimedia.org/wiki/File:01_-_Invention_%C3%A0_2_voix_BWV_772_en_do_majeur.ogg&quot;,&quot;parts&quot;:[{&quot;link&quot;:&quot;https://commons.wikimedia.org/wiki/File:01_-_Invention_%C3%A0_2_voix_BWV_772_en_do_majeur.ogg&quot;,&quot;src&quot;:&quot;https://upload.wikimedia.org/wikipedia/commons/5/53/01_-_Invention_%C3%A0_2_voix_BWV_772_en_do_majeur.ogg&quot;,&quot;d&quot;:59.13}],&quot;ref&quot;:[0,3,6,16,22,27,37,38,48]}"></div>
 
 ## Theo dõi khi nghe
 
