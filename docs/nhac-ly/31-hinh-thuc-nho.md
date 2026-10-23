@@ -13,7 +13,7 @@ Các [hình thức lớn](../hinh-thuc/index.md) như sonata, fugue, rondo đư�
 - **Phần A** bắt đầu ở giọng chính và thường **chuyển sang giọng át** (ở giọng thứ thì sang giọng trưởng song song), như phần lớn các điệu nhảy Baroque và [Minuet Sol thứ](../piano/tac-pham/minuet-sol-thu.md), nơi phần A kết ở Si♭ trưởng. Hai cách khác cũng gặp nhiều trong những bài bạn tập: phần A **dừng ở kết nửa** trên hợp âm át, như [La candeur](../piano/tac-pham/burgmuller-la-candeur.md); hoặc **kết trọn ngay ở giọng chính**, như [Minuet Sol trưởng](../piano/tac-pham/minuet-sol.md), nơi chỉ phần B mới sang Rê trưởng.
 - **Phần B** bắt đầu ở giọng mới, đi qua vài giọng khác, rồi **trở về giọng chính** để kết.
 
-Gần như mọi điệu nhảy trong **tổ khúc Baroque** (allemande, courante, sarabande, gigue) đều ở hình thức hai đoạn. Ví dụ dễ nghe: [Minuet cung Sol trưởng](../piano/tac-pham/minuet-sol.md) trong sổ tay Anna Magdalena Bach (Petzold), [Musette Rê trưởng](../piano/tac-pham/musette-re.md), hay các điệu nhảy trong [Tổ khúc cello số 1](../nghe-nhac/bach-cello-1.md).
+Gần như mọi điệu nhảy trong **tổ khúc Baroque** (allemande, courante, sarabande, gigue) đều ở hình thức hai đoạn. Ví dụ dễ nghe: [Minuet cung Sol trưởng](../piano/tac-pham/minuet-sol.md) trong sổ tay Anna Magdalena Bach (Petzold), hay các điệu nhảy trong [Tổ khúc cello số 1](../nghe-nhac/bach-cello-1.md).
 
 ## Hai đoạn có tái hiện (rounded binary)
 
@@ -25,6 +25,7 @@ Gần như mọi điệu nhảy trong **tổ khúc Baroque** (allemande, courant
 
 - Nhiều tiểu phẩm piano Lãng mạn: nocturne, mazurka, Chopin Prélude Op. 28 số 15 *"Giọt mưa"*.
 - **Aria da capo** trong opera Baroque: A – B – rồi "da capo" (từ đầu) quay lại A, ca sĩ thêm trang trí ở lần A thứ hai.
+- [Musette Rê trưởng](../piano/tac-pham/musette-re.md) trong sổ tay Anna Magdalena Bach: đoạn A và đoạn B đều có dấu nhắc lại như hình thức hai đoạn, nhưng đoạn B kết ở giọng át (La trưởng), nên đoạn A được chơi lại từ đầu (*da capo*): A B A.
 
 ## Minuet và trio
 
@@ -74,3 +75,13 @@ Nguồn gốc, tên gọi và một bài nghe đi qua từng phần (chương 3 
 - Rondo
 > Nhanh hơn, nhiều năng lượng hơn.
 ```
+
+## Nguồn
+
+- Open Music Theory: chương [Binary Form](https://viva.pressbooks.pub/openmusictheory/chapter/binary-form/) (Brian Jarvis): hai đoạn, mỗi đoạn thường nhắc lại, dùng nhiều trong nhạc nhảy; mỗi đoạn thường kết bằng một kết chuẩn, kể cả kết nửa; hai đoạn có tái hiện (đầu đoạn A trở lại ở giọng chính giữa đoạn hai); đoạn hai kết bằng kết trọn ở giọng chính; chương [Ternary Form](https://viva.pressbooks.pub/openmusictheory/chapter/ternary-form/) (Brian Jarvis): A B A, đoạn B tương phản, thường ở giọng mới; minuet và trio là ba đoạn kép; ví dụ Mazurka La thứ Op. 17 số 4 của Chopin; chương [Sonata Form](https://viva.pressbooks.pub/openmusictheory/chapter/sonata-form/) (Brian Jarvis): hình thức sonata là một dạng phức tạp của hai đoạn có tái hiện.
+- Open Music Theory, bản 1 (Robin Wharton, Kris Shaffer biên tập), mục [Minuet Form](https://human.libretexts.org/Bookshelves/Music/Music_Theory/Open_Music_Theory_1e_%28Wharton_and_Shaffer_Eds%29/05%3A_Form_%28II%29_-_Other_Forms_and_Thematic_Structures/5.12%3A_Other_Formal_Structures_in_the_Classical_Style_-_Minuet_Form) trên LibreTexts: minuet điển hình là hai đoạn có tái hiện; trio tương phản; minuet chơi lại sau trio thường bỏ các dấu nhắc lại.
+- Robert Hutchinson, *Music Theory for the 21st-Century Classroom*, mục [Ternary Form](https://human.libretexts.org/Bookshelves/Music/Music_Theory/Music_Theory_for_the_21st-Century_Classroom_%28Hutchinson%29/24%3A_Binary_and_Ternary_Forms/24.07%3A_Ternary_Form) trên LibreTexts: các tiểu phẩm Lãng mạn như nocturne thường ở hình thức ba đoạn; minuet và trio, aria da capo là những hình thức ba đoạn kép.
+- Wikipedia: [Binary form](https://en.wikipedia.org/wiki/Binary_form) (phần A ở giọng trưởng thường sang giọng át, ở giọng thứ thường sang giọng trưởng song song; phần A cũng có thể kết trọn ngay ở giọng chính; khác biệt giữa hai đoạn có tái hiện và ba đoạn), [Ternary form](https://en.wikipedia.org/wiki/Ternary_form) (mỗi đoạn tự kết; Prélude "Giọt mưa" của Chopin; minuet chơi lại không nhắc lại), [Da capo aria](https://en.wikipedia.org/wiki/Da_capo_aria) (ca sĩ ứng tác trang trí ở lần A thứ hai), [Sarabande](https://en.wikipedia.org/wiki/Sarabande) (tổ khúc Baroque gồm các điệu nhảy ở hình thức hai đoạn), [Strophic form](https://en.wikipedia.org/wiki/Strophic_form) (*Heidenröslein* của Schubert; hình thức theo khổ có biến đổi), [Through-composed music](https://en.wikipedia.org/wiki/Through-composed_music) (*Erlkönig*).
+- Yung-Ching Yu, [*A New Model of Interpreting Modified Strophic Design: Brahms's Late Viennese Solo Lieder*](https://uknowledge.uky.edu/music_etds/193/), luận án, University of Kentucky (2021): phần lớn ca khúc theo khổ có biến đổi của Brahms được viết ở giai đoạn Vienna cuối đời.
+- Bản nhạc của các ví dụ, bản dàn trang công cộng của Mutopia Project: Minuet [Sol trưởng BWV Anh. 114](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=75) và [Sol thứ BWV Anh. 115](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=76) theo Bach-Gesellschaft (đoạn A của bài Sol trưởng kết trọn ở Sol trưởng, đoạn B sang Rê trưởng; đoạn A của bài Sol thứ kết ở Si♭ trưởng), [Musette BWV Anh. 126](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=79) theo Bach-Gesellschaft (đoạn A kết ở Rê trưởng với dấu ngân, đoạn B kết ở La trưởng), [*La candeur*](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=202) theo ấn bản Litolff (đoạn A dừng trên hợp âm Sol), [Tổ khúc cello số 1](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=517) theo ấn bản Schirmer 1916 (mọi điệu nhảy đều có hai đoạn nhắc lại).
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

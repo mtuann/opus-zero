@@ -88,3 +88,12 @@ Nhà soạn nhạc hay "kéo dài" một câu để tạo bất ngờ hoặc nh�
 - Chuỗi
 > Augmentation.
 ```
+
+## Nguồn
+
+- Open Music Theory, chương [Foundational Concepts for Phrase-Level Forms](https://viva.pressbooks.pub/openmusictheory/chapter/foundational-concepts/) (John Peterson): môtip là đơn vị ngắn, thường được nhắc lại và biến đổi, ví dụ ở mở đầu Giao hưởng số 5 của Beethoven; các phép biến đổi môtip: kéo dài trường độ, rút ngắn trường độ, đảo, ngược, đổi quãng.
+- Open Music Theory, chương [The Phrase, Archetypes, and Unique Forms](https://viva.pressbooks.pub/openmusictheory/chapter/phrase-archetypes-unique-forms/) (John Peterson): câu gồm phần trình bày (ý cơ bản và lần nhắc lại, có thể ở hợp âm khác) và phần tiếp nối (chia nhỏ, tiết tấu dày hơn, chuỗi, hợp âm đổi nhanh hơn, dẫn tới kết); đoạn nhạc gồm vế trước kết yếu (thường là kết nửa) và vế sau kết mạnh hơn (thường là kết trọn).
+- Open Music Theory, chương [Expansion and Contraction at the Phrase Level](https://viva.pressbooks.pub/openmusictheory/chapter/expansion-and-contraction/) (John Peterson): mở rộng câu bằng cách kéo dài một hợp âm, làm lại một lần nữa sau một kết bị né tránh, hoặc thêm đoạn đuôi (codetta) sau kết.
+- Wikipedia: [Motif (music)](https://en.wikipedia.org/wiki/Motif_%28music%29) (đơn vị nhỏ nhất còn mang bản sắc chủ đề; môtip bốn nốt mở đầu Giao hưởng số 5), [Sentence (music)](https://en.wikipedia.org/wiki/Sentence_%28music%29) (khái niệm "câu" của Schoenberg), [Piano Sonata No. 1 (Beethoven)](https://en.wikipedia.org/wiki/Piano_Sonata_No._1_%28Beethoven%29) (hợp âm rải đi lên mở đầu là ví dụ đầu tiên Schoenberg dùng để giải thích câu; ý nhạc ngắn dần tới một kết nửa ở ô 8).
+- Bản nhạc theo ấn bản Breitkopf & Härtel (1862–1865), bản dàn trang công cộng của Mutopia Project: [Giao hưởng số 5, chương 1](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=941) (ô 1–5: Sol Sol Sol Mi♭, rồi Fa Fa Fa Rê; ở phần phát triển, các hợp âm chuyền qua lại giữa bộ dây và bộ gỗ, từng hai ô rồi từng ô một) và [Sonata Op. 2 số 1, chương 1](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1211) (ý cơ bản ở ô 1–2 trên hợp âm chủ, nhắc lại ở ô 3–4 trên hợp âm át).
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

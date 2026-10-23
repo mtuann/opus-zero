@@ -123,3 +123,11 @@ Luyện tai bằng [công cụ nhận biết kết cấu](../nhan-dien/luyen-ngh
 - Đơn âm
 > Các nhạc cụ cùng chơi một bài bản theo cách riêng.
 ```
+
+## Nguồn
+
+- Open Music Theory, chương [Texture](https://viva.pressbooks.pub/openmusictheory/chapter/texture/) (Samuel Brady, Chelsey Hamm): bốn loại kết cấu đơn âm, dị âm, chủ điệu, phức điệu; chủ điệu gồm kiểu các bè cùng tiết tấu (như thánh ca) và kiểu giai điệu có đệm; phức điệu gắn với fugue và canon; một tác phẩm thường đổi kết cấu.
+- Open Music Theory, chương [High Baroque Fugal Exposition](https://viva.pressbooks.pub/openmusictheory/chapter/high-baroque-fugal-exposition/) (Mark Gotham): fugue mở đầu bằng một bè nêu chủ đề, rồi các bè khác lần lượt vào.
+- Wikipedia: [Texture (music)](https://en.wikipedia.org/wiki/Texture_%28music%29) (độ dày và âm vực; thánh ca Gregorian là đơn âm, fugue là phức điệu), [Monophony](https://en.wikipedia.org/wiki/Monophony) (nhiều người cùng hát một giai điệu, kể cả cách nhau quãng 8, vẫn là đơn âm), [Homophony](https://en.wikipedia.org/wiki/Homophony) (bè Alberti là một kiểu đệm chủ điệu; Nocturne Op. 62 số 2 của Chopin), [Alberti bass](https://en.wikipedia.org/wiki/Alberti_bass), [Polyphony](https://en.wikipedia.org/wiki/Polyphony) (thuật ngữ thường dùng cho nhạc cuối Trung cổ và Phục hưng; fugue cũng là phức điệu, thường được gọi là đối âm), [Heterophony](https://en.wikipedia.org/wiki/Heterophony) (đặc trưng của gamelan Indonesia, nhạc cổ điển Ả Rập và nhiều truyền thống ngoài phương Tây; khá hiếm trong nhạc cổ điển phương Tây trước thế kỷ 20), [Syrinx (Debussy)](https://en.wikipedia.org/wiki/Syrinx_%28Debussy%29) (cho sáo độc tấu).
+- Nguyễn Thanh Thủy, Stefan Östersjö, "[Claiming Space: Structural aspects of heterophony in the Vietnamese tradition of Vọng Cổ Performance](https://www.erudit.org/fr/revues/is/2021-v41-n1-is09705/1114852ar/)", *Intersections* 41, số 1 (2021), tr. 69–86 (tóm tắt trên Érudit): đờn ca tài tử được phân tích như một lối dị âm trang trí giữa các nghệ nhân.
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

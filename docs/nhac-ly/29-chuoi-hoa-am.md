@@ -78,3 +78,12 @@ Nghe bè trầm: Đô – Fa – Si – Mi – La – Rê – Sol – Đô, cứ
 - Tối giản thế kỷ 20
 > Vivaldi, Bach, Handel dùng rất nhiều.
 ```
+
+## Nguồn
+
+- Open Music Theory: chương [Diatonic Sequences in Middles](https://viva.pressbooks.pub/openmusictheory/chapter/diatonic-sequences/) (John Peterson): chuỗi là một mẫu được nhắc lại và dịch cao độ; chuỗi quãng 5 đi xuống, chuỗi quãng 3 đi xuống (còn gọi là chuỗi Pachelbel), chuỗi 5–6 đi lên; chương [Chromatic Sequences](https://viva.pressbooks.pub/openmusictheory/chapter/chromatic-sequences/) (Bryn Hughes): chuỗi quãng 5 có các hợp âm át nối nhau, chuỗi đi xuống từng nửa cung (ví dụ của Chopin), được dùng suốt thế kỷ 19; chương [ii–V–I](https://viva.pressbooks.pub/openmusictheory/chapter/ii-v-i/) (Megan Lavengood): nhạc jazz nối các vòng ii–V–I ở nhiều giọng thành chuỗi.
+- Wikipedia, [Sequence (music)](https://en.wikipedia.org/wiki/Sequence_%28music%29): định nghĩa; chuỗi thường gắn với nhạc Baroque, nhất là Vivaldi; bè trầm của chuỗi quãng 5 Đô – Fa – Si – Mi – La – Rê…; chuỗi quãng 3 đi xuống và dạng Pachelbel (bè trầm xuống quãng 4 rồi lên một bậc); chuỗi 5–6 đi lên.
+- Wikipedia, [Pachelbel's Canon](https://en.wikipedia.org/wiki/Pachelbel%27s_Canon): vòng tám hợp âm trên bè trầm lặp lại, theo mẫu Romanesca mà Robert Gjerdingen coi là khuôn mẫu phổ biến ở thế kỷ 17–18.
+- Wikipedia, [Messiah Part II](https://en.wikipedia.org/wiki/Messiah_Part_II): ở đoạn "King of Kings" của *Hallelujah*, bè soprano và kèn trumpet được đẩy lên cao dần.
+- Bản nhạc của các ví dụ, bản dàn trang công cộng của Mutopia Project: [Prelude Đô thứ BWV 847](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=550) theo ấn bản Breitkopf & Härtel 1866 (ô 6–11 là một chuỗi quãng 5 đi xuống trên cùng một hình nốt lặp lại: mẫu hai ô, mỗi lần thấp hơn một bậc), [*Hallelujah*](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=459) (bè soprano ngân Rê, Mi, Fa♯, Sol trên lời "King of Kings, and Lord of Lords"), [*La primavera*](https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=301) (các đoạn violin độc tấu ở chương 1 và 3 lặp một hình nhạc ở nhiều cao độ).
+- Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).
