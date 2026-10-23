@@ -4,6 +4,11 @@ Trang này ghi lại những thay đổi lớn của site và quy trình giữ c
 
 ## Nhật ký thay đổi
 
+### 10/2026: Phiên bản 15
+
+- **Bản thu cho các hướng dẫn nghe nhạc piano:** [Scarlatti](nghe-nhac/scarlatti-sonata.md) (Sonata K. 380, Raymond Smullyan), [Sonata K. 331 của Mozart](nghe-nhac/mozart-k331.md) (Luis Kolodin, cả ba chương, link tới IMSLP), [Concerto số 21 của Mozart](nghe-nhac/mozart-concerto-21.md) (chỉ có chương 3), [Concerto của Grieg](nghe-nhac/grieg-concerto.md), [*Những bức tranh ở phòng triển lãm*](nghe-nhac/mussorgsky-tranh.md) (bản piano, Chiara Bertoglio, link tới IMSLP), [Concerto số 2 của Rachmaninoff](nghe-nhac/rachmaninoff-2.md) và [*Rhapsody in Blue*](nghe-nhac/gershwin-rhapsody.md) (bản thu đầu tiên, năm 1924, chính Gershwin chơi piano). Mốc tham khảo có ít nhất ở đầu từng chương hoặc từng bài; [*Eine kleine Nachtmusik*](nghe-nhac/mozart-eine-kleine.md), [*Mùa xuân*](nghe-nhac/vivaldi-mua-xuan.md) của Vivaldi và [Valse La thứ](piano/tac-pham/chopin-valse-la-thu.md) của Chopin cũng đã có mốc.
+- **Bản thu chỉ dẫn link:** bản thu dài trên IMSLP không lưu trên site, vì file quá nặng; khối nghe dẫn link tới từng file, mốc tham khảo vẫn hiện trong bảng, ghi thời điểm trong từng file. Hai bản thu của Marcelle Meyer ([*Préludes* của Debussy](nghe-nhac/debussy-preludes.md), thu năm 1956, và [Invention số 1](piano/tac-pham/bach-invention-1.md), thu năm 1948) cũng chỉ còn link tới Wikimedia Commons: ở Mỹ, nơi đặt site, hai bản thu này vẫn còn được bảo hộ.
+
 ### 10/2026: Phiên bản 14 (gọn lại quanh cây đàn)
 
 - **Cả 34 bài học tác phẩm đều có bản thu:** mười bài học có thêm bản thu từ [IMSLP](https://imslp.org/) (mười ba bản thu của Luis Kolodin, Ramón León Egea, Jewgeni Smirnow và nhóm Mississippi College Piano Pedagogy), lưu ngay trên site vì IMSLP không cho nhúng file trực tiếp; Thuyền ca Venice và Musette Rê trưởng có bản thu từ Wikimedia Commons. Các bản thu mới đều có mốc tham khảo. Người chơi, giấy phép và nguồn của từng file: [tệp nguồn âm thanh](assets/audio/NGUON.txt).

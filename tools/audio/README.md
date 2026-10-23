@@ -185,4 +185,4 @@ Sửa `core.py` thì chạy `$PY tools/audio/align/evalset.py`: 14 mốc đã x�
 
 ### Trạng thái hiện tại (10/2026)
 
-`pieces.py` có cấu hình cho 42 trong 45 trang có bản thu. Ba trang chưa có mốc: *Eine kleine Nachtmusik*, Vivaldi "Mùa xuân", Chopin Valse La thứ. Chạy lại toàn bộ thì 41 cấu hình cho ra đúng từng mốc đang ghi trên trang. Riêng Tchaikovsky: Cầu nguyện buổi sáng, dòng 5: trang ghi 37, đo tay được 36,3 s (lệch 0,7 giây, trong ngưỡng 2 giây).
+`pieces.py` có cấu hình cho cả 52 trang có bản thu. Chạy lại toàn bộ thì cả 52 cấu hình cho ra đúng từng mốc đang ghi trên trang. Bốn trang dùng bản thu chỉ dẫn link (mục 2c): K. 331 và *Những bức tranh* (file IMSLP, căn trên bản đã tải vào `_imslp/`), *Préludes* của Debussy và Invention số 1 (bản thu Marcelle Meyer trên Commons). Ở các tác phẩm có dàn nhạc chưa có bản nhạc số (concerto của Grieg, Rachmaninoff, Mozart K. 467; *Rhapsody in Blue*), chỉ dòng mở đầu mỗi chương có mốc. Nhiều mốc thêm ở v15 là số đo tay trên khởi âm hoặc trên phổ, vì căn tự động chọn sai hoặc không ổn định: cách đo ghi trong chú thích (có ghi "10/2026") cạnh `fix`, `anchors` hoặc số giây viết thẳng trong `pieces.py`.
