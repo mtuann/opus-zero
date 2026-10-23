@@ -46,7 +46,9 @@
 
 ## Nghe kèm bản thu
 
-<div class="oz-listen"></div>
+Bản thu gợi ý là bản piano do **Chiara Bertoglio** chơi trọn tập, một file dài 33:44 đăng trên IMSLP. File khá lớn nên site không lưu và không phát trực tiếp: khối dưới đây dẫn link tới file, và mốc tham khảo trong bảng là lúc bắt đầu từng bài trong file ấy. Muốn ghi mốc ngay tại đây, tải file về rồi bấm "Chọn file trên máy", hoặc dán link một bản thu khác vào khung.
+
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Chiara Bertoglio&quot;,&quot;lic&quot;:&quot;CC BY 3.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by/3.0/&quot;,&quot;page&quot;:&quot;https://imslp.org/wiki/Pictures_at_an_Exhibition_(Mussorgsky,_Modest)&quot;,&quot;parts&quot;:[{&quot;link&quot;:&quot;https://imslp.org/wiki/Special:ImagefromIndex/251520&quot;,&quot;src&quot;:&quot;https://imslp.org/wiki/File:PMLP03722-Quadri.mp3&quot;,&quot;d&quot;:2023.95}],&quot;ref&quot;:[0,88,251,577,660,844,970,1084,1273,1554,1741]}"></div>
 
 ## Theo dõi khi nghe
 
@@ -95,4 +97,5 @@ Trọn tổ khúc thuộc trình độ biểu diễn: cần sức bền, hợp �
 - Bản nhạc: [IMSLP](https://imslp.org/) (tìm "Pictures at an Exhibition (Mussorgsky, Modest)"); nên dùng bản Urtext theo bản thảo gốc (ví dụ của [G. Henle Verlag](https://www.henle.de/)) thay vì bản Rimsky-Korsakov.
 - Michael Russ, *Musorgsky: Pictures at an Exhibition* (Cambridge University Press, 1992).
 - Richard Taruskin, *Musorgsky: Eight Essays and an Epilogue* (Princeton University Press, 1993).
+- Bản thu Chiara Bertoglio: [IMSLP](https://imslp.org/wiki/Pictures_at_an_Exhibition_(Mussorgsky,_Modest)), trang tác phẩm, mục Recordings (file `PMLP03722-Quadri.mp3`).
 - Grove Music Online. Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).

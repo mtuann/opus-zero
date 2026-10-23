@@ -27,6 +27,13 @@ NOCT = dict(src="kern_009-1-KI-002.krn", read="kern", qpm=90)
 SCHUBERT = dict(src="asap_Schubert_Impromptu_op90_D899_3")
 CLAIR = dict(src="cpm_deb_clai.mid")
 LIEBES = dict(src="cpm_liz_liebestraum.mid", anchors=[(25, 61.5), (27, 73.4), (60, 133.5), (63, 145.8)])
+# Mussorgsky, Những bức tranh (Mutopia, theo ấn bản Pavel Lamm): mười sáu MIDI theo thứ tự chơi; promenade-6 là
+# Cum mortuis. Chỉ số ô ở đầu từng bài khi nối: Gnomus 24, Promenade 2 133, Lâu đài cổ 145, Promenade 3 252,
+# Tuileries 260, Bydło 290, Promenade 4 354 (nốt đầu ở 354,4), Gà con 364, Goldenberg 467, Promenade 5 496,
+# Limoges 521, Catacombae 561, Cum mortuis 591, Baba Yaga 612, Cổng lớn Kiev 823 (nốt đầu ở 823,221)
+PICTURES = [dict(src="mutopia_pictures-%s.mid" % n) for n in (
+    "promenade-1", "gnomus", "promenade-2", "il-vecchio-castello", "promenade-3", "tuileries", "bydlo", "promenade-4",
+    "ballet", "two-jews", "promenade-5", "limoges", "catacombae", "promenade-6", "baba", "great-gate")]
 
 PIECES = {
     "fur-elise": dict(page="piano/tac-pham/fur-elise.md", jobs=[
@@ -250,4 +257,15 @@ PIECES = {
     # A'': nốt Mi lấy đà 98,3 s, như nốt đầu bài (0,26 s); coda sau ba câu của A'', khoảng 117 s (chắc trong 1 giây)
     "chopin-valse-la-thu": dict(page="piano/tac-pham/chopin-valse-la-thu.md", jobs=[
         dict(rows={0: 0.26, 1: 26.0, 2: 38.75, 3: 50.6, 4: 64.0, 5: 87.5, 6: 98.3, 7: 117.0})]),
+    # Bản thu Chiara Bertoglio (IMSLP), một file 33:44. Neo ở đầu các bài đứng sau khoảng lặng, đo bằng khởi âm của nốt
+    # đầu trong MIDI (10/2026): Gnomus Si2–Si3 88,4 s; Promenade 2 Fa3 250,9 s; Promenade 3 La♭3–La♭4 577,3 s;
+    # Promenade 4 hợp âm Rê thứ (Rê5–Fa5–La5–Rê6) 843,9 s; Promenade 5 Sol4 1084,4 s; Baba Yaga Fa♯–Sol quãng tám 1553,8 s.
+    # Các bài vào liền (Bydło, Goldenberg, Catacombae, Kiev) căn bằng DTW giữa các mốc neo
+    "mussorgsky-tranh": dict(page="nghe-nhac/mussorgsky-tranh.md", jobs=[
+        dict(join=PICTURES, anchors=[(24, 88.4), (133, 250.9), (252, 577.3), (354.4, 843.9), (496, 1084.4), (612, 1553.8)],
+             rows={0: "first", 1: 24, 2: 133, 3: 252, 4: 290, 5: 354.4, 6: 467, 7: 496, 8: 561, 9: 612, 10: 823.221},
+             # kiểm tra trên khởi âm (10/2026): Catacombae Si1–Si2–Si3 1272,7 s và Kiev (hợp âm Mi♭ trưởng ngân 1740,8 s)
+             # khớp kết quả căn. 4: căn ra 661,5–663,0 s, nhưng hợp âm đầu của Bydło (Rê♯2, Sol♯2) vang ở 660,4 s;
+             # 6: căn ra 967,8 s, quãng tám Si♭ đồng âm mở Goldenberg vang ở 969,8 s
+             fix={4: 660.4, 6: 969.8})]),
 }

@@ -17,7 +17,7 @@ Giấy phép ghi ở đây là giấy phép chính chủ ghi trong kho hoặc tr
 | `chopin-first-editions` | Viện Fryderyk Chopin (NIFC), https://github.com/pl-wnifc/humdrum-chopin-first-editions | CC BY 4.0 (`LICENSE.txt`) | Nocturne Op. 9 số 2 (bản Kistner), Valse Op. 69 số 2 |
 | `dcml-grieg` | DCML, https://github.com/DCMLab/grieg_lyric_pieces: bảng nốt và ô nhịp TSV | CC BY-NC-SA 4.0 (README và `LICENSE`) | Grieg Arietta Op. 12 số 1 |
 | `trompa-beethoven` | Werner Goebl (mdw), dự án TROMPA, https://github.com/trompamusic-encodings/Beethoven_WoOAnh5_BreitkopfHaertel: MEI theo ấn bản Breitkopf & Härtel | CC BY 4.0 (`LICENSE.md`) | Sonatina Sol trưởng Anh. 5 số 1, hai chương |
-| `mutopia` | Mutopia Project, https://www.mutopiaproject.org: file MIDI do Mutopia dựng từ bản LilyPond (`ly` trong sources.json là bản nguồn); bài nhiều phần được đóng gói thành `<tên>-mids.zip`, `member` trong sources.json là file lấy ra | Theo từng bài, xem bảng dưới | 23 file, xem bảng dưới |
+| `mutopia` | Mutopia Project, https://www.mutopiaproject.org: file MIDI do Mutopia dựng từ bản LilyPond (`ly` trong sources.json là bản nguồn); bài nhiều phần được đóng gói thành `<tên>-mids.zip`, `member` trong sources.json là file lấy ra | Theo từng bài, xem bảng dưới | 39 file, xem bảng dưới |
 
 Bản chép tay trong `hand.py`: Gymnopédie số 1 (Satie, xuất bản 1888, phạm vi công cộng), chép cao độ và trường độ theo bản LilyPond của https://github.com/rileylev/gymnopedie (kho không ghi giấy phép).
 
@@ -42,6 +42,7 @@ Bản chép tay trong `hand.py`: Gymnopédie số 1 (Satie, xuất bản 1888, p
 | `mutopia_KV331_1_1_tema.mid` … `mutopia_KV331_1_7_var6.mid` | Mozart: Sonata La trưởng K. 331, chương 1: chủ đề và sáu biến tấu (bảy file, MIDI viết ra dấu nhắc lại; theo ấn bản Breitkopf & Härtel) | Mutopia-2005/10/29-614 đến -617, Mutopia-2005/10/30-618 đến -620 | Phạm vi công cộng |
 | `mutopia_KV331_2_1_menuetto.mid` | Mozart: K. 331, chương 2 (Menuetto và Trio, viết ra dấu nhắc lại) | Mutopia-2005/10/29-613 | Phạm vi công cộng |
 | `mutopia_KV331_3_RondoAllaTurca.mid` | Mozart: K. 331, chương 3 (*Alla turca*, viết ra dấu nhắc lại) | Mutopia-2015/08/13-108 | Phạm vi công cộng |
+| `mutopia_pictures-promenade-1.mid` … `mutopia_pictures-great-gate.mid` | Mussorgsky: *Những bức tranh ở phòng triển lãm*, bản piano theo ấn bản Pavel Lamm (16 file trong `pictures-at-an-exhibition-mids.zip`; `promenade-6` là *Cum mortuis*) | Mutopia-2016/12/31-475 | CC BY-SA 4.0 |
 
 Ở v14, 11 MIDI đầu tiên trong bảng được dựng trên máy bằng LilyPond 2.25.12 từ file `.ly`. Nay `fetch.py` tải MIDI dựng sẵn của Mutopia: cùng nốt với bản v14, trừ hai nốt ở La candeur (không ảnh hưởng căn mốc). Hai bài Minuet K. 2 và Minuet Sol thứ ở v14 dùng bản đã viết ra dấu nhắc lại; nay `pieces.py` nối đoạn bằng `segs`, cho ra đúng từng nốt như trước. Các file thêm ở v15 (K. 525, *Mùa xuân*, K. 331) lấy thẳng từ Mutopia.
 

@@ -391,6 +391,102 @@
   "sha256": "7446008d77c7237d814b64f698e8fadbb3ee1e7bf914a8dd643ee9f99523d120",
   "ly": "https://raw.githubusercontent.com/MutopiaProject/MutopiaProject/2144afd6f52d56c5b6995b8b589ef1268b3139f0/ftp/MozartWA/KV2/menuet_k2/menuet_k2.ly"
  },
+ "mutopia_pictures-baba.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-mids.zip",
+  "sha256": "e0062ce4f642cdd8160ff16f22569281f138249fc968dd154a0870c5cb7f5a65",
+  "member": "baba.mid"
+ },
+ "mutopia_pictures-ballet.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-mids.zip",
+  "sha256": "e1b81d900fc3d3ca5fc733f319cb028c6d432f95bd8beee940beed923394cc97",
+  "member": "ballet.mid"
+ },
+ "mutopia_pictures-bydlo.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-mids.zip",
+  "sha256": "47dc1f7c645a21c128c334b032732a0088cee31988edd1a03833a902e3169d65",
+  "member": "bydlo.mid"
+ },
+ "mutopia_pictures-catacombae.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-mids.zip",
+  "sha256": "63853549e39156ab880be7aeeaf43d85460f4324429dc8558c18874682717140",
+  "member": "catacombae.mid"
+ },
+ "mutopia_pictures-gnomus.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-mids.zip",
+  "sha256": "cd504591f5088d94752915cbe632295f157809507d03835065efe68040c053f5",
+  "member": "gnomus.mid"
+ },
+ "mutopia_pictures-great-gate.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-mids.zip",
+  "sha256": "69e8261b245541945b932a1045760fb419db665c0a37ca58e979afb4d1a427da",
+  "member": "great-gate.mid"
+ },
+ "mutopia_pictures-il-vecchio-castello.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-mids.zip",
+  "sha256": "5e93d97e48d49a8420edbdddfd49c6b4d2e2ae3ae1eb476e4a0c10f3ae88dc36",
+  "member": "il-vecchio-castello.mid"
+ },
+ "mutopia_pictures-limoges.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-mids.zip",
+  "sha256": "cb4f79d31c5be006ee32b2b8c61f147962cc236dec2e0296740987f5273a7a6e",
+  "member": "limoges.mid"
+ },
+ "mutopia_pictures-promenade-1.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-mids.zip",
+  "sha256": "b4f46a5237a8a7efbab3287523fcc4e4769e005ca237486459f73a779e1e0384",
+  "member": "promenade-1.mid"
+ },
+ "mutopia_pictures-promenade-2.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-mids.zip",
+  "sha256": "e00fe137d6a765f7d726ea1834424df51d2d1a6ac4a681416718033a16174122",
+  "member": "promenade-2.mid"
+ },
+ "mutopia_pictures-promenade-3.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-mids.zip",
+  "sha256": "99b854ebef7a0cda023456288664c9778bf36e3f752244c7833b85e9d1325b96",
+  "member": "promenade-3.mid"
+ },
+ "mutopia_pictures-promenade-4.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-mids.zip",
+  "sha256": "ad6ad5c590850a3a8bb8ed08225603794d18b2b0237c4ae254b7dedd2115edfe",
+  "member": "promenade-4.mid"
+ },
+ "mutopia_pictures-promenade-5.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-mids.zip",
+  "sha256": "f8b6cfe653149baa0b3b73a91c65aed882b60a5032397476366c726880734f3c",
+  "member": "promenade-5.mid"
+ },
+ "mutopia_pictures-promenade-6.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-mids.zip",
+  "sha256": "8cbdf6bcf0c4790dba23b1e0d16d351cc8a5e51bb7d4dc817f2c025cd835e3c1",
+  "member": "promenade-6.mid"
+ },
+ "mutopia_pictures-tuileries.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-mids.zip",
+  "sha256": "c4458c2cd0f7c13ac6ebf23d97e7f953cedba64890600cf4cde9a92dd89ed08d",
+  "member": "tuileries.mid"
+ },
+ "mutopia_pictures-two-jews.mid": {
+  "set": "mutopia",
+  "url": "https://www.mutopiaproject.org/ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-mids.zip",
+  "sha256": "90615e588bceb5317746bec1525db752d8d8d1724e34cf4b8c8eb08a2ba81b94",
+  "member": "two-jews.mid"
+ },
  "mutopia_schumann-op68-01-melodie.mid": {
   "set": "mutopia",
   "url": "https://www.mutopiaproject.org/ftp/SchumannR/O68/schumann-op68-01-melodie/schumann-op68-01-melodie.mid",

@@ -238,6 +238,16 @@ if (RUN_FLOWS) {
   r = await open("nghe-nhac/mozart-eine-kleine/index.html", 20, { transform: noRef });
   check("trang chưa có mốc tham khảo thì không có ô bật/tắt", !JSON.parse(r.d.querySelector(".oz-listen").dataset.rec).ref && !r.d.querySelector(".oz-listen .oz-ref-on") && !!r.d.querySelector(".oz-listen [data-act=default]"));
   r.close();
+  /* bản thu chỉ dẫn link: không có nút nghe mà có link mở bản thu; mốc tham khảo là chữ, không bấm để tua */
+  r = await open("nghe-nhac/mussorgsky-tranh/index.html");
+  const lo = r.d.querySelector(".oz-listen");
+  check("bản thu chỉ dẫn link: có link mở bản thu, không có nút nghe", !lo.querySelector("[data-act=default]") && !!lo.querySelector('.oz-rec a[href*="Special:ImagefromIndex"]'));
+  lo.querySelector(".oz-ref-on").click();
+  const loTimes = [...r.d.querySelectorAll(".oz-mark-cell .oz-ref-time")];
+  check("bản thu chỉ dẫn link: mốc tham khảo hiện ở mọi dòng có mốc, dạng chữ",
+    loTimes.length === JSON.parse(lo.dataset.rec).ref.filter((x) => x !== null).length && loTimes.every((t) => t.tagName === "SPAN"), loTimes.length);
+  lo.querySelector(".oz-ref-on").click();
+  r.close();
 }
 /* ---- Thị tấu hai tay ---- */
 {

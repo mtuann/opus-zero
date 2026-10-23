@@ -31,7 +31,9 @@ Một chi tiết mới: năm 2014, bốn trang bản thảo của Mozart cho ch�
 
 ## Nghe kèm bản thu
 
-<div class="oz-listen"></div>
+Bản thu gợi ý do **Luis Kolodin** chơi cả ba chương, đăng trên IMSLP. File khá lớn nên site không lưu và không phát trực tiếp: khối dưới đây dẫn link tới từng chương, và mốc tham khảo trong bảng là thời điểm trong từng file. Muốn ghi mốc ngay tại đây, tải file về rồi bấm "Chọn file trên máy", hoặc dán link một bản thu khác vào khung.
+
+<div class="oz-listen" data-rec="{&quot;by&quot;:&quot;Luis Kolodin&quot;,&quot;lic&quot;:&quot;CC BY-SA 4.0&quot;,&quot;licUrl&quot;:&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;,&quot;page&quot;:&quot;https://imslp.org/wiki/Piano_Sonata_No.11_in_A_major,_K.331/300i_(Mozart,_Wolfgang_Amadeus)&quot;,&quot;parts&quot;:[{&quot;t&quot;:&quot;I. Andante grazioso&quot;,&quot;link&quot;:&quot;https://imslp.org/wiki/Special:ImagefromIndex/815839&quot;,&quot;src&quot;:&quot;https://imslp.org/wiki/File:PMLP1846-luis-kolodin-plays-mozart-s-piano-sonata-no.11.mp3&quot;,&quot;d&quot;:692.02},{&quot;t&quot;:&quot;II. Menuetto&quot;,&quot;link&quot;:&quot;https://imslp.org/wiki/Special:ImagefromIndex/815840&quot;,&quot;src&quot;:&quot;https://imslp.org/wiki/File:PMLP1846-luis-kolodin-plays-mozart-s-piano-sonata-no.11_2.mp3&quot;,&quot;d&quot;:382.01},{&quot;t&quot;:&quot;III. Alla turca&quot;,&quot;link&quot;:&quot;https://imslp.org/wiki/Special:ImagefromIndex/815841&quot;,&quot;src&quot;:&quot;https://imslp.org/wiki/File:PMLP1846-luis-kolodin-plays-mozart-s-piano-sonata-no.11_3.mp3&quot;,&quot;d&quot;:218.52}]}"></div>
 
 ## Theo dõi khi nghe
 
@@ -79,4 +81,5 @@ Chương 1 và chương 3 ở khoảng chặng 6 (≈ Grade 7–8, xem [Nhà so�
 - Bản nhạc: [IMSLP](https://imslp.org/) (tìm "Piano Sonata No.11, K.331").
 - Charles Rosen, *The Classical Style* (1971); Grove Music Online.
 - Thông tin về bản thảo tìm thấy năm 2014: Thư viện Quốc gia Széchényi (Budapest).
+- Bản thu Luis Kolodin: [IMSLP](https://imslp.org/wiki/Piano_Sonata_No.11_in_A_major,_K.331/300i_(Mozart,_Wolfgang_Amadeus)), ba file cho ba chương.
 - Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).
