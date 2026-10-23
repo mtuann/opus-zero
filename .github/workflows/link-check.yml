@@ -1,6 +1,8 @@
-name: Kiểm tra link
+name: Kiểm tra link và bản thu
 
 # Chạy mỗi thứ Hai lúc 02:00 UTC (9:00 sáng giờ Việt Nam), hoặc bấm chạy tay trong tab Actions.
+# Mỗi phần kiểm tra giữ đúng một issue: có lỗi thì mở issue, hoặc cập nhật issue đang mở thay vì mở thêm;
+# lần sau không còn lỗi thì issue tự đóng.
 on:
   schedule:
     - cron: "0 2 * * 1"
@@ -16,26 +18,94 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - name: Kiểm tra mọi link trong docs/
+      - name: Kiểm tra link ra ngoài trong docs/
         id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
+          # Chỉ kiểm link http(s). Link nội bộ đã được `mkdocs build --strict` và tests/anchors.py kiểm ở mỗi lần push;
+          # sách in (sach/*.html) chỉ có sau khi build nên không kiểm được trên file .md.
           # 403 và 429: nhiều trang báo và trang thương mại chặn robot hoặc giới hạn tần suất;
           # chấp nhận để tránh báo lỗi giả, link hỏng thật thường trả về 404.
+          # Bỏ qua abrsm.org (chặn robot: máy của GitHub nhận 307 lặp lại) và trang chủ Oxford Music Online
+          # (chuyển hướng vòng quanh trang đăng nhập); hai nơi này kiểm tay theo checklist hằng quý ở docs/cap-nhat.md.
           args: >-
             --no-progress
             --max-retries 3
             --timeout 30
+            --scheme https
+            --scheme http
             --accept "100..=103,200..=299,403,429"
-            --exclude "^https://www.youtube.com/iframe_api"
+            --exclude "^https://www\.youtube\.com/iframe_api"
+            --exclude "^https://www\.abrsm\.org/"
+            --exclude "^https://www\.oxfordmusiconline\.com/?$"
             "docs/**/*.md"
           output: ./lychee/out.md
           fail: false
 
-      - name: Mở issue nếu có link hỏng
+      - name: Tìm issue link hỏng đang mở
+        id: issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: echo "number=$(gh issue list --repo "$GITHUB_REPOSITORY" --label link-hong --state open --json number --jq '.[0].number // empty')" >> "$GITHUB_OUTPUT"
+
+      - name: Mở hoặc cập nhật issue nếu có link hỏng
         if: steps.lychee.outputs.exit_code != 0
         uses: peter-evans/create-issue-from-file@v6
         with:
           title: "Báo cáo link hỏng"
           content-filepath: ./lychee/out.md
           labels: link-hong
+          issue-number: ${{ steps.issue.outputs.number }}
+
+      - name: Đóng issue khi không còn link hỏng
+        if: steps.lychee.outputs.exit_code == 0 && steps.issue.outputs.number != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue close "${{ steps.issue.outputs.number }}" --repo "$GITHUB_REPOSITORY" --comment "Lần kiểm tra tự động ngày $(date -u +%d/%m/%Y) không còn link hỏng."
+
+  recordings:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      # File trên Commons có thể bị xóa hoặc đổi giấy phép. Phép đối chiếu chỉ dùng thư viện chuẩn của Python, không cần ffmpeg.
+      - name: Đối chiếu bản thu với Wikimedia Commons
+        id: check
+        run: |
+          set +e
+          python3 tools/audio/check_audio.py --static --network > check.txt 2>&1
+          echo "exit_code=$?" >> "$GITHUB_OUTPUT"
+          cat check.txt
+          {
+            echo "Lần kiểm tra tự động ngày $(date -u +%d/%m/%Y): \`python3 tools/audio/check_audio.py --static --network\` đối chiếu mọi bản thu với Wikimedia Commons (file còn trên Commons, độ dài, giấy phép)."
+            echo
+            echo '```'
+            cat check.txt
+            echo '```'
+            echo
+            echo "Cách sửa: xem tools/audio/README.md (tìm bản thu thay thế, ghi lại khối bằng attach.py)."
+          } > issue.md
+
+      - name: Tìm issue bản thu đang mở
+        id: issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: echo "number=$(gh issue list --repo "$GITHUB_REPOSITORY" --label ban-thu --state open --json number --jq '.[0].number // empty')" >> "$GITHUB_OUTPUT"
+
+      - name: Mở hoặc cập nhật issue nếu bản thu có lỗi
+        if: steps.check.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v6
+        with:
+          title: "Báo cáo bản thu"
+          content-filepath: ./issue.md
+          labels: ban-thu
+          issue-number: ${{ steps.issue.outputs.number }}
+
+      - name: Đóng issue khi bản thu không còn lỗi
+        if: steps.check.outputs.exit_code == 0 && steps.issue.outputs.number != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue close "${{ steps.issue.outputs.number }}" --repo "$GITHUB_REPOSITORY" --comment "Lần kiểm tra tự động ngày $(date -u +%d/%m/%Y) không còn lỗi bản thu."

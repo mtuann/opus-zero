@@ -4,6 +4,7 @@
     python3 tools/audio/check_audio.py --network    # thêm: hỏi Commons độ dài và giấy phép hiện tại của từng file
     python3 tools/audio/check_audio.py --tail a.mp3 b.mp3   # chỉ đo đuôi các file này (thử kết quả transcode.py)
     python3 tools/audio/check_audio.py --static     # chỉ mục 1 và 2, không cần ffmpeg (chạy trong npm test, nhóm nhanh)
+    python3 tools/audio/check_audio.py --static --network   # mục 1, 2 và 5, không cần ffmpeg (CI chạy hằng tuần)
 
 Kiểm:
 1. Mọi file trong docs/assets/audio/ có một dòng trong NGUON.txt theo mẫu
@@ -221,8 +222,9 @@ def main():
     for e in errs:
         print("LỖI:", e)
     if a.static:
-        print("check_audio --static: %d file trên site, %d trang có bản thu, %d lỗi (chưa đo file: chạy không có --static, cần ffmpeg)" % (
-            len(list(page.AUDIO.glob("*.mp3"))), n_pages, len(errs)))
+        print("check_audio --static: %d file trên site, %d trang có bản thu%s, %d lỗi (chưa đo file: chạy không có --static, cần ffmpeg)" % (
+            len(list(page.AUDIO.glob("*.mp3"))), n_pages,
+            " (%d phần trên mạng, đã đối chiếu Commons)" % len(remote) if a.network else "", len(errs)))
     else:
         print("check_audio: %d file trên site (%d so được với file gốc trong _imslp/), %d trang có bản thu (%d phần trên mạng%s), %d lỗi" % (
             len(list(page.AUDIO.glob("*.mp3"))), compared, n_pages, len(remote), ", đã đối chiếu Commons" if a.network else "", len(errs)))

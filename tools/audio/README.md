@@ -124,6 +124,7 @@ Thay bản thu thì `attach.py` bỏ mốc cũ (in ra để bạn biết). Chỉ
 ```bash
 python3 tools/audio/check_audio.py             # file, NGUON.txt, data-rec, độ dài, đuôi file (cần ffmpeg)
 python3 tools/audio/check_audio.py --network   # thêm: file Commons còn đó, độ dài và giấy phép khớp
+python3 tools/audio/check_audio.py --static --network   # chỉ data-rec và Commons, không cần ffmpeg (CI chạy hằng tuần)
 python3 tools/audio/check_audio.py --tail <file.mp3>   # chỉ đo đuôi một file (thử kết quả transcode.py)
 mkdocs build --strict && npm test
 ```

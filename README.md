@@ -147,7 +147,12 @@ tools/lighthouse/         Đo Lighthouse ba trang tại máy (máy chủ HTTP/2 
 
 ## Kiểm tra link tự động
 
-Workflow `.github/workflows/link-check.yml` chạy mỗi thứ Hai và mở issue "Báo cáo link hỏng" nếu có link hỏng. Có thể chạy tay trong tab **Actions**. Quy trình cập nhật nội dung theo quý: xem `docs/cap-nhat.md`.
+Workflow `.github/workflows/link-check.yml` (*Kiểm tra link và bản thu*) chạy mỗi thứ Hai, hoặc chạy tay trong tab **Actions**:
+
+- **Link:** lychee kiểm mọi link http(s) trong `docs/`. Link nội bộ không kiểm ở đây vì `mkdocs build --strict` và `tests/anchors.py` đã kiểm ở mỗi lần push. abrsm.org và trang chủ Oxford Music Online chặn robot nên được bỏ qua, và được kiểm tay theo quý.
+- **Bản thu:** `tools/audio/check_audio.py --static --network` đối chiếu mọi bản thu với Wikimedia Commons: file còn đó, độ dài và giấy phép khớp.
+
+Mỗi phần giữ đúng một issue ("Báo cáo link hỏng", "Báo cáo bản thu"). Có lỗi thì issue được mở, hoặc được cập nhật nếu đang mở. Tuần sau hết lỗi thì issue tự đóng. Quy trình cập nhật nội dung theo quý: xem `docs/cap-nhat.md`.
 
 ## Ghi chú kỹ thuật
 

@@ -138,13 +138,19 @@ Khung site, 6 bài nhạc lý đầu tiên, 4 công cụ luyện tập.
 
 ## Quy trình giữ nội dung luôn đúng
 
-**Hằng tuần (tự động):** GitHub Actions chạy workflow *Kiểm tra link* (`.github/workflows/link-check.yml`). Nếu có link hỏng, một **issue** "Báo cáo link hỏng" được mở trong repo. Sửa link, rồi đóng issue.
+**Hằng tuần (tự động):** GitHub Actions chạy workflow *Kiểm tra link và bản thu* (`.github/workflows/link-check.yml`):
+
+- kiểm mọi link ra ngoài trong bài (link nội bộ đã được kiểm ở mỗi lần build);
+- đối chiếu mọi bản thu với Wikimedia Commons: file còn đó không, độ dài và giấy phép có đổi không.
+
+Có lỗi thì một **issue** ("Báo cáo link hỏng" hoặc "Báo cáo bản thu") được mở, hoặc được cập nhật nếu đang mở; tuần sau hết lỗi thì issue tự đóng.
 
 **Mỗi quý (tháng 1, 4, 7, 10), khoảng 30 phút:**
 
 - [ ] [Âm nhạc hôm nay](lich-su/duong-dai.md): cập nhật tin đáng chú ý (cuộc thi lớn, giải Pulitzer Âm nhạc công bố tháng 5, nhà soạn nhạc qua đời).
 - [ ] [Nhạc cổ điển ở Việt Nam](lich-su/viet-nam.md): dàn nhạc, nhà hát, sự kiện mới.
 - [ ] [Tài nguyên](tai-nguyen.md) và [Học với thầy và thi cấp](piano/thay-va-thi.md#thi-cap): kiểm tra giáo trình thi cấp piano của ABRSM, Trinity (giáo trình piano ABRSM 2027–2028 dùng được từ 1/1/2027; giáo trình 2025–2026 hết hiệu lực ngày 31/12/2027).
+- [ ] Mở tay các link mà kiểm tra tự động bỏ qua vì trang chặn robot: abrsm.org (ở [Tài nguyên](tai-nguyen.md), [Học với thầy và thi cấp](piano/thay-va-thi.md) và các trang Piano) và Oxford Music Online ([tài liệu tham khảo](tai-lieu-tham-khao.md)).
 - [ ] Sửa dòng "Cập nhật lần cuối" ở các trang trên.
 - [ ] Ghi thay đổi vào nhật ký ở trang này.
 

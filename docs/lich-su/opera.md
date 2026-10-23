@@ -93,6 +93,6 @@ Vài giọng ca opera Việt bạn có thể tìm nghe: **tenor Ninh Đức Hoà
 - Burkholder, Grout, Palisca, *A History of Western Music*; Richard Taruskin, *The Oxford History of Western Music*.
 - Grove Music Online; Encyclopaedia Britannica. Xem [tài liệu tham khảo](../tai-lieu-tham-khao.md).
 - [TTXVN: *Người tạc tượng* — bản anh hùng ca Tây Nguyên](http://thethaovanhoa.vn/3-nhac-kich-su-thi-dau-tien-cua-viet-nam-ky-3-het-nguoi-tac-tuong-ban-anh-hung-ca-tay-nguyen-20191003063737266.htm)
-- [Học viện Âm nhạc Quốc gia VN: *Cô Sao* (1965), *Người tạc tượng* (9/1971)](https://www.vnam.edu.vn/NewsDetail.aspx?lang=&ItemID=441)
+- [Học viện Âm nhạc Quốc gia VN: *Cô Sao* (1965), *Người tạc tượng* (9/1971)](https://web.archive.org/web/20240711034702/https://www.vnam.edu.vn/NewsDetail.aspx?lang=&ItemID=441) (bản lưu trên Internet Archive)
 - [ArtTimes: nhạc sĩ Đỗ Hồng Quân — *Lá đỏ* (2016), *Vầng trăng Him Lam* (2024)](https://arttimes.vn/am-nhac/nhac-si-do-hong-quan-va-opera-vang-trang-him-lam-c16a44087.html)
 - [Dân Việt: Đào Tố Loan đoạt giải nhất Singapore Lyric Opera 2018](https://danviet.vn/ca-si-dao-to-loan-gianh-giai-nhat-cuoc-thi-singapore-lyric-opera-2018-7777925420-d666596.html)
