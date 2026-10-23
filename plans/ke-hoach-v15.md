@@ -28,7 +28,7 @@ Từ ngày 22/10/2026, bạn review một lần khi xong cả v15, thay cho revi
 
 ## Tiến độ
 
-Cập nhật 22/10/2026 (tối).
+Cập nhật 23/10/2026.
 
 | Giai đoạn | Trạng thái | Báo cáo |
 |---|---|---|
@@ -41,12 +41,13 @@ Cập nhật 22/10/2026 (tối).
 | G7.2. Release `v14` | Xong ngày 22/10; số đo trên site thật: 99, 100, 100, 100 ở cả ba trang | `plans/v15-do-luong.md` |
 | G7.1. Giấy phép cho phần chữ | Xong trên `v15/tich-hop` (CC BY-SA 4.0, mã nguồn vẫn MIT) | |
 | Việc lẻ `kiem-link`, `khoa-goi` (kèm nâng Material lên 9.7.7), `mermaid` | Xong trên `v15/tich-hop` | |
-| Việc lẻ `nguon`, G5 | Đang làm | |
-| Việc lẻ `g4b-con-lai`: cấu trúc Valse La thứ và dòng cuối *Mùa xuân* (phát hiện 5, 6 của báo cáo G4b) | Đang làm | |
-| G7.4. Video minh họa kỹ thuật | Đang lập danh sách đề cử; chỉ thêm vào trang sau khi bạn duyệt | |
+| Việc lẻ `nguon` | Xong trên `v15/tich-hop` | `plans/bao-cao-v15/viec-le-nguon.md` |
+| G5. Chơi theo tai; bài phổ biến ngoài nhạc cổ điển | Xong trên `v15/tich-hop` | `plans/bao-cao-v15/giai-doan-5.md` |
+| Việc lẻ `g4b-con-lai`: cấu trúc Valse La thứ và dòng cuối *Mùa xuân* (phát hiện 5, 6 của báo cáo G4b) | Xong trên `v15/tich-hop` | `plans/bao-cao-v15/viec-le-g4b-con-lai.md` |
+| G7.4. Video minh họa kỹ thuật | Đã có danh sách đề cử (33 video, mỗi trang 3), **chờ bạn duyệt**; chỉ thêm vào trang sau khi duyệt | `plans/bao-cao-v15/g7-4-video-de-cu.md` |
 | G7.3 | Bạn chọn để sau | |
-| G7.5 | Bạn chọn mỗi phiên bản một bài; bài v15 viết ở G8 | |
-| G8. Phát hành v15 | Làm sau cùng, sau các việc trên | |
+| G7.5 | Xong: bài blog "Có gì mới ở phiên bản 15" | |
+| G8. Phát hành v15 | Xong phần chuẩn bị trên `v15/tich-hop`: nhật ký trang Cập nhật, bài blog, README, số đo cuối tại máy, ghi chú release. **Còn lại cho bạn:** review, gộp vào `main`, push, tạo release `v15`, đo trên site thật | `plans/bao-cao-v15/giai-doan-8.md`, `plans/bao-cao-v15/ghi-chu-release-v15.md` |
 | **G4c, G6** | **Hoãn sang v16** (bạn quyết ngày 22/10/2026): v15 không viết bài học mới, không gắn bản thu mới. Kết quả khảo sát đã chạy (bản quyền, ấn bản, nguồn đối chiếu, bản thu) chép vào `plans/v16/` để dùng ở v16 | `plans/v16/khao-sat-g6.md`, `plans/v16/khao-sat-g4c.md` |
 
 Review của Claude cho G0–G4a: `plans/bao-cao-v15/review-g0-g4a.md`. Báo cáo và review là biên bản, không cần sửa. Việc còn mở trong đó đã chép vào các ghi chú dưới đây; chỗ nào cần đọc thêm báo cáo thì ghi chú nói rõ.
@@ -583,6 +584,11 @@ Bạn chọn ngày 22/10/2026: mỗi phiên bản một bài.
     - mở kênh góp ý (G7.3, hiện bạn để sau);
     - nhờ vài người ở các trình độ khác nhau theo lộ trình vài tuần, ghi lại chỗ họ vướng;
     - chọn việc cho v16 theo phản hồi đó.
+- **Cấp độ lệch với danh sách thi**, do khảo sát G6 tìm ra; quyết định ở v16. Chi tiết ở mục "Ghi chú ngoài phạm vi" của `plans/v16/khao-sat-g6.md`:
+    - bài học Valse Si thứ Op. 69 số 2: site ghi Grade 5–6, ABRSM 2015–2016 xếp Grade 8;
+    - *The Little Shepherd* và Nocturne Đô♯ thứ B. 49: site xếp chặng 5, ABRSM xếp Grade 7;
+    - Nocturne Mi thứ Op. 72 số 1: site xếp chặng 5, ABRSM 2027–2028 xếp Grade 8.
+- Sửa `tools/audio/commons.py` trước khi gắn bản thu ở v16: công cụ báo sai giấy phép khi trang mô tả có cả mẫu phạm vi công cộng cho tác phẩm lẫn giấy phép CC cho bản thu (khảo sát G6 gặp ở file Sonatina của Bartók).
 - Trích đoạn từ bản gốc, đã đối chiếu từng nốt, cho những bài học hiện chỉ có bài tập soạn riêng. Đếm sơ bộ ngày 22/10/2026 có khoảng 13 bài, ví dụ *Clair de lune*, *Träumerei*, Ballade số 1.
 - Một tệp dữ liệu duy nhất cho các bài học (tên, chặng, Grade, thời kỳ), từ đó sinh nhóm nav, bảng mục lục và `practice.js` bằng hook, thay cho việc kiểm thử 8 nơi.
 - Mở rộng hướng dẫn nghe *Ánh trăng* thành cả ba chương (bài học hiện chỉ có chương 1).

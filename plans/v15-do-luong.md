@@ -74,3 +74,17 @@ Site ở commit `7fefd4a` (G0–G4a và review, deploy lúc 15:09 UTC), đo ngay
 - Trợ năng 93 → 100 ở cả ba trang.
 - Thực hành tốt 96 → 100: có release `v14` nên widget kho mã của Material không còn gặp 404 khi hỏi release mới nhất.
 - Số trên site thật gần như bằng số đo tại máy qua HTTP/2 ở G2 (mục trên); LCP chậm hơn 0,1 giây ở trang chủ.
+
+## G8: bản cuối của v15 (ngày 23/10/2026, đo tại máy qua HTTP/2)
+
+Bản build từ commit `0294abc` trên nhánh `v15/tich-hop`, gồm mọi việc của v15 tới G8, Material 9.7.7 và bộ gói đã khóa. Cách đo như mục "Cách đo tại máy": `node tools/lighthouse/serve.mjs site 8443`, rồi `node tools/lighthouse/measure.mjs https://localhost:8443/opus-zero/ 3`.
+
+| Trang | Hiệu năng (từng lần) | Trợ năng | Thực hành tốt | SEO | FCP | LCP | TBT | CLS | Tổng tải | Tải trước LCP | Chỉ mục tìm kiếm |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Trang chủ | 99 (99/99/99) | 100 | 100 | 100 | 1,4 s | 1,7 s | 0 ms | 0,000 | 167 KiB | 151 KiB | sau LCP cả 3 lần |
+| Bài học Für Elise | 99 (99/99/99) | 100 | 100 | 100 | 1,6 s | 2,0 s | 59 ms | 0,029 | 343 KiB | 186 KiB | sau LCP cả 3 lần |
+| Debussy: Préludes | 99 (99/99/99) | 100 | 100 | 100 | 1,6 s | 1,9 s | 21 ms | 0,000 | 199 KiB | 197 KiB | sau LCP cả 3 lần |
+
+- Giữ nguyên mức sau G2: những việc từ G3 đến G8 không làm chậm ba trang này.
+- Thực hành tốt đạt 100 cả khi đo tại máy: release `v14` đã có, nên widget kho mã không còn gặp 404.
+- Số đo trên site thật: đo sau khi bạn push (`node tools/lighthouse/measure.mjs https://mtuann.github.io/opus-zero/ 3`) và ghi thêm vào đây.
