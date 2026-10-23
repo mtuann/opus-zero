@@ -1,6 +1,6 @@
 # Tác phẩm theo cấp độ
 
-Danh mục này xếp những tác phẩm thật, từ bài đầu tiên đến sân khấu hòa nhạc, theo đúng 7 chặng của [lộ trình piano](lo-trinh.md), và là nơi site quyết định mỗi bài thuộc chặng nào. Mỗi chặng có một bảng gồm tác phẩm, thời kỳ và điều bạn học được từ nó; những bài có [bài học chi tiết](tac-pham/index.md) trên site được gắn link. Cuối trang có một mục riêng cho [những bài phổ biến ngoài nhạc cổ điển](#ngoai-co-dien), như *Mariage d'Amour*.
+Danh mục này xếp những tác phẩm thật, từ bài đầu tiên đến sân khấu hòa nhạc, theo đúng 7 chặng của [lộ trình piano](lo-trinh.md), và là nơi site quyết định mỗi bài thuộc chặng nào. Mỗi chặng có một bảng gồm tác phẩm, thời kỳ và điều bạn học được từ nó; những bài có [bài học chi tiết](tac-pham/index.md) trên site được gắn link. Cuối trang có một mục riêng cho [những bài phổ biến ngoài nhạc cổ điển](#ngoai-co-dien), như *Mariage d'Amour*, *River Flows in You* hay *Nuvole bianche*.
 
 ## Cách đọc danh mục
 
@@ -221,6 +221,84 @@ Nhiều người lớn tìm đến cây đàn vì một bài nghe trên mạng, 
 - **Cùng một tên, nhiều bản soạn.** Bản "easy piano" có thể chỉ ở chặng 2, trong khi bản chơi trong bản thu gốc cao hơn vài chặng. Xem trang mẫu trước khi mua: giọng, số trang, tay trái rải rộng hay chỉ giữ hợp âm.
 - **Kiểm tra tên tác giả.** Trên mạng, không ít bài bị gắn nhầm tên một nhà soạn nhạc cổ điển nổi tiếng.
 
+Các bài dưới đây xếp theo cấp của bản gốc, từ dễ đến khó. Cấp là ước lượng của site, dựa trên kỹ năng mỗi bài đòi hỏi so với các bài cổ điển ở trên, và được đối chiếu với mốc bên ngoài khi có: bài điểm sách của Pianodao cho hai tập *SOLO* của Yiruma, danh mục Piano for Leisure của AMEB (hội đồng thi âm nhạc của Úc).
+
+| Bài | Tác giả | Xuất xứ | Bản gốc (≈) |
+|---|---|---|---|
+| [*River Flows in You*](#river-flows-in-you) | Yiruma | Album *First Love* (2001) | Grade 5, chặng 4 |
+| [*Kiss the Rain*](#kiss-the-rain) | Yiruma | Album *From the Yellow Room* (2003) | Grade 5, chặng 4 |
+| [*One Summer's Day*](#one-summers-day) | Joe Hisaishi | Phim *Spirited Away* (2001) | Grade 5, chặng 4 |
+| [*Mariage d'Amour*](#paul-de-senneville-mariage-damour) | Paul de Senneville | Bản thu của Richard Clayderman (1979) | Grade 5–6, đầu chặng 5 |
+| [*Comptine d'un autre été: l'après-midi*](#comptine) | Yann Tiersen | Phim *Amélie* (2001) | Grade 6, chặng 5 |
+| [*Nuvole bianche*](#nuvole-bianche) | Ludovico Einaudi | Album *Una mattina* (2004) | Grade 6, chặng 5 |
+
+### Yiruma: *River Flows in You* { #river-flows-in-you }
+
+| Mục | Thông tin |
+|---|---|
+| Nhà soạn nhạc | Yiruma (tên thật Lee Ru-ma, sinh 1978), nghệ sĩ piano và nhà soạn nhạc người Hàn Quốc |
+| Xuất xứ | Album *First Love* (2001, hãng Stomp Music) |
+| Giọng · nhịp · tốc độ | La trưởng · 4/4 · mở đầu tự do (*Freely, flowing*), rồi vừa phải (*Moderately, expressively*), theo bản in trên Musicnotes |
+| Cấp (≈) | Bản gốc: khoảng Grade 5, chặng 4 (ước lượng của site). Bản dễ do chính tác giả soạn: khoảng Grade 3, chặng 3 |
+| Bản nhạc | Còn bản quyền. Bản của tác giả: tập [*Yiruma SOLO: Original*](https://www.fabermusic.com/shop/yiruma-solo-original-p470825) và bản dễ [*Yiruma SOLO: Easy*](https://www.fabermusic.com/shop/p470824) (Faber Music). Bản số được cấp phép, giọng gốc La trưởng: [Musicnotes](https://www.musicnotes.com/sheetmusic/yiruma/river-flows-in-you/MN0096080) |
+| Bản thu chính thức | Album *First Love*; [kênh YouTube chính thức của Yiruma](https://www.youtube.com/@yirumaplaceofficial) |
+
+Hai tập *SOLO* của Faber Music in các bài trong album *SOLO* (2021), album Yiruma ra mắt nhân 20 năm sáng tác. Mỗi bài có hai dạng, bản gốc và bản dễ, đều do chính ông ghi. Trong bài điểm sách trên Pianodao, Andrew Eales xếp tập bản gốc quanh Grade 5 và tập bản dễ quanh Grade 3. Faber còn có tập *First SOLO* cho người mới học hơn nữa.
+
+**Không phải nhạc phim *Twilight*.** Bài hay bị nhầm với *Bella's Lullaby*, đoạn piano Carter Burwell viết cho phim *Twilight* (2008). *River Flows in You* không có trong album nhạc phim lẫn album nhạc nền của phim; bài nằm trong album *First Love* của Yiruma từ năm 2001, bảy năm trước khi phim ra mắt.
+
+**Bài này dạy gì:**
+
+- **Hợp âm rải tay trái**, đều và nhẹ dưới giai điệu. Tay trái đi lại một vòng bốn hợp âm qua nhiều ô; nhận ra vòng ấy thì học thuộc nhanh hơn hẳn ([Hợp âm, hợp âm rải và hình đệm](hop-am-rai.md)).
+- **Nhóm móc kép và nốt hoa mỹ nhỏ** ở tay phải: nhẹ, đều, không vội ([Appoggiatura và acciaccatura](not-hoa-my.md#appoggiatura-va-acciaccatura)).
+- **Từ nhịp tự do sang nhịp đều**: đoạn mở đầu có dấu ngân và co giãn, phần chính cần nhịp vững.
+- **Bàn đạp đổi theo hợp âm**, để tiếng vang của hai hòa âm không lẫn vào nhau ([Bàn đạp](ban-dap.md#ban-ap-noi)).
+
+**Đi qua trước:** [Valse La thứ](tac-pham/chopin-valse-la-thu.md) (chặng 3) cho giai điệu hát trên phần đệm và bàn đạp theo ô nhịp, [Arabesque](tac-pham/burgmuller-arabesque.md) (chặng 3) cho nhóm nốt nhanh đều, [Prelude Đô trưởng](tac-pham/bach-prelude-do.md) (chặng 4) cho hợp âm rải đều và tai nghe hòa âm. Nếu bạn đang ở chặng 2–3, hãy bắt đầu bằng tập *SOLO: Easy*.
+
+### Yiruma: *Kiss the Rain* { #kiss-the-rain }
+
+| Mục | Thông tin |
+|---|---|
+| Nhà soạn nhạc | Yiruma (xem bài trên) |
+| Xuất xứ | Album *From the Yellow Room* (2003, hãng Stomp Music) |
+| Giọng · nhịp · tốc độ | La♭ trưởng · 4/4 · ♩ = khoảng 76, theo bản in trên Musicnotes |
+| Cấp (≈) | Bản gốc: khoảng Grade 5, chặng 4, khó hơn *River Flows in You* một chút (ước lượng của site). Bản dễ do chính tác giả soạn: khoảng Grade 3, chặng 3 |
+| Bản nhạc | Còn bản quyền. Có trong cả hai tập *SOLO* của Faber Music ở bài trên. Bản số được cấp phép, giọng gốc La♭ trưởng: [Musicnotes](https://www.musicnotes.com/sheetmusic/yiruma/kiss-the-rain/MN0073221) |
+| Bản thu chính thức | Album *From the Yellow Room*; [kênh YouTube chính thức của Yiruma](https://www.youtube.com/@yirumaplaceofficial) |
+
+**Bài này dạy gì:**
+
+- **Đọc bốn dấu giáng** và những đoạn ghi [*8va*](../nhac-ly/14-ky-hieu-bieu-dien.md) (chơi cao hơn một quãng tám so với nốt viết). Đầu bài, tay trái viết ở khóa Sol, sau mới chuyển sang khóa Fa.
+- **Giai điệu ở nốt trên cùng của hợp âm tay phải**: nốt trên hát, các nốt dưới nhẹ hơn ([Tạo tiếng đàn](tieng-dan.md#trong-cung-mot-tay)).
+- **Hợp âm rải tay trái** trải rộng, giữ đều dưới những nốt dài của giai điệu.
+- **Nốt hoa mỹ nhỏ và liên ba** chen trong giai điệu, nhẹ và không làm lệch phách.
+- **Bàn đạp đổi theo hợp âm** ([Bàn đạp](ban-dap.md#ban-ap-noi)).
+
+**Đi qua trước:** [Cầu nguyện buổi sáng](tac-pham/tchaikovsky-cau-nguyen-buoi-sang.md) (chặng 3) cho bè trên hát trong hợp âm, [Arietta](tac-pham/grieg-arietta.md) (chặng 4) cho hai lớp trong một bàn tay ở giọng ba dấu giáng, rồi [*River Flows in You*](#river-flows-in-you).
+
+### Joe Hisaishi: *One Summer's Day* { #one-summers-day }
+
+| Mục | Thông tin |
+|---|---|
+| Nhà soạn nhạc | Joe Hisaishi (sinh 1950), nhà soạn nhạc Nhật Bản, viết nhạc cho nhiều phim của Hayao Miyazaki và Studio Ghibli |
+| Xuất xứ | Bài mở đầu album nhạc phim *Spirited Away* (2001), phim hoạt hình của Hayao Miyazaki và Studio Ghibli. Tên tiếng Nhật *Ano natsu e*, nghĩa là "Về mùa hè ấy" |
+| Giọng · nhịp · tốc độ | Đô trưởng · 4/4 · ♩ = 80, theo bản piano solo trên Musicnotes |
+| Cấp (≈) | Bản piano solo trên Musicnotes: khoảng Grade 5, chặng 4 (ước lượng của site). Bản easy piano chính thức: chặng 2–3 |
+| Bản nhạc | Còn bản quyền. Tập [*Ghibli Best Stories*](https://www.halleonard.com/product/49044225/ghibli-best-stories) (Zen-On, Nhật Bản; Hal Leonard phân phối) gồm các bản piano nhạc phim Ghibli của Hisaishi và có bài này; theo nhà phân phối, đây là ấn bản duy nhất được tác giả duyệt. Bản số được cấp phép: [piano solo](https://www.musicnotes.com/sheetmusic/spirited-away/one-summers-day/MN0151256) và [easy piano](https://www.musicnotes.com/sheetmusic/spirited-away/one-summers-day/MN0242959) trên Musicnotes. Các bản in khác nhau về độ khó: xem trang mẫu trước khi mua |
+| Bản thu chính thức | Album nhạc phim *Spirited Away* (Studio Ghibli Records, 2001), dàn nhạc New Japan Philharmonic, Hisaishi chỉ huy và chơi piano; [kênh YouTube chính thức của Joe Hisaishi](https://www.youtube.com/@joehisaishiofficial9777) |
+
+**Không phải bài Ghibli nào cũng của Hisaishi.** Bài hát *Itsumo nando demo* (*Always with Me*) trong phim *Spirited Away* có nhạc của Youmi Kimura và lời của Wakako Kaku; ABRSM ghi đúng hai tên ấy khi đưa một bản soạn của bài vào danh sách Grade 3 (chương trình 2025–2026). Còn *Summer*, một bài piano quen thuộc khác của Hisaishi, là nhạc phim *Kikujiro* (1999) của Takeshi Kitano, không phải phim Ghibli.
+
+**Bài này dạy gì:**
+
+- **Portato**: chuỗi nốt lặp có chấm dưới dấu luyến, hơi tách mà vẫn hát ([Tạo tiếng đàn](tieng-dan.md#staccato-va-cac-kieu-ngat)).
+- **Hai lớp trong tay phải**: giai điệu ở trên, nốt ngân bên dưới ([Tạo tiếng đàn](tieng-dan.md#trong-cung-mot-tay)).
+- **Hợp âm rải** (có dấu rải trước hợp âm) ở đoạn mở đầu ([Nốt hoa mỹ](not-hoa-my.md#hop-am-rai)).
+- **Tay trái** giữ hợp âm ngân, có chỗ rải rộng hơn một quãng tám; cần bàn đạp nối ([Bàn đạp](ban-dap.md#ban-ap-noi)).
+
+**Đi qua trước:** [Cầu nguyện buổi sáng](tac-pham/tchaikovsky-cau-nguyen-buoi-sang.md) (chặng 3) cho bè trên hát trong hợp âm, [Arietta](tac-pham/grieg-arietta.md) (chặng 4) cho giai điệu và bè trong cùng một tay. Muốn một mốc trong chương trình thi: ABRSM đưa *il porco rosso* (phim *Porco Rosso*, 1992), cũng của Hisaishi, vào danh sách Grade 8 (2025–2026), tức chặng 6.
+
 ### Paul de Senneville: *Mariage d'Amour*
 
 | Mục | Thông tin |
@@ -243,7 +321,50 @@ Nhiều người lớn tìm đến cây đàn vì một bài nghe trên mạng, 
 
 **Đi qua trước:** [Valse La thứ](tac-pham/chopin-valse-la-thu.md) (chặng 3) cho giai điệu trên phần đệm, [Gymnopédie số 1](tac-pham/satie-gymnopedie.md) (chặng 4) cho bàn đạp và tốc độ chậm, [Prélude Mi thứ](tac-pham/chopin-prelude-mi-thu.md) (chặng 4) cho hợp âm khẽ dưới một giai điệu hát. Nếu bạn đang ở chặng 2–3, hãy bắt đầu bằng một bản soạn dễ rồi quay lại bản đầy đủ sau.
 
-Những bài cùng loại mà người lớn hay hỏi, như nhạc phim, nhạc new age hay piano pop, cũng theo cùng nguyên tắc: tìm bản được cấp phép, xem bản soạn trước khi mua, rồi so kỹ năng bài đòi hỏi với bảng các chặng ở trên để biết nên tập lúc nào.
+### Yann Tiersen: *Comptine d'un autre été: l'après-midi* { #comptine }
+
+| Mục | Thông tin |
+|---|---|
+| Nhà soạn nhạc | Yann Tiersen (sinh 1970), nhạc sĩ người Pháp |
+| Xuất xứ | Album nhạc phim *Le Fabuleux Destin d'Amélie Poulain* (Số phận kỳ diệu của Amélie Poulain, thường gọi tắt là *Amélie*; hãng Virgin, 2001). Tên bài nghĩa là "Bài đồng dao của một mùa hè khác: buổi chiều" |
+| Giọng · nhịp · tốc độ | Mi thứ · 4/4 · ♩ = 100, theo bản in trên Musicnotes |
+| Cấp (≈) | Bản gốc: khoảng Grade 6, chặng 5 (ước lượng của site; AMEB đưa bài vào tập Grade 6 của chương trình Piano for Leisure, Series 4). Bản soạn dễ: thường ở chặng 2–3 |
+| Bản nhạc | Còn bản quyền. Tập [*Yann Tiersen: Piano Works 1994–2003*](https://www.halleonard.com/product/50490446/yann-tiersen-piano-works) (Ricordi; Hal Leonard phân phối). Bản số được cấp phép, giọng gốc Mi thứ: [Musicnotes](https://www.musicnotes.com/sheetmusic/yann-tiersen/comptine-dun-autre-%C3%A9t%C3%A9-lapr%C3%A8s-midi/MN0091413) |
+| Bản thu chính thức | Album nhạc phim *Amélie*; [kênh YouTube chính thức của Yann Tiersen](https://www.youtube.com/@YannTiersen) |
+
+**Đừng nhầm tên.** Album *Rue des Cascades* (1996) của Tiersen có ba bài *Comptine d'été* số 1–3; đó là những bài khác. Khi mua bản nhạc, tìm đúng tên đầy đủ *Comptine d'un autre été: l'après-midi*.
+
+**Bài này dạy gì:**
+
+- **Tay trái hai bè gần như suốt bài**: ngón 5 và 4 đi nốt đen ở dưới, ngón cái lặp móc đơn ở trên. Giữ đều và nhẹ ở ♩ = 100 cần cổ tay mềm và sức bền.
+- **Tay phải** đi từ những nhóm móc kép ngắn sang nốt kép, rồi lên âm vực cao hơn với những chuỗi nốt nhanh ([Nốt lặp và nốt kép](not-lap-not-kep.md)).
+- **Cân bằng hai tay**: giai điệu phải nổi trên dòng tay trái không ngừng ([Tạo tiếng đàn](tieng-dan.md#can-bang-e-giai-ieu-hat)).
+- **Sắc thái theo câu**: *p*, *mf*, to dần, nhỏ dần trên cùng một hình đệm.
+
+**Đi qua trước:** [Bài ca Pháp cổ](tac-pham/tchaikovsky-bai-ca-phap-co.md) (chặng 2) cho tay trái hai bè, [Arabesque](tac-pham/burgmuller-arabesque.md) (chặng 3) cho nhóm nốt nhanh đều, [Prelude Đô trưởng](tac-pham/bach-prelude-do.md) (chặng 4) cho một hình nốt giữ đều suốt bài.
+
+### Ludovico Einaudi: *Nuvole bianche* { #nuvole-bianche }
+
+| Mục | Thông tin |
+|---|---|
+| Nhà soạn nhạc | Ludovico Einaudi (sinh 1955), nhà soạn nhạc và nghệ sĩ piano người Ý |
+| Xuất xứ | Album *Una mattina* (2004). Tên bài nghĩa là "Mây trắng" |
+| Giọng · nhịp · tốc độ | Fa thứ · mở đầu 4/4 (♩ = khoảng 40), phần chính 12/8 (♩. = 78), theo bản in trên Musicnotes |
+| Cấp (≈) | Bản gốc: khoảng Grade 6, chặng 5 (ước lượng của site; AMEB đưa bài vào cùng tập Grade 6 với *Comptine* ở trên). Bản soạn dễ: hai tập *Graded Pieces for Piano* của Chester Music, Preparatory–Grade 2 (chặng 1–2) và Grade 3–5 (chặng 3–4), đều có bài này |
+| Bản nhạc | Còn bản quyền. Tập [*Ludovico Einaudi: Una Mattina*](https://www.halleonard.com/product/14009965/ludovico-einaudi-una-mattina) (Music Sales; Hal Leonard phân phối). Bản số được cấp phép, giọng gốc Fa thứ: [Musicnotes](https://www.musicnotes.com/sheetmusic/ludovico-einaudi/nuvole-bianche/MN0106486). Bản soạn theo cấp: [Preparatory–Grade 2](https://www.halleonard.com/product/280828/ludovico-einaudi-graded-pieces-for-piano), [Grade 3–5](https://www.halleonard.com/product/280827/ludovico-einaudi-graded-pieces-for-piano) |
+| Bản thu chính thức | Album *Una mattina*, được Decca phát hành lại nhân dịp 20 năm; [kênh YouTube chính thức của Ludovico Einaudi](https://www.youtube.com/@ludovicoeinaudi) |
+
+**Bài này dạy gì:**
+
+- **Nhịp 12/8**: phách lớn là nốt đen chấm dôi, giai điệu đung đưa, như nhịp 6/8 của [Thuyền ca Venice](tac-pham/mendelssohn-thuyen-ca.md).
+- **Hai bè trong tay phải**: nốt lặp của giai điệu ở trên, nốt ngân ở dưới; nốt trên hát, nốt dưới giữ đủ trường độ ([Tạo tiếng đàn](tieng-dan.md#trong-cung-mot-tay)).
+- **Co giãn tốc độ có ghi trong bản nhạc**: *allargando* ở đoạn mở đầu, *poco accelerando* khi vào phần chính.
+- **Giữ mạch một bài dài, lặp nhiều**: chia sắc thái cho cả bài, đừng dồn cao trào quá sớm.
+- **Bàn đạp đổi theo hợp âm** ([Bàn đạp](ban-dap.md#ban-ap-noi)).
+
+**Đi qua trước:** [Gymnopédie số 1](tac-pham/satie-gymnopedie.md) (chặng 4) cho tốc độ chậm đều và bàn đạp, [Arietta](tac-pham/grieg-arietta.md) (chặng 4) cho hai lớp trong một tay, [Thuyền ca Venice](tac-pham/mendelssohn-thuyen-ca.md) (chặng 5) cho nhịp đung đưa và giai điệu hát.
+
+Những bài cùng loại khác mà người lớn hay hỏi cũng theo cùng nguyên tắc: tìm bản được cấp phép, xem trang mẫu trước khi mua, rồi so kỹ năng bài đòi hỏi với bảng các chặng ở trên để biết nên tập lúc nào. Muốn tự tìm trên phím một giai điệu bạn thuộc mà không cần bản nhạc, xem [Chơi theo tai bên phím đàn](../luyen-tai/choi-bang-tai.md).
 
 ## Tìm thêm bài ở đâu
 
@@ -261,4 +382,9 @@ Những bài cùng loại mà người lớn hay hỏi, như nhạc phim, nhạc
 - Maurice Hinson và Wesley Roberts, *Guide to the Pianist's Repertoire*, ấn bản 4 (Indiana University Press, 2014).
 - Bản nhạc: [IMSLP](https://imslp.org/) (tìm theo tên tác phẩm kèm số Op., BWV, K., D. hoặc Hob.).
 - *Mariage d'Amour*: Wikipedia, ["Mariage d'amour"](https://en.wikipedia.org/wiki/Mariage_d%27amour) và ["Paul de Senneville"](https://en.wikipedia.org/wiki/Paul_de_Senneville); trang bản nhạc trên [Musicnotes](https://www.musicnotes.com/sheetmusic/richard-clayderman/mariage-damour/MN0114635) (giọng gốc, nhà xuất bản).
+- *River Flows in You*, *Kiss the Rain*: Wikipedia, ["Yiruma"](https://en.wikipedia.org/wiki/Yiruma) và ["First Love (Yiruma album)"](https://en.wikipedia.org/wiki/First_Love_%28Yiruma_album%29); Faber Music, [*Yiruma SOLO: Original*](https://www.fabermusic.com/shop/yiruma-solo-original-p470825) và [*SOLO: Easy*](https://www.fabermusic.com/shop/p470824); Andrew Eales, ["Yiruma 20th Anniversary Solo piano"](https://pianodao.com/2023/12/16/yiruma-20th-anniversary-solo/) (Pianodao, 2023). Về *Twilight*: Classic FM, ["Yiruma's River Flows in You: from its meaning to its starring role in the Twilight saga"](https://www.classicfm.com/discover-music/instruments/piano/yiruma-river-flows-in-you-meaning-twilight/) (2019) và Wikipedia, ["Twilight (soundtrack)"](https://en.wikipedia.org/wiki/Twilight_%28soundtrack%29).
+- *One Summer's Day*: Wikipedia, ["Spirited Away (soundtrack)"](https://en.wikipedia.org/wiki/Spirited_Away_%28soundtrack%29), ["Joe Hisaishi"](https://en.wikipedia.org/wiki/Joe_Hisaishi), ["Kikujiro"](https://en.wikipedia.org/wiki/Kikujiro) và ["Porco Rosso"](https://en.wikipedia.org/wiki/Porco_Rosso); Hal Leonard, [*Ghibli Best Stories*](https://www.halleonard.com/product/49044225/ghibli-best-stories); ABRSM, *Piano Exam Pieces 2025 & 2026*, Grade 3 và Grade 8 (mục lục); Classic FM, ["Rihanna, Studio Ghibli and Black Panther appear in new official piano syllabus"](https://www.classicfm.com/about-classic-fm/partners/abrsm/rihanna-studio-ghibli-black-panther-piano-syllabus/) (2024).
+- *Comptine d'un autre été: l'après-midi*: Wikipedia, ["Amélie (soundtrack)"](https://en.wikipedia.org/wiki/Am%C3%A9lie_%28soundtrack%29), ["Rue des Cascades"](https://en.wikipedia.org/wiki/Rue_des_Cascades) và ["Yann Tiersen"](https://en.wikipedia.org/wiki/Yann_Tiersen); Hal Leonard, [*Yann Tiersen: Piano Works 1994–2003*](https://www.halleonard.com/product/50490446/yann-tiersen-piano-works); mục lục tập AMEB *Piano for Leisure Series 4, Grade 6* trên trang của [Australian Music Centre](https://www.australianmusiccentre.com.au/product/ameb-piano-for-leisure-series-4-grade-book-grade-6).
+- *Nuvole bianche*: Classic FM, ["Nuvole Bianche"](https://www.classicfm.com/composers/einaudi/music/nuvole-bianche/); uDiscover Music, ["Ludovico Einaudi's 'Una Mattina' Set For 20th Anniversary Reissue"](https://www.udiscovermusic.com/classical-news/ludovico-einaudi-una-mattina-20th-anniversary-reissue); Wikipedia, ["Ludovico Einaudi"](https://en.wikipedia.org/wiki/Ludovico_Einaudi); Hal Leonard, [*Ludovico Einaudi: Una Mattina*](https://www.halleonard.com/product/14009965/ludovico-einaudi-una-mattina) và hai tập *Graded Pieces for Piano* ([Preparatory–Grade 2](https://www.halleonard.com/product/280828/ludovico-einaudi-graded-pieces-for-piano), [Grade 3–5](https://www.halleonard.com/product/280827/ludovico-einaudi-graded-pieces-for-piano)).
+- Giọng, nhịp, tốc độ và nhà xuất bản của từng bài: trang sản phẩm trên Musicnotes, link ở từng mục. Kênh YouTube chính thức: link từ trang web của tác giả ([Yann Tiersen](https://www.yanntiersen.com/), [Ludovico Einaudi](https://ludovicoeinaudi.com/), [Joe Hisaishi](https://joehisaishi.com/)); kênh của Yiruma tự giới thiệu là kênh chính thức của ông.
 - Xem thêm [tài liệu tham khảo](../tai-lieu-tham-khao.md).
