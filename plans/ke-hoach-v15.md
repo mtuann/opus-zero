@@ -40,11 +40,14 @@ Cập nhật 22/10/2026 (tối).
 | G4b. Bản thu cho 7 hướng dẫn nghe nhạc piano | Xong, đã push ngày 22/10; review cùng cả v15. Hai bản IMSLP và hai bản Marcelle Meyer chỉ dẫn link, theo quyết định của bạn | `plans/bao-cao-v15/giai-doan-4b.md` |
 | G7.2. Release `v14` | Xong ngày 22/10; số đo trên site thật: 99, 100, 100, 100 ở cả ba trang | `plans/v15-do-luong.md` |
 | G7.1. Giấy phép cho phần chữ | Xong trên `v15/tich-hop` (CC BY-SA 4.0, mã nguồn vẫn MIT) | |
-| Việc lẻ `kiem-link`, `khoa-goi`, `mermaid` | Xong trên `v15/tich-hop` | |
+| Việc lẻ `kiem-link`, `khoa-goi` (kèm nâng Material lên 9.7.7), `mermaid` | Xong trên `v15/tich-hop` | |
 | Việc lẻ `nguon`, G5 | Đang làm | |
-| G4c, G6 | Đang khảo sát (bản quyền, ấn bản, bản thu) | |
+| Việc lẻ `g4b-con-lai`: cấu trúc Valse La thứ và dòng cuối *Mùa xuân* (phát hiện 5, 6 của báo cáo G4b) | Đang làm | |
+| G7.4. Video minh họa kỹ thuật | Đang lập danh sách đề cử; chỉ thêm vào trang sau khi bạn duyệt | |
 | G7.3 | Bạn chọn để sau | |
-| G7.4, G7.5, G8 | Chưa làm | |
+| G7.5 | Bạn chọn mỗi phiên bản một bài; bài v15 viết ở G8 | |
+| G8. Phát hành v15 | Làm sau cùng, sau các việc trên | |
+| **G4c, G6** | **Hoãn sang v16** (bạn quyết ngày 22/10/2026): v15 không viết bài học mới, không gắn bản thu mới. Kết quả khảo sát đã chạy (bản quyền, ấn bản, nguồn đối chiếu, bản thu) chép vào `plans/v16/` để dùng ở v16 | `plans/v16/khao-sat-g6.md`, `plans/v16/khao-sat-g4c.md` |
 
 Review của Claude cho G0–G4a: `plans/bao-cao-v15/review-g0-g4a.md`. Báo cáo và review là biên bản, không cần sửa. Việc còn mở trong đó đã chép vào các ghi chú dưới đây; chỗ nào cần đọc thêm báo cáo thì ghi chú nói rõ.
 
@@ -425,7 +428,7 @@ Mỗi trang:
 - [ ] Mốc tham khảo đã được đối chiếu theo G4a.
 - [ ] Build và test đạt.
 
-**G4c (tùy chọn, nếu còn thời gian):** 24 hướng dẫn nghe dàn nhạc, thính phòng và giọng hát chưa có bản thu. Musopen có nhiều bản CC0 và phạm vi công cộng. Làm theo lô 6 trang.
+**G4c (hoãn sang v16; khảo sát ở `plans/v16/khao-sat-g4c.md`):** 24 hướng dẫn nghe dàn nhạc, thính phòng và giọng hát chưa có bản thu. Musopen có nhiều bản CC0 và phạm vi công cộng. Làm theo lô 6 trang.
 
 ## G5. Chơi theo tai; bài phổ biến ngoài nhạc cổ điển
 
@@ -466,6 +469,8 @@ Bản quyền: không chép khuông nhạc, tên nốt hay giai điệu; không 
 - [ ] Không chép nội dung còn bản quyền.
 
 ## G6. Bài học tác phẩm mới (mỗi lô 3 bài)
+
+**Hoãn sang v16** (bạn quyết ngày 22/10/2026). Kết quả khảo sát các lô A, B, C (bản quyền, ấn bản, cấp độ, nguồn đối chiếu, bản thu) ở `plans/v16/khao-sat-g6.md`. Đặc tả dưới đây giữ nguyên để dùng lại.
 
 **Hiện trạng:** 34 bài; theo thời kỳ: 17 Lãng mạn, 8 Cổ điển, 7 Baroque, 1 cuối thế kỷ 19 (Satie), 1 Ấn tượng (*Clair de lune*); theo chặng: chặng 2 và 4 có 7 bài, chặng 3 và 5 có 6, chặng 6 có 5, chặng 7 có 3. Chưa có nhà soạn nhạc nữ, chưa có tác phẩm Việt Nam.
 
