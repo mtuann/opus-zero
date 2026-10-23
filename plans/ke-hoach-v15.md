@@ -112,7 +112,7 @@ Số đo Lighthouse của người rà soát (điện thoại, 4G chậm mô ph�
 
 ```bash
 python3 -m venv .venv && . .venv/bin/activate
-pip install -r requirements.txt    # mkdocs 1.6.1, mkdocs-material 9.7.6, pymdown-extensions 10.21.2
+pip install -r requirements.txt    # mkdocs 1.6.1, mkdocs-material 9.7.7, pymdown-extensions 10.21.2 (khóa mọi gói)
 npm ci                             # abcjs, axe-core, jsdom, lunr: chỉ dùng cho kiểm thử
 mkdocs build --strict              # phải sạch cảnh báo
 npm test                           # mọi nhóm: nhanh, trang-1, trang-2, a11y (cần site/ đã build)
@@ -562,7 +562,7 @@ Bạn chọn ngày 22/10/2026: mỗi phiên bản một bài.
 - Hằng quý: checklist ở cuối `docs/cap-nhat.md`, kể cả mở tay các link mà kiểm tra tự động bỏ qua (abrsm.org, Oxford Music Online).
 - Hằng tuần, tự động: workflow *Kiểm tra link và bản thu* kiểm link ra ngoài, và đối chiếu mọi bản thu với Wikimedia Commons (file bị xóa, đổi độ dài, đổi giấy phép). Có lỗi thì mở hoặc cập nhật một issue.
 - **Công cụ build** (đã kiểm ngày 22/10/2026):
-    - **Material for MkDocs** đang ở giai đoạn bảo trì cuối (issue #8523, mở ngày 6/11/2025). Ngày 16/9/2026, nhóm phát triển gia hạn việc sửa lỗi nghiêm trọng và lỗi bảo mật tới 5/5/2027; lỗi nhỏ có thể không được sửa. Bản 9.7.0 ra ngày 11/11/2025. Site dùng 9.7.6; bản mới nhất là 9.7.7 (17/7/2026).
+    - **Material for MkDocs** đang ở giai đoạn bảo trì cuối (issue #8523, mở ngày 6/11/2025). Ngày 16/9/2026, nhóm phát triển gia hạn việc sửa lỗi nghiêm trọng và lỗi bảo mật tới 5/5/2027; lỗi nhỏ có thể không được sửa. Bản 9.7.0 ra ngày 11/11/2025. Bản mới nhất là 9.7.7 (17/7/2026): sửa lỗ hổng XSS trong gợi ý tìm kiếm. Site đã nâng từ 9.7.6 lên 9.7.7 (việc lẻ `khoa-goi`).
     - **MkDocs:** 1.6.1 (30/8/2024) vẫn là bản 1.x mới nhất. MkDocs 2.0 đang ở bản thử (2.0.dev6, ngày 15/9/2026) và không tương thích: bỏ hệ plugin, cấu hình bằng TOML, viết lại hệ theme, không có cách chuyển dự án cũ. Từ bản 9.7.5, Material giới hạn `mkdocs<2`. `requirements.txt` đã khóa mọi gói (việc lẻ `khoa-goi`).
     - **Zensical**, do nhóm làm Material phát triển: bản 0.0.71 (16/10/2026). Nó đọc được `mkdocs.yml` và có thay thế cho plugin blog từ bản 0.0.64. Trang tương thích chưa nói gì về hook Python, mà site dùng 5 hook (`search_vi`, `books`, `a11y`, `redirects`, `meta`). Plugin không có trong danh sách hỗ trợ thì bị bỏ qua. Vì vậy chưa chuyển được.
     - **Việc cần làm:** rà lại vào quý 1/2027, trước ngày 5/5/2027. Thử build bằng Zensical trên một nhánh riêng, xem từng hook và `overrides/main.html` còn chạy không, rồi quyết định chuyển hay giữ Material đã khóa phiên bản.

@@ -38,7 +38,7 @@ overrides/main.html Phần <head> thêm vào theme (kể cả đoạn hoãn tả
 
 ```bash
 python3 -m venv .venv && . .venv/bin/activate
-pip install -r requirements.txt    # mkdocs 1.6.1, mkdocs-material 9.7.6, pymdown-extensions 10.21.2
+pip install -r requirements.txt    # mkdocs 1.6.1, mkdocs-material 9.7.7, pymdown-extensions 10.21.2 (khóa mọi gói)
 npm ci                             # abcjs, axe-core, jsdom, lunr: chỉ dùng cho kiểm thử
 mkdocs build --strict              # phải sạch cảnh báo
 npm test                           # 4 nhóm song song: nhanh, trang-1, trang-2, a11y (cần site/ đã build)

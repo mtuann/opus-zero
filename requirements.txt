@@ -1,10 +1,11 @@
 # Gói Python để build site. Mọi gói đều khóa phiên bản, kể cả gói kéo theo, để build không tự đổi khi một
-# gói lên bản mới. Bộ khóa này là đúng bộ gói lần deploy của commit 7cea23b đã cài (Python 3.12).
+# gói lên bản mới. Bộ khóa này là đúng bộ gói lần deploy của commit 7cea23b đã cài (Python 3.12), riêng
+# mkdocs-material nâng từ 9.7.6 lên 9.7.7: bản vá lỗ hổng XSS trong gợi ý tìm kiếm (site bật search.suggest).
 # tests/site_static.py báo lỗi nếu có dòng không khóa bằng "==".
 
 # Ba gói chính. Đừng nâng MkDocs lên 2.x: Material không tương thích.
 mkdocs==1.6.1
-mkdocs-material==9.7.6
+mkdocs-material==9.7.7
 pymdown-extensions==10.21.2
 
 # Gói kéo theo. Muốn nâng một gói chính: cài ba gói chính vào một môi trường sạch (Python 3.12),
