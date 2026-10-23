@@ -151,14 +151,14 @@ def lesson_guide_pairs():
 
 
 def tools():
-    """Bộ chọn công cụ trong RULES của loader.js có dùng trong docs/ (trừ khuông nhạc, mermaid, quiz, danh sách việc)."""
+    """Bộ chọn công cụ trong RULES của loader.js có dùng trong docs/ (trừ khuông nhạc, quiz, danh sách việc)."""
     src = read("docs/assets/js/loader.js")
     rules = re.findall(r'\[\s*"([^"]+)",\s*\[([^\]]*)\]\]', src.split("const RULES")[1].split("];")[0])
     md = "\n".join(p.read_text(encoding="utf-8") for p in DOCS.rglob("*.md"))
     fences = {"oz-placement": "placement"}  # công cụ chèn bằng khối ```tên thay vì <div class>
     found = set()
     for sel, scripts in rules:
-        if re.findall(r'"([\w-]+)"', scripts)[-1] in ("abc", "mermaid", "quiz", "practice"):
+        if re.findall(r'"([\w-]+)"', scripts)[-1] in ("abc", "quiz", "practice"):
             continue
         for cls in re.findall(r"\.([\w-]+)", sel):
             if re.search(r'class="(?:[^"]* )?%s[ "]' % re.escape(cls), md) or \

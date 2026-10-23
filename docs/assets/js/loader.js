@@ -6,15 +6,15 @@
    Mọi thứ khởi tạo ngay từ đầu khi trình duyệt không có IntersectionObserver, hoặc khi window.OZ_EAGER = true (kiểm thử). */
 (function () {
   "use strict";
-  const VERSION = "18";
+  const VERSION = "19";
   const me = document.currentScript || document.querySelector('script[src*="assets/js/loader.js"]');
   const BASE = me ? me.src.replace(/loader\.js.*$/, "") : "assets/js/";
-  /* abcjs đi kèm trong repo (docs/assets/js/vendor/) để dùng được khi mất mạng; mermaid vẫn tải từ CDN */
-  const EXT = { abcjs: "vendor/abcjs-basic-min.js", mermaid: "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js" };
-  /* [bộ chọn CSS, các script cần, theo thứ tự phụ thuộc] */
+  /* abcjs đi kèm trong repo (docs/assets/js/vendor/) để dùng được khi mất mạng */
+  const EXT = { abcjs: "vendor/abcjs-basic-min.js" };
+  /* [bộ chọn CSS, các script cần, theo thứ tự phụ thuộc].
+     Sơ đồ mermaid không đi qua bộ tải này: Material tự tải mermaid và vẽ mọi khối ```mermaid khi mở trang. */
   const RULES = [
     [".abc-notation", ["abcjs", "abc"]],
-    [".mermaid", ["mermaid"]],
     [".oz-midi-status", ["midi"]],
     [".oz-note-reader", ["abcjs", "midi", "note-reader"]],
     [".oz-interval-trainer", ["viz", "interval-trainer"]],
@@ -48,8 +48,8 @@
     [".task-list-item, .oz-piece, .oz-repertoire, .oz-piano-level", ["practice"]]
   ];
   /* Luôn tải ngay, dù ở xa màn hình: công cụ giữ và hiện trạng thái của người học (quiz, danh sách việc, kế hoạch,
-     nhật ký, dữ liệu, đàn MIDI), và sơ đồ mermaid (vẽ bất đồng bộ nên không kịp vẽ khi bấm in). Gọi theo script cuối của quy tắc. */
-  const NOW = /^(midi|quiz|plan|journal|data|practice|mermaid)$/;
+     nhật ký, dữ liệu, đàn MIDI). Gọi theo script cuối của quy tắc. */
+  const NOW = /^(midi|quiz|plan|journal|data|practice)$/;
   const MARGIN = 600;
   const requested = {};
   const readyFns = [];
@@ -66,8 +66,7 @@
     if (requested[name]) return requested[name];
     requested[name] = new Promise(function (res) {
       const s = document.createElement("script");
-      const ext = EXT[name];
-      s.src = ext ? (ext.indexOf("http") === 0 ? ext : BASE + ext + "?v=" + VERSION) : (BASE + name + ".js?v=" + VERSION);
+      s.src = BASE + (EXT[name] || name + ".js") + "?v=" + VERSION;
       s.async = false;
       s.onload = function () { res(true); };
       s.onerror = function () { res(false); };
@@ -83,10 +82,6 @@
     return out;
   }
   function ready() {
-    if (window.mermaid && document.querySelector('.mermaid:not([data-processed])')) {
-      try { window.mermaid.initialize({ startOnLoad: false }); window.mermaid.run(); }
-      catch (e) { console.error(e); }
-    }
     readyFns.forEach(function (fn) { try { fn(); } catch (e) { console.error(e); } });
   }
   function loadAll(names) {

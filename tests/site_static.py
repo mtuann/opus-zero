@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Kiểm tra tĩnh, chạy nhanh không cần build:
-1. Mọi khối ```mermaid trong docs đều có quy tắc tải trong loader.js
-   (quên quy tắc thì trang hiện mã thô).
+1. Có khối ```mermaid thì mkdocs.yml phải có custom fence "mermaid" với class "mermaid" (Material chỉ vẽ
+   pre.mermaid; thiếu thì trang hiện mã thô), và loader.js không tải mermaid lần nữa (Material tự tải).
 2. Sách "Hướng dẫn nghe" (hooks/books.py) chứa đúng các guide trong nav
    (thêm guide mà quên sách thì sách in thiếu chương).
 3. Mọi chương trong BOOKS đều có trang tương ứng trong nav.
@@ -35,9 +35,13 @@ sw_src = (ROOT / "docs/sw.js").read_text(encoding="utf-8")
 md_files = list((ROOT / "docs").rglob("*.md"))
 with_mermaid = [p.relative_to(ROOT) for p in md_files
                 if re.search(r"^```mermaid", p.read_text(encoding="utf-8"), re.M)]
-if with_mermaid and '".mermaid"' not in loader_src:
-    fail("có %d trang dùng ```mermaid nhưng loader.js thiếu quy tắc [\".mermaid\", ...]: %s"
+mkdocs_src = (ROOT / "mkdocs.yml").read_text(encoding="utf-8")
+if with_mermaid and not re.search(r"- name: mermaid\s+class: mermaid\s+format: !!python/name:pymdownx\.superfences\.fence_code_format",
+                                  mkdocs_src):
+    fail("có %d trang dùng ```mermaid nhưng mkdocs.yml thiếu custom fence mermaid (class mermaid, fence_code_format): %s"
          % (len(with_mermaid), ", ".join(str(p) for p in with_mermaid[:5])))
+if "mermaid" in loader_src.split("const RULES")[1].split("];")[0]:
+    fail("loader.js có quy tắc tải mermaid: Material đã tự tải và vẽ sơ đồ, tải thêm sẽ vẽ hai lần")
 
 # --- nav ---
 # Lấy đường dẫn .md bằng regex thay vì parse YAML: mkdocs.yml dùng tag !!python/name
