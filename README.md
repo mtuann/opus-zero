@@ -156,8 +156,14 @@ Mỗi phần giữ đúng một issue ("Báo cáo link hỏng", "Báo cáo bản
 
 ## Ghi chú kỹ thuật
 
-- `requirements.txt` ghim `mkdocs==1.6.1`. Đừng nâng lên MkDocs 2.x: Material for MkDocs không tương thích với phiên bản đó.
+- `requirements.txt` khóa phiên bản mọi gói (`mkdocs==1.6.1` và các gói kéo theo). Đừng nâng lên MkDocs 2.x: Material for MkDocs không tương thích với phiên bản đó.
 - Khi sửa nhiều JS/CSS, tăng `VERSION` trong `docs/sw.js` **và** `docs/assets/js/loader.js` (hai số phải khớp nhau — `tests/site_static.py` kiểm tra) để người dùng ứng dụng đã cài nhận bản mới ngay.
 - Máy lên dây cần quyền micro và chỉ chạy trên HTTPS (GitHub Pages đã có sẵn).
 - Tiến độ luyện tập lưu trong `localStorage` của trình duyệt (khóa `opus-zero:v1`), không gửi đi đâu.
 - Thư viện bên ngoài: [abcjs](https://paulrosen.github.io/abcjs/) 6.7.1 đi kèm trong repo (`docs/assets/js/vendor/`, `docs/assets/css/vendor/`) để khuông nhạc vẫn vẽ được khi mất mạng; font Be Vietnam Pro và Literata (giấy phép SIL OFL 1.1) lưu trong `docs/assets/fonts/`, không tải từ Google Fonts.
+
+## Giấy phép
+
+- **Nội dung** (chữ, ví dụ nhạc và bài tập soạn cho site, hình và sơ đồ trong `docs/`): [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), toàn văn trong `LICENSE-CONTENT`. Được dùng lại, kể cả cho mục đích thương mại, nếu ghi nguồn và chia sẻ lại theo cùng giấy phép.
+- **Mã nguồn**: MIT, xem `LICENSE`.
+- **Giữ giấy phép riêng**: bản thu (ghi dưới khung nghe ở từng trang và trong `docs/assets/audio/NGUON.txt`), mẫu âm piano Salamander (CC BY 3.0), font (SIL OFL 1.1), abcjs (MIT), và nội dung trích từ nguồn khác (ghi ở mục "Nguồn" của từng trang). Danh sách cho người đọc: trang [Tài liệu tham khảo](https://mtuann.github.io/opus-zero/tai-lieu-tham-khao/#giay-phep).

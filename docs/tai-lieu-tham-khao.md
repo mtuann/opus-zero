@@ -55,6 +55,12 @@ Những nguồn chính được dùng để viết và kiểm tra nội dung sit
 - [MkDocs](https://www.mkdocs.org/) và [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/): khung và giao diện của site.
 - Font [Be Vietnam Pro](https://github.com/bettergui/BeVietnamPro) (chữ thường) và [Literata](https://github.com/googlefonts/literata) (tiêu đề), giấy phép [SIL Open Font License 1.1](https://openfontlicense.org/); bản lưu trên site lấy từ [Google Fonts](https://fonts.google.com/); văn bản giấy phép: [Be Vietnam Pro](assets/fonts/OFL-BeVietnamPro.txt), [Literata](assets/fonts/OFL-Literata.txt).
 
+## Giấy phép
+
+- **Nội dung của site** (chữ, ví dụ nhạc và bài tập soạn cho site, hình và sơ đồ): giấy phép [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Bạn được sao chép, chia sẻ và chỉnh sửa, kể cả cho mục đích thương mại, nếu ghi nguồn (ví dụ "Opus Zero, https://mtuann.github.io/opus-zero/, CC BY-SA 4.0"), nói rõ nếu đã sửa đổi, và chia sẻ bản chỉnh sửa theo cùng giấy phép. Toàn văn: tệp [LICENSE-CONTENT](https://github.com/mtuann/opus-zero/blob/main/LICENSE-CONTENT) trong kho mã.
+- **Mã nguồn**: giấy phép [MIT](https://github.com/mtuann/opus-zero/blob/main/LICENSE).
+- **Giữ giấy phép riêng**: bản thu, mẫu âm piano, font và thư viện abcjs ở hai mục [Âm thanh](#am-thanh) và [Phần mềm](#phan-mem) phía trên; nội dung trích từ nguồn khác (ghi ở mục "Nguồn" của từng trang) thuộc về tác giả của nguồn đó.
+
 ## Về độ chính xác
 
 Nội dung site được biên soạn và kiểm tra cẩn thận, nhưng không phải là tài liệu học thuật đã qua bình duyệt. Năm tháng và chi tiết lịch sử đôi khi khác nhau giữa các nguồn; khi đó site chọn cách diễn đạt thận trọng ("khoảng", "được cho là"). Các ví dụ nhạc được rút gọn để học, không thay thế bản nhạc gốc.

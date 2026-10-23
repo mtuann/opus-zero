@@ -5,7 +5,7 @@ site_url: https://mtuann.github.io/opus-zero/
 repo_url: https://github.com/mtuann/opus-zero
 repo_name: mtuann/opus-zero
 edit_uri: edit/main/docs/
-copyright: Opus Zero — sổ tay học piano cổ điển của mtuann
+copyright: 'Opus Zero — sổ tay học piano cổ điển của mtuann · Nội dung: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Mã nguồn: <a href="https://github.com/mtuann/opus-zero/blob/main/LICENSE">MIT</a>'
 
 # Link tới một mục (#...) không có trên trang đích là cảnh báo, nên `mkdocs build --strict` dừng lại.
 # Link trong JavaScript, HTML viết tay và MP3 trong data-rec: tests/anchors.py.

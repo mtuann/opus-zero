@@ -159,7 +159,8 @@ ol.plain {{ list-style: none; padding-left: 0; }}
 <body>
 <div class="toolbar"><button id="print" disabled>Đang vẽ khuông nhạc…</button> <span class="muted">Chọn “Lưu dưới dạng PDF” trong hộp thoại in để có file PDF.</span></div>
 <section class="cover"><p class="muted">Opus Zero</p><h1>{title}</h1><p>{desc}</p>
-<p class="muted">Bản in ngày {date} · {chapters} chương · Bản trực tuyến: <a href="{site}">{site}</a></p></section>
+<p class="muted">Bản in ngày {date} · {chapters} chương · Bản trực tuyến: <a href="{site}">{site}</a></p>
+<p class="muted">Nội dung theo giấy phép CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/): được chia sẻ và chỉnh sửa nếu ghi nguồn và chia sẻ lại theo cùng giấy phép. Bản thu, font và nội dung trích từ nguồn khác giữ giấy phép riêng.</p></section>
 <nav class="toc"><h2>Mục lục</h2><ol>{toc}</ol></nav>
 {body}
 <script src="../assets/js/vendor/abcjs-basic-min.js"></script>

@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     # Sửa riêng các file này không làm site thay đổi, nên không cần deploy.
-    paths-ignore: ["README.md", "LICENSE"]
+    paths-ignore: ["README.md", "LICENSE", "LICENSE-CONTENT"]
   workflow_dispatch:
 
 permissions:
