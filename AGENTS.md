@@ -211,5 +211,6 @@ Nhiều trang ghi con số đếm được ("34 bài học", "42 hướng dẫn 
 ## Tài liệu tham khảo cho agent
 
 - Kế hoạch hiện hành: `plans/ke-hoach-v15.md`; báo cáo các giai đoạn: `plans/bao-cao-v15/`.
+- Khảo sát cho v16, đã làm ở v15 nhưng chưa dùng: bài học tác phẩm mới (`plans/v16/khao-sat-g6.md`) và bản thu cho các hướng dẫn nghe không phải nhạc piano còn trống (`plans/v16/khao-sat-g4c.md`). Kiểm lại giấy phép và tình trạng file trước khi dùng.
 - Hai bản hướng dẫn viết nội dung đã dùng ở v12–v14: `_imslp/_scripts/briefs/BRIEF.md`, `BRIEF2.md`. Script cũ (chưa dọn) và mục lục: `_imslp/_scripts/README.md`. Khi bản cũ khác trang thật hiện nay, trang thật là chuẩn.
 - Nguồn chung đã dùng để viết và kiểm tra nội dung: `docs/tai-lieu-tham-khao.md`.

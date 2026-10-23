@@ -61,7 +61,7 @@ docs/
 ├── nhac-ly/              32 bài nhạc lý + âm học + 3 bài ôn tập (khuông nhạc nghe được, quiz) + từ điển
 ├── nhan-dien/            Nhận diện bằng tai: so sánh thời kỳ, thể loại, dấu vân tay, luyện nghe, nghe mù
 ├── luyen-tap/            Công cụ luyện tập: đọc nốt, thị tấu, chơi theo, hát lại và máy lên dây, thu âm, phiếu bài tập và giấy kẻ khuông in được
-├── luyen-tai/            Luyện tai; công cụ nhận biết quãng, hợp âm, gam và kết nằm ngay trong từng bài
+├── luyen-tai/            Luyện tai, kể cả chơi theo tai bên phím đàn; công cụ nhận biết quãng, hợp âm, gam và kết nằm ngay trong từng bài
 ├── lich-su/              Lịch sử, dòng thời gian, nhà soạn nhạc (cả nữ), opera, Việt Nam, đương đại
 ├── hinh-thuc/            Tổng quan + 9 trang hình thức (sonata, fugue, biến tấu, rondo, concerto, minuet và trio, scherzo, overture, symphonic poem)
 ├── nhac-cu/              Nhạc cụ trong dàn nhạc (phần nghe): dàn nhạc, violin, cello, guitar, sáo, clarinet, trumpet, giọng hát, organ, harpsichord
@@ -82,6 +82,8 @@ tools/audio/              Bản thu: tìm trên Commons, chuyển mã bản IMSL
 tools/figures.py          Sinh hình minh họa (SVG, sơ đồ cấu trúc) và chèn vào trang giữa <!-- fig:TÊN -->
 tools/keysigs.mjs         Vẽ sẵn 15 hóa biểu bằng abcjs (chạy: node tools/keysigs.mjs)
 tools/lighthouse/         Đo Lighthouse ba trang tại máy (máy chủ HTTP/2 có nén) hoặc trên site thật; cách đo ở plans/v15-do-luong.md
+plans/                    Kế hoạch, báo cáo và số đo của từng phiên bản; plans/v16/: khảo sát cho phiên bản sau
+LICENSE, LICENSE-CONTENT  Giấy phép mã nguồn (MIT) và nội dung (CC BY-SA 4.0)
 ```
 
 ## JavaScript

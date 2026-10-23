@@ -4,10 +4,41 @@ Trang này ghi lại những thay đổi lớn của site và quy trình giữ c
 
 ## Nhật ký thay đổi
 
-### 10/2026: Phiên bản 15
+### 10/2026: Phiên bản 15 (nhanh hơn, nguồn rõ hơn)
 
+- **Trang mở nhanh hơn:** chỉ mục tìm kiếm (khoảng 1,2 MB) chỉ được tải khi bạn mở ô tìm kiếm, hoặc vài giây sau khi trang đã hiện xong. Khuông nhạc và công cụ ở xa màn hình chỉ được vẽ khi bạn cuộn tới gần. Font chữ lưu ngay trên site, không còn tải từ Google Fonts. Trên điện thoại, với mạng 4G chậm mô phỏng, điểm hiệu năng Lighthouse của trang chủ và trang [*Für Elise*](piano/tac-pham/fur-elise.md) tăng từ 86 lên 99.
+- **Trợ năng:** ô tìm kiếm có tên để trình đọc màn hình đọc được; link trong bài có gạch chân, để không chỉ phân biệt với chữ thường bằng màu. Điểm trợ năng Lighthouse từ 93 lên 100.
+- **Bài luyện tai thứ sáu: [Chơi theo tai bên phím đàn](luyen-tai/choi-bang-tai.md).** Bài dạy năm việc:
+    - tìm lại một giai điệu quen trên phím;
+    - đệm bằng I, IV, V theo tiếng bè trầm;
+    - chơi lại câu vừa nghe;
+    - dịch sang Sol trưởng và Fa trưởng;
+    - nghe câu đầu trong đầu trước khi chơi.
+
+    Kèm thói quen 10 phút mỗi ngày và kế hoạch 4 tuần. Bảng [gắn quãng với giai điệu quen](luyen-tai/index.md#gan-quang-voi-giai-ieu-quen-thuoc) thêm ví dụ lấy từ những bài bạn tập trên site.
+- **Năm bài phổ biến ngoài nhạc cổ điển**, trong [Tác phẩm theo cấp độ](piano/tac-pham-theo-cap.md#ngoai-co-dien):
+    - *River Flows in You* và *Kiss the Rain* (Yiruma);
+    - *One Summer's Day* (Joe Hisaishi);
+    - *Comptine d'un autre été: l'après-midi* (Yann Tiersen);
+    - *Nuvole bianche* (Ludovico Einaudi).
+
+    Mỗi bài có xuất xứ, cấp ước lượng, kỹ năng cần, bài cổ điển nên học trước và nơi mua bản nhạc được cấp phép. Site không chép nhạc của những bài còn bản quyền này.
 - **Bản thu cho các hướng dẫn nghe nhạc piano:** [Scarlatti](nghe-nhac/scarlatti-sonata.md) (Sonata K. 380, Raymond Smullyan), [Sonata K. 331 của Mozart](nghe-nhac/mozart-k331.md) (Luis Kolodin, cả ba chương, link tới IMSLP), [Concerto số 21 của Mozart](nghe-nhac/mozart-concerto-21.md) (chỉ có chương 3), [Concerto của Grieg](nghe-nhac/grieg-concerto.md), [*Những bức tranh ở phòng triển lãm*](nghe-nhac/mussorgsky-tranh.md) (bản piano, Chiara Bertoglio, link tới IMSLP), [Concerto số 2 của Rachmaninoff](nghe-nhac/rachmaninoff-2.md) và [*Rhapsody in Blue*](nghe-nhac/gershwin-rhapsody.md) (bản thu đầu tiên, năm 1924, chính Gershwin chơi piano). Mốc tham khảo có ít nhất ở đầu từng chương hoặc từng bài; [*Eine kleine Nachtmusik*](nghe-nhac/mozart-eine-kleine.md), [*Mùa xuân*](nghe-nhac/vivaldi-mua-xuan.md) của Vivaldi và [Valse La thứ](piano/tac-pham/chopin-valse-la-thu.md) của Chopin cũng đã có mốc.
 - **Bản thu chỉ dẫn link:** bản thu dài trên IMSLP không lưu trên site, vì file quá nặng; khối nghe dẫn link tới từng file, mốc tham khảo vẫn hiện trong bảng, ghi thời điểm trong từng file. Hai bản thu của Marcelle Meyer ([*Préludes* của Debussy](nghe-nhac/debussy-preludes.md), thu năm 1956, và [Invention số 1](piano/tac-pham/bach-invention-1.md), thu năm 1948) cũng chỉ còn link tới Wikimedia Commons: ở Mỹ, nơi đặt site, hai bản thu này vẫn còn được bảo hộ.
+- **Sửa theo bản nhạc:**
+    - [Valse La thứ](piano/tac-pham/chopin-valse-la-thu.md) của Chopin: đoạn C (La trưởng) dài 8 ô chứ không phải 16, và dấu nhắc lại thứ hai gồm cả đoạn A' lẫn đoạn C. Bảng theo dõi, hình cấu trúc và mốc tham khảo được sửa theo. Trang thêm chuyện bài từng được in năm 1860 dưới tên Charlotte de Rothschild.
+    - [*Mùa xuân*](nghe-nhac/vivaldi-mua-xuan.md) của Vivaldi: phần cuối chương 1 tách thành ba sự kiện (ritornello, một đoạn độc tấu ngắn, ritornello cuối), đủ mốc.
+- **Nguồn:** chín trang có mục Nguồn với nguồn thật: [Minuet và Trio](hinh-thuc/minuet-trio.md), [Overture](hinh-thuc/overture.md), [Scherzo](hinh-thuc/scherzo.md), [Thơ giao hưởng](hinh-thuc/symphonic-poem.md) và các bài nhạc lý từ [28](nhac-ly/28-ket-cau.md) đến [32](nhac-ly/32-ky-thuat-the-ky-20.md). Trong lúc đối chiếu, vài chi tiết được sửa cho đúng nguồn:
+    - trio thường ở giọng át hoặc giọng cùng tên;
+    - Musette Rê trưởng là hình thức ba đoạn;
+    - vài ví dụ không tìm được nguồn đã được bỏ.
+- **Mỗi điều viết một nơi:** bài [Hình thức nhỏ](nhac-ly/31-hinh-thuc-nho.md) giữ phần chi tiết về hình thức hai đoạn, ba đoạn; trang [Minuet và Trio](hinh-thuc/minuet-trio.md) và trang [Scherzo](hinh-thuc/scherzo.md) giữ phần của mình. Các trang này link qua lại. Hai trang nhà soạn nhạc ([Lịch sử](lich-su/nha-soan-nhac.md) và [Piano](piano/nha-soan-nhac.md)) link tới nhau cho từng người.
+- **Giấy phép:** nội dung site theo giấy phép [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Bạn được sao chép, chia sẻ và chỉnh sửa, kể cả cho mục đích thương mại, nếu ghi nguồn và chia sẻ lại theo cùng giấy phép. Bản thu, font và nội dung trích từ nguồn khác giữ giấy phép riêng ([chi tiết](tai-lieu-tham-khao.md#giay-phep)).
+- **Kiểm tra tự động:**
+    - mỗi lần cập nhật: các con số (số bài học, số hướng dẫn nghe…), cấp độ của từng bài ở mọi nơi, và link tới từng mục;
+    - mỗi tuần: link ra ngoài, và bản thu trên Wikimedia Commons, để phát hiện link hỏng và file bị xóa.
+
+    Giao diện Material được nâng lên bản có vá lỗi bảo mật trong gợi ý tìm kiếm.
 
 ### 10/2026: Phiên bản 14 (gọn lại quanh cây đàn)
 
