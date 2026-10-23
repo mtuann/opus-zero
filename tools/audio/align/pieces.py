@@ -268,4 +268,33 @@ PIECES = {
              # khớp kết quả căn. 4: căn ra 661,5–663,0 s, nhưng hợp âm đầu của Bydło (Rê♯2, Sol♯2) vang ở 660,4 s;
              # 6: căn ra 967,8 s, quãng tám Si♭ đồng âm mở Goldenberg vang ở 969,8 s
              fix={4: 660.4, 6: 969.8})]),
+    # Mozart K. 331, Luis Kolodin (IMSLP). Chương I: MIDI Mutopia của chủ đề và sáu biến tấu đã viết ra dấu nhắc lại
+    # (36 ô mỗi phần, biến tấu 6: 44), bản thu chơi đủ: biến tấu 1, 3, 4, 5, 6 bắt đầu ở chỉ số 36, 108, 144, 180, 216.
+    # Chương II, III: kern (Craig Sapp) nối theo thứ tự chơi bằng segs; structure cho thấy bản thu chơi mọi dấu nhắc
+    # lại, Menuetto da capo không nhắc lại. Menuetto: A = 0–17, B = 18–47, Trio C = 48–63, D = 64–98, kết 1 = 99,
+    # kết 2 = 100; đối chiếu bằng MIDI Mutopia (đã viết ra dấu nhắc lại, Trio ở chỉ số 96). Alla turca: mỗi đoạn mở bằng
+    # một ô lẻ có nhịp lấy đà ở nửa sau (chỉ số 9, 26, 35, 44…); hành khúc La trưởng lấy đà ở 26,5, đoạn Fa♯ thứ ở
+    # 35,5, coda ở 107 (ô 99)
+    "mozart-k331": dict(page="nghe-nhac/mozart-k331.md", jobs=[
+        dict(part=0, join=[dict(src="mutopia_KV331_1_%s.mid" % n) for n in (
+            "1_tema", "2_var1", "3_var2", "4_var3", "5_var4", "6_var5", "7_var6")],
+             rows={0: "first", 1: 36, 2: 108, 3: 144, 4: 180, 5: 216},
+             # căn không ổn định (biến tấu 3, 4: ba biến thể lệch nhau; biến tấu 1, 5 lệch hơn 1 giây). Đo trên khởi âm
+             # các nốt đầu của từng biến tấu trong MIDI (10/2026), giây trong file gốc IMSLP (nhạc vào ở 2,95 s):
+             # BT1 Đô5 → Đô♯5 82,05/82,37 s, La3 + Mi4 82,6 s; BT3 La3 + Đô5 (Đô bình, sang La thứ) 250,75 s; BT4 sau hợp
+             # âm kết của BT3, mức âm hạ và Đô♯5, La2–La3 vào ở 334,25 s; BT5 La3 + Đô♯5 423,55 s; BT6 La3 + Đô♯5 + Rê5 609,15 s
+             fix={1: 82.05, 2: 250.75, 3: 334.25, 4: 423.55, 5: 609.15}),
+        dict(part=1, src="kern_sonata11-2.krn", read="kern", qpm=120,
+             segs=[(0, 17), (0, 17), (18, 47), (18, 47), (48, 63), (48, 63), (64, 98), (99, 99), (64, 98), (100, 100),
+                   (0, 17), (18, 47)],
+             rows={6: (0, "first"), 7: (4, 48)},
+             check=dict(src="mutopia_KV331_2_1_menuetto.mid", rows={7: 96})),
+        dict(part=2, src="kern_sonata11-3.krn", read="kern", qpm=112,
+             segs=[(0, 8), (0, 8), (9, 25), (9, 25), (26, 34), (26, 34), (35, 43), (35, 43), (44, 60), (44, 60), (61, 69),
+                   (61, 69), (70, 78), (70, 78), (79, 95), (79, 95), (96, 104), (105, 105), (96, 104), (106, 106), (107, 136)],
+             rows={8: (0, "first"), 9: (4, 26.5), 10: (6, 35.5), 11: (20, 107)},
+             # kiểm tra trên khởi âm (10/2026): 9: hai nốt lấy đà La5, Si5 (forte) của hành khúc ở 46,76 / 47,00 s (căn ra
+             # 47,0–48,7 s); 10: lấy đà Đô♯6–Rê6 61,9 s, Fa♯3 62,3 s, khớp kết quả căn; 11: biến thể khởi-âm và thô→mịn cùng
+             # căn coda vào khoảng 211 s, chỉ 3 giây trước khi hết bài; Đô♯6 nhấn mạnh mở ô 99 ở 188,6 s (biến thể thường 189,0)
+             fix={9: 46.76, 11: 188.6})]),
 }
