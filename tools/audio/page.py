@@ -1,7 +1,8 @@
 """Đọc và ghi khối bản thu trên trang Markdown, dùng chung cho attach.py, check_audio.py và align/run.py.
 
 Khối bản thu: <div class="oz-listen" data-rec="…"></div>, data-rec là JSON đã escape HTML, các khóa theo thứ tự
-by, note, lic, licUrl, page, parts, ref (AGENTS.md, mục Khối đặc biệt). Mỗi phần trong parts: t, mp3, src, d.
+by, note, lic, licUrl, page, parts, ref (AGENTS.md, mục Khối đặc biệt). Mỗi phần trong parts: t, mp3, link, src, d;
+phần chỉ có link (không có mp3) là bản thu chỉ dẫn link, không phát trên trang.
 """
 import html
 import json
@@ -13,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[2]
 DOCS = ROOT / "docs"
 AUDIO = DOCS / "assets" / "audio"
 ORDER = ("by", "note", "lic", "licUrl", "page", "parts", "ref")
-PART_ORDER = ("t", "mp3", "src", "d")
+PART_ORDER = ("t", "mp3", "link", "src", "d")
 LISTEN = re.compile(r'<div class="oz-listen"(?: data-rec="([^"]*)")?></div>')
 TABLE_HEAD = "## Theo dõi khi nghe"
 

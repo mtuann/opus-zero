@@ -8,6 +8,12 @@
     python3 tools/audio/attach.py docs/piano/tac-pham/x.md --by "Luis Kolodin" --lic "CC BY-SA 4.0" \\
         --source "https://imslp.org/wiki/File:...mp3" --part '{"mp3":"../../../assets/audio/x.mp3","d":87.88}'
 
+    # bản thu chỉ dẫn link (file lớn, không lưu trên site, không phát trên trang): mỗi phần có link (trang tải ở nguồn),
+    # src (trang file, để căn mốc tìm được file gốc trong _imslp/) và d (độ dài file ở link); mốc tính theo file ở link
+    python3 tools/audio/attach.py docs/nghe-nhac/x.md --by "Chiara Bertoglio" --lic "CC BY 3.0" \\
+        --source "https://imslp.org/wiki/<trang tác phẩm>" \\
+        --part '{"link":"https://imslp.org/wiki/Special:ImagefromIndex/251520","src":"https://imslp.org/wiki/File:PMLP03722-Quadri.mp3","d":2023.95}'
+
     # chỉ ghi mốc tham khảo (giây hoặc null, theo thứ tự các dòng của bảng "Theo dõi khi nghe")
     python3 tools/audio/attach.py docs/piano/tac-pham/x.md --ref "1,13,null,33"
 
@@ -20,6 +26,7 @@ Chỉ khi thay bằng một file cùng nội dung (cùng bản thu, chuyển mã
 """
 import argparse
 import json
+import re
 import sys
 
 import licenses
@@ -36,17 +43,22 @@ def problems(md, rec, text):
     parts = rec.get("parts") or []
     if not parts:
         errs.append("thiếu parts")
+    link_only = bool(parts) and all(not p.get("mp3") and p.get("link") for p in parts)
     for i, p in enumerate(parts, 1):
-        if not p.get("mp3"):
-            errs.append("phần %d: thiếu mp3" % i)
+        if link_only:                                  # bản thu chỉ dẫn link: link tới trang file ở nguồn, không phát
+            if not re.match(r"^https?://", p["link"]):
+                errs.append("phần %d: link phải là URL đầy đủ: %s" % (i, p["link"]))
+        elif not p.get("mp3"):
+            errs.append("phần %d: thiếu mp3 (bản thu chỉ dẫn link thì mọi phần có link, không phần nào có mp3)" % i)
             continue
         if not isinstance(p.get("d"), (int, float)) or p["d"] <= 0:
             errs.append("phần %d: thiếu độ dài d (giây)" % i)
         if len(parts) > 1 and not p.get("t"):
             errs.append("phần %d: bản thu nhiều phần cần tên phần t" % i)
-        f = page.local_file(md, p["mp3"])
-        if f is not None and not f.exists():
-            errs.append("phần %d: không có file %s" % (i, f))
+        if not link_only:
+            f = page.local_file(md, p["mp3"])
+            if f is not None and not f.exists():
+                errs.append("phần %d: không có file %s" % (i, f))
     ref = rec.get("ref") or []
     rows = page.listen_rows(text)
     if ref and not rows:
@@ -86,7 +98,7 @@ def main():
     ap.add_argument("--lic", help='tên giấy phép, ví dụ "CC BY-SA 4.0" (link giấy phép tự điền nếu không có --lic-url)')
     ap.add_argument("--lic-url")
     ap.add_argument("--source", dest="src_page", help="page: trang mô tả file hoặc trang tác phẩm ở nguồn")
-    ap.add_argument("--part", action="append", default=[], help="JSON một phần {t, mp3, src, d}, theo thứ tự")
+    ap.add_argument("--part", action="append", default=[], help="JSON một phần {t, mp3, src, d} hoặc {t, link, src, d} (chỉ dẫn link), theo thứ tự")
     ap.add_argument("--ref", help='mốc tham khảo, ví dụ "1,13,null,33"')
     ap.add_argument("--keep-ref", action="store_true", help="giữ mốc cũ khi thay bằng file cùng nội dung")
     ap.add_argument("--clear", action="store_true", help="trả về khối trống")

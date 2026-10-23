@@ -94,6 +94,22 @@ Chuyển mã lại một file đã có mốc (sửa đuôi, đổi bitrate): là
 2. Chạy lại với `--start <số đó>`.
 3. Ghi lại bằng `attach.py ... --keep-ref`.
 
+### 2c. Bản thu chỉ dẫn link
+
+Bản thu dài (từ khoảng 10 phút) hoặc nhiều chương thì không lưu trên site: repo và site sẽ quá nặng. Bản thu còn bảo hộ ở Mỹ cũng không phát trên site. Khi đó khối bản thu chỉ dẫn link: mỗi phần có `link` thay cho `mp3`, trang hiện link "Mở" từng phần thay cho nút "Nghe bản này", và mốc tham khảo vẫn hiện trong bảng, ghi thời điểm trong từng phần.
+
+```bash
+python3 tools/audio/attach.py docs/nghe-nhac/mussorgsky-tranh.md --by "Chiara Bertoglio" --lic "CC BY 3.0" \
+    --source "https://imslp.org/wiki/Pictures_at_an_Exhibition_(Mussorgsky,_Modest)" \
+    --part '{"link":"https://imslp.org/wiki/Special:ImagefromIndex/251520","src":"https://imslp.org/wiki/File:PMLP03722-Quadri.mp3","d":2023.95}'
+```
+
+- `link` (IMSLP): `Special:ImagefromIndex/<số>`, số của file ghi trên trang tác phẩm (`#<số>`). Link này đi qua trang tải của IMSLP, đúng cách IMSLP muốn; đừng dùng link thẳng tới máy chủ file.
+- `src` (IMSLP): trang `File:` của file. Căn mốc (`run.py`) dùng bản bạn đã tải tay vào `_imslp/` (tên có hay không có tiền tố `IMSLP<số>-` đều được).
+- `d`: độ dài của chính file ở link (`ffprobe`), vì mốc tính theo file đó, không theo bản đã chuyển mã.
+- Commons: `link` là trang `File:`, `src` là file gốc trên `upload.wikimedia.org`; `check_audio.py --network` vẫn đối chiếu được.
+- File gốc không có trên site nên không thêm dòng vào `NGUON.txt`; người chơi, giấy phép và nguồn ghi trong khối bản thu và ở mục Nguồn của trang.
+
 ### 3. Mốc tham khảo
 
 Mỗi số trong `ref` là thời điểm của một dòng trong bảng "Theo dõi khi nghe", theo đúng thứ tự dòng. Số tính bằng giây, **liền qua các phần**: phần 2 bắt đầu ở giây bằng `d` của phần 1. Dòng nào không chắc thì để `null` (trang hiện "chưa có"). **Mốc phải đúng hoặc bỏ trống.** Hai cách lấy mốc:

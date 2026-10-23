@@ -32,8 +32,21 @@ TOL = 2.0
 
 
 def audio_for(md, part):
-    f = page.local_file(md, part["mp3"])
-    return f if f is not None else net.cached_audio(part["mp3"])
+    """File âm thanh để căn một phần. Phần chỉ dẫn link: file gốc ở src (trang file IMSLP: bản đã tải tay vào _imslp/;
+    file trên Commons: tải về bộ nhớ đệm), vì mốc tính theo file ở link."""
+    if part.get("mp3"):
+        f = page.local_file(md, part["mp3"])
+        return f if f is not None else net.cached_audio(part["mp3"])
+    src = part.get("src") or ""
+    if "imslp.org/wiki/File:" in src:
+        import check_audio
+        f = check_audio.original(src)
+        if f is None:
+            raise SystemExit("cần file gốc trong _imslp/ để căn mốc: %s (tải tay từ %s)" % (src, part.get("link")))
+        return f
+    if not src:
+        raise SystemExit("phần chỉ dẫn link cần src (file gốc) để căn mốc: %s" % part.get("link"))
+    return net.cached_audio(src)
 
 
 def positions(sc, segs):

@@ -148,6 +148,12 @@ test("mốc tham khảo: so sánh và đọc dữ liệu", () => {
   assert.deepEqual([...r.ref], [1, null, null, null, 30]);  /* chỉ nhận số không âm */
   assert.equal(r.key, "https://x.org/a.mp3");
   assert.deepEqual([...L.readRec(el({ parts: [{ mp3: "https://x.org/a.mp3" }] })).ref], []);
+  /* bản thu chỉ dẫn link: mọi phần có link, không có mp3; khóa là link phần đầu */
+  const lo = L.readRec(el({ by: "Y", parts: [{ t: "I", link: "https://imslp.org/wiki/Special:ImagefromIndex/1", d: 60 }, { t: "II", link: "https://imslp.org/wiki/Special:ImagefromIndex/2", d: 30 }], ref: [5, 70] }));
+  assert.deepEqual([lo.linkOnly, lo.key], [true, "https://imslp.org/wiki/Special:ImagefromIndex/1"]);
+  assert.deepEqual([...L.partAt(70, lo.parts.map((p) => p.d))], [1, 10]);   /* mốc 70 giây là giây 10 của phần 2 */
+  assert.equal(L.readRec(el({ parts: [{ t: "I", link: "https://x.org/1" }, { t: "II", mp3: "https://x.org/2.mp3" }] })), null);   /* trộn hai kiểu */
+  assert.equal(L.readRec(el({ by: "Z", parts: [{ mp3: "https://x.org/a.mp3", d: 1 }] })).linkOnly, false);
 });
 const VZ = load("viz.js").OZViz;
 test("piano roll tô màu theo kết quả chấm", () => {

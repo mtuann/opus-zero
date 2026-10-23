@@ -9,7 +9,8 @@ Kiểm:
 1. Mọi file trong docs/assets/audio/ có một dòng trong NGUON.txt theo mẫu
    "<file>.mp3 — <tác phẩm>; trình bày: <người chơi>; giấy phép <tên> (<link>); nguồn: <link>", và ngược lại.
 2. Mọi data-rec: khóa đúng thứ tự, có lic, licUrl (trừ phạm vi công cộng), page; giấy phép được nhận
-   (licenses.py); mỗi phần có mp3 và d; ref là số giây hoặc null, tăng dần, không dài hơn bảng "Theo dõi khi nghe".
+   (licenses.py); mỗi phần có mp3 (hoặc link, với bản thu chỉ dẫn link) và d; ref là số giây hoặc null, tăng dần,
+   không dài hơn bảng "Theo dõi khi nghe".
 3. File lưu trên site: d khớp độ dài file (lệch không quá 0,5 giây); 0,25 giây cuối không to hơn −50 dBFS
    (bắt lỗi cắt cụt đuôi khi nhạc còn to).
 4. Khi có file gốc trong _imslp/ (theo link nguồn IMSLP ở NGUON.txt): so với file gốc, file trên site dừng trước
@@ -163,7 +164,7 @@ def main():
         except ValueError as e:
             errs.append("%s: %s" % (where, e))
         for i, p in enumerate(rec.get("parts") or [], 1):
-            f = page.local_file(md, p.get("mp3", ""))
+            f = page.local_file(md, p["mp3"]) if p.get("mp3") else None   # phần chỉ dẫn link: không có file để đo
             if f is None:
                 remote.append((where, i, p, rec))
                 continue
@@ -203,7 +204,8 @@ def main():
         info = {r["title"]: r for r in commons.files(sorted({t for t in titles if t}))}
         for (where, i, p, rec), t in zip(remote, titles):
             if not t:
-                warns.append("%s phần %d: không phải file Commons, không đối chiếu được: %s" % (where, i, p["mp3"][:80]))
+                if "imslp.org/" not in (p.get("link") or ""):   # bản thu IMSLP chỉ dẫn link: không có API để đối chiếu
+                    warns.append("%s phần %d: không phải file Commons, không đối chiếu được: %s" % (where, i, (p.get("mp3") or p.get("link") or "")[:80]))
                 continue
             r = info.get(t, {})
             if r.get("missing"):
