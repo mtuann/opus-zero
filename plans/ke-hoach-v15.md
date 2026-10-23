@@ -24,18 +24,27 @@ Mục tiêu của v15, theo thứ tự:
 4. Gửi Claude tên nhánh và file báo cáo để review. Sửa xong mới gộp vào `main`; Claude cập nhật mục Tiến độ, rồi sang giai đoạn sau.
 5. Việc ghi "bạn quyết" chỉ giao cho agent sau khi bạn đã chọn (ghi lựa chọn ngay trong mục G7).
 
+Từ ngày 22/10/2026, bạn review một lần khi xong cả v15, thay cho review sau từng giai đoạn. Mỗi việc vẫn làm trên nhánh riêng và có báo cáo. Việc nào xong (build và kiểm thử đạt) thì được gộp kiểu fast-forward vào nhánh tích hợp `v15/tich-hop`. `main` giữ nguyên bản đã push cho tới khi bạn review xong.
+
 ## Tiến độ
 
-Cập nhật 22/10/2026.
+Cập nhật 22/10/2026 (tối).
 
 | Giai đoạn | Trạng thái | Báo cáo |
 |---|---|---|
 | G0. Sổ tay cho agent, kiểm tra ABC, mốc đo | Xong, đã review | `plans/bao-cao-v15/giai-doan-0.md` |
 | G1. Kiểm thử con số, cấp độ, anchor | Xong, đã review | `plans/bao-cao-v15/giai-doan-1.md` |
-| G2. Hiệu năng và trợ năng | Xong, đã review (G2.5 không làm) | `plans/bao-cao-v15/giai-doan-2.md` |
+| G2. Hiệu năng và trợ năng | Xong, đã review (G2.5 thay bằng việc lẻ `mermaid`) | `plans/bao-cao-v15/giai-doan-2.md` |
 | G3. Dọn trùng lặp còn lại | Xong, đã review | `plans/bao-cao-v15/giai-doan-3.md` |
 | G4a. Công cụ âm thanh | Xong, đã review | `plans/bao-cao-v15/giai-doan-4a.md` |
-| G4b, G5, G6, G7, G8, việc lẻ | Chưa làm | |
+| G4b. Bản thu cho 7 hướng dẫn nghe nhạc piano | Xong, đã push ngày 22/10; review cùng cả v15. Hai bản IMSLP và hai bản Marcelle Meyer chỉ dẫn link, theo quyết định của bạn | `plans/bao-cao-v15/giai-doan-4b.md` |
+| G7.2. Release `v14` | Xong ngày 22/10; số đo trên site thật: 99, 100, 100, 100 ở cả ba trang | `plans/v15-do-luong.md` |
+| G7.1. Giấy phép cho phần chữ | Xong trên `v15/tich-hop` (CC BY-SA 4.0, mã nguồn vẫn MIT) | |
+| Việc lẻ `kiem-link`, `khoa-goi`, `mermaid` | Xong trên `v15/tich-hop` | |
+| Việc lẻ `nguon`, G5 | Đang làm | |
+| G4c, G6 | Đang khảo sát (bản quyền, ấn bản, bản thu) | |
+| G7.3 | Bạn chọn để sau | |
+| G7.4, G7.5, G8 | Chưa làm | |
 
 Review của Claude cho G0–G4a: `plans/bao-cao-v15/review-g0-g4a.md`. Báo cáo và review là biên bản, không cần sửa. Việc còn mở trong đó đã chép vào các ghi chú dưới đây; chỗ nào cần đọc thêm báo cáo thì ghi chú nói rõ.
 
@@ -50,6 +59,13 @@ Việc lẻ, mỗi việc một nhánh nhỏ, giao bất kỳ lúc nào bằng l
 
 - `nguon`: thêm mục "## Nguồn" với nguồn thật cho 9 trang: `docs/hinh-thuc/minuet-trio.md`, `overture.md`, `scherzo.md`, `symphonic-poem.md` và `docs/nhac-ly/28-ket-cau.md` đến `32-ky-thuat-the-ky-20.md`. Trang mục lục, ôn tập 1–3 và từ điển không bắt buộc.
 - `mermaid`: bỏ quy tắc mermaid trong `docs/assets/js/loader.js` (`EXT.mermaid`, dòng `[".mermaid", …]`, `mermaid` trong `NOW`) và kiểm tra 1 của `tests/site_static.py`, vì Material tự tải mermaid. Xem sơ đồ ở `hinh-thuc/sonata/` trên Chrome có mạng trước và sau khi bỏ.
+- `kiem-link` (thêm ngày 22/10/2026): issue #1 của công cụ kiểm tra link có 21 lỗi, phần lớn là báo nhầm:
+    - 12 link tới abrsm.org bị báo vì trang chặn robot;
+    - 5 link tới sách in, vì sách chỉ có sau khi build;
+    - trang chủ Oxford Music Online chuyển hướng vòng quanh trang đăng nhập.
+
+    Cần sửa cài đặt kiểm tra, sửa các link hỏng thật, và để mỗi loại lỗi chỉ giữ một issue, thay vì mở thêm issue mỗi tuần.
+- `khoa-goi` (thêm ngày 22/10/2026): `requirements.txt` chỉ khóa 3 gói. Các gói kéo theo tự lên bản mới mỗi lần build: CI đã cài `python-dateutil` 3.0.0, còn máy dự án ở 2.9.0. Khóa mọi gói.
 
 Không cần làm: bấm Ctrl+P trong vài giây đầu thì bản in có thể thiếu khuông ở xa (nút "In bài này" không bị); ba file MP3 còn dưới 3 giây im lặng ở cuối.
 
@@ -489,7 +505,9 @@ Ghi lựa chọn của bạn ngay trong mục này (đánh dấu ô), rồi giao
 
 ### G7.1 Giấy phép cho phần chữ
 
-- [ ] (Đề xuất) Nội dung theo CC BY-SA 4.0, mã theo MIT: người khác được dùng lại, kể cả với mục đích thương mại, miễn ghi nguồn và chia sẻ lại theo cùng giấy phép.
+Bạn chọn ngày 22/10/2026: CC BY-SA 4.0.
+
+- [x] (Đề xuất) Nội dung theo CC BY-SA 4.0, mã theo MIT: người khác được dùng lại, kể cả với mục đích thương mại, miễn ghi nguồn và chia sẻ lại theo cùng giấy phép.
 - [ ] Nội dung theo CC BY-NC-SA 4.0: cấm dùng thương mại; theo nhiều định nghĩa, nội dung khi đó không còn được coi là "nội dung mở".
 - [ ] Giữ như hiện nay (chỉ MIT, không nói gì về nội dung).
 
@@ -507,6 +525,8 @@ Kết quả: hết lỗi 404 trong console ở mọi trang, góc trang hiện s�
 
 ### G7.3 Kênh góp ý không cần tài khoản GitHub
 
+Bạn chọn ngày 22/10/2026: để sau, giữ GitHub Issues như hiện nay. Cùng ngày, bạn cũng chọn không thêm bộ đếm lượt xem.
+
 - [ ] (Đề xuất) Google Form: người góp ý không cần tài khoản, bạn nhận thư báo khi có góp ý mới.
 - [ ] Một địa chỉ email riêng cho dự án (không dùng email cá nhân).
 - [ ] Một nhóm hoặc trang mạng xã hội.
@@ -522,7 +542,9 @@ Khi đã chọn: link ở chân trang (`extra.social` trong `mkdocs.yml`), ở H
 
 ### G7.5 Blog
 
-- [ ] (Đề xuất) Mỗi phiên bản một bài "Có gì mới ở phiên bản N", bắt đầu từ v15. Dễ duy trì vì nội dung đã có sẵn ở trang Cập nhật.
+Bạn chọn ngày 22/10/2026: mỗi phiên bản một bài.
+
+- [x] (Đề xuất) Mỗi phiên bản một bài "Có gì mới ở phiên bản N", bắt đầu từ v15. Dễ duy trì vì nội dung đã có sẵn ở trang Cập nhật.
 - [ ] Ẩn khỏi menu cho tới khi có đủ bài.
 - [ ] Giữ như hiện nay.
 
@@ -537,10 +559,26 @@ Khi đã chọn: link ở chân trang (`extra.social` trong `mkdocs.yml`), ở H
 ## Bảo trì ngoài v15
 
 - Tháng 1/2027: chương trình piano ABRSM 2027–2028 bắt đầu được dùng (chương trình 2025–2026 còn hiệu lực đến 31/12/2027). Rà `docs/piano/thay-va-thi.md` và `docs/tai-nguyen.md` theo checklist hằng quý ở trang Cập nhật.
-- Hằng quý: checklist ở cuối `docs/cap-nhat.md`.
+- Hằng quý: checklist ở cuối `docs/cap-nhat.md`, kể cả mở tay các link mà kiểm tra tự động bỏ qua (abrsm.org, Oxford Music Online).
+- Hằng tuần, tự động: workflow *Kiểm tra link và bản thu* kiểm link ra ngoài, và đối chiếu mọi bản thu với Wikimedia Commons (file bị xóa, đổi độ dài, đổi giấy phép). Có lỗi thì mở hoặc cập nhật một issue.
+- **Công cụ build** (đã kiểm ngày 22/10/2026):
+    - **Material for MkDocs** đang ở giai đoạn bảo trì cuối (issue #8523, mở ngày 6/11/2025). Ngày 16/9/2026, nhóm phát triển gia hạn việc sửa lỗi nghiêm trọng và lỗi bảo mật tới 5/5/2027; lỗi nhỏ có thể không được sửa. Bản 9.7.0 ra ngày 11/11/2025. Site dùng 9.7.6; bản mới nhất là 9.7.7 (17/7/2026).
+    - **MkDocs:** 1.6.1 (30/8/2024) vẫn là bản 1.x mới nhất. MkDocs 2.0 đang ở bản thử (2.0.dev6, ngày 15/9/2026) và không tương thích: bỏ hệ plugin, cấu hình bằng TOML, viết lại hệ theme, không có cách chuyển dự án cũ. Từ bản 9.7.5, Material giới hạn `mkdocs<2`. `requirements.txt` đã khóa mọi gói (việc lẻ `khoa-goi`).
+    - **Zensical**, do nhóm làm Material phát triển: bản 0.0.71 (16/10/2026). Nó đọc được `mkdocs.yml` và có thay thế cho plugin blog từ bản 0.0.64. Trang tương thích chưa nói gì về hook Python, mà site dùng 5 hook (`search_vi`, `books`, `a11y`, `redirects`, `meta`). Plugin không có trong danh sách hỗ trợ thì bị bỏ qua. Vì vậy chưa chuyển được.
+    - **Việc cần làm:** rà lại vào quý 1/2027, trước ngày 5/5/2027. Thử build bằng Zensical trên một nhánh riêng, xem từng hook và `overrides/main.html` còn chạy không, rồi quyết định chuyển hay giữ Material đã khóa phiên bản.
+    - **Nguồn:**
+        - [issue #8523](https://github.com/squidfunk/mkdocs-material/issues/8523);
+        - [What MkDocs 2.0 means for documentation projects](https://squidfunk.github.io/mkdocs-material/blog/2026/02/18/mkdocs-2.0/);
+        - [Zensical: tương thích](https://zensical.org/compatibility) và [plugin](https://zensical.org/compatibility/plugins);
+        - lịch sử phát hành trên PyPI của `mkdocs`, `mkdocs-material`, `zensical`.
 
 ## Ý tưởng để sau (không thuộc v15)
 
+- **Lấy ý kiến người học thật**, theo nhận xét ngày 22/10/2026: đến nay mọi lần sửa đều xuất phát từ rà soát. Issue duy nhất trên GitHub là do công cụ kiểm tra link mở. Sau v15 nên:
+    - mở kênh góp ý (G7.3, hiện bạn để sau);
+    - nhờ vài người ở các trình độ khác nhau theo lộ trình vài tuần, ghi lại chỗ họ vướng;
+    - chọn việc cho v16 theo phản hồi đó.
+- Trích đoạn từ bản gốc, đã đối chiếu từng nốt, cho những bài học hiện chỉ có bài tập soạn riêng. Đếm sơ bộ ngày 22/10/2026 có khoảng 13 bài, ví dụ *Clair de lune*, *Träumerei*, Ballade số 1.
 - Một tệp dữ liệu duy nhất cho các bài học (tên, chặng, Grade, thời kỳ), từ đó sinh nhóm nav, bảng mục lục và `practice.js` bằng hook, thay cho việc kiểm thử 8 nơi.
 - Mở rộng hướng dẫn nghe *Ánh trăng* thành cả ba chương (bài học hiện chỉ có chương 1).
 - Mỗi trang thời kỳ trong mục Lịch sử thêm một khối ngắn "Nhạc phím thời này": nhạc cụ, thể loại, bài nên nghe và nên chơi.
