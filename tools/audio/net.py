@@ -2,12 +2,17 @@
 
 - User-Agent kèm link repo, như AGENTS.md yêu cầu.
 - Nghỉ khoảng 2,5 giây giữa hai yêu cầu tới cùng một máy chủ Wikimedia; thử lại khi gặp 429 hoặc 5xx,
-  chờ theo Retry-After nếu máy chủ gửi.
+  chờ theo Retry-After nếu máy chủ gửi. Khoảng nghỉ tính chung cho mọi tiến trình dùng cùng bộ nhớ đệm (nhiều
+  công cụ chạy song song): thời điểm của yêu cầu gần nhất ghi trong throttle/<máy chủ>, khóa bằng flock.
 - Bộ nhớ đệm ngoài repo: $OZ_AUDIO_CACHE, mặc định ~/.cache/opus-zero (hoặc $XDG_CACHE_HOME/opus-zero).
   Thư mục con: api/ (câu trả lời API), audio/ (bản thu tải về để căn mốc), scores/ (bản nhạc số), features/.
 """
 import hashlib
 import json
+try:
+    import fcntl
+except ImportError:            # Windows: chỉ nghỉ trong từng tiến trình
+    fcntl = None
 import os
 import sys
 import time
@@ -34,10 +39,25 @@ _last = {}
 def _wait(host):
     if not any(host.endswith(h) for h in SLOW):
         return
-    dt = time.time() - _last.get(host, 0)
-    if dt < PAUSE:
-        time.sleep(PAUSE - dt)
-    _last[host] = time.time()
+    if fcntl is None:
+        dt = time.time() - _last.get(host, 0)
+        if dt < PAUSE:
+            time.sleep(PAUSE - dt)
+        _last[host] = time.time()
+        return
+    with open(cache_dir("throttle") / host, "a+") as f:
+        fcntl.flock(f, fcntl.LOCK_EX)          # tiến trình khác chờ ở đây; khóa nhả khi đóng file
+        f.seek(0)
+        try:
+            last = float(f.read() or 0)
+        except ValueError:
+            last = 0.0
+        dt = time.time() - last
+        if dt < PAUSE:
+            time.sleep(PAUSE - dt)
+        f.seek(0)
+        f.truncate()
+        f.write(repr(time.time()))
 
 
 def fetch(url, headers=None, tries=6, timeout=60):
