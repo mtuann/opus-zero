@@ -12,7 +12,7 @@ Một bản valse ngắn, buồn và giản dị, không có số opus, chỉ đ
     |---|---|
     | Nhà soạn nhạc | Frédéric Chopin (1810–1849) |
     | Tác phẩm | Valse La thứ, không số opus: B. 150 (danh mục Brown), KK IVb/11 (danh mục Kobylańska), WN 63 (Ấn bản Quốc gia Ba Lan) |
-    | Sáng tác / xuất bản | Niên đại chưa thống nhất: Ấn bản Quốc gia Ba Lan xếp vào 1847–1849, Maurice Brown ghi 1843, có học giả cho là sớm hơn nhiều (1832–1833). In sau khi Chopin mất; được biết đến rộng rãi và công nhận là của Chopin sau khi tạp chí *La Revue musicale* (Paris) in năm 1955 |
+    | Sáng tác / xuất bản | Niên đại chưa thống nhất: Ấn bản Quốc gia Ba Lan xếp vào 1847–1849, Maurice Brown ghi 1843, có học giả cho là sớm hơn nhiều (1832–1833). In lần đầu năm 1860, sau khi Chopin mất, nhưng mang tên người khác: số 3 của tập *4 Pièces pour piano* đề tên Charlotte de Rothschild (1825–1899). Được công nhận là của Chopin sau khi tạp chí *La Revue musicale* (Paris) in năm 1955 |
     | Giọng · nhịp · tốc độ | La thứ (đoạn C ở La trưởng) · 3/4 · *Allegretto* |
     | Hình thức | Rondo nhỏ: A – B – A' – C – A'' và coda ngắn |
     | Độ khó | Khoảng ABRSM Grade 3–4 (ước lượng); một trong những valse dễ nhất của Chopin |
@@ -31,7 +31,7 @@ Một bản valse ngắn, buồn và giản dị, không có số opus, chỉ đ
 
 **Valse** (waltz) là điệu nhảy nhịp 3 đến từ vùng nói tiếng Đức, phổ biến khắp châu Âu đầu thế kỷ 19, và là món không thể thiếu của các phòng khách (salon) ở Paris, nơi Chopin sống từ năm 1831. Valse của Chopin là nhạc để nghe hơn là để nhảy: ông giữ nhịp 3 và tay trái kiểu valse, nhưng thêm vào đó nỗi buồn, sự tinh tế và những khoảnh khắc ngẫu hứng.
 
-Lúc còn sống, Chopin chỉ cho in tám bản valse (Op. 18, ba bản Op. 34, Op. 42 và ba bản Op. 64). Sau khi ông mất, người bạn Julian Fontana in thêm các bản Op. 69 và Op. 70 (1855); những bản không có số opus, trong đó có bài này, xuất hiện muộn hơn nữa. Năm 1939, nhà nghiên cứu Jacques-Gabriel Prod'homme giới thiệu bản valse La thứ này trên tạp chí *The Musical Quarterly*; năm 1955, nó được in trong một số đặc biệt của tạp chí *La Revue musicale* và được công nhận là của Chopin.
+Lúc còn sống, Chopin chỉ cho in tám bản valse (Op. 18, ba bản Op. 34, Op. 42 và ba bản Op. 64). Sau khi ông mất, người bạn Julian Fontana in thêm các bản Op. 69 và Op. 70 (1855); những bản không có số opus, trong đó có bài này, xuất hiện muộn hơn nữa. Bài này được in năm 1860 nhưng mang tên người khác: nó là số 3 của tập *4 Pièces pour piano* đề tên Charlotte de Rothschild. Năm 1939, nhà nghiên cứu Jacques-Gabriel Prod'homme giới thiệu bản valse La thứ này trên tạp chí *The Musical Quarterly*; năm 1955, nó được in trong một số đặc biệt của tạp chí *La Revue musicale* và được công nhận là của Chopin.
 
 Các ký hiệu B., KK, WN là số trong các danh mục tác phẩm của Chopin do Maurice Brown, Krystyna Kobylańska và Ấn bản Quốc gia Ba Lan lập ra. Vì bài không có số opus, bạn sẽ thấy nó được gọi bằng một trong các số này, hoặc đơn giản là "Valse La thứ (di cảo)". Xem [Đọc tên tác phẩm](../../nghe-nhac/doc-ten-tac-pham.md).
 
@@ -236,7 +236,7 @@ Nhiều chuyên gia về Chopin, trong đó có Jean-Jacques Eigeldinger, cho r�
 
 ## Nguồn
 
-- "Waltz in A minor, Op. posth. (Chopin)", [Wikipedia](https://en.wikipedia.org/wiki/Waltz_in_A_minor,_Op._posth._%28Chopin%29) (các số danh mục, niên đại, lịch sử in ấn, cấu trúc).
+- "Waltz in A minor, Op. posth. (Chopin)", [Wikipedia](https://en.wikipedia.org/wiki/Waltz_in_A_minor,_Op._posth._%28Chopin%29) (các số danh mục, niên đại, lịch sử in ấn, kể cả bản in năm 1860, cấu trúc). Trang tác phẩm trên [IMSLP](https://imslp.org/wiki/Waltz_in_A_minor,_B.150_(Chopin,_Fr%C3%A9d%C3%A9ric)) ghi cùng bản in đầu tiên: "1860 in 4 Pièces pour piano by Charlotte de Rothschild (No.3)".
 - Bản nhạc dùng để đối chiếu cấu trúc và số ô nhịp: bản khắc của André Van Ryckeghem cho Werner Icking Music Archive (1999), nay có trên [IMSLP](https://imslp.org/wiki/Waltz_in_A_minor,_B.150_(Chopin,_Fr%C3%A9d%C3%A9ric)); và bản LilyPond chép theo bản thảo của Chopin ở Thư viện Quốc gia Pháp, trong kho [rdj/music](https://github.com/rdj/music) trên GitHub. Hai bản cùng cho 56 ô nhịp, với dấu nhắc lại ở ô 17–24 và ô 25–40.
 - Maurice J. E. Brown, *Chopin: An Index of His Works in Chronological Order*, Macmillan, 1960 (số B.).
 - Krystyna Kobylańska, *Frédéric Chopin: Thematisch-bibliographisches Werkverzeichnis*, G. Henle Verlag, 1979 (số KK).
